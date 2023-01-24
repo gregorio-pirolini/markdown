@@ -78,16 +78,17 @@ https://www.markdownguide.org/basic-syntax/
   - 14 Layer
 - Regulierung der Spannungen
 - Ansteuerung der Monitoransschlüsse
-- Verknüpfung mehrerer Grafikkarten (SLI, Crossfire)
+- Verknüpfung mehrerer Grafikkarten (SLI[^3], Crossfire)
 - PCI-Express 3.0 16x (16 parallele Leitungen, 16 Gbyte/s)
-
+[^3]: Scalable Link Interface\*\*
 ## 8 Spannungsversorgung
 
 - Stromhungrigste Komponente
 - PCIe-Anschluss – 75 W
 - Spannungsversorgung Netzteil 6-polig – 75 W
 - Spannungsversorgung Netzteil 8-polig – 150 W
-- Spannungsregler VRM (12/3,3 V in ~ 1 V)
+- Spannungsregler VRM[^4] (12/3,3 V in ~ 1 V)
+[^4]: Voltage Regulator Module (VRM; dt. Spannungsreglermodul)
 
 | Summe | Versorgungskomponenten           |
 | ----- | -------------------------------- |
@@ -106,20 +107,25 @@ KEINE Adapter verwenden, kann zur Überlastung des Netzteils führen!!!
 - Zwischenspeicher von Daten
 - Speicherbausteine mit je 256 MB (1 – 6 GB)
 - GDDR3 1.250 MHz, GDDR5 3.500 MHz
-- Halbleiterspeicher, der nur für den Grafikprozessor - die GPU - zur Verfügung steht (dedizierter Speicher) – schnellerer Zugriff
+- Halbleiterspeicher, der nur für den Grafikprozessor - die GPU - zur Verfügung steht (**<f>dedizierter Speicher</f>**) – schnellerer Zugriff
 - Größe des Grafikspeichers bestimmt die maximale Farbtiefe und Bildauflösung
-- bei einer Onboard-Grafikkarte wird ein reservierter Bereich des normalen Arbeitsspeichers vom Motherboard für die Grafik abgestellt (shared memory)
+- bei einer Onboard-Grafikkarte wird ein reservierter Bereich des normalen Arbeitsspeichers vom Motherboard für die Grafik abgestellt (**<f>shared memory</f>**)
 
 ## 10 Bus-Interface
 
 Stellt die Verbindung zwischen dem den Chipsätzen des Motherboards und der Grafikkarte her
 
-- ISA, VESA Local Bus
+- ISA[^5], VESA Local Bus [^6]
 - PCI
-- AGP
+- AGP[^7]
 - PCI Express
+[^5]: instruction set architecture
+[^6]: The VESA Local Bus is a short-lived expansion bus introduced during the i486 generation of x86 IBM-compatible personal computers. Created by VESA, the VESA Local Bus worked alongside the then-dominant ISA bus to provide a standardized high-speed conduit intended primarily to accelerate video operations.
+[^7]: accelerated grafic ports
 
 ## 11 PCI vs. PCIe
+
+![PCI Vs PCIe!](/img/PCIVsPCIe.png "PCI Vs PCIe")
 
 ## 12 PCI
 
@@ -134,8 +140,10 @@ Stellt die Verbindung zwischen dem den Chipsätzen des Motherboards und der Graf
 
 ## 13 PCI Express
 
-Datenrate PCI Express  
-Burstrate ohne Protokoll-Overhead  
+<center>Datenrate PCI Express  </center>
+
+<center>Burstrate ohne Protokoll-Overhead   </center>
+
 | |16 PCIe 1.0/1.1 |PCIe 2.0/2.1 |PCIe 3.0 | PCIe 4.0|
 |---|---|---|---|---|
 |Erschienen |2003 |2007 |2012 |~2015 [1]|
@@ -160,17 +168,55 @@ Burstrate ohne Protokoll-Overhead
 | 4.0  | 16 GT/s                          | 20 GBit/s  | 1,969 GBit/s   | 7,877 GBit/s  | 15,754 GBit/s | 31,508 GBit/s  | 128b/130b /2%     | 2017           |
 | 5.0  | 32 GT/s                          |            | 3,9 GBit/s     | 15,8 GBit/s   | 31,5 GBit/s   | 63 GBit/s      | 128b/130b /2%     | ?              |
 
-## 15 missing page
+Ein Beispiel: PCI-Express 2.0 erlaubt pro Lane 5 GT/s und nutzt den 8b10b-Code zur Signalübertragung, der 
+8 Bit Daten in 10 Bit kodiert. Ein Transfer besteht aus einem einzelnen Bit je Lane. Ein Steckplatz für 
+Grafikkarten ist üblicherweise mit 16 Lanes angebunden. Der maximal mögliche Datendurchsatz beträgt dann: 
+![Formula!](/img/formula.png "Formula")
 
-## 16 missing page
+## 17 Grafikprozesor
+- Grafikchip – GPU - dient zur Berechnung der 
+Bildschirmausgabe - schnelles Abarbeiten von Befehlen
+- Chiphersteller: AMD, Intel und Nvidia
+- Aufgabe: Computergrafikberechnung im 2D- und 3D-Bereich 
+und Entlastung des Hauptprozessors (CPU)
+- Hilfsprogramme und Treiber steuern die Grafikschnittstellen DirectX (12), OpenGL, Vulcan an
 
-## 17 Grafikprozesor?
 
-## 18 shadder?
+|CPU |GPU|
+|---|---|
+|
+CU, mehrere ALU |Mehrere CU und ALU|
+|Wenig Kerne ~ 7| Viele Kerne ~ 5000|
+ |Schnell – 3.500 MHz |Langsam 1.000 MHz|
+|„Düsenjet“ |„Passagierflugzeug“|
+
+## 18 shadder
+
+- Kerne der GPU werden für verschiedene Aufgaben benutzt –
+Shader[^8]
+  - Verschiedene Recheneinheiten
+  - Programme für Recheneinheiten
+- Vertex-Shader – Erstellen von Polygonen (Vielecke)
+- Tessalations-Shader – Weiteres Unterteilen der Polygone
+- Geometry-Shader – Änderung der Geometrie
+- Rasterisierung – Polygon –> Pixel
+- Z-Culling – Ausschließen von unsichtbaren/verdeckten Pixeln
+- TMU[^9] – texture mapping unit – Gitter mit Textur versehen
+- Pixel-Shader – Berechnung von Effekten
+- ROP‘s [^10] – raster operating processors – Antialiasing und 
+Schatten berechnen
+
+[^8]: shader is a computer program that calculates the appropriate levels of light, darkness, and color during the rendering of a 3D scene ...
+[^9]: texture mapping unit 
+[^10]: raster operating processors 
 
 ## 19 - 20 - 21 Intel Graphics Gen. 11
+![Intel Graphics!](/img/intelgrafics1.png "Intel Graphics")
 
 NVIDIA Geforce GTX 680 Kepler SLI EVGA ZOTAC
+![Intel Graphics!](/img/intelgrafics2.png "Intel Graphics")
+![Intel Graphics!](/img/intelgrafics3.png "Intel Graphics")
+
 
 ## 22 RAMDAC
 
@@ -183,12 +229,20 @@ NVIDIA Geforce GTX 680 Kepler SLI EVGA ZOTAC
 
 ## 23 Kühllösungen
 
-- passive Kühlung (Strahlung, Konvektion)
-- aktive Kühlung (Lüfter/Kühler/Heatpipe, Wasserkühlung, Flüssigmetall-Kühlung, Peltier)
+- passive Kühlung 
+  - Strahlung
+  - Konvektion
+- aktive Kühlung 
+  - Lüfter/Kühler/Heatpipe
+  - Wasserkühlung
+  - Flüssigmetall-Kühlung
+  - Peltier)
+  
+![Kühllösungen!](/img/kuehlung.png "Kühllösungen")
 
 ## 24 Video-Out-Controller
 
-- Verwaltet die Signale, auch die er vom RAMDAC erhält, leitet diese an die entsprechenden Ausgänge weiter
+- Verwaltet die Signale, auch die er vom RAMDAC[^1] erhält, leitet diese an die entsprechenden Ausgänge weiter
 - Ermöglicht die Benutzung von 2 und mehr Anzeigegeräten
 
 ## 25 Externe Signalausgänge
@@ -199,16 +253,40 @@ NVIDIA Geforce GTX 680 Kepler SLI EVGA ZOTAC
 |DVI |HDMI |
 |TV-Ausgang| Displayport|
 
-## 26 VGA Teil 1
+## 26 VGA[^11] Teil 1
 
-Video Graphics Array - von IBM eingeführt, analog • 640 x 480 Pixel mit 16 Farben • 2048 x 1536 Pixel bei 256 • 65536 (HiColor) oder 16,7 Mio. (TrueColor) Farben • bis 30 m Kabellänge
+- Video Graphics Array - von IBM eingeführt, analog
+- 640 x 480 Pixel mit 16 Farben
+- 2048 x 1536 Pixel bei 256 • 65536 (HiColor) oder 16,7 Mio. (TrueColor) Farben
+- bis 30 m Kabellänge
+
+[^11]: Video Graphics Array
 
 ## 27 VGA Teil 2
 
-Die Buchse in Steckrichtung. Pin Funktion 1 Rot (0,7 Vss @ 75 Ohm) 2 Grün (Pegel & Impedanz dto.) oder (analoges) Monochromsignal 3 Blau (Pegel & Impedanz dto.) 4 ID2 (Monitor-IDentifizierung #2) oder Reserve 5 digitale Masse für DDC 6 analoge Masse für Rot 7 analoge Masse für Grün 8 analoge Masse für Blau 9 nicht belegt; glgt. +5V von der Grafikkarte (= Computer angeschlossen) 10 analoge Masse für Synchronsignale 11 ID0 12 ID1 oder digit. Datenaustausch (DDC – SDA, Serial DAta = Datenleitg.) 13 Horizontale Synchronisation oder gemeinsame Sync. (H + V) 14 Vertikale Synchronisation 15 Digit. Datenaustausch (DDC – SCL, Serial CLock = Taktleitg.)
+<center>Die Buchse in Steckrichtung</center>
 
-## 28 DVI
+|Pin |Funktion |
+|---|---|
+|1 |Rot (0,7 Vss @ 75 Ohm) |
+|2 |Grün (Pegel & Impedanz dto.) oder (analoges) Monochromsignal |
+|3| Blau (Pegel & Impedanz dto.) |
+|4| ID2 (Monitor-IDentifizierung #2) oder Reserve |
+|5| digitale Masse für DDC |
+|6| analoge Masse für Rot |
+|7| analoge Masse für Grün|
+| 8| analoge Masse für Blau |
+|9| nicht belegt; glgt. +5V von der Grafikkarte (= Computer angeschlossen) |
+|10| analoge Masse für Synchronsignale | 
+|11 |ID0  | 
+|12 | ID1 oder digit. Datenaustausch (DDC – SDA, Serial DAta = Datenleitg.)| 
+|  13 |Horizontale Synchronisation oder gemeinsame Sync. (H + V) | 
+| 14| Vertikale Synchronisation | 
+|15 | Digit. Datenaustausch (DDC – SCL, Serial CLock = Taktleitg.)|
 
+## 28 DVI teil 1
+![dvi!](/img/dvi.png "dvi")
+## 28 DVI teil 2
 Digital Visual Interface DVI
 
 - DVI-I-Kabel - digitale und analoge Signale (SingleLink) hat 18 + 5 Kontakte und reicht für WUXGAAuflösung 1920 x 1200 bei 60 Hz
@@ -219,15 +297,28 @@ Digital Visual Interface DVI
 
 ## 30 HDMI
 
-HDMI-Standard (1.2) - Homevideo- und Homeaudioanwendungen bis 15 m, Datenrate beträgt mindestens 3,96 Gbit/s • HDMI-Standard with Ethernet • HDMI-Standard Automotive • HDMI-High Speed 2.1 Full HD 3D, Deep Color und 4k2k, 7,5 m, 38,4 Gbit/s • HDMI-High Speed with Ethernet zusätzlich Audio-ReturnChannel (ARC) 31
+- HDMI-Standard (1.2) - Homevideo- und Homeaudioanwendungen bis 15 m, Datenrate beträgt mindestens 3,96 Gbit/s
+- HDMI-Standard with Ethernet 
+- HDMI-Standard Automotive 
+- HDMI-High Speed 2.1 Full HD 3D, Deep Color und 4k2k, 7,5 m, 38,4 Gbit/s 
+- HDMI-High Speed with Ethernet zusätzlich Audio-ReturnChannel (ARC)[^12]  
+[^12]: Audio-ReturnChannel
 
 ## 31 Displayport
 
-Umstieg auf digitale Schnittstellen, weniger Platz, bis 15 m Kabellänge • zusätzlicher Kanal für Gerätesteuerung • erlaubt Kompatibilität zu DVI und HDMI • DisplayPort 1.3 wird die Kompatibilität zu Ultra-HD in der 8k-Auflösung aufweisen (7680×4320 Pixel als auch 8192×4320 Pixel) • 8,1 Gbps
+- Umstieg auf digitale Schnittstellen, weniger Platz, bis 15 m Kabellänge
+- zusätzlicher Kanal für Gerätesteuerung
+- erlaubt Kompatibilität zu DVI und HDMI
+- DisplayPort 1.3 wird die Kompatibilität zu Ultra-HD in der 8k-Auflösung aufweisen (7680×4320 Pixel als auch 8192×4320 Pixel)
+- 8,1 Gbps
 
 ## 32 Thunderbolt
 
-Konkurrenz zu USB3.0 • zwei Vollduplex-Kanäle mit je 10 GBit/s pro Kanal bereit. Das bedeutet eine Datenrate von 20 GBit/s in beide Richtungen • Einbindung 4K-Display um 4K-Videodaten zu übertragen, gleiche Kabel/Stecker w. ThB 1 • Thunderbolt 2.0 erreicht bis zu 1.300 MByte/s, Vergleich dazu USB 3.0 nicht mehr als 400 MByte/s • Thunderbolt 3.0 PCI Express 3.0, höhere Leistung mit bis zu 40 GBit/s – 2 4k-Displ. • 100 W für Ladung v. Akkus 33
+- Konkurrenz zu USB3.0
+- zwei Vollduplex-Kanäle mit je 10 GBit/s pro Kanal bereit. Das bedeutet eine Datenrate von 20 GBit/s in beide Richtungen
+- Einbindung 4K-Display um 4K-Videodaten zu übertragen, gleiche Kabel/Stecker w. ThB 1
+- Thunderbolt 2.0 erreicht bis zu 1.300 MByte/s, Vergleich dazu USB 3.0 nicht mehr als 400 MByte/s
+Thunderbolt 3.0 PCI Express 3.0, höhere Leistung mit bis zu 40 GBit/s – 2 4k-Displ. • 100 W für Ladung v. Akkus 33
 
 ## 33 TV-Ausgang
 
