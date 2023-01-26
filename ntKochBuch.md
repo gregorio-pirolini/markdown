@@ -448,26 +448,25 @@ müssen diese "übergroßen" Frames verarbeiten können.
   der Computer "sieht":
   11000000.10101000.00000001.00000011
 
-  Die Subnetzmaske ist auch 32 bit lang.  
-  <br>
+  Die Subnetzmaske ist auch 32 bit lang.
 
-#### Es existieren 2 Schreibweisen der Subnetzmaske:
+### Es existieren 2 Schreibweisen der Subnetzmaske:
+
+#### klassische (dezimale) Schreibweise:
+
+- Die Subnetzmaske wird auch in 4 Oktette zu je 8 bit aufgeteilt.
+- Die Oktette werden auch durch einen Punkt untereinander getrennt.
+- Die 8 bit je Oktett werden auch dezimal dargestellt.
+
+#### CIDR-Schreibweise (modern):
+
+- Die Anzahl der binären "Einsen" wird hinter einem "/" geschrieben.
+- ==>> Obwohl man heute von "classless" ausgeht, sind die IPv4-Klassen noch immer in der IHK-Prüfung ein wichtiges Thema.
+- [Classless Inter-Domain Routing](de.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 
 <br>
 
-- ##### klassische (dezimale) Schreibweise:
-  - Die Subnetzmaske wird auch in 4 Oktette zu je 8 bit aufgeteilt.
-  - Die Oktette werden auch durch einen Punkt untereinander getrennt.
-  - Die 8 bit je Oktett werden auch dezimal dargestellt.  
-    <br>
-- ##### CIDR-Schreibweise (modern):
-  - Die Anzahl der binären "Einsen" wird hinter einem "/" geschrieben.
-  - ==>> Obwohl man heute von "classless" ausgeht, sind die IPv4-Klassen noch immer in der IHK-Prüfung ein wichtiges Thema.
-  - [Classless Inter-Domain Routing](de.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
-
-<br>
-
-Beispiele für die Standardsubnetzmasken Class A, Class B, Class C
+### Beispiele für die Standardsubnetzmasken Class A, Class B, Class C
 
 - #### Class A:<br>
 
@@ -582,32 +581,48 @@ Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
 
 #### **Class A:**
 
-0.0.0.0  
-unspezifizierte Adresse ("Ich weiß nicht wer ich bin.")  
-10.0.0.0 /8  
+##### 0.0.0.0
+
+unspezifizierte Adresse ("Ich weiß nicht wer ich
+bin.")
+
+##### 10.0.0.0 /8
+
 Privater Adressbereich in Class A  
-[de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)  
-127.0.0.1  
-localhost oder auch loopback genannt  
-[de.wikipedia.org/wiki/Localhost](de.wikipedia.org/wiki/Localhost)  
-Adresse der virtuellen Netzwerkkarte im netzwerkfähigen Rechner.  
-Austausch von Daten innerhalb des Betriebssystems und von Anwendungen möglich.
+[de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+
+##### 127.0.0.1
+
+- localhost oder auch loopback genannt
+- [de.wikipedia.org/wiki/Localhost](de.wikipedia.org/wiki/Localhost)
+- Adresse der virtuellen Netzwerkkarte imnetzwerkfähigen Rechner.
+- Austausch von Daten innerhalb des Betriebssystems und von Anwendungen möglich.
 
 #### **Class B:**
 
-169.254.1.0 bis 169.254.254.255  
-"Link Local" (APIPA)  
-de.wikipedia.org/wiki/Private_IP-Adresse  
-Sieht man häufig, wenn die automatische Zuweisung einer IPv4-Adresse nicht erfolgreich ist. Das entsprechende Gerät (PC, Drucker) gibt sich SELBST eine Adresse aus diesem Bereich.  
-172.16.0.0 bis 172.31.0.0 /16  
-Privater Adressbereich in Class B  
-[de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+##### 169.254.1.0 bis 169.254.254.255
+
+- "Link Local" (APIPA[^1])
+- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)  
+  Sieht man häufig, wenn die automatische Zuweisung einer IPv4-Adresse nicht erfolgreich ist. Das entsprechende Gerät (PC, Drucker) gibt sich SELBST eine Adresse aus diesem Bereich.
+
+[^1]: APIPA Automatic Private IP Addressing (APIPA) können DHCP Clients die IP Adresse und Subnetmaske automatisch konfigurieren, wenn kein DHCP Server vorhanden ist. Das Gerät wählt die Adresse im Bereich zwischen 169.254.1.0 und 169.254.254.255.
+
+##### 172.16.0.0 bis 172.31.0.0 /16
+
+- Privater Adressbereich in Class B
+- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
 #### **Class C:**
 
-192.168.0.0 /24  
-Privater Adressbereich in Class C  
-[de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+##### 192.168.0.0 /24
+
+- Privater Adressbereich in Class C
+- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+
+#### 255.255.255.255 megabroadcast
+
+<br>
 
 ### Standardsubnetzmaske vs. Subnetzmaske:
 
@@ -615,39 +630,49 @@ Privater Adressbereich in Class C
 
 - Betrachten wir die privaten Adressbereiche aus Class A, B und C:
   - 10.0.0.0 /8 => 1 Netz mit 16.777.216 (-2) Adressen  
-    172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen  
-    192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
+   172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen  
+   192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
+  <!-- 21 -->
 
 #### **Problem 1:**
 
 Gesucht wird eine Lösung für 50 private Netze mit je 300 Adressen:
-10.0.0.0 /8 => geht nicht, da nur 1 Netz.
-172.16.0.0 bis 172.31.0.0 /16 => geht nicht, da nur 16 Netze.
-192.168.0.0 /24 => geht nicht, da die Netze zu klein sind.
-Lösung:
-10.0.0.0 /16
-Nutzung des privaten Netzes aus Class A.
-Nutzung der Standardsubnetzmaske aus Class B.
-Somit ergibt sich:
-1 Netz (10) aus dem Oktett 1 _ 256 Netze (0 – 255) aus dem Oktett 2
-= 256 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
-Jedes Netz hat 65.536 (-2) Adressen (256 _ 256 = 2^16) aus Oktett 3 und 4.
-Problem 2:
+
+- 10.0.0.0 /8 => geht nicht, da nur 1 Netz.
+- 172.16.0.0 bis 172.31.0.0 /16 => geht nicht, da nur 16 Netze.
+- 192.168.0.0 /24 => geht nicht, da die Netze zu klein sind.
+
+##### Lösung:
+
+- 10.0.0.0 /16
+- Nutzung des privaten Netzes aus Class A.
+- Nutzung der Standardsubnetzmaske aus Class B.
+- **Somit ergibt sich:**
+  - 1 Netz (10) aus dem Oktett 1 \_ 256 Netze (0 – 255) aus dem Oktett 2 = 256 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
+  - Jedes Netz hat 65.536 (-2) Adressen (256 \_ 256 = 2^16) aus Oktett 3 und 4.
+
+#### **Problem 2:**
+
 Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
-10.0.0.0 /8 => geht nicht, da nur 1 Netz.
-172.16.0.0 bis 172.31.0.0 /16 => geht nicht, da nur 16 Netze.
-192.168.0.0 /24 => geht nicht, da nur 256 Netze.
-Lösung:
-10.0.0.0 /24
-Nutzung des privaten Netzes aus Class A.
-Nutzung der Standardsubnetzmaske aus Class C.
-Somit ergibt sich:
-1 Netz (10) aus dem Oktett 1 _ 256 Netze (0 – 255) aus dem Oktett 2 _
-256 Netze (0 – 255) aus dem Oktett 3.
-= 65.536 Netze (Oktette 1 bis 3 zählen durch die Subnetzmaske jetzt zur Netz-ID).
-Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
-[23]
-Subnetting IPv4 ("richtiges Subnetting")
+
+- 10.0.0.0 /8 => geht nicht, da nur 1 Netz.
+- 172.16.0.0 bis 172.31.0.0 /16 => geht nicht, da nur 16 Netze.
+- 192.168.0.0 /24 => geht nicht, da nur 256 Netze.
+
+##### Lösung:
+
+- 10.0.0.0 /24
+- Nutzung des privaten Netzes aus Class A.
+- Nutzung der Standardsubnetzmaske aus Class C.
+- **Somit ergibt sich:**
+  - 1 Netz (10) aus dem Oktett 1 \_ 256 Netze (0 – 255) aus dem Oktett 2 \_256 Netze (0 – 255) aus dem Oktett 3.
+  - = 65.536 Netze (Oktette 1 bis 3 zählen durch die Subnetzmaske jetzt zur Netz-ID).
+  - Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
+
+ <!-- 22 -->
+
+### Subnetting IPv4 ("richtiges Subnetting")
+
 => siehe: im Verzeichnis Filius/Filius_5_LAN_8_PCs.fls
 benötigte Hilfsmittel:
 Umrechnung dezimal => binär.

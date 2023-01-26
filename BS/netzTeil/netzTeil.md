@@ -75,217 +75,199 @@ h4 { color: red;}
 
 ## 8 Das PC-Netzteil
 
-8
-http://content.hwigroup.net/images/products/xl/109124/3/be_quiet_straight_power_e8_400w.jpgKomponenten
-Kondensator
-• Besteht aus 2 isoliert
-voneinander
-aufgewickelten Folien
-• Speichert Elektronen
-(Kapazität)
-• nF-Bereich
-• Nicht polaritätsabhängig
-• Beeinflusst die Kurvenform
-von Strom und Spannung
-• Bestandteil von
-Filterschaltungen
-9Komponenten
-Spule
-• Besteht aus einen gewickelten
-Kupferdraht
-• Mit/ohne Kern (Eisen oder Ferit)
-• Induktivität – Bestandteil v. Filtern
-• Beeinflusst die Kurvenform von
-Strom und Spannung
-• Zur Unterdrückung von
-Störimpulsen
-• Strom durchfließt die Spule 
-Selbstinduktion
-• Hochfrequente Wechselströme
-werden minimiert
-10Komponenten
-Filter
-• Bereinigt die Kurvenform
-• Verhindert Oberwellen,
-Spannungsspitzen und -
-Einbrüche
-11Komponenten
-Varistoren
-• Schützen vor
-Überspannungen
-• verändern ihren
-Widerstandswert in
-Abhängigkeit der
-anliegenden Spannung
-VDR = Voltage Dependent
-Resistor
-12Komponenten
-Gleichrichter
-• Meist Dioden,
-Halbleiterbauelement
-• Als Einweg-, Zweiweg oder
-Brückengleichrichter
-• Schotky-Dioden für hoch-
-frequente Spannungen u.
-starke Ströme
-• Lässt Strom in nur einer
-bestimmten Richtung durch
-• Eignen sich auch für
-Begrenzung der
-Ausgangsspannung
-13
+![Das PC-Netzteil!](img/netzteil2.png "Das PC-Netzteil")
 
-- -Komponenten
-  Glättung
-  • Elektrolytkondensator
-  • Dielektrikum ist
-  Oxidschicht
-  • Hohe Kapazitäten
-  • Verringerung der
-  Welligkeit des
-  pulsierenden
-  Gleichstroms
-  • Polaritätsabhängig
-  14Komponenten
-  Schalttransistor
-  • Erhält Steuersignal von
-  Mikrokontroller
-  • Schaltet durch oder
-  sperrt über
-  Basisanschluss
-  • Schaltet (Zerhackt) die
-  Gleichspannung in eine
-  Rechteckspannung
-  15Komponenten
-  Übertrager
-  • Besteht aus mindestens zwei
-  Spulen und einem Ferrit-Kern
-  • Primärspule: höhere
-  Wechselspannung, kleiner Strom
-  • Sekundärspule: niedrigere
-  Wechselspannung, hoher Strom
-  • Spulen sind galvanisch getrennt
-  • https://www.electronics-
-  tutorials.ws/de/transformatoren/tr
-  ansformator-grundlagen.html
-  • Transformator 1000 VA:
-  – 150 x 176 x 153, 14 kg ( 2 kg Cu)
-  – Ca 130 €
-  – Ohne Elektronik
-  16
-  𝑈 1 𝑈 2 = 𝑁 1 𝑁 2 = 𝐼 2 𝐼 1Komponenten
-  DC-Wandler
-  • Wandeln 12 V in andere
-  benötigte Spannungen um
-  • Reduziert die Spannung
-  von 12 V auf 5 V und 3,3 V
-  • Microcontroller, Spulen und
-  Kondensatoren
-  • Erhöht die Effizienz auf
-  über 90 %
-  17Komponenten
-  Analoge Regelung
-  • (OPV) + Vergleichs-
-  spannungsquelle
-  • Ausgangsspannung wird
-  mit Normspannungsquelle
-  verglichen
-  • Abweichungen werden
-  über Optokoppler an
-  Mikrokontroller gegeben
-  18Komponenten
-  Galvanische Trennung
-  19
-  • Optokoppler
-  • Trennt die Nieder-
-  spannungsseite von der
-  HochspannungsseiteKomponenten
-  Steuerung/Überwachung
-  • Steuert das Zerhacken der
-  Gleichspannung in
-  hochfrequente
-  Rechteckspannung
-  (~4 kHz)
-  • Verantwortlich für
-  Pulsweitenmodulation
-  • Regelung der
-  Ausgangsspannung
-  20Netzteil-Komponenten
-  22Stecker und Verbindungen
-  • ATX-Stecker Motherboard
-  • ATX-Stecker Prozessor
-  • Molex-Stecker (klein/groß)
-  • SATA-Stecker
-  • PCIe-Stecker für Grafikkarte
-  23ATX-Stecker
-  24
-  \*Von der Kabelseite gesehen! 25
-  Pin
-  Signal Kabelfarbe a Funktion b
-  ATX 1.0 bis
-  2.1
-  ATX 2.2
-  1 1 3,3 V Orange
-  2 2 3,3 V Orange
-  3 3 Masse Schwarz
-  4 4 5 V Rot
-  5 5 Masse Schwarz
-  6 6 5 V Rot
-  7 7 Masse Schwarz
-  8 8 PWR_OK Grau Power Ok
-  9 9 5 VSB Violett +5 V-Standby-Spannung
-  10 10 12 V Gelb
-  10 11 12 V Gelb
-  2 12 3,3 V Orange
-  11 13 3,3 V Orange
-  12 14 −12 V Blau
-  13 15 Masse Schwarz
-  14 16 PS ON Grün Power Supply On
-  15 17 Masse Schwarz
-  16 18 Masse Schwarz
-  17 19 Masse Schwarz
-  18 20 −5 V Weiß nur bei ATX-1.x
-  19 21 5 V Rot
-  20 22 5 V Rot
-  20 e 23 5 V Rot
-  17 e 24 Masse Schwarz 26Molex-Stecker
-  • Zur Spannungsversorgung
-  von Laufwerken
-  – HDD, CD/DVD/BR
-  • und Zusatzkarten
-  (nachgerüstete Schnittstellen)
-  • Gelb - 12 V
-  • Rot – 5 V
-  • Schwarz – 0
-  27SATA-Stecker
-  • Neue Verbindung für
-  die Stromversorgung
-  der Laufwerke
-  • HDD/opt LW/SSD
-  • Kompatibel zu anderen
-  Formfaktoren
-  (3,5‘‘/2,5‘‘)
-  28
-  http://www.modding-faq.de/moddingfaq/atx-stecker/3_SATA_Stecker.gifPCIe-Stecker
-  • Spannungs-
-  versorgung
-  stromhungriger
-  Grafikkarten
-  • 6-pol. – 150 W
-  • 8-pol. – 225 W
-  • 2 x 8 pol. – 300 W
-  29Das Netzteil/innen
-  • 1 - EMI
-  • 2+3 - PFC+AC/DC
-  • 2+4 - PFC+PWM
-  • 5 - AC/AC
-  • 6+7 - AC/DC+Siebung
-  • 8 - Feedback
-  30
-  http://content.hwigroup.net/images/products/xl/109124/3/be_quiet_straight_power_e8_400w.jpg
-  1
-  2+3
-  2
+## 9 Komponenten Kondensator
+
+- Besteht aus 2 isoliert voneinander aufgewickelten Folien
+- Speichert Elektronen (Kapazität)
+- nF-Bereich
+- Nicht polaritätsabhängig
+- Beeinflusst die Kurvenform
+  von Strom und Spannung
+- Bestandteil von Filterschaltungen
+
+  ![Kondensator!](img/netzteil3.png "Kondensator")
+
+## 10 Komponenten Spule
+
+- Besteht aus einen gewickelten Kupferdraht
+- Mit/ohne Kern (Eisen oder Ferit)
+- Induktivität – Bestandteil v. Filtern
+- Beeinflusst die Kurvenform von Strom und Spannung
+- Zur Unterdrückung von Störimpulsen
+- Strom durchfließt die Spule -> Selbstinduktion
+- Hochfrequente Wechselströme werden minimiert
+
+  ![Spule!](img/netzteil4.png "Spule")
+
+## 11 Komponenten Filter
+
+- Bereinigt die Kurvenform
+- Verhindert Oberwellen,
+  Spannungsspitzen und -
+  Einbrüche
+  ![Spule!](img/netzteil5.png "Spule")
+
+## 12 Komponenten Varistoren
+
+- Schützen vor Überspannungen
+- verändern ihren Widerstandswert in Abhängigkeit der anliegenden Spannung VDR[^3]
+
+  ![Varistoren!](img/netzteil6.png "Varistoren")
+
+[^3]: VDR Voltage Dependent Resistor
+
+## 13 Komponenten Gleichrichter
+
+- Meist Dioden, Halbleiterbauelement
+- Als Einweg-, Zweiweg oder Brückengleichrichter
+- Schotky-Dioden für hoch-frequente Spannungen u.starke Ströme
+- Lässt Strom in nur einer bestimmten Richtung durch
+- Eignen sich auch für Begrenzung der Ausgangsspannung
+
+![Gleichrichter!](img/netzteil7.png "Gleichrichter")
+
+## 14 Komponenten Glättung
+
+- Elektrolytkondensator
+- Dielektrikum ist Oxidschicht
+- Hohe Kapazitäten
+- Verringerung der Welligkeit des pulsierenden Gleichstroms
+- Polaritätsabhängig  
+  ![Glättung!](img/netzteil8.png "Glättung")
+
+## 15 Komponenten Schalttransistor
+
+- Erhält Steuersignal von Mikrokontroller
+- Schaltet durch oder sperrt über Basisanschluss
+- Schaltet (Zerhackt) die Gleichspannung in eine Rechteckspannung
+- ![Schalttransistor!](img/netzteil9.png "Schalttransistor")
+
+## 16 Komponenten Übertrager
+
+- Besteht aus mindestens zwei Spulen und einem Ferrit-Kern
+- Primärspule: höhere Wechselspannung, kleiner Strom
+- Sekundärspule: niedrigere Wechselspannung, hoher Strom
+- Spulen sind galvanisch getrennt
+- https://www.electronics-tutorials.ws/de/transformatoren/transformator-grundlagen.html
+- Transformator 1000 VA:
+  - 150 x 176 x 153, 14 kg ( 2 kg Cu)
+  - Ca 130 €
+  - Ohne Elektronik
+
+![Übertrager!](img/netzteil10.png "Übertrager")
+
+## 17 Komponenten DC-Wandler
+
+- Wandeln 12 V in andere benötigte Spannungen um
+- Reduziert die Spannung von 12 V auf 5 V und 3,3 V
+- Microcontroller, Spulen und Kondensatoren
+- Erhöht die Effizienz auf über 90 %
+
+![DC-Wandler!](img/netzteil11.png "DC-Wandler")
+
+## 18 Komponenten Analoge Regelung
+
+- (OPV)[^2] + Vergleichs-spannungsquelle
+- Ausgangsspannung wird mit Normspannungsquelle verglichen
+- Abweichungen werden über Optokoppler an Mikrokontroller gegeben
+  ![Analoge Regelung!](img/netzteil12.png "Analoge Regelung")
+  [^2]: (OPV)
+
+## 19 Komponenten Galvanische Trennung
+
+- Optokoppler
+- Trennt die Nieder-spannungsseite von der Hochspannungsseite  
+  ![Galvanische Trennung!](img/netzteil13.png "Galvanische Trennung")
+
+## 20 Komponenten Steuerung/Überwachung
+
+- Steuert das Zerhacken der Gleichspannung in hochfrequente Rechteckspannung (~4 kHz)
+- Verantwortlich für Pulsweitenmodulation
+- Regelung der Ausgangsspannung
+
+![Steuerung/Überwachung!](img/netzteil14.png "Steuerung/Überwachung")
+
+## 21 SchaltNetzteil
+
+## 22Stecker und Verbindungen
+
+• ATX-Stecker Motherboard
+• ATX-Stecker Prozessor
+• Molex-Stecker (klein/groß)
+• SATA-Stecker
+• PCIe-Stecker für Grafikkarte
+23ATX-Stecker
+24
+\*Von der Kabelseite gesehen! 25
+Pin
+Signal Kabelfarbe a Funktion b
+ATX 1.0 bis
+2.1
+ATX 2.2
+1 1 3,3 V Orange
+2 2 3,3 V Orange
+3 3 Masse Schwarz
+4 4 5 V Rot
+5 5 Masse Schwarz
+6 6 5 V Rot
+7 7 Masse Schwarz
+8 8 PWR_OK Grau Power Ok
+9 9 5 VSB Violett +5 V-Standby-Spannung
+10 10 12 V Gelb
+10 11 12 V Gelb
+2 12 3,3 V Orange
+11 13 3,3 V Orange
+12 14 −12 V Blau
+13 15 Masse Schwarz
+14 16 PS ON Grün Power Supply On
+15 17 Masse Schwarz
+16 18 Masse Schwarz
+17 19 Masse Schwarz
+18 20 −5 V Weiß nur bei ATX-1.x
+19 21 5 V Rot
+20 22 5 V Rot
+20 e 23 5 V Rot
+17 e 24 Masse Schwarz 26Molex-Stecker
+• Zur Spannungsversorgung
+von Laufwerken
+– HDD, CD/DVD/BR
+• und Zusatzkarten
+(nachgerüstete Schnittstellen)
+• Gelb - 12 V
+• Rot – 5 V
+• Schwarz – 0
+27SATA-Stecker
+• Neue Verbindung für
+die Stromversorgung
+der Laufwerke
+• HDD/opt LW/SSD
+• Kompatibel zu anderen
+Formfaktoren
+(3,5‘‘/2,5‘‘)
+28
+http://www.modding-faq.de/moddingfaq/atx-stecker/3_SATA_Stecker.gifPCIe-Stecker
+• Spannungs-
+versorgung
+stromhungriger
+Grafikkarten
+• 6-pol. – 150 W
+• 8-pol. – 225 W
+• 2 x 8 pol. – 300 W
+29Das Netzteil/innen
+• 1 - EMI
+• 2+3 - PFC+AC/DC
+• 2+4 - PFC+PWM
+• 5 - AC/AC
+• 6+7 - AC/DC+Siebung
+• 8 - Feedback
+30
+http://content.hwigroup.net/images/products/xl/109124/3/be_quiet_straight_power_e8_400w.jpg
+1
+2+3
+2
+
 - 4
   5 6+7 8Abkürzungen - Bedeutung
   • EMI:
