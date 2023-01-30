@@ -330,13 +330,17 @@ LEGENDE:
 - Glättung der Gleichspannung durch z. B. Kondensatoren
 - Überwachung und Regelung der Spannung
 
-![SchaltNetzteil!](img/netzteil21.png "SchaltNetzteil")
+## 34 PC Netzteil
 
-## 34 Gesamtschaltung
+![PC Netzteil!](img/netzteil21.png "PC Netzteil")
 
-## 35 AC-Eingang
+## 35 Gesamtschaltung
 
-## 36 Spannungsteiler
+![Gesamtschaltung!](img/netzteil22.png "Gesamtschaltung")
+
+## 36 AC-Eingang
+
+## 37 Spannungsteiler
 
 • Spannungsteiler zur Beschaltung des Schaltspannungsreglers
 Regelung der Ausgangsspannung
