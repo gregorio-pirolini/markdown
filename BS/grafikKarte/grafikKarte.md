@@ -52,11 +52,11 @@ https://www.markdownguide.org/basic-syntax/
 
 ## 5 Eingliederung Gesamtsystem
 
-![Eingliederung!](/img/eingliederung.png "Eingliederung Gesamtsystem")
+![Eingliederung!](./img/eingliederung.png "Eingliederung Gesamtsystem")
 
 ## 6 Aufbau und Funktion Teil 2
 
-![Aufbau und Funktion!](/img/aufbauFunktionGrafikKarte.png "Aufbau und Funktion")
+![Aufbau und Funktion!](./img/aufbauFunktionGrafikKarte.png "Aufbau und Funktion")
 
 - GPU[^13]
 - SpeicherController
@@ -178,7 +178,7 @@ Burstrate ohne Protokoll-Overhead
 Ein Beispiel: PCI-Express 2.0 erlaubt pro Lane 5 GT/s und nutzt den 8b10b-Code zur Signalübertragung, der
 8 Bit Daten in 10 Bit kodiert. Ein Transfer besteht aus einem einzelnen Bit je Lane. Ein Steckplatz für
 Grafikkarten ist üblicherweise mit 16 Lanes angebunden. Der maximal mögliche Datendurchsatz beträgt dann:
-![Formula!](/img/formula.png "Formula")
+![Formula!](./img/formula.png "Formula")
 
 ## 17 Grafikprozesor
 
@@ -220,11 +220,11 @@ CU, mehrere ALU |Mehrere CU und ALU|
 
 ## 19 - 20 - 21 Intel Graphics Gen. 11
 
-![Intel Graphics!](/img/intelgrafics1.png "Intel Graphics")
+![Intel Graphics!](./img/intelgrafics1.png "Intel Graphics")
 
 NVIDIA Geforce GTX 680 Kepler SLI[^3] EVGA ZOTAC
-![Intel Graphics!](/img/intelgrafics2.png "Intel Graphics")
-![Intel Graphics!](/img/intelgrafics3.png "Intel Graphics")
+![Intel Graphics!](./img/intelgrafics2.png "Intel Graphics")
+![Intel Graphics!](.img/intelgrafics3.png "Intel Graphics")
 
 ## 22 RAMDAC
 
@@ -296,7 +296,7 @@ Die Buchse in Steckrichtung
 
 ## 28 DVI teil 1
 
-![dvi!](/img/dvi.png "dvi")
+![dvi!](./img/dvi.png "dvi")
 
 ## 28 DVI teil 2
 

@@ -36,10 +36,10 @@ h4 { color: red;}
 - Bereitstellung mehrerer Ausgangsspannungen
 - Stabilisierung der Ausgangsspannungen
 
-| 230 V        |     |     |     | 12 V, 40 A      |
-| ------------ | --- | --- | --- | --------------- |
-| **50 Hz**    | ->  | ??? | ->  | **5 V, 60 A**   |
-| **Max 16 A** |     |     |     | **3,3 V, 20A ** |
+| 230 V        |     |     |     | 12 V, 40 A     |
+| ------------ | --- | --- | --- | -------------- |
+| **50 Hz**    | ->  | ??? | ->  | **5 V, 60 A**  |
+| **Max 16 A** |     |     |     | **3,3 V, 20A** |
 
 ## 4 Analognetzteil 01
 
@@ -49,7 +49,7 @@ h4 { color: red;}
 
 <f>!!! KEINE galvanische Trennung!!!</f>
 
-## 5 Analognetzteil
+## 5 Analognetzteil 02
 
 ### galvanisch getrennt
 
@@ -69,7 +69,7 @@ h4 { color: red;}
 - Transistor, Schalter
 - Übertrager (Transformator)
 - DC-Wandler
-- Analoge Regelung (OPV mit Vergleichsspannungsquelle)
+- Analoge Regelung (OPV[^2] mit Vergleichsspannungsquelle)
 - Galvanische Trennung, Potentialtrennung (Optokoppler)
 - Steuerung/Überwachung, Pulsweitenmodulation
 
@@ -189,7 +189,7 @@ h4 { color: red;}
 
 ![Steuerung/Überwachung!](img/netzteil14.png "Steuerung/Überwachung")
 
-## 21 22 SchaltNetzteil
+## 21 SchaltNetzteil
 
 ![SchaltNetzteil!](img/netzteil1.png "SchaltNetzteil")
 
@@ -202,7 +202,7 @@ LEGENDE:
 6: Steuerelektronik  
 7: Optokoppler
 
-## 23 Stecker und Verbindungen
+## 22 Stecker und Verbindungen
 
 - ATX-Stecker Motherboard
 - ATX-Stecker Prozessor
@@ -210,7 +210,7 @@ LEGENDE:
 - SATA-Stecker
 - PCIe-Stecker für Grafikkarte
 
-## 24 25 26 ATX-Stecker
+## 23 24 25 ATX-Stecker
 
 ![ATX-Stecker!](img/netzteil15.png "ATX-Stecker")
 
@@ -246,7 +246,7 @@ LEGENDE:
 
 ![ATX!](img/netzteil16.png "ATX")
 
-## 27 Molex-Stecker
+## 26 Molex-Stecker
 
 - Zur Spannungsversorgung von Laufwerken
   - HDD, CD/DVD/BR
@@ -257,7 +257,7 @@ LEGENDE:
 
   ![Molex-Stecker!](img/netzteil17.png "Molex-Stecker")
 
-## 28 SATA-Stecker
+## 27 SATA-Stecker
 
 - Neue Verbindung für
   die Stromversorgung
@@ -269,7 +269,7 @@ LEGENDE:
 
   ![Molex-Stecker!](img/netzteil19.png "Molex-Stecker")
 
-## 29 PCIe-Stecker
+## 28 PCIe-Stecker
 
 - Spannungs-
   versorgung
@@ -280,29 +280,36 @@ LEGENDE:
 - 2 x 8 pol. – 300 W
   ![PCIe-Stecker!](img/netzteil18.png "PCIe-Stecker")
 
-## 30 Das Netzteil/innen
+## 29 Das Netzteil/innen
 
-- 1 EMI
-- 2+3 PFC+AC/DC
-- 2+4 PFC+PWM
-- 5 AC/AC
+- 1 EMI[^4]
+- 2+3 PFC[^1]+AC/DC[^5]
+- 2+4 PFC[^1]+PWM[^6]
+- 5 AC/AC[^7]
 - 6+7 AC/DC+Siebung
 - 8 Feedback
-  ![Das Netzteil/innen!](img/netzteil18.png "Das Netzteil/innen")
+  ![Das Netzteil/innen!](img/netzteil20.png "Das Netzteil/innen")
+  [^4]:EMI Elektromagnetische Interferenz
+  [^1]:PFC Power Factor Correction ––(cos φ )
+  Blindleistungskompensation
+  [^5]:AC/DC Gleichrichtung der gesiebten Netzspannung
+  [^6]:PWM Erzeugung einer hochfrequenten Rechteckspannung, Modulation der Pulsweite zur Belastungsausgleich
+  [^7]:Transformation der Spannung in einen geringeren
+  Spannungsbereich durch Hochleistungsübertrager
 
-## 31 Abkürzungen - Bedeutung
+## 30 Abkürzungen - Bedeutung
 
-- EMI
+- EMI[^4]
   - Elektromagnetische Interferenz
   - Filter gegen Störungen
-- PFC
+- PFC[^1]
 - +AC/DC
-- 2+4- PFC+PWM
+- 2+4- PFC[^1]+PWM[^6]
 - 5 - AC/AC
 - 6+7- AC/DC+Siebung
 - 8 - Feedback
 
-## 32 Blockschaltbild
+## 31 Blockschaltbild
 
 ![SchaltNetzteil!](img/netzteil1.png "SchaltNetzteil")
 
@@ -315,14 +322,13 @@ LEGENDE:
 6: Steuerelektronik  
 7: Optokoppler
 
-## 33 Arbeitsweise
+## 32 Arbeitsweise
 
-- EMI – Elektromagnetische Interferenz - sorgt für Störimmunität
+- EMI[^4] – Elektromagnetische Interferenz - sorgt für Störimmunität
   gegenüber dem Versorgungsnetz
-- PFC – Power Factor Correction – (cos φ)
-  - Blindleistungskompensation
+- PFC[^1] – Power Factor Correction – (cos φ) Blindleistungskompensation
 - AC/DC – Gleichrichtung der gesiebten Netzspannung
-- PWM – Erzeugung einer hochfrequenten Rechteckspannung,
+- PWM[^6]– Erzeugung einer hochfrequenten Rechteckspannung,
   Modulation der Pulsweite zur Belastungsausgleich
 - AC/AC – Transformation der Spannung in einen geringeren
   Spannungsbereich durch Hochleistungsübertrager
@@ -330,123 +336,151 @@ LEGENDE:
 - Glättung der Gleichspannung durch z. B. Kondensatoren
 - Überwachung und Regelung der Spannung
 
-## 34 PC Netzteil
+## 33 PC Netzteil
 
 ![PC Netzteil!](img/netzteil21.png "PC Netzteil")
 
-## 35 Gesamtschaltung
+## 34 Gesamtschaltung
 
 ![Gesamtschaltung!](img/netzteil22.png "Gesamtschaltung")
 
-## 36 AC-Eingang
+## 35 AC-Eingang
 
-## 37 Spannungsteiler
+![AC-Eingang!](img/netzteil23.jpg "AC-Eingang")
 
-• Spannungsteiler zur Beschaltung des Schaltspannungsreglers
+## 36 Spannungsteiler
+
+Spannungsteiler zur Beschaltung des Schaltspannungsreglers
 Regelung der Ausgangsspannung
-37Spannungssummierschaltung
-• Spannungssummierschaltung zur Beschaltung des Spannungsreglers
-38High-End vs Einsteiger
-• Be Quiet! Straight Power E9 480W CM • Be Quiet! Pure Power L8 500W
-39Vergleich 1
-40
-Straight Power E9 480 CM Pure Power L8 500W
-Dauerleistung 480 Watt 500 Watt
-Spitzenleistung 550 Watt 550 Watt
-Powerfaktor bei 100% Last 0.99 0.97
-Leistungsaufnahme im Stand-by 0.30 Watt 0.30 Watt
-Durchnittliche Lebensdauer 300.000 h 100.000 h
-Anzahl der 12V Leitungen 4 2
-3,3V 24 A 24 A
-5V 22 A 15 A
-12V1 18 A 28 A
-12V2 18 A 20 A
-12V3 18 A
-12V4 18 A
-Max. Gesamtleistung 12V 456 Watt 456 Watt
-Max. Gesamtleistung 5V + 3.3V 130 Watt 120 Watt
-Hold-up-Time 19 ms 16 msVergleich 2
-41
-Straight Power E9 480 CM Pure Power L8 500W
-80+ Zertifizierung Gold Bronze
-Effizienz bei 20% 89.7% 84%
-Effizienz bei 50% 92.8% 87%
-Effizienz bei 100% 91.4% 84%
-Lautstärke - 100% Last 18.8 dB(A) 25.1 dB(A)
-Multi-GPU Ja Nein
-Hersteller Garantie 5 Jahre 3 Jahre
-80+ Zertifizierung Gold Bronze
-Effizienz bei 20% 89.7% 84%
-Effizienz bei 50% 92.8% 87%
-Effizienz bei 100% 91.4% 84%
-Lautstärke - 100% Last 18.8 dB(A) 25.1 dB(A)
-Multi-GPU Ja Nein
-Hersteller Garantie 5 Jahre 3 JahreBegriffe
-42
-Straight Power E9 480 CM Pure Power L8 500W
-OCP - Überstromschutz P P
-OVP - Überspannungsschutz P P
-UVP - Unterspannungsschutz P P
-SCP - Kurzschlussschutz P P
-OTP - Überhitzschutz P P
-OPP - Überlastschutz P PAnschlüsse 1
-ohne Kabelmanagement
+
+![Spannungsteiler!](img/netzteil30.png "Spannungsteiler")
+
+## 37 Spannungssummierschaltung
+
+Spannungssummierschaltung zur Beschaltung des Spannungsreglers
+
+![Spannungssummierschaltung!](img/netzteil31.png "Spannungssummierschaltung")
+
+## 38 High-End vs Einsteiger
+
+| Be Quiet! Straight Power E9 480W CM                                     | Be Quiet! Pure Power L8 500W                                            |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![High-End vs Einsteiger!](img/netzteil32.jpg "High-End vs Einsteiger") | ![High-End vs Einsteiger!](img/netzteil33.jpg "High-End vs Einsteiger") |
+
+## 39 Vergleich 1
+
+| -                             | Straight Power E9 480 CM | Pure Power L8 500W |
+| ----------------------------- | ------------------------ | ------------------ |
+| Dauerleistung                 | 480 Watt                 | 500 Watt           |
+| Spitzenleistung               | 550 Watt                 | 550 Watt           |
+| Powerfaktor bei 100% Last     | 0.99                     | 0.97               |
+| Leistungsaufnahme im Stand-by | 0.30 Watt                | 0.30 Watt          |
+| Durchnittliche Lebensdauer    | 300.000 h                | 100.000 h          |
+| Anzahl der 12V Leitungen      | 4                        | 2                  |
+| 3,3V                          | 24 A                     | 24 A               |
+| 5V                            | 22 A                     | 15 A               |
+| 12V1                          | 18 A                     | 28 A               |
+| 12V2                          | 18 A                     | 20 A               |
+| 12V3                          | 18 A                     |                    |
+| 12V4                          | 18 A                     |                    |
+| Max. Gesamtleistung 12V       | 456 Watt                 | 456 Watt           |
+| Max. Gesamtleistung 5V + 3.3V | 130 Watt                 | 120 Watt           |
+| Hold-up-Time                  | 19 ms                    | 16 ms              |
+
+## 40 Vergleich 2
+
+| -                      | Straight Power E9 480 CM | Pure Power L8 500W |
+| ---------------------- | ------------------------ | ------------------ |
+| 80+ Zertifizierung     | Gold                     | Bronze             |
+| Effizienz bei 20%      | 89.7%                    | 84%                |
+| Effizienz bei 50%      | 92.8%                    | 87%                |
+| Effizienz bei 100%     | 91.4%                    | 84%                |
+| Lautstärke - 100% Last | 18.8 dB(A)               | 25.1 dB(A)         |
+| Multi-GPU              | Ja                       | Nein               |
+| Hersteller Garantie    | 5 Jahre                  | 3 Jahre            |
+
+## 41 Begriffe
+
+| -                          | Straight Power E9 480 CM | Pure Power L8 500W |
+| -------------------------- | ------------------------ | ------------------ |
+| OCP[^8] - Überstromschutz  | x                        | x                  |
+| OVP[^9] - Überspannungsschutz  | x                        | x                  |
+| UVP[^10] - Unterspannungsschutz | x                        | x                  |
+| SCP[^11] - Kurzschlussschutz    | x                        | x                  |
+| OTP[^12] - Überhitzschutz       | x                        | x                  |
+| OPP[^13] - Überlastschutz       | x                        | x                  |
+
+[^8]:OCP
+[^9]:OVP
+[^10]:UVP
+[^11]:SCP
+[^12]:OTP
+[^13]:OPP
+
+## 42 Anschlüsse 1 ohne Kabelmanagement
+
+![Anschlüsse 1 ohne Kabelmanagement!](img/netzteil34.jpg "Anschlüsse 1 ohne Kabelmanagement")
+
 Be Quiet! Pure Power L8 500W – 60 €
-43Anschlüsse
-mit Kabelmanagement
-Be Quiet! Straight Power E9 480W CM – 100€
-44
-http://www.bequiet.com/volumes/PDM/_products/bn197/bn1
-97_cbl.jpg80 Plus Zertifizierung -
-Wirkungsgrad
+
+## 43 Anschlüsse mit Kabelmanagement
+
+![Anschlüsse mit Kabelmanagement!](img/netzteil35.jpg "Anschlüsse mit Kabelmanagement")
+
+Be Quiet ! Straight Power E9 480W CM 100€
+
+## 44 80 Plus Zertifizierung - Wirkungsgrad
+
+![80!](img/netzteil30.jpg "80")
 Der Wirkungsgrad ist definiert durch
 η = Abgegebene Leistung/Zugeführte Leistung
-4580 Plus Zertifizierung -
-Wirkungsgrad
-46
-Leistungsfaktor 0,90 0,90 0,90 0,90 0,95
-Wirkungsgrad
-bei 20% Last
-(Idle)
-80% 82% 85% 87% 90%
-Wirkungsgrad
-bei 50% Last
-(schwache
-Last)
-80% 85% 88% 90% 92%
-Wirkungsgrad
-bei 100% (volle
-Last)
-80% 82% 85% 87% 89%Symbole auf Netzteil
-47
-• http://www.bequiet.com/de/psucalculatorLernzielkontrolle
-• Wie unterscheiden sich Analognetzteile von Digitalnetzteilen?
-• Erläutern Sie kurz die Arbeitsweise eines Digital-(Schalt)-Netzteils!
-• Wie lassen sich Störungen aus der Versorgungsspannung herausfiltern?
-• Welche Bauelemente richten die Wechselspannung gleich?
-• Wodurch erreicht man die kleinere Bauform eines Digitalnetzteils gegenüber einem Analognetzteil bei gleicher oder sogar höherer Leistung?
-• Was bedeuten die bezüglich der Spannungsverarbeitung gebräuchlichen Abkürzungen?
-– EMI
-– PFC
-– AC/DC, AC/AC, DC/DC,
-– PWM
-• Was bedeuten die bezüglich von eingebauten Schutzeinrichtung gebräuchlichen Abkürzungen?
-– OCP, OVP
-– UVP
-– SCP
-– OTP
-– OPP
-• Was muss beim Austausch eines PC-Netzteiles beachtet werden? Nennen Sie mindestens 3 Fakten!
-• Was verstehen Sie unter Kabelmanagement?
-• Nennen Sie mindestens 3 verschiedene Stecker, die im PC für die Stromversorgung der Komponenten eingesetzt werden!
-• Nennen Sie 3 wichtige Spannungen im PC, die das Netzteil bereitstellt!
-• Was verstehen Sie unter dem „Power-Good-Signal“?
-• Erläutern sie die Angaben auf dem Typenschild!
-• Welche Parameter und Gegebenheiten sind beim Austausch eines Netzteils zu beachten?
-• Sie wollen ein Netzteil überprüfen. Dafür steht Ihnen nur ein Vielfachmesser zur Verfügung. Worauf müssen Sie achten, damit Sie brauchbare Messwerte
-bekommen?
-• Neue Netzteile haben einen Schalter auf der Rückseite. Wozu dient er und warum ist er notwendig?
-• Was passiert beim Betätigen des Einschaltknopfes an der (z. B.) Frontseite des PC? Bitte erläutern Sie dies in Stichpunkten.
-• Welche Möglichkeiten bieten sich durch das Schalten mit Fronttaster?
-• Was bedeutet der Begriff „Effizienz“ eines Netzteils?
-• Was bedeutet der Power-Korrekturfaktor? (cos φ)
+
+## 45 80 Plus Zertifizierung - Wirkungsgrad
+
+| -                                         | ![80!](img/netzteil25.png "80") | ![80!](img/netzteil26.png "80") | ![80!](img/netzteil27.png "80") | ![80!](img/netzteil28.png "80") | ![80!](img/netzteil29.png "80") |
+| ----------------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
+| Leistungsfaktor                           | 0,90                            | 0,90                            | 0,90                            | 0,90                            | 0,95                            |
+| Wirkungsgrad bei 20% Last (Idle)          | 80%                             | 82%                             | 85%                             | 87%                             | 90%                             |
+| Wirkungsgrad bei 50% Last (schwache Last) | 80%                             | 85%                             | 88%                             | 90%                             | 92%                             |
+
+|Wirkungsgrad
+bei 100% (volle Last)|80%| 82%| 85% |87% |89%|
+
+## 46 Symbole auf Netzteil
+
+![Symbole auf Netzteil!](img/netzteil24.jpg "Symbole auf Netzteil")
+
+• http://www.bequiet.com/de/psucalculator
+
+## 47 Lernzielkontrolle
+
+- Wie unterscheiden sich Analognetzteile von Digitalnetzteilen?
+- Erläutern Sie kurz die Arbeitsweise eines Digital-(Schalt)-Netzteils!
+- Wie lassen sich Störungen aus der Versorgungsspannung herausfiltern?
+- Welche Bauelemente richten die Wechselspannung gleich?
+- Wodurch erreicht man die kleinere Bauform eines Digitalnetzteils gegenüber einem Analognetzteil bei gleicher oder sogar höherer Leistung?
+- Was bedeuten die bezüglich der Spannungsverarbeitung gebräuchlichen Abkürzungen?
+  - EMI[^4]
+  - PFC[^1]
+  - AC/DC, AC/AC, DC/DC,
+  - PWM[^6]
+- Was bedeuten die bezüglich von eingebauten Schutzeinrichtung gebräuchlichen Abkürzungen?
+  - OCP[^8], OVP[^9]
+  - UVP[^10]
+  - SCP[^11]
+  - OTP[^12]
+  - OPP[^13]
+- Was muss beim Austausch eines PC-Netzteiles beachtet werden? Nennen Sie mindestens 3 Fakten!
+- Was verstehen Sie unter Kabelmanagement?
+- Nennen Sie mindestens 3 verschiedene Stecker, die im PC für die Stromversorgung der Komponenten eingesetzt werden!
+- Nennen Sie 3 wichtige Spannungen im PC, die das Netzteil bereitstellt!
+- Was verstehen Sie unter dem „Power-Good-Signal“?
+- Erläutern sie die Angaben auf dem Typenschild!
+- Welche Parameter und Gegebenheiten sind beim Austausch eines Netzteils zu beachten?
+- Sie wollen ein Netzteil überprüfen. Dafür steht Ihnen nur ein Vielfachmesser zur Verfügung. Worauf müssen Sie achten, damit Sie brauchbare Messwerte
+  bekommen?
+- Neue Netzteile haben einen Schalter auf der Rückseite. Wozu dient er und warum ist er notwendig?
+- Was passiert beim Betätigen des Einschaltknopfes an der (z. B.) Frontseite des PC? Bitte erläutern Sie dies in Stichpunkten.
+- Welche Möglichkeiten bieten sich durch das Schalten mit Fronttaster?
+- Was bedeutet der Begriff „Effizienz“ eines Netzteils?
+- Was bedeutet der Power-Korrekturfaktor? (cos φ)
