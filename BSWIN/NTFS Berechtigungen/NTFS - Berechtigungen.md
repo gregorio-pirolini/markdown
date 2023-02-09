@@ -252,18 +252,9 @@ Verweigern hat Vorrang
 
 ## 25 Verweigern vs. Erlauben
 
-Hierarchie der Berechtigungen:
-Explizit verweigern
--
+### Hierarchie der Berechtigungen:
 
--
-
-Explizit erlauben
-
--
-
-Ererbt verweigern
-
--
-
-Ererbt erlauben
+- Explizit verweigern
+- Explizit erlauben
+- Ererbt verweigern
+- Ererbt erlauben

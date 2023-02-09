@@ -85,8 +85,7 @@ h4 { color: red;}
 | Verwendung           | Disketten                      |
 | Clustergröße (Byte)  | 512-4096\*                     |
 | Dateinamen8.3        |
-| Attribute            | Schreibgeschützt , Versteckt , |
-| System , Archiv      |
+| Attribute            | Schreibgeschützt , Versteckt , System , Archiv      |
 | Berechtigungen (ACL) | NEIN                           |
 | Clusteranzahl        | 2<sup>12</sup> = 4094\*        |
 | Dateigröße           | Max. 32 MiB\*\*                |
@@ -159,22 +158,23 @@ https://de.wikipedia.org/wiki/File_Allocation_Table#FAT32
 
 ## 12 Dateisysteme – NTFS
 
-| -                    | NTFS                                   |
-| -------------------- | -------------------------------------- | --- | ---------- | ----------- |
-| Entwicklungsjahr     | 1993, Windows NT                       |
-| Verwendung           | Festplatten, SSD, USB-Sticks, …        |
-| Clustergröße         | 512 Byte\* - 2048 KiB\*\*              |
-| Dateinamen           | Long File Names (LFN)                  |
-| Attribute            | Wie FAT + Erweiterungen                |
-| Berechtigungen (ACL) | Ja                                     |
-| Clusteranzahl        | 2<sup>32</sup> -1 = 4.294.967.295 \*\* |     | Dateigröße | Max. 16 TiB |
+| -                                      | NTFS                                   |
+| -------------------------------------- | -------------------------------------- |
+| Entwicklungsjahr                       | 1993, Windows NT                       |
+| Verwendung                             | Festplatten, SSD, USB-Sticks, …        |
+| Clustergröße 512 Byte\* - 2048 KiB\*\* |
+| Dateinamen                             | Long File Names (LFN)                  |
+| Attribute                              | Wie FAT+Erweiterungen                  |
+| Berechtigungen (ACL)                   | Ja                                     |
+| Clusteranzahl                          | 2<sup>32</sup> -1 = 4.294.967.295 \*\* |
+| Dateigröße                             | Max. 16 TiB                            |
 
 \* https://support.microsoft.com/de-de/topic/standard-clustergr%C3%B6%C3%9Fe-f%C3%BCr-nfts-fat-und-exfat-9772e6f1-e31a-00d7-e18f-73169155af95  
 \*\* https://learn.microsoft.com/de-de/windows-server/storage/file-server/ntfs-overview
 
 ## 13 Dateisysteme – NTFS-Merkmale 1
 
-- Journaling: sichert konsistenten Zustand
+- <f>Journaling</f>: sichert konsistenten Zustand
 - lange Dateinamen: max. 255 Zeichen
 - (lange Pfadnamen: max. 32.767 Zeichen)
   Windows: Standard 260 Zeichen
@@ -185,13 +185,11 @@ https://de.wikipedia.org/wiki/File_Allocation_Table#FAT32
 
 ## 14 Dateisysteme – NTFS-Merkmale 2
 
-- Speicherung von Metadaten: alternative
-  Datenströme
+- Speicherung von Metadaten: alternative Datenströme
 - transparente Komprimierung möglich
 - Transparente Dateiverschlüsselung:
   Encrypting File System (EFS[^1])
-- Kontingente: Beschränkungen für
-  einzelne Nutzer
+- Kontingente: Beschränkungen für einzelne Nutzer
   [^1]: EFS Encrypting File System
 
 ## 15 Dateisysteme – NTFS-Merkmale 2
@@ -217,9 +215,7 @@ https://de.wikipedia.org/wiki/File_Allocation_Table#FAT32
 
 ## 17 Dateisysteme – Aufbau MFT
 
-große Tabelle mit gleich langen
-Elementen (1KB, 2KB oder 4KB groß, je
-nach Clustergröße)
+große Tabelle mit gleich langen Elementen (1KB, 2KB oder 4KB groß, je nach Clustergröße)
 
 | <div style="background-color: blue"> Index | <div style="background-color: blue">Dateiinformationen |
 | ------------------------------------------ | ------------------------------------------------------ |
@@ -233,33 +229,33 @@ nach Clustergröße)
 
 ## 18 Dateisysteme – Aufbau MFT
 
-Eintrag für eine kurze Datei
+### Eintrag für eine kurze Datei
 
 **STREAMS**:
 Standardinfo | Dateiname | Zugriffsrechte| Daten | Leer
 
 ## 19 Dateisysteme – Aufbau MFT
 
-Eintrag für eine kurze Datei
+### Eintrag für eine kurze Datei
 
 **STREAMS**:
-Standardinfo | Dateiname | Zugriffsrechte| Daten | Leer
+<f>Standardinfo</f> | Dateiname | Zugriffsrechte| Daten | Leer
 
 <f>Standardinfo</f>: Enthält u.a. Länge, Standard-Attribute, Zeitstempel, Anzahl
 der Hard links
 
 ## 20 Dateisysteme – Aufbau MFT
 
-Eintrag für eine kurze Datei
+### Eintrag für eine kurze Datei
 
 **STREAMS**:
-Standardinfo | Dateiname | Zugriffsrechte| Daten | Leer
+Standardinfo | <f>Dateiname</f> | Zugriffsrechte| Daten | Leer
 
 <f>Dateiname</f>: kann mehrfach vorkommen (Hard links)
 
 ## 21 Dateisysteme – Aufbau MFT
 
-Eintrag für eine längere Datei
+### Eintrag für eine längere Datei
 
 ![mft aufbau!](img/image-030.png "mft aufbau")
 
@@ -280,44 +276,20 @@ LCN[^3] Logical Cluster Number
 [^5]: **UDF-Dateisystem** Universal Disk Format
 
 ## 23 Dateisysteme – NTFS: Attribute
-
-![NTFS: Attribute!](img/image-010.png "NTFS: Attribute")
-
-R = ReadOnly - Schreibgeschützt  
-H = Hidden - Versteckt  
-S = System - System  
-D = Directory - Verzeichnis  
-A = Archive – zu Archivieren Device – reserviert / unbenutzt  
-N = Normal – keine zusätzlichen Attribute  
-T = Temporary - temporäre Datei  
-P = SparseFile – unbelegte Dateibereiche komprimiert  
-L = ReparsePoint - Verknüpfungen  
-C = Compressed - komprimiert  
-O = Offline - Offlinedatei  
-I = NotContentIndexed – kein Inhaltsindex  
-E = Encrypted - Verschlüsselt  
-V = IntegrityStream – alle Streams der Datei geprüft  
-X = NoScrubData - keine Datenintegritätsüberprüfung
+| - | - |
+| -----|-----|
+| R = ReadOnly - Schreibgeschützt<br>H = Hidden - Versteckt<br>S = System - System<br>D = Directory - Verzeichnis<br>A = Archive – zu Archivieren Device – reserviert / unbenutzt<br>N = Normal – keine zusätzlichen Attribute<br>T = Temporary - temporäre Datei<br>P = SparseFile – unbelegte Dateibereiche komprimiert<br>L = ReparsePoint - Verknüpfungen<br>C = Compressed - komprimiert<br>O = Offline - Offlinedatei<br>I = NotContentIndexed – kein Inhaltsindex<br>E = Encrypted - Verschlüsselt<br>V = IntegrityStream – alle Streams der Datei geprüft<br>X = NoScrubData - keine Datenintegritätsüberprüfung|![NTFS: Attribute!](img/image-010.png "NTFS: Attribute") |
 
 ## 24 Dateisysteme – NTFS: Attribute Archive
 
-![NTFS: Attribute Archive!](img/image-011.png "NTFS: Attribute Archive")
-
-A = Archive: wird bei jedem
-Bearbeiten einer Datei gesetzt,
-von Backup-Programmen
-genutzt und zurückgesetzt
+A = Archive: wird bei jedem Bearbeiten einer Datei gesetzt, von Backup-Programmen genutzt und zurückgesetzt
 
 ## 25 Dateisysteme – NTFS: Attribute Compressed
-
-![NTFS: Attribute Compressed!](img/image-012.png "NTFS: Attribute Compressed")
 
 C = Compressed: Komprimiert,
 spart Speicherplatz
 
 ## 26 Dateisysteme – NTFS: Attribute Directory
-
-![NTFS: Attribute Directory!](img/image-013.png "NTFS: Attribute Directory")
 
 D = Directory: kennzeichnet ein
 Verzeichnis, manuelle Änderung
@@ -326,8 +298,6 @@ nutzbar
 
 ## 27 Dateisysteme – NTFS: Attribute Encrypted
 
-![NTFS: Attribute Encrypted!](img/image-014.png "NTFS: Attribute Encrypted")
-
 E = Encrypted: verschlüsselt,
 erfordert Zertifikat, nicht
 kombinierbar mit
@@ -335,15 +305,11 @@ Komprimierung
 
 ## 28 Dateisysteme – NTFS: Attribute Hidden
 
-![NTFS: Attribute Hidden!](img/image-015.png "NTFS: Attribute Hidden")
-
 H = Hidden: Versteckt, bei
 Standardeinstellungen nicht
 sichtbar
 
 ## 29 Dateisysteme – NTFS: Attribute Not content indexed
-
-![NTFS: Attribute Not content indexed!](img/image-016.png "NTFS: Attribute Not content indexed")
 
 I = Not content indexed: Inhalt
 der Datei wird nicht für die
@@ -351,15 +317,11 @@ Windows Suche indexiert.
 
 ## 30 Dateisysteme – NTFS: Attribute Offline
 
-![NTFS: Attribute Offline!](img/image-017.png "NTFS: Attribute Offline")
-
 O = Offline: Die Datei ist nicht
 local gespeichert. z.B. Azure /
 One-Drive -Dateien
 
 ## 31 Dateisysteme – NTFS: Attribute Attribute Sparse File
-
-![NTFS: Attribute Sparse File!](img/image-018.png "NTFS: Attribute Sparse File")
 
 P = Sparse File: Spar-Datei.
 Effektivere Speichernutzung bei
@@ -367,14 +329,10 @@ größeren Bereichen mit NullWerten
 
 ## 32 Dateisysteme – NTFS: Attribute Normal
 
-![NTFS: Attribute Normal!](img/image-019.png "NTFS: Attribute Normal")
-
 N = Normal: Die Datei hat keine
 anderen Attribute
 
 ## 33 Dateisysteme – NTFS: Attribute Read-Only
-
-![NTFS: Attribute Read-Only!](img/image-020.png "NTFS: Attribute Read-Only")
 
 R = Read-Only:
 Schreibgeschützt, Datei darf
@@ -382,8 +340,6 @@ nicht geändert oder gelöscht
 werden
 
 ## 34 Dateisysteme – NTFS: Attribute System
-
-![NTFS: Attribute System!](img/image-021.png "NTFS: Attribute System")
 
 S = System: Systemdateien,
 Kombination aus versteckt und
@@ -393,8 +349,6 @@ werden.
 
 ## 35 Dateisysteme – NTFS: Attribute Temporary
 
-![NTFS: Attribute Temporary!](img/image-022.png "NTFS: Attribute Temporary")
-
 T = Temporary: temporäre
 Dateien, werden von BackupProgrammen ignoriert
 
@@ -402,7 +356,7 @@ Dateien, werden von BackupProgrammen ignoriert
 
 ![NTFS: Attribute Temporary!](img/image-031.png "NTFS: Attribute Temporary")
 
-## 37 Dateisysteme – NTFS: Schattenkopien 1
+## 37 Dateisysteme – NTFS: Schattenkopien[^7] 1
 
 - Form der lokalen Datensicherung
   - Gleiches oder separates Volume
@@ -412,11 +366,13 @@ Dateien, werden von BackupProgrammen ignoriert
   - Datei- Wiederherstellung
 - Ersetzt kein Backup!
 
-## 38 Dateisysteme – NTFS: Schattenkopien 2
+[^7]: Shadow Copy (aussi connu sous le nom Volume Snapshot Service, Volume Shadow Copy Service, ou VSS)1 est une technologie incluse dans Microsoft Windows qui permet d'effectuer des sauvegardes automatiques ou manuelles de fichiers ou de disques, même s'ils sont en cours d'utilisation.
+
+## 38 Dateisysteme – NTFS: Schattenkopien[^7] 2
 
 ![NTFS: Schattenkopien!](img/image-023.jpg "NTFS: Schattenkopien")
 
-## 39 Dateisysteme – NTFS: Schattenkopien 3
+## 39 Dateisysteme – NTFS: Schattenkopien[^7] 3
 
 - Methoden
   - **Vollständige Kopie** schreibgeschützter Klon
@@ -427,9 +383,22 @@ Dateien, werden von BackupProgrammen ignoriert
     Änderungen auf einen separaten
     Datenspeicher
 
-## 40 Dateisysteme – NTFS: Schattenkopien 4
+## 40 Dateisysteme – NTFS: Schattenkopien[^7] 4
 
 ![NTFS: Schattenkopien!](img/image-024.png "NTFS: Schattenkopien")
+
+<!-- 
+
+
+
+
+
+
+
+
+
+ -->
+
 
 ## 41 Dateisysteme – NTFS: Streams
 
@@ -464,7 +433,17 @@ Dateien, werden von BackupProgrammen ignoriert
   Eintrag gelöscht wird
 - Syntax (cmd):  
   mklink /H &lt;name&gt; &lt;ziel&gt;
+<!-- 
 
+
+
+
+
+
+
+
+
+ -->
 ## 44 Dateisysteme – NTFS: Symlinks
 
 ### Symbolische Links zeigen auf Original von Datei/Ordner
@@ -559,7 +538,7 @@ Dateien ändern und hinzufügen
 
 | Grundlegende Berechtigungen          | Vollzugriff | Ändern | Lesen,Ausführen | Lesen | Schreiben |
 | ------------------------------------ | ----------- | ------ | --------------- | ----- | --------- |
-|  **Erweiterte Berechtigungen**          |   |   |   |  |   |
+| **Erweiterte Berechtigungen**        |             |        |                 |       |           |
 | Vollzugriff                          | <f>x        | -      | -               | -     | -         |
 | Ordner durchsuchen / Datei ausführen | <f>x        | <f>x   | <f>x            | -     | -         |
 | Ordner auflisten / Daten lesen       | <f>x        | <f>x   | <f>x            | <f>x  | -         |
