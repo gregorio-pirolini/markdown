@@ -489,9 +489,9 @@ müssen diese "übergroßen" Frames verarbeiten können.
   255 . 255 . 0 . 0  
   CIDR Schreibweise: /16
 
-- #### Class C:<br>
-  der Computer "sieht":<br>
-  11111111.11111111.11111111.00000000<br>
+- #### Class C:
+- der Computer "sieht":  
+  11111111.11111111.11111111.00000000  
   wir sehen klassische (dezimale) Schreibweise:
   255 . 255 . 255 . 0  
    CIDR Schreibweise: /24
@@ -501,7 +501,8 @@ müssen diese "übergroßen" Frames verarbeiten können.
 
 #### CIDR-Schreibweise /8
 
-City:<br>030/1234567 => Class A:<br>
+City:  
+030/1234567 => <f>Class A</f>:  
 | - | Okt 1 | Okt 2 | Okt 3 | Okt 4 |
 | ----------------------------------------------- | ----------------------- | --------------------- | ------- | ------- |
 | IP | 0 – 127 | 0 – 255 | 0 – 255 | 0 – 255 | - |
@@ -510,18 +511,19 @@ City:<br>030/1234567 => Class A:<br>
 
 #### CIDR-Schreibweise /16
 
-<br>Stadt:<br> 03003/12345 => Class B:<br>
-<br>
+Stadt:  
+03003/12345 => <f>Class B</f>:
 
 | -            | Okt 1     | Okt 2                  | Okt 3                | Okt 4   |
 | ------------ | --------- | ---------------------- | -------------------- | ------- | --- |
-| ip           | 128 – 191 | 0 – 255                | 0 – 255              | 0 – 255 |
+| IP-Adresse   | 128 – 191 | 0 – 255                | 0 – 255              | 0 – 255 |
 | Subnetzmaske | 255       | 255                    | 0                    | 0       |
 |              |           | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#) |         |     |
 
 #### CIDR-Schreibweise /24
 
-Dorf:<br>030056/1237 => Class C:<br>
+Dorf:  
+030056/1237 => <f>Class C</f>:  
 | - | Okt 1 | Okt 2 | Okt 3 | Okt 4 |
 | ------------------------------ | --------- | ------- | ------------------- | ----------------- |
 | IP-Adresse | 192 – 223 | 0 – 255 | 0 – 255 | 0 – 255 |
@@ -705,7 +707,7 @@ Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.
 
 ![usv!](img/TB_1.jpg "usv")
 
-=> siehe: im Verzeichnis Filius/Filius_6_SUB_2.fls
+- siehe: im Verzeichnis Filius/Filius_6_SUB_2.fls
 
 #### gegeben:
 
