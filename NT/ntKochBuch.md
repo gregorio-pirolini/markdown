@@ -4,6 +4,9 @@ h2 { color: green }
 h3 { color: blue; background-color: white;}
 h4 { color: red;}
  h5 { color: yellow;}
+ f{ color: red;
+font-weight: bold;
+text-decoration: underline;}
 </style>
 
 # Unterrichtsinhalte Netzwerktechnik
@@ -435,6 +438,8 @@ müssen diese "übergroßen" Frames verarbeiten können.
     Namensauflösung
     Routing
 
+<!-- 15  -->
+
 ### IPv4:
 
 - Die IPv4-Adresse ist 32 bit lang.
@@ -463,8 +468,8 @@ müssen diese "übergroßen" Frames verarbeiten können.
 - Die Anzahl der binären "Einsen" wird hinter einem "/" geschrieben.
 - ==>> Obwohl man heute von "classless" ausgeht, sind die IPv4-Klassen noch immer in der IHK-Prüfung ein wichtiges Thema.
 - [Classless Inter-Domain Routing](de.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
-
-<br>
+  <!-- 16  -->
+  <br>
 
 ### Beispiele für die Standardsubnetzmasken Class A, Class B, Class C
 
@@ -489,32 +494,42 @@ müssen diese "übergroßen" Frames verarbeiten können.
   11111111.11111111.11111111.00000000<br>
   wir sehen klassische (dezimale) Schreibweise:
   255 . 255 . 255 . 0  
-  CIDR Schreibweise: /24
+   CIDR Schreibweise: /24
+  <!-- 17  -->
 
 ### IPv4 Klassen (Vergleich zum kabelgebundenen Telefon):
 
+#### CIDR-Schreibweise /8
+
+City:<br>030/1234567 => Class A:<br>
+| - | Okt 1 | Okt 2 | Okt 3 | Okt 4 |
+| ----------------------------------------------- | ----------------------- | --------------------- | ------- | ------- |
+| IP | 0 – 127 | 0 – 255 | 0 – 255 | 0 – 255 | - |
+| Subnetzmaske | 255 | 0 | 0 | 0 |
+| | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#) |
+
+#### CIDR-Schreibweise /16
+
+<br>Stadt:<br> 03003/12345 => Class B:<br>
+<br>
+
+| -            | Okt 1     | Okt 2                  | Okt 3                | Okt 4   |
+| ------------ | --------- | ---------------------- | -------------------- | ------- | --- |
+| ip           | 128 – 191 | 0 – 255                | 0 – 255              | 0 – 255 |
+| Subnetzmaske | 255       | 255                    | 0                    | 0       |
+|              |           | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#) |         |     |
+
+#### CIDR-Schreibweise /24
+
+Dorf:<br>030056/1237 => Class C:<br>
+| - | Okt 1 | Okt 2 | Okt 3 | Okt 4 |
+| ------------------------------ | --------- | ------- | ------------------- | ----------------- |
+| IP-Adresse | 192 – 223 | 0 – 255 | 0 – 255 | 0 – 255 |
+| Subnetzmaske | 255 | 255 | 255 | 0 | CIDR-Schreibweise /24 |
+| | | | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#) | |
+
 <hr>
 
-|                                          | Oktett 1            | Oktett 2              | Oktett 3 | Oktett 4 |                      |
-| ---------------------------------------- | ------------------- | --------------------- | -------- | -------- | -------------------- |
-| City: 030/1234567 => Class A: IP-Adresse | 0 – 127             | 0 – 255               | 0 – 255  | 0 – 255  |                      |
-| Subnetzmaske                             | 255                 | 0                     | 0        | 0        | CIDR-Schreibweise /8 |
-|                                          | Netz-ID (Vorwahl) > | < Host-ID (Rufnummer) |          |          |
-
-|                                           | Oktett 1  | Oktett 2            | Oktett 3              | Oktett 4 |                       |
-| ----------------------------------------- | --------- | ------------------- | --------------------- | -------- | --------------------- |
-| Stadt: 03003/12345 => Class B: IP-Adresse | 128 – 191 | 0 – 255             | 0 – 255               | 0 – 255  |
-| Subnetzmaske                              | 255       | 255                 | 0                     | 0        | CIDR-Schreibweise /16 |
-|                                           |           | Netz-ID (Vorwahl) > | < Host-ID (Rufnummer) |          |                       |
-
-|                                          | Oktett 1  | Oktett 2 | Oktett 3            | Oktett 4              |                       |
-| ---------------------------------------- | --------- | -------- | ------------------- | --------------------- | --------------------- |
-| Dorf: 030056/1237 => Class C: IP-Adresse | 192 – 223 | 0 – 255  | 0 – 255             | 0 – 255               |
-| Subnetzmaske                             | 255       | 255      | 255                 | 0                     | CIDR-Schreibweise /24 |
-|                                          |           |          | Netz-ID (Vorwahl) > | < Host-ID (Rufnummer) |                       |
-
-<hr>  
-  
   <br>
 
 ### Zusammenfassung Class A:
@@ -629,9 +644,11 @@ Privater Adressbereich in Class A
 #### Einführung:
 
 - Betrachten wir die privaten Adressbereiche aus Class A, B und C:
+
   - 10.0.0.0 /8 => 1 Netz mit 16.777.216 (-2) Adressen  
-   172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen  
-   192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
+    172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen  
+    192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
+
   <!-- 21 -->
 
 #### **Problem 1:**
@@ -673,82 +690,106 @@ Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
 
 ### Subnetting IPv4 ("richtiges Subnetting")
 
-=> siehe: im Verzeichnis Filius/Filius_5_LAN_8_PCs.fls
-benötigte Hilfsmittel:
-Umrechnung dezimal => binär.
-Umrechnung binär => dezimal.
-Das "Mühlenbecker Wagenrad".
-Zweierpotenzen:
-2¹ = 2
-2² = 4
-2³ = 8
-2 = 16 ⁴
-usw.
-Der kleine Exponent gibt an, um wie viele "Einsen" die Subnetzmaske länger wird.
-Die Zahl 2 oder 4 oder 8 oder 16 usw., ist der jeweils mögliche Teilungsfaktor:
+- siehe: im Verzeichnis Filius/Filius_5_LAN_8_PCs.fls
+  - benötigte Hilfsmittel: - Umrechnung dezimal => binär. - Umrechnung binär => dezimal. - Das "Mühlenbecker Wagenrad".  
+    Zweierpotenzen:  
+    2¹ = 2  
+    2² = 4  
+    2³ = 8  
+    2⁴ = 16  
+    usw.
+
+<f>Der kleine Exponent gibt an, um wie viele "Einsen" die Subnetzmaske länger wird.</f>  
+Die Zahl 2 oder 4 oder 8 oder 16 usw., ist der jeweils mögliche Teilungsfaktor:  
 Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.
-=> siehe: Foto "TB_1" als Tafelbild
+
+![usv!](img/TB_1.jpg "usv")
+
 => siehe: im Verzeichnis Filius/Filius_6_SUB_2.fls
-gegeben:
-Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise)
+
+#### gegeben:
+
+Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise)  
 Subnetzmaske: 255.255.255. 0 (dezimale Schreibweise)
-gesucht:
-2 Subnetze.
-Anzahl der Adressen pro Subnetz.
-Anfang und Ende der Subnetze.
+
+#### gesucht:
+
+2 Subnetze.  
+Anzahl der Adressen pro Subnetz.  
+Anfang und Ende der Subnetze.  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
-[24]
-Lösung:
-Zweierpotenzen aufschreiben, Exponent in ROT!
-Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.
-Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
+
+<!-- 24 -->
+
+#### Lösung:
+
+Zweierpotenzen aufschreiben, Exponent in ROT!  
+Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.  
+Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
-Rechnung:
-256 Adressen : 2 Subnetze = 128 Adressen pro Subnetz.
-"Mühlenbecker Wagenrad" aufzeichnen.
-Subnetz 1 beginnt bei 0 und endet bei 127 (= 128 Adressen).
-Subnetz 2 beginnt bei 128 und endet bei 255 (= 128 Adressen).
-Originale Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
-24 Einsen schreiben und den Rest mit Nullen auffüllen:
-CIDR: /24
-dezimal: 255 . 255 . 255 . 0
-binär: 11111111.11111111.11111111.00000000
-Der kleine ROTE Exponent der Zweierpotenzen 2¹ = 2 besagt, die neue Subnetzmaske
-muss um eine Eins länger werden.
-11111111.11111111.11111111.10000000
-Neue Subnetzmaske umrechnen binär => dezimal oder bei CIDR, Einsen zählen und aufschreiben:
-binär: 11111111.11111111.11111111.10000000
-dezimal: 255 . 255 . 255 . 128
-CIDR: /25
-[25]
-=> siehe: Foto "TB_2" als Tafelbild
+
+###### Rechnung:
+
+- 256 Adressen : 2 Subnetze = 128 Adressen pro Subnetz.
+- "Mühlenbecker Wagenrad" aufzeichnen.
+- Subnetz 1 beginnt bei 0 und endet bei 127 (= 128 Adressen).
+- Subnetz 2 beginnt bei 128 und endet bei 255 (= 128 Adressen).
+- Originale Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
+- 24 Einsen schreiben und den Rest mit Nullen auffüllen:
+
+  - CIDR: /24
+  - dezimal: 255 . 255 . 255 . 0
+  - binär: 11111111.11111111.11111111.00000000
+
+- Der kleine ROTE Exponent der Zweierpotenzen 2¹ = 2 besagt, die neue Subnetzmaske
+- muss um eine Eins länger werden.
+- 11111111.11111111.11111111.10000000
+- Neue Subnetzmaske umrechnen binär => dezimal oder bei CIDR, Einsen zählen und aufschreiben:
+- binär: 11111111.11111111.11111111.10000000
+- dezimal: 255 . 255 . 255 . 128
+- CIDR: /25
+
+<!-- 25 -->
+
+![usv!](img/TB_2.jpg "usv")
+
 => siehe: im Verzeichnis Filius/Filius_7_SUB_4.fls
-gegeben:
-Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise).
+
+#### gegeben:
+
+Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise).  
 Subnetzmaske: 255.255.255. 0 (dezimale Schreibweise).
-gesucht:
-4 Subnetze.
-Anzahl der Adressen pro Subnetz.
-Anfang und Ende der Subnetze.
+
+#### gesucht:
+
+4 Subnetze.  
+Anzahl der Adressen pro Subnetz.  
+Anfang und Ende der Subnetze.  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
-Lösung:
-Zweierpotenzen aufschreiben, Exponent in ROT!
-Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.
-Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
+
+#### Lösung:
+
+Zweierpotenzen aufschreiben, Exponent in ROT!  
+Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.  
+Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
-Rechnung:
-256 Adressen : 4 Subnetze = 64 Adressen pro Subnetz.
-"Mühlenbecker Wagenrad" aufzeichnen.
-Subnetz 1 beginnt bei 0 und endet bei 63 (= 64 Adressen).
-Subnetz 2 beginnt bei 64 und endet bei 127 (= 64 Adressen).
-Subnetz 3 beginnt bei 128 und endet bei 191 (= 64 Adressen).
-Subnetz 4 beginnt bei 192 und endet bei 255 (= 64 Adressen).
+
+#### Rechnung:
+
+256 Adressen : 4 Subnetze = 64 Adressen pro Subnetz.  
+"Mühlenbecker Wagenrad" aufzeichnen.  
+Subnetz 1 beginnt bei 0 und endet bei 63 (= 64 Adressen).  
+Subnetz 2 beginnt bei 64 und endet bei 127 (= 64 Adressen).  
+Subnetz 3 beginnt bei 128 und endet bei 191 (= 64 Adressen).  
+Subnetz 4 beginnt bei 192 und endet bei 255 (= 64 Adressen).  
 Originale Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
-24 Einsen schreiben und den Rest mit Nullen auffüllen:
-CIDR: /24
-dezimal: 255 . 255 . 255 . 0
+24 Einsen schreiben und den Rest mit Nullen auffüllen:  
+CIDR: /24  
+dezimal: 255 . 255 . 255 . 0  
 binär: 11111111.11111111.11111111.00000000
-[26]
+
+<!-- 26 -->
+
 Der kleine ROTE Exponent der Zweierpotenzen 2² = 4 besagt, die neue Subnetzmaske
 muss um 2 Einsen länger werden.
 11111111.11111111.11111111.11000000
