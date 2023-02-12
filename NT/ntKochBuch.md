@@ -546,8 +546,6 @@ Somit ergeben sich:
 - 128 Netze (0 – 127) aus dem Oktett 1 (zählt durch die Subnetzmaske zur Netz-ID).
 - Jedes Netz hat 16.777.216 (-2) Adressen (256 _ 256 _ 256 = 2^24) aus Oktett 2 und 3 und 4.
 
-<br>
-
 ### Zusammenfassung Class B:
 
 - Das Oktett 1 geht von 128 – 191 (64 verschiedene Zahlen).
@@ -557,12 +555,12 @@ Somit ergeben sich:
     255.255.0.0
     CIDR Schreibweise: /16
 
-Somit ergeben sich:  
-64 Netze (128 – 191) aus dem Oktett 1 _ 256 Netze (0 – 255) aus dem Oktett 2.
-= 16.384 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
-Jedes Netz hat 65.536 (-2) Adressen (256 _ 256 = 2^16) aus Oktett 3 und 4.
+Somit ergeben sich:
 
-<br>
+- 64 Netze (128 – 191) aus dem Oktett 1
+- 256 Netze (0 – 255) aus dem Oktett 2.
+- = 16.384 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
+- Jedes Netz hat 65.536 (-2) Adressen (256 \_ 256 = 2^16) aus Oktett 3 und 4.
 
 ### Zusammenfassung Class C:
 
@@ -572,11 +570,13 @@ Jedes Netz hat 65.536 (-2) Adressen (256 _ 256 = 2^16) aus Oktett 3 und 4.
   - klassische (dezimale) Schreibweise: 255.255.255.0
     CIDR Schreibweise: /24
 
-Somit ergeben sich:  
-32 Netze (191 – 223) aus dem Oktett 1 _ 256 Netze (0 – 255) aus dem Oktett 2 _
-256 Netze (0 – 255) aus dem Oktett 3.
-= 2.097.152 Netze (Oktett 1 und 2 und 3 zählen durch die Subnetzmaske zur Netz-ID).
-Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
+Somit ergeben sich:
+
+- 32 Netze (191 – 223) aus dem Oktett 1
+- 256 Netze (0 – 255) aus dem Oktett 2 \_
+- 256 Netze (0 – 255) aus dem Oktett 3.
+- = 2.097.152 Netze (Oktett 1 und 2 und 3 zählen durch die Subnetzmaske zur Netz-ID).
+- Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
 
 => siehe: Foto "Blatt 1" als handschriftliche Darstellung  
 ==>> In jedem Netz (auch Subnetz) können 2 Adressen NICHT benutzt werden.
@@ -647,9 +647,9 @@ Privater Adressbereich in Class A
 
 - Betrachten wir die privaten Adressbereiche aus Class A, B und C:
 
-  - 10.0.0.0 /8 => 1 Netz mit 16.777.216 (-2) Adressen  
-    172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen  
-    192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
+  - 10.0.0.0 /8 => 1 Netz mit 16.777.216 (-2) Adressen
+  - 172.16.0.0 bis 172.31.0.0 /16 => 16 Netze mit je 65.536 (-2) Adressen
+  - 192.168.0.0 /24 => 256 Netze mit je 256 (-2) Adressen
 
   <!-- 21 -->
 
@@ -667,7 +667,9 @@ Gesucht wird eine Lösung für 50 private Netze mit je 300 Adressen:
 - Nutzung des privaten Netzes aus Class A.
 - Nutzung der Standardsubnetzmaske aus Class B.
 - **Somit ergibt sich:**
-  - 1 Netz (10) aus dem Oktett 1 \_ 256 Netze (0 – 255) aus dem Oktett 2 = 256 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
+  - 1 Netz (10) aus dem Oktett 1
+  - 256 Netze (0 – 255) aus dem Oktett 2
+  - = 256 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
   - Jedes Netz hat 65.536 (-2) Adressen (256 \_ 256 = 2^16) aus Oktett 3 und 4.
 
 #### **Problem 2:**
@@ -684,7 +686,9 @@ Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
 - Nutzung des privaten Netzes aus Class A.
 - Nutzung der Standardsubnetzmaske aus Class C.
 - **Somit ergibt sich:**
-  - 1 Netz (10) aus dem Oktett 1 \_ 256 Netze (0 – 255) aus dem Oktett 2 \_256 Netze (0 – 255) aus dem Oktett 3.
+  - 1 Netz (10) aus dem Oktett 1
+  - 256 Netze (0 – 255) aus dem Oktett 2
+  - 256 Netze (0 – 255) aus dem Oktett 3.
   - = 65.536 Netze (Oktette 1 bis 3 zählen durch die Subnetzmaske jetzt zur Netz-ID).
   - Jedes Netz hat 256 (-2) Adressen (256 = 2^8) aus Oktett 4.
 
@@ -693,7 +697,10 @@ Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
 ### Subnetting IPv4 ("richtiges Subnetting")
 
 - siehe: im Verzeichnis Filius/Filius_5_LAN_8_PCs.fls
-  - benötigte Hilfsmittel: - Umrechnung dezimal => binär. - Umrechnung binär => dezimal. - Das "Mühlenbecker Wagenrad".  
+  - benötigte Hilfsmittel:
+  - Umrechnung dezimal => binär.
+  - Umrechnung binär => dezimal.
+  - Das "Mühlenbecker Wagenrad".  
     Zweierpotenzen:  
     2¹ = 2  
     2² = 4  
@@ -705,7 +712,7 @@ Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
 Die Zahl 2 oder 4 oder 8 oder 16 usw., ist der jeweils mögliche Teilungsfaktor:  
 Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.
 
-![usv!](img/TB_1.jpg "usv")
+![TB 1!](img/TB_1.jpg "TB 1")
 
 - siehe: im Verzeichnis Filius/Filius_6_SUB_2.fls
 
@@ -730,7 +737,7 @@ Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.
 Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
 
-###### Rechnung:
+#### Rechnung:
 
 - 256 Adressen : 2 Subnetze = 128 Adressen pro Subnetz.
 - "Mühlenbecker Wagenrad" aufzeichnen.
@@ -753,69 +760,82 @@ Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
 
 <!-- 25 -->
 
-![usv!](img/TB_2.jpg "usv")
+![TB_2!](img/TB_2.jpg "TB_2")
 
 => siehe: im Verzeichnis Filius/Filius_7_SUB_4.fls
 
-#### gegeben:
+<hr>
+
+#### gegeben
 
 Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise).  
 Subnetzmaske: 255.255.255. 0 (dezimale Schreibweise).
 
-#### gesucht:
+#### gesucht
 
-4 Subnetze.  
-Anzahl der Adressen pro Subnetz.  
-Anfang und Ende der Subnetze.  
-Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
+- 4 Subnetze.
+- Anzahl der Adressen pro Subnetz.
+- Anfang und Ende der Subnetze.
+- Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
 
-#### Lösung:
+#### Lösung
 
-Zweierpotenzen aufschreiben, Exponent in ROT!  
-Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.  
-Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
-0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
+- Zweierpotenzen aufschreiben, Exponent in ROT!
+- Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.
+- Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
+- 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
 
 #### Rechnung:
 
-256 Adressen : 4 Subnetze = 64 Adressen pro Subnetz.  
-"Mühlenbecker Wagenrad" aufzeichnen.  
-Subnetz 1 beginnt bei 0 und endet bei 63 (= 64 Adressen).  
-Subnetz 2 beginnt bei 64 und endet bei 127 (= 64 Adressen).  
-Subnetz 3 beginnt bei 128 und endet bei 191 (= 64 Adressen).  
-Subnetz 4 beginnt bei 192 und endet bei 255 (= 64 Adressen).  
-Originale Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
-24 Einsen schreiben und den Rest mit Nullen auffüllen:  
-CIDR: /24  
-dezimal: 255 . 255 . 255 . 0  
-binär: 11111111.11111111.11111111.00000000
+- 256 Adressen : 4 Subnetze = 64 Adressen pro Subnetz.
+- "Mühlenbecker Wagenrad" aufzeichnen.
+- Subnetz 1 beginnt bei 0 und endet bei 63 (= 64 Adressen).
+- Subnetz 2 beginnt bei 64 und endet bei 127 (= 64 Adressen).
+- Subnetz 3 beginnt bei 128 und endet bei 191 (= 64 Adressen).
+- Subnetz 4 beginnt bei 192 und endet bei 255 (= 64 Adressen).
+- Originale Subnetzmaske umrechnen dezimal
+  - => binär oder bei CIDR,
+    24 Einsen schreiben und den Rest mit Nullen auffüllen:  
+    CIDR: /24  
+    dezimal: 255 . 255 . 255 . 0  
+    binär: 11111111.11111111.11111111.00000000
 
 <!-- 26 -->
 
-Der kleine ROTE Exponent der Zweierpotenzen 2² = 4 besagt, die neue Subnetzmaske
-muss um 2 Einsen länger werden.
-11111111.11111111.11111111.11000000
-Neue Subnetzmaske umrechnen binär => dezimal oder bei CIDR, Einsen zählen und aufschreiben:
+Der kleine ROTE Exponent der Zweierpotenzen 2² = 4 besagt, die neue Subnetzmaske muss um 2 Einsen länger werden.  
+11111111.11111111.11111111.11000000  
+Neue Subnetzmaske umrechnen binär  
+=> dezimal oder bei CIDR, Einsen zählen und aufschreiben:
 binär: 11111111.11111111.11111111.11000000
 dezimal: 255 . 255 . 255 . 192
 CIDR: /26
 => siehe: Foto "TB_3" als Tafelbild
-gegeben:
-Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise).
+
+#### gegeben
+
+Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise).  
 Subnetzmaske: 255.255.255. 0 (dezimale Schreibweise).
-gesucht:
-8 Subnetze.
-Anzahl der Adressen pro Subnetz.
-Anfang und Ende der Subnetze.
+
+#### gesucht
+
+8 Subnetze.  
+Anzahl der Adressen pro Subnetz.  
+Anfang und Ende der Subnetze.  
 neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
-Lösung:
+
+#### Lösung
+
 Zweierpotenzen aufschreiben, Exponent in ROT!
-Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.
-Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
+Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.  
+Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
-Rechnung:
+
+#### Rechnung
+
 256 Adressen : 8 Subnetze = 32 Adressen pro Subnetz.
-[27]
+
+<!-- 27 -->
+
 "Mühlenbecker Wagenrad" aufzeichnen.
 Subnetz 1 beginnt bei 0 und endet bei 31 (= 32 Adressen).
 Subnetz 2 beginnt bei 32 und endet bei 63 (= 32 Adressen).
