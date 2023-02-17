@@ -810,6 +810,7 @@ binär: 11111111.11111111.11111111.11000000
 dezimal: 255 . 255 . 255 . 192
 CIDR: /26
 => siehe: Foto "TB_3" als Tafelbild
+![TB_3!](img/TB_3.jpg "TB_3")
 
 #### gegeben
 
@@ -837,295 +838,422 @@ Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.
 <!-- 27 -->
 
 "Mühlenbecker Wagenrad" aufzeichnen.
-Subnetz 1 beginnt bei 0 und endet bei 31 (= 32 Adressen).
-Subnetz 2 beginnt bei 32 und endet bei 63 (= 32 Adressen).
-Subnetz 3 beginnt bei 64 und endet bei 95 (= 32 Adressen).
-Subnetz 4 beginnt bei 96 und endet bei 127 (= 32 Adressen).
-Subnetz 5 beginnt bei 128 und endet bei 159 (= 32 Adressen).
-Subnetz 6 beginnt bei 160 und endet bei 191 (= 32 Adressen).
-Subnetz 7 beginnt bei 192 und endet bei 223 (= 32 Adressen).
-Subnetz 8 beginnt bei 224 und endet bei 255 (= 32 Adressen).
+Subnetz 1 beginnt bei 0 und endet bei 31 (= 32 Adressen).  
+Subnetz 2 beginnt bei 32 und endet bei 63 (= 32 Adressen).  
+Subnetz 3 beginnt bei 64 und endet bei 95 (= 32 Adressen).  
+Subnetz 4 beginnt bei 96 und endet bei 127 (= 32 Adressen).  
+Subnetz 5 beginnt bei 128 und endet bei 159 (= 32 Adressen).  
+Subnetz 6 beginnt bei 160 und endet bei 191 (= 32 Adressen).  
+Subnetz 7 beginnt bei 192 und endet bei 223 (= 32 Adressen).  
+Subnetz 8 beginnt bei 224 und endet bei 255 (= 32 Adressen).  
 Originale Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
-24 Einsen schreiben und den Rest mit Nullen auffüllen:
-CIDR: /24
-dezimal: 255 . 255 . 255 . 0
-binär: 11111111.11111111.11111111.00000000
-Der kleine ROTE Exponent der Zweierpotenzen 2³ = 8 besagt, die neue Subnetzmaske
-muss um 3 Einsen länger werden.
-11111111.11111111.11111111.11100000
-Neue Subnetzmaske umrechnen binär => dezimal oder bei CIDR, Einsen zählen und aufschreiben:
-binär: 11111111.11111111.11111111.11100000
-dezimal: 255 . 255 . 255 . 224
+24 Einsen schreiben und den Rest mit Nullen auffüllen:  
+CIDR: /24  
+dezimal: 255 . 255 . 255 . 0  
+binär: 11111111.11111111.11111111.00000000  
+Der kleine ROTE Exponent der Zweierpotenzen 2³ = 8 besagt, die neue Subnetzmaske  
+muss um 3 Einsen länger werden.  
+11111111.11111111.11111111.11100000  
+Neue Subnetzmaske umrechnen binär => dezimal oder bei CIDR, Einsen zählen und aufschreiben:  
+binär: 11111111.11111111.11111111.11100000  
+dezimal: 255 . 255 . 255 . 224  
 CIDR: /27
-asymmetrisches Subnetting:
+
+### asymmetrisches Subnetting:
+
 => siehe: "Asymetrisches_Subnetting_Grafik.pdf"
-[28]
-"reverses Subnetting" IPv4 (Anfang und Ende des Subnetzes ermitteln).
+![TB_3!](img/Asymetrisches_Subnetting_Grafik_01.png "TB_3")
+
+<!-- [28] -->
+
+### "reverses Subnetting" IPv4 (Anfang und Ende des Subnetzes ermitteln).
+
 => siehe: Foto "TB_4" als Tafelbild
-gegeben:
-Adresse: 192.168. 1 .130 /27 (CIDR Schreibweise).
+![TB_4!](img/TB_4.jpg "TB_4")
+
+#### gegeben:
+
+Adresse: 192.168. 1 .130 /27 (CIDR Schreibweise).  
 Subnetzmaske: 255.255.255.224 (dezimale Schreibweise).
-gesucht:
-Anfang des Subnetzes, in dem sich diese IP-Adresse befindet.
+
+#### gesucht:
+
+Anfang des Subnetzes, in dem sich diese IP-Adresse befindet.  
 Ende des Subnetzes, in dem sich diese IP-Adresse befindet.
-Lösung:
-IP-Adresse umrechnen dezimal => binär:
-dezimal: 192 . 168 . 1 . 130
-binär: 11000000.10101000.00000001.10000010
+
+#### Lösung:
+
+IP-Adresse umrechnen dezimal => binär:  
+dezimal: 192 . 168 . 1 . 130  
+binär: 11000000.10101000.00000001.10000010  
 Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
-27 Einsen schreiben und den Rest mit Nullen auffüllen:
-CIDR: /27
-dezimal: 255 . 255 . 255 . 224
-binär: 11111111.11111111.11111111.11100000
-IP-Adresse und Subnetzmaske untereinander schreiben (binär):
-IP: 11000000.10101000.00000001.10000010
-Sub: 11111111.11111111.11111111.11100000
-Ende der "Einsen" aus der Subnetzmaske suchen und senkrechte Linie ziehen:
-IP: 11000000.10101000.00000001.100 | 00010
+27 Einsen schreiben und den Rest mit Nullen auffüllen:  
+CIDR: /27  
+dezimal: 255 . 255 . 255 . 224  
+binär: 11111111.11111111.11111111.11100000  
+IP-Adresse und Subnetzmaske untereinander schreiben (binär):  
+IP: 11000000.10101000.00000001.10000010  
+Sub: 11111111.11111111.11111111.11100000  
+Ende der "Einsen" aus der Subnetzmaske suchen und senkrechte Linie ziehen:  
+IP: 11000000.10101000.00000001.100 | 00010  
 Sub: 11111111.11111111.11111111.111 | 00000
-[29]
-Anfang des Subnetzes ermitteln:
+
+<!-- [29] -->
+
+Anfang des Subnetzes ermitteln:  
 In der IP-Adresse, rechts von der senkrechten Linie, alle bits
-auf 0 ("null") setzen:
-IP: 11000000.10101000.00000001.100 | 00000
-Jedes Oktett für sich binär => dezimal umrechnen:
-IP: 11000000.10101000.00000001.100 | 00000 (binär)
-IP: 192 . 168 . 1 . 128 (dezimal)
-Vergleiche das Ergebnis 192.168.1.128 mit dem "Mühlenbecker Wagenrad"
-auf dem Foto "TB_3".
-Ende des Subnetzes ermitteln:
+auf 0 ("null") setzen:  
+IP: 11000000.10101000.00000001.100 | 00000  
+Jedes Oktett für sich binär => dezimal umrechnen:  
+IP: 11000000.10101000.00000001.100 | 00000 (binär)  
+IP: 192 . 168 . 1 . 128 (dezimal)  
+Vergleiche das Ergebnis 192.168.1.128 mit dem "Mühlenbecker Wagenrad" auf dem Foto "TB_3".  
+Ende des Subnetzes ermitteln:  
 In der IP-Adresse, rechts von der senkrechten Linie, alle bits
-auf 1 ("eins") setzen:
+auf 1 ("eins") setzen:  
 IP: 11000000.10101000.00000001.100 | 11111
-Jedes Oktett für sich binär => dezimal umrechnen:
-IP: 11000000.10101000.00000001.100 | 11111 (binär)
-IP: 192 . 168 . 1 . 159 (dezimal)
-Vergleiche das Ergebnis 192.168.1.159 mit dem "Mühlenbecker Wagenrad"
-auf dem Foto "TB_3".
-Subnetting Class A und Class B:
-Funktioniert genauso, wie in Class C beschrieben.
+Jedes Oktett für sich binär => dezimal umrechnen:  
+IP: 11000000.10101000.00000001.100 | 11111 (binär)  
+IP: 192 . 168 . 1 . 159 (dezimal)  
+Vergleiche das Ergebnis 192.168.1.159 mit dem "Mühlenbecker Wagenrad" auf dem Foto "TB_3".  
+Subnetting Class A und Class B:  
+Funktioniert genauso, wie in Class C beschrieben.  
 => Achtung: Dabei bitte nicht die verbleibenden Oktette ("weiter rechts") vergessen!
-[30]
-Subnetzmaske IPv4 analysieren:
+
+<!-- [30] -->
+
+### Subnetzmaske IPv4 analysieren:
+
 => siehe: Foto "TB_5" als Tafelbild
-gegeben:
-Subnetzmaske: 255.255.255.224 (dezimale Schreibweise).
+![TB_5!](img/TB_5.jpg "TB_5")
+
+#### gegeben:
+
+Subnetzmaske: 255.255.255.224 (dezimale Schreibweise).  
 /27 (CIDR Schreibweise).
-gesucht:
-Anzahl der Subnetze.
+
+#### gesucht:
+
+Anzahl der Subnetze.  
 Anzahl der Adressen im jeweiligen Subnetz.
-Lösung:
+
+#### Lösung:
+
 Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
 27 Einsen schreiben und den Rest mit Nullen auffüllen:
-CIDR: /27
-dezimal: 255 . 255 . 255 . 224
-binär: 11111111.11111111.11111111.11100000
-Ende der "Einsen" aus der Standardsubnetzmaske (255.255.255.0 bzw. /24) suchen und
-senkrechte Linie ziehen:
-11111111.11111111.11111111 | 11100000
-Ende der "Einsen" aus der gegebenen Subnetzmaske (255.255.255.224 bzw. /27) suchen,
-senkrechte Linie ziehen und Zahl der "Einsen" und "Nullen" notieren:
-11111111.11111111.11111111 | 111 | 00000
+CIDR: /27  
+dezimal: 255 . 255 . 255 . 224  
+binär: 11111111.11111111.11111111.11100000  
+Ende der "Einsen" aus der Standardsubnetzmaske (255.255.255.0 bzw. /24) suchen und  
+senkrechte Linie ziehen:  
+11111111.11111111.11111111 | 11100000  
+Ende der "Einsen" aus der gegebenen Subnetzmaske (255.255.255.224 bzw. /27) suchen, senkrechte Linie ziehen und Zahl der "Einsen" und "Nullen" notieren:  
+11111111.11111111.11111111 | 111 | 00000  
 3 5
 rechne:
 2³ (2 hoch 3) = 8 => 8 Subnetze sind entstanden.
 2 (2 hoch 5) = ⁵ 32 => 32 Adressen pro Subnetz sind vorhanden (- 2) nicht vergessen!
 vergleiche:
 => siehe: Foto "TB_3"
-[31]
-IPv6:
-=> siehe: Foto "TB_6" als Tafelbild
+
+<!-- [31] -->
+
+## IPv6:
+
+=> siehe: Foto "TB_6" als Tafelbild  
+![TB_5!](img/TB_6.jpg "TB_6")
 => siehe: Cisco.jpg als Übersicht der IPv6-Adressen
-Die IPv6-Adresse ist 128 bit lang.
-Je 4 bit werden hexadezimal als ein "Nibble" dargestellt.
-4 "Nibble" bilden einen "Block".
-Die "Blöcke" werden durch einen Doppelpunkt : getrennt.
+
+![Cisco!](img/Cisco.jpg "Cisco")
+
+<f>Die IPv6-Adresse ist 128 bit lang.</f>  
+Je 4 bit werden hexadezimal als ein <f>"Nibble"</f> dargestellt.  
+4 "Nibble" bilden einen <f>"Block"</f>.
+Die "Blöcke" werden durch einen Doppelpunkt <f>:</f> getrennt.  
 Somit ergeben sich:
-128 bit
-32 Nibble
-16 Byte (2 Nibble = 8 bit = 1 Byte)
-8 Blöcke
+
+- 128 bit
+- 32 Nibble
+- 16 Byte (2 Nibble = 8 bit = 1 Byte)
+- 8 Blöcke
+
 Die Subnetzmaske wird in CIDR-Schreibweise dargestellt.
-Die Subnetzmaske muss nicht /64 sein, auch andere Werte sind möglich und üblich.
-kürzen von IPv6-Adressen:
+Die Subnetzmaske muss nicht /64 sein, auch andere Werte sind möglich und üblich.  
+<f>kürzen</f> von IPv6-Adressen:
+
 => siehe: Foto "TB_7" als Tafelbild
+
+![TB_7!](img/TB_7.jpg "TB_7")
+
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden:
-gegeben:
+
+#### gegeben:
+
 IPv6-Adresse: 2001:0000:0000:000A:0000:0000:0000:0B00
-gesucht:
+
+#### gesucht:
+
 Verkürzte Schreibweise der IPv6-Adresse.
-Lösung:
-Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:
+
+#### Lösung:
+
+Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:  
 2001:0:0:A:0:0:0:B00
-[32]
-"weiter verkürzen" von IPv6-Adressen:
+
+<!-- [32] -->
+
+"<f>weiter verkürzen</f>" von IPv6-Adressen:  
 => siehe: Foto "TB_7" als Tafelbild
-Einmalig (EINMALIG!) pro IPv6-Adresse darf ein Block,
-der nur aus "Nullen" besteht, durch zwei Doppelpunkte :: ersetzt werden.
-Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke,
-die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
-Beispiel 1:
-gegeben:
+![TB_7!](img/TB_7.jpg "TB_7")
+
+- Einmalig (EINMALIG!) pro IPv6-Adresse darf ein Block,
+  der nur aus "Nullen" besteht, durch zwei Doppelpunkte :: ersetzt werden.
+- Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
+
+### Beispiel 1:
+
+#### gegeben:
+
 Verkürzte Schreibweise der IPv6-Adresse: 2001:0:0:A:0:0:0:B00
-gesucht:
+
+#### gesucht:
+
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
-Lösung:
+
+#### Lösung:
+
 Im konkreten Fall ergeben sich 2 Lösungen:
-Lösung 1 (blaue Variante), die vorderen "Nuller-Blöcke" werden durch :: ersetzt:
+
+##### Lösung 1 (blaue Variante), die vorderen "Nuller-Blöcke" werden durch :: ersetzt:
+
 2001::A:0:0:0:B00
-Lösung 2 (rote Variante), die hinteren "Nuller-Blöcke" werden durch :: ersetzt:
+
+##### Lösung 2 (rote Variante), die hinteren "Nuller-Blöcke" werden durch :: ersetzt:
+
 2001:0:0:A::B00
+
 Die Lösung 2 (rote Variante) ist zu bevorzugen, da sie effektiver ist.
-Beispiel 2:
-gegeben:
+
+### Beispiel 2:
+
+#### gegeben:
+
 IPv6-Adresse: 2001:1234:5678:90AB:0000:0000:0000:0000
-gesucht:
-Verkürzte Schreibweise der IPv6-Adresse.
+
+#### gesucht:
+
+Verkürzte Schreibweise der IPv6-Adresse.  
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
-[33]
-Lösung:
+
+<!-- [33] -->
+
+#### Lösung:
+
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden:
-aus:
+
+##### aus:
+
 2001:1234:5678:90AB:0000:0000:0000:0000
-wird:
+
+##### wird:
+
 2001:1234:5678:90AB:0:0:0:0
-Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke,
-die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
-aus:
+
+Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
+
+##### aus:
+
 2001:1234:5678:90AB:0:0:0:0
-wird:
+
+##### wird:
+
 2001:1234:5678:90AB::
-Beispiel 3:
-gegeben:
+
+### Beispiel 3:
+
+#### gegeben:
+
 IPv6-Adresse: 0000:0000:0000:0000:0000:0000:0000:0001
-gesucht:
-Verkürzte Schreibweise der IPv6-Adresse.
+
+#### gesucht:
+
+Verkürzte Schreibweise der IPv6-Adresse.  
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
-Lösung: [34]
+
+#### Lösung:
+
+<!-- [34] -->
+
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden:
-aus:
+
+##### aus:
+
 0000:0000:0000:0000:0000:0000:0000:0001
-wird:
+
+##### wird:
+
 0:0:0:0:0:0:0:1
-Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke,
-die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
-aus:
+
+Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
+
+##### aus:
+
 0:0:0:0:0:0:0:1
-wird:
+
+##### wird:
+
 ::1
-folgende IPv6-Adressen sind somit gleichwertig:
-aus Beispiel 1:
-2001:0000:0000:000A:0000:0000:0000:0B00
-= 2001:0:0:A:0:0:0:B00
-= 2001::A:0:0:0:B00
+
+### folgende IPv6-Adressen sind somit gleichwertig:
+
+#### aus Beispiel 1:
+
+2001:0000:0000:000A:0000:0000:0000:0B00  
+= 2001:0:0:A:0:0:0:B00  
+= 2001::A:0:0:0:B00  
 = 2001:0:0:A::B00
-aus Beispiel 2:
-2001:1234:5678:90AB:0000:0000:0000:0000
-= 2001:1234:5678:90AB:0:0:0:0
+
+#### aus Beispiel 2:
+
+2001:1234:5678:90AB:0000:0000:0000:0000  
+= 2001:1234:5678:90AB:0:0:0:0  
 = 2001:1234:5678:90AB::
-aus Beispiel 3:
-0000:0000:0000:0000:0000:0000:0000:0001
-= 0:0:0:0:0:0:0:1
+
+#### aus Beispiel 3:
+
+0000:0000:0000:0000:0000:0000:0000:0001  
+= 0:0:0:0:0:0:0:1  
 = ::1
-[35]
-Subnetting IPv6:
-benötigte Hilfsmittel:
-Umrechnung hexadezimal => binär.
-Umrechnung binär => hexadezimal.
-----> "Mühlenbecker Pfeil":
-Inoffizielle Darstellung, gilt NUR im BFW-Mühlenbeck!
-Erspart mehrere "F-Böcke" (FFFF) bis zum Ende der Adresse zu schreiben.
-– „ – "Mühlenbecker Gänsefüßchen":
-Inoffizielle Darstellung, gilt NUR im BFW-Mühlenbeck!
-Erspart den immer gleichen Anfangsteil der Adresse zu schreiben.
-Zweierpotenzen:
-2¹ = 2
-2² = 4
-2³ = 8
-2 = 16 ⁴
-usw.
-Der kleine Exponent gibt an, um wie viele "Einsen" die Subnetzmaske länger wird.
-Die Zahl 2 oder 4 oder 8 oder 16 usw. ist der jeweils mögliche Teilungsfaktor:
-Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.
-hexadezimale Zeichen (16 Stück)
+
+<!-- [35] -->
+
+### Subnetting IPv6:
+
+benötigte Hilfsmittel:  
+Umrechnung hexadezimal => binär.  
+Umrechnung binär => hexadezimal.  
+----> "Mühlenbecker Pfeil":  
+Inoffizielle Darstellung, gilt NUR im BFW-Mühlenbeck!  
+Erspart mehrere "F-Böcke" (FFFF) bis zum Ende der Adresse zu schreiben.  
+– „ – "Mühlenbecker Gänsefüßchen":  
+Inoffizielle Darstellung, gilt NUR im BFW-Mühlenbeck!  
+Erspart den immer gleichen Anfangsteil der Adresse zu schreiben.  
+Zweierpotenzen:  
+2¹ = 2  
+2² = 4  
+2³ = 8  
+2⁴ = 16  
+usw.  
+Der kleine Exponent gibt an, um wie viele "Einsen" die Subnetzmaske länger wird.  
+Die Zahl 2 oder 4 oder 8 oder 16 usw. ist der jeweils mögliche Teilungsfaktor:  
+Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.  
+hexadezimale Zeichen (16 Stück)  
 0 1 2 3 4 5 6 7 8 9 A B C D E F
-[36]
-=> siehe: Foto "TB_8" als Tafelbild
-gegeben:
-Netz: 2001:1234:5678:90AB:: /64
+
+<!-- [36] -->
+
+=> siehe: Foto "TB_8" als Tafelbild  
+![TB_8!](img/TB_8.jpg "TB_8")
+
+#### gegeben:
+
+Netz: 2001:1234:5678:90AB:: /64  
 = 2001:1234:5678:90AB:0000:0000:0000:0000 /64
-gesucht:
-2 Subnetze.
-Anfang und Ende der Subnetze.
+
+#### gesucht:
+
+2 Subnetze.  
+Anfang und Ende der Subnetze.  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
-Lösung:
-Zweierpotenzen aufschreiben, Exponent in ROT!
-Neue Subnetzmaske:
-Der kleine ROTE Exponent der Zweierpotenzen 2¹ = 2 besagt, die neue Subnetzmaske
+
+#### Lösung:
+
+Zweierpotenzen aufschreiben, Exponent in ROT!  
+Neue Subnetzmaske:  
+Der kleine ROTE Exponent der Zweierpotenzen 2¹ = 2 besagt, die neue Subnetzmaske  
 (in CIDR-Schreibweise) muss um eine Eins länger werden.
-/64 + 1 => /65
-Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.
-Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):
+/64 + 1 => /65  
+Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.  
+Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):  
 0 1 2 3 4 5 6 7 8 9 A B C D E F
-Rechnung:
-16 hexadezimalen Zeichen : 2 = 8
-Subnetz 1 beginnt bei 0 und endet bei 7
+
+#### Rechnung:
+
+16 hexadezimalen Zeichen : 2 = 8  
+Subnetz 1 beginnt bei 0 und endet bei 7  
 Subnetz 2 beginnt bei 8 und endet bei F
-[37]
-Subnetze aufschreiben:
-Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:0000:0000:0000 /65
-Subnetz 1 endet bei: 2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /65
-Subnetz 2 beginnt bei: 2001:1234:5678:90AB:8000:0000:0000:0000 /65
-Subnetz 2 endet bei: 2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /65
-Subnetze aufschreiben "Mühlenbecker Art":
-Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /65
-Subnetz 1 endet bei: – „ – :7FFF:----> /65
-Subnetz 2 beginnt bei: – „ – :8000:: /65
+
+<!-- [37] -->
+
+Subnetze aufschreiben:  
+Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:0000:0000:0000 /65  
+Subnetz 1 endet bei: 2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /65  
+Subnetz 2 beginnt bei: 2001:1234:5678:90AB:8000:0000:0000:0000 /65  
+Subnetz 2 endet bei: 2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /65  
+Subnetze aufschreiben "Mühlenbecker Art":  
+Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /65  
+Subnetz 1 endet bei: – „ – :7FFF:----> /65  
+Subnetz 2 beginnt bei: – „ – :8000:: /65  
 Subnetz 2 endet bei: – „ – :FFFF:----> /65
-[38]
-=> siehe: Foto "TB_9" als Tafelbild
-gegeben:
-Netz: 2001:1234:5678:90AB:: /64
+
+<!-- [38] -->
+
+=> siehe: Foto "TB_9" als Tafelbild  
+![TB_9!](img/TB_9.jpg "TB_9")
+
+#### gegeben:
+
+Netz: 2001:1234:5678:90AB:: /64  
 = 2001:1234:5678:90AB:0000:0000:0000:0000 /64
-gesucht:
-4 Subnetze.
-Anfang und Ende der Subnetze
+
+#### gesucht:
+
+4 Subnetze.  
+Anfang und Ende der Subnetze  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
-Lösung:
-Zweierpotenzen aufschreiben, Exponent in ROT!
-Neue Subnetzmaske:
-Der kleine ROTE Exponent der Zweierpotenzen 2² = 4 besagt, die neue Subnetzmaske
+
+#### Lösung:
+
+Zweierpotenzen aufschreiben, Exponent in ROT!  
+Neue Subnetzmaske:  
+Der kleine ROTE Exponent der Zweierpotenzen 2² = 4 besagt, die neue Subnetzmaske  
 (in CIDR-Schreibweise) muss um 2 Einsen länger werden.
-/64 + 2 => /66
-Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.
-Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):
+/64 + 2 => /66  
+Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.  
+Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):  
 0 1 2 3 4 5 6 7 8 9 A B C D E F
-Rechnung:
-16 hexadezimalen Zeichen : 4 = 4
-Subnetz 1 beginnt bei 0 und endet bei 3
-Subnetz 2 beginnt bei 4 und endet bei 7
-Subnetz 3 beginnt bei 8 und endet bei B
+
+#### Rechnung:
+
+16 hexadezimalen Zeichen : 4 = 4  
+Subnetz 1 beginnt bei 0 und endet bei 3  
+Subnetz 2 beginnt bei 4 und endet bei 7  
+Subnetz 3 beginnt bei 8 und endet bei B  
 Subnetz 4 beginnt bei C und endet bei F
-[39]
-Subnetze aufschreiben:
-Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:0000:0000:0000 /66
-Subnetz 1 endet bei: 2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66
-Subnetz 2 beginnt bei: 2001:1234:5678:90AB:4000:0000:0000:0000 /66
-Subnetz 2 endet bei: 2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66
-Subnetz 3 beginnt bei: 2001:1234:5678:90AB:8000:0000:0000:0000 /66
-Subnetz 3 endet bei: 2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66
-Subnetz 4 beginnt bei: 2001:1234:5678:90AB:C000:0000:0000:0000 /66
-Subnetz 4 endet bei: 2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66
-Subnetze aufschreiben "Mühlenbecker Art":
-Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /66
-Subnetz 1 endet bei: – „ – :3FFF:----> /66
-Subnetz 2 beginnt bei: – „ – :4000:: /66
-Subnetz 2 endet bei: – „ – :7FFF:----> /66
-Subnetz 3 beginnt bei: – „ – :8000:: /66
-Subnetz 3 endet bei: – „ – :BFFF:----> /66
-Subnetz 4 beginnt bei: – „ – :C000:: /66
+
+<!-- [39] -->
+
+Subnetze aufschreiben:  
+Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:0000:0000:0000 /66  
+Subnetz 1 endet bei: 2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66  
+Subnetz 2 beginnt bei: 2001:1234:5678:90AB:4000:0000:0000:0000 /66  
+Subnetz 2 endet bei: 2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66  
+Subnetz 3 beginnt bei: 2001:1234:5678:90AB:8000:0000:0000:0000 /66  
+Subnetz 3 endet bei: 2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66  
+Subnetz 4 beginnt bei: 2001:1234:5678:90AB:C000:0000:0000:0000 /66  
+Subnetz 4 endet bei: 2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66  
+Subnetze aufschreiben "Mühlenbecker Art":  
+Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /66  
+Subnetz 1 endet bei: – „ – :3FFF:----> /66  
+Subnetz 2 beginnt bei: – „ – :4000:: /66  
+Subnetz 2 endet bei: – „ – :7FFF:----> /66  
+Subnetz 3 beginnt bei: – „ – :8000:: /66  
+Subnetz 3 endet bei: – „ – :BFFF:----> /66  
+Subnetz 4 beginnt bei: – „ – :C000:: /66  
 Subnetz 4 endet bei: – „ – :FFFF:----> /66
-[40]
+
+<!-- [40] 17 02 2023-->
+
 "Reverses Subnetting" IPv6 (Anfang und Ende des Subnetzes ermitteln):
 => siehe: Foto "TB_10" als Tafelbild
 gegeben:
