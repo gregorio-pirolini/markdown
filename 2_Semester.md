@@ -16,11 +16,9 @@ h6{color:pu}
 CD $PSScriptRoot
 . .\helperscript.ps1
 
-
 ### bs win
 
 #### ncpa.cpl
-
 
 ##### SMB (Server Message Block)
 
@@ -29,7 +27,6 @@ ist ein Protokoll, das in lokalen Netzwerken für die Übertragung von Daten zwi
 ##### Samba Linux
 
 Ein Linux-Samba-Server regelt die Freigabe von Dateien und Diensten im Netzwerk wie ein Windows-Server – nicht zuletzt (seit Samba-Version 4) auch dank der Fähigkeit, die Rolle des Active Directory Domain Controllers zu übernehmen.
-
 
 cifs fruerher version von SMB
 
@@ -51,8 +48,28 @@ cifs fruerher version von SMB
 
 ![Drag Racing](img/Vertragsfreiheit_und_AGB_02.png)
 
-#### Nichtigkeit Anfechtbarkeit 
+#### Nichtigkeit Anfechtbarkeit
 
 ![Drag Racing](img/Nichtigkeit_Anfechtbarkeit_01.png)
 
 ![Drag Racing](img/Nichtigkeit_Anfechtbarkeit_02.png)
+
+
+## 20.02.2023
+
+### wiso
+
+#### Form_der_Rechtsgeschäfte
+
+![Drag Racing](img/Form_der_Rechtsgeschäfte_01.png)
+![Drag Racing](img/Form_der_Rechtsgeschäfte_02.png)
+![Drag Racing](img/Form_der_Rechtsgeschäfte_03.png)
+![Drag Racing](img/Form_der_Rechtsgeschäfte_04.png)
+![Drag Racing](img/Form_der_Rechtsgeschäfte_05.png)
+![Drag Racing](img/Form_der_Rechtsgeschäfte_06.png)
+
+### Powershell
+
+#### Powershell Parameters
+
+ 
