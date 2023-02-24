@@ -54,7 +54,6 @@ cifs fruerher version von SMB
 
 ![Drag Racing](img/Nichtigkeit_Anfechtbarkeit_02.png)
 
-
 ## 20.02.2023
 
 ### wiso
@@ -72,4 +71,16 @@ cifs fruerher version von SMB
 
 #### Powershell Parameters
 
- 
+fehlt...
+
+## 22.02.2023
+
+### wiso
+
+#### Überblick Dienstleistungsverhältnisse_04
+
+![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_01.png)
+![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_02.png)
+![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_03.png)
+![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_04.png)
+![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_05.png)
