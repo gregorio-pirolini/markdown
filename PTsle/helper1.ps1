@@ -2,9 +2,26 @@
 <#
 write-host "hello"
 #>
+cls
+function sortOut($art, $Homeverzeichnis) {
+    if ($art -eq 'All') {
+        Write-Host '------------------------------------------------'
+        
+        Write-Host 'All:'
+
+        $Homeverzeichnis | Measure-Object -Property Length -Sum
+    }
+    elseif ($art -eq 'BySize') {
+        Write-Host 'BySize'
+    }
+    elseif ($art -eq 'ByPercent') {
+        Write-Host 'ByPercent'
+
+    }
+}
 function Format-Bytes {
     param (
-        [Parameter(Mandatory=$true, ValueFromPipeline=$true)]
+        [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
         [ValidateNotNullOrEmpty()]
         [long]$Bytes
     )
@@ -25,44 +42,42 @@ function writeForMe {
         [string] $x,
 
         [Parameter(Mandatory)]
-        [ValidateSet('G','gregorio','Falk')]
-        [Alias("Server")]
+        [Alias("user", "n" )]
         [string] $name,
 
-        [Parameter(Mandatory=$false)]
-        [Alias("length","s")]
+        [Parameter(Mandatory = $false)]
+        [Alias("length", "s")]
         [switch]$Bar,
 
-        [Parameter(Mandatory=$false)]
-        [ValidateSet('All','BySize','ByPercent')]
-        [string]$detail
+        [Parameter(Mandatory = $false)]
+        [ValidateSet('All', 'BySize', 'ByPercent')]
+        [string]$detail = "All"
 
 
     )
-$path = "/Users/"+$name
+    
+    $pathMac = "/Users/" + $name
+    $path = "C:\Users\" + $name
     write-host '$home:' $x  
     write-host '$path:' $path  
 
  
   
-    Get-ChildItem $path -File | Measure-Object -Property Length -Sum
-  if ($Bar) {
-    Write-Output "Bar is on";
- (Get-ChildItem $path -File | Measure-Object -Property Length -Sum).Sum| Format-Bytes
+    # Get-ChildItem $path -File | Measure-Object -Property Length -Sum
+    if ($Bar) {
+        Write-Output "Bar is on";
+        $Homeverzeichnis = (Get-WmiObject win32_userprofile | where-object { $_LocalPath -like "*$name" }.localPath)
+ (Get-ChildItem $Homeverzeichnis -File | Measure-Object -Property Length -Sum).Sum | Format-Bytes
+        
+        Write-Output '$detail: ' $detail;
+        sortOut( $Homeverzeichnis, $arr)
 
- switch($detail){
-   "All" { $result = 'All'    }
-    "BySize" { $result = 'BySize'    }
-    "ByPercent" { $result = 'ByPercent'   }
- }
- Write-Output '$result: ' $result;
+    }
 
+
+    else {
+        Write-Output "Bar is off"
+    }
 }
 
-
-else {
-    Write-Output "Bar is off"
-}
-}
-
-writeForMe $HOME -server "gregorio" -Bar "BySize"; 
+writeForMe $HOME -name "s01" -Bar "All"; 
