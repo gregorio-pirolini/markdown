@@ -20,7 +20,9 @@ function check-userprofile(){
     )
 
     # speichere SID des übergebenen Usernamens
-    $userSID = (get-localuser -name $name).SID
+    #$userSID = (get-localuser -name $name).SID
+                 #greg tries
+                 $userSID =dsmemberutil getsid -U $name
     # Home-Path ermittel über SID
     $userhomeDirectory = (Get-WmiObject Win32_Userprofile | Where-Object {$_.SID -eq $userSID}).LocalPath
 

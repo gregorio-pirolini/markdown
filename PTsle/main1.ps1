@@ -1,7 +1,7 @@
 
 CD $PSScriptRoot
-. .\helper1.ps1
+. .\helper-functions.ps1
 
 #  writeForMe "hello";
 
- 
+check-userprofile "gregorio"
