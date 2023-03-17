@@ -210,3 +210,30 @@ Hyper Backup Quick Start Guide von Sinology macht back ups
 
 synology dsm: Synology DiskStation Manager  
 Das modulare Betriebssystem Synology DiskStation Manager (DSM) ermöglicht es dank der benutzerfreundlichen Oberfläche und zahlreichen Features sowohl ...
+
+## 03.10.2023
+
+ipconfig
+
+xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:%13
+der 13. ausgedacht addresse vom computer
+
+IN IPV6 eingebettete ipv adresse
+----->192.168.13.42 Dez
+0000:0000:0000:0000:0000:FFFF:
+0:0:0:0:0:ffff:C0A8:0D2A
+
+![Drag Racing](img/ip4ip6.png)
+
+
+in terminal
+traceroute: In computing, traceroute and tracert are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
+
+![Drag Racing](img/ip6headerextension.png)
+
+https://www.tutorialspoint.com/ipv6/ipv6_headers.htm#:~:text=IPv6%20headers%20have%20one%20Fixed,to%20handle%20a%20packet%2Fflow.
+
+![Drag Racing](img/IPv6_header.jpg)
+
+ver version  
+PRI priorisierung bzw tarffic class
