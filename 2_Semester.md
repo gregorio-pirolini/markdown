@@ -225,7 +225,6 @@ IN IPV6 eingebettete ipv adresse
 
 ![Drag Racing](img/ip4ip6.png)
 
-
 in terminal
 traceroute: In computing, traceroute and tracert are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
 
@@ -237,3 +236,14 @@ https://www.tutorialspoint.com/ipv6/ipv6_headers.htm#:~:text=IPv6%20headers%20ha
 
 ver version  
 PRI priorisierung bzw tarffic class
+
+## 16.03.2023
+
+TBW = 150 GB
+R = 250 GB
+protag = 40 GB
+What is CrystalDiskInfo used for?  
+CrystalDiskInfo is an MIT-licensed S.M.A.R.T. utility for reading and monitoring disk drive status. Like CrystalDiskMark, this tool is designed with an emphasis around solid state devices, supporting NVMe connections in addition to the usual PATA and SATA.
+
+HDD MAGNET
+SSD Strom
