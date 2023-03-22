@@ -4,290 +4,179 @@ h2{color:green}
 h3{color:blue}
 h4{color:yellow}
 h5{color:purple}
- 
+
 </style>
 
-Magnetische Speicherung
-Bandlaufwerke
+# Magnetische Speicherung
 
-Dr. Reiner Kupferschmidt
+## 1 Bandlaufwerke
 
-Gliederung
-• Speicherhierarchie
-• Funktionsprinzip
-• Aufzeichnungsarten
-• Schreibmethoden
-• Standards
+## 2 Gliederung
 
-© Dr.-Ing. Reiner Kupferschmidt
+- Speicherhierarchie
+- Funktionsprinzip
+- Aufzeichnungsarten
+- Schreibmethoden
+- Standards
 
-2
+## 3 Speicherhierarchie
 
-Speicherhierarchie
+![cd!](img/img21.jpg "cd")
 
-© Dr.-Ing. Reiner Kupferschmidt
+## 4 Aufbau und Funktionsprinzip
 
-3
+- Antrieb f. 2 Spulen
+- Aufnahme-/Wiedergabekopf
+- Löschkopf
+- Daten werden seriell geschrieben und gelesen
+- Speicherkapazität ist abhängig von Bandlänge und Standard
+- Cartridge –> eine Bandspule
+- Kassette –> zwei Bandspulen
+- Kapazität bis Peta-Byte (Pebi-)
 
-Aufbau und
-Funktionsprinzip
-• Antrieb f. 2 Spulen
-• Aufnahme-/Wiedergabekopf
-• Löschkopf
-• Daten werden seriell geschrieben und
-gelesen
-• Speicherkapazität ist abhängig von
-Bandlänge und Standard
-• Cartridge –> eine Bandspule
-• Kassette –> zwei Bandspulen
-• Kapazität bis Peta-Byte (Pebi-)
-© Dr.-Ing. Reiner Kupferschmidt
+## 5 Aufzeichnungsarten Standards
 
-4
+- Standards: z. B. AIT[^1], QIC[^2], DAT[^3], DCC[^4], DDS[^5], SLR[^6], DLT[^7], FSK[^8], LTO[^9], VXA[^10]
+- Aufzeichnungsarten
+  - Lineare Aufzeichnung
+  - Schrägspuraufzeichnung
+  - Degressive Aufzeichnung
+  - Mehrspurige Aufzeichnung
+    [^1]: AIT Advanced Intelligent Tape ist ein Magnetband-System zur Datenspeicherung.
+    [^2]: QIC Quarter-inch cartridge is a magnetic tape data storage format introduced by 3M in 1972,[1] with derivatives still in use as of 2016.
+    [^3]: DAT Digital Audio Tape ist ein digitales Audio-Magnetband (Tonband) für entsprechende Audiorekorder.
+    [^4]: DCC Digital Compact Cassette is a magnetic tape sound recording format introduced by Philips and Matsushita Electric in late 1992
+    [^5]: DDS Digital Data Storage is a computer data storage technology that is based upon the Digital Audio Tape (DAT) format that was developed during the 1980s.
+    [^6]: SLR Scalable Linear Recording is the name used by Tandberg Data for its line of QIC based tape drives.
+    [^7]: DLT Digital Linear Tape previously called CompacTape) is a magnetic-tape data storage technology developed by Digital Equipment Corporation
+    [^8]: FSK ????
+    [^9]: LTO Linear Tape-Open echnology originally developed in the late 1990s as an open standards alternative to the proprietary magnetic tape formats that were available at the time.
+    [^10]: VXA is a tape backup format originally created by Ecrix and now owned by Tandberg Data.
 
-Aufzeichnungsarten
-Standards
-• Standards: z. B. AIT, QIC, DAT, DCC,
-DDS, SLR, DLT, FSK, LTO, VXA
-• Aufzeichnungsarten
-– Lineare Aufzeichnung
-– Schrägspuraufzeichnung
-– Degressive Aufzeichnung
-– Mehrspurige Aufzeichnung
+## 6 Schreibmethoden
 
-© Dr.-Ing. Reiner Kupferschmidt
+- Start-Stopp-Verfahren (selten)
 
-5
+  - Einzelne Datenblöcke
+  - Aufzeichnung fordert bestimmte Geschwindigkeit am Magnetkopf – Startphase
+  - Stopp, Klüfte oder Interblock-Gaps
 
-Schreibmethoden
-• Start-Stopp-Verfahren (selten)
-– Einzelne Datenblöcke
-– Aufzeichnung fordert bestimmte
-Geschwindigkeit am Magnetkopf – Startphase
-– Stopp, Klüfte oder Interblock-Gaps
+- Streaming
+  - Kontinuierlich, schneller
+  - Band und Geräte werden geschont
 
-• Streaming
-– Kontinuierlich, schneller
-– Band und Geräte werden geschont
-© Dr.-Ing. Reiner Kupferschmidt
+## 7 Standards DAT[^3]
 
-6
+- DAT[^3] – Digital Audio Tape
 
-Standards DAT
-• DAT – Digital Audio Tape
-– Nachfolger d. Audiokassette
-– Höhere Qualität der Audio-CD
-– Tonstudios, Sicherungsmedium
+  - Nachfolger d. Audiokassette
+  - Höhere Qualität der Audio-CD
+  - Tonstudios, Sicherungsmedium
 
-• 4 mm breites Mag.-Band
-• Abtastrate 48 kHz, 44,1 kHz, 21 kHz,
-Sampletiefe 16 Bit
-(z. B. Datenrate 1,536 Mbit/s)
-• 4 – 320 GiB
-• Schrägspurverfahren < 6 MB/s
-• Keine Streamerbänder (Media
-Recognition System (MRS),
-Streifencode)
+- 4 mm breites Mag.-Band
+- Abtastrate 48 kHz, 44,1 kHz, 21 kHz, Sampletiefe 16 Bit (z. B. Datenrate 1,536 Mbit/s)
+- 4 – 320 GiB
+- Schrägspurverfahren < 6 MB/s
+- Keine Streamerbänder (Media Recognition System(MRS[^11]),Streifencode)
+  [^11]: MRS Media Recognition System
 
-© Dr.-Ing. Reiner Kupferschmidt
+![cd!](img/img30.jpg "cd")
 
-7
+## 8 Entwicklung DAT[^3]
 
-Entwicklung DAT
+![cd!](img/img33.jpg "cd")
 
-© Dr.-Ing. Reiner Kupferschmidt
+DDS[^5] Digital Data Storage
 
-8
+## 9 Standards DDS[^5] 1/2
 
-Standards DDS
-• DDS - Digital Data Storage
-• Pro. Einsatz
-Datensicherung
-• Schrägspurverfahren
-• 4 u. 8 mm Bänder
-• Verbesserte
-Störeigenschaften
-• Geringere Bitfehlerrate
-(BER)
-© Dr.-Ing. Reiner Kupferschmidt
+![band!](img/img36.jpg "band")
 
-9
+- DDS[^5] - Digital Data Storage
+- Pro. Einsatz Datensicherung
+- Schrägspurverfahren
+- 4 u. 8 mm Bänder
+- Verbesserte Störeigenschaften
+- Geringere Bitfehlerrate
+  (BER[^12])
+  [^12]: BER Bit error rate is the number of received bits of a data stream over a communication channel that have been altered due to noise, interference, distortion or bit synchronization errors.
 
-Standards DDS
-Bandlänge
+## 10 Standards DDS[^5] 2/2
 
-Speicherkapazit Transferrate
-ät
+| -           | Bandlänge   | Speicherkapazit | Transferrateät  |
+| ----------- | ----------- | --------------- | --------------- |
+| DDS[^5]-1   | 60 m / 90 m | 1,2 GB / 2 GB   | 183 – 366 kB/s  |
+| DDS[^5]-2   | 120 m       | 4 GB            | 350 – 750 kB/s  |
+| DDS[^5]-3   | 125 m       | 12 – 24 GB      | 1 – 1,5 MB/s    |
+| DDS[^5]-4   | 150 m       | 20/40 GB        | 1 – 3 MB/s      |
+| DDS[^5]-5   | 170 m       | 72 GB           | 3 MB/s          |
+| DDS[^5]-6\* | 150 m       | 80/160 GB       | 6,9 – 13,8 MB/s |
+| DDS[^5]-7   | 153 m       | 160 GB          | -               |
 
-DDS-1
-
-60 m / 90 m
-
-1,2 GB / 2 GB
-
-183 – 366 kB/s
-
-DDS-2
-
-120 m
-
-4 GB
-
-350 – 750 kB/s
-
-DDS-3
-
-125 m
-
-12 – 24 GB
-
-1 – 1,5 MB/s
-
-DDS-4
-
-150 m
-
-20/40 GB
-
-1 – 3 MB/s
-
-DDS-5
-
-170 m
-
-72 GB
-
-3 MB/s
-
-DDS-6\*
-
-150 m
-
-80/160 GB
-
-6,9 – 13,8 MB/s
-
-DDS-7
-
-153 m
-
-160 GB
-
-- lesen/schreiben bidirektional
+\*lesen/schreiben bidirektional
 
 25 – 100 Benutzerzyklen
 
-© Dr.-Ing. Reiner Kupferschmidt
+## 11 12 Standards DLT[^7]
 
-10
+![band!](img/img41.jpg "band")
 
-Standards DLT
-• DLT - Digital Linear Tape
-• Midrange-Bereich und bei PCServern im High-End-Bereich
-• Speicherung d. Daten in Blöcken
-fester Größe im
-Längsspurverfahren
-• Fehlererkennung: Paritätsprüfung,
-zyklischer Blockprüfung, EDC
-• Speicherkapazität:
-40/70/80 GB, 10 MB/s
-• Lebensdauer Magnetköpfe bis
-30.000 h, 500.000 Banddurchläufe
+- DLT[^7] - Digital Linear Tape
+- Midrange-Bereich und bei PCServern im High-End-Bereich
+- Speicherung d. Daten in Blöcken fester Größe im Längsspurverfahren
+- Fehlererkennung: Paritätsprüfung, zyklischer Blockprüfung, EDC
+- Speicherkapazität: 40/70/80 GB, 10 MB/s
+- Lebensdauer Magnetköpfe bis 30.000 h, 500.000 Banddurchläufe
 
-© Dr.-Ing. Reiner Kupferschmidt
+## 13 Entwicklung DLT[^7]
 
-12
+![band!](img/img45.jpg "band")
 
-Entwicklung DLT
+## 14 Standards SDLT
 
-© Dr.-Ing. Reiner Kupferschmidt
+- SDLT – Super DLT[^7] Digital Linear Tape
+- Speicherkapazität 1,6 TB; 120 MB/s
+- 10 TB und 800 – 1.000 MB/s in Planung
 
-13
+## 15 Standards LTO[^9]
 
-Standards SDLT
-• SDLT – Super DLT
-• Speicherkapazität 1,6 TB; 120 MB/s
-• 10 TB und 800 – 1.000 MB/s in Planung
+![band!](img/img50.jpg "band")
 
-© Dr.-Ing. Reiner Kupferschmidt
+- Digitale Bandlaufwerke für mittlere Datentechnik
+- Längsspurverfahren
+- ½“ Cartridges
+- 100 – 400 GB, 20 – 750 MB
+- Bibliotheken >mehrere TB
+- EDC und Kompression
+- Außer LTO[^9]-3 wird die WORM-Technik unterstützt
+- Ab LTO[^9]-5 LTFS[^13]-Technologie, ähnliche FAT
+  [^13]:LTFS Linear Tape File System
 
-14
+## 16 Entwicklung LTO[^9]
 
-Standards LTO
-• Digitale Bandlaufwerke für
-mittlere Datentechnik
-• Längsspurverfahren
-• ½“ Cartridges
-• 100 – 400 GB, 20 – 750 MB
-• Bibliotheken >mehrere TB
-• EDC und Kompression
-• Außer LTO-3 wird die
-WORM-Technik unterstützt
-• Ab LTO-5 LTFSTechnologie, ähnliche FAT
-© Dr.-Ing. Reiner Kupferschmidt
+![band!](img/img54.jpg "band")
 
-15
+## 17 Tape Library (Jukebox)
 
-Entwicklung LTO
+![band!](img/img57.jpg "band")
+![band!](img/img58.jpg "band")
 
-© Dr.-Ing. Reiner Kupferschmidt
+## 18 Tape Silo
 
-16
+![band!](img/img61.jpg "band")
 
-Tape Library (Jukebox)
+## 19 Lernzielkontrolle
 
-© Dr.-Ing. Reiner Kupferschmidt
-
-17
-
-Tape Silo
-
-© Dr.-Ing. Reiner Kupferschmidt
-
-18
-
-Lernzielkontrolle
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-
-Welche Vorteile bietet die Magnetbandaufzeichnung?
-Erläutern Sie die Aufzeichnung von Daten auf einem Magnetband?
-Was verstehen Sie unter einem Magnetkopf für Schreiben, Lesen und
-Löschen?
-Nennen Sie verschiedene Typen der Datenaufzeichnung auf Magnetband!
-Welche verschiedenen Kassettensysteme (Streamerkassetten) gibt es?
-Was verstehen Sie unter einer Band-Kassette?
-Was verstehen Sie unter einer Cartridge?
-Was verstehen Sie unter Linearer Aufzeichnung?
-Was verstehen Sie unter dem Schrägspurverfahren?
-Was verstehen Sie unter Start-Stop-Betrieb?
-Was verstehen Sie unter Streaming?
-Was verstehen Sie unter WORM-Technik?
-Was verstehen Sie unter einer Tapelibrary?
-
-© Dr.-Ing. Reiner Kupferschmidt
-
-19
-
-Abschluss
-Vielen Dank für Ihre Aufmerksamkeit!
-
-Für weitere Fragen stehe ich Ihnen gerne
-zur Verfügung.
-
-© Dr.-Ing. Reiner Kupferschmidt
-
-21
-
-
+- Welche Vorteile bietet die Magnetbandaufzeichnung?
+- Erläutern Sie die Aufzeichnung von Daten auf einem Magnetband?
+- Was verstehen Sie unter einem Magnetkopf für Schreiben, Lesen und Löschen?
+- Nennen Sie verschiedene Typen der Datenaufzeichnung auf Magnetband!
+- Welche verschiedenen Kassettensysteme (Streamerkassetten) gibt es?
+- Was verstehen Sie unter einer Band-Kassette?
+- Was verstehen Sie unter einer Cartridge?
+- Was verstehen Sie unter Linearer Aufzeichnung?
+- Was verstehen Sie unter dem Schrägspurverfahren?
+- Was verstehen Sie unter Start-Stop-Betrieb?
+- Was verstehen Sie unter Streaming?
+- Was verstehen Sie unter WORM-Technik?
+- Was verstehen Sie unter einer Tapelibrary?

@@ -4,11 +4,14 @@ h2{color:green}
 h3{color:blue}
 h4{color:yellow}
 h5{color:purple}
- 
 </style>
 
-Sekundärspeicher
-Optische Laufwerke
+![TB_7!](img/TB_7.jpg "TB_7")
+
+# Sekundärspeicher
+
+## Optische Laufwerke
+
 Einführung und Überblick
 
 Dr. Reiner Kupferschmidt
