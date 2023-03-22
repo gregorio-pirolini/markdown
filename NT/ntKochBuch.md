@@ -168,7 +168,7 @@ science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke
 youtube.com/watch?v=0MwMkBET_5I
 netzmafia.de/skripten/netze/netz5.html#5.6
 
-#### Multimode:
+#### Multimode&#x3a;
 
 "Mehrmoden-Stufenfaser" (obere Abbildung):
 
@@ -932,12 +932,12 @@ Funktioniert genauso, wie in Class C beschrieben.
 Subnetzmaske: 255.255.255.224 (dezimale Schreibweise).  
 /27 (CIDR Schreibweise).
 
-#### gesucht:
+#### gesucht&#x3a;
 
 Anzahl der Subnetze.  
 Anzahl der Adressen im jeweiligen Subnetz.
 
-#### Lösung:
+#### Lösung&#x3a;
 
 Subnetzmaske umrechnen dezimal => binär oder bei CIDR,
 27 Einsen schreiben und den Rest mit Nullen auffüllen:
@@ -1010,17 +1010,17 @@ Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:
   der nur aus "Nullen" besteht, durch zwei Doppelpunkte :: ersetzt werden.
 - Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
 
-### Beispiel 1:
+### Beispiel 1&#x3a;
 
-#### gegeben:
+#### gegeben&#x3a;
 
 Verkürzte Schreibweise der IPv6-Adresse: 2001:0:0:A:0:0:0:B00
 
-#### gesucht:
+#### gesucht&#x3a;
 
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
 
-#### Lösung:
+#### Lösung&#x3a;
 
 Im konkreten Fall ergeben sich 2 Lösungen:
 
@@ -1034,13 +1034,13 @@ Im konkreten Fall ergeben sich 2 Lösungen:
 
 Die Lösung 2 (rote Variante) ist zu bevorzugen, da sie effektiver ist.
 
-### Beispiel 2:
+### Beispiel 2&#x3a;
 
-#### gegeben:
+#### gegeben&#x3a;
 
 IPv6-Adresse: 2001:1234:5678:90AB:0000:0000:0000:0000
 
-#### gesucht:
+#### gesucht&#x3a;
 
 Verkürzte Schreibweise der IPv6-Adresse.  
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
@@ -1254,53 +1254,60 @@ Subnetz 4 endet bei: – „ – :FFFF:----> /66
 
 <!-- [40] 17 02 2023-->
 
-"Reverses Subnetting" IPv6 (Anfang und Ende des Subnetzes ermitteln):
-=> siehe: Foto "TB_10" als Tafelbild
-gegeben:
-Adresse: 2001:1234:5678:90AB:CDEF:1A2B:3C4D:5E6F
-Subnetzmaske: /74
-gesucht:
-Anfang des Subnetzes, in dem sich diese IP-Adresse befindet.
-Ende des Subnetzes in, dem sich diese IP-Adresse befindet.
-Lösung:
-Die Stelle in der Adresse suchen, in der sich das 74. bit befindet:
-1 Block = 16 bit
-Block 5 beinhaltet die bits 65 bis 80:
-/16 /32 /48 /64 /80 /96 /112 /128
-2001 : 1234 : 5678 : 90AB : CDEF : 1A2B : 3C4D : 5E6F
-Den Block 5 "zerlegen" (hexadezimal => binär):
-2001 : 1234 : 5678 : 90AB : CDEF : 1A2B : 3C4D : 5E6F
-1100 1101 1110 1111
+### "Reverses Subnetting" IPv6 (Anfang und Ende des Subnetzes ermitteln):
 
-1.  bit abzählen (64 + 10) und senkrechte Linie ziehen:
-    2001 : 1234 : 5678 : 90AB : CDEF : 1A2B : 3C4D : 5E6F
-    1100 1101 11 | 10 1111
-    [41]
-    Anfang des Subnetzes ermitteln (soweit wie möglich in Richtung hexadezimale 0):
-    Alle bits nach dem 74. bit (rechts von der senkrechten Linie)
-    auf 0 ("null") setzen:
-    1100 1101 11 | 00 0000
-    Jedes Nibble für sich binär => hexadezimal umrechnen:
-    1100 1101 11 | 00 0000
-    C D C 0
-    Adresse wieder vollständig aufschreiben und dabei an die restlichen
-    Blöcke denken, die jetzt zu "Nuller-Blöcken" geworden sind:
-    2001:1234:5678:90AB: CDC0 :0000:0000:0000
-    = 2001:1234:5678:90AB:CDC0::
-    Ende des Subnetzes ermitteln (soweit wie möglich in Richtung hexadezimales F):
-    Alle bits nach dem 74. bit (rechts von der senkrechten Linie)
-    auf 1 ("eins") setzen:
-    1100 1101 11 | 11 1111
-    Jedes Nibble für sich binär => hexadezimal umrechnen:
-    1100 1101 11 | 11 1111
-    C D F F
-    Adresse wieder vollständig aufschreiben und dabei an die restlichen
-    Blöcke denken, die jetzt zu "FFFF-Blöcken" geworden sind:
-    offizielle Schreibweise:
-    2001:1234:5678:90AB:CDFF:FFFF:FFFF:FFFF
-    nach "Mühlenbecker Art":
-    2001:1234:5678:90AB:CDFF:FFFF:---->
-    [42]
+![TB_9!](img/TB_10.jpg "TB_10")
+
+#### gegeben&#x3a;
+
+Adresse: 2001:1234:5678:90AB:CDEF:1A2B:3C4D:5E6F  
+Subnetzmaske: /74  
+
+### gesucht&#x3a;
+
+Anfang des Subnetzes, in dem sich diese IP-Adresse befindet.  
+Ende des Subnetzes in, dem sich diese IP-Adresse befindet.  
+
+### Lösung:
+
+Die Stelle in der Adresse suchen, in der sich das 74. bit befindet:  
+1 Block = 16 bit  
+Block 5 beinhaltet die bits 65 bis 80:  
+/16 /32 /48 /64 /80 /96 /112 /128  
+2001 : 1234 : 5678 : 90AB : CDEF : 1A2B : 3C4D : 5E6F  
+Den Block 5 "zerlegen" (hexadezimal => binär):  
+2001 : 1234 : 5678 : 90AB : **CDEF** : 1A2B : 3C4D : 5E6F  
+CDEF = 1100 1101 1110 1111
+
+Die 74. bit abzählen (64 + 10) und senkrechte Linie ziehen:    
+
+2001 |1234 | 5678 | 90AB     |CDEF | 1A2B | 3C4D | 5E6F |
+    
+             1100 1101 11  | 10 1111  
+
+    
+<!-- [41] -->
+Anfang des Subnetzes ermitteln (soweit wie möglich in Richtung hexadezimale 0):  
+Alle bits nach dem 74. bit (rechts von der senkrechten Linie) auf 0 ("null") setzen:    
+1100 1101 11 | 00 0000  
+Jedes Nibble für sich binär => hexadezimal umrechnen:  
+1100 1101 11 | 00 0000  
+C D C 0
+Adresse wieder vollständig aufschreiben und dabei an die restlichen Blöcke denken, die jetzt zu "Nuller-Blöcken" geworden sind:  
+2001:1234:5678:90AB: CDC0 :0000:0000:0000  
+= 2001:1234:5678:90AB:CDC0::  
+Ende des Subnetzes ermitteln (soweit wie möglich in Richtung hexadezimales F):    
+Alle bits nach dem 74. bit (rechts von der senkrechten Linie) auf 1 ("eins") setzen:      
+1100 1101 11 | 11 1111    
+Jedes Nibble für sich binär => hexadezimal umrechnen:  
+ 1100 1101 11 | 11 1111    
+ C D F F  
+Adresse wieder vollständig aufschreiben und dabei an die restlichen Blöcke denken, die jetzt zu "FFFF-Blöcken" geworden sind:  
+offizielle Schreibweise:
+2001:1234:5678:90AB:CDFF:FFFF:FFFF:FFFF  
+nach "Mühlenbecker Art":  
+2001:1234:5678:90AB:CDFF:FFFF:---->
+    <!-- [42] -->
     Besondere IPv6-Adressen (Auszug):
     de.wikipedia.org/wiki/IPv6
     heise.de/IPv6-Adressen-3484199.html
@@ -1766,10 +1773,10 @@ Den Block 5 "zerlegen" (hexadezimal => binär):
 
 1. Spalte "Fake-Port":
    Ports aus dem Bereich der "Dynamic/Private Ports" (siehe oben).
-1. Spalte "Quell-Socket":
+2. Spalte "Quell-Socket":
    Für die Anfragen, von den internen Hosts.
    Hier im Beispiel für PC1 und PC2.
-1. Spalte "Ziel-Socket":
+3. Spalte "Ziel-Socket":
    Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts
    geholt werden.
    Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).
@@ -1906,13 +1913,13 @@ Den Block 5 "zerlegen" (hexadezimal => binär):
    Name: "eth1"
    In die Richtung zum Festland (zum unsicheren "externen Netz").
    Die Wachmannschaft hat 3 Zettel (Regelsätze genannt), auf denen bestimmte Regeln stehen:
-1. Zettel (Regelsatz FORWARD):
+4. Zettel (Regelsatz FORWARD):
    Wer darf vom Festland auf die Insel.
    Wer darf von der Insel auf das Festland.
-1. Zettel (Regelsatz INPUT):
+5. Zettel (Regelsatz INPUT):
    Wer darf vom Festland kommend, die Wachmannschaft besuchen.
    Wer darf von der Insel kommend, die Wachmannschaft besuchen.
-1. Zettel (Regelsatz OUTPUT)
+6. Zettel (Regelsatz OUTPUT)
    Wer von der Wachmannschaft darf in Richtung Festland gehen.
    Wer von der Wachmannschaft darf in Richtung Insel gehen.
    [69]
@@ -2074,7 +2081,7 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
    PC braucht 2. Netzwerkkarte:
 1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-1. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
+2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
    Skript auf den PC kopieren (auch per USB-Stick möglich).
    Skript "ausführbar" machen => "chmod 755 firewall*Inhalt.sh"
