@@ -239,6 +239,7 @@ PRI priorisierung bzw tarffic class
 
 ## 16.03.2023
 
+??
 TBW = 150 GB
 R = 250 GB
 protag = 40 GB
@@ -247,3 +248,54 @@ CrystalDiskInfo is an MIT-licensed S.M.A.R.T. utility for reading and monitoring
 
 HDD MAGNET
 SSD Strom
+
+## 22.03.2023
+
+### Front end Programmier Sprache
+
+Angular  
+Typescript  
+NgBootStrap  
+primeng  
+Scrum
+...
+
+### back end Programmier Sprache
+
+MSSQL  
+C#  
+Crud API  
+AZURE  
+Docker / DevOPS  
+Scrum
+
+### NT
+
+#### Namenauflösung
+
+PC NAME --------------------------- IP-Adress  
+**MUSS**  
+net bios Name  
+<= 15 Zeichnen  
+az09-  
+ex: srv1
+
+Broadcast
+old: <del>lmhosts.sam</del>  
+oder <del>wins</del>
+
+**Optional**  
+(wenn aus dem internet erreichbar sein soll)  
+(seit win 2000 Domäne)  
+FQDn/dns qualified domain name  
+<= 255 Zeichnen  
+<= 63Z.<= 63Z.<= 63Z.<= 62Z.  
+az09-
+
+DNS  
+<del>hosts</del> is old
+
+    **nslookup** is the name of a program that lets an Internet server administrator or any computer user enter a host name (for example, "whatis.com") and find out the corresponding IP address or domain name system (DNS) record.
+
+ping -4 localhost ping address with ip4  
+ping -6 localhost ping address with ip6
