@@ -35,7 +35,7 @@ https://www.markdownguide.org/basic-syntax/
 - Auf der CPU – APU – [^2]
 
   [^2]: Accelerating prozessing Unit\*\*
-  [^14]: cpu central processing unit
+  [^14]: central processing unit
 
 - Grafikkarte
 
@@ -92,7 +92,7 @@ https://www.markdownguide.org/basic-syntax/
 - Spannungsversorgung Netzteil 8-polig – 150 W
 - Spannungsregler VRM[^4] (12/3,3 V in ~ 1 V)
 
-[^4]: VRM Voltage Regulator Module (VRM; dt. Spannungsreglermodul)
+[^4]: Voltage Regulator Module (VRM; dt. Spannungsreglermodul)
 [^15]: PCIe Peripheral Component Interconnect Express
 
 | Summe | Versorgungskomponenten           |
@@ -127,7 +127,7 @@ Stellt die Verbindung zwischen dem den Chipsätzen des Motherboards und der Graf
 - PCI Express[^15]
   [^5]: instruction set architecture
   [^6]: The VESA Local Bus is a short-lived expansion bus introduced during the i486 generation of x86 IBM-compatible personal computers. Created by VESA, the VESA Local Bus worked alongside the then-dominant ISA bus to provide a standardized high-speed conduit intended primarily to accelerate video operations.
-  [^7]: agp accelerated grafic ports
+  [^7]: accelerated grafic ports
   [^17]: vesa Video Electronics Standards Association
 
 ## 11 PCI vs. PCIe[^15]
@@ -215,8 +215,8 @@ CU, mehrere ALU |Mehrere CU und ALU|
   Schatten berechnen
 
 [^8]: shader is a computer program that calculates the appropriate levels of light, darkness, and color during the rendering of a 3D scene ...
-[^9]: tmu texture mapping unit
-[^10]: ROP raster operating processors
+[^9]: texture mapping unit
+[^10]: raster operating processors
 
 ## 19 - 20 - 21 Intel Graphics Gen. 11
 

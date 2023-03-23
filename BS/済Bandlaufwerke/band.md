@@ -150,7 +150,7 @@ DDS[^5] Digital Data Storage
 - EDC und Kompression
 - Außer LTO[^9]-3 wird die WORM-Technik unterstützt
 - Ab LTO[^9]-5 LTFS[^13]-Technologie, ähnliche FAT
-  [^13]:LTFS Linear Tape File System
+  [^13]:LTFS Linear Tape File System is a file system that allows files stored on magnetic tape to be accessed in a similar fashion to those on disk or removable flash drives.
 
 ## 16 Entwicklung LTO[^9]
 

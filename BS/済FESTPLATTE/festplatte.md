@@ -34,6 +34,7 @@ text-decoration: underline;}
 ## 4 Schnittstellen
 
 - Anschlussarten(Intern):
+
   - Parallel SCSI
   - Parallel ATA (IDE)
   - SATA
@@ -50,25 +51,34 @@ text-decoration: underline;}
 ## 5 Baugrößen
 
 ### 5,25“–Festplatten:
+
 1980 von Seagate eingeführt, seit 1997
-verschwunden  
-### 3,5“–Festplatten:  
+verschwunden
+
+### 3,5“–Festplatten:
+
 1987 von IBM eingeführt, derzeitiger
-Standard  
+Standard
+
 ### 2,5“–Festplatten:
+
 1992 von Conner-Peripherials eingeführt,
 derzeitiger Standard
+
 ### 1,8“–Festplatten:
+
 wurden seit 2003 bei Sub-Notebooks und
 großen MP3-Playern eingesetzt
+
 ### 1,0“-Festplatte:
+
 2012, Microdrive, 1 GB - 8 GB,Digitalcameras,
 
 ## 6 Geschichte
 
 - 1956
 - 5 Millionen 7-Bit-Zeichen,
-4,375 Megabyte
+  4,375 Megabyte
 - 1t
 - 1.200 u/min, 100 Bit/Inch
 - 152,4×172,72×63,5 cm
@@ -108,24 +118,24 @@ SMR[^2] **Shingled magnetic recording** is a technique for writing data to a har
 
 ## 13 Innenleben
 
-### Gehäuse  
+### Gehäuse
 
 ![Festplatten!](img/17.png "Festplatten")
 
-### Datenscheibe  
+### Datenscheibe
 
 ![Festplatten!](img/13.jpg "Festplatten")
 
-### Schreib-/Lesekopf  
+### Schreib-/Lesekopf
 
 ![Festplatten!](img/15.jpg "Festplatten")  
 ![Festplatten!](img/12.jpg "Festplatten")
 
-### Steuerelektronik  
+### Steuerelektronik
 
 ![Festplatten!](img/14.jpg "Festplatten")
 
-### Antriebe für die Schreib/Leseköpfe  
+### Antriebe für die Schreib/Leseköpfe
 
 ![Festplatten!](img/16.jpg "Festplatten")
 
@@ -133,7 +143,7 @@ SMR[^2] **Shingled magnetic recording** is a technique for writing data to a har
 
 - Eine oder mehreren rotierbar gelagerten Scheiben.
 - Eine Welle, auch “Spindel“ genannt, auf der die Scheiben
-übereinander montiert sind.
+  übereinander montiert sind.
 - Ein Elektromotor als Antrieb für die Scheiben.
 - Bewegliche Schreib-/Leseköpfe.
 - Linearmotor für die Schreib-/Leseköpfe.
@@ -157,9 +167,9 @@ Hydrodynamisches Lager
 
 Wälzlager  
 ![Festplatten!](img/20.jpg "Festplatten")
-  
+
 Hydrostatisches Lager  
-![Festplatten!](img/21.jpg "Festplatten")  
+![Festplatten!](img/21.jpg "Festplatten")
 
 ![Festplatten!](img/19.png "Festplatten")
 
@@ -172,7 +182,6 @@ TSA[^3]: Triple Stage Actuator. Actuator technology has evolved from single stag
 VCM[^4]: **voice coil motor** and noted here as "VCM". A VCM is a magnetic circuit that combines an iron yoke and magnets glued to it. Within a hard disk drive, because of the danger of the recorded data being destroyed, the introduction of even tiny particles must be avoided.
 
 [^3]: TSA Triple Stage Actuator Actuator technology has evolved from single stage to dual stage to triple stage actuators. Each evolution increases the read-write head position accuracy while decreasing the amount of time required to read and write the media.
-
 [^4]: VCM **voice coil motor** is a magnetic circuit that combines an iron yoke and magnets glued to it. Within a hard disk drive, because of the danger of the recorded data being destroyed, the introduction of even tiny particles must be avoided.
 
 ## 18 Triple Stage Actuator
@@ -185,21 +194,21 @@ VCM[^4]: **voice coil motor** and noted here as "VCM". A VCM is a magnetic circu
 
 GMR Kopf[^5] Giant Magneto-Resistive (GMR) head technology builds on existing read/write technology found in TFI and anisotropic MR, producing heads that exhibit a higher sensitivity to changing magnetisation on the disc and work on spin-dependent electron scattering.
 
-[^5]:(GMR) Giant Magneto-Resistive head technology builds on existing read/write technology found in TFI and anisotropic MR, producing heads that exhibit a higher sensitivity to changing magnetisation on the disc and work on spin-dependent electron scattering.
+[^5]: (GMR) Giant Magneto-Resistive head technology builds on existing read/write technology found in TFI and anisotropic MR, producing heads that exhibit a higher sensitivity to changing magnetisation on the disc and work on spin-dependent electron scattering.
 
 ## 20 Helium ermöglicht mehr Platten
 
 - Helium besitzt 1/7 der Dichte
-wie Luft
+  wie Luft
 - Dies ermöglicht
   - Eine höhere Speicherdichte
   - Mehr Platten
-(7 – 9 Platten -> 18 TB)
+    (7 – 9 Platten -> 18 TB)
   - Dünnere Platten, spezielle
-Gläser
+    Gläser
   - Kleinere Abstände Kopf – Platte
   - Geringere Verwirbelungen an
-der Plattenoberfläche
+    der Plattenoberfläche
 
 ## 21 Größenvergleich zum SchreibLesekopf Abstand
 
@@ -215,7 +224,7 @@ der Plattenoberfläche
 
 ![Festplatten!](img/29.png "Festplatten")
 
-## 24 EAMR-Technology[^6]  
+## 24 EAMR-Technology[^6]
 
 ![Festplatten!](img/30.jpg "Festplatten")
 
@@ -224,10 +233,10 @@ der Plattenoberfläche
 - MAMR[^8] - Microwave Assisted Magnetic Recording
 - HAMR[^9] - Heat Assisted Magnetic Recording
 
-[^6]:EAMR-Technology Energyassisted Magnetic Recording
-[^7]:ePMR - Energyassisted Perpendicular Magnetic Recording
-[^8]:MAMR - Microwave Assisted Magnetic Recording
-[^9]:HAMR - Heat Assisted Magnetic Recording
+[^6]: EAMR-Technology Energyassisted Magnetic Recording
+[^7]: ePMR - Energyassisted Perpendicular Magnetic Recording
+[^8]: MAMR - Microwave Assisted Magnetic Recording
+[^9]: HAMR - Heat Assisted Magnetic Recording
 
 ## 25 Datendichte
 
@@ -241,9 +250,9 @@ Ausrichtung der „Magnete“ von waagerecht in senkrecht->höhere Speicherdicht
 ## 27 Magnetkopf heute
 
 - Magnetköpfe erreichen durch den Schreibstrom nicht die volle magnetische Sättigung
--> undefiniertes Magnetfeld auf dem Medium   
--> Verzerrung der Schreibströme   
-->Jitter  
+  -> undefiniertes Magnetfeld auf dem Medium  
+  -> Verzerrung der Schreibströme  
+  ->Jitter
 - ePMR[^7] – elektr. Strom an Hauptpol – magnetische „Vorspannung“
 - Ermöglicht höhere Schreibdichte (BPI[^10])
 
@@ -254,27 +263,28 @@ Ausrichtung der „Magnete“ von waagerecht in senkrecht->höhere Speicherdicht
 EAMR[^6] effect on jitter
 
 ## 28 Triple Stage Actuator
-![Festplatten!](img/24.jpg "Festplatten")
 
+![Festplatten!](img/24.jpg "Festplatten")
 
 ## 29 nothing!!
 
 ## 30 CHS / LBA
 
 - CHS (Cylinder Head Sector) ist die
-physikalische Adressierung der Festplatte  
+  physikalische Adressierung der Festplatte
+
   - Max. Adressierbarer Speicher = 7,844GiB
 
 - LBA (Logical Block Addressing) wird die Anzahl der Sektoren abgezählt, was einen größeren Adressraum zulässt
 - Speichergröße kann durch höhere Speichergröße der Blöcke
-erhöht werden – Größere Dateien
+  erhöht werden – Größere Dateien
 
 ## 31 Adressierung
 
 ![Festplatten!](img/36.png "Festplatten")
 
-- CHS (Cylinder Head Sector) 
-- LBA (Logical Block Addressing) 
+- CHS (Cylinder Head Sector)
+- LBA (Logical Block Addressing)
 
 ## 32 Shingled Magnetic Recording SMR[^2]
 
@@ -300,7 +310,7 @@ Perfekt: Das perfekte magnetische Medium als Ziel der Entwicklung.
 - Defragmentierung,beseitigt die Lücken
 - Dateien werden
 - Zugriffszeiten deutlich
-verbessert
+  verbessert
 
 ![Festplatten!](img/40.jpg "Festplatten")
 
@@ -323,25 +333,27 @@ oder v = w \* r
 ## 37 Drehzahlen
 
 - In Arbeitsplatzrechnern oder Privat-PCs (3,5“):
+
   - 5.400 bis 10.000/min
 
 - In Hochleistungsrechnern und Servern (3,5“):
+
   - 10.000 bis 15.000/min
 
 - Bei den 2,5“ Festplatten:
   - 5.400 bis 7.200/min wobei 5.400/min sehr
-verbreitet ist.
+    verbreitet ist.
 
 ## 38 Zugriffszeiten
 
 - Positionierzeit + mittlere Latenzzeit
-(+ Datenübertragungszeit)
-Typisch 2 – 3 ms.
+  (+ Datenübertragungszeit)
+  Typisch 2 – 3 ms.
 - Latenzzeit (rotational delay):
-0 bis 1 Plattenumdrehung.
-mittlere Latenzzeit : ½ Umdrehungen.
+  0 bis 1 Plattenumdrehung.
+  mittlere Latenzzeit : ½ Umdrehungen.
 - Zugriffszeit = Positionierzeit + Latenzzeit.
-typisch bei 7200 U/m → ~15 ms
+  typisch bei 7200 U/m → ~15 ms
 
 http://www.lehrer-rautenberg.de/klasse-13/laufwerke/festplatte.htm
 
@@ -349,7 +361,7 @@ http://www.lehrer-rautenberg.de/klasse-13/laufwerke/festplatte.htm
 
 - Firmware stellt Funktionen für die Speicherung bereit
 - Low Level Formatierung, Regelparameter,
-Anlaufcharakteristik, S.M.A.R.T[^11], Setup d. Gerätes, Cluster, Sektorengröße …
+  Anlaufcharakteristik, S.M.A.R.T[^11], Setup d. Gerätes, Cluster, Sektorengröße …
 - Firmware dient als Vermittler zwischen der Hardware und der Software
 
 [^11]: S.M.A.R.T Self-Monitoring, Analysis and Reporting Technology is a monitoring system included in computer hard disk drives
@@ -363,9 +375,9 @@ Anlaufcharakteristik, S.M.A.R.T[^11], Setup d. Gerätes, Cluster, Sektorengröß
 - Jeder Sektor enthält noch 40 - 100 Bytes für Verwaltungsinformationen, (Präambel) und Fehlererkennung/-korrektur (ECC)
 - Es können nur ganze Sektoren gelesen oder beschrieben werden!
 - Bei Einsatz mehrerer Magnetplatten bilden alle übereinander liegenden
-Spuren einen Zylinder (→ mehr Daten ohne neue Kopfpositionierung!)
+  Spuren einen Zylinder (→ mehr Daten ohne neue Kopfpositionierung!)
 - Jeder Sektor ist somit durch Zylindernummer, Kopfnummer und
-Sektornummer eindeutig identifiziert (CHS)
+  Sektornummer eindeutig identifiziert (CHS)
 
 ## 41 Formatierung & Dateisystem
 
@@ -388,23 +400,24 @@ Sektornummer eindeutig identifiziert (CHS)
 
 - Master Boot Record / Global Unique IDentifier Partition Table
 - MBR kann nur Partitionen von
-max. 2,6 TByte verwalten.
+  max. 2,6 TByte verwalten.
 
 - Alles was darüber liegt, benötigt den Nachfolger „GPT“
   - Größere Datenträger werden bootbar
 
 ## 43 Aufbau des MBR
 
-| Adresse - Hex | Adresse - Dez | Funktion/Inhalt | Größe in Byte |
-| ----- | ------ | ------ | ------ |
-| 0x0000 | 0 | Bootloader (Programmcode) | 440 |
-| 0x01B8| 440 | Disk-Signatur (seit Win 2000) | 4 |
-| 0x01BC | 444 | Null (0x0000) | 2 |
-| 0x01BE | 446 | Partitionstabelle | 64 |
-| 0x01FE<br> 0x01FF| 510 <br> 511| Bootsektor-Signatur(wird vom BIOS für den ersten Bootloader geprüft) | 2 |
-| Gesamt: | -  | -  | 512 |
+| Adresse - Hex     | Adresse - Dez | Funktion/Inhalt                                                      | Größe in Byte |
+| ----------------- | ------------- | -------------------------------------------------------------------- | ------------- |
+| 0x0000            | 0             | Bootloader (Programmcode)                                            | 440           |
+| 0x01B8            | 440           | Disk-Signatur (seit Win 2000)                                        | 4             |
+| 0x01BC            | 444           | Null (0x0000)                                                        | 2             |
+| 0x01BE            | 446           | Partitionstabelle                                                    | 64            |
+| 0x01FE<br> 0x01FF | 510 <br> 511  | Bootsektor-Signatur(wird vom BIOS für den ersten Bootloader geprüft) | 2             |
+| Gesamt:           | -             | -                                                                    | 512           |
 
 ## 44 Aufbau des MBR
+
 <div style="background-color:white">
 
 ![Festplatten!](img/45.png "Festplatten")
@@ -422,11 +435,11 @@ max. 2,6 TByte verwalten.
 ## 46 Partitionen
 
 - Einteilung, aus Sicht des Betriebssystems, der
-Festplatte in mehrere Bereiche.
+  Festplatte in mehrere Bereiche.
 - Jede Partition hat ihr eigenes Dateisystem und
-gilt als logisches Laufwerk.
+  gilt als logisches Laufwerk.
 - Dadurch können mehrere Betriebssysteme auf
-einer Festplatte installiert werden.
+  einer Festplatte installiert werden.
 
 ![Festplatten!](img/47.png "Festplatten")
 
@@ -457,7 +470,7 @@ einer Festplatte installiert werden.
 - Schockabsorbierende Verpackung wählen
 - Keine korrosive Umgebung
 - Regelmäßige Kontrolle auf „verwischte“ Daten, zeitlich
-bedingter Ausgleich der Magnetfelder
+  bedingter Ausgleich der Magnetfelder
 - Vor Neueinbau – Überprüfen der S.M.A.R.T[^11]-Werte
 
 ## 51 S.M.A.R.T[^11]?
@@ -465,6 +478,7 @@ bedingter Ausgleich der Magnetfelder
 - Self Monitoring and Analysis Reporting Tool
 - Ermöglicht die Diagnose der Datenträger durch Aktivierung im UEFI/BIOS
 - Beispiele für wichtige Werte sind
+
   - Reallocated Sectors Count
   - Spin Retry Count
   - End-To-End error
@@ -476,7 +490,7 @@ bedingter Ausgleich der Magnetfelder
   - Soft Read Error Rate
 
 - Sollten dies Werte in einem Tool rot angezeigt werden, ist
-sofort der Datenträger zu wechseln – Es droht Datenverlust!!!
+  sofort der Datenträger zu wechseln – Es droht Datenverlust!!!
 
 ## 52 Abkürzungen
 
@@ -504,14 +518,14 @@ TSA[^3] Triple Stage Actuator
 
 MTBF[^12] Mean Time Between Failure
 
-[^12]:MTBF Mean Time Between Failure
-[^13]:TPI Tracks per Inch
-[^10]:BPI Bits per Inch (Gbit/I)
+[^12]: MTBF Mean Time Between Failure
+[^13]: TPI Tracks per Inch
+[^10]: BPI Bits per Inch (Gbit/I)
 
 ## 53 Lernerfolgskontrolle
 
 - In Ihrem PC befindet sich eine Festplatte (HDD). Benennen Sie die Bauteile der Festplatte in dem Sie die Ziffern
-den Bauteilen zuordnen!
+  den Bauteilen zuordnen!
 - Nennen Sie das Speicherprinzip bei einer HDD!
 - Nennen Sie 3 Vorschriften, wie HDD zu behandeln sind!
 - Nennen Sie für die Dimensionierung eines Rechnersystems wichtige Parameter eines Festplattenlaufwerkes?
@@ -529,7 +543,7 @@ den Bauteilen zuordnen!
 - Welche Probleme treten beim Einsatz von HDD mit mehr als 3 TiB auf?
 - Was verstehen Sie unter S.M.A.R.T. und wozu dient es?
 - Nennen Sie 5 wichtige S.M.A.R.T.-Werte und ihre Bedeutung! Informieren Sie sich über weitere Werte, da diese
-für Systemfehler und Ausfälle verantwortlich sein können!
+  für Systemfehler und Ausfälle verantwortlich sein können!
 - Wann sollte eine HDD ausgetauscht werden?
 - Informieren Sie sich über die in der Präsentation erwähnten Abkürzungen!
 
@@ -540,26 +554,43 @@ Vielen Dank für Ihre Aufmerksamkeit!
 Für weitere Fragen stehe ich Ihnen gerne zur Verfügung.
 
 ## 55 Ende
+
 Ende
 
 Anhang folgt…..
 
 ## 56 Anhang
+
 ![Festplatten!](img/50.jpg "Festplatten")
+
 ## 57 Anhang
+
 ![Festplatten!](img/51.jpg "Festplatten")
+
 ## 58 Anhang
+
 ![Festplatten!](img/52.jpg "Festplatten")
+
 ## 59 Anhang
+
 ![Festplatten!](img/53.jpg "Festplatten")
+
 ## 60 Anhang
+
 ![Festplatten!](img/54.jpg "Festplatten")
+
 ## 61 Anhang
+
 ![Festplatten!](img/55.jpg "Festplatten")
+
 ## 62 Anhang
+
 ![Festplatten!](img/56.jpg "Festplatten")
+
 ## 63 Anhang
+
 ![Festplatten!](img/57.jpg "Festplatten")
+
 ## 64 link
 
 - https://funnyjunk.com/25+years+of+storage/funnypictures/5464265/

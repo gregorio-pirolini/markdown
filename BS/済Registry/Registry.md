@@ -318,7 +318,7 @@ einen eindeutigen Bezeichner: CLSID[^3] (ClasSIDentifier)
 • CLSID ist 16 Byte Wert = 32 hex. Zahlen
 • Gruppiert: 8-4-4-4-12
 
-[^3]: CLSID, or Class ID, class identifier is a serial number that represents a unique ID for any application component in Windows. In practice, this means all registry entries for an application component can usually be found under the registry key HKEY_CLASSES_ROOT\CLSID\{CLSID value}.
+[^3]: CLSID, or Class ID, is a serial number that represents a unique ID for any application component in Windows. In practice, this means all registry entries for an application component can usually be found under the registry key HKEY_CLASSES_ROOT\CLSID\{CLSID value}.
 
 ## 25 Ab XP, W2k3
 
