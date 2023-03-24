@@ -299,3 +299,10 @@ DNS
 
 ping -4 localhost ping address with ip4  
 ping -6 localhost ping address with ip6
+
+## 23.03.2023
+
+### BS
+
+seite 218 uebungsbuch  
+seite 398 Datenschutz
