@@ -83,7 +83,7 @@ text-decoration: underline;}
 - bei Einzelplatz-USV aus Blei-Vlies-Batterien (AGM[^1], Absorbent Glass Mat) oder Blei-Gel-Batterien
 - bei Leistungs-USV´en aus Bleiakkumulatoren Stromrichtern und einer elektronischen Regelung
 - als Energiespeicher werden auch NiCd-Akkus, in seltenen Fällen Li-Ionen-Batterien eingesetzt
-  [^1]: AGM Absorbent Glass Mat
+  [^1]: AGM Absorbent Glass Mat is an advanced lead-acid battery that provides superior power to support the higher electrical ...
 
 ## 10 Der Aufbau einer USV
 

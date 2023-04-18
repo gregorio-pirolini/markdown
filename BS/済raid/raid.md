@@ -95,7 +95,7 @@ IST?
   - Partitionen eines physischen Laufwerks
   - „Benutzer kann die Laufwerke NICHT anfassen“
 
-[^1]: SSHD Solid State Hybrid Drive
+[^1]: SSHD Solid State Hybrid Drive is a logical or physical storage device that combines a faster storage medium such as solid-state drive with a higher-capacity hard disk drive. The intent is adding some of the speed of SSDs to the cost-effective storage capacity of traditional HDDs.
 
 ## 8 Hardware-RAID
 
@@ -362,7 +362,7 @@ Berechnung der Parität über XOR
 - VMS[^3] –Volume Management Software
 
 [^2]: JBOD ist eine Abkürzung für „Just a Bunch of Disks“, was so viel wie „ein Bündel Festplatten“ bedeutet. Der Begriff beschreibt ein Festplatten-Array, bei dem die Einzelkapazitäten des konfigurierten Festplattenstapels einem Server präsentiert werden, der dies als eine virtuelle Gesamtkapazität nutzt. Doch Vorsicht: Wenn eine einzige Festplatte ausfällt, sind alle Daten verloren.
-[^3]: VMS –Volume Management Software
+[^3]: VMS – Volume Management Software
 
 ## 35 RAID-Level 10 / 0+1
 
@@ -472,7 +472,7 @@ Berechnung der Parität über XOR
 - Performance
 - Datenkapazität
 
-[^8]: ZFS (Zetabyte File System)
+[^8]: ZFS (Zettabyte File System) is a file system with volume management capabilities.
 
 ## 44 ZFS –technische Daten
 

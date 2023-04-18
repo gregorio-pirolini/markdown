@@ -13,11 +13,11 @@ h4 { color: red;}
 # Datenschutz?
 
 ## 1 Datensicherung?
+
 „Kein Backup, kein Mitleid“ !!!???
 
-
-
 ## 2 Gliederung - Datensicherung
+
 - Ursachen
 - Begriff
 - Notwendigkeit, Einflussfaktoren
@@ -34,11 +34,9 @@ h4 { color: red;}
 
 • Schadsoftware
 
-
-
 ## 3 Ursachen
 
-### Hardwaredefekt: 
+### Hardwaredefekt:
 
 beschädigte Speichermedien, defekte "Controller"-Einheiten etc.
 
@@ -52,35 +50,34 @@ des Anwenders unbeabsichtigtes Löschen oder Verändern
 
 ### Sabotage
 
-durch Schadprogramme wie z. B. Viren, Trojaner etc. oder durch 
+durch Schadprogramme wie z. B. Viren, Trojaner etc. oder durch
 Mitarbeiter
 
 ![datenschutz!](img/1.jpg "datenschutz")
 
-
 ## 4 Datensicherung - Begriff
 
 ### Bezeichnet das Kopieren von Daten in der Absicht, diese im Fall eines Datenverlustes zurückkopieren zu können
+
 - Daten sind Informationen zu Personen, Sachen und Sachverhalten
 
 - Datenverlust ist das Verlorengehen von Daten, d. h., dass sie nicht
-mehr auf einem Datenträger zur Verfügung stehen,
+  mehr auf einem Datenträger zur Verfügung stehen,
   - Temporär
   - Dauerhaft
 
 ### Örtlich und zeitlich getrennt, Rücksicherbarkeit
+
 ### Sicherung auf anderem Medium
+
 ### 3-2-1-Regel: 3 Kopien, 2 unterschiedliche Medien, 1 Kopie extern
 
-
-
 ## 5 Notwendigkeit, Einflussfaktoren
+
 Sicherheit
 |Organisation|Infrastruktur|Mensch|Technik|
 |-----|-----|-----|-----|
 |-Praktischer Datenschutz<br>-Gesetzlicher Datenschutz<br> -Wartung und Pflege|-Ausstattung der DV-Räume<br> -Elektromagnetische Strahlung<br>-Klimatisierung der DV-Räume|-Benutzerklassifikation<br>-Zugangskontrollen<br>-Nutzerberechtigung|-Betriebsart<br>-Vernetzung<br>-Programmsicherheit|
-
-
 
 ## 6 Sicherungsmedien
 
@@ -91,8 +88,6 @@ Sicherheit
   - Datenschutz und -Sicherheit des Anbieters
 - Feuersichere Unterbringung, Tape-Library
 
-
-
 ## 7 Gesetzliche Lage
 
 - Gesetzliche Vorschriften über ordnungsgemäße, nachvollziehbare, revisionssichere Buchhaltung
@@ -101,25 +96,23 @@ Sicherheit
   - Vorhaltung der technischen Infrastruktur
   - Lesbarkeit und Haltbarkeit der Daten auf denDatenträgern
 
-
 ## 8 Dokumentation
 
 ### Erfolg, Geschwindigkeit und Wiederherstellung der Datensicherung
 
-|- |-|
-|-----|-----|
-|Ablauf der Datensicherung |warum
-|Aufbau der Archivierung |wie
-|Zu treffende (Sofort-) Maßnahmen |wer
-|Kompetenzen (der Mitarbeiter und Dienstleister) |was
-|Prioritäten für besonders zeitkritische Daten und Systeme| welcher|
- |-|welches|
-  |-|welches|
-  |-|welche|
- |-|wohin|
+| -                                                         | -       |
+| --------------------------------------------------------- | ------- |
+| Ablauf der Datensicherung                                 | warum   |
+| Aufbau der Archivierung                                   | wie     |
+| Zu treffende (Sofort-) Maßnahmen                          | wer     |
+| Kompetenzen (der Mitarbeiter und Dienstleister)           | was     |
+| Prioritäten für besonders zeitkritische Daten und Systeme | welcher |
+| -                                                         | welches |
+| -                                                         | welches |
+| -                                                         | welche  |
+| -                                                         | wohin   |
 
 ### Dokumentation für Sicherung und Wiederherstellung ist jeweils getrennt in einem Sicherungs- bzw. Wiederherstellungsplan festzulegen
-
 
 ## 9 Wann und Was?
 
@@ -146,62 +139,58 @@ Sicherheit
 - ordnungsgemäße Führung von Buchhaltungs- und Registrierkassensystemen,dv-gestützten Buchungssystemen in Hotellerie…
 
 ## 10 Softwaresicherungen
-• Absicherung gegen Übertragungsfehler
-• Absicherung gegen manuelle Eingabefehler
-• Absicherung gegen logische Ein- und
-Ausgabefehler
-• Absicherung gegen Verschiebung und
-Fehlinhalte von Datenfelder
 
-
+- Absicherung gegen Übertragungsfehler
+- Absicherung gegen manuelle Eingabefehler
+- Absicherung gegen logische Ein- und
+  Ausgabefehler
+- Absicherung gegen Verschiebung und
+  Fehlinhalte von Datenfelder
 
 ## 11 Backup-Arten
-• Vollbackup
-• Speicherabbildsicherung
-• Differentielles Backup
-• Inkrementelles Backup
-• Mirror-Backup
-• Snapshot
 
-
+- Vollbackup
+- Speicherabbildsicherung
+- Differentielles Backup
+- Inkrementelles Backup
+- Mirror-Backup
+- Snapshot
 
 ## 12 Merkmale v. Dateien
-• Erstellen eines „Kataloges“
-• Grundlage für weitere Backups
-• Inhalt
 
-– Pfad, Name, Erweiterung d. Dateien
-– Zeitstempel (Erstellung, letzte Änderung/Zugriff)
-– Größe in Byte
-– Prüfsumme (Hash-Wert)
-– Attribute
-• r- Read only
-• a- Archiv
-• s- System
-• h- Hidden
+- Erstellen eines „Kataloges“
+- Grundlage für weitere Backups
+- Inhalt
 
-– Besitzer
+  - Pfad, Name, Erweiterung d. Dateien
+  - Zeitstempel (Erstellung, letzte Änderung/Zugriff)
+  - Größe in Byte
+  - Prüfsumme (Hash-Wert)
+  - Attribute
 
+- r- Read only
+- a- Archiv
+- s- System
+- h- Hidden
 
+  - Besitzer
 
 ## 13 Vollbackup
+
 Jeweils zu sichernde Daten (ein komplettes Laufwerk, eine Partition,
 bestimmte Verzeichnisse und/oder bestimmte Dateien, bestimmte
 Dateiformate) werden komplett auf das Sicherungsmedium übertragen und
 als gesichert markiert
-•
 
-Kopieren, Image, Klonen
+- Kopieren, Image, Klonen
 
-• Vorteil:
+- Vorteil:
 
-– Reines Kopieren reicht
+  - Reines Kopieren reicht
 
-• Nachteil:
+- Nachteil:
 
-– Hoher Speicherbedarf
-
-
+- Hoher Speicherbedarf
 
 ## 14 Vollbackup
 
@@ -212,8 +201,6 @@ GiB
 2
 
 3
-
-
 
 4
 
@@ -238,17 +225,14 @@ Dateisystems in seiner Originalstruktur
 regulär das Dateisystem und extrahiert nur die gewünschten
 Verzeichnisse und Dateien aus der Sicherung
 
-
-
 ## 16 Differentielles Backup
+
 • Alle Daten, die seit der letzten Komplettsicherung geändert wurden oder neu
 hinzugekommen sind, werden gespeichert
 • Vorteil:
 – Einsparung von Zeit und Speicherplatz
 – verschiedenen Sicherungsstände können
 unabhängig voneinander gelöscht werden
-
-
 
 ## 17 Differentielles Backup
 
@@ -259,8 +243,6 @@ GiB
 2
 
 3
-
-
 
 4
 
@@ -286,10 +268,7 @@ dass die vollständige Kette (Vollsicherung –
 inkrementelle Sicherungen 1, 2, 3 usw. - Originaldaten)
 fehlerfrei nachvollziehbar ist
 
-
 ## 19 Inkrementelles Backup
-
-
 
 ## 20 Inkrementelles Backup
 
@@ -301,15 +280,15 @@ GiB
 
 3
 
-
-
 4
 
 5
 
 Zeit
+
 ## 21 Varianten – Inkrementelles Backup
-• forward deltas*:
+
+• forward deltas\*:
 
 – Vollsicherung dient als Fundament und wird nicht
 verändert, während darauf die Inkremente aufgebaut
@@ -328,8 +307,8 @@ zugegriffen werden, während eine ältere Version einer
 Datei nur durch Berücksichtigung der Inkremente
 wiederhergestellt werden kann
 
-
 ## 22 Mirror-Backup
+
 • Identisch mit einer vollständigen Sicherung
 • Dateien nicht in Zip-Dateien komprimiert und nicht mit
 einem Passwort geschützt
@@ -337,9 +316,8 @@ einem Passwort geschützt
 • Vorteil, Backup-Dateien können leicht mit Tools wie
 Windows Explorer abgerufen werden
 
-
-
 ## 23 Snapshot
+
 •
 •
 •
@@ -368,12 +346,10 @@ Geöffnete Dateien werden in dem Zustand gesichert, wie sie
 derzeit auf der Festplatte liegen
 keinen Neustart erforderlich, Benutzer kann weiterarbeiten
 
-
-
 ## 24 Übersicht
 
-
 ## 25 Übersicht
+
 GiB
 
 GiB
@@ -422,8 +398,8 @@ Zeit
 
 5
 
-
 ## 26 Übersicht - Backup
+
 BackupTyp
 
 Zu sichernde
@@ -477,9 +453,8 @@ neue/modifizierte Daten
 
 am schnellsten am schnellsten am höchsten
 
-
-
 ## 27 3-Generationen-Prinzip
+
 • Großvater-Vater-Sohn-Prinzip
 • mehrere Sicherungen in verschiedenen
 zeitlichen Abstufungen vorhanden
@@ -488,9 +463,8 @@ aus den „Vater“-Daten wieder erzeugt
 und die „Vater“-Daten gegebenenfalls aus
 den „Großvater“-Daten
 
-
-
 ## 28 3-Generationen - Beispiel
+
 •
 
 •
@@ -520,13 +494,10 @@ Zum Jahresende wird aus der „Generation Großvater“ die Sicherung mit dem
 Jahresabschluss entnommen und separat verwahrt. Sie bildet damit sogar eine
 vierte Generation.
 
-
-
 ## 29 3-Generationen-Prinzip
 
-
-
 ## 30 3-Generationen-Prinzip 2
+
 Söhne
 VB0
 
@@ -618,8 +589,8 @@ VB Monat 1
 
 Jährlicher Aufwand an Datenträgern = 22
 
-
 ## 31 Datensicherungsstrategien
+
 • Wie die Datensicherung zu erfolgen hat.
 • Wer für die Datensicherung verantwortlich ist.
 • Wann Datensicherungen durchgeführt werden.
@@ -632,8 +603,8 @@ sichern ist (zum Beispiel durch Verschlüsselung).
 • Wann und wie Datensicherungen auf ihre
 Wiederherstellbarkeit überprüft werden.
 
-
 ## 32 Weiteres zu Strategien
+
 • Wenn die Wiederherstellung von Daten notwendig ist, sollte das
 Vorgehen mehreren Mitarbeitern bekannt sein. Eine Checkliste für
 diesen Fall ist sehr nützlich, da im Ernstfall oft niemand Zeit oder Nerven
@@ -652,9 +623,8 @@ eines angemessenen Zeitraums wiederhergestellt werden können. Aus
 diesem Grund sollten in regelmäßigen Abständen Rücksicherungstests
 erfolgen.
 
-
-
 ## 33 Medien zur Datensicherung
+
 • Festplatten (HDD)
 • Magnetbänder großer
 Kapazität
@@ -670,8 +640,8 @@ Kapazität
 – Cloud
 –…
 
-
 ## 34 Schadsoftware
+
 •
 •
 •
@@ -680,9 +650,8 @@ https://de.wikipedia.org/wiki/Schadprogramm
 http://www.was-ist-malware.de/allgemein/schadsoftware/
 http://www.verivox.de/themen/schadsoftware/
 
-
-
 ## 35 Computerviren, Würmer, Pferde und
+
 Hintertüren
 • Malware, kopieren sich in Programme, Dokumente o.
 Datenträger
@@ -696,7 +665,6 @@ unter Umgehung der üblichen
 Sicherheitseinrichtungen. Werden genutzt, um den
 kompromittierten Computer als Spamverteiler oder
 für Denial-of-Service-Angriffe
-
 
 ## 36 Spyware, Adware, Scareware, Ransomware, Grayware
 
@@ -715,7 +683,6 @@ und Adware oder andere Varianten, die
 Systemfunktionen nicht direkt beeinträchtigen, von
 eindeutig schädlichen Formen abzugrenzen
 
-
 ## 37 Dialer, Rogueware, Krypto-Mining
 
 • Führen die Einwahl heimlich, d. h. im Hintergrund und
@@ -732,8 +699,8 @@ wenn die Hardware- und Energieressourcen der
 Benutzer unbemerkt und ohne deren Zustimmung
 zum rechenintensiven Mining verwendet werden
 
-
 ## 38 Weitere „Probleme“
+
 • Alternativer Datenstrom
 • Botnet
 • Contentfilter
@@ -748,8 +715,8 @@ zum rechenintensiven Mining verwendet werden
 • Riskware
 • Vishing
 
-
 ## 39 Gliederung - Datenschutz
+
 • Begriff
 • Grundsätzliche Bestimmungen
 • Besonders geschützt
@@ -757,8 +724,8 @@ zum rechenintensiven Mining verwendet werden
 • Datenschutzrechtliche Bestimmungen
 • Datenschutzbeauftragte
 
-
 ## 40 Datenschutz - Begriff
+
 • organisatorische und technische Maßnahmen gegen Missbrauch
 von Daten innerhalb einer Organisation
 • IT-Sicherheit betrifft die technischen Maßnahmen gegen Löschen
@@ -777,9 +744,8 @@ noch verboten werden
 
 https://www.datenschutz-wiki.de/index.php?title=DSGVO:Art_1&mobileaction=toggle_view_mobile
 
-
-
 ## 41 Grundsätzliche Bestimmungen
+
 • Verbotsprinzip mit Erlaubnisvorbehalt –
 Erhebung, Verarbeitung, und Nutzung
 personenbezogener Daten ist verboten
@@ -792,8 +758,8 @@ Daten über juristische Personen
 • https://de.wikipedia.org/wiki/Bundesdatenschutz
 gesetz
 
-
 ## 42 Besonders geschützt
+
 • besondere Arten von Daten gemäß
 § 3 Abs. 9 BDSG
 • rassische und ethnische Herkunft
@@ -803,8 +769,8 @@ gesetz
 • Gewerkschaftszugehörigkeit
 • Gesundheit und das Sexualleben
 
-
 ## 43 Rechte der Betroffenen
+
 • Auskunft darüber, ob und welche personenbezogenen Daten über
 sie gespeichert sind
 • Auskunft darüber, aus welchen Quellen diese Daten stammen
@@ -818,9 +784,8 @@ einer der im Gesetz diesbezüglich vorgesehenen Tatbestände
 erfüllt ist (z. B. gesetzliche Aufbewahrungsfristen).
 • Übermittlung persönlicher Daten an Dritte zu untersagen
 
-
-
 ## 44 Datenschutzbeauftragte
+
 • Wenn personenbezogene Daten
 automatisiert verarbeitet werden
 – In allen öffentlichen Stellen
@@ -834,8 +799,8 @@ die Vorschrift ab 20 Personen
 • https://de.wikipedia.org/wiki/Datenschutzbea
 uftragter
 
-
 ## 45 Lernzielkontrolle
+
 •
 
 Was verstehen Sie unter Datensicherung?
@@ -919,13 +884,9 @@ Was verstehen Sie unter dem 3-Generationen-Prinzip der Datensicherung?
 Wie viele Datenträger benötigen Sie für die Datensicherung nach dem 3-Generationen-Prinzip für ein Jahr, wenn Sie täglich, wöchentlich und
 monatlich sichern?
 
-
-
 ## 46 Abschluss
+
 Vielen Dank für Ihre Aufmerksamkeit!
 
 Für weitere Fragen stehe ich Ihnen gerne zur
 Verfügung.
-
-
-
