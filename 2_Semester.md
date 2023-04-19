@@ -306,3 +306,13 @@ ping -6 localhost ping address with ip6
 
 seite 218 uebungsbuch  
 seite 398 Datenschutz
+
+## 23.03.2023
+
+### NT
+
+netstat -rn
+
+C:\Users\Administrator\Downloads>netstat -rn
+
+![Drag Racing](img/1.png)
