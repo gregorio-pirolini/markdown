@@ -132,7 +132,7 @@ Stellt die Verbindung zwischen dem den Chipsätzen des Motherboards und der Graf
 
 ## 11 PCI vs. PCIe[^15]
 
-![PCI Vs PCIe!](/img/PCIVsPCIe.png "PCI Vs PCIe")
+![PCI Vs PCIe!](img/PCIVsPCIe.png "PCI Vs PCIe")
 
 ## 12 PCI
 
@@ -224,7 +224,7 @@ CU, mehrere ALU |Mehrere CU und ALU|
 
 NVIDIA Geforce GTX 680 Kepler SLI[^3] EVGA ZOTAC
 ![Intel Graphics!](./img/intelgrafics2.png "Intel Graphics")
-![Intel Graphics!](.img/intelgrafics3.png "Intel Graphics")
+![Intel Graphics!](img/intelgrafics3.png "Intel Graphics")
 
 ## 22 RAMDAC
 
@@ -246,7 +246,7 @@ NVIDIA Geforce GTX 680 Kepler SLI[^3] EVGA ZOTAC
   - Flüssigmetall-Kühlung
   - Peltier)
 
-![Kühllösungen!](/img/kuehlung.png "Kühllösungen")
+![Kühllösungen!](img/kuehlung.png "Kühllösungen")
 
 ## 24 Video-Out-Controller
 
