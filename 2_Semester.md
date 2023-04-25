@@ -316,3 +316,22 @@ netstat -rn
 C:\Users\Administrator\Downloads>netstat -rn
 
 ![Drag Racing](img/1.png)
+
+## 23.04.2023
+
+### WISO
+
+B2b Zweiseitiges HandelsKauf  
+B2C Verbrauchsgüterkauf  
+Bürgerlischer kauf : Um einen bürgerlichen Kauf handelt es sich, wenn Käufer und Verkäufer Nicht-Kaufleute im Sinne des § 1 Abs. 1 HGB sind. Eine Mutter verkauft die zu klein gewordene Kleidung ihres Kindes an eine andere Mutter. Ein Student kauft ein gebrauchtes Fahrzeug von einem privaten Anbieter.
+
+Unternehmen / Kaufmann Unterschied
+
+Mängelrüge  
+Nacherfüllung  
+Nachlieferung  
+Nachbesserung
+
+Garantie ist icht gleich Gewährleistung
+
+![Drag Racing](img/Mängelgewährleistung_01.png)
