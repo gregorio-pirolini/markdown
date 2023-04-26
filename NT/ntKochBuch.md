@@ -456,15 +456,15 @@ müssen diese "übergroßen" Frames verarbeiten können.
 
   Die Subnetzmaske ist auch 32 bit lang.
 
-### Es existieren 2 Schreibweisen der Subnetzmaske:
+#### Es existieren 2 Schreibweisen der Subnetzmaske:
 
-#### klassische (dezimale) Schreibweise:
+##### klassische (dezimale) Schreibweise:
 
 - Die Subnetzmaske wird auch in 4 Oktette zu je 8 bit aufgeteilt.
 - Die Oktette werden auch durch einen Punkt untereinander getrennt.
 - Die 8 bit je Oktett werden auch dezimal dargestellt.
 
-#### CIDR-Schreibweise (modern):
+##### CIDR-Schreibweise (modern):
 
 - Die Anzahl der binären "Einsen" wird hinter einem "/" geschrieben.
 - ==>> Obwohl man heute von "classless" ausgeht, sind die IPv4-Klassen noch immer in der IHK-Prüfung ein wichtiges Thema.
@@ -472,7 +472,7 @@ müssen diese "übergroßen" Frames verarbeiten können.
   <!-- 16  -->
   <br>
 
-### Beispiele für die Standardsubnetzmasken Class A, Class B, Class C
+#### Beispiele für die Standardsubnetzmasken Class A, Class B, Class C
 
 #### Class A:
 
@@ -500,9 +500,9 @@ der Computer "sieht":
 
   <!-- 17  -->
 
-### IPv4 Klassen (Vergleich zum kabelgebundenen Telefon):
+#### IPv4 Klassen (Vergleich zum kabelgebundenen Telefon):
 
-#### CIDR-Schreibweise /8
+##### CIDR-Schreibweise /8
 
 City:
 030/1234567 => <f>Class A</f>:  
@@ -512,7 +512,7 @@ City:
 | Subnetzmaske | 255 | 0 | 0 | 0
 | | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#)
 
-#### CIDR-Schreibweise /16
+##### CIDR-Schreibweise /16
 
 Stadt:  
 03003/12345 => <f>Class B</f>:
@@ -523,7 +523,7 @@ Stadt:
 | Subnetzmaske | 255       | 255                    | 0                    | 0       |
 |              |           | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#) |
 
-#### CIDR-Schreibweise /24
+##### CIDR-Schreibweise /24
 
 Dorf:  
 030056/1237 => <f>Class C</f>:  
@@ -533,7 +533,7 @@ Dorf:
 | Subnetzmaske | 255 | 255 | 255 | 0 | CIDR-Schreibweise /24
 | | | | Netz-ID (Vorwahl) &gt; | &lt; Host-ID (RufN#)
 
-### Zusammenfassung Class A:
+#### Zusammenfassung Class A:
 
 - Das Oktett 1 geht von 0 – 127 (128 verschiedene Zahlen).
 - Die Oktette 2, 3, 4 gehen von 0 – 255 (jeweils 256 verschiedene Zahlen).
@@ -546,7 +546,7 @@ Somit ergeben sich:
 - 128 Netze (0 – 127) aus dem Oktett 1 (zählt durch die Subnetzmaske zur Netz-ID).
 - Jedes Netz hat 16.777.216 (-2) Adressen (256 _ 256 _ 256 = 2<sup>24</sup>) aus Oktett 2 und 3 und 4.
 
-### Zusammenfassung Class B:
+#### Zusammenfassung Class B:
 
 - Das Oktett 1 geht von 128 – 191 (64 verschiedene Zahlen).
 - Die Oktette 2, 3, 4 gehen weiterhin von 0 – 255 (jeweils 256 verschiedene Zahlen pro Oktett).
@@ -562,7 +562,7 @@ Somit ergeben sich:
 - = 16.384 Netze (Oktett 1 und 2 zählen durch die Subnetzmaske jetzt zur Netz-ID).
 - Jedes Netz hat 65.536 (-2) Adressen (256 \_ 256 = 2<sup>16</sup>) aus Oktett 3 und 4.
 
-### Zusammenfassung Class C:
+#### Zusammenfassung Class C:
 
 - Das Oktett 1 geht von 192 – 223 (32 verschiedene Zahlen).
 - Die Oktette 2, 3, 4 gehen weiterhin von 0 – 255 (jeweils 256 verschiedene Zahlen pro Oktett).
@@ -594,21 +594,21 @@ Somit ergeben sich:
 
 ==>> Im weiteren Verlauf wird häufig die CIDR-Schreibweise verwendet.
 
-### besondere IPv4 Adressen (Auszug):
+#### besondere IPv4 Adressen (Auszug):
 
-#### **Class A:**
+##### **Class A:**
 
-##### 0.0.0.0
+###### 0.0.0.0
 
 unspezifizierte Adresse ("Ich weiß nicht wer ich
 bin.")
 
-##### 10.0.0.0 /8
+###### 10.0.0.0 /8
 
 Privater Adressbereich in Class A  
 [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
-##### 127.0.0.1
+###### 127.0.0.1
 
 - localhost oder auch loopback genannt
 - [de.wikipedia.org/wiki/Localhost](de.wikipedia.org/wiki/Localhost)
@@ -637,9 +637,9 @@ Privater Adressbereich in Class A
 - Privater Adressbereich in Class C
 - [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
-### Standardsubnetzmaske vs. Subnetzmaske:
+#### Standardsubnetzmaske vs. Subnetzmaske:
 
-#### Einführung:
+##### Einführung:
 
 - Betrachten wir die privaten Adressbereiche aus Class A, B und C:
 
@@ -649,7 +649,7 @@ Privater Adressbereich in Class A
 
   <!-- 21 -->
 
-#### **Problem 1:**
+##### **Problem 1:**
 
 Gesucht wird eine Lösung für 50 private Netze mit je 300 Adressen:
 
@@ -690,7 +690,7 @@ Gesucht wird eine Lösung für 300 private Netze mit je 50 Adressen:
 
  <!-- 22 -->
 
-### Subnetting IPv4 ("richtiges Subnetting")
+#### Subnetting IPv4 ("richtiges Subnetting")
 
 - siehe: im Verzeichnis Filius/Filius_5_LAN_8_PCs.fls
   - benötigte Hilfsmittel:
@@ -855,14 +855,14 @@ binär: 11111111.11111111.11111111.11100000
 dezimal: 255 . 255 . 255 . 224  
 CIDR: /27
 
-### asymmetrisches Subnetting:
+#### asymmetrisches Subnetting:
 
 => siehe: "Asymetrisches_Subnetting_Grafik.pdf"
 ![TB_3!](img/Asymetrisches_Subnetting_Grafik_01.png "TB_3")
 
 <!-- [28] -->
 
-### "reverses Subnetting" IPv4 (Anfang und Ende des Subnetzes ermitteln).
+#### "reverses Subnetting" IPv4 (Anfang und Ende des Subnetzes ermitteln).
 
 => siehe: Foto "TB_4" als Tafelbild
 ![TB_4!](img/TB_4.jpg "TB_4")
@@ -919,22 +919,22 @@ Sub: 11111111.11111111.11111111.111 | 00000
 
 <!-- [30] -->
 
-### Subnetzmaske IPv4 analysieren:
+#### Subnetzmaske IPv4 analysieren:
 
 => siehe: Foto "TB_5" als Tafelbild
 ![TB_5!](img/TB_5.jpg "TB_5")
 
-#### gegeben:
+##### gegeben:
 
 Subnetzmaskee: 255.255.255.224 (dezimale Schreibweise).  
 /27 (CIDR Schreibweise).
 
-#### gesucht:
+##### gesucht:
 
 Anzahl der Subnetze.  
 Anzahl der Adressen im jeweiligen Subnetz.
 
-#### Lösung:
+##### Lösung:
 
 - Subnetzmaske umrechnen dezimal => binär oder bei CIDR, 27 Einsen schreiben und den Rest mit Nullen auffüllen  
   CIDR: /27  
@@ -953,7 +953,7 @@ Anzahl der Adressen im jeweiligen Subnetz.
 
 <!-- [31] -->
 
-## IPv6:
+### IPv6:
 
 => siehe: Foto "TB_6" als Tafelbild  
 ![TB_6!](img/TB_6.jpg "TB_6")
@@ -975,7 +975,7 @@ Somit ergeben sich:
 Die Subnetzmaske wird in CIDR-Schreibweise dargestellt.  
 Die Subnetzmaske muss nicht /64 sein, auch andere Werte sind möglich und üblich.
 
-### kürzen von IPv6-Adressen:
+#### kürzen von IPv6-Adressen:
 
 => siehe: Foto "TB_7" als Tafelbild
 
@@ -983,22 +983,23 @@ Die Subnetzmaske muss nicht /64 sein, auch andere Werte sind möglich und üblic
 
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden
 
-#### gegeben:
+##### gegeben:
 
 IPv6-Adresse: 2001:0000:0000:000A:0000:0000:0000:0B00
 
-#### gesucht:
+##### gesucht:
 
 Verkürzte Schreibweise der IPv6-Adresse.
 
-#### Lösung:
+##### Lösung:
 
-Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse: 
+Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:
 2001:0:0:A:0:0:0:B00
 
 <!-- [32] -->
 
-"<f>weiter verkürzen</f>" von IPv6-Adressen:  
+#### weiter verkürzen von IPv6-Adressen:
+
 => siehe: Foto "TB_7" als Tafelbild
 ![TB_7!](img/TB_7.jpg "TB_7")
 
@@ -1006,117 +1007,117 @@ Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:
   der nur aus "Nullen" besteht, durch zwei Doppelpunkte :: ersetzt werden.
 - Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
 
-### Beispiel 1:
+##### Beispiel 1:
 
-#### gegeben:
+###### gegeben:
 
 Verkürzte Schreibweise der IPv6-Adresse:  
 2001:0:0:A:0:0:0:B00
 
-#### gesucht:
+###### gesucht:
 
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
 
-#### Lösung:
+###### Lösung:
 
 Im konkreten Fall ergeben sich 2 Lösungen:
 
-##### Lösung 1 (blaue Variante), die vorderen "Nuller-Blöcke" werden durch :: ersetzt:
+###### Lösung 1 (blaue Variante), die vorderen "Nuller-Blöcke" werden durch :: ersetzt:
 
 2001::A:0:0:0:B00
 
-##### Lösung 2 (rote Variante), die hinteren "Nuller-Blöcke" werden durch :: ersetzt:
+###### Lösung 2 (rote Variante), die hinteren "Nuller-Blöcke" werden durch :: ersetzt:
 
 2001:0:0:A::B00
 
 Die Lösung 2 (rote Variante) ist zu bevorzugen, da sie effektiver ist.
 
-### Beispiel 2:
+##### Beispiel 2:
 
-#### gegeben:
+###### gegeben:
 
 IPv6-Adresse: 2001:1234:5678:90AB:0000:0000:0000:0000
 
-#### gesucht:
+###### gesucht:
 
 Verkürzte Schreibweise der IPv6-Adresse.  
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
 
 <!-- [33] -->
 
-#### Lösung:
+###### Lösung:
 
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden:
 
-##### aus:
+###### aus:
 
 2001:1234:5678:90AB:0000:0000:0000:0000
 
-##### wird:
+###### wird:
 
 2001:1234:5678:90AB:0:0:0:0
 
 Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
 
-##### aus:
+###### aus:
 
 2001:1234:5678:90AB:0:0:0:0
 
-##### wird:
+###### wird:
 
 2001:1234:5678:90AB::
 
-### Beispiel 3:
+##### Beispiel 3:
 
-#### gegeben:
+###### gegeben:
 
 IPv6-Adresse: 0000:0000:0000:0000:0000:0000:0000:0001
 
-#### gesucht:
+###### gesucht:
 
 Verkürzte Schreibweise der IPv6-Adresse.  
 "Weiter verkürzte" Schreibweise der IPv6-Adresse.
 
-#### Lösung:
+###### Lösung:
 
 <!-- [34] -->
 
 Führende "Nullen" (NUR FÜHRENDE!) dürfen weggelassen werden:
 
-##### aus:
+###### aus:
 
 0000:0000:0000:0000:0000:0000:0000:0001
 
-##### wird:
+###### wird:
 
 0:0:0:0:0:0:0:1
 
 Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
 
-##### aus:
+###### aus:
 
 0:0:0:0:0:0:0:1
 
-##### wird:
+###### wird:
 
 ::1
 
-### folgende IPv6-Adressen sind somit gleichwertig:
+#### folgende IPv6-Adressen sind somit gleichwertig:
 
-#### aus Beispiel 1:
+##### aus Beispiel 1:
 
 2001:0000:0000:000A:0000:0000:0000:0B00  
 = 2001:0:0:A:0:0:0:B00  
 = 2001::A:0:0:0:B00  
 = 2001:0:0:A::B00
 
-#### aus Beispiel 2:
+##### aus Beispiel 2:
 
 2001:1234:5678:90AB:0000:0000:0000:0000  
 = 2001:1234:5678:90AB:0:0:0:0  
 = 2001:1234:5678:90AB::
 
-#### aus Beispiel 3:
+##### aus Beispiel 3:
 
 0000:0000:0000:0000:0000:0000:0000:0001  
 = 0:0:0:0:0:0:0:1  
@@ -1124,7 +1125,7 @@ Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende 
 
 <!-- [35] -->
 
-### Subnetting IPv6:
+#### Subnetting IPv6:
 
 benötigte Hilfsmittel:  
 Umrechnung hexadezimal => binär.  
@@ -1152,18 +1153,18 @@ hexadezimale Zeichen (16 Stück)
 => siehe: Foto "TB_8" als Tafelbild  
 ![TB_8!](img/TB_8.jpg "TB_8")
 
-#### gegeben:
+##### gegeben:
 
 Netz: 2001:1234:5678:90AB:: /64  
 = 2001:1234:5678:90AB:0000:0000:0000:0000 /64
 
-#### gesucht:
+##### gesucht:
 
 2 Subnetze.  
 Anfang und Ende der Subnetze.  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
 
-#### Lösung:
+##### Lösung:
 
 Zweierpotenzen aufschreiben, Exponent in ROT!  
 Neue Subnetzmaske:  
@@ -1174,7 +1175,7 @@ Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.
 Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):  
 0 1 2 3 4 5 6 7 8 9 A B C D E F
 
-#### Rechnung:
+##### Rechnung:
 
 16 hexadezimalen Zeichen : 2 = 8  
 Subnetz 1 beginnt bei 0 und endet bei 7  
@@ -1198,18 +1199,18 @@ Subnetz 2 endet bei: – „ – :FFFF:----> /65
 => siehe: Foto "TB_9" als Tafelbild  
 ![TB_9!](img/TB_9.jpg "TB_9")
 
-#### gegeben:
+##### gegeben:
 
 Netz: 2001:1234:5678:90AB:: /64  
 = 2001:1234:5678:90AB:0000:0000:0000:0000 /64
 
-#### gesucht:
+##### gesucht:
 
 4 Subnetze.  
 Anfang und Ende der Subnetze  
 Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
 
-#### Lösung:
+##### Lösung:
 
 Zweierpotenzen aufschreiben, Exponent in ROT!  
 Neue Subnetzmaske:  
@@ -1220,7 +1221,7 @@ Die erste 0 im ersten "Nuller-Block" als "Joker" betrachten.
 Die "Joker" 0 steht stellvertretend für alle hexadezimalen Zeichen (16 Stück):  
 0 1 2 3 4 5 6 7 8 9 A B C D E F
 
-#### Rechnung:
+##### Rechnung:
 
 16 hexadezimalen Zeichen : 4 = 4  
 Subnetz 1 beginnt bei 0 und endet bei 3  
@@ -1251,21 +1252,21 @@ Subnetz 4 endet bei: – „ – :FFFF:----> /66
 
 <!-- [40] 17 02 2023-->
 
-### "Reverses Subnetting" IPv6 (Anfang und Ende des Subnetzes ermitteln):
+#### "Reverses Subnetting" IPv6 (Anfang und Ende des Subnetzes ermitteln):
 
 ![TB_9!](img/TB_10.jpg "TB_10")
 
-#### gegeben:
+##### gegeben:
 
 Adresse: 2001:1234:5678:90AB:CDEF:1A2B:3C4D:5E6F  
 Subnetzmaske: /74
 
-### gesucht:
+##### gesucht:
 
 Anfang des Subnetzes, in dem sich diese IP-Adresse befindet.  
 Ende des Subnetzes in, dem sich diese IP-Adresse befindet.
 
-### Lösung:
+##### Lösung:
 
 Die Stelle in der Adresse suchen, in der sich das 74. bit befindet:  
 1 Block = 16 bit  
@@ -1307,12 +1308,12 @@ nach "Mühlenbecker Art":
 
 <!-- [42] -->
 
-### Besondere IPv6-Adressen (Auszug):
+#### Besondere IPv6-Adressen (Auszug):
 
 [de.wikipedia.org/wiki/IPv6](de.wikipedia.org/wiki/IPv6)  
 [heise.de/IPv6-Adressen-3484199.html](heise.de/IPv6-Adressen-3484199.html)
 
-#### Nicht spezifizierte IPv6-Adresse
+##### Nicht spezifizierte IPv6-Adresse
 
 0000:0000:0000:0000:0000:0000:0000:0000  
 = 0:0:0:0:0:0:0:0  
@@ -1320,7 +1321,7 @@ nach "Mühlenbecker Art":
 entspricht der IPv4-Adresse:  
 0.0.0.0
 
-#### localhost oder auch loopback-Adresse
+##### localhost oder auch loopback-Adresse
 
 0000:0000:0000:0000:0000:0000:0000:0001
 = 0:0:0:0:0:0:0:1
@@ -1328,7 +1329,7 @@ entspricht der IPv4-Adresse:
 entspricht der IPv4-Adresse:
 127.0.0.1
 
-#### Global Unicast:
+##### Global Unicast:
 
 2000:: /3  
 geht von:  
@@ -1341,7 +1342,7 @@ Im Internet gültige Adressen.
 
 <!-- [43] -->
 
-#### Unique Local Unicast:
+##### Unique Local Unicast:
 
 FC00:: /7  
 geht von:  
@@ -1355,7 +1356,7 @@ Dürfen das Unternehmensnetz nicht verlassen.
 Sind nicht im Internet gültig.
 => siehe: private IPv4-Adressen.
 
-#### Link Local Unicast:
+##### Link Local Unicast:
 
 FE80:: /10  
 geht von:  
@@ -1376,7 +1377,7 @@ Es gibt keine vergleichbare IPv4-Adresse (erinnert ein wenig an IPv4 APIPA[^1]).
 
 <!-- [44] -->
 
-#### Multicast:
+##### Multicast:
 
 [de.wikipedia.org/wiki/Multicast](de.wikipedia.org/wiki/Multicast)  
 FF00:: /8  
@@ -1396,13 +1397,13 @@ Bedeutung des "Y" nach FFX:
 
 <!-- [45] -->
 
-## Vergleich der Header von IPv4 und IPv6:
+### Vergleich der Header von IPv4 und IPv6:
 
 => siehe: Westermann Seite 582
 
-### IPv4 Header:
+#### IPv4 Header:
 
-#### Variable Länge:
+##### Variable Länge:
 
 Header-Länge = Wert in Feld (2) \* 32 bit  
 In der Darstellung auf Seite 314:  
@@ -1410,7 +1411,7 @@ Wert in Feld (2) => je eine Zeile.
 Sollte ein "Universal"-Header werden (wie ein behördlicher Universalvordruck):  
 Viele Optionen standardmäßig schon im Header vorhanden.
 
-#### TTL
+##### TTL
 
 => siehe: im Verzeichnis Filius/Filius\*8_Traceroute.fls  
 Um weitere Optionen erweiterbar.  
@@ -1437,7 +1438,7 @@ Hat ein neues Feld "<f>Flow Label</f>":
 - Super um zu Sniffen => alle zusammengehörigen Datenpakete haben das gleiche Label.
 <!-- [46] -->
 
-## DHCP:
+### DHCP:
 
 => siehe: Foto "TB_11" als Tafelbild  
 ![TB_11!](img/TB_11.jpg "TB_11")
@@ -1455,14 +1456,14 @@ Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
 - DNS-Server 2
 - Lease-Time (Gültigkeitsdauer dieser Angaben)
 
-### Stellvertretend an IPv4 erklärt:
+#### Stellvertretend an IPv4 erklärt:
 
-#### DHCP-Client startet "Discover":
+##### DHCP-Client startet "Discover":
 
 - Quell-IP: 0.0.0.0 ("ich weiß nicht, wer ich bin").
 - Ziel-IP: 255.255.255.255 ("Mega-Broadcast", Hilferuf an Jeden).
 
-#### DHCP-Server unterbreitet ein "Offer" (ein Angebot):
+##### DHCP-Server unterbreitet ein "Offer" (ein Angebot):
 
 - Quell-IP: IP des DHCP-Servers (im Tafelbild: 192.168.1.11).
 - Ziel-IP: die zukünftige IP, die der Client erhalten soll (im Tafelbild: 192.168.1.101),
@@ -1474,14 +1475,14 @@ Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
   - Lease-Time
   <!-- [47] -->
 
-#### DHCP-Client antwortet mit "Request":
+##### DHCP-Client antwortet mit "Request":
 
 - Quell-IP wieder: 0.0.0.0
 - Ziel-IP wieder: 255.255.255.255
 - weitere Informationen:
   - Nehme "Offer" (Angebot) an.
 
-#### DHCP-Server sendet ein "ACK" (eine Bestätigung):
+##### DHCP-Server sendet ein "ACK" (eine Bestätigung):
 
 - Quell-IP: IP des DHCP-Servers (im Tafelbild: 192.168.1.11).
 - Ziel-IP: die zukünftige IP, die der Client erhalten soll (im Tafelbild: 192.168.1.101),
@@ -1504,16 +1505,16 @@ Die Anfangsbuchstaben der 4 "Pfeile" (Discover, Offer, Request, ACK) ergeben den
 - Flexible Hosts (Laptops der Außendienstmitarbeiter) werden auf DHCP gestellt.
 <!-- [48] -->
 
-## Namensauflösung:
+### Namensauflösung:
 
 [https://de.wikipedia.org/wiki/Domain\_(Internet)#Fully_Qualified_Domain_Name\_(FQDN)](<de.wikipedia.org/wiki/Domain_(Internet)#Fully_Qualified_Domain_Name_(FQDN)>)
 
-### Warum Namensauflösung:
+#### Warum Namensauflösung:
 
 Der Host (Computer, Server) hat einen Namen (einen Namen können sich Menschen oft gut merken)  
  => wie lautet die IP-Adresse des Hosts (IP-Adressen kann man sich häufig schlechter merken)?
 
-#### Beispiel:
+Beispiel:
 
 www.heise.de  
 Address: 193.99.144.85 <= IPv4-Adresse  
@@ -1523,7 +1524,7 @@ Ein Host (Computer, Server) hat OPTIONAL einen DNS-Namen (FQDN[^2]).
 
 [^2]: FQDN Fully_Qualified_Domain_Name
 
-### Netbios-Name:
+#### Netbios-Name:
 
 - NICHT für Anfragen aus dem Internet zu gebrauchen, nur für das interne Netz (Broadcastdomain).
 - Maximal 15 vergebbare Zeichen.
@@ -1533,11 +1534,11 @@ Ein Host (Computer, Server) hat OPTIONAL einen DNS-Namen (FQDN[^2]).
   - 0...9
 - (Minuszeichen)
 
-#### Beispiel:
+##### Beispiel:
 
 Server-1
 
-#### Namensauflösung (Netbios-Name => IP-Adresse):
+##### Namensauflösung (Netbios-Name => IP-Adresse):
 
 Broadcast ("Wer von euch ist Server-1, ich brauche deine IP-Adresse").  
 Datei <f>lmhosts"</f> abfragen (völlig veraltet).  
@@ -1545,7 +1546,7 @@ Dienst <f>"WINS"</f> abfragen (völlig veraltet).
 
 <!-- [49] -->
 
-### DNS-Name ( FQDN[^2]):
+#### DNS-Name ( FQDN[^2]):
 
 => siehe: Westermann Seite 595  
 => siehe: im Verzeichnis Filius/Filius_12_DNS.fls  
@@ -1557,9 +1558,9 @@ Dienst <f>"WINS"</f> abfragen (völlig veraltet).
 - Bitte nur das englische Alphabet verwenden (kann sonst zu Problemen kommen, wie soll jemand, deutsche
   Umlaute eingeben, der ä, ö, ü, ß nicht auf seiner Tastatur hat).
 
-### Praktische Lösung:
+#### Praktische Lösung:
 
-#### Für externe Namensauflösung (Zugriff aus dem Internet):
+##### Für externe Namensauflösung (Zugriff aus dem Internet):
 
 - Domain registrieren (z.B. bfw-berlin-brandenburg.de).
 - Dem Server einen Netbios-Namen geben (z.B. Server-1).
@@ -1569,7 +1570,7 @@ Dienst <f>"WINS"</f> abfragen (völlig veraltet).
     "Alias" www verwendet. Somit ist der Server aus dem Internet erreichbar unter:
   - www.bfw-berlin-brandenburg.de
 
-#### Für interne Namensauflösung (ohne Zugriff aus dem Internet):
+##### Für interne Namensauflösung (ohne Zugriff aus dem Internet):
 
 - Domain ausdenken (z.B. itm.bfw).
 - Dem Server einen sinnvollen Netbios-Namen geben (z.B. proxy).
@@ -1579,32 +1580,36 @@ Dienst <f>"WINS"</f> abfragen (völlig veraltet).
   - proxy.itm.bfw
   <!-- [50] -->
 
-## Routing:
+### Routing:
 
 => siehe: Foto "TB_12" als Tafelbild
 ![TB_12!](img/TB_12.jpg "TB_12")
 => siehe: Westermann Seite 603
 
-### Unterschieden wird grundsätzlich:
+Unterschieden wird grundsätzlich:
 
 #### Dynamisches Routing (denke an Navi im Auto):
 
-##### Kürzeste Strecke (egal wie schnell) => siehe Protokoll RIP.
+##### Kürzeste Strecke (egal wie schnell) => siehe Protokoll RIP[^3].
+
+[^3]: RIP Routing Information Protocol für IP-Netze, das zur Klasse der Distance-Vector-Protokolle gehört. Es kommt als Interior Gateway Protocol (IGP) in kleineren Netzwerken zum Einsatz und zeichnet sich durch eine einfache Implementierung aus. Nachteile sind die relative langsame Aktualisierung bei Veränderungen im Netz und die fehlende Garantie einer Schleifenfreiheit.
 
 => siehe: im Verzeichnis Filius/Filius_14_RIP.fls
 
 ##### Schnellste Strecke (egal wie weit)
 
 => siehe Protokoll BGP.
+=> siehe Protokoll Open Shortest Path First
 
 #### Statische Routing ("ich kenne die Strecke und fahre immer dort entlang"):
 
-##### Im Tafelbild 12 zu sehen:
+Im Tafelbild 12 zu sehen:
 
 - Standard-Gateway: 192.168.1.1
 
   - Alle Datenpakete, die nicht zum eigenen Netz gehören, werden an diese Adresse
     geschickt.
+
   - Niemand würde das Netz 192.168.2.0 oder den Computer 192.168.2.202 erreichen können.
 
 - Lösung (eigene, feste Einträge für die Erreichbarkeit des ganzen Netzes):
