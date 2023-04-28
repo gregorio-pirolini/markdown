@@ -335,3 +335,65 @@ Nachbesserung
 Garantie ist icht gleich Gewährleistung
 
 ![Drag Racing](img/Mängelgewährleistung_01.png)
+
+## 23.04.2023
+
+### bs
+
+#### Internetangriffen:
+
+- **Phishing**: Hierbei versuchen Cyberkriminelle, sensible Informationen wie Benutzernamen, Passwörter und Kreditkarteninformationen durch gefälschte Websites, E-Mails oder Nachrichten zu erhalten.
+
+- **Malware**: Diese Art von Angriff bezieht sich auf die Verwendung von schädlicher Software wie Viren, Würmern, Trojanern und Spyware, um auf Systeme zuzugreifen und Daten zu stehlen oder Schäden zu verursachen.
+
+- **Distributed Denial of Service (DDoS)**: Ein DDoS-Angriff zielt darauf ab, eine Website oder einen Server durch Überlastung mit Traffic lahmzulegen.
+
+- **Man-in-the-Middle (MitM)** Angriffe: Bei diesen Angriffen versucht ein Angreifer, sich zwischen zwei Kommunikationspartnern zu positionieren, um Daten abzufangen oder zu manipulieren.
+
+- **Cross-Site-Scripting (XSS)**: Hierbei wird schädlicher Code in eine Website eingefügt, um den Benutzer zu täuschen oder seine Daten zu stehlen.
+
+- **SQL-Injection**: Hierbei wird eine Schwachstelle in einer Website ausgenutzt, um eine SQL-Abfrage auszuführen, die dem Angreifer Zugriff auf die Datenbank der Website gewährt.
+
+- **Zero-Day-Exploits**: Dies bezieht sich auf die Ausnutzung von Schwachstellen in Software, die noch nicht bekannt sind oder für die noch kein Patch verfügbar ist.
+
+- **Social Engineering**: Hierbei versucht ein Angreifer, durch Manipulation oder Täuschung von Benutzern Zugang zu vertraulichen Informationen oder Systemen zu erhalten.
+
+### db
+
+**changes names after removing foreign key constrain and adding it back!**
+
+ALTER TABLE tbl_teilnehmer CHANGE personalNr Id INT;  
+Alter TABLE tbl_teilnehmer RENAME teilnehmer;  
+ALTER TABLE personal CHANGE personalNr Id INT;  
+ALTER TABLE teilnehmer FOREIGN KEY(id) REFERENCES personal(id);
+
+ALTER TABLE teilnehmer  
+ADD CONSTRAINT fk_teilnehmer_personal_id  
+FOREIGN KEY (id)  
+REFERENCES personal(id);
+
+**take first letter of the name**  
+SELECT \* FROM k
+WHERE LEFT(name, 1) IN ('B','k')
+
+**get date**  
+SELECT NOW() AS today_date_withtime;  
+SELECT CURDATE() AS today_dat;
+
+**add new column**  
+ALTER TABLE AT ADD COLUMN proAuszahlung float
+
+### POWERSHELL
+
+**CALL-by-value  
+Call-by-reference**
+
+write-host "`$c = $c"
+
+`$c write not the value but the name of the variable
+
+$e =3
+
+$g = ([ref]$e)
+
+to get value of $g use $g.value

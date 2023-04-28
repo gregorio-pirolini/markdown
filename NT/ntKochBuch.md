@@ -1599,7 +1599,7 @@ Unterschieden wird grundsätzlich:
 ##### Schnellste Strecke (egal wie weit)
 
 => siehe Protokoll BGP.
-=> siehe Protokoll Open Shortest Path First
+=> siehe Protokoll ospf Open Shortest Path First
 
 #### Statische Routing ("ich kenne die Strecke und fahre immer dort entlang"):
 
