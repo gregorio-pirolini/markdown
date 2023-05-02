@@ -115,21 +115,21 @@ fehlt...
 
 ##### expendieren
 
-2001:000a:001b:03c5:0000:0000:0000:0000/64  
- fix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0000:0000:0000:0000/64
+2001:000a:001b:03c5:&nbsp;0000:0000:0000:0000/64  
+ fix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0000:0000:0000:0000/64
 
 16 number / 2 = 8
-aber wir fangen mizt 0 an dann 7!!
+aber wir fangen mit 0 an dann 7!!
 
 ###### 1.
 
-2001:000a:001b:03c5:0000:0000:0000:0000 /65
-2001:000a:001b:03c5:7fff:ffff:ffff:ffff /65
+2001:000a:001b:03c5:&nbsp;0000:0000:0000:0000 /65
+2001:000a:001b:03c5:&nbsp; 7fff:ffff:ffff:ffff /65
 
 ###### 2.
 
-2001:000a:001b:03c5:8000:0000:0000:0000 /65
-2001:000a:001b:03c5:ffff:ffff:ffff:ffff /65
+2001:000a:001b:03c5:&nbsp;8000:0000:0000:0000 /65
+2001:000a:001b:03c5:&nbsp;ffff:ffff:ffff:ffff /65
 
 ##### Übung
 
@@ -213,36 +213,42 @@ Das modulare Betriebssystem Synology DiskStation Manager (DSM) ermöglicht es da
 
 ## 03.10.2023
 
+### NT
+
 ipconfig
 
-xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:%13
+xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:%13  
 der 13. ausgedacht addresse vom computer
 
 IN IPV6 eingebettete ipv adresse
 ----->192.168.13.42 Dez
 0000:0000:0000:0000:0000:FFFF:
 0:0:0:0:0:ffff:C0A8:0D2A
+|&nbsp;|&nbsp;
+|----|----
+|![Drag Racing](img/ip4ip6.png)|HEADERS
 
-![Drag Racing](img/ip4ip6.png)
+in terminal traceroute: In computing, **traceroute** and **tracert** are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
 
-in terminal
-traceroute: In computing, traceroute and tracert are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
-
-![Drag Racing](img/ip6headerextension.png)
+|&nbsp;|&nbsp;
+|----|----
+|![Drag Racing](img/ip6headerextension.png)|HEADERS
 
 https://www.tutorialspoint.com/ipv6/ipv6_headers.htm#:~:text=IPv6%20headers%20have%20one%20Fixed,to%20handle%20a%20packet%2Fflow.
 
-![Drag Racing](img/IPv6_header.jpg)
+|&nbsp;|&nbsp;
+|----|----
+|![Drag Racing](img/IPv6_header.jpg)|HEADERS
 
 ver version  
 PRI priorisierung bzw tarffic class
 
 ## 16.03.2023
 
-??
-TBW = 150 GB
-R = 250 GB
-protag = 40 GB
+??  
+TBW = 150 GB  
+R = 250 GB  
+protag = 40 GB  
 What is CrystalDiskInfo used for?  
 CrystalDiskInfo is an MIT-licensed S.M.A.R.T. utility for reading and monitoring disk drive status. Like CrystalDiskMark, this tool is designed with an emphasis around solid state devices, supporting NVMe connections in addition to the usual PATA and SATA.
 
@@ -277,11 +283,11 @@ PC NAME --------------------------- IP-Adress
 **MUSS**  
 net bios Name  
 <= 15 Zeichnen  
-az09-  
+azAZ09-  
 ex: srv1
 
-Broadcast
-old: <del>lmhosts.sam</del>  
+Broadcast  
+old: <del>lmhosts.sam</del>    
 oder <del>wins</del>
 
 **Optional**  
@@ -290,7 +296,7 @@ oder <del>wins</del>
 FQDn/dns qualified domain name  
 <= 255 Zeichnen  
 <= 63Z.<= 63Z.<= 63Z.<= 62Z.  
-az09-
+azAZ09-
 
 DNS  
 <del>hosts</del> is old

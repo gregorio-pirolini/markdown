@@ -1323,15 +1323,13 @@ entspricht der IPv4-Adresse:
 
 ##### localhost oder auch loopback-Adresse
 
-0000:0000:0000:0000:0000:0000:0000:0001
-= 0:0:0:0:0:0:0:1
-= ::1
-entspricht der IPv4-Adresse:
-127.0.0.1
+0000:0000:0000:0000:0000:0000:0000:0001  
+= **::1**  
+entspricht der IPv4-Adresse: 127.0.0.1
 
 ##### Global Unicast:
 
-2000:: /3  
+**2000:: /3**  
 geht von:  
 2000:0000:0000:0000:0000:0000:0000:0000 /3
 bis:
@@ -1344,7 +1342,7 @@ Im Internet gültige Adressen.
 
 ##### Unique Local Unicast:
 
-FC00:: /7  
+**FC00:: /7**  
 geht von:  
 FC00:0000:0000:0000:0000:0000:0000:0000 /7  
 bis:  
@@ -1358,7 +1356,7 @@ Sind nicht im Internet gültig.
 
 ##### Link Local Unicast:
 
-FE80:: /10  
+**FE80:: /10**  
 geht von:  
 FE80:0000:0000:0000:0000:0000:0000:0000 /10  
 bis:  
@@ -1380,7 +1378,7 @@ Es gibt keine vergleichbare IPv4-Adresse (erinnert ein wenig an IPv4 APIPA[^1]).
 ##### Multicast:
 
 [de.wikipedia.org/wiki/Multicast](de.wikipedia.org/wiki/Multicast)  
-FF00:: /8  
+**FF00:: /8**  
 (F F X Y:: /8)  
 geht theoretisch von:  
 FF00:0000:0000:0000:0000:0000:0000:0000 /8  
@@ -1401,9 +1399,9 @@ Bedeutung des "Y" nach FFX:
 
 => siehe: Westermann Seite 582
 
-#### IPv4 Header:
+#### IPv4 Header
 
-##### Variable Länge:
+##### Variable Länge
 
 Header-Länge = Wert in Feld (2) \* 32 bit  
 In der Darstellung auf Seite 314:  
@@ -1417,7 +1415,7 @@ Viele Optionen standardmäßig schon im Header vorhanden.
 Um weitere Optionen erweiterbar.  
 Header hat eine Prüfsumme
 
-#### IPv6 Header:
+#### IPv6 Header
 
 Konstante Länge.  
 Kein "Universal"-Header:
@@ -1432,21 +1430,27 @@ Hat ein neues Feld "Traffic Class" => Priorisierung:
 - geht von: binär 00000000 => "wenn mal Zeit ist"
 - bis: binär 11111111 => "Blaulicht mit Martinshorn"
 
-Hat ein neues Feld "<f>Flow Label</f>":
+Hat ein neues Feld "Flow Label":
 
 - Alle Datenpakete, die zu einer Sitzung gehören (z.B. VoIP), bekommen das gleiche Label.
 - Super um zu Sniffen => alle zusammengehörigen Datenpakete haben das gleiche Label.
 <!-- [46] -->
 
-### DHCP:
+### DHCP
 
-=> siehe: Foto "TB_11" als Tafelbild  
-![TB_11!](img/TB_11.jpg "TB_11")
+=> siehe: Foto "TB_11" als Tafelbild
+
+| &nbsp;                           | &nbsp;                                           |
+| -------------------------------- | ------------------------------------------------ |
+| ![TB_11!](img/TB_11.jpg "TB_11") | ![dhcp!](img/dhcp_process_explained.webp "dhcp") |
+
 => siehe: (im „10-er Netz“) im Verzeichnis Filius/Filius_9_DHCP.fls  
 => siehe: (im „10-er Netz“) Netz“ im Verzeichnis Filius/Filius_10_DHCP_statisch.fls  
 => siehe: (im „10-er Netz“) im Verzeichnis Filius/Filius_11_DHCP_Konflikt.fls  
 => siehe: Westermann Seite 595  
-[de.wikipedia.org/wiki/](Dynamic_Host_Configuration_Protocol)  
+
+[de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol](de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol)
+
 Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
 
 - IP-Adresse
@@ -1463,7 +1467,7 @@ Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
 - Quell-IP: 0.0.0.0 ("ich weiß nicht, wer ich bin").
 - Ziel-IP: 255.255.255.255 ("Mega-Broadcast", Hilferuf an Jeden).
 
-##### DHCP-Server unterbreitet ein "Offer" (ein Angebot):
+##### DHCP-Server unterbreitet ein "Offer" (ein Angebot)
 
 - Quell-IP: IP des DHCP-Servers (im Tafelbild: 192.168.1.11).
 - Ziel-IP: die zukünftige IP, die der Client erhalten soll (im Tafelbild: 192.168.1.101),
@@ -1482,7 +1486,7 @@ Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
 - weitere Informationen:
   - Nehme "Offer" (Angebot) an.
 
-##### DHCP-Server sendet ein "ACK" (eine Bestätigung):
+##### DHCP-Server sendet ein "ACK" (eine Bestätigung)
 
 - Quell-IP: IP des DHCP-Servers (im Tafelbild: 192.168.1.11).
 - Ziel-IP: die zukünftige IP, die der Client erhalten soll (im Tafelbild: 192.168.1.101),
@@ -1538,7 +1542,7 @@ Ein Host (Computer, Server) hat OPTIONAL einen DNS-Namen (FQDN[^2]).
 
 Server-1
 
-##### Namensauflösung (Netbios-Name => IP-Adresse):
+##### Namensauflösung (Netbios-Name => IP-Adresse)
 
 Broadcast ("Wer von euch ist Server-1, ich brauche deine IP-Adresse").  
 Datei <f>lmhosts"</f> abfragen (völlig veraltet).  
@@ -1583,7 +1587,9 @@ Dienst <f>"WINS"</f> abfragen (völlig veraltet).
 ### Routing:
 
 => siehe: Foto "TB_12" als Tafelbild
+
 ![TB_12!](img/TB_12.jpg "TB_12")
+
 => siehe: Westermann Seite 603
 
 Unterschieden wird grundsätzlich:
@@ -1601,7 +1607,7 @@ Unterschieden wird grundsätzlich:
 => siehe Protokoll BGP.
 => siehe Protokoll ospf Open Shortest Path First
 
-#### Statische Routing ("ich kenne die Strecke und fahre immer dort entlang"):
+#### Statische Routing ("ich kenne die Strecke und fahre immer dort entlang")
 
 Im Tafelbild 12 zu sehen:
 
