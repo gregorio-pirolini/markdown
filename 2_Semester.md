@@ -403,3 +403,15 @@ $e =3
 $g = ([ref]$e)
 
 to get value of $g use $g.value
+
+## 03 05 2023
+
+### NT
+
+Ports: 2<sup>16</sup> = 0 -> 65535  
+0 - 1023 System Ports (well known ports)  
+1024 - 49151 user potrs (registered ports)  
+49152 - 65535 Dynamic /private Ports
+
+
+combination von IP und Port is socket

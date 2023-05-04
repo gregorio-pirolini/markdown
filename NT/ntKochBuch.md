@@ -1639,78 +1639,79 @@ Im Tafelbild 12 zu sehen:
 
 ## J.) Schicht 4:
 
-Themen aus Schicht 4:
-Ports
-TCP:
-Verbindungsaufbau
-Verbindungsabbau
-Sliding Window
-TCP-Header
-UDP:
-UDP-Header
-Portknocking
-Portforwarding / Destination NAT
-NAT (PAT) / Source NAT
-Black- und Whitelist (Block- und Allowlist)
-[53]
-Ports:
-iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt
-Ports werden von TCP und UDP genutzt.
+Themen aus Schicht 4:  
+Ports  
+TCP:  
+Verbindungsaufbau  
+Verbindungsabbau  
+Sliding Window  
+TCP-Header  
+UDP:  
+UDP-Header  
+Portknocking  
+Portforwarding / Destination NAT  
+NAT (PAT) / Source NAT  
+Black- und Whitelist (Block- und Allowlist)  
+<!-- [53] -->
+### Ports:
+
+- iana.org/assignments/ 
+- service-names-port-numbers/
+- service-names-port-numbers.txt    
+- Ports werden von TCP und UDP genutzt.  
 => siehe: Westermann Seite 590:
-Ports befinden sich zwischen der Schicht 4 (TCP bzw. UDP) und den Anwendungsschichten 5 bis 7.
+
+Ports befinden sich zwischen der Schicht 4 (TCP bzw. UDP) und den Anwendungsschichten 5 bis 7.  
+
 Denke an den Abfluss eines Waschbeckens:
-Normalerweise läuft das Wasser von der Anwendung (Hände waschen) in das darunter liegende
-System ab.
+Normalerweise läuft das Wasser von der Anwendung (Hände waschen) in das darunter liegende System ab.  
+
 Bekanntlich kann es auch passieren, dass das Wasser von unten in das Waschbecken
-zurück gedrückt wird (nicht wirklich angenehm).
+zurück gedrückt wird (nicht wirklich angenehm).  
+
 Warum Ports:
-=> siehe: im Verzeichnis Filius/Filius_17_PC_Server_Dienste_10.fls
-Die IP-Adresse (z.B. 192.168.1.11) definiert nur den Host (PC, Server).
-Auf einem PC laufen häufig gleichzeitig mehrere netzwerkfähige Programme (z.B. Mail-Client und
-Webbrowser oder Webbrowser mit mehreren geöffneten Tabs).
-Auf einem Server (gemeint ist die Serverhardware) werden oft gleichzeitig mehrere Dienste angeboten
-(z.B. Webserver, DHCP-Server, File-Server).
+=> siehe: im Verzeichnis Filius/Filius_17_PC_Server_Dienste_10.fls  
+Die IP-Adresse (z.B. 192.168.1.11) definiert nur den Host (PC, Server).  
+Auf einem PC laufen häufig gleichzeitig mehrere netzwerkfähige Programme (z.B. Mail-Client und Webbrowser oder Webbrowser mit mehreren geöffneten Tabs).  
+Auf einem Server (gemeint ist die Serverhardware) werden oft gleichzeitig mehrere Dienste angeboten (z.B. Webserver, DHCP-Server, File-Server).  
+
 Diese Dienste müssen unterschieden werden können, dafür werden Ports genutzt.
-Anders ausgedrückt:
-Die postalische Adresse eines Mehrfamilienhauses (IP-Adresse) reicht nicht aus,
-soll das Paket an Meier oder Lehmann oder Schulze (Ports) ausgeliefert werden?
-[54]
+Anders ausgedrückt:  
+
+Die postalische Adresse eines Mehrfamilienhauses (IP-Adresse) reicht nicht aus, soll das Paket an Meier oder Lehmann oder Schulze (Ports) ausgeliefert werden?
+<!-- [54] -->
 Schreibweise von IP-Adresse und Port:
-IP-Adresse:Port
-Beispiel:
-192.168.1.11:80
-Auf dem Server mit der IP-Adresse 192.168.1.11 wird der Dienst "Webserver"
-auf Port 80 angesprochen.
-==>> Die Kombination aus IP-Adresse und Port wird "Socket" genannt.
-Anzahl und Aufteilung der Ports:
-"System Ports" (früher "well known ports" genannt):
-Beginn:
-Port 0
-Ende:
-Port 1023
+IP-Adresse:Port  
+Beispiel:  
+192.168.1.11:80  
+Auf dem Server mit der IP-Adresse 192.168.1.11 wird der Dienst "Webserver" auf Port 80 angesprochen.  
+==>> Die Kombination aus IP-Adresse und Port wird "Socket" genannt  .
+Anzahl und Aufteilung der Ports:  
+"System Ports" (früher "well known ports" genannt):  
+Beginn: Port 0  
+Ende: Port 1023  
 Ports aus diesem Bereich sind "unantastbar".
-Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".
-Ports, die man kennen sollte:
-Port 20, 21 => ftp
-Port 22 => ssh
-Port 25 => SMTP
-Port 53 => DNS
-Port 67, 68 => DHCP
-Port 80 => http
-Port 110 => POP3
-Port 443 => https
+Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".  
+- Ports, die man kennen sollte:
+  - Port 20, 21 => ftp
+  - Port 22 => ssh
+  - Port 25 => SMTP
+  - Port 53 => DNS
+  - Port 67, 68 => DHCP
+  - Port 80 => http
+  - Port 110 => POP3
+  - Port 443 => https
 [55]
+
 "User Ports" (früher "registred ports" genannt):
-Beginn:
-Port 1024
-Ende:
-Port 49151
-Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.
-Denke an Standard-Nummernschilder von privaten Fahrzeugen.
-Ports, die man eventuell kennt:
-Port 3128 => squid-proxy
-Port 9100 => HP-Standard-Druckerport
-Port 20000 => Webmin
+Beginn: Port 1024
+Ende: Port 49151  
+Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.  
+Denke an Standard-Nummernschilder von privaten Fahrzeugen.  
+  - Ports, die man eventuell kennt:
+  - Port 3128 => squid-proxy
+  - Port 9100 => HP-Standard-Druckerport
+  - Port 20000 => Webmin
 "Dynamic/Private Ports" (hier gab es keine Änderung der Bezeichnung):
 Beginn:
 Port 49152
@@ -2168,8 +2169,8 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    Skript (firewall_Inhalt.sh) nutzen:
    PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
    PC braucht 2. Netzwerkkarte:
-7. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-8. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
+1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
+2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
    Skript auf den PC kopieren (auch per USB-Stick möglich).
    Skript "ausführbar" machen => "chmod 755 firewall*Inhalt.sh"

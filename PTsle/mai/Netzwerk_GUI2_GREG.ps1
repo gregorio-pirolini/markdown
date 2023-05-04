@@ -19,6 +19,11 @@ $ipaddress = (Get-NetIPAddress -AddressFamily IPv4 -InterfaceAlias "Ethernet" | 
 $networkAdapterConf = Get-WmiObject win32_NetworkAdapterConfiguration | Where-Object { $_.IPEnabled -eq $true } | Select-Object -first 1
 $subnet = $networkAdapterConf.IPSubnet
 
+
+#proxi
+$networkAdapterConf = Get-WmiObject win32_NetworkAdapterConfiguration | Where-Object { $_.IPEnabled -eq $true } | Select-Object -first 1
+$px = $networkAdapterConf.IPSubnet
+
 #MAC-ADRESSE
 $macaddress = $networkAdapterConf.MACAddress
 
@@ -142,6 +147,15 @@ $frmNet.Controls.Add($tbxIP)
 # Label Subnetzmaske
 $lblSubnet = create-label -text "Subnetzmaske" -fromleft 120 -fromtop 120
 $frmNet.Controls.Add($lblSubnet)
+
+
+# greg Label proxiserver
+$lblPx = create-label -text "proxi-server" -fromleft 400 -fromtop 60
+$frmNet.Controls.Add($lblPx)
+
+# Textbox proxiserver
+$tbxPx = create-textbox -text $px -fromleft 400 -fromtop 80
+$frmNet.Controls.Add($tbxPx)
 
 # Textbox Subnetzmaske
 $tbxSubnet = create-textbox -text $subnet -fromleft 100 -fromtop 140
