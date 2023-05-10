@@ -4,7 +4,8 @@ h2{color:green}
 h3{color:blue}
 h4{color:yellow}
 h5{color:purple}
-h6{color:pu}
+h6{color:pink}
+f{color:red}
 </style>
 
 # 2 Semester
@@ -36,7 +37,7 @@ cifs fruerher version von SMB
 
 ![Drag Racing](img/Willenserklärungen_01.png)
 
-#### Vertragsarten0001
+#### Vertragsarten
 
 ![Drag Racing](img/Vertragsarten0001_01.png)
 
@@ -58,7 +59,7 @@ cifs fruerher version von SMB
 
 ### wiso
 
-#### Form_der_Rechtsgeschäfte
+#### Form der Rechtsgeschäfte
 
 ![Drag Racing](img/Form_der_Rechtsgeschäfte_01.png)
 ![Drag Racing](img/Form_der_Rechtsgeschäfte_02.png)
@@ -77,7 +78,7 @@ fehlt...
 
 ### wiso
 
-#### Überblick Dienstleistungsverhältnisse_04
+#### Überblick Dienstleistungsverhältnisse
 
 ![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_01.png)
 ![Drag Racing](img/Überblick_Dienstleistungsverhältnisse_02.png)
@@ -93,11 +94,11 @@ fehlt...
 
 2001:1234:5678:90ab:cdef:1y2b:3c4d:5e6f
 
-1 nibble = 4 bit
-1 Block = 4 nibbles = 16 bit
-
+1 nibble = 4 bit  
+1 Block = 4 nibbles = 16 bit  
 8 Blöcke = 32 nibbles = 128 bit
 
+ex:  
 2001:0000:0000:000a:0000:0000:0000:0800
 2001:0:0:a:0:0:0:800
 
@@ -230,15 +231,15 @@ IN IPV6 eingebettete ipv adresse
 
 in terminal traceroute: In computing, **traceroute** and **tracert** are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
 
-|&nbsp;|&nbsp;
-|----|----
-|![Drag Racing](img/ip6headerextension.png)|HEADERS
+| &nbsp;                                     | &nbsp;  |
+| ------------------------------------------ | ------- |
+| ![Drag Racing](img/ip6headerextension.png) | HEADERS |
 
 https://www.tutorialspoint.com/ipv6/ipv6_headers.htm#:~:text=IPv6%20headers%20have%20one%20Fixed,to%20handle%20a%20packet%2Fflow.
 
-|&nbsp;|&nbsp;
-|----|----
-|![Drag Racing](img/IPv6_header.jpg)|HEADERS
+| &nbsp;                              | &nbsp;  |
+| ----------------------------------- | ------- |
+| ![Drag Racing](img/IPv6_header.jpg) | HEADERS |
 
 ver version  
 PRI priorisierung bzw tarffic class
@@ -287,7 +288,7 @@ azAZ09-
 ex: srv1
 
 Broadcast  
-old: <del>lmhosts.sam</del>    
+old: <del>lmhosts.sam</del>  
 oder <del>wins</del>
 
 **Optional**  
@@ -333,12 +334,23 @@ Bürgerlischer kauf : Um einen bürgerlichen Kauf handelt es sich, wenn Käufer 
 
 Unternehmen / Kaufmann Unterschied
 
-Mängelrüge  
+<f>Mängelrüge  
 Nacherfüllung  
 Nachlieferung  
-Nachbesserung
+Nachbesserung</f>
 
-Garantie ist icht gleich Gewährleistung
+**<f>Die Mängelrüge** ist eine Anzeige durch den Käufer eines Handelsgeschäftes, durch die dem Verkäufer ein Mangel oder die Falschlieferung der Ware gemeldet wird. Im Sinne des § 377 Handelsgesetzbuch muss die Ware unverzüglich nach Erhalt durch den Käufer untersucht und etwaige Mängel unverzüglich beanstandet werden.
+
+**<f>Nacherfüllung** Unter Nacherfüllung versteht man im deutschen Schuldrecht das dem Käufer beim Kaufvertrag und dem Besteller beim Werkvertrag eingeräumte Gewährleistungsrecht, das ihm einen Anspruch auf Nachbesserung oder Nachlieferung einräumt, sofern der Leistungsgegenstand im Zeitpunkt des Gefahrübergangs einen Mangel aufweist.
+
+**<f>Nachlieferung & Nachbesserung**  
+ Was ist der Unterschied zwischen Nachbesserung und Nachlieferung?
+Das Gesetz sieht zwei Formen der Nacherfüllung vor, zwischen denen der Käufer wählen darf: Nachbesserung und Nachlieferung. Bei der Nachbesserung beseitigt der Verkäufer den Mangel an der gelieferten Sache. Bei der Nachlieferung übergibt der Verkäufer dem Käufer eine neue, erfüllungstaugliche Sache.
+
+The law provides for two forms of supplementary performance between which the buyer may choose: Rectification and subsequent delivery. In the case of rectification, the seller removes the defect in the delivered item. In the case of subsequent delivery, the seller hands over a new item to the buyer that is suitable for fulfilment.
+
+**<f>Garantie ist nicht gleich Gewährleistung**  
+Das Wichtigste in Kürze. Garantie und Gewährleistung unterscheiden sich erheblich voneinander. Gewährleistungsrechte bestehen aufgrund gesetzlicher Vorschriften gegenüber dem Verkäufer. Eine Garantie ist eine freiwillige Leistung eines Herstellers und richtet sich nach seinen Bedingungen.
 
 ![Drag Racing](img/Mängelgewährleistung_01.png)
 
@@ -373,18 +385,18 @@ Alter TABLE tbl_teilnehmer RENAME teilnehmer;
 ALTER TABLE personal CHANGE personalNr Id INT;  
 ALTER TABLE teilnehmer FOREIGN KEY(id) REFERENCES personal(id);
 
-ALTER TABLE teilnehmer  
+<f>ALTER TABLE teilnehmer  
 ADD CONSTRAINT fk_teilnehmer_personal_id  
 FOREIGN KEY (id)  
-REFERENCES personal(id);
+REFERENCES personal(id) </f>;
 
 **take first letter of the name**  
 SELECT \* FROM k
-WHERE LEFT(name, 1) IN ('B','k')
+WHERE <f>LEFT(name, 1) </f> IN ('B','k')
 
 **get date**  
-SELECT NOW() AS today_date_withtime;  
-SELECT CURDATE() AS today_dat;
+SELECT <f>NOW()</f> AS today_date_withtime;  
+SELECT <f>CURDATE()</f> AS today_dat;
 
 **add new column**  
 ALTER TABLE AT ADD COLUMN proAuszahlung float
@@ -410,8 +422,82 @@ to get value of $g use $g.value
 
 Ports: 2<sup>16</sup> = 0 -> 65535  
 0 - 1023 System Ports (well known ports)  
-1024 - 49151 user potrs (registered ports)  
+1024 - 49151 user ports (registered ports)  
 49152 - 65535 Dynamic /private Ports
 
-
 combination von IP und Port is socket
+
+## 08 05 2023
+
+### wiso
+
+#### Mahnung bei Lieferverzug
+
+![Drag Racing](img/Mahnung-bei-Lieferverzug_01.png)
+
+#### Mangelbegriff
+
+![Drag Racing](img/Mangelbegriff_2022_01.png)
+![Drag Racing](img/Mangelbegriff_2022_02.png)
+![Drag Racing](img/Mangelbegriff_2022_03.png)
+![Drag Racing](img/Mangelbegriff_2022_04.png)
+![Drag Racing](img/Mangelbegriff_2022_05.png)
+![Drag Racing](img/Mangelbegriff_2022_06.png)
+
+#### Nicht Rechtzeitig Lieferung
+
+![Drag Racing](img/Nicht-Rechtzeitig-Lieferung_01.png)
+![Drag Racing](img/Nicht-Rechtzeitig-Lieferung_02.png)
+![Drag Racing](img/Nicht-Rechtzeitig-Lieferung_04.png)
+![Drag Racing](img/Nicht-Rechtzeitig-Lieferung_05.png)
+
+<f>Sofort ist keine Kalendarmäßige Bestimmung
+
+**Deckungskauf**:  
+Der Deckungskauf ist in der Wirtschaft ein Handelskauf, bei dem ein Käufer wegen eines Lieferverzugs durch seinen Lieferanten ersatzweise die benötigte Ware bei anderen Lieferanten beschaffen muss.  
+In business, a covering purchase is a commercial purchase in which a buyer has to procure the required goods from other suppliers as a substitute due to a delay in delivery by his supplier.
+
+<br>
+
+**Subjektiv Anforderung  
+Objektive Anforderung**  
+Was ist der Unterschied zwischen subjektiven und objektiven Anforderungen?  
+Eine objektive Sichtweise ist völlig wertfrei und unvoreingenommen, während eine subjektive Betrachtungsweise von Meinungen, persönlichen Vorlieben und Erfahrungen geprägt ist. Subjektive Ansichten sind damit individuell.  
+An objective view is completely value-free and unbiased, whereas a subjective view is shaped by opinions, personal preferences and experiences. Subjective views are thus individual.
+
+## 10 05 2023
+
+### wiso
+
+| &nbsp;                | &nbsp;              | &nbsp;      |
+| --------------------- | ------------------- | ----------- |
+| anwendung<br>port x   | anwendung<br>port y | 7<br>6<br>5 |
+| <td colspan=2>TCP/UDP | 4                   |
+| <td colspan=2>IP      | 3                   |
+| <td colspan=2>MAC     | 2                   |
+| <td colspan=2>NIC     | 1                   |
+| <td colspan=2>Medien  | 0                   |
+
+DHCP server Port 67  
+DHCP client Port 68  
+DNS Port 53  
+DHCPv6 client 546  
+DHCPv6 server 547
+
+**Apcupsd**, short for APC UPS daemon, is a utility that runs on Linux, UNIX, macOS and Windows. It allows the computer to interact with APC UPSes. Apcupsd also works with some OEM-branded products manufactured by APC. Apcupsd is a free software equivalent of the APC's proprietary PowerChute software.
+
+| TCP                           | UDP                      |
+| ----------------------------- | ------------------------ |
+| **Verbindungsorientiert**     | Verbindungsorientiert    |
+| Verbindungsaufbau             | -                        |
+| Kontrolierte datenübertragung | -                        |
+| Verbindungsabbau              | -                        |
+| 1 zu 1 Verbindung             | 1 zu 1/1 zu N Verbindung |
+| slow and safe                 | fast and dangerous       |
+| Fester Vorgang                | frei programmierbar      |
+| Einschreiben mit Rückschein   | Postkarte                |
+
+**Quic ist der TCP Nachvolger**  
+QUIC gilt vielen als Nachfolger des Transmission Control Protocol (TCP), weil es den Verkehr nicht nur selbst verschlüsselt, sondern auch lange Zeit übliche Aushandlungsschritte einspart. Das beschleunigt den Aufbau insbesondere komplexer Webseiten, die von verschiedenen Domänen Daten beziehen.
+
+**IETF**: The Internet Engineering Task Force is a standards organization for the Internet and is responsible for the technical standards that make up the Internet protocol suite. It has no formal membership roster or requirements and all its participants are volunteers
