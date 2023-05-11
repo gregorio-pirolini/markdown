@@ -500,4 +500,46 @@ DHCPv6 server 547
 **Quic ist der TCP Nachvolger**  
 QUIC gilt vielen als Nachfolger des Transmission Control Protocol (TCP), weil es den Verkehr nicht nur selbst verschlüsselt, sondern auch lange Zeit übliche Aushandlungsschritte einspart. Das beschleunigt den Aufbau insbesondere komplexer Webseiten, die von verschiedenen Domänen Daten beziehen.
 
-**IETF**: The Internet Engineering Task Force is a standards organization for the Internet and is responsible for the technical standards that make up the Internet protocol suite. It has no formal membership roster or requirements and all its participants are volunteers
+**IETF[^2]**: The Internet Engineering Task Force is a standards organization for the Internet and is responsible for the technical standards that make up the Internet protocol suite. It has no formal membership roster or requirements and all its participants are volunteers
+
+[^2]: IETF The Internet Engineering Task Force is a standards organization for the Internet and is responsible for the technical standards that make up the Internet protocol suite. It has no formal membership roster or requirements and all its participants are volunteers
+
+## 11 05 2023
+
+### BS
+
+- **Phishing**: Versuch, sensible Daten wie Benutzernamen, Passwörter oder Kreditkarteninformationen durch gefälschte E-Mails oder Webseiten zu stehlen.
+
+- **Vhishing**: Eine Form von Phishing, bei der Betrüger per Telefon versuchen, persönliche Informationen zu erlangen.
+- **Pharming**: Manipulation der DNS Eine Technik, bei der Internet-Verkehr auf gefälschte Websites umgeleitet wird, um sensible Informationen zu stehlen.
+- **Spoofing**: Fälschung von Datenpaketen oder Identitäten, um sich als eine andere Person oder ein anderes System auszugeben.
+
+- **Nicknapping**: Die Entführung oder Übernahme einer Online-Identität oder eines Benutzernamens.
+
+- **Spam**: Massen-E-Mails oder Nachrichten, die unerwünschte oder betrügerische Inhalte enthalten.
+- **Spyware**: Software, die ohne Wissen des Benutzers Informationen über seine Aktivitäten auf dem Computer oder im Internet sammelt.
+- **Adware**: Software, die Anzeigen auf dem Computer anzeigt, oft zusammen mit Freeware-Programmen.
+- **Virus**: Schädliches Programm, das sich selbst reproduziert und andere Computer infiziert.
+
+- **Trojaner**: Schadsoftware, die sich als nützliches Programm tarnt und heimlich bösartige Aktivitäten ausführt.
+
+- **Wurm**: Schadprogramm, das sich selbst verbreitet und durch das Netzwerk oder das Internet ausbreitet.
+- **Ransomware**: Schadprogramm, das die Computerdateien des Benutzers verschlüsselt und Lösegeld für die Entschlüsselung verlangt.
+
+- **DDoS**: Distributed-Denial-of-Service-Angriff, bei dem eine Website oder ein Netzwerk durch Überlastung mit Verbindungsanfragen lahmgelegt wird.
+
+- **Botnetze**: Eine Gruppe von vernetzten Computern, die von einem Angreifer ferngesteuert werden, um bösartige Aktivitäten auszuführen.
+
+- **APT[^1]** Ein Advanced Persistent Threat (APT) Angriff ist eine sehr anspruchsvolle und gezielte Art von Cyber-Angriff, bei dem ein Angreifer langfristigen und zielgerichteten Zugang zu einem Netzwerk oder System eines Unternehmens erlangt. Der Angriff erfolgt oft über Phishing- oder Spear-Phishing-E-Mails, um Zugangsdaten zu stehlen oder Malware zu installieren, die es dem Angreifer ermöglicht, im System zu bleiben und Daten zu sammeln oder zu manipulieren.
+  Ein APT-Angriff ist oft schwer zu erkennen und zu stoppen, da er sich auf lange Sicht versteckt und langsam vorgeht, um das Zielunternehmen zu infiltrieren und zu schädigen. Es erfordert oft eine umfassende und fortlaufende Überwachung und Analyse des Netzwerkverkehrs, um einen APT-Angriff zu identifizieren und zu stoppen.
+
+[^1]: APT Advanced Persistent Threat Angriff ist eine sehr anspruchsvolle und gezielte Art von Cyber-Angriff, bei dem ein Angreifer langfristigen und zielgerichteten Zugang zu einem Netzwerk oder System eines Unternehmens erlangt.
+
+<hr>
+IPsec[^3]: In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
+[^3]: IPsec In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
+
+### db
+
+count days from mySql:  
+DATEDIFF(end,start) as days_diff
