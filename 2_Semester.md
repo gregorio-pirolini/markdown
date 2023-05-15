@@ -29,7 +29,8 @@ ist ein Protokoll, das in lokalen Netzwerken für die Übertragung von Daten zwi
 
 Ein Linux-Samba-Server regelt die Freigabe von Dateien und Diensten im Netzwerk wie ein Windows-Server – nicht zuletzt (seit Samba-Version 4) auch dank der Fähigkeit, die Rolle des Active Directory Domain Controllers zu übernehmen.
 
-cifs fruerher version von SMB
+cifs[^4] fruerher version von SMB
+[^4]: cifs fruerher version von SMB
 
 ### wiso
 
@@ -117,7 +118,7 @@ ex:
 ##### expendieren
 
 2001:000a:001b:03c5:&nbsp;0000:0000:0000:0000/64  
- fix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0000:0000:0000:0000/64
+ fix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :0000:0000:0000:0000/64
 
 16 number / 2 = 8
 aber wir fangen mit 0 an dann 7!!
@@ -147,28 +148,33 @@ alles schreiben
 
 ist: low level formatierung  
 partition tabelle schreiben  
-MBR bios 4 primäre P 2TB 32 bit
-GPT uefi 127 partiotion zetabite 64 bit  
+MBR bios 4 primäre P 2TB 32 bit  
+GPT uefi 127 partition zetabite 64 bit  
 Partition  
 filesystem  
 fast blöcke zu cluster
 
-AHCI vs. RAID vs. IDE – das sollten Sie wissen
+##### AHCI vs. RAID vs. IDE – das sollten Sie wissen
 
 AHCI vs. RAID vs. IDE – alles Wissenswerte zusammengefasst
 Zu den Vorteilen von modernen Betriebssystemen wie Windows 10 und Windows 11 gehört, dass die Bedienung äußerst einfach und kein tieferes Verständnis von Computern erforderlich ist. Auch ohne langwierige Konfigurationen können Programme wie Microsoft Word ausgeführt und verschiedenste Hardware genutzt werden. Allerdings ist nicht jede Standardeinstellung die beste Option für alle Benutzer – und einige der Änderungen, von denen Sie möglicherweise profitieren, erfordern tiefere Computerkenntnisse. Die Wahl zwischen AHCI, RAID und IDE für Ihre SATA-Konfiguration ist eines der Dinge, die Ihr gesamtes Computererlebnis verbessern können, aber etwas kompliziert ist. In diesem Blogbeitrag schauen wir uns die Gemeinsamkeiten und Unterschiede von AHCI, RAID und IDE etwas genauer an.
 
-Was ist SATA und was gibt die Konfiguration vor?
+##### Was ist SATA und was gibt die Konfiguration vor?
+
 SATA steht für Serial Attached Technology Attachment und beschreibt eine Übertragungs-Technik für Festplatten und Wechselspeicher-Laufwerke. Wie es die Bezeichnung bereits erahnen lässt, basiert SATA auf der seriellen Signaltechnik. Dies bedeutet, dass Daten als eine Folge einzelner Bits übertragen werden. Die Entwicklung der technischen Spezifikation überwacht die Serial ATA International Organization (SATA-IO).
 
 Ihre SATA-Konfiguration gibt vor, wie Ihr Rechner Daten speichert und verarbeitet. Neuere Laufwerkstypen wie Solid-State-Drive (SSD) und NVme-Laufwerke verwenden nicht immer ein SATA-Protokoll. Im Allgemeinen sind Geräte, die direkt mit dem Motherboard verbunden sind, schneller als solche, die Kabel verwenden, insbesondere wenn PCIe 4.0-Steckplätze vorhanden sind. IDE, AHCI und RAID sind verschiedene Möglichkeiten, Ihre SATA-Geräte zu verwalten. Welches am besten funktioniert, hängt von Ihrem Computer ab, welche Laufwerke Sie verwenden und wie Sie sie nutzen möchten.
 
 AHCI und IDE im Vergleich
-IDE steht für Integrated Drive Electronics und ist das älteste SATA-Protokoll. Moderne Systeme verwenden es selten, weil es langsamer ist und weniger Optionen bietet als AHCI. Es wird im Allgemeinen als Möglichkeit bereitgestellt, ältere Hardware anzuschließen, die mit anderen Konfigurationen nicht funktioniert. Letztendlich ist der einzige Grund, IDE zu verwenden, wenn Sie keine anderen Optionen haben. IDE wird von fast jedem Betriebssystem unterstützt und ist weit verbreitet.
+IDE[^5] steht für Integrated Drive Electronics und ist das älteste SATA-Protokoll. Moderne Systeme verwenden es selten, weil es langsamer ist und weniger Optionen bietet als AHCI. Es wird im Allgemeinen als Möglichkeit bereitgestellt, ältere Hardware anzuschließen, die mit anderen Konfigurationen nicht funktioniert. Letztendlich ist der einzige Grund, IDE zu verwenden, wenn Sie keine anderen Optionen haben. IDE wird von fast jedem Betriebssystem unterstützt und ist weit verbreitet.
+
+[^5]: IDE steht für Integrated Drive Electronics und ist das älteste SATA-Protokoll.
 
 AHCI steht für Advanced Host Controller Interface und ist die beliebteste Alternative zu IDE. Sein neueres Protokoll speichert alle Informationen auf dem zugewiesenen Laufwerk. Dem 2004 veröffentlichten Schnittstellenstandard für Serial-ATA-Controller kommt die zentrale Aufgabe zu, die Datenübertragung vom RAM auf die Festplatten zu erleichtern.
 
-AHCI bietet gegenüber IDE mehrere Vorteile. Geschwindigkeit ist einer der wichtigsten Vorteile von AHCI gegenüber IDE. Native Command Queueing (NCQ) ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden. Ältere IDE-Systeme erledigen Aufgaben stets in der angeforderten Reihenfolge, was nur selten der sinnvollste und effektivste Weg ist.
+AHCI bietet gegenüber IDE mehrere Vorteile. Geschwindigkeit ist einer der wichtigsten Vorteile von AHCI gegenüber IDE. Native Command Queueing (NCQ[^6]) ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden. Ältere IDE-Systeme erledigen Aufgaben stets in der angeforderten Reihenfolge, was nur selten der sinnvollste und effektivste Weg ist.
+
+[^6]: NCQ ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden.
 
 Hot Plugging ist eine Funktion, die von AHCI unterstützt wird und mit der Sie neue Laufwerke anschließen können, selbst wenn der Computer eingeschaltet ist. Dies ist nützlich, insbesondere bei der Fehlerbehebung oder wenn Sie häufig Laufwerke anschließen und wieder entfernen müssen.
 
@@ -229,7 +235,7 @@ IN IPV6 eingebettete ipv adresse
 |----|----
 |![Drag Racing](img/ip4ip6.png)|HEADERS
 
-in terminal traceroute: In computing, **traceroute** and **tracert** are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
+<u>in terminal traceroute:</u> In computing, **traceroute** and **tracert** are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network
 
 | &nbsp;                                     | &nbsp;  |
 | ------------------------------------------ | ------- |
@@ -339,7 +345,7 @@ Nacherfüllung
 Nachlieferung  
 Nachbesserung</f>
 
-**<f>Die Mängelrüge** ist eine Anzeige durch den Käufer eines Handelsgeschäftes, durch die dem Verkäufer ein Mangel oder die Falschlieferung der Ware gemeldet wird. Im Sinne des § 377 Handelsgesetzbuch muss die Ware unverzüglich nach Erhalt durch den Käufer untersucht und etwaige Mängel unverzüglich beanstandet werden.
+**Die <f>Mängelrüge</f>** ist eine Anzeige durch den Käufer eines Handelsgeschäftes, durch die dem Verkäufer ein Mangel oder die Falschlieferung der Ware gemeldet wird. Im Sinne des § 377 Handelsgesetzbuch muss die Ware unverzüglich nach Erhalt durch den Käufer untersucht und etwaige Mängel unverzüglich beanstandet werden.
 
 **<f>Nacherfüllung** Unter Nacherfüllung versteht man im deutschen Schuldrecht das dem Käufer beim Kaufvertrag und dem Besteller beim Werkvertrag eingeräumte Gewährleistungsrecht, das ihm einen Anspruch auf Nachbesserung oder Nachlieferung einräumt, sofern der Leistungsgegenstand im Zeitpunkt des Gefahrübergangs einen Mangel aufweist.
 
@@ -537,9 +543,153 @@ QUIC gilt vielen als Nachfolger des Transmission Control Protocol (TCP), weil es
 
 <hr>
 IPsec[^3]: In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
+
 [^3]: IPsec In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
 
 ### db
 
 count days from mySql:  
 DATEDIFF(end,start) as days_diff
+
+## 15 05 2023
+
+### BS
+
+#### Berechnung Größe scans 1
+
+**Größe der Vorlage:** 21 cm \* 29,7 cm
+
+**Auflösung:** 300 dpi \* 400 dpi
+
+**Farbtiefe:** 24 bits rgb
+
+**Kompression:** 20:1
+KompressionFaktor 20
+
+##### cm to inch
+
+1nch = 2,54 cm  
+x inch = 21 cm  
+x= 21/2,54 = 8.26 inch
+
+1nch = 2,54 cm  
+x inch = 29,7 cm  
+x= 29,7/2,54 = 11.69 inch
+
+##### aufösung
+
+8.26 * 300 = 2478  
+11,69*400 = 4677
+
+11 587 128 pixels oder dots
+
+##### Farbtiefe in Byte
+
+24 bit rgb /8 = 3  
+11 587 128 \* 3 = 34 761 384 Byte
+
+##### Kompression
+
+1 : 20
+x : 34 761 384 Byte
+
+x= 34 761 384/20  
+x= 1738069 Byte
+
+##### Byte to MiByte
+
+Burger King Makes Great Toast
+
+1738069 /1024^2 = 1.65 MiByte
+
+#### Berechnung Größe scans 2
+
+**Größe der Vorlage:** 400 mm \* 600 mm
+
+**Auflösung:** 300 dpi \* 200 dpi
+
+**Farbtiefe:** 16 graustuffe  
+ 4 bits
+
+**Kompression:** 20:1
+KompressionFaktor 20
+
+##### cm to inch
+
+1nch = 2,54 cm  
+x inch = 40 cm  
+x= 40/2,54 = 15.74 inch
+
+1nch = 2,54 cm  
+x inch = 60 cm  
+x= 60/2,54 = 23.62 inch
+
+##### aufösung
+
+15.74 * 300 = 4724  
+23.62*200 = 4724
+
+22 316 176 pixels oder dots
+
+##### Farbtiefe in Byte
+
+16 bit grau 4 bits = 1/2 bytes  
+22 316 176 \* 1/2 = 11 148 642 Byte
+
+Burger King Makes Great Toast  
+11 158 088 byte
+
+x= 11 158 088 /1024^3
+x= 10.64 MiB
+
+##### transfer time with 1Mbit/s
+
+total= 10.64 MiB  
+total to Mbit = 10.64*8 *1024\*1024 /10^6
+total = 88,92 Mbit
+transfer = 1Mbit/s
+
+### WISO
+
+Umtausch - Gewährleistung - Garantie  
+Kulanz umtausch  
+Prüf rügel ... ??
+
+Nacherfüllung  
+Nachlieferung  
+Nachbesserung
+
+Schadenersatz mit der Leistung  
+Schadenersatz neben der Leistung
+
+### BS
+
+#### Back ups
+
+zeitlich örtlich getrennt  
+Üben
+
+3 2 1 Regel
+
+vollbackup kann auf einem betriebsystem oder nur eienm ordner
+
+##### **voll backup**
+
+- schnell wieder herstellen
+- lang zu machen.
+- ein mal in der Woche
+
+##### **Differenzielle backup**
+
+- Daten die geändert wurden
+- alles seit dem vollbackup
+- geringe speicherplatz
+
+##### **Inkrementelle backup**
+
+- Daten die geändert wurden
+- alles seit dem letzen mal
+- geringe speicherplatz
+
+vorwärts Delta
+Reverse-Delta
