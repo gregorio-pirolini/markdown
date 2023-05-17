@@ -1448,7 +1448,7 @@ Hat ein neues Feld "Flow Label":
 => siehe: (im „10-er Netz“) im Verzeichnis Filius/Filius_9_DHCP.fls  
 => siehe: (im „10-er Netz“) Netz“ im Verzeichnis Filius/Filius_10_DHCP_statisch.fls  
 => siehe: (im „10-er Netz“) im Verzeichnis Filius/Filius_11_DHCP_Konflikt.fls  
-=> siehe: Westermann Seite 595  
+=> siehe: Westermann Seite 595
 
 [de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol](de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol)
 
@@ -1640,71 +1640,75 @@ Im Tafelbild 12 zu sehen:
 
 ## J.) Schicht 4:
 
-### Themen aus Schicht 4:  
+### Themen aus Schicht 4:
 
-- Ports  
-- TCP:  
-  - Verbindungsaufbau  
-  - Verbindungsabbau  
-  - Sliding Window  
-  - TCP-Header  
-- UDP:  
-  - UDP-Header  
-- Portknocking  
-- Portforwarding / Destination NAT  
-- NAT (PAT) / Source NAT  
--  Black- und Whitelist (Block- und Allowlist)  
+- Ports
+- TCP:
+  - Verbindungsaufbau
+  - Verbindungsabbau
+  - Sliding Window
+  - TCP-Header
+- UDP:
+  - UDP-Header
+- Portknocking
+- Portforwarding / Destination NAT
+- NAT (PAT) / Source NAT
+- Black- und Whitelist (Block- und Allowlist)
 <!-- [53] -->
+
 ### Ports:
 
-[LINK : service-names-port-numbers](iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt)  
+[LINK : service-names-port-numbers](iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt)
 
 - Ports werden von TCP und UDP genutzt.  
-=> siehe: Westermann Seite 590:
+  => siehe: Westermann Seite 590:
 
-Ports befinden sich zwischen der Schicht 4 (TCP bzw. UDP) und den Anwendungsschichten 5 bis 7.  
+Ports befinden sich zwischen der Schicht 4 (TCP bzw. UDP) und den Anwendungsschichten 5 bis 7.
 
 Denke an den Abfluss eines Waschbeckens:
-Normalerweise läuft das Wasser von der Anwendung (Hände waschen) in das darunter liegende System ab.  
+Normalerweise läuft das Wasser von der Anwendung (Hände waschen) in das darunter liegende System ab.
 
 Bekanntlich kann es auch passieren, dass das Wasser von unten in das Waschbecken
-zurück gedrückt wird (nicht wirklich angenehm).  
+zurück gedrückt wird (nicht wirklich angenehm).
 
 **Warum Ports:**  
-=> siehe: im Verzeichnis Filius/Filius_17_PC_Server_Dienste_10.fls 
+=> siehe: im Verzeichnis Filius/Filius_17_PC_Server_Dienste_10.fls
 
-Die IP-Adresse (z.B. 192.168.1.11) definiert nur den Host (PC, Server).    
-Auf einem PC laufen häufig gleichzeitig mehrere netzwerkfähige Programme (z.B. Mail-Client und Webbrowser oder Webbrowser mit mehreren geöffneten Tabs). 
+Die IP-Adresse (z.B. 192.168.1.11) definiert nur den Host (PC, Server).  
+Auf einem PC laufen häufig gleichzeitig mehrere netzwerkfähige Programme (z.B. Mail-Client und Webbrowser oder Webbrowser mit mehreren geöffneten Tabs).
 
-Auf einem Server (gemeint ist die Serverhardware) werden oft gleichzeitig mehrere Dienste angeboten (z.B. Webserver, DHCP-Server, File-Server).    
+Auf einem Server (gemeint ist die Serverhardware) werden oft gleichzeitig mehrere Dienste angeboten (z.B. Webserver, DHCP-Server, File-Server).
 
 Diese Dienste müssen unterschieden werden können, dafür werden **Ports** genutzt.
-Anders ausgedrückt:  
+Anders ausgedrückt:
 
 Die postalische Adresse eines Mehrfamilienhauses (IP-Adresse) reicht nicht aus, soll das Paket an Meier oder Lehmann oder Schulze (**Ports**) ausgeliefert werden?
+
 <!-- [54] -->
+
 #### Schreibweise von IP-Adresse und Port:
 
-##### IP-Adresse:Port 
+##### IP-Adresse:Port
 
-###### Beispiel: 
+###### Beispiel:
 
 192.168.1.11:80  
 Auf dem Server mit der IP-Adresse 192.168.1.11 wird der Dienst "Webserver" auf Port 80 angesprochen.
 
 ==>> Die Kombination aus IP-Adresse und Port wird "**Socket**" genannt.
 
-#### Anzahl und Aufteilung der Ports: 
+#### Anzahl und Aufteilung der Ports:
 
-##### "System Ports" (früher "well known ports" genannt):  
-|Beginn:|Ende
-|-----|-----
-|Port 0 | Port 1023 
- 
- 
+##### "System Ports" (früher "well known ports" genannt):
+
+| Beginn: | Ende      |
+| ------- | --------- |
+| Port 0  | Port 1023 |
 
 ###### Ports aus diesem Bereich sind "unantastbar".
-Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".  
+
+Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".
+
 - Ports, die man kennen sollte:
   - Port 20, 21 => ftp
   - Port 22 => ssh
@@ -1714,28 +1718,28 @@ Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".
   - Port 80 => http
   - Port 110 => POP3
   - Port 443 => https
-<!-- [55] -->
+  <!-- [55] -->
 
 ##### "User Ports" (früher "registred ports" genannt):
-|Beginn:|Ende
-|-----|-----
-|Port 1024 | Port 49151 
-   
 
-Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.  
+| Beginn:   | Ende       |
+| --------- | ---------- |
+| Port 1024 | Port 49151 |
 
-Denke an Standard-Nummernschilder von privaten Fahrzeugen.  
+Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.
 
-  - Ports, die man eventuell kennt:
-    - Port 3128 => squid-proxy
-    - Port 9100 => HP-Standard-Druckerport
-    - Port 20000 => Webmin
-  
+Denke an Standard-Nummernschilder von privaten Fahrzeugen.
+
+- Ports, die man eventuell kennt:
+  - Port 3128 => squid-proxy
+  - Port 9100 => HP-Standard-Druckerport
+  - Port 20000 => Webmin
+
 ##### "Dynamic/Private Ports" (hier gab es keine Änderung der Bezeichnung):
 
-|Beginn:|Ende
-|-----|-----
-|Port 49152| Port 65535
+| Beginn:    | Ende       |
+| ---------- | ---------- |
+| Port 49152 | Port 65535 |
 
 Diese Ports sind keiner Software fest zugeordnet.
 Diese Ports können nur kurzfristig (temporär) verwendet werden.
@@ -1744,14 +1748,17 @@ Denke an Nummernschilder für eine Tageszulassung oder an ein Überführungskenn
 <!-- [56] -->
 
 ### TCP:
+
 [LINK: TCP](de.wikipedia.org/wiki/Transmission_Control_Protocol)
 
 #### Eigenschaften:
+
 ##### Verbindungsorientiert:
+
 Arbeitet mit einem geordneten VerbindungsAUFbau.  
 Die Daten werden kontrolliert übertragen (mit Rückmeldung).  
 Arbeitet mit einem geordneten VerbindungsABbau.  
-==>> Denke an ein "gepflegtes" Telefonat.  
+==>> Denke an ein "gepflegtes" Telefonat.
 
 Bietet eine hohe Sicherheit, dass die Daten vollständig übertragen werden.
 Langsamer als UDP.
@@ -1763,32 +1770,41 @@ Ist als fester "Algorithmus" zu betrachten
 #### VerbindungsAUFbau am Beispiel Client und Server:
 
 ##### Client => Server:
-Client sendet an den Server seine Zufallszahl (z.B. 1000) und setzt das SYN-Flag  
+
+Client sendet an den Server seine Zufallszahl (z.B. 1000) und setzt das SYN-Flag
+
 ###### ich möchte mich mit dir synchronisieren
 
 ##### Server => Client:
+
 Server sendet die Zufallszahl des Clients um 1 erhöht (1001) zurück und setzt das ACK-Flag.
-Gleichzeitig sendet der Server seine Zufallszahl (z.B. 2000) und setzt das SYN-Flag  
-###### auch ich möchte mich mit dir synchronisieren 
+Gleichzeitig sendet der Server seine Zufallszahl (z.B. 2000) und setzt das SYN-Flag
+
+###### auch ich möchte mich mit dir synchronisieren
 
 ##### Client => Server:
+
 Client sendet die Zufallszahl des Servers um 1 erhöht (2001) zurück und setzt das ACK-Flag.
-######  :)
+
+###### :)
 
 ##### Die Verbindung wurde AUFgebaut.
+
 ##### 3 "Pfeile" => 3 Datenpakete sind für den VerbindungsAUFbau nötig:
+
 3-Wege-Handshake-Verfahren.
 
 <!-- [57] -->
 
 ACHTUNG: DDoS-Attacke möglich!
 
-[LINK DDoS](de.wikipedia.org/wiki/Denial_of_Service)  
+[LINK DDoS](de.wikipedia.org/wiki/Denial_of_Service)
 
 [SYN-Flood](de.wikipedia.org/wiki/SYN-Flood)
 
-
 #### Kontrollierte Datenübertragung:
+
+[![Alt Text](https://img.youtube.com/vi/c5qqPo5v3-U/0.jpg)](https://www.youtube.com/watch?v=c5qqPo5v3-U)
 
 [LINK: Medieninformatik - Kommunikationsnetze - Schiebefenster-Mechanismus - 04](youtube.com/watch?v=c5qqPo5v3-U)  
 Eine bessere Erklärung ist kaum zu finden.
@@ -1796,37 +1812,49 @@ Eine bessere Erklärung ist kaum zu finden.
 #### VerbindungsABbau am Beispiel Client und Server:
 
 ##### Client => Server:
-Client sendet an den Server ein FIN-Flag 
+
+Client sendet an den Server ein FIN-Flag
+
 ###### ich möchte die Verbindung beenden.
 
 ##### Server => Client:
+
 Server sendet an den Client ein ACK-Flag
+
 ###### ok, einverstanden.
 
 ##### Server => Client:
+
 Server sendet an den Client auch ein FIN-Flag
- ###### auch ich möchte die Verbindung beenden.
+
+###### auch ich möchte die Verbindung beenden.
 
 ##### Client => Server:
-Client sendet an den Server auch ein ACK-Flag 
+
+Client sendet an den Server auch ein ACK-Flag
 
 ###### ok, auch einverstanden.
 
 ##### Die Verbindung wurde ABgebaut.
+
 4 "Pfeile" => 4 Datenpakete sind für den VerbindungsABbau nötig:  
 4-Wege-Handshake-Verfahren.
 
 #### TCP-Header:
+
 => siehe: Westermann Seite 581
 de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers
 
 <!-- [58] -->
 
 ### UDP:
+
 [LINK UDP](de.wikipedia.org/wiki/User_Datagram_Protocol)
 
 #### Eigenschaften:
+
 ##### Verbindungslos:
+
 Arbeitet ohne VerbindungsAUFbau.  
 Die Daten werden unkontrolliert übertragen (keine Rückmeldung).  
 Arbeitet ohne VerbindungsABbau.  
@@ -1843,27 +1871,29 @@ Eine "Spielwiese" für Programmierer.
 ### Portknocking:
 
 => siehe: Foto "TB_15" als Tafelbild als Beispiel.  
-"richtiges Anklopfen" aus dem externen Netz, löst ein Ereignis im internen Netz aus.  
+"richtiges Anklopfen" aus dem externen Netz, löst ein Ereignis im internen Netz aus.
+
 #### Funktionsbeschreibung:
+
 Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, über die sie auch aus dem Internet erreichbar ist.  
 Auf der FritzBox wurde Portknocking aktiviert.  
-Auf der FritzBox wurde eine Tabelle mit 3 Sockets erstellt:  
+Auf der FritzBox wurde eine Tabelle mit 3 Sockets erstellt:
 
 1.)  
-externe IP-Adresse und erster willkürlicher Port (11.1.2.4:1111) 
+externe IP-Adresse und erster willkürlicher Port (11.1.2.4:1111)
 
 2.)  
-externe IP-Adresse und zweiter willkürlicher Port (11.1.2.4:2222)  
+externe IP-Adresse und zweiter willkürlicher Port (11.1.2.4:2222)
 
 3.)  
-externe IP-Adresse und dritter willkürlicher Port (11.1.2.4:3333)  
+externe IP-Adresse und dritter willkürlicher Port (11.1.2.4:3333)
 
 Auf der FritzBox wurde ein Ereignis definiert, das ausgelöst wird, wenn die 3 Sockets in der richtigen
-Reihenfolge 1.), 2.), 3.) angesprochen werden.  
+Reihenfolge 1.), 2.), 3.) angesprochen werden.
 
 Hier im Beispiel Wake on LAN (WoL):  
 [Link Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
-Sendet das Laptop aus dem Internet 3 Datenpakete in der richtigen Reihenfolge:  
+Sendet das Laptop aus dem Internet 3 Datenpakete in der richtigen Reihenfolge:
 
 (1) beinhaltet 11.1.2.4:1111  
 (2) beinhaltet 11.1.2.4:2222  
@@ -2238,8 +2268,8 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    Skript (firewall_Inhalt.sh) nutzen:
    PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
    PC braucht 2. Netzwerkkarte:
-1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
+7. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
+8. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
    Skript auf den PC kopieren (auch per USB-Stick möglich).
    Skript "ausführbar" machen => "chmod 755 firewall*Inhalt.sh"

@@ -693,3 +693,23 @@ vollbackup kann auf einem betriebsystem oder nur eienm ordner
 
 vorwärts Delta
 Reverse-Delta
+
+## 17 05 2023
+
+### nt
+
+interface identifier = suffix  
+**netstat -putan**   
+The command "netstat -putan" is used in a terminal to display active network connections and related information on a Linux or Unix-based system. Here's a breakdown of the command and its options:
+
+- netstat: It stands for "network statistics" and is a command-line tool used for monitoring network connections and network-related statistics.
+
+  - p: This option shows the process or program associated with each network connection. It displays the PID (Process ID) and the name of the program.
+
+  - u: This option filters the output to show only UDP (User Datagram Protocol) connections.
+
+  - t: This option filters the output to show only TCP (Transmission Control Protocol) connections.
+
+  - a: This option displays all active connections, including listening ports that are waiting for incoming connections.
+
+  - n: This option disables the resolution of hostnames, displaying IP addresses instead.
