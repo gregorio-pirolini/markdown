@@ -17,91 +17,147 @@ mono{font-family:"monospace"}
 ## A.) Quellen:
 
 IT-Handbuch Westermann 12.Auflage  
-Quellen aus dem Internet:  
-de.wikipedia.org
-netzmafia.de/skripten/netze/index.html
-Kann komplett heruntergeladen werden (zum Entpacken kann 7-zip.org notwendig werden).
-wut.de/download/print/e-58www-11-prde-000.pdf
-wut.de/download/print/e-58www-20-prde-000.pdf
-Thomas Krenn Wiki
-thomas-krenn.com/de/wiki/Kategorie:Netzwerk%2BZubeh%C3%B6r
-thomas-krenn.com/de/wiki/Kostenlose\*IT_B%C3%BCcher
-youtube.com
-lernsoftware-filius.de/ ==>> Wird im weiteren Unterricht gebraucht.
+Quellen aus dem Internet:
+
+- [de.wikipedia.org](de.wikipedia.org)
+- [netzmafia.de/skripten/netze/index.html](netzmafia.de/skripten/netze/index.html)  
+  Kann komplett heruntergeladen werden (zum Entpacken kann 7-zip.org notwendig werden).
+
+- [wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)
+- [wut.de/download/print/e-58www-20-prde-000.pdf](wut.de/download/print/e-58www-20-prde-000.pdf)
+- [https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubehör](https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubeh%c3%b6r)
+- [thomas-krenn.com/de/wiki/Kostenlose_IT_Bücher](thomas-krenn.com/de/wiki/Kostenlose_IT_B%C3%BCcher)
+
+- youtube.com
+
+- lernsoftware-filius.de/ ==>> Wird im weiteren Unterricht gebraucht.
 
 ## B.) Allgemein:
 
-Geschichte:
-de.wikipedia.org/wiki/Arpanet
-Leitungsvermittlung, Paketvermittlung:
-www.netplanet.org/aufbau/netzwerk.shtml
-netzmafia.de/skripten/netze/netz0.html#0.3
-Kommunikationsprotokoll:
-de.wikipedia.org/wiki/Kommunikationsprotokoll
+### Geschichte:
+
+[de.wikipedia.org/wiki/Arpanet](de.wikipedia.org/wiki/Arpanet)
+
+### Leitungsvermittlung, Paketvermittlung:
+
+[www.netplanet.org/aufbau/netzwerk.shtml](www.netplanet.org/aufbau/netzwerk.shtml)
+
+[netzmafia.de/skripten/netze/netz0.html#0.3](netzmafia.de/skripten/netze/netz0.html#0.3)
+
+### Kommunikationsprotokoll:
+
+[de.wikipedia.org/wiki/Kommunikationsprotokoll](de.wikipedia.org/wiki/Kommunikationsprotokoll)
+
 => siehe: im Verzeichnis Filius/Filius_1_PC_DHCP_DNS_Web_10.fls
 
-Host:
-de.wikipedia.org/wiki/Hostrechner
-Server:
-de.wikipedia.org/wiki/Server
-Vorteile von Netzwerken:
-Schneller Datenaustausch möglich.
-Gemeinsame Ressourcennutzung (z.B. nur ein Drucker für alle Anwender im Büro notwendig).
-Zentrale Datenspeicherung (Fileserver, NAS).
-Kostenersparnis (immer ein Argument), ....
-Nachteile von Netzwerken:
-Schnelle Verbreitung von Schadsoftware möglich.
-Spionage von innen und von außen möglich.
-Kosten für Aufbau, Wartung und eventuell Personalkosten für die Administration, ....
-Dimensionen von Netzwerken:
-LAN: de.wikipedia.org/wiki/Local_Area_Network
+### Host:
+
+[de.wikipedia.org/wiki/Hostrechner](de.wikipedia.org/wiki/Hostrechner)
+
+### Server:
+
+[de.wikipedia.org/wiki/Server](de.wikipedia.org/wiki/Server)
+
+### Vorteile von Netzwerken:
+
+- Schneller Datenaustausch möglich.
+- Gemeinsame Ressourcennutzung (z.B. nur ein Drucker für alle Anwender im Büro notwendig).
+- Zentrale Datenspeicherung (Fileserver, NAS).
+- Kostenersparnis (immer ein Argument), ....
+
+### Nachteile von Netzwerken:
+
+- Schnelle Verbreitung von Schadsoftware möglich.
+- Spionage von innen und von außen möglich.
+- Kosten für Aufbau, Wartung und eventuell Personalkosten für die Administration, ....
+
+### Dimensionen von Netzwerken:
+
+#### LAN:
+
+[de.wikipedia.org/wiki/Local_Area_Network](de.wikipedia.org/wiki/Local_Area_Network)
+
 => siehe: im Verzeichnis Filius/Filius_2_LAN.fls
-MAN: de.wikipedia.org/wiki/Metropolitan_Area_Network
-WAN: de.wikipedia.org/wiki/Wide_Area_Network
-GAN: de.wikipedia.org/wiki/Global_Area_Network
-Topologien (allgemein):
-de.wikipedia.org/wiki/Topologie*(Rechnernetz)
-Ringtopologie:
-de.wikipedia.org/wiki/Topologie*(Rechnernetz)#Ring-Topologie
-Bustopologie:
-de.wikipedia.org/wiki/Topologie*(Rechnernetz)#Bus-Topologie
-Sterntopologie:
-de.wikipedia.org/wiki/Topologie*(Rechnernetz)#Stern-Topologie
-[3]
-Echtzeitfähigkeit:
-de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit
-Richtungsunabhängigkeit:
-de.wikipedia.org/wiki/Duplex\*(Nachrichtentechnik)
-Simplex: Nur von A nach B (Einbahnstraße).
-Halbduplex: Erst von A nach B, danach von B nach A (Baustellenampel).
-Bustopologie
-Sterntopologie mit einem HUB
-Vollduplex: Von A nach B und zeitgleich von B nach A (zweispurige Straße, Autobahn).
-Sterntopologie mit einem Switch
+
+#### MAN:
+
+[de.wikipedia.org/wiki/Metropolitan_Area_Network](de.wikipedia.org/wiki/Metropolitan_Area_Network)
+
+#### WAN:
+
+[de.wikipedia.org/wiki/Wide_Area_Network](de.wikipedia.org/wiki/Wide_Area_Network)
+
+#### GAN:
+
+[de.wikipedia.org/wiki/Global_Area_Network](de.wikipedia.org/wiki/Global_Area_Network)
+
+### Topologien (allgemein):
+
+[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)>)
+
+#### Ringtopologie:
+
+[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Ring-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Ring-Topologie>)
+
+#### Bustopologie:
+
+[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Bus-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Bus-Topologie>)
+
+#### Sterntopologie:
+
+[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Stern-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Stern-Topologie>)
+
+<!-- [3] -->
+
+### Echtzeitfähigkeit:
+
+[de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit](de.wikipedia.org/wiki/Echtzeitsystem#Harte,_weiche_und_feste_Echtzeit)
+
+### Richtungsunabhängigkeit:
+
+[de.wikipedia.org/wiki/Duplex\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/Duplex_(Nachrichtentechnik)>)
+
+#### Simplex: Nur von A nach B (Einbahnstraße).
+
+#### Halbduplex: Erst von A nach B, danach von B nach A (Baustellenampel).
+
+- Bustopologie
+- Sterntopologie mit einem HUB
+
+#### Vollduplex: Von A nach B und zeitgleich von B nach A (zweispurige Straße, Autobahn).
+
+- Sterntopologie mit einem Switch
 
 ## C.) OSI Schichtenmodell:
 
-warum Schichten:
+### warum Schichten:
+
 Austauschbarkeit von Schichten ist möglich (z.B. IPv4 wird zukünftig durch IPv6 ersetzt).
-verschiedene Schichtenmodelle:
-de.wikipedia.org/wiki/Internetprotokollfamilie
-=> siehe: Westermann Seite 590
-Nummerieren Sie bitte in der Spalte "ISO-OSI" (ganz links) die Schichten
-von "Bitübertragungsschicht" (blau) mit 1 bis "Anwendungsschicht" (gelb) mit 7.
-In der Spalte "TCP/IP-Protokollstruktur" kennzeichnen Sie bitte die schwach erkennbare weiße
-Linie zwischen Schicht 1 und 2 und schreiben Sie in Schicht 2 zusätzlich
-das Wort "MAC-Adresse"
+
+### verschiedene Schichtenmodelle:
+
+[de.wikipedia.org/wiki/Internetprotokollfamilie](de.wikipedia.org/wiki/Internetprotokollfamilie)
+
+=> siehe: Westermann Seite 590  
+ Nummerieren Sie bitte in der Spalte "ISO-OSI" (ganz links) die Schichten von "Bitübertragungsschicht" (blau) mit 1 bis "Anwendungsschicht" (gelb) mit 7. In der Spalte "TCP/IP-Protokollstruktur" kennzeichnen Sie bitte die schwach erkennbare weiße
+Linie zwischen Schicht 1 und 2 und schreiben Sie in Schicht 2 zusätzlich das Wort "MAC-Adresse"
 und schreiben Sie in Schicht 1 zusätzlich das Wort "Netzwerkkarte".
 
-ISO-OSI-7-Schichten-Modell:
-=> siehe: Westermann Seite 590
+### ISO-OSI-7-Schichten-Modell:
+
+=> siehe: Westermann Seite 590  
 Merksatz: (von oben nach unten gesehen)
 Alle Deutschen Schüler Trinken Verschiedene Sorten Brause.
-TCP/IP-Modell:
+
+### TCP/IP-Modell:
+
 => siehe: Westermann Seite 590 Spalte "TCP/IP-Protokollstruktur"
-de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell
+
+[de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
+
 ==>> Das am häufigsten eingesetzte Modell.
-==>> folgende Vorstellung, eine gute Tafel Schokolade:
+
+==>> folgende Vorstellung, eine gute Tafel Schokolade:  
 Ganz innen die Schokolade => unsere Daten (Schichten 5..7 des TCP/IP-Modells).
 Drum herum das Silberpapier => TCP oder UDP (Schicht 4 des TCP/IP-Modells).
 Außen herum das bunte Papier => IP (Schicht 3 des TCP/IP-Modells).
@@ -115,143 +171,162 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 ### Koaxialkabel:
 
-de.wikipedia.org/wiki/Koaxialkabel
-Veraltete Technologie.
-Wurde für Bustopologie verwendet.
-Wurde als 10Base2 bezeichnet (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, 200 yard lang).
+[de.wikipedia.org/wiki/Koaxialkabel](de.wikipedia.org/wiki/Koaxialkabel)
+
+- Veraltete Technologie
+- Wurde für Bustopologie verwendet.
+- Wurde als 10Base2 bezeichnet (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, 200 yard lang).
 
 ### Twisted-Pair-Kabel:
 
 => siehe: Westermann Seiten 234 und 421
-de.wikipedia.org/wiki/Twisted-Pair-Kabel
-de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld
+[de.wikipedia.org/wiki/Twisted-Pair-Kabel](de.wikipedia.org/wiki/Twisted-Pair-Kabel)
+
+[de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Datenübertragungsblöcke_und_das_Typfeld](de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld)
 
 #### CAT 3:
 
-Für 10BASE-T (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+Für 10BASE-T (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
 Adern 1,2,3,6 werden genutzt.
 
 #### CAT 5:
 
-Für 100BASE-Tx (100 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+Für 100BASE-Tx (100 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
 Adern 1,2,3,6 werden genutzt.
 
 #### CAT 5e:
 
-Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
 Adern 1 bis 8 werden genutzt.
 
 #### CAT 6:
 
-Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
-Adern 1 bis 8 werden genutzt.
-Für NBASE-T (2500 Mbit/s = 2,5 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
-Adern 1 bis 8 werden genutzt.
-Für NBASE-T (5000 Mbit/s = 5 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
-Adern 1 bis 8 werden genutzt.
+- Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
+  Adern 1 bis 8 werden genutzt.
+- Für NBASE-T (2500 Mbit/s = 2,5 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
+  Adern 1 bis 8 werden genutzt.
+- Für NBASE-T (5000 Mbit/s = 5 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
+  Adern 1 bis 8 werden genutzt.
 
 #### CAT 6 A (großes „A“ tiefergestellt):
 
-Für 10GBASE-T (10000 Mbit/s = 10 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+Für 10GBASE-T (10000 Mbit/s = 10 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
 Adern 1 bis 8 werden genutzt.
 
 #### CAT 7 / 8:
 
-Für 25GBASE-T (25000 Mbit/s = 25 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
-Adern 1 bis 8 werden genutzt.
-Für 40GBASE-T (40000 Mbit/s = 40 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
-Adern 1 bis 8 werden genutzt.
+- Für 25GBASE-T (25000 Mbit/s = 25 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+  Adern 1 bis 8 werden genutzt.
+- Für 40GBASE-T (40000 Mbit/s = 40 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+  Adern 1 bis 8 werden genutzt.
 
 ### Lichtwellenleiter (LWL):
 
-=> siehe: Westermann Seite 190
-=> siehe: NT_Kochbuch/Laser_Hardware.mp4
-=> siehe: NT_Kochbuch/Laser_Software.mp4
-science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke
-youtube.com/watch?v=0MwMkBET_5I
-netzmafia.de/skripten/netze/netz5.html#5.6
+=> siehe: Westermann Seite 190  
+=> siehe: NT_Kochbuch/Laser_Hardware.mp4  
+=> siehe: NT_Kochbuch/Laser_Software.mp4  
+[science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke](science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke)
+
+[![Alt Text](https://img.youtube.com/vi/0MwMkBET_5I/0.jpg)](https://www.youtube.com/watch?v=0MwMkBET_5I)
+
+[netzmafia.de/skripten/netze/netz5.html#5.6](netzmafia.de/skripten/netze/netz5.html#5.6)
 
 #### Multimode:
 
-"Mehrmoden-Stufenfaser" (obere Abbildung):
-
-Veraltet, zeigt aber das Prinzip sehr gut.
-"Mehrmoden-Gradientenfaser" (mittlere Abbildung):
-Aktuelle Technik mit Kerndurchmesser = 50 µm und Manteldurchmesser = 125 µm.
+- "Mehrmoden-Stufenfaser" (obere Abbildung):
+- Veraltet, zeigt aber das Prinzip sehr gut.
+- "Mehrmoden-Gradientenfaser" (mittlere Abbildung):
+- Aktuelle Technik mit Kerndurchmesser = 50 µm und Manteldurchmesser = 125 µm.
 
 #### Singlemode:
 
-"Einmoden-Stufenfaser" (untere Abbildung):
-Aktuelle Technik mit Kerndurchmesser = 10 µm und Manteldurchmesser = 125 µm,
-wird auch manchmal "Monomode" genannt.
+- "Einmoden-Stufenfaser" (untere Abbildung):
+- Aktuelle Technik mit Kerndurchmesser = 10 µm und Manteldurchmesser = 125 µm,
+- wird auch manchmal "Monomode" genannt.
 
 #### Dämpfung:
 
-de.wikipedia.org/wiki/D%C3%A4mpfung
-=> siehe: Westermann Seite 189 (rechts oben):
-Dämpfung ist das Gegenteil von Verstärkung.
-Die Dämpfung ändert sich bei verschiedenen Wellenlängen, könnten wir dieses Licht sehen,
-würden wir von verschiedenen Farben sprechen.
-In der Praxis gibt es folgende Zuordnung
+[de.wikipedia.org/wiki/Dämpfung](de.wikipedia.org/wiki/D%C3%A4mpfung)
 
-1. Bereich bei 850 nm wird als "SX" bezeichnet
-2. Bereich bei 1300 nm wird als "LX" bezeichnet
-3. Bereich bei 1550 nm wird als "ZX" bezeichnet
-   Welches Licht können wir sehen?
-   => siehe: Westermann Seite 204
-   Geschwindigkeiten und Entfernungen von LWL:
-   => siehe: Westermann Seite 422 (unten)
+=> siehe: Westermann Seite 189 (rechts oben):
+
+- Dämpfung ist das Gegenteil von Verstärkung.
+- Die Dämpfung ändert sich bei verschiedenen Wellenlängen, könnten wir dieses Licht sehen, würden wir von verschiedenen Farben sprechen.
+- In der Praxis gibt es folgende Zuordnung
+
+1. Bereich bei **850 nm** wird als "SX" bezeichnet
+2. Bereich bei **1300 nm** wird als "LX" bezeichnet
+3. Bereich bei **1550 nm** wird als "ZX" bezeichnet
+
+Welches Licht können wir sehen?
+=> siehe: Westermann Seite 204
+
+#### Geschwindigkeiten und Entfernungen von LWL:
+
+=> siehe: Westermann Seite 422 (unten)
 
 ### strukturierte Verkabelung:
 
-=> siehe: Westermann Seite 421
-de.wikipedia.org/wiki/Strukturierte\*Verkabelung (siehe Bild auf dieser Webseite)
+=> siehe: Westermann Seite 421  
+[de.wikipedia.org/wiki/Strukturierte_Verkabelung](de.wikipedia.org/wiki/Strukturierte_Verkabelung)  
+ (siehe Bild auf dieser Webseite)
 
 ### Bindeglied zwischen TP-Kabel und LWL:
 
-Medienkonverter
-de.wikipedia.org/wiki/Medienkonverter
-SFP (Mini-GBIC)
-de.wikipedia.org/wiki/Small_Form-factor_Pluggable
+#### Medienkonverter
 
-==>> einfache Regel für die Verkabelung:
-Bis 100 m nutzt man Twisted-Pair-Kabel.
-Bis 2000 m (praktisch bis 550 m) nutzt man Multimode-LWL.
+[de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
+
+#### SFP[^8] (Mini-GBIC)
+
+[de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
+
+[^8]: SFP Small_Form-factor_Pluggable
+
+### einfache Regel für die Verkabelung:
+
+Bis 100 m nutzt man Twisted-Pair-Kabel.  
+Bis 2000 m (praktisch bis 550 m) nutzt man Multimode-LWL.  
 Darüber nutzt man Singlemode-LWL.
 
 ### Wireless LAN (WLAN):
 
-de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11
-heise.de/select/ct/2019/2/1546773697424925
-IEEE 802.11 a => 5 GHz
-IEEE 802.11 b => 2,4 GHz
-IEEE 802.11 g => 2,4 GHz
-(WIFI 4) IEEE 802.11 n => 2,4 und 5 GHz
-(WIFI 5) IEEE 802.11 ac => 5 GHz
-(WIFI 6) IEEE 802.11 ax => 2,4 und 5 GHz
+[de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11](de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11)
+
+[heise.de/select/ct/2019/2/1546773697424925](heise.de/select/ct/2019/2/1546773697424925)
+
+IEEE 802.11 a => 5 GHz  
+IEEE 802.11 b => 2,4 GHz  
+IEEE 802.11 g => 2,4 GHz  
+(WIFI 4) IEEE 802.11 n => 2,4 und 5 GHz  
+(WIFI 5) IEEE 802.11 ac => 5 GHz  
+(WIFI 6) IEEE 802.11 ax => 2,4 und 5 GHz  
 (WIFI 6E) IEEE 802.11 ax => 2,4 und 5 GHz und 6 GHz
-https://de.wikipedia.org/wiki/Mesh-WLAN
-https://avm.de/mesh/
+
+[https://de.wikipedia.org/wiki/Mesh-WLAN](https://de.wikipedia.org/wiki/Mesh-WLAN)
+
+[https://avm.de/mesh/](https://avm.de/mesh/)
 
 ### MIMO / MU-MIMO:
 
 => siehe: Westermann Seite 218 (Abbildung unten rechts)
-de.wikipedia.org/wiki/MIMO\*(Nachrichtentechnik)
-avm.de/mu-mimo/
-Begriffserklärung allgemein "Multiple In Multiple Out":
+
+[de.wikipedia.org/wiki/MIMO\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/MIMO_(Nachrichtentechnik)>)  
+[avm.de/mu-mimo/](avm.de/mu-mimo/)
+
+#### Begriffserklärung allgemein "Multiple In Multiple Out":
+
 Über mehrere Antennen werden möglichst gleichzeitig mehrere parallele Datenströme geleitet.
 Als würde man gleichzeitig durch mehrere Strohhalme trinken.
 
-#### MIMO:
+##### MIMO:
 
-Der AP (z.B. FritzBox) besitzt angenommen 4 Antennen und soll mit Laptop A
-(mit je 2 Antennen) und mit Laptop B (auch mit je 2 Antennen) kommunizieren.
-Der AP nutzt nur 2 seiner 4 Antennen. Erst kommuniziert er mit Laptop A mit dessen 2
+Der AP (z.B. FritzBox) besitzt angenommen 4 Antennen und soll mit Laptop A (mit je 2 Antennen) und mit Laptop B (auch mit je 2 Antennen) kommunizieren. Der AP nutzt nur 2 seiner 4 Antennen. Erst kommuniziert er mit Laptop A mit dessen 2
 Antennen, dann unterbricht der AP diese Verbindung. Anschließend bedient der AP für eine
 gewisse Zeit Laptop B mit dessen 2 Antennen. Dann wird auch diese Verbindung nach einer
 gewissen Zeit unterbrochen und der AP bedient wieder Laptop A.
 
-#### MU-MIMO:
+##### MU-MIMO:
 
 Der AP (z.B. FritzBox) besitzt wieder angenommen 4 Antennen und soll mit Laptop A
 (mit je 2 Antennen) und mit Laptop B (auch mit je 2 Antennen) kommunizieren (siehe oben).
@@ -260,10 +335,10 @@ Antennen und mit Laptop B mit dessen 2 Antennen.
 
 ### Sicherheit im WLAN (kurz und knapp):
 
-Das WLAN sollte / muss verschlüsselt werden!
-Mindestens WPA 2, WPA 3 wärmstens empfohlen.
-Es darf heute nur noch ein Sicherheitskonzept eingesetzt werden, das zum Zeitpunkt des Kaufes
-der WLAN-Komponente marktüblich war!
+- Das WLAN sollte / muss verschlüsselt werden!
+- Mindestens WPA 2, WPA 3 wärmstens empfohlen.
+- Es darf heute nur noch ein Sicherheitskonzept eingesetzt werden, das zum Zeitpunkt des Kaufes
+  der WLAN-Komponente marktüblich war!
 
 ### Dezibel [dB]:
 
@@ -1597,7 +1672,9 @@ Unterschieden wird grundsätzlich:
 
 #### Dynamisches Routing (denke an Navi im Auto):
 
-##### Kürzeste Strecke (egal wie schnell) => siehe Protokoll RIP[^3].
+##### Kürzeste Strecke (egal wie schnell)
+
+=> siehe Protokoll RIP[^3].
 
 [^3]: RIP Routing Information Protocol für IP-Netze, das zur Klasse der Distance-Vector-Protokolle gehört. Es kommt als Interior Gateway Protocol (IGP) in kleineren Netzwerken zum Einsatz und zeichnet sich durch eine einfache Implementierung aus. Nachteile sind die relative langsame Aktualisierung bei Veränderungen im Netz und die fehlende Garantie einer Schleifenfreiheit.
 
@@ -1605,8 +1682,11 @@ Unterschieden wird grundsätzlich:
 
 ##### Schnellste Strecke (egal wie weit)
 
-=> siehe Protokoll BGP.
-=> siehe Protokoll ospf Open Shortest Path First
+=> siehe Protokoll BGP[^4] Border Gateway Protocol  
+=> siehe Protokoll ospf[^5] Open Shortest Path First
+
+[^4]: BGP Border Gateway Protocol refers to a gateway protocol that enables the internet to exchange routing information between autonomous systems (AS). As networks interact with each other, they need a way to communicate. This is accomplished through peering. BGP makes peering possible.
+[^5]: ospf Open Shortest Path First is a routing protocol for Internet Protocol networks. It uses a link state routing algorithm and falls into the group of interior gateway protocols, operating within a single autonomous system
 
 #### Statische Routing ("ich kenne die Strecke und fahre immer dort entlang")
 
@@ -1849,47 +1929,50 @@ de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers
 
 ### UDP:
 
-[LINK UDP](de.wikipedia.org/wiki/User_Datagram_Protocol)
+[LINK UDP: de.wikipedia.org/wiki/User_Datagram_Protocol](de.wikipedia.org/wiki/User_Datagram_Protocol)
 
 #### Eigenschaften:
 
 ##### Verbindungslos:
 
-Arbeitet ohne VerbindungsAUFbau.  
-Die Daten werden unkontrolliert übertragen (keine Rückmeldung).  
-Arbeitet ohne VerbindungsABbau.  
-Bietet keine Sicherheit, dass die Daten vollständig übertragen werden.  
-Schneller als TCP.  
-1 zu 1 Verbindung (wie bei TCP) ist möglich.  
-1 zu N Verbindungen sind möglich (Multicast, Broadcast).  
-Ist als "leere Hülle" zu betrachten => viele Möglichkeiten für eigene Algorithmen sind möglich.  
-Eine "Spielwiese" für Programmierer.
-==>> Denke an eine "Postkarte".
+- Arbeitet **ohne VerbindungsAUFbau**.
+- Die Daten werden unkontrolliert übertragen (keine Rückmeldung).
+- Arbeitet ohne VerbindungsABbau.
+- Bietet keine Sicherheit, dass die Daten vollständig übertragen werden.
+- Schneller als TCP.
+- 1 zu 1 Verbindung (wie bei TCP) ist möglich.
+- 1 zu N Verbindungen sind möglich (Multicast, Broadcast).
+- Ist als "leere Hülle" zu betrachten => viele Möglichkeiten für eigene Algorithmen sind möglich.
+- Eine "Spielwiese" für Programmierer.
+  ==>> Denke an eine "Postkarte".
 
 <!-- [59] -->
 
 ### Portknocking:
 
-=> siehe: Foto "TB_15" als Tafelbild als Beispiel.  
+=> siehe: Foto "TB_15" als Tafelbild als Beispiel.
+
+![TB_15!](img/TB_15.jpg "TB_15")
+
 "richtiges Anklopfen" aus dem externen Netz, löst ein Ereignis im internen Netz aus.
 
 #### Funktionsbeschreibung:
 
-Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, über die sie auch aus dem Internet erreichbar ist.  
-Auf der FritzBox wurde Portknocking aktiviert.  
-Auf der FritzBox wurde eine Tabelle mit 3 Sockets erstellt:
+- Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, über die sie auch aus dem Internet erreichbar ist.
+- Auf der FritzBox wurde Portknocking aktiviert.
+- Auf der FritzBox wurde eine Tabelle mit 3 Sockets erstellt:
 
-1.)  
-externe IP-Adresse und erster willkürlicher Port (11.1.2.4:1111)
+  1.)  
+  externe IP-Adresse und erster willkürlicher Port (11.1.2.4:1111)
 
-2.)  
-externe IP-Adresse und zweiter willkürlicher Port (11.1.2.4:2222)
+  2.)  
+  externe IP-Adresse und zweiter willkürlicher Port (11.1.2.4:2222)
 
-3.)  
-externe IP-Adresse und dritter willkürlicher Port (11.1.2.4:3333)
+  3.)  
+  externe IP-Adresse und dritter willkürlicher Port (11.1.2.4:3333)
 
 Auf der FritzBox wurde ein Ereignis definiert, das ausgelöst wird, wenn die 3 Sockets in der richtigen
-Reihenfolge 1.), 2.), 3.) angesprochen werden.
+Reihenfolge 1 - 2 - 3 angesprochen werden.
 
 Hier im Beispiel Wake on LAN (WoL):  
 [Link Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
@@ -1947,6 +2030,8 @@ Portforwarding => Zugriff auf den internen Webserver ("poweroff" zum Schluss nic
 [62]
 NAT (PAT) / Source NAT
 => siehe: Foto "TB_13" als Tafelbild, hier nur als Beispiel.
+![TB_13!](img/TB_13.jpg "TB_13")
+
 de.wikipedia.org/wiki/Port_Address_Translation
 Zielsetzung:
 Weiterleitung von Anfragen aus dem internen, privaten Netz in das externe Netz (Internet).
@@ -2280,6 +2365,7 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    de.wikipedia.org/wiki/Demilitarisierte_Zone*(Informatik)
    heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html
    => siehe: Foto "TB_14" als Tafelbild
+   ![TB_14!](img/TB_14.jpg "TB_14")
    Allgemein:
    Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:
    Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
@@ -2293,6 +2379,8 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    Ist unsicherer => einfache "Verteidigungslinie".
    ==>> Denke an Stadttore aus dem Mittelalter
    Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
+
+   ![TB_14!](img/TB_14.jpg "TB_14")
    Erklärung zu TB_14:
    ROTES Netz (extern) 192.168.1.0 /24:
    192.168.1.1 => ROTE Netzwerkkarte der Firewall

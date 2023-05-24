@@ -542,6 +542,7 @@ QUIC gilt vielen als Nachfolger des Transmission Control Protocol (TCP), weil es
 [^1]: APT Advanced Persistent Threat Angriff ist eine sehr anspruchsvolle und gezielte Art von Cyber-Angriff, bei dem ein Angreifer langfristigen und zielgerichteten Zugang zu einem Netzwerk oder System eines Unternehmens erlangt.
 
 <hr>
+
 IPsec[^3]: In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
 
 [^3]: IPsec In computing, Internet Protocol Security is a secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks.
@@ -712,4 +713,67 @@ The command "netstat -putan" is used in a terminal to display active network con
 
   - a: This option displays all active connections, including listening ports that are waiting for incoming connections.
 
-  - n: This option disables the resolution of hostnames, displaying IP addresses instead.
+  - n: This option disables the resolution of hostnames, displaying IP addresses instead.  
+
+## 22 05 2023
+
+### bs
+
+#### RFID[^6]
+
+[^6]: RFID Radio-frequency identification
+
+### Wiso
+
+warenschulden sind holschulden  
+
+Beweislastumkehr  
+
+Kalkulatorische Wagnisse
+
+|<td colspan=2>KV-Störung ||
+|------|------|
+|verkäufer|     Kaufer|
+|Mangelhafte Lieferung|     AnnahmeVERZUG|
+|LieferVERZUG|     ZahlunsVERZUG|
+
+Fälleigkeit der Leistung  
+Kalendarmässige bestimmbarkeit
+
+Sofort ist kein Kalendarmässige Bestimmung
+
+Freizeichnungsklausel
+
+#### Mahnung bei Lieferverzug
+
+![Drag Racing](img/Mahnung-bei-Lieferverzug_01.png)
+
+Deckungskauf
+
+Fixkauf
+
+Festkauf
+
+
+## bswin 
+
+vorwärts Delta  
+Reverse-Delta  
+
+
+## 24 05 2023
+
+### nt
+
+tcp 3 wege handshake Aufbau
+tcp 4 Wege handshake Abbau
+
+syn: synchronise  
+seq: sequence  
+psh: push
+mss: maximal segnment size
+wind: window 
+
+MTU: In computer networking, the maximum transmission unit (MTU[^7]) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
+
+[^7]: MTU: In computer networking, the maximum transmission unit  is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
