@@ -379,7 +379,7 @@ Berechnung der Parität über XOR
 
 - RAID-10-Verbund ist ein RAID 0 über mehrere RAID 1
 - mind. 4 HDD
-- erst Stripingdann Mirroring
+- erst Striping dann Mirroring
 - Sicherheit und gesteigerte Schreib-/Lesegeschwindigkeit
 - RAID 10 gegenüber RAID 0+1 eine bessere Ausfallsicherheit und schnellere Rekonstruktion
 - eine Festpl. pro RAID 1 kann ausfallen

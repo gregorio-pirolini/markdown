@@ -228,7 +228,7 @@ xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:%13
 der 13. ausgedacht addresse vom computer
 
 IN IPV6 eingebettete ipv adresse
------>192.168.13.42 Dez
+----->192.168.13.42 Dez  
 0000:0000:0000:0000:0000:FFFF:
 0:0:0:0:0:ffff:C0A8:0D2A
 |&nbsp;|&nbsp;
@@ -243,12 +243,14 @@ IN IPV6 eingebettete ipv adresse
 
 https://www.tutorialspoint.com/ipv6/ipv6_headers.htm#:~:text=IPv6%20headers%20have%20one%20Fixed,to%20handle%20a%20packet%2Fflow.
 
+ver version  
+PRI priorisierung bzw tarffic class
+
 | &nbsp;                              | &nbsp;  |
 | ----------------------------------- | ------- |
 | ![Drag Racing](img/IPv6_header.jpg) | HEADERS |
 
-ver version  
-PRI priorisierung bzw tarffic class
+
 
 ## 16.03.2023
 
@@ -427,9 +429,9 @@ to get value of $g use $g.value
 ### NT
 
 Ports: 2<sup>16</sup> = 0 -> 65535  
-0 - 1023 System Ports (well known ports)  
-1024 - 49151 user ports (registered ports)  
-49152 - 65535 Dynamic /private Ports
+0 - 1023 System Ports (**well known ports**)  
+1024 - 49151 user ports (**registered ports**)  
+49152 - 65535 **Dynamic /private Ports**
 
 combination von IP und Port is socket
 
@@ -777,3 +779,71 @@ wind: window
 MTU: In computer networking, the maximum transmission unit (MTU[^7]) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
 
 [^7]: MTU: In computer networking, the maximum transmission unit  is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
+
+## 27 05 2023
+
+### Linux
+
+- tree -pug
+  - -p : Print the protections for each file (as per ls -l). 
+  - -u : Print the username, or UID # if no username is available, of the file. 
+  - -g : Print the group name, or GID # if no group name is available, of the file.
+
+- chmod
+  - The letters represent:
+
+    - r: Read permissions. The file can be opened, and its content viewed.
+    - w: Write permissions. The file can be edited, modified, and deleted.
+    - x: Execute permissions. If the file is a script or a program, it can be run (executed).
+
+| Besitzer  |     |    |Gruppe  |     |    | Andere  |    |    |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| r  | w  | x  | r  | w  | x  | r  | w  | x  |
+| 2<sup>2  | 2<sup>1   | 2<sup>0   | 2<sup>2  | 2<sup>1   | 2<sup>0  |  2<sup>2  | 2<sup>1   | 2<sup>0
+| 1  | 1  | 1  | 1  | 1  | 1  | 1  | 0  | 1  |
+|  |  7   |    |   |   7  |    |    |   5 |    |
+
+- objekttyp:
+  - &minus; Datei
+  - d directory
+  - l link
+  - c ?
+  - b ?
+  - ...
+  
+make dir with permisions:  
+mkdir -m 700 name  
+
+just change permission:
+or chmod 700 name  
+
+### 練習 れんしゅう
+
+**A VPN tunnel:** is a secure, encrypted connection between two endpoints over a public or untrusted network, such as the internet. It creates a virtual "tunnel" that allows data to be transmitted privately and securely between the two endpoints.
+
+When you establish a VPN tunnel, your data is encapsulated within packets that are encrypted before being sent over the network. This encryption ensures that the data is protected from unauthorized access and maintains its confidentiality.
+
+The VPN tunnel works by using tunneling protocols to encapsulate and encrypt the data. These protocols establish a secure connection between the two endpoints and handle the encryption and decryption of the data packets.
+
+Once the VPN tunnel is established, all network traffic between the two endpoints, including internet traffic, is routed through the tunnel. This means that even if you are connected to a public Wi-Fi network or another untrusted network, your data remains secure and private.
+
+In summary, a VPN tunnel provides a secure and encrypted pathway for transmitting data between two endpoints over an untrusted network, ensuring privacy and confidentiality of the transmitted information.
+
+**IPsec**[^8]: 
+- Encryption 
+- authentification 
+- integrity
+
+[^8]: IPsec Internet Protocol Security. As a part of the IPv4 enhancement, IPsec is a layer 3 OSI model or internet layer end-to-end security scheme.
+Encryption authentification integrity
+
+**Hybrid Encryption** combines the efficiency of symmetric encryption with the convenience of public-key (asymmetric) encryption. Only users with the private key can decrypt the data. To encrypt a message, a fresh symmetric key is generated and used to encrypt the plaintext data.
+
+XOR!!
+Beispiel:
+
+|  |info| |key| |encrypted| |
+|-----|-----| :-----: |-----|-----|-----|----|
+|Zeichen|ASCII-hex|ASCII-bin|0000 1010|ASCII-bin|ASCII-hex|Zeichen|
+|H|48| 0100 1000 |0100 0010|0100 0010|42|B|
+

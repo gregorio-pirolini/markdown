@@ -277,11 +277,12 @@ Welches Licht können wir sehen?
 
 [de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
 
-#### SFP[^8] (Mini-GBIC)
+#### SFP[^8] (Mini-GBIC[^9])
 
 [de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
 
 [^8]: SFP Small_Form-factor_Pluggable
+[^9]: Mini-GBIC mini Gigabit Interface Converter
 
 ### einfache Regel für die Verkabelung:
 
@@ -295,13 +296,13 @@ Darüber nutzt man Singlemode-LWL.
 
 [heise.de/select/ct/2019/2/1546773697424925](heise.de/select/ct/2019/2/1546773697424925)
 
-IEEE 802.11 a => 5 GHz  
-IEEE 802.11 b => 2,4 GHz  
-IEEE 802.11 g => 2,4 GHz  
-(WIFI 4) IEEE 802.11 n => 2,4 und 5 GHz  
-(WIFI 5) IEEE 802.11 ac => 5 GHz  
-(WIFI 6) IEEE 802.11 ax => 2,4 und 5 GHz  
-(WIFI 6E) IEEE 802.11 ax => 2,4 und 5 GHz und 6 GHz
+IEEE 802.11 a => <f>5</f> GHz  
+IEEE 802.11 b => <f>2,4</f> GHz  
+IEEE 802.11 g => <f>2,4</f> GHz  
+(WIFI <f>4</f>) IEEE 802.11 n => <f>2,4</f> und <f>5</f> GHz  
+(WIFI <f>5</f>) IEEE 802.11 ac => <f>5</f> GHz  
+(WIFI <f>6</f>) IEEE 802.11 ax => <f>2,4</f> und <f>5</f>GHz  
+(WIFI <f>6E</f>) IEEE 802.11 ax => <f>2,4</f> und <f>5</f> GHz und <f>6</f> GHz
 
 [https://de.wikipedia.org/wiki/Mesh-WLAN](https://de.wikipedia.org/wiki/Mesh-WLAN)
 
@@ -333,7 +334,7 @@ Der AP (z.B. FritzBox) besitzt wieder angenommen 4 Antennen und soll mit Laptop 
 Der AP nutzt alle 4 Antennen und kommuniziert zeitgleich mit Laptop A mit dessen 2
 Antennen und mit Laptop B mit dessen 2 Antennen.
 
-### Sicherheit im WLAN (kurz und knapp):
+### Sicherheit im WLAN (kurz und knapp)
 
 - Das WLAN sollte / muss verschlüsselt werden!
 - Mindestens WPA 2, WPA 3 wärmstens empfohlen.
@@ -342,74 +343,87 @@ Antennen und mit Laptop B mit dessen 2 Antennen.
 
 ### Dezibel [dB]:
 
-Ist ein Faktor (wie viel mal mehr oder weniger), bei Leistung gilt:
-10 dB => Faktor 10
-13 dB => Faktor 20
-16 dB => Faktor 40
-19 dB => Faktor 80
-20 dB => Faktor 100
-30 dB => Faktor 1000
-40 dB => Faktor 10000
+Ist ein Faktor (wie viel mal mehr oder weniger), bei Leistung gilt:  
+10 dB => Faktor 10  
+13 dB => Faktor 20  
+16 dB => Faktor 40  
+19 dB => Faktor 80  
+20 dB => Faktor 100  
+30 dB => Faktor 1000  
+40 dB => Faktor 10000  
 
 ### Antennengewinn:
 
-Eine Antenne kann nichts "gewinnen", sie konzentriert nur die abgestrahlte Energie.
-Wer sie noch kennt, die klassische Metall Stabtaschenlampe mit "Glühbirne":
+Eine Antenne kann nichts "gewinnen", sie konzentriert nur die abgestrahlte Energie.  
+Wer sie noch kennt, die klassische Metall Stabtaschenlampe mit "Glühbirne":  
 Ohne Reflektor => überall ist es "nicht wirklich hell", niemand wird geblendet.
-Mit Reflektor => in einem kleinen Bereich ist es sehr hell und kann stark blenden.
-Nach diesem Prinzip arbeitet auch eine Antenne, sie ist sozusagen eine Art "Reflektor".
+Mit Reflektor => in einem kleinen Bereich ist es sehr hell und kann stark blenden.  
+Nach diesem Prinzip arbeitet auch eine Antenne, sie ist sozusagen eine Art "Reflektor".  
 Um das "Blenden" (zu viel abgestrahlte Energie auf einen zu kleinen Punkt) zu
-verhindern, sagt der Gesetzgeber:
-EIRP, sozusagen die Leistung ohne Reflektor:
-bei 2,4 GHz => bis zu 100 mW
-bei 5 GHz => bis zu 1000 mW
-ERP, sozusagen die noch erlaubte Leistung mit Reflektor:
-rechne:
-1.) dB => Faktor
+verhindern, sagt der Gesetzgeber:  
+EIRP[^10], sozusagen die Leistung ohne Reflektor:  
+
+bei 2,4 GHz => bis zu 100 mW  
+bei 5 GHz => bis zu 1000 mW   
+
+ERP[^11], sozusagen die noch erlaubte Leistung mit Reflektor:  
+rechne:  
+1.) dB => Faktor  
 2.) ERP = EIRP / Faktor
 
-Beispiel:
-EIRP = 100 mW
-Antennengewinn = 13 dB
-13 dB => Faktor 20
-ERP = 100 mW / 20
-ERP = 5 mW
+[^10]:EIRP
+[^11]:ERP
+
+Beispiel:  
+EIRP = 100 mW  
+Antennengewinn = 13 dB  
+13 dB => Faktor 20  
+ERP = 100 mW / 20  
+ERP = 5 mW  
 
 ## E.) Ethernet-Frame:
 
-wut.de/download/print/e-58www-11-prde-000.pdf Seite 31 bis 34
-=> siehe: Westermann Seite 579 "Rahmenformate" und Seite 581 "Rahmenstruktur":
-Präambel:
-de.wikipedia.org/wiki/Synchronisation
-"Rahmenformate Ethernet II" => siehe: Westermann Seite 579
+[wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)  
+Seite 31 bis 34  
+
+=> siehe: Westermann Seite 579 "Rahmenformate" und Seite 581 "Rahmenstruktur": 
+
+**Präambel**:  
+[de.wikipedia.org/wiki/Synchronisation](de.wikipedia.org/wiki/Synchronisation)  
+
+"Rahmenformate Ethernet II" => siehe: Westermann Seite 579  
+
 Bevorzugter Rahmentyp.
-Im Feld "DATA" befinden sich IP, TCP/UDP und die eigentlichen Daten.
-CRC/FCS:
-=> siehe: Westermann Seite 580 "FCS"
-Der Frame kann nur 1500 Byte an Daten aufnehmen, aber darin stecken auch noch die Header (Köpfe) von IP und
-TCP/UDP und möglicherweise HTTP (=> siehe: Westermann Seite 581 "Rahmenstruktur").
-Somit bleiben nur ca. 1460 Byte pro Frame (Datenpaket) für die reinen Daten übrig.
-https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell
+Im Feld "DATA" befinden sich IP, TCP/UDP und die eigentlichen Daten.  
+
+CRC/FCS: 
+=> siehe: Westermann Seite 580 "FCS"  
+Der Frame kann nur <f>1500 Byte</f> an Daten aufnehmen, aber darin stecken auch noch die Header (Köpfe) von IP und TCP/UDP und möglicherweise HTTP (=> siehe: Westermann Seite 581 "Rahmenstruktur").
+Somit bleiben nur ca. <f>1460 Byte pro Frame</f> (Datenpaket) für die reinen Daten übrig.  
+[https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)  
 => siehe: Grafik unten: "Aufbau eines Eternet-Frames mit maximalen IPv4- / TCP-Daten"
 
 ## F.) Sniffer:
 
 Wenn ein Sniffer eingesetzt werden soll, gilt folgendes zu beachten:
-Einsatz in der schulischen Ausbildung problemlos möglich, wenn keine Daten ausspioniert werden.
-Einsatz im Unternehmen nur möglich, wenn Vorgesetzter und (wenn vorhanden) Betriebsrat dem Einsatz zustimmen.
+
+- Einsatz in der schulischen Ausbildung problemlos möglich, wenn keine Daten ausspioniert werden.
+- Einsatz im Unternehmen nur möglich, wenn Vorgesetzter und (wenn vorhanden) Betriebsrat dem Einsatz zustimmen.
+  
 einfacher Sniffer: Packetyzer (alt aber gut):
-sourceforge.net/projects/packetyzer/files/
-wer mehr möchte:
-wireshark.org/#download
-Treiber, um die Netzwerkkarte unter Windows 10 in den "freizügigen Modus" zu versetzen:
-win10pcap.org/
-de.wikipedia.org/wiki/Promiskuitiver\*Modus
+sourceforge.net/projects/packetyzer/files/  
+wer mehr möchte:  
+wireshark.org/#download  
+Treiber, um die Netzwerkkarte unter Windows 10 in den "freizügigen Modus" zu versetzen:  
+win10pcap.org/  
 
-## G.) Schicht 1:
+[de.wikipedia.org/wiki/Promiskuitiver-Modus](https://de.wikipedia.org/wiki/Promiskuitiver_Modus)
 
-de.wikipedia.org/wiki/Netzwerkkarte
+## G.) Schicht 1
 
-### Netzwerkkarte:
+[https://de.wikipedia.org/wiki/Netzwerkkarte](https://de.wikipedia.org/wiki/Netzwerkkarte)
+
+### Netzwerkkarte
 
 Netzzugriffsverfahren:
 => siehe: Westermann Seite 589 "Netzzugriffsverfahren"

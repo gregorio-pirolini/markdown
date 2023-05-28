@@ -33,16 +33,17 @@ text-decoration: underline;}
 | MSDOS ver.                   | 1.0     | 1.1     | 2.0     | 3.0     | 3.2     | 3.3     | 4.0     | 5.0     | 6.0     | 6.2     |
 | ---------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | Verfügbarkeit                | 08.1981 | 05.1982 | 03.1983 | 08.1984 | 03.1986 | 04.1987 | 06.1988 | 06.1991 | 03.1993 | 11.1993 |
-| Diskette 5,25" SD 160/180 KB | +/-     | +/-     | +       | +       | +       | +       | +       | +       | +       |
-| Diskette 5,25" DD320/360 KB  | -       | +/-     | +       | +       | +       | +       | +       | +       | +       |
-| Diskette 5,25" HD 1,2 MB     | -       | -       | -       | +       | +       | +       | +       | +       | +       |
-| Diskette 3,5" DD 720 KB      | -       | -       | -       | -       | +       | +       | +       | +       | +       |
-| Diskette 3,5" HD 1,4 MB      | -       | -       | -       | -       | -       | +       | +       | +       | +       |
-| Diskette 3,5" ED 2,8 MB-     | -       | -       | -       | -       | -       | -       | +       | +       |
-| Festplattenpartitionen       |
-| -                            | -       | 10 MB   | 20 MB   | 32 MB   | 32 MB   | 2 GB    | 2 GB    | 2 GB    | 2 GB    |
+| Diskette 5,25" SD 160/180 KB | +/-     | +/-     | +       | +       | +       | +       | +       | +       | +       | +       |
+| Diskette 5,25" DD320/360 KB  | -       | +/-     | +       | +       | +       | +       | +       | +       | +       | +       |
+| Diskette 5,25" HD 1,2 MB     | -       | -       | -       | +       | +       | +       | +       | +       | +       | +       |
+| Diskette 3,5" DD 720 KB      | -       | -       | -       | -       | +       | +       | +       | +       | +       | +       |
+| Diskette 3,5" HD 1,4 MB      | -       | -       | -       | -       | -       | +       | +       | +       | +       | +       |
+| Diskette 3,5" ED 2,8 MB-     | -       | -       | -       | -       | -       | -       | +       | +       | +       | +       |
+| Festplattenpartitionen       | -       | -       | 10 MB   | 20 MB   | 32 MB   | 32 MB   | 2 GB    | 2 GB    | 2 GB    | 2 GB    |
 
 ## 4 Geschichte 02
+
+![Alt text](img/Boot_211117.jpg) 
 
 - Die Windowsversionen auf DOS-Basis waren nur als grafische Erweiterung gedacht - Client
 - Ab Win95 sollte es ein eigenständige BS werden
@@ -88,10 +89,13 @@ https://winhistory.de/more/windows.htm
 
 ## 6 BIOS - UEFI
 
-- BIOS:Basic Input Output System
-- UEFI:Uniﬁed Extensible Firmware Interface
+- **BIOS**:Basic Input Output System
+  
+- **UEFI**:Uniﬁed Extensible Firmware Interface
 
 ## 7 8 9 BIOS - UEFI 01
+
+![Alt text](img/bios.png)
 
 - Einschalten Hauptschalter
 - Einschalten Taster
@@ -116,24 +120,31 @@ https://winhistory.de/more/windows.htm
 
 ## 11 BIOS – UEFI 02
 
-### Basic Input Output System
+### **BIOS** Basic Input Output System
 
 - Auf Mainboard abgelegt
-- Initialisiert die Hardware, führt den POST aus und lädt11Konﬁguration aus dem CMOS
-- Lädt Bootsektor des Startmediums (MBR)
+- Initialisiert die Hardware, führt den POST[^14] aus und lädt Konﬁguration aus dem CMOS[^15]
+- Lädt Bootsektor des Startmediums (MBR[^16])
 - Master Boot Record (MBR) enthält Partitionstabelle und Bootloader
 - Unterstützt nur Bootmedien kleiner 2,2 TB (32 bit!)
 - Langsamer Bootvorgang
 
-https://th99.classic-computing.de/bioskompendium/html/titel.htm  
-https://www.elektronik-kompendium.de/sites/com/0807131.htm
+[^15]: CMOS Complementary metal-oxide-semiconductor ist ein Halbleiterelement, das in vielen modernen Computern und weiteren elektronischen Produkten Verwendung findet. Der statische RAM-Baustein kann zugleich digitale und analoge Daten speichern, verarbeiten und weiterleiten.
+
+[^16]: MBR master boot record enthält ein Startprogramm für BIOS-basierte Computer (IBM-PC-kompatible Computer) und eine Partitionstabelle.
+
+[^14]: POST P_ower O_n S_elf T_est  is a process performed by firmware or software routines immediately after a computer or other digital electronic device is powered on.
+
+[https://th99.classic-computing.de/bioskompendium/html/titel.htm](https://th99.classic-computing.de/bioskompendium/html/titel.htm)
+
+[https://www.elektronik-kompendium.de/sites/com/0807131.htm](https://www.elektronik-kompendium.de/sites/com/0807131.htm)
 
 ## 12 BIOS – UEFI 03
 
-### Uniﬁed Extensible Firmware Interface
+### **UEFI** Uniﬁed Extensible Firmware Interface
 
 - BIOS-Ersatz
-- Soll die technischen Limitierungen vom PC-BIOS12überwinden
+- Soll die technischen Limitierungen vom PC-BIOS überwinden
 - Anfangs bei Intel entwickelt (“Intel Boot Initiative”)
 - UEFI Forum (Intel, AMD, IBM, Dell, Apple, Microsoft, Red Hat, …)
 - Zunächst auf Intel Macs verwendet (2006)
@@ -257,7 +268,7 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 
 ### User Mode
 
-- Modiﬁkation von db/dbx setzt privaten Schlüssel eines Zertiﬁkates im KEK voraus
+- Modiﬁkation von db/dbx setzt privaten Schlüssel eines Zertiﬁkates im KEK[^12] voraus
 - Modiﬁkation von PK/KEK setzt privaten Schlüssel des PK voraus
 
 ## 21 Secure Boot - Windows 8
@@ -296,7 +307,7 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 - Legt Bootdatenträger fest und startet
   „Bootloader“
 - Kann eigentlich NTLDR[^14] bei Windows XP,
-  BootMGR bei Windows ab Vista, oder GRUB
+  BootMGR bei Windows ab Vista, oder GRUB[^17]
   unter Linux nicht starten
 - Kennt nur Festplatten (physische Laufwerke), keine Partitionen noch Dateisysteme
 - Kann auf Festplatten zugreifen, der Reihe nach auslesen
@@ -306,7 +317,8 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
   geladen und als Boot-Code ausgeführt
 - 512 B = Partitionstabelle (64 B) \+ Signatur (2 B)\+ ausführbarer Code (446 B)
 
-[^14]: NTLDR (abbreviation of NT loader)
+[^14]:NTLDR abbreviation of NT loader
+[^17]:GRUB grand unified boot loader is a tool for booting and loading operating system kernels and the default bootloader for systems based on the Linux kernel. Although it runs first when a machine is turned on, regular users rarely see GRUB in action. It functions automatically and requires no user input.
 
 - Windows – 4 mgl. Partitionen
 - Eine mit „aktiv“-Flag
@@ -339,17 +351,14 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 - Erweiterte Bootmöglichkeiten
 - Kann Partitionsstruktur einer Festplatte interpretieren u. FAT-Dateisysteme lesen
 - Boot-Code, gebunden an phys. Adresse, unsichtbar im Dateisystem, auf Festplatte nicht mehr nötig
-
-### CSM Kompatibilitätsmodus (Compatibility Support Module, CSM[^15]) – MBR notwendig
-
-- BIOS-Modus, BIOSKompatibilitätsmodus, CSM[^15]-Modus oder als Legacy-Modus
+- CSM Kompatibilitätsmodus (Compatibility Support Module, CSM[^15]) – MBR notwendig
+  - BIOS-Modus, BIOSKompatibilitätsmodus, CSM[^15]-Modus oder als Legacy-Modus
 
 [^15]: CSM Compatibility Support Module
 
-### Natives UEFI
-
-- GPT – notwendig
-- Keine einfaches Wechseln zwischen CSM[^15] und Nativem UEFI
+- Natives UEFI
+  - GPT – notwendig
+  - Keine einfaches Wechseln zwischen CSM[^15] und Nativem UEFI
 
 ## 26 UEFI – CSM-Kompatibilitätsmodus
 
@@ -358,7 +367,7 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 
 ## 27 UEFI – Natives UEFI27
 
-- Setzt voraus, dass die- Die Partitionstabelle einerFestplatte, von der das Betriebssystem bootet, als GPT-formatierte Festplatte (GUID-Partitionstabelle) eingerichtet ist
+- Setzt voraus, dass die- Die Partitionstabelle einer Festplatte, von der das Betriebssystem bootet, als GPT-formatierte Festplatte (GUID-Partitionstabelle) eingerichtet ist
 - UEFI-Firmware kann Partitionstabelle einer GPTFestplatte interpretieren
 - Kann Daten aus FAT12/16/32 lesen
 - Definiert Format für Bootloader, der ausgeführt werden kann
@@ -384,9 +393,9 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
   - \EFI\MICROSOFT\BOOT\BOOTMGFW.EFI oder
   - \EFI\UBUNTU\GRUBX64.EFI
 - Ziel
-- Alle Betriebssysteme richten einen eigenen Bootloader in einer EFI-System-Partition ein
-- Verweist nur auf das eigene OS
-- Sieht vom Booten anderer OS ab
+  - Alle Betriebssysteme richten einen eigenen Bootloader in einer EFI-System-Partition ein
+  - Verweist nur auf das eigene OS
+  - Sieht vom Booten anderer OS ab
 
 ## 30 UEFI-Fallback-Modus
 
@@ -401,78 +410,80 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 - Könnten „Ordnung“ in das Booten bringen
 - Spezifikationen und Werkzeuge der Hersteller
 - UEFI-Bootmanage kann OS auf Festplatte o. anderen Bootmedien identifizieren
-- UEFI-Bootmanager von Betriebssystem aus bearbeiten31- Windows „EasyUEFI“
-- Linux mit „efibootmgr“- Wechselmedium BIOS oder UEFI
+- UEFI-Bootmanager von Betriebssystem aus bearbeiten
+  - Windows „EasyUEFI“
+  - Linux mit „efibootmgr“
+- Wechselmedium BIOS oder UEFI
 - UEFI-Modus > OS im UEFI-Mod.
 - BIOS-kompatibler Modus > MBR-Bootloader
 
 ## 32 Secure Boot
 
-- Verhinderung von nichtsignierten Boot-Loadern- UEFI – öffentliche Schlüssel von vertrauenswürdigen32Anbietern hinterlegt
-- Nur wenn ein Boot-Loader mit dem zugehörigen privaten
-  Schlüssel signiert wurde, lässt er sich starten
+- Verhinderung von nichtsignierten Boot-Loadern
+- UEFI – öffentliche Schlüssel von vertrauenswürdigen Anbietern hinterlegt
+- Nur wenn ein Boot-Loader mit dem zugehörigen privaten Schlüssel signiert wurde, lässt er sich starten
 - Auf x86-Computern abschaltbar
-- Sollte möglich sein im UEFI-Setup Schlüssel hinzuzufügen
-  oder zu entfernen
+- Sollte möglich sein im UEFI-Setup Schlüssel hinzuzufügen oder zu entfernen
 
 ## 33 Aufbau von Festplatten
 
 - BIOS-kompatiblen Installation – MBR-Partitionsstil
-- Master Boot Record- UEFI-Installation - GPT-Partitionsstil
-- Globally Unique Identify Partition Table (128 bit)
+  - Master Boot Record
+- UEFI-Installation - GPT-Partitionsstil
+  - Globally Unique Identify Partition Table (128 bit)
 
 ## 34 MBR-Partitionsstil
 
 - Bis 2,2 TB (Achtung – nicht TiB)
-- MBR Master Boot Record
-- Max. 4 primäre Partitionen
+  - MBR Master Boot Record
+  - Max. 4 primäre Partitionen
 - Innerhalb des MBR
-- 4 x 16 Byte für 4 prim. Partitionen reserviert
-- 16 Byte sind noch aufgeteilt
-- 4 Byte für LBA (Logical Block Addressing)
-- Max. adressierbare Größe ((2^31) +1 Blöcke x 512 Byte/Block = 2
-  Terabyte)
-- Eine prim. Partition ist aktiv – PC startet von dieser, falls MBR nicht
-  v. A. Bootloader überschrieben
-- Eine prim. Partition kann zu einer erweiterten werden, mehrere
-  logische Laufwerke – bilden eine verkettete Liste
-- Zwischen MBR und erster Partition existiert freier Platz.Programme legen dort geschützte Informationen ab
+  - 4 x 16 Byte für 4 prim. Partitionen reserviert
+  - 16 Byte sind noch aufgeteilt
+    - 4 Byte für LBA (Logical Block Addressing)
+    - Max. adressierbare Größe ((2^31) +1 Blöcke x 512 Byte/Block = 2 Terabyte)
+  - Eine prim. Partition ist aktiv – PC startet von dieser, falls MBR nicht v. A. Bootloader überschrieben
+  - Eine prim. Partition kann zu einer erweiterten werden, mehrere logische Laufwerke – bilden eine verkettete Liste
+- Zwischen MBR und erster Partition existiert freier Platz. Programme legen dort geschützte Informationen ab
 
 ## 35 Systempartition/Startpartition Windows MBR
 
 - Systempartition (je Windows-Version 100 - 500 MB)
-- Erste Partition – aktiv
-- Enthält Bootmanager
+  - Erste Partition – aktiv
+  - Enthält Bootmanager
 - Startpartition / Windowspartition
-- Windows-Betriebssystemdateien
-- Windows-Verzeichnis35- Systempartition hat keinen Laufwerksbuchstaben
-- Für Benutzer nicht erreichbar
-- Trennung nicht zwingend erforderlich
-- Vorteil – Bootmanager kann nicht versehentlich verändert werden
-- Imaging-Programme – Achtung!
+  - Windows-Betriebssystemdateien
+  - Windows-Verzeichnis35
+![Alt text](img/Boot_2.jpg)
+  - Systempartition hat keinen Laufwerksbuchstaben
+  - Für Benutzer nicht erreichbar
+  - Trennung nicht zwingend erforderlich
+    - Vorteil – Bootmanager kann nicht versehentlich verändert werden
+    - Imaging-Programme – Achtung!
 
 ## 36 GPT-Partitionsstil
 
 - Kann (nach heutigen Maßstäben) beliebig große Festplatten undbeliebig viele Partitionen (128) ansprechen
 - Aufbau
-- MBR (Master Boot Record) mit 512 Byte als "Protective MBR"
-- Primäre GUID-Partitionstabelle
-- Max. 128 Partitionen
+  - MBR (Master Boot Record) mit 512 Byte als "Protective MBR"
+  - Primäre GUID-Partitionstabelle
+  - Max. 128 Partitionen
 - Backup GUID-Partitionstabelle- MBR so vorbelegt, dass gesamte Festplatte belegt ist – ältere36Werkzeuge (Protective MBR)
 - Einzelnen Partitionen sind durch den Partitionstyp (16 B Hex.-zahl) in
   ihren Funktionen unterscheidbar
-- EFI-Systempartition
-- MSR-Partition
-- Windows-Recovery-Partition
-- Windows-Partition
-- Linux-Partition
-- etc.
+  - EFI-Systempartition
+  - MSR-Partition[^18]
+  - Windows-Recovery-Partition
+  - Windows-Partition
+  - Linux-Partition
+  - etc.
 
-## 37 MSR – Microsoft Reserved Partition
+[^18]:MSR-Partition A Microsoft Reserved Partition is a partition of a data storage device, which is created to reserve a portion of disk space for possible subsequent use by a Windows operating system installed on a separate partition.
 
-- Microsoft kann die Partition für zukünftige Zwecke37verwenden
-- Diese Partition entspricht dem freien Platz, der bisher bei
-  MBR-Partitionen zur Verfügung stand
+## 37 MSR [^18] – Microsoft Reserved Partition
+
+- Microsoft kann die Partition für zukünftige Zwecke verwenden
+- Diese Partition entspricht dem freien Platz, der bisher bei MBR-Partitionen zur Verfügung stand
 - Größe (bei Windows 10): 16 MB
 - Kein Dateisystem
 - Typ: e3c9e316-0b5c-4db8-817d-f92df00215ae
@@ -480,142 +491,126 @@ https://www.elektronik-kompendium.de/sites/com/0807131.htm
 ## 38 Windows-Partition
 
 - Enthält Windows-Betriebssystem
-- Mindestgröße: 20 GB
-- Dateisystem: NTFS
-- Typ: ebd0a0a2-b9e5-4433-87c0-68b6b72699c738
+  - Mindestgröße: 20 GB
+  - Dateisystem: NTFS
+  - Typ: ebd0a0a2-b9e5-4433-87c0-68b6b72699c738
 
 ## 39 Wiederherstellungspartition
 
 - Enthält die Datei winre.wim (Windows Recovery)
 - Standardgröße bei Windows 10: 500 MB
-- Dateisystem: NTFS- Typ: de94bba4-06d1-4d40-a16a-bfd50179d6ac39
+- Dateisystem: NTFS
+- Typ: de94bba4-06d1-4d40-a16a-bfd50179d6ac39
 
 ## 40 Systempartition u. Startpartition Win (GPT)
 
-Ohne WiederherstellungspartitionDISKPART> list disk
-Datenträger ###
-Status
---------------- ------------- ------Datenträger
-0
-Online
-Datenträger
-1
-OnlineGröße Frei Dyn GPT
-----------476 GB 0 B
+Ohne Wiederherstellungspartition 
 
-- 465 GB 0 BDiskpart zeigt an, dass der Datenträger 0 als GPT-Datenträger eingerichtet ist.40DISKPART> list partition
-  Partition
+DISKPART> list disk  
+|Datenträger|###|Status|Größe |Frei |Dyn GPT|
+|-----|-----|-----|-----|-----|-----|
+|Datenträger|0|Online|476 GB|0 B| *|
+|Datenträger|1|Online|465 GB|0 B|  |
 
-Typ
-Größe
-Offset
----------------------------- ------------Partition 1
-System
-100 MB 1024 KB
-Partition 2
-Reserviert
-16 MB 101 MB
-Partition 3
-Primär
-476 GB 117 MB
+Diskpart zeigt an, dass der Datenträger 0 als GPT-Datenträger eingerichtet ist.
+
+DISKPART> list partition  
+|Partition|###|Typ|Größe|Offset|
+|-----|-----|-----|-----|-----|
+|Partition 1| - | System|100 MB |1024 KB|
+|Partition 2 |-|Reserviert |16 MB| 101 MB|
+|Partition 3 |-|Primär| 476 GB |117 MB|
 MSR wird in Grafik nicht angezeigt!
+
+![Alt text](img/Boot_3.jpg)
 
 ## 41 Dateisysteme
 
--FAT16 ist das ursprüngliche Dateisystem von MS-DOS und Windows 3.11; früher gab es sogar eine noch eingeschränktere
-Variante namens FAT12. »FAT« ist die Abkürzung für File Allocation Table – Dateizuordnungstabelle. In Form einer solchen
-Tabelle speichert dieses Dateisystem jeweils die Nummer des ersten Clusters, bei dem eine bestimmte Datei beginnt.-Jede Zuordnungseinheit enthält einen Verweis auf den nächsten Cluster der Datei. Dateien liegen nämlich nicht unbedingt als
-zusammenhängende Kette von Clustern auf der Festplatte, sondern sind bisweilen ziemlich weit verstreut. Sie fragmentieren im
-Laufe der Zeit, weil die Lücken, die durch das Löschen kleiner Dateien entstehen, mit einzelnen Teilen größerer Dateien gefüllt
-werden. Dies ist bei moderneren Dateisystemen zwar auch der Fall, aber diese verwenden intelligentere Verfahren zur
-Verwaltung der einzelnen Zuordnungseinheiten und räumen das Dateisystem im Hintergrund ständig auf. Bei FATDateisystemen ist es deshalb noch wichtiger als bei anderen, die Datenträger regelmäßig mit geeigneter Software zu
-defragmentieren, weil sie sonst immer langsamer werden.-Da es sich bei FAT16 um ein 16-Bit-Dateisystem handelt, beträgt die maximale Anzahl von Zuordnungseinheiten auf einer
-Partition 65.536. Dies macht große Datenträger sehr ineffizient, da jede Datei immer ganze Zuordnungseinheiten belegt. Darüber
-hinaus ist die Größe einer FAT16-Partition auf 2 Gigabyte begrenzt.
-FAT32 wurde zum ersten Mal mit der zweiten Windows 95-Neuauflage ausgeliefert, Windows 95B. Das Dateisystem besitzt
-exakt dieselbe Funktionsweise wie FAT16. Durch die 32-Bit-Adressierung wurde allerdings die Anzahl der Cluster pro Partition
-auf über 4 Milliarden erhöht, die Gesamtgröße einer Partition kann bis zu 4 Terabyte betragen.
-NTFS, das New Technology File System, existiert in verschiedenen leicht unterschiedlichen Versionen. Die
-Zuordnungseinheiten werden nicht mehr in einer einfachen Tabelle verwaltet, sondern in einer komplexen Baumstruktur, die
-erheblich schnellere Zugriffe ermöglicht und mehr Schutz vor Fehlern bietet. Des Weiteren stellt das Dateisystem eine Unixähnliche Verwaltung von Benutzerrechten für den Eigentümer, die Gruppe und sonstige Benutzer bereit. Diese Rechte lassen
-sich leider nicht in jeder Vista- oder XP-Version per grafischer Oberfläche einstellen.-42--Der einzige Nachteil von NTFS besteht darin, dass es für einige ältere Betriebssysteme nicht zugänglich ist. Linux konnte NTFS
-bis vor Kurzem nur lesen und nicht beschreiben, und der Schreibzugriff ist noch immer fehleranfällig. Windows 95, 98 und Me
-konnten gar nicht auf NTFS-Partitionen zugreifen, aber dieses Problem dürfte sich inzwischen erledigt haben, da diese
-Versionen praktisch ausgestorben sind. Aber falls Sie mehrere Betriebssysteme auf demselben Rechner installiert haben,
-müssen Sie sich genau überlegen, welches dieser Systeme auf welche Daten zugreifen können soll, bevor Sie sich für die
-Verteilung der Dateisysteme auf die verschiedenen Partitionen entscheiden.-Windows NT und seine Nachfolger bieten die Möglichkeit, FAT-Dateisysteme nachträglich in NTFS zu konvertieren – die
-umgekehrte Möglichkeit besteht dagegen nicht.
+- <f>FAT16</f> ist das ursprüngliche Dateisystem von MS-DOS und Windows 3.11; früher gab es sogar eine noch eingeschränktere
+Variante namens <f>FAT12</f>. »FAT« ist die Abkürzung für <f>File Allocation Table</f> – Dateizuordnungstabelle. In Form einer solchen Tabelle speichert dieses Dateisystem jeweils die Nummer des ersten <f>Clusters</f>, bei dem eine bestimmte Datei beginnt.
+
+- Jede Zuordnungseinheit enthält einen Verweis auf den nächsten Cluster der Datei. Dateien liegen nämlich nicht unbedingt als zusammenhängende Kette von Clustern auf der Festplatte, sondern sind bisweilen ziemlich weit verstreut. Sie fragmentieren im Laufe der Zeit, weil die Lücken, die durch das Löschen kleiner Dateien entstehen, mit einzelnen Teilen größerer Dateien gefüllt
+werden. Dies ist bei moderneren Dateisystemen zwar auch der Fall, aber diese verwenden intelligentere Verfahren zur Verwaltung der einzelnen Zuordnungseinheiten und räumen das Dateisystem im Hintergrund ständig auf. Bei FATDateisystemen ist es deshalb noch wichtiger als bei anderen, die Datenträger regelmäßig mit geeigneter Software zu
+defragmentieren, weil sie sonst immer langsamer werden.
+
+- Da es sich bei <f>FAT16</f> um ein 16-Bit-Dateisystem handelt, beträgt die maximale Anzahl von Zuordnungseinheiten auf einer Partition 2<sup>16</sup> = 65.536. Dies macht große Datenträger sehr ineffizient, da jede Datei immer ganze Zuordnungseinheiten belegt. Darüber hinaus ist die Größe einer FAT16-Partition auf 2 Gigabyte begrenzt.
+  
+- <f>FAT32</f> wurde zum ersten Mal mit der zweiten Windows 95-Neuauflage ausgeliefert, Windows 95B. Das Dateisystem besitzt exakt dieselbe Funktionsweise wie <f>FAT16</f>. Durch die 32-Bit-Adressierung wurde allerdings die Anzahl der Cluster pro Partition auf über 4 Milliarden erhöht, die Gesamtgröße einer Partition kann bis zu 4 Terabyte betragen.
+
+- <f>NTFS, das New Technology File System</f>, existiert in verschiedenen leicht unterschiedlichen Versionen. Die Zuordnungseinheiten werden nicht mehr in einer einfachen Tabelle verwaltet, sondern in einer komplexen Baumstruktur, die erheblich schnellere Zugriffe ermöglicht und mehr Schutz vor Fehlern bietet. Des Weiteren stellt das Dateisystem eine Unixähnliche Verwaltung von Benutzerrechten für den Eigentümer, die Gruppe und sonstige Benutzer bereit. Diese Rechte lassen sich leider nicht in jeder Vista- oder XP-Version per grafischer Oberfläche einstellen.
+
+- Der einzige Nachteil von <f>NTFS</f> besteht darin, dass es für einige ältere Betriebssysteme nicht zugänglich ist. Linux konnte NTFS bis vor Kurzem nur lesen und nicht beschreiben, und der Schreibzugriff ist noch immer fehleranfällig. Windows 95, 98 und Me konnten gar nicht auf NTFS-Partitionen zugreifen, aber dieses Problem dürfte sich inzwischen erledigt haben, da diese Versionen praktisch ausgestorben sind. Aber falls Sie mehrere Betriebssysteme auf demselben Rechner installiert haben, müssen Sie sich genau überlegen, welches dieser Systeme auf welche Daten zugreifen können soll, bevor Sie sich für die Verteilung der Dateisysteme auf die verschiedenen Partitionen entscheiden.
+
+- Windows NT und seine Nachfolger bieten die Möglichkeit, FAT-Dateisysteme nachträglich in NTFS zu konvertieren – die umgekehrte Möglichkeit besteht dagegen nicht.
 
 ## 42 Windows im Einsatz
 
-- https://openbook.rheinwerk-verlag.de/it_handbuch/06_002.html#dodtp685abe57-52bb4b7d-b993-7b108c5043a643
+- [https://openbook.rheinwerk-verlag.de/it_handbuch/06_002.html#dodtp685abe57-52bb4b7d-b993-7b108c5043a643](https://openbook.rheinwerk-verlag.de/it_handbuch/06_002.html#dodtp685abe57-52bb4b7d-b993-7b108c5043a643)
 
 ## 43 Windows Netzwerkeinstellungen
 
-- https://openbook.rheinwerk-verlag.de/it_handbuch/06_003.html#dodtpaaabd0ec-220f49ee-a409-4fa00bd168b444
+- [https://openbook.rheinwerk-verlag.de/it_handbuch/06_003.html#dodtpaaabd0ec-220f49ee-a409-4fa00bd168b444](https://openbook.rheinwerk-verlag.de/it_handbuch/06_003.html#dodtpaaabd0ec-220f49ee-a409-4fa00bd168b444)
 
 ## 44 Quellen 1
 
-- -https://www.winhistory.de/more/win10.htm#ed
-  https://www.winhistory.de/more/msdos.htm
-  https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and2008/cc731901(v=ws.11)?redirectedfrom=MSDN
-  https://docs.microsoft.com/de-de/windows/client-management/images/boot-sequence.png
-  https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcd-boot-options-reference
-  https://upload.wikimedia.org/wikipedia/commons/5/52/Linux-bootvorgang.svg
-  https://www.verbraucherzentrale.de/wissen/digitale-welt/datenschutz/datenschutz-bei-windows-10-erhoehen12154
-  https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methodender-Cyber-Kriminalitaet/methoden-der-cyber-kriminalitaet_node.html
-  https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/CyberSicherheit/SiSyPHus/Analyse_Telemetriekomponente_1_0.html
-  https://www.giga.de/downloads/windows-10/tipps/windows-10-einrichten-von-a-bis-z-so-geht-s/
-  https://entwickler.de/online/windows-10-wissenswertes-nutzer-168786.html
-  https://www.google.de/search?client=ms-operamobile&channel=new&espv=1&q=Windows+10+Schritt+f%C3%BCr+Schritt+Anleitung+PDF&sa=X&ved=2a
-  hUKEwi4w_v47JzxAhVF4qQKHcehDKgQ1QIwKHoECDMQAQ&biw=902&bih=1503
-  https://www.appdated.de/2020/11/windows-10-handbuch-und-anleitung-in-deutsch/
+- https://www.winhistory.de/more/win10.htm#ed
+- https://www.winhistory.de/more/msdos.htm
+- https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and2008/cc731901(v=ws.11)?redirectedfrom=MSDN
+- https://docs.microsoft.com/de-de/windows/client-management/images/boot-sequence.png
+- https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcd-boot-options-reference
+- https://upload.wikimedia.org/wikipedia/commons/5/52/Linux-bootvorgang.svg
+- https://www.verbraucherzentrale.de/wissen/digitale-welt/datenschutz/datenschutz-bei-windows-10-erhoehen12154
+- https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methodender-Cyber-Kriminalitaet/methoden-der-cyber-kriminalitaet_node.html
+- https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/CyberSicherheit/SiSyPHus/Analyse_Telemetriekomponente_1_0.html
+- https://www.giga.de/downloads/windows-10/tipps/windows-10-einrichten-von-a-bis-z-so-geht-s/
+- https://entwickler.de/online/windows-10-wissenswertes-nutzer-168786.html
+- https://www.google.de/search?client=ms-operamobile&channel=new&espv=1&q=Windows+10+Schritt+f%C3%BCr+Schritt+Anleitung+PDF&sa=X&ved=2ahUKEwi4w_v47JzxAhVF4qQKHcehDKgQ1QIwKHoECDMQAQ&biw=902&bih=1503
+- https://www.appdated.de/2020/11/windows-10-handbuch-und-anleitung-in-deutsch/
+- https://www.pcwelt.de/ratgeber/Von-Windows-1-bis-10-Die-Geschichte-von-Windows-9849474.html
+- https://www.pc-magazin.de/ratgeber/windows-10-einstellungen-apps-startmenue-edge-desktop-cortanaonedrive-3191899.html
+- https://www.computerwoche.de/k/windows-10,3530
+- https://www.giga.de/downloads/windows-10/specials/windows-10-handbuch-kostenlos-zum-download-quickguide-deutsch/
 
-  https://www.pcwelt.de/ratgeber/Von-Windows-1-bis-10-Die-Geschichte-von-Windows-9849474.html
-  https://www.pc-magazin.de/ratgeber/windows-10-einstellungen-apps-startmenue-edge-desktop-cortanaonedrive-3191899.html
-  https://www.computerwoche.de/k/windows-10,3530
-  https://www.giga.de/downloads/windows-10/specials/windows-10-handbuch-kostenlos-zum-download-quickguide-deutsch/
+## 45 Quellen 2
 
-## 45 Quellen
-
-2https://docs.microsoft.com/de-de/windows-hardware/design/device-experiences/oem-secure-boot
-https://www.winhistory.de/more/win10.htm#ed
-https://www.winhistory.de/index.php
-https://www.computerwoche.de/a/god-mode-per-trick-in-windows-10-freischalten,3315849
+- https://docs.microsoft.com/de-de/windows-hardware/design/device-experiences/oem-secure-boot
+- https://www.winhistory.de/more/win10.htm#ed
+- https://www.winhistory.de/index.php
+- https://www.computerwoche.de/a/god-mode-per-trick-in-windows-10-freischalten,3315849
 https://www.computerwoche.de/a/die-besten-tricks-zum-windows-10-browser,3316565
 https://www.computerwoche.de/a/windows-10-creators-update-alle-neuerungen-im-ueberblick,3330536
-https://www.computerwoche.de/a/suchfunktion-optimal-nutzen,3331986
-https://www.computerwoche.de/a/mac-oder-pc-ein-test-ueber-zehn-runden,2557071
-https://www.computerwoche.de/a/so-bereinigen-sie-windows,3544129
-https://www.computerwoche.de/a/microsoft-baut-an-neuer-betriebssystem-generation,3544239
-https://www.computerwoche.de/a/tools-die-auf-jedes-windows-gehoeren,3544369
-https://www.computerwoche.de/a/windows-10-die-besten-freeware-tools,3226100
-https://www.computerwoche.de/a/cortana-per-trick-abschalten,3544820
-https://www.computerwoche.de/a/windows-10-statistik-zur-datennutzung-anzeigen,3545114
-https://www.computerwoche.de/a/datenschutz-in-windows-10-privatsphaere-schuetzen,3545490
-https://www.computerwoche.de/a/problemen-gezielt-auf-die-spur-kommen,3331447
-https://www.computerwoche.de/a/fuenf-hilfreiche-tipps-und-tricks-fuer-windows-10,3544199
-https://www.computerwoche.de/a/schneller-auf-ordner-zugreifen,3546976
-https://www.computerwoche.de/a/optimierung-fuer-windows-10,3547100
-https://www.computerwoche.de/a/windows-tools-die-wirklich-jeder-braucht,3547134
-https://www.computerwoche.de/a/windows-10-erfordert-ein-neues-betriebsmodell,3547153
-https://www.computerwoche.de/a/windows-10-mit-pin-statt-passwort-schuetzen,3547320
-https://www.computerwoche.de/a/geheime-windows-funktionen-nutzen,3544311
-https://www.computerwoche.de/a/die-besten-tipps-zu-sicherheit-und-datenschutz,3328090
-https://www.computerwoche.de/a/so-steuern-sie-ihr-windows-ohne-maus,3547985
-https://www.computerwoche.de/a/sicheres-loeschen-von-dateien-in-windows-10,3548338
-https://www.computerwoche.de/a/pfiffige-gratis-tools-machen-windows-besser,3547435
-https://www.computerwoche.de/a/11-kleine-windows-tricks-mit-grosser-wirkung,3548159
-https://www.computerwoche.de/a/dieser-trick-aktiviert-neues-startmenue-in-windows-10,3549540
-https://www.computerwoche.de/a/das-kann-microsofts-verwaltungstool,3549962
-https://www.computerwoche.de/a/die-35-besten-cmd-tricks-fuer-windows,3550137
-https://www.computerwoche.de/k/windows-10,3530/hintergrund,31,3
-https://apfelböck.de/windows-tipps-und-grundlagen/
-https://secure-bits.org/category/tutorials/
-https://botfrei.de/was-ist-eigentlich-ein-mbr-oder-wie-kann-ich-es-reparieren/
-https://knowitlikepro.com/understanding-master-boot-record-mbr/
-https://knowitlikepro.com/
-https://metebalci.com/blog/a-quick-tour-of-guid-partition-table-gpt/
-https://www.codeproject.com/Articles/488296/Partition-Tables-Explained
-https://slidetodoc.com/using-large-hard-drives-in-linux-presented-by/
-https://www.thessdreview.com/ssd-guides/optimization-guides/complete-guide-to-speeding-up-your-pcs-boot-times/
+- https://www.computerwoche.de/a/suchfunktion-optimal-nutzen,3331986
+- https://www.computerwoche.de/a/mac-oder-pc-ein-test-ueber-zehn-runden,2557071
+- https://www.computerwoche.de/a/so-bereinigen-sie-windows,3544129
+- https://www.computerwoche.de/a/microsoft-baut-an-neuer-betriebssystem-generation,3544239
+- https://www.computerwoche.de/a/tools-die-auf-jedes-windows-gehoeren,3544369
+- https://www.computerwoche.de/a/windows-10-die-besten-freeware-tools,3226100
+- https://www.computerwoche.de/a/cortana-per-trick-abschalten,3544820
+- https://www.computerwoche.de/a/windows-10-statistik-zur-datennutzung-anzeigen,3545114
+- https://www.computerwoche.de/a/datenschutz-in-windows-10-privatsphaere-schuetzen,3545490
+- https://www.computerwoche.de/a/problemen-gezielt-auf-die-spur-kommen,3331447
+- https://www.computerwoche.de/a/fuenf-hilfreiche-tipps-und-tricks-fuer-windows-10,3544199
+- https://www.computerwoche.de/a/schneller-auf-ordner-zugreifen,3546976
+- https://www.computerwoche.de/a/optimierung-fuer-windows-10,3547100
+- https://www.computerwoche.de/a/windows-tools-die-wirklich-jeder-braucht,3547134
+- https://www.computerwoche.de/a/windows-10-erfordert-ein-neues-betriebsmodell,3547153
+- https://www.computerwoche.de/a/windows-10-mit-pin-statt-passwort-schuetzen,3547320
+- https://www.computerwoche.de/a/geheime-windows-funktionen-nutzen,3544311
+- https://www.computerwoche.de/a/die-besten-tipps-zu-sicherheit-und-datenschutz,3328090
+- https://www.computerwoche.de/a/so-steuern-sie-ihr-windows-ohne-maus,3547985
+- https://www.computerwoche.de/a/sicheres-loeschen-von-dateien-in-windows-10,3548338
+- https://www.computerwoche.de/a/pfiffige-gratis-tools-machen-windows-besser,3547435
+- https://www.computerwoche.de/a/11-kleine-windows-tricks-mit-grosser-wirkung,3548159
+- https://www.computerwoche.de/a/dieser-trick-aktiviert-neues-startmenue-in-windows-10,3549540
+- https://www.computerwoche.de/a/das-kann-microsofts-verwaltungstool,3549962
+- https://www.computerwoche.de/a/die-35-besten-cmd-tricks-fuer-windows,3550137
+- https://www.computerwoche.de/k/windows-10,3530/hintergrund,31,3
+- https://apfelböck.de/windows-tipps-und-grundlagen/
+- https://secure-bits.org/category/tutorials/
+- https://botfrei.de/was-ist-eigentlich-ein-mbr-oder-wie-kann-ich-es-reparieren/
+- https://knowitlikepro.com/understanding-master-boot-record-mbr/
+- https://knowitlikepro.com/
+- https://metebalci.com/blog/a-quick-tour-of-guid-partition-table-gpt/
+- https://www.codeproject.com/Articles/488296/Partition-Tables-Explained
+- https://slidetodoc.com/using-large-hard-drives-in-linux-presented-by/
+- https://www.thessdreview.com/ssd-guides/optimization-guides/complete-guide-to-speeding-up-your-pcs-boot-times/
