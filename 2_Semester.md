@@ -1,12 +1,4 @@
-<style>
-h1{color:red}
-h2{color:green}
-h3{color:blue}
-h4{color:yellow}
-h5{color:purple}
-h6{color:pink}
-f{color:red}
-</style>
+w
 
 # 2 Semester
 
@@ -336,18 +328,23 @@ C:\Users\Administrator\Downloads>netstat -rn
 
 ### WISO
 
-B2b Zweiseitiges HandelsKauf  
-B2C Verbrauchsgüterkauf  
-Bürgerlischer kauf : Um einen bürgerlichen Kauf handelt es sich, wenn Käufer und Verkäufer Nicht-Kaufleute im Sinne des § 1 Abs. 1 HGB sind. Eine Mutter verkauft die zu klein gewordene Kleidung ihres Kindes an eine andere Mutter. Ein Student kauft ein gebrauchtes Fahrzeug von einem privaten Anbieter.
+#### B2b Zweiseitiges HandelsKauf
+
+#### B2C Verbrauchsgüterkauf
+
+#### Bürgerlischer kauf 
+Um einen bürgerlichen Kauf handelt es sich, wenn Käufer und Verkäufer Nicht-Kaufleute im Sinne des § 1 Abs. 1 HGB sind. Eine Mutter verkauft die zu klein gewordene Kleidung ihres Kindes an eine andere Mutter. Ein Student kauft ein gebrauchtes Fahrzeug von einem privaten Anbieter.
 
 Unternehmen / Kaufmann Unterschied
 
-<f>Mängelrüge  
-Nacherfüllung  
-Nachlieferung  
-Nachbesserung</f>
+<f>Mängelrüge</f>  
+- Nacherfüllung  
+  - Nachlieferung  
+  - Nachbesserung
 
 **Die <f>Mängelrüge</f>** ist eine Anzeige durch den Käufer eines Handelsgeschäftes, durch die dem Verkäufer ein Mangel oder die Falschlieferung der Ware gemeldet wird. Im Sinne des § 377 Handelsgesetzbuch muss die Ware unverzüglich nach Erhalt durch den Käufer untersucht und etwaige Mängel unverzüglich beanstandet werden.
+
+La réclamation est une notification par l'acheteur d'une transaction commerciale, par laquelle le vendeur est informé d'un défaut ou d'une erreur de livraison de la marchandise. Au sens de l'article 377 du Code de commerce, la marchandise doit être examinée immédiatement après sa réception par l'acheteur et les éventuels défauts doivent être signalés sans délai.
 
 **<f>Nacherfüllung** Unter Nacherfüllung versteht man im deutschen Schuldrecht das dem Käufer beim Kaufvertrag und dem Besteller beim Werkvertrag eingeräumte Gewährleistungsrecht, das ihm einen Anspruch auf Nachbesserung oder Nachlieferung einräumt, sofern der Leistungsgegenstand im Zeitpunkt des Gefahrübergangs einen Mangel aufweist.
 
@@ -461,21 +458,20 @@ combination von IP und Port is socket
 
 <f>Sofort ist keine Kalendarmäßige Bestimmung
 
-**Deckungskauf**:  
+#### **Deckungskauf**:  
 Der Deckungskauf ist in der Wirtschaft ein Handelskauf, bei dem ein Käufer wegen eines Lieferverzugs durch seinen Lieferanten ersatzweise die benötigte Ware bei anderen Lieferanten beschaffen muss.  
 In business, a covering purchase is a commercial purchase in which a buyer has to procure the required goods from other suppliers as a substitute due to a delay in delivery by his supplier.
 
 <br>
 
-**Subjektiv Anforderung  
-Objektive Anforderung**  
-Was ist der Unterschied zwischen subjektiven und objektiven Anforderungen?  
+#### **Subjektiv Anforderung //  Objektive Anforderung**  
+##### Was ist der Unterschied zwischen subjektiven und objektiven Anforderungen?  
 Eine objektive Sichtweise ist völlig wertfrei und unvoreingenommen, während eine subjektive Betrachtungsweise von Meinungen, persönlichen Vorlieben und Erfahrungen geprägt ist. Subjektive Ansichten sind damit individuell.  
 An objective view is completely value-free and unbiased, whereas a subjective view is shaped by opinions, personal preferences and experiences. Subjective views are thus individual.
 
 ## 10 05 2023
 
-### wiso
+### nt
 
 | &nbsp;                | &nbsp;              | &nbsp;      |
 | --------------------- | ------------------- | ----------- |
@@ -658,9 +654,9 @@ Umtausch - Gewährleistung - Garantie
 Kulanz umtausch  
 Prüf rügel ... ??
 
-Nacherfüllung  
-Nachlieferung  
-Nachbesserung
+- Nacherfüllung  
+  - Nachlieferung  
+  - Nachbesserung
 
 Schadenersatz mit der Leistung  
 Schadenersatz neben der Leistung
@@ -721,25 +717,27 @@ The command "netstat -putan" is used in a terminal to display active network con
 
 ### bs
 
-#### RFID[^6]
+#### RFID[^9]
 
-[^6]: RFID Radio-frequency identification
+[^9]: RFID Radio-frequency identification
 
 ### Wiso
 
-warenschulden sind holschulden  
+Warenschulden sind Holschulden  
+Geldschulden sind Bringschulden bzw. Schickschulden.  
 
 Beweislastumkehr  
 
-Kalkulatorische Wagnisse
+Kalkulatorische Wagnisse:
+Bei den kalkulatorischen Wagnissen handelt es sich um so genannte Einzelwagnisse, die mit dem allgemeinen Unternehmensrisiko nichts zu tun haben. Einzelwagnisse geht der Unternehmer immer wieder ein; sie ergeben sich aus der alltäglichen Unternehmensführung und dem betrieblichen Alltag.
 
-|<td colspan=2>KV-Störung ||
-|------|------|
+|<td colspan=2> KV Störung | |
+|:----:|:----:|
 |verkäufer|     Kaufer|
 |Mangelhafte Lieferung|     AnnahmeVERZUG|
 |LieferVERZUG|     ZahlunsVERZUG|
 
-Fälleigkeit der Leistung  
+Fälligkeit der Leistung  
 Kalendarmässige bestimmbarkeit
 
 Sofort ist kein Kalendarmässige Bestimmung
@@ -752,16 +750,12 @@ Freizeichnungsklausel
 
 Deckungskauf
 
-Fixkauf
+Fixkauf: ist nach deutschem Recht eine spezielle Form eines Kaufvertrags, bei dem die Lieferung der Ware innerhalb einer genau bestimmten Frist oder zu einem festgelegten Termin erfolgen muss.
 
-Festkauf
-
-
-## bswin 
+## bswin
 
 vorwärts Delta  
 Reverse-Delta  
-
 
 ## 24 05 2023
 

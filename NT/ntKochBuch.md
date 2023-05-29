@@ -186,18 +186,18 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 #### CAT 3:
 
-Für 10BASE-T (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
-Adern 1,2,3,6 werden genutzt.
+- Für 10BASE-T (10 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+- Adern 1,2,3,6 werden genutzt.
 
 #### CAT 5:
 
-Für 100BASE-Tx (100 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
-Adern 1,2,3,6 werden genutzt.
+- Für 100BASE-Tx (100 Mbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+- Adern 1,2,3,6 werden genutzt.
 
 #### CAT 5e:
 
-Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
-Adern 1 bis 8 werden genutzt.
+- Für 1000BASE-T (1000 Mbit/s = 1 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+- Adern 1 bis 8 werden genutzt.
 
 #### CAT 6:
 
@@ -210,8 +210,8 @@ Adern 1 bis 8 werden genutzt.
 
 #### CAT 6 A (großes „A“ tiefergestellt):
 
-Für 10GBASE-T (10000 Mbit/s = 10 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),  
-Adern 1 bis 8 werden genutzt.
+- Für 10GBASE-T (10000 Mbit/s = 10 Gbit/s Übertragungsgeschwindigkeit, Basisband, Twisted Pair),
+- Adern 1 bis 8 werden genutzt.
 
 #### CAT 7 / 8:
 
@@ -254,9 +254,9 @@ Adern 1 bis 8 werden genutzt.
 - Die Dämpfung ändert sich bei verschiedenen Wellenlängen, könnten wir dieses Licht sehen, würden wir von verschiedenen Farben sprechen.
 - In der Praxis gibt es folgende Zuordnung
 
-1. Bereich bei **850 nm** wird als "SX" bezeichnet
-2. Bereich bei **1300 nm** wird als "LX" bezeichnet
-3. Bereich bei **1550 nm** wird als "ZX" bezeichnet
+Bereich bei **850 nm** wird als "SX" bezeichnet  
+Bereich bei **1300 nm** wird als "LX" bezeichnet  
+Bereich bei **1550 nm** wird als "ZX" bezeichnet
 
 Welches Licht können wir sehen?
 => siehe: Westermann Seite 204
@@ -350,7 +350,7 @@ Ist ein Faktor (wie viel mal mehr oder weniger), bei Leistung gilt:
 19 dB => Faktor 80  
 20 dB => Faktor 100  
 30 dB => Faktor 1000  
-40 dB => Faktor 10000  
+40 dB => Faktor 10000
 
 ### Antennengewinn:
 
@@ -361,139 +361,162 @@ Mit Reflektor => in einem kleinen Bereich ist es sehr hell und kann stark blende
 Nach diesem Prinzip arbeitet auch eine Antenne, sie ist sozusagen eine Art "Reflektor".  
 Um das "Blenden" (zu viel abgestrahlte Energie auf einen zu kleinen Punkt) zu
 verhindern, sagt der Gesetzgeber:  
-EIRP[^10], sozusagen die Leistung ohne Reflektor:  
+EIRP[^10], sozusagen die Leistung ohne Reflektor:
 
 bei 2,4 GHz => bis zu 100 mW  
-bei 5 GHz => bis zu 1000 mW   
+bei 5 GHz => bis zu 1000 mW
 
 ERP[^11], sozusagen die noch erlaubte Leistung mit Reflektor:  
 rechne:  
 1.) dB => Faktor  
 2.) ERP = EIRP / Faktor
 
-[^10]:EIRP
-[^11]:ERP
+[^10]: EIRP equivalent isotropically radiated power
+[^11]: ERP equivalent radiated power
 
 Beispiel:  
 EIRP = 100 mW  
 Antennengewinn = 13 dB  
 13 dB => Faktor 20  
 ERP = 100 mW / 20  
-ERP = 5 mW  
+ERP = 5 mW
+
+EIRP = ERP x factor
 
 ## E.) Ethernet-Frame:
 
 [wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)  
-Seite 31 bis 34  
+Seite 31 bis 34
 
-=> siehe: Westermann Seite 579 "Rahmenformate" und Seite 581 "Rahmenstruktur": 
+=> siehe: Westermann Seite 579 "Rahmenformate" und Seite 581 "Rahmenstruktur":
 
 **Präambel**:  
-[de.wikipedia.org/wiki/Synchronisation](de.wikipedia.org/wiki/Synchronisation)  
+[de.wikipedia.org/wiki/Synchronisation](de.wikipedia.org/wiki/Synchronisation)
 
-"Rahmenformate Ethernet II" => siehe: Westermann Seite 579  
+"Rahmenformate Ethernet II" => siehe: Westermann Seite 579
 
 Bevorzugter Rahmentyp.
-Im Feld "DATA" befinden sich IP, TCP/UDP und die eigentlichen Daten.  
+Im Feld "DATA" befinden sich IP, TCP/UDP und die eigentlichen Daten.
 
-CRC/FCS: 
+CRC/FCS:
 => siehe: Westermann Seite 580 "FCS"  
 Der Frame kann nur <f>1500 Byte</f> an Daten aufnehmen, aber darin stecken auch noch die Header (Köpfe) von IP und TCP/UDP und möglicherweise HTTP (=> siehe: Westermann Seite 581 "Rahmenstruktur").
-Somit bleiben nur ca. <f>1460 Byte pro Frame</f> (Datenpaket) für die reinen Daten übrig.  
+Somit bleiben nur ca. <f>1460 Byte pro Frame</f> (Datenpaket) für die reinen Daten übrig.
+
 [https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)  
 => siehe: Grafik unten: "Aufbau eines Eternet-Frames mit maximalen IPv4- / TCP-Daten"
 
-## F.) Sniffer:
+## F. Sniffer 
 
 Wenn ein Sniffer eingesetzt werden soll, gilt folgendes zu beachten:
 
 - Einsatz in der schulischen Ausbildung problemlos möglich, wenn keine Daten ausspioniert werden.
 - Einsatz im Unternehmen nur möglich, wenn Vorgesetzter und (wenn vorhanden) Betriebsrat dem Einsatz zustimmen.
-  
+
 einfacher Sniffer: Packetyzer (alt aber gut):
 sourceforge.net/projects/packetyzer/files/  
 wer mehr möchte:  
 wireshark.org/#download  
 Treiber, um die Netzwerkkarte unter Windows 10 in den "freizügigen Modus" zu versetzen:  
-win10pcap.org/  
+win10pcap.org/
 
 [de.wikipedia.org/wiki/Promiskuitiver-Modus](https://de.wikipedia.org/wiki/Promiskuitiver_Modus)
 
-## G.) Schicht 1
+## G. Schicht 1
 
 [https://de.wikipedia.org/wiki/Netzwerkkarte](https://de.wikipedia.org/wiki/Netzwerkkarte)
 
 ### Netzwerkkarte
 
-Netzzugriffsverfahren:
+Netzzugriffsverfahren:  
 => siehe: Westermann Seite 589 "Netzzugriffsverfahren"
-Kollisionserkennung (CSMA/CD):
-de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection
-Kollisionsvermeidung (CSMA/CA):
-de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance
-Merksatz:
-CSMA/CD => D für Drahtgebundene Netze
-CSMA/CA => A für Netze mit Antennen
 
-HUB:
-de.wikipedia.org/wiki/Hub\*(Netzwerktechnik)
-Vorgänger eines Switches.
-Verteilt alle Datenpakete an alle Netzwerkgeräte => sehr viel unnötiger Datenverkehr im Netzwerk.
-Sniffing sehr gut möglich.
-Nur bis 100 Mbit/s einsetzbar.
+#### Kollisionserkennung (CSMA/CD)
+
+[de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
+
+#### Kollisionsvermeidung (CSMA/CA)
+
+[de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance)
+
+<f>Merksatz:  
+CSMA/CD => D für Drahtgebundene Netze  
+CSMA/CA => A für Netze mit Antennen</f>
+
+### HUB:
+
+[de.wikipedia.org/wiki/Hub\_(Netzwerktechnik)](<de.wikipedia.org/wiki/Hub_(Netzwerktechnik)>)
+
+Vorgänger eines Switches.  
+Verteilt alle Datenpakete an alle Netzwerkgeräte => sehr viel unnötiger Datenverkehr im Netzwerk.  
+Sniffing sehr gut möglich.  
+Nur bis 100 Mbit/s einsetzbar.  
 Nur Halbduplex möglich.
 
-## H.) Schicht 2:
+## H. Schicht 2
 
-### MAC Adresse:
+### MAC Adresse
 
-de.wikipedia.org/wiki/MAC-Adresse
+[de.wikipedia.org/wiki/MAC-Adresse](de.wikipedia.org/wiki/MAC-Adresse)
 Sollte weltweit einmalig sein.
 
 ### Switch
 
 Verteilt anhand der MAC-Adresse das Datenpaket nur an das Netzwerkgerät, für das das Datenpaket auch
 bestimmt ist.
-Ausnahme:
-MAC-Adresse FF:FF:FF:FF:FF:FF => Ruf an alle Netzwerkkarten (Schicht 2 Broadcast).
-Unnötiger Datenverkehr im Netzwerk wird vermieden.
-=> siehe: im Verzeichnis Filius/Filius\*3_Switch_4_PCs.fls
-=> siehe: im Verzeichnis Filius/Filius_4_PCs_2_Switches.fls
-Heute die übliche Komponente im Netzwerk.
-unmanaged Switch (Desktop Switch):
-Zugriff auf den Switch nicht möglich und auch nicht nötig.
-Sniffing nicht ganz so einfach möglich.
+
+#### Ausnahme:
+
+MAC-Adresse FF:FF:FF:FF:FF:FF  
+=> Ruf an alle Netzwerkkarten (Schicht 2 Broadcast).  
+Unnötiger Datenverkehr im Netzwerk wird vermieden.  
+=> siehe: im Verzeichnis Filius/Filius\*3_Switch_4_PCs.fls  
+=> siehe: im Verzeichnis Filius/Filius_4_PCs_2_Switches.fls  
+Heute die übliche Komponente im Netzwerk.  
+unmanaged Switch (Desktop Switch):  
+Zugriff auf den Switch nicht möglich und auch nicht nötig.  
+Sniffing nicht ganz so einfach möglich.  
 Oft haben unmanaged Switches nur bis zu 24 Ports.
 
 ### managed Switch:
 
-Zugriff auf den Switch meist per Web-Frontend oder Konsole.
-Umfangreiche Einstellungen für jeden einzelnen Port möglich.
+Zugriff auf den Switch meist per Web-Frontend oder Konsole.  
+Umfangreiche Einstellungen für jeden einzelnen Port möglich.  
 Eine Auswahl an Einstellmöglichkeiten:
 
-#### Port-Mirroring:
+### Port-Mirroring:
 
-Spiegelung des Datenverkehrs eines Ports an einen zweiten Port für Analyse (Sniffing).
-Link Aggregation
-de.wikipedia.org/wiki/Link_Aggregation
-Im Linux-Umfeld auch Bonding genannt.
-Allgemein oft als Trunking bezeichnet.
-Mehrere physische Ports werden zu einem logischen Port zusammengefasst, um den
-Datendurchsatz zu erhöhen (erinnert an MIMO => siehe oben).
+Spiegelung des Datenverkehrs eines Ports an einen zweiten Port für Analyse (Sniffing). 
+
+### Link Aggregation  
+
+[de.wikipedia.org/wiki/Link_Aggregation](de.wikipedia.org/wiki/Link_Aggregation)
+
+Im Linux-Umfeld auch Bonding genannt.  
+Allgemein oft als Trunking bezeichnet.  
+Mehrere physische Ports werden zu einem logischen Port zusammengefasst, um den Datendurchsatz zu erhöhen (erinnert an MIMO => siehe oben).
 „Pseudo“ Link Aggregation => zufällige Aufteilung des Datenstroms anhand der MAC-Adresse.
-Spanning Tree:
-de.wikipedia.org/wiki/Spanning_Tree_Protocol
-Zur Vermeidung von Schleifen unter den Switches.
+
+### Spanning Tree
+
+[de.wikipedia.org/wiki/Spanning_Tree_Protocol](de.wikipedia.org/wiki/Spanning_Tree_Protocol)
+
+Zur Vermeidung von Schleifen unter den Switches.  
 Zum Aufbau von redundanten Wegen zwischen den Switches.
-Redundanz:
-de.wikipedia.org/wiki/Redundanz\*(Technik)
-Power over Ethernet
+
+### Redundanz:
+
+[de.wikipedia.org/wiki/Redundanz_(Technik)](de.wikipedia.org/wiki/Redundanz_(Technik))
+
+### Power over Ethernet
+
 => siehe: Westermann Seite 585
-de.wikipedia.org/wiki/Power_over_Ethernet
+[de.wikipedia.org/wiki/Power_over_Ethernet](de.wikipedia.org/wiki/Power_over_Ethernet)
+
 => siehe: Tabelle "Vergleich der PoE-Standards"
-802.3af
-802.3at
-802.3bt
+802.3af  
+802.3at  
+802.3bt  
 
 #### VLAN:
 
@@ -518,7 +541,7 @@ Der Frame kann von 1518 Byte auf 1522 Byte anwachsen:
 alle Übertragungsgeräte (z.B. Medienkonverter) zwischen den Switches
 müssen diese "übergroßen" Frames verarbeiten können.
 
-## I.) Schicht 3:
+## I.Schicht 3:
 
 ### Themen aus Schicht 3:
 
@@ -807,7 +830,7 @@ Wir können ein Netz in 2 oder 4 oder 8 oder 16 usw. Subnetze teilen.
 Netz: 192.168. 1 . 0 /24 (CIDR Schreibweise)  
 Subnetzmaske: 255.255.255. 0 (dezimale Schreibweise)
 
-#### gesucht:
+#### gesucht
 
 2 Subnetze.  
 Anzahl der Adressen pro Subnetz.  
@@ -816,14 +839,14 @@ Neue Subnetzmaske für alle Hosts (PCs) in den Subnetzen.
 
 <!-- 24 -->
 
-#### Lösung:
+#### Lösung
 
 Zweierpotenzen aufschreiben, Exponent in ROT!  
 Die 0 am Ende der des Netzes 192.168.1.0 als "Joker" betrachten.  
 Die "Joker" 0 steht stellvertretend für alle Zahlen von 0 bis 255.  
 0 bis 255 => 256 Zahlen! (0 ist die erste Zahl).
 
-#### Rechnung:
+#### Rechnung
 
 - 256 Adressen : 2 Subnetze = 128 Adressen pro Subnetz.
 - "Mühlenbecker Wagenrad" aufzeichnen.
@@ -1097,7 +1120,7 @@ Somit ergibt sich eine verkürzte Schreibweise der IPv6-Adresse:
   der nur aus "Nullen" besteht, durch zwei Doppelpunkte :: ersetzt werden.
 - Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende Blöcke, die nur aus "Nullen" bestehen, durch zwei Doppelpunkte :: ersetzt werden.
 
-##### Beispiel 1:
+##### Beispiel I
 
 ###### gegeben:
 
@@ -1194,20 +1217,20 @@ Einmalig (EINMALIG!) pro IPv6-Adresse dürfen auch mehrere aufeinander folgende 
 
 #### folgende IPv6-Adressen sind somit gleichwertig:
 
-##### aus Beispiel 1:
+##### aus Beispiel I:
 
 2001:0000:0000:000A:0000:0000:0000:0B00  
 = 2001:0:0:A:0:0:0:B00  
 = 2001::A:0:0:0:B00  
 = 2001:0:0:A::B00
 
-##### aus Beispiel 2:
+##### aus Beispiel II:
 
 2001:1234:5678:90AB:0000:0000:0000:0000  
 = 2001:1234:5678:90AB:0:0:0:0  
 = 2001:1234:5678:90AB::
 
-##### aus Beispiel 3:
+##### aus Beispiel III:
 
 0000:0000:0000:0000:0000:0000:0000:0001  
 = 0:0:0:0:0:0:0:1  
@@ -1732,7 +1755,7 @@ Im Tafelbild 12 zu sehen:
    "route add 192.168.2.222 mask 255.255.255.255 192.168.1.2"
   <!-- [52] -->
 
-## J.) Schicht 4:
+## J. Schicht 4:
 
 ### Themen aus Schicht 4:
 
@@ -2004,72 +2027,91 @@ Der interne Webserver (192.168.178.11) wird gebootet.
 ### Portforwarding / Destination NAT:
 
 => siehe: Foto "TB_16" als Tafelbild als Beispiel.
-de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung
-Zielsetzung:
+![Alt text](img/TB_16.JPG)
+
+[de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
+
+#### Zielsetzung
+
 Weiterleitung von Anfragen aus dem externen Netz (Internet) in das interne, private Netz.
-Begriffe:
+
+#### Begriffe
+
 Aus der Unix-Welt stammt der Begriff "Destination NAT" (sinngemäß: Übersetzung am Ziel).
-Funktionsbeschreibung:
+
+#### Funktionsbeschreibung:
 Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, über die sie auch
-aus dem Internet erreichbar ist.
-Aus dem Internet soll ein Laptop von extern auf interne Geräte zugreifen können.
-Im internen Netz existieren 2 WebCams, die von extern erreichbar sein sollen:
-WebCam 1:
-IP-Adresse: 192.168.178.21
-Port: 80
-WebCam 2:
-IP-Adresse: 192.168.178.22
-Port: 80
-Auf der FritzBox wurde Portforwarding aktiviert.
-Auf der FritzBox wurden 2 willkürliche, externe Ports gewählt (8080 und 8081).
-Auf der FritzBox wurde eine Tabelle mit 2 Einträgen erstellt:
-(1) 11.1.2.4:8080 => 192.168.178.21:80
-(2) 11.1.2.4:8081 => 192.168.178.22:80
+aus dem Internet erreichbar ist.  
+Aus dem Internet soll ein Laptop von extern auf interne Geräte zugreifen können.  
+Im internen Netz existieren 2 WebCams, die von extern erreichbar sein sollen:  
+WebCam 1:  
+IP-Adresse: 192.168.178.21  
+Port: 80  
+WebCam 2:  
+IP-Adresse: 192.168.178.22  
+Port: 80  
+Auf der FritzBox wurde <f>Portforwarding</f> aktiviert.  
+Auf der FritzBox wurden 2 willkürliche, externe Ports gewählt (8080 und 8081).  
+Auf der FritzBox wurde eine Tabelle mit 2 Einträgen erstellt:  
+(1) 11.1.2.4:8080 => 192.168.178.21:80  
+(2) 11.1.2.4:8081 => 192.168.178.22:80  
 ==>> Die externe IP-Adresse muss immer gleich sein, nur die willkürlichen, externen Ports
-dienen der Unterscheidung, welches interne Gerät angesprochen werden soll.
-[61]
-Greift das Laptop mit (1) von extern auf die externe IP-Adresse 11.1.2.4 und den
-willkürlichen, externen Port 8080 zu, wird die Anfrage nach intern
-auf die IP-Adresse 192.168.178.21 und den Port 80 (WebCam 1) weitergeleitet.
-Greift das Laptop mit (2) von extern auf die externe IP-Adresse 11.1.2.4 und den
-willkürlichen, externen Port 8081 zu, wird die Anfrage nach intern
-auf die IP-Adresse 192.168.178.22 und den Port 80 (WebCam 2) weitergeleitet.
-Portforwarding ist nicht sehr sicher.
-Von extern wird ein Zugang zum internen Netz geschaffen => kann zum Problem werden.
+dienen der Unterscheidung, welches interne Gerät angesprochen werden soll.  
+<!-- [61] -->
+- Greift das Laptop mit (1) von extern auf die externe IP-Adresse 11.1.2.4 und den
+willkürlichen, externen Port 8080 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.21 und den Port 80 (WebCam 1) weitergeleitet.   
+- Greift das Laptop mit (2) von extern auf die externe IP-Adresse 11.1.2.4 und den
+willkürlichen, externen Port 8081 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.22 und den Port 80 (WebCam 2) weitergeleitet.
+
+<f>Portforwarding</f> ist nicht sehr sicher.
+Von extern wird ein Zugang zum internen Netz geschaffen  
+=> kann zum Problem werden.
 Portforwarding kann mit Portknocking und WoL (siehe oben) kombiniert werden,
 ("TB_15" + "TB_16"):
-Portknocking => Ereignis auslösen (WoL).
-WoL => interner Webserver bootet.
+
+|TB_15|TB_16|
+|-----|-----|
+|![Alt text](img/TB_15.JPG)|![Alt text](img/TB_16.JPG)|
+
+Portknocking => Ereignis auslösen (WoL).  
+WoL => interner Webserver bootet.  
 Portforwarding => Zugriff auf den internen Webserver ("poweroff" zum Schluss nicht vergessen).
-[62]
-NAT (PAT) / Source NAT
+<!-- [62] -->
+
+### NAT(PAT) / Source NAT
+
 => siehe: Foto "TB_13" als Tafelbild, hier nur als Beispiel.
 ![TB_13!](img/TB_13.jpg "TB_13")
 
-de.wikipedia.org/wiki/Port_Address_Translation
-Zielsetzung:
+[de.wikipedia.org/wiki/Port_Address_Translation](de.wikipedia.org/wiki/Port_Address_Translation)
+
+#### Zielsetzung:
+
 Weiterleitung von Anfragen aus dem internen, privaten Netz in das externe Netz (Internet).
-Begriffe:
-==>> Dieser Mechanismus heißt eigentlich PAT, aber umgangssprachlich wird von NAT gesprochen.
-Leider ist dieses Problem auch schon in den IHK-Prüfungen aufgetaucht!
+
+#### Begriffe:
+
+==>> Dieser Mechanismus heißt eigentlich <f>PAT</f>, aber umgangssprachlich wird von <f>NAT</f> gesprochen.  
+Leider ist dieses Problem auch schon in den IHK-Prüfungen aufgetaucht!  
 Aus der Unix-Welt stammt der Begriff "Source NAT" (sinngemäß: Übersetzung an der Quelle)
-Funktionsbeschreibung:
+Funktionsbeschreibung:  
 Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins
-Internet "gehen" kann.
+Internet "gehen" kann.  
 Die FB hat eine dynamische Tabelle mit 3 Spalten:
 
-1. Spalte "Fake-Port":
+1. Spalte "Fake-Port":  
    Ports aus dem Bereich der "Dynamic/Private Ports" (siehe oben).
-2. Spalte "Quell-Socket":
+2. Spalte "Quell-Socket":  
    Für die Anfragen, von den internen Hosts.
    Hier im Beispiel für PC1 und PC2.
-3. Spalte "Ziel-Socket":
-   Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts
-   geholt werden.
+3. Spalte "Ziel-Socket":  
+   Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.
    Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).
    Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet
    "zu gehen".
-   [63]
+
+   <!-- [63] -->
+
    PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (Socket: 82.165.230.17:80)
    holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: 192.168.178.11:11111.
    PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (Socket: 193.99.144.85:80)
