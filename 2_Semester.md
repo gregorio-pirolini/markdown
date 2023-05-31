@@ -1,4 +1,16 @@
-w
+<style>
+h1 { color: Red }
+h2 { color: green }
+h3 { color: blue; background-color: white;}
+h4 { color:red;}
+h5 { color: yellow;}
+h6 { color: hotpink;}
+f{ color: red;
+font-weight: bold;
+text-decoration: underline;}
+mono{font-family:"monospace"}
+
+</style>
 
 # 2 Semester
 
@@ -242,8 +254,6 @@ PRI priorisierung bzw tarffic class
 | ----------------------------------- | ------- |
 | ![Drag Racing](img/IPv6_header.jpg) | HEADERS |
 
-
-
 ## 16.03.2023
 
 ??  
@@ -332,14 +342,16 @@ C:\Users\Administrator\Downloads>netstat -rn
 
 #### B2C Verbrauchsgüterkauf
 
-#### Bürgerlischer kauf 
+#### Bürgerlischer kauf
+
 Um einen bürgerlichen Kauf handelt es sich, wenn Käufer und Verkäufer Nicht-Kaufleute im Sinne des § 1 Abs. 1 HGB sind. Eine Mutter verkauft die zu klein gewordene Kleidung ihres Kindes an eine andere Mutter. Ein Student kauft ein gebrauchtes Fahrzeug von einem privaten Anbieter.
 
 Unternehmen / Kaufmann Unterschied
 
-<f>Mängelrüge</f>  
-- Nacherfüllung  
-  - Nachlieferung  
+<f>Mängelrüge</f>
+
+- Nacherfüllung
+  - Nachlieferung
   - Nachbesserung
 
 **Die <f>Mängelrüge</f>** ist eine Anzeige durch den Käufer eines Handelsgeschäftes, durch die dem Verkäufer ein Mangel oder die Falschlieferung der Ware gemeldet wird. Im Sinne des § 377 Handelsgesetzbuch muss die Ware unverzüglich nach Erhalt durch den Käufer untersucht und etwaige Mängel unverzüglich beanstandet werden.
@@ -458,14 +470,17 @@ combination von IP und Port is socket
 
 <f>Sofort ist keine Kalendarmäßige Bestimmung
 
-#### **Deckungskauf**:  
+#### **Deckungskauf**:
+
 Der Deckungskauf ist in der Wirtschaft ein Handelskauf, bei dem ein Käufer wegen eines Lieferverzugs durch seinen Lieferanten ersatzweise die benötigte Ware bei anderen Lieferanten beschaffen muss.  
 In business, a covering purchase is a commercial purchase in which a buyer has to procure the required goods from other suppliers as a substitute due to a delay in delivery by his supplier.
 
 <br>
 
-#### **Subjektiv Anforderung //  Objektive Anforderung**  
-##### Was ist der Unterschied zwischen subjektiven und objektiven Anforderungen?  
+#### **Subjektiv Anforderung // Objektive Anforderung**
+
+##### Was ist der Unterschied zwischen subjektiven und objektiven Anforderungen?
+
 Eine objektive Sichtweise ist völlig wertfrei und unvoreingenommen, während eine subjektive Betrachtungsweise von Meinungen, persönlichen Vorlieben und Erfahrungen geprägt ist. Subjektive Ansichten sind damit individuell.  
 An objective view is completely value-free and unbiased, whereas a subjective view is shaped by opinions, personal preferences and experiences. Subjective views are thus individual.
 
@@ -654,8 +669,8 @@ Umtausch - Gewährleistung - Garantie
 Kulanz umtausch  
 Prüf rügel ... ??
 
-- Nacherfüllung  
-  - Nachlieferung  
+- Nacherfüllung
+  - Nachlieferung
   - Nachbesserung
 
 Schadenersatz mit der Leistung  
@@ -698,7 +713,7 @@ Reverse-Delta
 ### nt
 
 interface identifier = suffix  
-**netstat -putan**   
+**netstat -putan**  
 The command "netstat -putan" is used in a terminal to display active network connections and related information on a Linux or Unix-based system. Here's a breakdown of the command and its options:
 
 - netstat: It stands for "network statistics" and is a command-line tool used for monitoring network connections and network-related statistics.
@@ -711,7 +726,7 @@ The command "netstat -putan" is used in a terminal to display active network con
 
   - a: This option displays all active connections, including listening ports that are waiting for incoming connections.
 
-  - n: This option disables the resolution of hostnames, displaying IP addresses instead.  
+  - n: This option disables the resolution of hostnames, displaying IP addresses instead.
 
 ## 22 05 2023
 
@@ -724,18 +739,18 @@ The command "netstat -putan" is used in a terminal to display active network con
 ### Wiso
 
 Warenschulden sind Holschulden  
-Geldschulden sind Bringschulden bzw. Schickschulden.  
+Geldschulden sind Bringschulden bzw. Schickschulden.
 
-Beweislastumkehr  
+Beweislastumkehr
 
 Kalkulatorische Wagnisse:
 Bei den kalkulatorischen Wagnissen handelt es sich um so genannte Einzelwagnisse, die mit dem allgemeinen Unternehmensrisiko nichts zu tun haben. Einzelwagnisse geht der Unternehmer immer wieder ein; sie ergeben sich aus der alltäglichen Unternehmensführung und dem betrieblichen Alltag.
 
-|<td colspan=2> KV Störung | |
-|:----:|:----:|
-|verkäufer|     Kaufer|
-|Mangelhafte Lieferung|     AnnahmeVERZUG|
-|LieferVERZUG|     ZahlunsVERZUG|
+| <td colspan=2> KV Störung |               |
+| :-----------------------: | :-----------: |
+|         verkäufer         |    Kaufer     |
+|   Mangelhafte Lieferung   | AnnahmeVERZUG |
+|       LieferVERZUG        | ZahlunsVERZUG |
 
 Fälligkeit der Leistung  
 Kalendarmässige bestimmbarkeit
@@ -755,7 +770,7 @@ Fixkauf: ist nach deutschem Recht eine spezielle Form eines Kaufvertrags, bei de
 ## bswin
 
 vorwärts Delta  
-Reverse-Delta  
+Reverse-Delta
 
 ## 24 05 2023
 
@@ -768,34 +783,36 @@ syn: synchronise
 seq: sequence  
 psh: push
 mss: maximal segnment size
-wind: window 
+wind: window
 
 MTU: In computer networking, the maximum transmission unit (MTU[^7]) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
 
-[^7]: MTU: In computer networking, the maximum transmission unit  is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
+[^7]: MTU: In computer networking, the maximum transmission unit is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer, e.g. Ethernet frame.
 
 ## 27 05 2023
 
 ### Linux
 
 - tree -pug
-  - -p : Print the protections for each file (as per ls -l). 
-  - -u : Print the username, or UID # if no username is available, of the file. 
+
+  - -p : Print the protections for each file (as per ls -l).
+  - -u : Print the username, or UID # if no username is available, of the file.
   - -g : Print the group name, or GID # if no group name is available, of the file.
 
 - chmod
+
   - The letters represent:
 
     - r: Read permissions. The file can be opened, and its content viewed.
     - w: Write permissions. The file can be edited, modified, and deleted.
     - x: Execute permissions. If the file is a script or a program, it can be run (executed).
 
-| Besitzer  |     |    |Gruppe  |     |    | Andere  |    |    |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| r  | w  | x  | r  | w  | x  | r  | w  | x  |
-| 2<sup>2  | 2<sup>1   | 2<sup>0   | 2<sup>2  | 2<sup>1   | 2<sup>0  |  2<sup>2  | 2<sup>1   | 2<sup>0
-| 1  | 1  | 1  | 1  | 1  | 1  | 1  | 0  | 1  |
-|  |  7   |    |   |   7  |    |    |   5 |    |
+| Besitzer |         |         | Gruppe  |         |         | Andere  |         |         |
+| :------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+|    r     |    w    |    x    |    r    |    w    |    x    |    r    |    w    |    x    |
+| 2<sup>2  | 2<sup>1 | 2<sup>0 | 2<sup>2 | 2<sup>1 | 2<sup>0 | 2<sup>2 | 2<sup>1 | 2<sup>0 |
+|    1     |    1    |    1    |    1    |    1    |    1    |    1    |    0    |    1    |
+|          |    7    |         |         |    7    |         |         |    5    |         |
 
 - objekttyp:
   - &minus; Datei
@@ -804,12 +821,12 @@ MTU: In computer networking, the maximum transmission unit (MTU[^7]) is the size
   - c ?
   - b ?
   - ...
-  
+
 make dir with permisions:  
-mkdir -m 700 name  
+mkdir -m 700 name
 
 just change permission:
-or chmod 700 name  
+or chmod 700 name
 
 ### 練習 れんしゅう
 
@@ -823,21 +840,36 @@ Once the VPN tunnel is established, all network traffic between the two endpoint
 
 In summary, a VPN tunnel provides a secure and encrypted pathway for transmitting data between two endpoints over an untrusted network, ensuring privacy and confidentiality of the transmitted information.
 
-**IPsec**[^8]: 
-- Encryption 
-- authentification 
+**IPsec**[^8]:
+
+- Encryption
+- authentification
 - integrity
 
-[^8]: IPsec Internet Protocol Security. As a part of the IPv4 enhancement, IPsec is a layer 3 OSI model or internet layer end-to-end security scheme.
-Encryption authentification integrity
+[^8]:
+    IPsec Internet Protocol Security. As a part of the IPv4 enhancement, IPsec is a layer 3 OSI model or internet layer end-to-end security scheme.
+    Encryption authentification integrity
 
 **Hybrid Encryption** combines the efficiency of symmetric encryption with the convenience of public-key (asymmetric) encryption. Only users with the private key can decrypt the data. To encrypt a message, a fresh symmetric key is generated and used to encrypt the plaintext data.
 
 XOR!!
 Beispiel:
 
-|  |info| |key| |encrypted| |
-|-----|-----| :-----: |-----|-----|-----|----|
-|Zeichen|ASCII-hex|ASCII-bin|0000 1010|ASCII-bin|ASCII-hex|Zeichen|
-|H|48| 0100 1000 |0100 0010|0100 0010|42|B|
+|         | info      |           | key       |           | encrypted |         |
+| ------- | --------- | :-------: | --------- | --------- | --------- | ------- |
+| Zeichen | ASCII-hex | ASCII-bin | 0000 1010 | ASCII-bin | ASCII-hex | Zeichen |
+| H       | 48        | 0100 1000 | 0100 0010 | 0100 0010 | 42        | B       |
 
+## 31 05 2023
+
+### NT
+
+#### ports:
+
+49151 = 1011 1111 1111 1111  
+49152 = 1100 0000 0000 0000
+
+NAT/PAT/Source-Nat/PNAT same thing
+
+SPI FIREWALL:
+Stateful Packet Inspection FIREWALL

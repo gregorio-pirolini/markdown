@@ -1841,7 +1841,8 @@ Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".
 
 | Beginn:   | Ende       |
 | --------- | ---------- |
-| Port 1024 | Port 49151 |
+| Port 1024 | Port 49151 | 
+1011111111111111
 
 Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.
 
@@ -2095,8 +2096,7 @@ Weiterleitung von Anfragen aus dem internen, privaten Netz in das externe Netz (
 Leider ist dieses Problem auch schon in den IHK-Prüfungen aufgetaucht!  
 Aus der Unix-Welt stammt der Begriff "Source NAT" (sinngemäß: Übersetzung an der Quelle)
 Funktionsbeschreibung:  
-Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins
-Internet "gehen" kann.  
+Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins Internet "gehen" kann.  
 Die FB hat eine dynamische Tabelle mit 3 Spalten:
 
 1. Spalte "Fake-Port":  
@@ -2107,16 +2107,16 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
 3. Spalte "Ziel-Socket":  
    Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.
    Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).
-   Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet
-   "zu gehen".
+   Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet "zu gehen".
 
    <!-- [63] -->
 
-   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (Socket: 82.165.230.17:80)
-   holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: 192.168.178.11:11111.
+   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (Socket: 82.165.230.17:80) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: 192.168.178.11:11111.  
    PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (Socket: 193.99.144.85:80)
-   holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: 192.168.178.22:22222.
-   Ablauf (step by step) für PC1:
+   holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: 192.168.178.22:22222.  
+
+   Ablauf (step by step) für PC1:  
+
    (1):
    PC1 (192.168.178.11:11111) schickt seinen Wunsch nach der Webseite Web.de (82.165.230.17:80)
    an die FritzBox.
@@ -2134,7 +2134,8 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Quell-Socket: 82.165.230.17:80 (Web.de und Webserver-Port)
    Ziel-Socket : 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
    "Hier kommt der Inhalt der Webseite".
-   [64]
+
+   <!-- [64] -->
    Nach der Lieferung der Webseite von Web.de schaut die FritzBox unter dem Fake-Port 60000
    nach, von wem die Bestellung ursprünglich kam: 192.168.178.11:11111 (PC1).
    Die FritzBox liefert abschließend die Webseite von Web.de an PC1 aus.
@@ -2157,7 +2158,7 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Quell-Socket: 193.99.144.85:80 (Heise.de und Webserver-Port)
    Ziel-Socket : 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
    "Hier kommt der Inhalt der Webseite".
-   [65]
+   <!-- [65] -->
    Nach der Lieferung der Webseite von Heise.de schaut die FritzBox unter dem Fake-Port 60001
    nach, von wem die Bestellung ursprünglich kam: 192.168.178.22:22222 (PC2).
    Die FritzBox liefert abschließend die Webseite von Heise.de an PC2 aus.
@@ -2179,7 +2180,7 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Anfrage an die Blocklist: "Heise.de" erlaubt? => Antwort NEIN!
    Anfrage an die Blocklist: "Web.de" erlaubt? => Antwort JA!
    ==>> Kein Mitarbeiter darf auf die Webseite von Heise.de => unbrauchbare Lösung für eine IT-Firma.
-   [66]
+   <!-- [66] -->
    Allowlist:
    ==>> "Alles verboten außer . . . ."
    Eine Allowlist auch ist niemals wirklich vollständig:
@@ -2202,8 +2203,8 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Anfrage an Block- UND Allowlist: "Heise.de" erlaubt? => Antwort JA! (steht in der Allowlist)
    Anfrage an Block- UND Allowlist: "Web.de" erlaubt? => Antwort JA! (steht in keiner Liste)
    ==>> Alle Mitarbeiter können sich informieren aber nicht spielen => praktikable Lösung.
-   [67]
-   K.) Firewalls (im weiteren Verlauf oft mit "FW" abgekürzt):
+   <!-- [67] -->
+   ## K. Firewalls (im weiteren Verlauf oft mit "FW" abgekürzt):
    => siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
    de.wikipedia.org/wiki/Firewall
    de.wikipedia.org/wiki/Stateful_Packet_Inspection
@@ -2227,7 +2228,7 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Die Rück-Richtung (Quelle <= Ziel) wird durch die SPI-FW selbst gesteuert.
    Mit "iptables", ist eine kostenlose und leistungsstarke Firewall-Lösung unter Linux verfügbar.
    ==>> Alle weiteren Ausführungen beziehen sich auf eine SPI-FW mit iptables im Rahmen einer Unternehmens-Firewall.
-   [68]
+   <!-- [68] -->
    Allgemeine Erklärungen:
    de.wikipedia.org/wiki/ Sylt  
    => siehe: \_1_Bruecke.pdf
@@ -2251,7 +2252,9 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
 6. Zettel (Regelsatz OUTPUT)
    Wer von der Wachmannschaft darf in Richtung Festland gehen.
    Wer von der Wachmannschaft darf in Richtung Insel gehen.
-   [69]
+
+   <!-- [69] -->
+
    Innerer Aufbau der SPI-FW mit iptables:
    => siehe: \_2_FW_innen.pdf
    Wachmannschaft => Betriebssystem (Linux)
@@ -2275,6 +2278,7 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Hauptaufgabe von OUTPUT:
    Welche Daten darf Linux über eth0 aussenden.
    Welche Daten darf Linux über eth1 aussenden.
+
    [70]
    Welche Schichten des OSI-Modells sind mit der SPI-FW (iptables) unter Linux steuerbar?
    Alle Bedingungen sind logisch UND-verknüpft!
@@ -2391,6 +2395,7 @@ HIER KOMMEN JETZT DIE EIGENEN REGELN….
 Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).
 echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
 Alles unterhalb "# Ende eigene Regeln" wird auch immer gebraucht.
+
      [75]
 ==>> DENKSPORT (wieder einmal):
 => siehe nochmals: _4_FW_Skizze_Inhalt_2.pdf
@@ -2409,14 +2414,16 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
    Skript (firewall_Inhalt.sh) nutzen:
    PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
    PC braucht 2. Netzwerkkarte:
-7. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-8. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
+1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
+2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
    Skript auf den PC kopieren (auch per USB-Stick möglich).
    Skript "ausführbar" machen => "chmod 755 firewall*Inhalt.sh"
    Skript starten => "./firewall_Inhalt.sh"
    Skript wird abgearbeitet => die Zeilen mit "echo" werden angezeigt.
+
    [76]
+
    Demilitarisierte Zone ("DMZ"):
    de.wikipedia.org/wiki/Demilitarisierte_Zone*(Informatik)
    heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html
@@ -2483,7 +2490,7 @@ aus "Ports"  => "--dports" (mehrere Ports, Plural):
 
      <!-- [79] -->
 
-## Lösung Schritt 2:
+### Lösung Schritt 2:
 
 # Anfang eigene Regeln
 
