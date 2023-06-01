@@ -437,7 +437,7 @@ Zell-PE,
 
 Foam Skin
 
-BFW Brandenburg KLAIBER
+
 
 31
 
@@ -491,82 +491,22 @@ BFW Berlin-Brandenburg KLAIBER
 
 34
 
-Kabel und Leitungen
-–Isolierung 1Isolier- Zeichen εr Vorteile
-Nachteile
-werkstoff
-----------------------------------------------------------------------------Papier
+## 35 Kabel und Leitungen –Isolierung 1
 
-P
+|Isolier <br>werkstoff| Zeichen| εr |Vorteile| Nachteile|
+|-----|-----|-----|-----|-----|
+|Papier|P|4|preisgünstig quellfähig|nur bis 300 kHz<br>einsetzbar|
+|PVC|Y|3,5-5,5|flammwidrig<br>gut verarbeitbar|- frequenzabhängig <br>- kälteempfindlich<br>- bei Verbrennung entstehen Salzsäuredämpfe|
 
-PVC
+## 36 Kabel und Leitungen –Isolierung 2
 
-Y
+|Isolier <br>werkstoff| Zeichen| εr |Vorteile| Nachteile|
+|-----|-----|-----|-----|-----|
+|Voll-PE|2Y|2,3|nahezu<br>frequenzunabhängig<br>gut verarbeitbar|brennbar|
+|Zell-PE|02Y|1,6|frequenzunabhängig<br>gut verarbeitbar|- brennbar<br> - bei gefüllten  Kabeln Eindiffundieren von Petrolat|
+foam skin|02YS|1,9|frequenzunabhängig<br>gut verarbeitbar|- brennbar<br>- bei gefüllten Kabeln kaum Eindiffundieren von Petrolat|
 
-4
 
-preisgünstig
-quellfähig
-
-3,5-5,5 flammwidrig
-gut verarbeitbar
-
-BFW Brandenburg KLAIBER
-
-nur bis 300 kHz
-einsetzbar
-
--frequenzabhängig
--kälteempfindlich
--bei Verbrennung
-entstehen Salzsäuredämpfe
-35
-
-Kabel und Leitungen
-–Isolierung 2Isolier- Zeichen
-werkstoff
-
-εr Vorteile
-
-Nachteile
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Voll-PE
-
-2Y
-
-2,3
-
-nahezu
-brennbar
-frequenzunabhängig
-gut verarbeitbar
-
-Zell-PE
-
-02Y
-
-1,6 frequenzunabhängig
-gut verarbeitbar
-
-foam skin
-
-02YS
-
-1,9 frequenzunabhängig -brennbar
-gut verarbeitbar
--bei gefüllten Kabeln
-kaum Eindiffundieren
-von Petrolat
-BFW Brandenburg KLAIBER
-
--brennbar
--bei gefüllten Kabeln
-Eindiffundieren von
-Petrolat
-
-36
 
 Kabel und Leitungen
 –Einsatz der IsolierstoffeMaterial
@@ -592,7 +532,7 @@ für ungefüllte Kabel
 Sternverseilte Kabel
 0,35-0,5 mm
 
-BFW Brandenburg KLAIBER
+
 
 37
 
@@ -621,7 +561,7 @@ Sternverseilte Kabel
 DA-verseilte Kabel
 0,6-0,6 mm
 
-BFW Brandenburg KLAIBER
+
 
 38
 
@@ -630,7 +570,7 @@ BFW Brandenburg KLAIBER
 „aufgeschäumte Haut“ Zell PE mit einer Schicht aus
 unverzellten Polyolefinen
 
-BFW Brandenburg KLAIBER
+
 
 39
 
@@ -646,7 +586,7 @@ relative D. (relative Permittivität) bezeichnete Dielektrizitätsoder Permittiv
 Luft 1,000 592, Glas 2–16, Hartgummi 2,5–3,5, Holz 2,5–6,8,
 Wasser 80,8, keramische Werkstoffe 100–10 000.
 
-BFW Brandenburg KLAIBER
+
 
 40
 
@@ -659,7 +599,7 @@ eines Kondensators vergrößert dessen Kapazität um einen
 vom Material des D. abhängigen Faktor
 (relative Dielektrizitätskonstante).
 
-BFW Brandenburg KLAIBER
+
 
 41
 
@@ -673,7 +613,7 @@ Bei Fernmeldekabeln werden zwei Verseilarten eingesetzt:
 
 1. Stern- Vierer – Verseilung
 2. DA- Verseilung
-BFW Brandenburg KLAIBER
+
 
 42
 
@@ -682,7 +622,7 @@ BFW Brandenburg KLAIBER
 magnetische und kapazitive Effekte aus der
 Umwelt werden durch die Verdrillung verringert
 
-BFW Brandenburg KLAIBER
+
 
 43
 
@@ -715,7 +655,7 @@ Farbfolge
 
 10 DA
 
-BFW Brandenburg KLAIBER
+
 
 44
 
@@ -727,7 +667,7 @@ abgeglichene Brücke
 •minimale kapazitive Kopplung
 zwischen den DA
 •bis 500 kHz einsetzbar
-BFW Brandenburg KLAIBER
+
 
 45
 
@@ -737,7 +677,7 @@ konzentrischen Lagen verseilt
 Zur Entkopplung der Sprechkreise benachbarter Lagen wird
 die SCHLAGRICHTUNG oder SCHLAGLÄNGE verändert
 
-BFW Brandenburg KLAIBER
+
 
 46
 
@@ -751,14 +691,14 @@ Grundbündel verseilt
 5 oder 10 Grundbündel bilden dann ein
 HAUPTBÜNDEL zu 50 DA bzw. 100 DA
 
-BFW Brandenburg KLAIBER
+
 
 47
 
 Kabel und Leitungen
 –Farbcodierung 1-
 
-BFW Brandenburg KLAIBER
+
 
 48
 
@@ -815,7 +755,7 @@ weiß
 
 schwarz
 
-BFW Brandenburg KLAIBER
+
 
 ROT
 
@@ -824,7 +764,7 @@ ROT
 Kabel und Leitungen
 –Farbcodierung 3-
 
-BFW Brandenburg KLAIBER
+
 
 50
 
@@ -843,7 +783,7 @@ Werkstoff um die Kabelseele gebracht
 beschichteten Aluminiumfolie
 •Kunststoffbeschichtung ist dauerhaft mit PE Mantel
 verschweißt
-BFW Brandenburg KLAIBER
+
 
 51
 
@@ -867,7 +807,7 @@ das Kabel wird dauerhaft mit einem Überdruck
 von 0,3 –0,5 bar versehen
 durch Druckluftanlage (Luftverlust pro h ca. 25l)
 teilweise mit perforierten Röhrchen
-BFW Brandenburg KLAIBER
+
 
 52
 

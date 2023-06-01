@@ -186,7 +186,7 @@ ca = cabel (Kabel)
 <f>REALITÄT 2022 : die Verordnung ist noch nicht als Gesetz in Deutschland umgesetzt da in öffentlichen Gebäuden defacto
 Brandmeldeanlagen gefordert sind, werden diese neuen Kabel selten eingesetzt Preis für neue Kabel: ca 30% Mehrkosten
 
-### 10 Datenkabel TP -strukturierte Verkabelung
+## 10 Datenkabel TP -strukturierte Verkabelung
 
 - TOPOLOGIE
   - Primär: MM/SM- LWL (KOAX, Cat. 3)
@@ -204,80 +204,75 @@ werden nach Klassen spezifiziert
 
 ## 11 Datenkabel TP -Channel und Permanent Link
 
+![Alt text](img/2.png)
 
+## 12 Datenkabel TP -Permanent LINK-
 
-Datenkabel TP
+### Permanent LINK
 
--Permanent LINK-
-
-• Permanent LINK
-• sind die Installationsstrecken
-• Gesamtlänge maximal 90m
-• diese bestehen üblicherweise aus den
+- sind die Installationsstrecken
+- <f>Gesamtlänge maximal 90m
+- diese bestehen üblicherweise aus den
 Einzelkomponenten:
-• Verteilerfeld (EV)
-• Installationskabel
-• Anschlussdose (TA)
-• wird planerisch mit max. 90m konzipiert
-• bei Ausstattung größerer Flächen kann ein
+- Verteilerfeld (EV)
+- Installationskabel
+- Anschlussdose (TA)
+- wird planerisch mit max. 90m konzipiert
+
+- bei Ausstattung größerer Flächen kann ein
 Sammelpunkt (Consolidation Point)
 zum Einsatz kommen
 
-12
+## 13 Datenkabel TP -Permanent LINK Long Reach-
 
-Datenkabel TP
+### neue Entwicklung - Long Reach Kabel 
 
--Permanent LINK Long Reach-
+- sind Cat 7/7A Kabel
+- mit AWG 22
 
-• neue Entwicklung - Long Reach Kabel • sind Cat 7/7A Kabel
-• mit AWG 22
-• Gesamtlänge maximal 105 m
-• Channel LINK 120 m
-• außerhalb Normativ
-• kein Fehler
-• Absprache mit Auftraggeber
+- Gesamtlänge maximal 105 m
+- Channel LINK 120 m
+  
+- außerhalb Normativ
+- kein Fehler
+  
+- Absprache mit Auftraggeber
 
-13
+![Alt text](img/3.png)
 
-Datenkabel TP
-
--Permanent LINK Long Reach-
-
-14
+## 14 Datenkabel TP -Permanent LINK Long Reach-
 
 Rückgrat zukunftsweisender und ausfallsicherer Smart-Building- und Smart-HomeLösungen sind qualitativ hochwertige Kabelprodukte
 In Zweckgebäuden versorgt Long-Reach-Kupferkabel S/FTP AWG22 bis zu 180 Meter
 verteilte Gebäudedienste mit Ethernet
 Für die Installation in Wohngebäuden das platzoptimierte 10-GBase-T-Home Cat.7
 AWG26 an
-Für die smarte Vernetzung von Zweckgebäuden das reichweitenoptimierte LongReach-Kupferkabel Draka UC LR22 10Gbit S/FTP LSHF-FR
+
+Für die smarte Vernetzung von Zweckgebäuden das reichweitenoptimierte LongReach-Kupferkabel **Draka** UC LR22 10Gbit S/FTP LSHF-FR
+
 Das mechanisch robuste AWG22-Kabel mit einem Aderdurchmesser von 1,6 mm ist a
 mit der standardkonformen Anschlusstechnik voll kompatibel.
-Es verfügt über eine maximale Reichweite von 180 Metern in Abhängigkeit der
-Übertragungsleistung, bei gleichzeitiger Fernspeisung der Netzwerkgeräte mittels
-Power over Ethernet (PoE) gemäß IEEE 802.3bt.
-Durch den halogenfreien und flammwidrigen Schutzmantel erfülle das Kabel zudem
-die höchsten Brandschutz-Richtlinien gemäß EU-Bauproduktenverordnung mit B2ca
-s1a d1 a1.
 
-Datenkabel TP
--Permanent LINK • neue Entwicklungen -
+Es verfügt über eine maximale Reichweite von 180 Metern in Abhängigkeit der Übertragungsleistung, bei gleichzeitiger Fernspeisung der Netzwerkgeräte mittels Power over Ethernet (PoE) gemäß IEEE 802.3bt.
 
-15
+Durch den halogenfreien und flammwidrigen Schutzmantel erfülle das Kabel zudem die höchsten Brandschutz-Richtlinien gemäß EU-Bauproduktenverordnung mit B2ca s1a d1 a1.
+
+## 15 Datenkabel TP -Permanent LINK
+
+### neue Entwicklungen -
 
 Im Heimbereich sind die Anforderungen an die IP-Infrastruktur besonders vielfältig.
 Für die "unsichtbare" Installation der Kabel größtenteils in Leerrohren und im
 Unterputz steht nur wenig Platz zur Verfügung.
+
 Außerdem erwarten Anwender zukunftssichere, störfreie Lösungen, die eine flexible
-Nutzung der Räume ermöglichen, keine Adapter erfordern und eine hohe Leistung
-(PoE) gewährleisten.
-Diesen hohen Ansprüchen begegnet Prysmian Draka Bekunden mit dem
-platzoptimierten Draka UCHome Cat.7 SS26 S/FTP LSHF mit einer
-Übertragungsgeschwindigkeit von 10 GBit/s.
-Gegenüber Standardkabeln bietet es im Leerrohr Platz für ein Kabel mehr und hat
-einen um 30 Prozent kleineren Biegeradius.
-Die maximale Installationslänge des leichten und packungsdichten Kupferkabels
-beträgt 60 Meter.
+Nutzung der Räume ermöglichen, keine Adapter erfordern und eine hohe Leistung (PoE) gewährleisten.
+
+Diesen hohen Ansprüchen begegnet Prysmian Draka Bekunden mit dem platzoptimierten Draka UCHome Cat.7 SS26 S/FTP LSHF mit einer Übertragungsgeschwindigkeit von 10 GBit/s.
+
+Gegenüber Standardkabeln bietet es im Leerrohr Platz für ein Kabel mehr und hat einen um 30 Prozent kleineren Biegeradius.
+
+Die maximale Installationslänge des leichten und packungsdichten Kupferkabels beträgt 60 Meter.
 
 Datenkabel TP
 
@@ -296,194 +291,41 @@ Etagenverteiler und Anschlussdose
 der Etagenverkabelung
 • Ein CP kann mehrere Anschlussdosen versorgen
 
-Datenkabel TP
+## 17 Datenkabel TP -Channel LINK-
 
--Channel LINK-
+### Channel LINK
 
-17
-
-• Channel LINK
-• sind die Übertragungsstrecken
-• maximale Länge 100m (Achtung LONG REACH)
-• (90m Verlegekabel+10m Patchkabel)
-• sind aufgebaut wie die Installationsstrecken
-• Weiterhin kommen BEIDSEITIG die Patchkabel
+- sind die Übertragungsstrecken
+- <f>maximale Länge 100m (Achtung LONG REACH)</f>
+  - (90m Verlegekabel+10m Patchkabel)
+- sind aufgebaut wie die Installationsstrecken
+- Weiterhin kommen **BEIDSEITIG** die Patchkabel
 zur Verbindung PC bzw. Switch dazu
-• sind daher alle Komponenten bis zur
-aktiven Seite
-• die Installationsstrecke wird planerisch mit einer
-Gesamtlänge von 100m konzipiert
+- sind daher alle Komponenten bis zur aktiven Seite
+- die Installationsstrecke wird planerisch mit einer Gesamtlänge von 100m konzipiert
+
+## 18 Datenkabel TP -Komponentenansatz-
+
+![Alt text](img/datenkabel.jpg)
+Kat. 8.1 Kat. 6A/8 Kat. 8(24m) Kat 6A/8 Kat. 8 Klasse EA (GI)  
+Kat. 8.2 Kat. 6A/8 Kat. 8(24m) Kat 6A/8 Kat. 8 Klasse FA (GII)
+
+## 19 Datenkabel TP -Kategorien-
+
+|Kategorie\Version|Klasse|Max. Frequenz|Schirmmungsart|Steckverbinder|Verwendung|Anmerkung|Normen|
+|-----|-----|-----|------|-----|-----|-----|-----|
+|Cat. 5e|D|100 MHz|F/UTP U/UTP|RJ45|1000BASE-T <br>2.5GBASE-T(< 75m) <br>5GBASE-T (< 75m)|In LANs noch weit verbreitet<br>Ausreichend für StandardNetzwerkanwendungen|ISO/IEC 11801<br>EN 50173|
+|Cat. 6|E|250 MHz|S/FTP<br>F/UTP<br>U/UTP|RJ45|5GBASE-T<br>10GBASE-T (< 55m)|Derzeit am weitesten verbreitet|EN 50288 EN 50173-1|
+|Cat. 6<sub>A|E<sub>A|500 MHz|S/FTP|RJ45|10GBASE-T|Offizielles Minimum für 10GbE|ISO/IEC 11801.2002 Anhang 2|
+|Cat. 7 |F|600 MHz|S/FTP|GG45, TERA[^2]|CCTV[^3]|Im LAN oder WAN als Verlegekabel verwendet|ISO/IEC 11801 <br>2. Ausgabe|
+|Cat. 7A|F<sub>A|1000 Mhz|S/FTP|GG45, TERA|CCTV|Im Netzwerk kaum verbreitet|ISO/IEC 11801<br>2. Ausgabe, Anhang 2|
+|Cat. 8.1|G (I)|2000 MHz|S/FTP|RJ45|25GBASE-T (bis 50m)<br>40GBASE-T (bis 30m)|Schnelle Server Interconnection-Verbindungen <br>Verbindungen in Rechenzentren|ISO/IEC TR 11801-99-1-|
+|Cat. 8.2|G (II)|2000 MHz|S/FTP|GG45, TERA|25GBASE-T (bis 50m)<br>40GBASE-T (bis 30m)|Noch kaum verwendet|ISO/IEC TR 11801-99-1|
+
+ 
+[^2]: TERA 
+[^3]: CCTV
 
-Datenkabel TP -Komponentenansatz-
-
-Kat. 8.1 Kat. 6A/8 Kat. 8(24m) Kat 6A/8
-Kat. 8.2 Kat. 6A/8 Kat. 8(24m) Kat 6A/8
-
-18
-
-Kat. 8
-Kat. 8
-
-Klasse EA (GI)
-Klasse FA (GII)
-
-Datenkabel TP -Kategorien-
-
-Kategorie
-
-Version
-
-Klasse
-
-Cat. 5
-
-Cat. 5e
-
-D
-
-Cat. 6
-
-Max. Frequenz
-
-19
-
-Schirmmungsart
-
-Steckverbinder
-
-Verwendung
-
-Anmerkung
-
-Normen
-
-100 MHz
-
-F/UTP U/UTP
-
-RJ45
-
-1000BASE-T
-2.5GBASE-T (< 75m)
-5GBASE-T (< 75m)
-
-In LANs noch weit verbreitet
-Ausreichend für StandardNetzwerkanwendungen
-
-ISO/IEC 11801
-EN 50173
-
-E
-
-250 MHz
-
-S/FTP F/UTP U/UTP
-
-RJ45
-
-5GBASE-T
-10GBASE-T (< 55m)
-
-Derzeit am weitesten
-verbreitet
-
-EN 50288
-EN 50173-1
-
-Cat. 6A
-
-EA
-
-500 MHz
-
-S/FTP
-
-RJ45
-
-10GBASE-T
-
-Offizielles Minimum für 10GbE
-
-ISO/IEC 11801.2002
-Anhang 2
-
-Cat 7
-
-F
-
-600 MHz
-
-S/FTP
-
-GG45, TERA
-
-CCTV
-
-Im LAN oder WAN als
-Verlegekabel verwendet
-
-ISO/IEC 11801
-
-1. Ausgabe
-
-Cat 7A
-
-FA
-
-1000 MHz
-
-S/FTP
-
-GG45, TERA
-
-CCTV
-
-Im Netzwerk kaum verbreitet
-
-ISO/IEC 11801 2. Ausgabe, Anhang 2
-
-Schnelle Server
-Interconnection-Verbindungen
-Verbindungen in
-Rechenzentren
-
-ISO/IEC TR 11801-99-1
-
-Noch kaum verwendet
-
-ISO/IEC TR 11801-99-1
-
-Cat. 6
-
-Cat. 7
-
-Cat 8.1
-
-G (I)
-
-2000 MHz
-
-S/FTP
-
-RJ45
-
-25GBASE-T (bis 50m)
-40GBASE-T (bis 30m)
-
-Cat 8.2
-
-G (II)
-
-2000 MHz
-
-S/FTP
-
-GG45, TERA
-
-25GBASE-T (bis 50m)
-40GBASE-T (bis 30m)
-
-Cat. 8
 
 Datenkabel TP -Cat 6A-
 
@@ -506,29 +348,23 @@ immer noch verfügbar
 
 21
 
-Datenkabel TP -reale Entwicklung Cat. 8-
+## 22 Datenkabel TP -reale Entwicklung Cat. 8-
 
-22
+### neuer Standard Cat. 8 (8.1 oder 8.2):
 
-neuer Standard Cat. 8 (8.1 oder 8.2):
-•
-
-•
-
-25 / 40 Gbit/s
-
-bis 30m Channel LINK
-• 24m Permanent LINK
-• Patchkabel AWG 22 und 23: 7,2m (Ausnahme)
-• Patchkabel AWG 24:
-6,0m
-• Patchkabel AWG 26:
-4,8m
-• insbesondere in Rechenzentren
-• in Serverbereichen
-• auch Homebereich
-• bis 2000 MHz
-• in der ISO 11801 zertifiziert
+- 25 / 40 Gbit/s
+- bis 30m Channel LINK
+- 24m Permanent LINK
+  
+- Patchkabel AWG 22 und 23: 7,2m (Ausnahme)
+- Patchkabel AWG 24: 6,0m
+- Patchkabel AWG 26: 4,8m
+  
+  - insbesondere in Rechenzentren
+  - in Serverbereichen
+  - auch Homebereich
+  - bis 2000 MHz
+  - in der ISO 11801 zertifiziert
 
 Datenkabel TP -reale Entwicklung Cat. 8-
 
@@ -711,49 +547,38 @@ BFW Berlin-Brandenburg e.V.
 
 41
 
-Datenkabel TP
+## 42 Datenkabel TP -Kabelbezeichnungen-
 
--Kabelbezeichnungen-
+### S/FTP Cat 6A AWG 23
 
-42
+- S/FTP: Gesamtschirm und Schirm um die Paare
+- Cat 6A: Qualitätsstufe
+- AWG 23: amerikanisches Kabelmaß, mit Tabelle Durchmesser
 
-S/FTP Cat 6A AWG 23
+### <f>ACHTUNG BESONDERHEIT:
 
-S/FTP: Gesamtschirm und Schirm um die Paare
-Cat 6A: Qualitätsstufe
-AWG 23: amerikanisches Kabelmaß, mit Tabelle Durchmesser
-
-ACHTUNG BESONDERHEIT:
-
-AWG 26/1 oder AWG 26/7
-/1: Adern sind eindrähtig = Verlegekabel
-/7: Adern sind feindrähtig = Patchkabel
+<f>AWG 26/1 oder AWG 26/7</f>  
+/1: Adern sind eindrähtig = Verlegekabel  
+/7: Adern sind feindrähtig = Patchkabel  
 
 U/UTP: überhaupt KEINE Schirmung
 noch im Einsatz in USA und außerhalb EU
 (Großbritannien, Schweiz)
 
-Datenkabel TP -Besonderheit bei der
-Bezeichnung-
+## 43 Datenkabel TP -Besonderheit bei der Bezeichnung-
 
-43
+- der Unterschied zwischen den Normen Cat. 6A und Cat. 6<sub>A</sub> wirkt im Bereich ab 500 MHz
 
-• der Unterschied zwischen den Normen
+• die Grenzwerte von NEXT (Nahnebensprechdämpfung) sind bei der ISO/IEC 11801 bzw. EN 50173 höher
 
-Cat. 6A und Cat. 6A wirkt im Bereich ab 500 MHz
+- <f>dadurch Systemreserve von ca. 30%!!!
+- Cat. 6A vs. Cat. 6<sub>A</sub> „tiefgestellt“
+  - Cat. 6A = ISO/IEC 11801 (EN 50173)
+  - Cat. 6A = TIA/EIA 568
+  
+Kategorie Kat = EU
+Category Cat = USA
 
-• die Grenzwerte von NEXT (Nahnebensprechdämpfung) sind
-bei der ISO/IEC 11801 bzw. EN 50173 höher
-
-• dadurch Systemreserve von ca. 30%!!!
-• Cat. 6A vs. Cat. 6A „tiefgestellt“
-• Cat. 6A = ISO/IEC 11801 (EN 50173)
-• Cat. 6A = TIA/EIA 568
-Kategorie
-Category
-
-Kat = EU
-Cat = USA
 
 Datenkabel TP -Besonderheit TIA/EIA 568 A/B
 
@@ -973,37 +798,31 @@ Datenkabel TP -das Problem-
 
 59
 
-Datenkabel TP -reale Entwicklung Cat. 8• Messgeräte können diese Geschwindigkeiten messen
-• EA Klassifikation wir gemessen
-•
+## 60 Datenkabel TP -reale Entwicklung Cat. 8
 
-Geräte müssen zertifiziert sein!!!
+- Messgeräte können diese Geschwindigkeiten messen
+- EA Klassifikation wir gemessen
+- Geräte müssen zertifiziert sein!!!
 
-•
-•
+- Personen müssen nicht zertifiziert sein
+- außer AG macht Vorgabe
 
-Personen müssen nicht zertifiziert sein
-außer AG macht Vorgabe
+- <f>Preis: ca. 12 - 15.000 €
 
-Preis: ca. 12 - 15.000 €
-•
+- **Channel Link Messung**
+  - mit Patchkabeln
 
-Channel Link Messung
-• mit Patchkabeln
+- **Permanent Link Messung**
+  - mit Permanent Link Adapter (blau/grün/rot)
+  - hohe Anforderung an den Messstecker
+  (ca. 1000 Messungen)
+  - Mittenzentriert
 
-•
+ 
 
-Permanent Link Messung
-• mit Permanent Link Adapter (blau/grün/rot)
-• hohe Anforderung an den Messstecker
-(ca. 1000 Messungen)
-• Mittenzentriert
+## 61 Datenkabel TP -reale Entwicklung Cat. 8-
 
-60
 
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-61
 
 Datenkabel TP -reale Entwicklung Cat. 8-
 
@@ -1022,20 +841,18 @@ Warum müssen so viele Parameter gemessen werden?
 
 65
 
-Datenkabel TP -Messung
+## 66 Datenkabel TP -Messung
 
-66
+### Messung Channel oder Permanent Link
 
-• Messung Channel oder Permanent Link
-• Zur Messung Permanent Link benötigt man
+- Zur Messung Permanent Link benötigt man
 PERMANENT LINK Adapter (sehr teuer)
-• Bei Messung Channel Link werden Stichproben (Patchkabel)
+- Bei Messung Channel Link werden Stichproben (Patchkabel)
 gesichert weggepackt
 
-Datenkabel Messtechnik in der
-Gebäudeverkabelung
+## 67 Datenkabel Messtechnik in der Gebäudeverkabelung
 
-67
+
 
 • Verdrahtung
 • Widerstand

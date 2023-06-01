@@ -1,0 +1,338 @@
+
+1. Welcher dieser Medien besitzen die höchsten Übertragungsraten 3P?;Kupfer (Cu);Aluminium (Al);hochreines Glas (Siliziumdioxid);Gold (Au);Silber (Ag)
+
+
+Silber (Ag);hochreines Glas (Siliziumdioxid);Kupfer (Cu)
+
+2. Welche Kabel/ Kabelrohr-Verlegearten gibt es 4P?;offene Bauweise / Kabelgraben;Minitrenching;Schlagpressung;Mikrotrenching;gesteuerter Rohrvortrieb
+
+offene Bauweise / Kabelgraben;Minitrenching;Mikrotrenching;gesteuerter Rohrvortrieb
+
+
+3. Was trifft bei der Bezeichnung OM4 nicht zu 4P?;Kupferkabel Cat. 4 für die Fernebene;Koaxialkabel 4-fach geschirmt;MM-Faser Qualitätsstufe 4;Datenkabel TP mit 4 DA;SM-Faser mit 4-facher Geschwindigkeit
+
+Kupferkabel Cat. 4 für die Fernebene;Koaxialkabel 4-fach geschirmt;Datenkabel TP mit 4 DA;SM-Faser mit 4-facher Geschwindigkeit
+
+
+
+
+4. Welche Aussagen zum PERMANENT LINK bis Cat. 6A sind richtig 3P?;beschreibt die Festverkabelung im LAN;Einsatz in LTE 5G Netzen;Gesamtlänge max. 90m, bei Einsatz Datenkabel TP;zum Einsatz bei Fernverbindungs-Strecken;Verbindung zu Datendosen, Keystone-Buchsen, Patchfeldern
+
+beschreibt die Festverkabelung im LAN;Gesamtlänge max. 90m, bei Einsatz Datenkabel TP;Verbindung zu Datendosen, Keystone-Buchsen, Patchfeldern
+
+
+
+5. Welche Kabel werden beim Verfahren FTTB bis zur WE (Wohneinheit) eingesetzt 3P?;Glasfaserkabel;Innen-Koaxialverlegekabel;Innenkabel Fettgefüllt Cat. 3;Außenkabel Luftgefüllt;Datenkabel TP
+
+Glasfaserkabel;Innen-Koaxialverlegekabel;Datenkabel TP
+
+
+
+6. Welche Bezeichnungen für folgendes Kabel sind richtig A-2Y(L)2Y 1000*2*0,35 St III Bd 2P?;Außenkabel luftgefüllt;Innenkabel luftgefüllt;Verzweigerkabel;Außenkabel fettgefüllt;Hauptkabel
+
+Außenkabel luftgefüllt;Hauptkabel
+
+
+7. Warum wird PE als Kabelmantel im Außenbereich eingesetzt 1P?;auf Grund der geringen Kosten;wegen der besten Isolier- und Wärmeleitfähigkeit;gute Feuchtigkeitsresistenz;wegen der hohen Kosten;wegen des hohen Abschirmungsgrades
+
+gute Feuchtigkeitsresistenz
+
+
+
+
+8. Warum wird PVC als Kabelmantel nur im Innenbereich eingesetzt 2P?;auf Grund der geringen Kosten;wegen der besten Isolier- und Wärmeleitfähigkeit;ungenügende Feuchtigkeitsresistenz;wegen der hohen Kosten;schwer entflammbar
+
+ungenügende Feuchtigkeitsresistenz;schwer entflammbar
+
+
+9. Warum wird PE als Kabelmantel nicht im Innenbereich eingesetzt 1P?;ist spröde und hart;ist schwer entflammbar;ist leicht brennbar;ist zu weich;hat schlechte Isolationswerte
+
+
+ist leicht brennbar
+
+
+
+10. Welche Einsatzgebiete hat PE bei Kabel und Leitungen 3P?;als Kabelmantel im Außenbereich;Isolation der Adern bei Datenkabeln TP;Schirmung der DA bei Datenkabeln;Isolation es Innenleiters bei Koaxialkabeln;Schutz vor Überspannungen
+
+als Kabelmantel im Außenbereich;Isolation der Adern bei Datenkabeln TP;Isolation es Innenleiters bei Koaxialkabeln
+
+
+
+11. Bei der Bezeichnung S/FTP Cat. 6A AWG 22 steht F für… 1P?;Folienschirm um den Kabelmantel;amerikanisches Kabelmaß;Folienschirm um die Doppeladern;Feuerbeständigkeit;Fettgefüllt
+
+Folienschirm um die Doppeladern
+
+
+12. Welche Aussagen bei der neuen Qualitätsstufe Cat. 8 sind richtig 2P?;Länge CHANNEL LINK 30m;Übertragungsrate 100 Gbit/s;Patchkabellänge max. 10m;Länge Permanent Link 100m;Endkomponenten sind mittlerweile Cat. 8
+
+Länge CHANNEL LINK 30m;Endkomponenten sind mittlerweile Cat. 8
+
+13. Wie lautet die Bezeichnung für einen LWL Stecker mit „Schrägschliff“ 1P?;PC;CP;APC (Angled Physical Contact);SV;IP
+
+APC (Angled Physical Contact)
+
+
+14. Welche Kabel werden auf dem sog. „letzten Meter“ beim Verfahren FTTC eingesetzt 2P?;Außenkabel, luftgefüllt, Cat. 3;Innenkabel, Cat. 6A;Hauptkabel, Cat. 3;Außenkabel, fettgefüllt, Cat. 3;Innenkabel, Cat. 3
+
+Außenkabel, fettgefüllt, Cat. 3;Innenkabel, Cat. 3
+
+
+15. Welche Aussagen bei der Abschirmung von Kabeln sind richtig 4P?;Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;PVC-Folie eignet sich gut zur Abschirmung von Fernmeldekabeln.;Anhand der Kabelbezeichnung ist die Abschirmung zu erkennen;Der Schirm muss aus einem leitenden Material bestehen.
+
+Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;Anhand der Kabelbezeichnung ist die Abschirmung zu erkennen;Der Schirm muss aus einem leitenden Material bestehen.
+
+16. Wie werden LWL Singlemode Fasern miteinander verbunden 1P?;gelötet;geschraubt;gespleißt;gequetscht;verdrallt
+
+gespleißt
+
+
+17. Datenkabel TP werden nach folgenden Normen beschaltet … 3P;EIA/TIA 566 A;EIA/TIA 568 B;EN 50173;EIA/TIA 568 A;EIA/TIA 658 B
+
+EIA/TIA 568 B;EN 50173;EIA/TIA 568 A
+
+
+18. Bei welchem Internetzugang werden unter anderem Koaxialkabel eingesetzt 1P?;ISDN;FTTD;FTTB;FTTH;LTE
+
+FTTB
+
+
+19. Wie erfolgt die Einteilung der Cat. Stufen 1P?;1, 3, 5, 7, 9;2, 4, 6, 8, 10;3, 5, 5e, 6, 6A, 8.1, 8.2;3, 3a, 4, 4a, 5, 5a, 6, 6A;A, B, C, D, E, F, G, H 1P
+
+3, 5, 5e, 6, 6A, 8.1, 8.2
+
+
+20. Bei der Verlegung von Datenkabeln TP gelten besondere Vorschriften… 3P?;Einsatz Metallsteg beim Unterschreiten des Mindestabstandes zu Energiekabeln;Beachtung Biegeradien;max. dreimalige Biegung;Mindestabstände zu Energiekabeln 5 cm;Verlegung nur bei Temperatur zwischen 15°C und 20°C
+
+Einsatz Metallsteg beim Unterschreiten des Mindestabstandes zu Energiekabeln;Beachtung Biegeradien;Mindestabstände zu Energiekabeln 5 cm
+
+
+21. Warum wird geschäumtes PE (Zell PE) bei Datenkabeln TP zur Isolation der Adern eingesetzt 1P?;ist nicht brennbar;ist preiswert;sehr gute Isolationseigenschaften;Rohstoff ist ausreichend vorhanden;der Durchmesser der Adern wird verringert
+
+sehr gute Isolationseigenschaften
+
+
+
+22. Welche Aussagen zum CHANNEL LINK sind falsch 2P?;sind Kanäle beim TV-Empfang;Gesamtlänge max. 100m bei Verlegung Datenkabel TP;nur bei Längen über 1000 m einsetzbar;Ende zu Ende Verbindung, mit Festinstallation und Patchkabel;Gesamtlänge max. 40m mit Datenkabeln TP (Cat. 8)
+
+sind Kanäle beim TV-Empfang;nur bei Längen über 1000 m einsetzbar
+
+
+23. Welche Faserart wird bei folgendem Kabel A-DQ(ZN)B2Y 4 E9/125μm OS2 LWL eingesetzt 1P?;Multimode Stufenindexfaser;Multimode Gradientenfaser;Singlemodefaser;POF;Breakout Faser
+
+Singlemodefaser
+
+
+24. Wie lauten die Grundfarben bei den DA bei Datenkabeln TP 4P?;gn;bl;rt;or;br
+
+gn;bl;or;br
+
+25. Welche Aussage zu Datenkabeln TP ist falsch 1P?;Länge der Festinstallation max. 90m;Länge der Patchkabel max. 10m;Gesamtlänge 150m;haben eine hohe Verdrallung der Doppeladern;Angabe der Adern Durchmesser in AWG
+
+Gesamtlänge 150m
+
+
+26. Welche Informationen sind abzuleiten: A-2Y(L)2Y 1000*2*0,35 Bd 3P?;Außenkabel, Luftgefüllt;1000 Adern;Hauptkabel;Außenkabel, fettgefüllt;1000 DA
+
+Außenkabel, Luftgefüllt;Hauptkabel;1000 DA
+
+27. Darf ein Kabel der Cat. 5 auch für ein 10.000 Mbit/s Netzwerk eingesetzt werden 1P?;ja;nein;ja, aber nur mit max. 10 Computern;nur bei der Verlegung im Innenbereich;nur in Europa
+
+nein
+
+
+28. Welches sind keine Materialien für die elektrostatische Abschirmung 3P?;PVC;PE;Papier;Alu;Cu
+
+PVC;PE;Papier
+
+
+
+29. Welche Aussagen zur Singlemodefaser sind richtig 3P?;Kerndurchmesser 9 oder 10 μm;Kerndurchmesser 50 μm;serielle Übertragung von Lichtmoden;gleichzeitige Übertragung mehrerer Lichtmoden;Manteldurchmesser 125μm
+
+Kerndurchmesser 9 oder 10 μm;serielle Übertragung von Lichtmoden;Manteldurchmesser 125μm
+
+30. Welche Aussage zu den Vorteilen von Single Mode LWL ist falsch 1P?;kein Nebensprechen;große Lieferlängen;abhörsicher;keine elektromagnetische Beeinflussung;große Übertragungsbandbreite
+
+abhörsicher
+
+
+31. In einem Gbit/s-LAN beträgt die Länge für eine neue Anbindung eines PC 150m.
+Welche Veränderungen / Entscheidungen treffen Sie 2P?;keine, funktioniert trotzdem;Einsatz von Datenkabel TP S/FTP Cat. 8;Verlegung eines 130dB KOAX KABEL Full HD Class A;Verlegung eines I-FYH 1*2 E10/125 2F;Aufbau eines WLAN-Netzes, gegebenenfalls mit Access Points
+
+Verlegung eines I-FYH 1*2 E10/125 2F;Aufbau eines WLAN-Netzes, gegebenenfalls mit Access Points
+
+32. Was sind die Unterschiede bei der Bezeichnung Cat. 6A und Cat. 6A (tiefgestellt) 3P?;Cat. 6A bietet eine höhere Systemreserve;ist eine reine Designdarstellung ohne Bedeutung;Cat. 6A entspricht der europäischen Norm;ist im Home Bereich zur Multimedia Anbindung anzuwenden;die Übertragungsfrequenzen liegen über 500MHz
+
+Cat. 6A bietet eine höhere Systemreserve;Cat. 6A entspricht der europäischen Norm;die Übertragungsfrequenzen liegen über 500MHz
+
+33. Wo werden Singlemode LWL eingesetzt 3P?;TK-Netzknotenverbindungen;Installation zur UAE;Tertiärebene, bei Längen über 100m;PAN;Netzwerk Backbone, Primärebene
+
+TK-Netzknotenverbindungen;Tertiärebene, bei Längen über 100m;Netzwerk Backbone, Primärebene
+
+34. Wo werden POF eingesetzt 2P?;im WAN;bei modernen Kraftfahrzeugen;bei Fernverbindungen zwischen Netzknoten;im Home Bereich zur Multimedia Anbindung von Geräten;im GAN
+
+bei modernen Kraftfahrzeugen;im Home Bereich zur Multimedia Anbindung von Geräten
+
+
+35. Was sind Unterschiede zwischen Datenverlegekabeln und Inhouse bzw. Patchkabeln 2P?;zulässige Länge;Farben der DA;Aufbau des Leiters;Kabelmantel;Isolation
+
+zulässige Länge;Aufbau des Leiters
+
+
+
+36. FTTx gibt es in folgenden Ausbaustufen… 3P;FTTA;FTTB;FTTC;FTTG;FTTH
+
+FTTB;FTTC;FTTH
+
+37. Welche Aussage zu S/STP Cat. 8 AWG 23 ist falsch 1P?;Es ist ein Daten-Verlegekabel.;Die DA sind geschirmt.;Die Kabelseele ist ungeschirmt.;Gesamtschirm.;Einsatz im CHANNEL LINK bis 30m.
+
+Die Kabelseele ist ungeschirmt.
+
+
+38. Welche Kabel sind für ein 10 Gbit/s Ethernet LAN, Länge des PERMANENT LINK 75m, geeignet 2P?;A-2Y(L)2Y 10*2*0,8 St III Bd;I-YY 10*2*0,6 Bd;S/FTP Cat. 8 AWG 22;S/STP Cat. 6A AWG 23;130dB KOAX KABEL Full HD Class A
+
+S/FTP Cat. 8 AWG 22;S/STP Cat. 6A AWG 23
+
+
+39. Welche Aussagen zu Patchkabeln S/FTP Cat. 6A sind richtig 2P?;Verlegelängen max. 100m;Cu- Adern sind feindrähtig;Cu- Adern sind mehrdrähtig;max. Gesamtlänge im Netzwerk bei Sterntopologie darf 10m nicht überschreiten;max. Übertragungsrate 1000 Mbit/s
+
+Cu- Adern sind feindrähtig;max. Gesamtlänge im Netzwerk bei Sterntopologie darf 10m nicht überschreiten
+
+
+
+40. Bei welchem Verfahren erfolgt die Internetanbindung mit LWL bis in die Wohneinheit 1P?;FTTA;FTTB;FTTC;FTTN;FTTH
+
+FTTH
+
+41. Was bedeutet bei Datenkabeln TP der Begriff 360° Schirmung1P?;Der Kabelmantel wird komplett mit der Schirmklemme verbunden.;Der Schirm des Datenkabels wird mit der Schirmklemme verbunden.;Die 360° Schirmung wird durch Keystone-Buchsen realisiert.;Die Schirmung erfolgt bei einer Temperatur von 360°C.;Nur die Schirmung der TP wird mit der Schirmklemme verbunden. 
+
+Die 360° Schirmung wird durch Keystone-Buchsen realisiert.
+
+
+42. Warum wurde und wird Kupfer als Leitermaterial in der Fernmeldetechnik eingesetzt 1P?;Auf Grund der geringen Kosten.;Wegen der besten Leitfähigkeit.;Auf Grund seiner sehr hohen Übertragungsgeschwindigkeiten.;Kombination von Kosten und Eigenschaften (mechanisch und elektrisch);Wegen des hohen Wirkungsgrades.
+
+Kombination von Kosten und Eigenschaften (mechanisch und elektrisch)
+
+
+
+43. Welche Aufgabe erfüllt die Fettfüllung von Fernmeldekabeln 1P?;Schutz vor Feuchtigkeit.;Kabel schwebt in Rohranlagen.;Kabel lässt sich leichter verlegen.;Zum Einsatz bei ISDN – Strecken.;Zur Fehlerortung bei Beschädigungen.
+
+Schutz vor Feuchtigkeit.
+
+
+44. Welche Aufgabe erfüllt die Luftfüllung von Fernmeldekabeln 2P?;Erkennung von Leckstellen.;Kabel schwebt in Rohranlagen.;Kabel lässt sich leichter verlegen.;Schutz vor Feuchtigkeit.;Durch die Luftfüllung wird die Haltbarkeit des Kabels verlängert.
+
+Erkennung von Leckstellen.;Schutz vor Feuchtigkeit.
+
+
+45. Warum kann ein Fernmeldeaußenkabel mit einem Leiterdurchmesser von 0,2mm Cu nicht eingesetzt werden 1P?;Wegen der Brüchigkeit des Kupfers.;Wegen der ISDN-Fähigkeit.;Es kann nur bei Längen unter 1000 m eingesetzt werden.;Wegen des spezifischen Widerstandes / Leitwertes.;Wegen des Einsatzes für Datenleitungen.
+
+Wegen des spezifischen Widerstandes / Leitwertes.
+
+
+46. Welche Aussagen bei der Abschirmung von Fernmeldekabeln sind richtig 4P?;Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;Der Schirm muss aus einem leitenden Material bestehen.;Fernmeldekabel werden grundsätzlich mit einer Abschirmung versehen.;PVC-Folie eignet sich gut zur Abschirmung von Fernmeldekabeln.
+
+Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;Der Schirm muss aus einem leitenden Material bestehen.;Fernmeldekabel werden grundsätzlich mit einer Abschirmung versehen.
+
+
+47. Was ist der Unterschied zwischen Lagen- und Bündelverseilung 1P?;Es gibt keinen wesentlichen Unterschied.;Der Kabelaufbau (Zusammenfassung von Adern) ist unterschiedlich.;Bei Lagenverseilung wird die Dieselhorst-Martin Verseilung angewendet.;Bei Bündelverseilung liegen die Sternvierer in konzentrischen Lagen.;Anhand der Isolierung ist die Verseilung zu erkennen.
+
+Der Kabelaufbau (Zusammenfassung von Adern) ist unterschiedlich.
+
+
+48. Ein Kabel hat einen Cu-Schirm und einen Innenleiter. Um welches Kabel handelt es sich 1P?;Fernmeldekabel;BK-Kabel;LWL;Datenkabel;Brandmeldekabel
+
+BK-Kabel
+
+
+49. Bei der Verlegung von Koax- Kabeln gelten besondere Vorschriften… 2P?;Verlegung nur ab 20 °C.;Besondere Beachtung Biegeradius;Max. dreimalige Biegung;Messung der verlegten Kabel vor Montage der Verbindungen;Verlegung nur bei Temperatur zwischen 15°C und 20 °C
+
+Besondere Beachtung Biegeradius;Messung der verlegten Kabel vor Montage der Verbindungen
+
+
+
+50. Ein Kabel hat einen massiven Alu- Schirm und 4 DA, um welches Kabel handelt es sich 1P?;Fernmeldekabel.;U/UTP;U/STP;S/UTP;S/STP
+
+S/UTP
+
+
+51. Kann ein Fernmeldeaußenkabel mit einem Leiterdurchmesser von 0,1 mm Cu für Telekommunikationsaufgaben eingesetzt werden 1P?;Ja;Ja, jedoch nicht bei ISDN;Nur bei Längen unter 1000 m;Nein;Ja, jedoch nicht für Datenleitungen
+
+Nein
+
+
+52. Ein Hersteller bietet ihnen an: Cat 6 S/STP. Welche Aussagen sind falsch 4P?;Datenkabel Seele geschirmt DA ungeschirmt;LWL Kabel Seele geschirmt DA geschirmt;Datenkabel Seele geschirmt DA geschirmt;BK-Kabel Seele geschirmt DA geschirmt;Datenkabel Seele ungeschirmt DA geschirmt
+
+Datenkabel Seele geschirmt DA ungeschirmt;LWL Kabel Seele geschirmt DA geschirmt;BK-Kabel Seele geschirmt DA geschirmt;Datenkabel Seele ungeschirmt DA geschirmt
+
+53. Welche Aussage zu Daten-Kabeln ist falsch 1P?;Sind Twisted Pair Kabel bzw. LWL.;Besitzen höhere Übertragungseigenschaften als Fernmeldekabel.;Dürfen nicht für Sprachübertragung eingesetzt werden.;Haben eine hohe Verdrallung der Doppeladern.;Sind speziell für Daten-Netzwerke entwickelt worden.
+
+Dürfen nicht für Sprachübertragung eingesetzt werden.
+
+
+54. Kann Fernmeldekabel der Cat. 3 auch für ein 100 Mbit/s Netzwerk eingesetzt werden 1P?;Ja.;Nein.;Ja, aber nur mit max. 10 Computern.;Nur bei der Verlegung im Innenbereich.;Nur in Europa
+
+Nein.
+
+
+55. Wofür werden Glasfasern eingesetzt 4P?;Fernverbindungen zwischen Vermittlungsstellen.;Fernverbindungen zwischen PC-Netzwerken.;Verbindung von PC-Netzen.;Installation bis zur TAE.;Installation bis zur Netzwerkkarte.
+
+Fernverbindungen zwischen Vermittlungsstellen.;Fernverbindungen zwischen PC-Netzwerken.;Verbindung von PC-Netzen.;Installation bis zur Netzwerkkarte.
+
+56. Was bewirkt die Stern-Verseilung in einem Fernmeldekabel 1P?;Verhinderung von elektrotechnischen Störgrößen.;Die max. nutzbare Kabellänge verringert sich.;Die Anzahl der Gespräche wird erhöht.;Verringerung von elektrotechnischen Größen (Induktion, Kapazität).;Elektrotechnische Größen werden verstärkt.
+
+Verhinderung von elektrotechnischen Störgrößen.
+
+
+
+57. Welche Aussagen zu Glasfasern sind falsch 4P?;Glasfaser hat keine Dämpfung.;Glasfaser wird nur bei Datennetzen eingesetzt.;Glasfaser ist für ISDN nicht geeignet.;Glasfaser benötigen eine aufwendige Montagetechnik.;Glasfaser wird durch Fiber Optic ersetzt.
+
+Glasfaser hat keine Dämpfung.;Glasfaser wird nur bei Datennetzen eingesetzt.;Glasfaser ist für ISDN nicht geeignet.;Glasfaser wird durch Fiber Optic ersetzt.
+
+58. Bei der Bezeichnung S/FTP Cat. 6 AWG 22 steht AWG für… 2P?;American Wireless Giganet.;amerikanisches Kabelmaß.;Asian Wire Gauge.;American Wire Gauge.;Angabe der Verlegetemperatur in Grad Celsius.
+
+amerikanisches Kabelmaß.;American Wire Gauge.
+
+
+59. Welche Kabel dürfen Sie für ein 10Gigabit Ethernet Netzwerk einsetzen 2P?;Singlemode LWL.;A-2Y(L)2Y 10*2*0,8 St III Bd.;S/FTP Cat. 7 AWG 22.;S/STP Cat. 6 AWG 23.;POF.
+
+Singlemode LWL.;S/FTP Cat. 7 AWG 22.
+
+
+60. Welche Aussagen bei der Abschirmung von Kabeln sind richtig 4P?;Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;PVC Folie eignet sich gut zur Abschirmung von Fernmeldekabeln.;Anhand der Kabelbezeichnung ist die Abschirmung zu erkennen.;Der Schirm muss aus einem leitenden Material bestehen.
+
+Die Abschirmung wird durch einen Metallschirm realisiert.;Durch den Metallschirm werden äußere Beeinflussungen reduziert.;Anhand der Kabelbezeichnung ist die Abschirmung zu erkennen.;Der Schirm muss aus einem leitenden Material bestehen.
+
+61. Was trifft bei der Bezeichnung OS2 nicht zu 4P?;Kupferkabel Cat. 2 für die Fernebene;Koaxialkabel 2-fach geschirmt;SM-Faser Qualitätsstufe 2;Datenkabel TP mit 2 DA;MM-Faser mit 2-facher Geschwindigkeit
+
+Kupferkabel Cat. 2 für die Fernebene;Koaxialkabel 2-fach geschirmt;Datenkabel TP mit 2 DA;MM-Faser mit 2-facher Geschwindigkeit
+
+62. Welche Aussage zum PERMANENT LINK Cat. 6A bzw. Cat. 8 ist falsch 1P?;beschreibt die Festverkabelung im LAN;Einsatz in LTE 4G und 5G Netzen;Gesamtlänge max. 90m, bei Einsatz Datenkabel TP Cat. 6A;Gesamtlänge max. 22,8m bei Einsatz Datenkabel TP Cat. 8;Verbindung zu Datendosen, Keystone Buchsen, Patchfeldern
+
+Einsatz in LTE 4G und 5G Netzen
+
+
+63. Welche Arten von LWL Steckern gibt es 2P?;PC;CPU;APC;SVA;IPx
+
+PC;APC
+
+
+
+64. Welche Faserart wird bei folgendem Kabel A-DQ(ZN)B2Y 12F G50/125μm OM5 eingesetzt  1P?;Multimode Stufenindexfaser;Multimode Gradientenfaser;Singlemodefaser;POF;Breakout Faser
+
+Multimode Gradientenfaser
+
+
+65. Welche Informationen können Sie entnehmen: A-2YF(L)2Y 300*2*0,35 Bd 3P?;Aussenkabel, Luftgefüllt;300 Adern;Verzweigerkabel;Aussenkabel, fettgefüllt;300 DA
+
+Verzweigerkabel;Aussenkabel, fettgefüllt;300 DA 
+
+
+
+66. Darf ein Datenkabel TP der Cat. 6A für ein 10 Gbit/s LAN eingesetzt werden 1P?;ja;nein;ja, aber nur mit max. 10 Computern;nur bei der Verlegung im Innenbereich;nur in Europa
+
+ja
+
+
+67. Welche Kabel werden bei der Internetversorgung über die „letzte Meile“ benutzt 3P?;Fernmelde-Hauptkabel Cat. 3;Datenkabel TP Cat. 6A;Fernmelde-Verzweigerkabel Cat. 3;LWL Kabel;Fernmelde-Innenkabel Cat. 3 
+
+Fernmelde-Hauptkabel Cat. 3;Fernmelde-Verzweigerkabel Cat. 3;Fernmelde-Innenkabel Cat. 3 
