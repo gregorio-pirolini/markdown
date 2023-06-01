@@ -33,8 +33,9 @@ ist ein Protokoll, das in lokalen Netzwerken für die Übertragung von Daten zwi
 
 Ein Linux-Samba-Server regelt die Freigabe von Dateien und Diensten im Netzwerk wie ein Windows-Server – nicht zuletzt (seit Samba-Version 4) auch dank der Fähigkeit, die Rolle des Active Directory Domain Controllers zu übernehmen.
 
-cifs[^4] fruerher version von SMB
-[^4]: cifs fruerher version von SMB
+cifs[^4] common Internet File System -CIFS   and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB 
+
+[^4]: common Internet File System -CIFS   and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB 
 
 ### wiso
 
@@ -873,3 +874,35 @@ NAT/PAT/Source-Nat/PNAT same thing
 
 SPI FIREWALL:
 Stateful Packet Inspection FIREWALL
+
+## 1 06 2023
+
+### bs
+
+#### Vertraulichkeit 
+##### Confidentialité
+Unter Vertraulichkeit versteht man, dass Daten nur von den Personen eingesehen oder offengelegt werden dürfen, die dazu auch berechtigt sind.
+
+
+#### Integrität
+##### intgrité
+Integrität bedeutet allerdings, dass es nicht möglich sein darf, Daten unerkannt bzw. unbemerkt zu ändern. Es geht hierbei also um das Erkennen von Datenänderungen, wohingegen bei Vertraulichkeit der Fokus auf der Berechtigung liegt.
+
+#### Verfügbarkeit
+##### Disponibilité 
+Die Verfügbarkeit eines Systems beschreibt ganz einfach die Zeit, in der das System funktioniert. Im Sinne der Schutzziele geht es hier selbstverständlich darum, die Verfügbarkeit möglichst hoch zu halten. Anders gesagt: Es gilt, das Risiko von Systemausfällen zu minimieren!
+
+#### noch die Schutzziele **Authentizität**, **Zurechenbarkeit** und **Verbindlichkeit**, die bei erweiterter Betrachtung relevant sein können
+
+
+## DB
+
+### Agregat functionen
+
+- The COUNT() function returns the number of rows that matches a specified criterion.
+- The SUM() function returns the total sum of a numeric column. 
+- The AVG() function returns the average value of a numeric column. 
+- The MIN() function returns the smallest value of the selected column.
+- The MAX() function returns the largest value of the selected column.
+- group by
+- having

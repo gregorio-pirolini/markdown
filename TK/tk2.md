@@ -1,329 +1,212 @@
-Datenkabel TP -Entwicklung der Verkabelung-
+<style>
+h1 { color: Red }
+h2 { color: green }
+h3 { color: blue; background-color: white;}
+h4 { color: red;}
+ h5 { color: yellow;}
+ f { color: red;
+ font-weigth: bold;
+ text-decoation:underline;
+ }
+</style>
 
-1
+# Datenkabel TP
 
-• Beginn der strukturierten Verkabelung 90er Jahre
-• seitdem mehrere Weiterentwicklungsphasen
-• Frequenzen bis 10 GHz können heute über
-symmetrische Verkabelungssysteme übertragen werden
-• Hersteller und Installateure geben heute eine
+## 1 Datenkabel TP -Entwicklung der Verkabelung
 
-SYSTEMGARANTIE von 25 JAHREN!!!
+- Beginn der strukturierten Verkabelung 90er Jahre
+- seitdem mehrere Weiterentwicklungsphasen
+- Frequenzen bis 10 GHz können heute über
+  symmetrische Verkabelungssysteme übertragen werden
+- Hersteller und Installateure geben heute eine **SYSTEMGARANTIE von 25 JAHREN!!!**
 
-BFW Berlin-Brandenburg e.V.
+## 2 Datenkabel TP -Normen und Standards-
 
-Klaiber
+### die „Welt“ ist dreigeteilt:
 
-Datenkabel TP -Normen und Standards-
+- ISO / IEC 11801 Weltnorm
 
-• die „Welt“ ist dreigeteilt:
-• ISO / IEC 11801
+  - International Standardization Organisation
+  - International Electrotechnical Commission
 
-Weltnorm
+- ANSI / TIA / EIA 568 Nordamerika
 
-International Standardization Organisation
-International Electrotechnical Commission
+  - American National Standard Institute
+  - Telecommunication Industry Association
+  - Electronic Industries Alliance
 
-• ANSI / TIA / EIA 568
+- EN 50173 Europa
+  - Europäische Norm
 
-Nordamerika
+## 3 Datenkabel TP -Normen und Standards-
 
-American National Standard Institute
-Telecommunication Industry Association
-Electronic Industries Alliance
+![Alt text](img/1.png)
 
-• EN 50173
 
-Europa
+## 4 Datenkabel TP -Unterteilung der EN 50173-
 
-Europäische Norm
+### EN 50173 Anwendungsneutrale Verkabelungssysteme
 
-BFW Berlin-Brandenburg e.V.
+- EN 50173-1 Allgemeine Anforderungen
 
-Klaiber
+- EN 50173-2 Bürogebäude
 
-2
+- EN 50173-3 Industrielle Gebäude
 
-21.11.2017
+- EN 50173-4 Heimvernetzung
 
-Datenkabel TP -Normen und Standards-
+- EN 50173-5 Rechenzentren
 
-BFW Berlin-Brandenburg e.V.
+ 
 
-Klaiber
+## 5 Datenkabel TP -Weiterführende Normen-
 
-3
 
-Datenkabel TP -Unterteilung der EN 50173-
-
-• EN 50173
-Anwendungsneutrale Verkabelungssysteme
-• EN 50173-1
-
-Allgemeine Anforderungen
-
-• EN 50173-2
-
-Bürogebäude
-
-• EN 50173-3
-
-Industrielle Gebäude
-
-• EN 50173-4
-
-Heimvernetzung
-
-• EN 50173-5
-
-Rechenzentren
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-4
-
-Datenkabel TP -Weiterführende Normen-
-
-5
-
-• CEN / CENELEC
+## CEN / CENELEC [^1]
 
 European Commitee for Standardization
 European Commitee for Electrotechnical Standardization
 
-• EN 61935-1
+[^1]: CENELEC Comité Européen de Normalisation Électrotechnique; English: European Committee for Electrotechnical Standardization
 
+### EN 61935-1
 Spezifikation zur Prüfung symmetrischer
 Kommunikationsverkabelung
 
-• EN 50310
+### EN 50310
 
 Potentialausgleich und Erdung
 
-• EN 50288-x
+### EN 50288-x
 
 Kabelnormen
 
-• EN 60603-7-x
+### EN 60603-7-x
 
 Steckverbinder RJ 45, GG 45
 
-• EN 61076-3-x
+### EN 61076-3-x
 
 Steckverbinder Tera, Cat. 7
 
-• EN 50174-x
+### EN 50174-x
 
 Installation Kommunikationsanlagen
 
-• EN 50346
+### EN 50346
 
 Prüfen installierter
 Kommunikationsverkabelung
 
-BFW Berlin-Brandenburg e.V.
+## 6 Datenkabel TP -Planung, Installation, Betrieb-
 
-Klaiber
+### IT Gebäude Planungsphase
 
-Datenkabel TP -Planung, Installation, Betrieb-
+- EN 50310
 
-• IT Gebäude
-Planungsphase
+### Infrastruktur Entwurfsphase
 
-EN 50310
+- EN 50173-1
+- EN 50288-x 
+- EN 60607-7-x
 
-• Infrastruktur
-Entwurfsphase
+### Planungsphase
 
-EN 50173-1; 50288-x; 60607-7-x
+- EN 50174-x 
+- EN 50310
 
-• Planungsphase
+### Realisierungsphase 
+- EN 50174-x; 
+- EN 50310
+- EN 50346
+- 
+### Betriebsphase
+ - EN 50174-x
+ - EN 50346
 
-EN 50174-x, 50310
 
-• Realisierungsphase EN 50174-x; 50310, 50346
-• Betriebsphase
+## 7 Datenkabel TP -neue Bauprodukte VO-
 
-BFW Berlin-Brandenburg e.V.
+- ab 01.07.2017 gilt neue Bauprodukte VO
+- nur für öffentliche Gebäude!
+- Thema: Brandlast!!!
 
-EN 50174-x; 50346
-
-Klaiber
-
-6
-
-Datenkabel TP -neue Bauprodukte VO-
-
-7
-
-• ab 01.07.2017 gilt neue Bauprodukte VO
-• nur für öffentliche Gebäude!
-• Thema: Brandlast!!!
-
-• neue Verlegekabel MÜSSEN CE Kennzeichen und
+- <f>neue Verlegekabel MÜSSEN CE Kennzeichen und
 ZERTIFIZIERUNG besitzen
-• Aber: Patchkabel bleiben OHNE Zertifizierung
-wegen verschiedener Produzenten
-(Stecker, Kabel)
-• Brandschutz
-• Flammenausbreitung, Wärme, Rauch
-• Säure, Tropfenbildung
-• IDEAL wäre: Rauchfrei, Halogenfrei und Säurefrei
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
+- <f>Aber: Patchkabel bleiben OHNE Zertifizierung
+wegen verschiedener Produzenten (Stecker, Kabel)
 
-Datenkabel TP -neue Bauprodukte VO-
+- Brandschutz
+  - Flammenausbreitung, Wärme, Rauch
+  - Säure, Tropfenbildung
+  
+- <f>IDEAL wäre: Rauchfrei, Halogenfrei und Säurefrei
 
-8
+## 8 Datenkabel TP -neue Bauprodukte VO-
 
-Die Bauproduktenverordnung dient zur Festlegung harmonisierter Regeln und
-Normen für das Inverkehrbringen von Bauprodukten.
-Jedes Produkt, ganz gleich ob Energie-, Steuer- und Kommunikationskabel,
-welches dauerhaft in einem Bauwerk verlegt wird, fällt unter diese Verordnung.
-Das Ziel der Bauproduktenverordnung ist es, einen europaweiten, einheitlichen
-Standard in Bauwerken zu schaffen, um die Flammenausbreitung,
-Wärmeentwicklung, Rauchentwicklung und Säurebildung im Brandfall so gering
+Die Bauproduktenverordnung dient zur Festlegung harmonisierter Regeln und Normen für das Inverkehrbringen von Bauprodukten.  
+
+Jedes Produkt, ganz gleich ob Energie-, Steuer- und Kommunikationskabel, welches dauerhaft in einem Bauwerk verlegt wird, fällt unter diese Verordnung.
+
+Das Ziel der Bauproduktenverordnung ist es, einen europaweiten, einheitlichen Standard in Bauwerken zu schaffen, um die Flammenausbreitung, Wärmeentwicklung, Rauchentwicklung und Säurebildung im Brandfall so gering
 wie möglich zu halten.
-Euroklassen
 
-Zusätzliche Klassen
 
-Flammausbreitung
-Wärmeentwicklung
+|Euroklassen | -  |ZusätzlicheKlassen| - |Sicherheitsbedarf<br>im gebäude|
+|-----|-----|-----|-----|-----|
+|Flammausbreitung<br>Wärmeentwicklung|Rauchentwicklung<br>dichte|Säureentwicklung<br>Korrosivität|Brennende<br>Tropfen| |
+|A<sub>ca| | | | Sehr hoch|
+| B1<sub>ca| | | | Sehr hoch|
+| B2<sub>ca|s1 |a1 | d1| Sehr hoch|
+| C<sub>ca|s1 | a1| d1|  hoch|
+| D<sub>ca| s2|a1 | d2| Mittel|
+| E<sub>ca| | | | Gering|
+| F<sub>ca| | | | kein|
 
-Rauchentwicklung/dichte
 
-Säureentwicklung/
-Korrosivität
 
-Brennende Tropfen
+ 
+## 9 Datenkabel TP -neue Bauprodukte VO 
 
-Sicherheitsbedarf im
-Gebäude
-
-Aca
-
-Sehr hoch
-
-B1ca
-
-Sehr hoch
-
-B2ca
-
-s1
-
-a1
-
-d1
-
-Sehr hoch
-
-Cca
-
-s1
-
-a1
-
-d1
-
-Hoch
-
-Dca
-
-s2
-
-a1
-
-d2
-
-Mittel
-
-Eca
-
-Gering
-
-Fca
-
-Kein
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -neue Bauprodukte VO• Europäische Kategorien:
-
-9
+### Europäische Kategorien:
 
 ca = cabel (Kabel)
-•
-•
-•
-•
-•
-•
-•
 
-Aca
-B1ca
-B2ca
-Cca
-Dca
-Eca
-Fca
+- A<sub>ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;höchster Brandschutz
+- B1<sub>ca
+- B2<sub>ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wird wahrscheinlich Mindeststandard EU
+- C<sub>ca
+- D<sub>ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenkabel alter Standard
+- E<sub>ca
+- F<sub>ca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;geringster BS
 
-höchster Brandschutz
-wird wahrscheinlich Mindeststandard EU
-Datenkabel alter Standard
-geringster BS
+##### Planungsphase: EN 50174-1 bis 3
 
-Planungsphase:
+<f>REALITÄT 2022 : die Verordnung ist noch nicht als Gesetz in Deutschland umgesetzt da in öffentlichen Gebäuden defacto
+Brandmeldeanlagen gefordert sind, werden diese neuen Kabel selten eingesetzt Preis für neue Kabel: ca 30% Mehrkosten
 
-EN 50174-1 bis 3
+### 10 Datenkabel TP -strukturierte Verkabelung
 
-REALITÄT 2022 : die Verordnung ist noch nicht als Gesetz in
-Deutschland umgesetzt
-da in öffentlichen Gebäuden defacto
-Brandmeldeanlagen gefordert sind, werden
-diese neuen Kabel selten eingesetzt
-Preis für neue Kabel: ca 30% Mehrkosten
-BFW Berlin-Brandenburg e.V.
+- TOPOLOGIE
+  - Primär: MM/SM- LWL (KOAX, Cat. 3)
+  - Sekundär: Datenkabel TP Cu, MM/SM- LWL
+  - Tertiär: Datenkabel TP Cu (LWL)
 
-Klaiber
-
-Datenkabel TP -strukturierte Verkabelung• TOPOLOGIE
-• Primär:
-• Sekundär:
-• Tertiär:
-
-MM/SM- LWL (KOAX, Cat. 3)
-Datenkabel TP Cu, MM/SM- LWL
-Datenkabel TP Cu (LWL)
-
-• Kategorie und Klassen
-• Einzelkomponenten
-(Datenkabel, Patchkabel, Stecker, Datendosen)
-werden nach Kategorien spezifiziert
-• Installationsstrecken
+- Kategorie und Klassen
+  - Einzelkomponenten:  
+   (Datenkabel, Patchkabel, Stecker, Datendosen) werden nach Kategorien spezifiziert
+  - Installationsstrecken
 (Permanent Link, Channel Link)
 werden nach Klassen spezifiziert
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
 
-10
 
-Datenkabel TP -Channel und Permanent Link
+## 11 Datenkabel TP -Channel und Permanent Link
 
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
 
-11
-
-Datenkabel TP
+Datenkabel TP
 
 -Permanent LINK-
 
@@ -339,13 +222,10 @@ Einzelkomponenten:
 • bei Ausstattung größerer Flächen kann ein
 Sammelpunkt (Consolidation Point)
 zum Einsatz kommen
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 12
 
-Datenkabel TP
+Datenkabel TP
 
 -Permanent LINK Long Reach-
 
@@ -357,13 +237,9 @@ Klaiber
 • kein Fehler
 • Absprache mit Auftraggeber
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 13
 
-Datenkabel TP
+Datenkabel TP
 
 -Permanent LINK Long Reach-
 
@@ -383,11 +259,8 @@ Power over Ethernet (PoE) gemäß IEEE 802.3bt.
 Durch den halogenfreien und flammwidrigen Schutzmantel erfülle das Kabel zudem
 die höchsten Brandschutz-Richtlinien gemäß EU-Bauproduktenverordnung mit B2ca
 s1a d1 a1.
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP
+Datenkabel TP
 -Permanent LINK • neue Entwicklungen -
 
 15
@@ -405,11 +278,8 @@ Gegenüber Standardkabeln bietet es im Leerrohr Platz für ein Kabel mehr und ha
 einen um 30 Prozent kleineren Biegeradius.
 Die maximale Installationslänge des leichten und packungsdichten Kupferkabels
 beträgt 60 Meter.
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP
+Datenkabel TP
 
 -Consolidation Point-
 
@@ -425,11 +295,8 @@ Etagenverteiler und Anschlussdose
 • dient dem Administrator zur flexibleren Verwaltung
 der Etagenverkabelung
 • Ein CP kann mehrere Anschlussdosen versorgen
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP
+Datenkabel TP
 
 -Channel LINK-
 
@@ -446,17 +313,11 @@ zur Verbindung PC bzw. Switch dazu
 aktiven Seite
 • die Installationsstrecke wird planerisch mit einer
 Gesamtlänge von 100m konzipiert
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Komponentenansatz-
+Datenkabel TP -Komponentenansatz-
 
 Kat. 8.1 Kat. 6A/8 Kat. 8(24m) Kat 6A/8
 Kat. 8.2 Kat. 6A/8 Kat. 8(24m) Kat 6A/8
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 18
 
@@ -466,7 +327,7 @@ Kat. 8
 Klasse EA (GI)
 Klasse FA (GII)
 
-Datenkabel TP -Kategorien-
+Datenkabel TP -Kategorien-
 
 Kategorie
 
@@ -562,7 +423,8 @@ Im LAN oder WAN als
 Verlegekabel verwendet
 
 ISO/IEC 11801
-2. Ausgabe
+
+1. Ausgabe
 
 Cat 7A
 
@@ -578,8 +440,7 @@ CCTV
 
 Im Netzwerk kaum verbreitet
 
-ISO/IEC 11801
-2. Ausgabe, Anhang 2
+ISO/IEC 11801 2. Ausgabe, Anhang 2
 
 Schnelle Server
 Interconnection-Verbindungen
@@ -624,11 +485,7 @@ GG45, TERA
 
 Cat. 8
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Cat 6A-
+Datenkabel TP -Cat 6A-
 
 20
 
@@ -638,11 +495,7 @@ auf Standard Cat. 6A
 Bei Einsatz von Cat. 6A Komponenten können
 auch geringere Datenraten vereinbart werden
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Cat 7/7a-
+Datenkabel TP -Cat 7/7a-
 
 Datenkabel Cat 7 und 7A
 immer noch verfügbar
@@ -650,13 +503,10 @@ immer noch verfügbar
 • dadurch entsprechende Systemreserve
 
 • Einsatz bei PoE, wegen AWG!!!
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 21
 
-Datenkabel TP -reale Entwicklung Cat. 8-
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 22
 
@@ -679,19 +529,12 @@ bis 30m Channel LINK
 • auch Homebereich
 • bis 2000 MHz
 • in der ISO 11801 zertifiziert
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 23
 
-Datenkabel TP -reale Entwicklung Cat. 8• Stecker:
+Datenkabel TP -reale Entwicklung Cat. 8• Stecker:
 •
 •
 •
@@ -716,11 +559,8 @@ Patchfelder Cat.xx mit Keystone
 • mit RJ 45 Cat. 6A (Cat. 8.1)
 • 8.2 FA
 • mit GG45, Tera, ARJ45
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -reale Entwicklung Cat. 8-
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 25
 
@@ -733,11 +573,7 @@ dabei kann es sich um passive Filter oder eine Steckverbindung handeln
 bei guten Steckverbindungen z. B. bei einem Steckverbinder stellt diese
 Größe ein wichtiges Kriterium da
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -NEXT und FEXT
+Datenkabel TP -NEXT und FEXT
 
 26
 
@@ -755,19 +591,12 @@ ist die Einkopplung durch einen störenden Sender „am vom Opfer-Empfänger
 fernen Ende“ bzw. „auf der Seite des zu empfangenden Senders“
 Störer und Opfer befinden sich an unterschiedlichen und damit fernen Enden des
 Kabels
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 27
 
-Datenkabel TP -PoE- Power over Ethernet
+Datenkabel TP -PoE- Power over Ethernet
 
 • UB: 48 V
 • I: bis 600mA pro DA
@@ -779,7 +608,7 @@ Klaiber
 Betriebsspannung
 Stromfluss
 Leistung
-HiPoE: 2*45W
+HiPoE: 2\*45W
 
 • Gefahr:
 • Funkenbildung
@@ -790,77 +619,47 @@ HiPoE: 2*45W
 • nur noch „Klein Bündel“ mit 24 Kabeln (Patchfeld)
 • Klein Bündel übereinander
 • Flächenverlegung
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -PoE- Power over Ethernet
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -PoE- Power over Ethernet
 
 29
 
-Datenkabel TP -PoE- Power over Ethernet
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -PoE- Power over Ethernet
 
 30
 
-Datenkabel TP -PoE- Power over Ethernet
+Datenkabel TP -PoE- Power over Ethernet
 
 Neue Anwendungsbereiche für PoE…
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 31
 
-Datenkabel TP -PoE- Power over Ethernet
+Datenkabel TP -PoE- Power over Ethernet
 
 32
 
 So nicht…  Patchkabel „Verlegung“ unter Teppich
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -PoE- Power over Ethernet
+Datenkabel TP -PoE- Power over Ethernet
 
 Achtung…
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 33
 
-Datenkabel TP
+Datenkabel TP
 
 -Kabelbezeichnungen
 
 S = Geflecht
 F = Folie
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 34
 
-Datenkabel TP -AWGACHTUNG: aktuelle Veränderungen!!!
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -AWGACHTUNG: aktuelle Veränderungen!!!
 
 35
 
-Datenkabel TP
+Datenkabel TP
 
 BFW Berlin-Brandenburg e.V.
 
@@ -868,59 +667,51 @@ BFW Berlin-Brandenburg e.V.
 
 36
 
-Klaiber
 
-Datenkabel TP
+
+Datenkabel TP
 
 -Kabelbezeichnungen-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 37
 
-Datenkabel TP
+Datenkabel TP
 
 -Kabelbezeichnungen-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 38
 
-Datenkabel TP
+Datenkabel TP
 
 BFW Berlin-Brandenburg e.V.
 
 -Kabelbezeichnungen-
 
-Klaiber
+
 
 39
 
-Datenkabel TP
+Datenkabel TP
 
 BFW Berlin-Brandenburg e.V.
 
 -Kabelbezeichnungen-
 
-Klaiber
+
 
 40
 
-Datenkabel TP
+Datenkabel TP
 
 BFW Berlin-Brandenburg e.V.
 
 -Kabel EXOT  -
 
-Klaiber
+
 
 41
 
-Datenkabel TP
+Datenkabel TP
 
 -Kabelbezeichnungen-
 
@@ -941,11 +732,8 @@ AWG 26/1 oder AWG 26/7
 U/UTP: überhaupt KEINE Schirmung
 noch im Einsatz in USA und außerhalb EU
 (Großbritannien, Schweiz)
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Besonderheit bei der
+Datenkabel TP -Besonderheit bei der
 Bezeichnung-
 
 43
@@ -967,11 +755,7 @@ Category
 Kat = EU
 Cat = USA
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Besonderheit TIA/EIA 568 A/B
+Datenkabel TP -Besonderheit TIA/EIA 568 A/B
 
 44
 
@@ -999,11 +783,8 @@ Klaiber
 • 4 bl 5 ws/bl
 7 ws/br 8 br
 • diese sind bei beiden Standards identisch (grüne Orange )
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Besonderheit TIA/EIA 568 A/B
+Datenkabel TP -Besonderheit TIA/EIA 568 A/B
 
 Buchsenbeschaltung
 
@@ -1018,14 +799,14 @@ BFW Berlin-Brandenburg e.V.
 GRÜN:
 ORANGE:
 
-Klaiber
+
 
 3 6
 1 2
 
 45
 
-Datenkabel TP -Besonderheit TIA/EIA 568 A/B
+Datenkabel TP -Besonderheit TIA/EIA 568 A/B
 
 TIA/EIA 568 A
 GRÜN:
@@ -1037,11 +818,11 @@ TIA/EIA 568 B
 GRÜN:
 3 6
 ORANGE: 1 2
-Klaiber
+
 
 46
 
-Datenkabel TP -System/Komponentenansatz-
+Datenkabel TP -System/Komponentenansatz-
 
 47
 
@@ -1059,11 +840,8 @@ werden verbaut
 •
 
 = SYSTEMGARANTIE
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Datendosen / Gesamtlängen-
+Datenkabel TP -Datendosen / Gesamtlängen-
 
 48
 
@@ -1080,29 +858,19 @@ Klaiber
 außerhalb NORMATIV!!!
 
 = keine SYSTEMGARANTIE mehr
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Systemreserven
+Datenkabel TP -Systemreserven
 
 49
 
 Immer geringere Systemreserve bedeutet immer höhere Störanfälligkeit
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -ÜT Raten
+Datenkabel TP -ÜT Raten
 Megabit und Megahertz-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 50
 
-Datenkabel TP -Verlegeabstände EN 50174-2 -
+Datenkabel TP -Verlegeabstände EN 50174-2 -
 
 51
 
@@ -1151,19 +919,11 @@ ungeschirmte IT Kabel
 geschirmte Energiekabel
 geschirmte IT Kabel
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Biegeradien EN 50174-2 Biegeradien bei Unterputz Installationen…
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -Biegeradien EN 50174-2 Biegeradien bei Unterputz Installationen…
 
 52
 
-Datenkabel TP -Schirmung-
+Datenkabel TP -Schirmung-
 
 53
 
@@ -1178,68 +938,42 @@ Systemmaßnahme zur Entkoppelung von Anlagenteilen gegenüber
 äußeren Störeinflüssen
 Ist in Erdungs- bzw. Massungskonzept mit einzubeziehen
 Schützt passive und aktive Komponenten vor Beeinflussung äußerer Störgrößen
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Erdung-
+Datenkabel TP -Erdung-
 
 54
 
 Beeinflussung benachbarter ungeschirmter
 Datenkabel
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Erdung-
+Datenkabel TP -Erdung-
 
 55
 
 Beeinflussung benachbarter geschirmter
 Datenkabel
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Erdung EN 50310Potentialausgleich in Datenschränken
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -Erdung EN 50310Potentialausgleich in Datenschränken
 
 56
 
-Datenkabel TP -Erdung-
+Datenkabel TP -Erdung-
 
 57
 
 Potentialausgleich im Datenraum
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel TP -Erdung-
+Datenkabel TP -Erdung-
 
 58
 
 Ideal ist 360° Schirmung!!!
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -das Problem-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -das Problem-
 
 59
 
-Datenkabel TP -reale Entwicklung Cat. 8• Messgeräte können diese Geschwindigkeiten messen
+Datenkabel TP -reale Entwicklung Cat. 8• Messgeräte können diese Geschwindigkeiten messen
 • EA Klassifikation wir gemessen
 •
 
@@ -1264,54 +998,31 @@ Permanent Link Messung
 • hohe Anforderung an den Messstecker
 (ca. 1000 Messungen)
 • Mittenzentriert
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 60
 
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 61
 
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 62
 
-Datenkabel TP -reale Entwicklung Cat. 8-
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8-
 
 63
 
-Datenkabel TP -reale Entwicklung Cat. 8Messgerät und Messkabel…
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
+Datenkabel TP -reale Entwicklung Cat. 8Messgerät und Messkabel…
 
 64
 
-Datenkabel TP -Messung
+Datenkabel TP -Messung
 Warum müssen so viele Parameter gemessen werden?
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 65
 
-Datenkabel TP -Messung
+Datenkabel TP -Messung
 
 66
 
@@ -1321,11 +1032,7 @@ PERMANENT LINK Adapter (sehr teuer)
 • Bei Messung Channel Link werden Stichproben (Patchkabel)
 gesichert weggepackt
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel Messtechnik in der
+Datenkabel Messtechnik in der
 Gebäudeverkabelung
 
 67
@@ -1338,11 +1045,8 @@ Gebäudeverkabelung
 • PS und PS Next
 • ACR / PSACR
 • Schirmung!!!
-BFW Berlin-Brandenburg e.V.
 
-Klaiber
-
-Datenkabel TP -Messung
+Datenkabel TP -Messung
 NVP Wert (Nominal Velocity of Propagation)
 Geschwindigkeit mit der sich Signale im Kupferkabel
 im Verhältnis zur
@@ -1354,31 +1058,19 @@ NVP =
 Pulsausbreitungsgeschwindigkeit
 -------------------------------------------Lichtgeschwindigkeit (300.000km/s)
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 68
 
-Datenkabel TP Messung
+Datenkabel TP Messung
 PS Next (Power Summ NEXT)
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 69
 
-Datenkabel Messtechnik in der
+Datenkabel Messtechnik in der
 Gebäudeverkabelung
-
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
 
 70
 
-Datenkabel Messtechnik in der
+Datenkabel Messtechnik in der
 Gebäudeverkabelung
 
 71
@@ -1389,21 +1081,13 @@ Attenuation To Crosstalk Ratio (Power summ)
 Dämpfungs-Nebensprechdämpfungs-Verhältnis / Übersprechdämpfung
 Verhältnis von Einfügedämpfung (Insertion Loss) zu Übersprechen (NEXT)
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
-Datenkabel Messtechnik in der
+Datenkabel Messtechnik in der
 Gebäudeverkabelung
 Delay ( Laufzeit) / Delay Skew (Laufzeitunterschied)
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 72
 
-Datenkabel Messtechnik in der
+Datenkabel Messtechnik in der
 Gebäudeverkabelung
 
 3 Messergebnisse:
@@ -1411,10 +1095,6 @@ GRÜNER HAKEN
 ROTES KREUZ
 I für INFORMATIV
 
-BFW Berlin-Brandenburg e.V.
-
-Klaiber
-
 73
 
-
+
