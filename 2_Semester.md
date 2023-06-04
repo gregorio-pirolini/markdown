@@ -33,9 +33,9 @@ ist ein Protokoll, das in lokalen Netzwerken für die Übertragung von Daten zwi
 
 Ein Linux-Samba-Server regelt die Freigabe von Dateien und Diensten im Netzwerk wie ein Windows-Server – nicht zuletzt (seit Samba-Version 4) auch dank der Fähigkeit, die Rolle des Active Directory Domain Controllers zu übernehmen.
 
-cifs[^4] common Internet File System -CIFS   and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB 
+cifs[^4] common Internet File System -CIFS and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB
 
-[^4]: common Internet File System -CIFS   and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB 
+[^4]: common Internet File System -CIFS and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems, such as network-attached systems (NAS). The key difference between CIFS and SMB is that CIFS is a dialect of SMB – a particular implementation of the SMB protocol.fruerher version von SMB
 
 ### wiso
 
@@ -879,30 +879,109 @@ Stateful Packet Inspection FIREWALL
 
 ### bs
 
-#### Vertraulichkeit 
+#### Vertraulichkeit
+
 ##### Confidentialité
+
 Unter Vertraulichkeit versteht man, dass Daten nur von den Personen eingesehen oder offengelegt werden dürfen, die dazu auch berechtigt sind.
 
-
 #### Integrität
+
 ##### intgrité
+
 Integrität bedeutet allerdings, dass es nicht möglich sein darf, Daten unerkannt bzw. unbemerkt zu ändern. Es geht hierbei also um das Erkennen von Datenänderungen, wohingegen bei Vertraulichkeit der Fokus auf der Berechtigung liegt.
 
 #### Verfügbarkeit
-##### Disponibilité 
+
+##### Disponibilité
+
 Die Verfügbarkeit eines Systems beschreibt ganz einfach die Zeit, in der das System funktioniert. Im Sinne der Schutzziele geht es hier selbstverständlich darum, die Verfügbarkeit möglichst hoch zu halten. Anders gesagt: Es gilt, das Risiko von Systemausfällen zu minimieren!
 
 #### noch die Schutzziele **Authentizität**, **Zurechenbarkeit** und **Verbindlichkeit**, die bei erweiterter Betrachtung relevant sein können
 
+### DB
 
-## DB
-
-### Agregat functionen
+#### Agregat functionen
 
 - The COUNT() function returns the number of rows that matches a specified criterion.
-- The SUM() function returns the total sum of a numeric column. 
-- The AVG() function returns the average value of a numeric column. 
+- The SUM() function returns the total sum of a numeric column.
+- The AVG() function returns the average value of a numeric column.
 - The MIN() function returns the smallest value of the selected column.
 - The MAX() function returns the largest value of the selected column.
 - group by
 - having
+
+## 2 06 2023
+
+### kup
+
+#### USV
+
+<f>avr</f> **Automatic voltage regulator:**  
+if avr immer VI for usv
+A voltage regulator is a system designed to automatically maintain a constant voltage. A voltage regulator may use a simple feed-forward design or may include negative feedback. "
+
+#### NAS vs SAN
+
+NAS (Network Attached Storage) und SAN (Storage Area Network) sind zwei verschiedene Technologien zur Speicherung und Bereitstellung von Daten in Rechenzentren. Der Hauptunterschied zwischen ihnen liegt in der Art und Weise, wie sie auf das Netzwerk zugreifen und wie sie Daten übertragen.
+
+##### NAS (Network Attached Storage):
+
+**NAS** ist ein Dateisystem-basiertes Speichersystem, das über das Netzwerk mit TCP/IP-Protokollen kommuniziert. Es wird normalerweise über Ethernet-Verbindungen verbunden und verwendet standardmäßige Netzwerkprotokolle wie NFS[^10] (Network File System) oder SMB/CIFS[^11] (Server Message Block/Common Internet File System) zur Dateifreigabe. NAS ermöglicht es mehreren Benutzern, gleichzeitig auf dieselben Dateien zuzugreifen, ähnlich wie bei einem gemeinsamen Laufwerk.
+
+###### Vorteile von NAS:
+
+- Einfache Konfiguration und Verwaltung.
+- Geringere Kosten im Vergleich zu SAN.
+- Flexibilität bei der Integration in bestehende Netzwerke.
+
+##### SAN (Storage Area Network):
+
+**SAN** ist ein blockbasiertes Speichersystem, das über spezielle Netzwerktechnologien wie Fibre Channel (FC)[^12] oder iSCSI[^13] (Internet Small Computer System Interface) kommuniziert. Im SAN werden die Speicherressourcen zu einem eigenständigen Netzwerk zusammengefasst, das nur für die Übertragung von Daten zwischen den Servern und den Speichergeräten verwendet wird. SAN ermöglicht einen direkten und schnellen Zugriff auf Blockebene auf die Speichergeräte.
+
+###### Vorteile von SAN:
+
+- Höhere Leistung und geringere Latenzzeiten im Vergleich zu NAS.
+- Skalierbarkeit für große Datenmengen und Anwendungen mit hohen Anforderungen an die E/A-Leistung.
+- Unterstützung für erweiterte Funktionen wie Speichervirtualisierung, Spiegelung und Replikation.
+  Zusammenfassend kann man sagen, dass NAS ideal für gemeinsam genutzte Dateisysteme geeignet ist, bei denen der Fokus auf der Freigabe von Dateien liegt, während SAN für anwendungsintensive Umgebungen bevorzugt wird, in denen eine hohe Leistung und ein direkter Blockzugriff erforderlich sind.
+
+## 4 06 2023
+
+### WISO
+
+#### Schadensersatz statt der Leistung: 
+
+ erlischt die Pflicht zur Erfüllung  
+
+#### Schadensersatz neben der Leistung:
+
+betrifft solche Schäden, die endgültig eingetreten sind und nicht durch Nacherfüllung behebbar sind.
+
+#### vorrangige Rechte
+
+Vorrangig hat der Käufer das Recht auf Nacherfüllung. 
+
+#### nachrangige Rechte
+
+Bei mangelhafter Lieferung haben Sie vorrangig das Recht auf Nacherfüllung, also Reparatur oder Ersatzlieferung. Sollten Sie mit Ihrem Anspruch auf Nachbesserung scheitern, kommen nachrangige Rechte zum Tragen und Sie haben Anspruch auf Minderung des Kaufpreises oder den Rücktritt vom Kaufvertrag.
+
+#### objektive Anforderung
+
+entspricht die Sache, wenn sie sich für die gewöhnliche Verwendung eignet und eine Beschaffenheit aufweist, die bei Sachen der gleichen Art üblich ist.
+
+#### subjektive Anforderung 
+
+entspricht der Kaufgegenstand, soweit er die vereinbarte Beschaffenheit hat und sich für die nach dem Vertrag vorausgesetzte Verwendung eignet und mit dem vereinbarten Zubehör und den vereinbarten Anleitungen übergeben wird.
+
+
+remember: 
+- Fälligkeit der Zahlung
+- Mahnung des Käufers
+-  verschulden des Käufers
+-  Vom Kaufvertrag kann erst nach Ablauf einer angemenssenen Nachfrist zurückgetreten werden.
+ 
+[^10]: NFS Network File System is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.
+[^11]: CIFS Common Internet File System is a protocol that gained popularity around the year 2000, as vendors worked to establish an Internet Protocol-based file-sharing protocol.
+[^12]: FC Fibre Channel is a high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks in commercial data centers.
+[^13]: iSCSI an Internet Protocol-based storage networking standard for linking data storage facilities. iSCSI provides block-level access to storage devices by carrying SCSI commands over a TCP/IP network.

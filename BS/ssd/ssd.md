@@ -26,7 +26,7 @@ text-decoration: underline;}
 - Kein mechanisches Laufwerk oder Scheibe
 vorhanden
 - Lautlos
-- StolRfest
+- Stolßfest
 - Energiearm (Kapazitatsabhangig)
 - Kuhl
 - Schnell (hohe Zugriffsgeschwindigkeiten
@@ -59,16 +59,13 @@ Lesen/Schreiben)
 
 ## 6 Speicherkapazitat
 
-- Hoher Platzbedarf > feinere Halbleiterstrukturen mehr Speicherkapazitat bei gleicher ChipgréRe
+- Hoher Platzbedarf > feinere Halbleiterstrukturen mehr Speicherkapazitat bei gleicher Chipgröße
 
-- Nachteil — Verkleinerung macht Floatinggate
-empfindlicher und starkerer Stromverbrauch
+- Nachteil — Verkleinerung macht Floatinggate empfindlicher und starkerer Stromverbrauch
 
-- Anderung d. Ladezustandes (Schreiben) belastet
-Floating-Gate und umgebende Sperrschichten
+- Anderung d. Ladezustandes (Schreiben) belastet Floating-Gate und umgebende Sperrschichten
 
-- Speicherdichte pro Speicherzelle erhöhen — mehr
-Zustande pro Zelle (SLC[^3] > MLC[^4] > TLC[^5])
+- Speicherdichte pro Speicherzelle erhöhen — mehr Zustande pro Zelle (SLC[^3] > MLC[^4] > TLC[^5])
 - Anzah der Schreibvorgange sinkt, Verschleiß
 - Fehlerkorrekturmaßnahmen notwendig
 - Aktuelle Kapazität(03/2018): 100 TB,  
@@ -80,19 +77,20 @@ Nimbus Data ExaDrive DC100, 10.000 €
 
 ## 7 Lesen und Schreiben
 
-- Lesen
-  - 2 — 4 kByte aus Flash-Zellen lesen und in Pufferspeicher
+### Lesen
+
+- 2 — 4 kByte aus Flash-Zellen lesen und in Pufferspeicher
 schreiben — sehr schnell
 
-- Schreiben
+### Schreiben
+
 - Flash-Speicher ist blockweise organisiert
 (128 bis 512 kByte)
-
-- Bei Anderungen muss der betreffende Block komplett neu geschrieben werden, davor muss er geléscht werden
+- Bei Anderungen muss der betreffende Block komplett neu geschrieben werden, davor muss er gelöscht werden
 - Hohe Löschspannung — alle Zellen verlieren den Inhalt
 - Daten aus Puffer in Flash-Zellen einlesen
 - NCQ[^6](Native Command Queuing - fangt die
-Schreibzugriffe ab, sortiert sie um, intelligente Verteilung auf die einzelnen Speicherblécke)
+Schreibzugriffe ab, sortiert sie um, intelligente Verteilung auf die einzelnen Speicherblöcke)
 
 [^6]: NCQ Native Command Queuing
 
@@ -117,96 +115,166 @@ Aktuell sind, werden sie geldscht
  
 ## 9 Bauformen - Schnittstellen
 
-![ssd!](img/2.png "ssd")
- Be ingens
+ 
+|???| ???| 
+|-----|-----| 
+|![ssd!](img/2.png "ssd")| ![ssd!](img/3.jpg "ssd")|
+|????| ????|
+|![ssd!](img/4.png "ssd")|![ssd!](img/5.jpg "ssd")|
+|????| ????|
+|![ssd!](img/6.jpg "ssd")|![ssd!](img/NEU_SSD_20230317.jpg "ssd")|
+
+
+- SATA[^8]
+- mSATA[^9]
+- PCIe[^10]
+- M.2[^7]
+- SATAe
+
+[^8]: SATA Serial Advanced Technology Attachment
+
+[^9]: mSATA Mini-Serial ATA s a version of the SATA interface for solid state drives (SSDs) in mobile devices. It comes with a smaller form factor than a standard SSD and is designed for use with portable, power-constrained devices such as laptops, tablets and netbooks, used like a hard disk drive in a processor.
+
+[^10]: PCIe peripheral component interconnect express” and it's primarily used as a standardized interface for motherboard components including graphics, memory, and storage.
+
 
 ## 10 Ubersicht Schnittstellen
 
-SSD-Schnittstellen
+ 
+<img style="background-color:white" src="img/7.png"
+     alt="Ubersicht Schnittstellen"
+     style="float: left; margin-right: 10px;" />
 
-m.2 SATA Express
-|
-PCle SATA 6G PCle SATA 6G
-NVMe (AHCI) AHCI NVMe (AHCI) AHCI
+- SSD-Schnittstellen
+- m.2[^7]
+- SATA Express
+- PCIe[^10]
+- SATA[^8] 6G 
+- PCIe[^10] 
+- NVMe[^11] (AHCI)  
 
-*Advanced Host Controller Interface
-**Non-Volatile Memory Express
+*Advanced Host Controller Interface  
+**Non-Volatile Memory Express  
+*** Peripheral Component Interconnect   express
 
+Steckverbindung und Bauform  
+Ubertragungstechnik  
+Protokoll  
 
-a
+[^7]: m.2 pronounced m dot two and formerly known as the Next Generation Form Factor (NGFF), is a specification for internally mounted computer expansion cards ...
 
-
-
-Steckverbindung
-und Bauform
-
-Ubertragungstechnik
-
-Protokoll
+[^11]: NVMe nonvolatile memory express) is a new storage access and transport protocol for flash and next-generation solid-state drives (SSDs) that delivers the highest throughput and fastest response times yet for all types of enterprise workloads.
 
 ## 11 Schnittstellen
 
-2,5-Z0ll-SSD mit SATA 6G
+### 2,5-Z0ll-SSD mit SATA[^8] 6G
 
-— 6 GBit/s bzw. netto 600 MByte/s
+- 6 GBit/s bzw. netto 600 MByte/s
+- Optimierung fir NCQ[^6]
+- abwartskompatibel zu SATA[^8] und SATA[^8]-II
+  
+### Speicherkarte mit m.2[^7]
 
-— Optimierung fir NCQ[^6]
+### 2,5-Zoll-SSD mit SATAe
 
-— abwartskompatibel zu SATA und SATA-II
-Speicherkarte mit m.2
+- 1 GByte/s (x1, x2, x4)
 
-2,5-Z0oll-SSD mit SATAe
-— 1 GByte/s (x1, x2, x4)
-PCle-Erweiterungskarte mit PCle
+### PCIe-Erweiterungskarte mit PCIe
 
-— Server und Workstations (intern mit SATA oder SAS-
-Anbindung)
+- Server und Workstations (intern mit SATA[^8] oder SAS[^12]-Anbindung)
+- Ziel mit m.2[^7] oder SATAe
+- 500 MByte/s pro Lane (V 2.0)
+- 1.000 MByte/s pro Lane (V 3.0)
 
-— Ziel mit m.2 oder SATAe
-— 500 MByte/s pro Lane (V 2.0)
-— 1.000 MByte/s pro Lane (V 3.0)
+[^12]: SAS serial attached SCSI
 
-## 12 Aufbau
+## 12 PCI(e) 
 
-Chipsatz
+Identifizieren der verschiedenen PCI
+Steckplätze
 
-Host
+Peripheral Component Interconnect oder PCI ist eine häufige Methode zum Anschließen von Zusatz Controller Karten und anderen Geräten an ein Computer Motherboard.
+Diese Art Konnektor stammt aus den frühen 1990er Jahren und wird heute noch verwendet. Derzeit gibt es drei wesentliche PCI Moth erboard Konnektoren (meist als
+„Slots“ oder Steckplätze
 
-a
+64 Bit PCI  
+32 Bit PCI und PCI X  
+PCI Express (PCI E) 
 
-S5D
-Wear-Leveling Cache
-Management
-Flash-Array
-Garbage
-Collection
-EDC | ECC
-Controller
-*ECC — Error Correction Code
-*EDC — Error Detection Code
+Jeder PCI Steckplatz sieht anders aus und akzeptiert andere Geräte. Wird eine PCI Karte an den falschen Steckplatz gesteckt, wir d die Karte beschädigt und eventuell wird der gesamte Computer zerstört. 
+
+64 Bit PCI:  
+64_bit_pci  
+
+LaCie stellt keine Produkte mehr her, die mit diesem Steckplatz kompatibel sind. Für PCs wurden sie meist nicht verwendet, ab
+er für alle G4 und G3 Macintosh Computer.
+Dieser Steckplatz kann anhand der drei Segmente identifiziert werden, wobei sich das kürzeste Segment in der Mitte befindet.
+32
+Bit PCI und PCI X:
+pci_x
+LaCie stellt verschiedene Erweiterungskarten her, die diesen Konnektor verwenden. Der Unterschied zwischen dem normalen 32
+Bit PCI Steckplatz und dem PCI X ist der
+mittellange Steckplatz auf der linken Seite. Nur PCI X hat dieses letzte Segment. Zusätzlich funktionieren 32 Bit PCI Karten an einem PCI X Steckplatz, PCI X Karten
+funktionieren jedoch nicht an einem Standard 32 Bit PCI Steckplatz.
+
+Nahezu alle PC Motherboards haben mindestens den 32 Bit PCI Steckplatz. Macintosh G5 verwendete PCI X bis zur Änderung auf flüss igkeitsgekühlte Hardware Versionen. Apple kann eine G5 Seriennummer nachschlagen, um zu bestimmen, ob PCI X Steckplätze zur Verfügung stehen oder ob stat tdessen die neue PCI E
+verwendet werden muss.  
+
+Diese Steckplätze können vom 64
+Bit PCI anhand der Anordnung der Segmente unterschieden werden. Das kleine Segment kommt an erst er Stelle statt in der Mitte.
+PCI
+Express (PCI E):
+Die meisten Computer, die nach 2005 hergestellt wurden (einschließlich Macintosh), verfügen über PCI E Steckplätze. Diese sind m anchmal schwer zu identifizieren, da die Länge des Steckplatzes unterschiedlich sein kann. Diese Varianten werden „Lanes“ genannt und sind meist mit einer Nummer, gef olg t von einem x (1x 8x 16x usw.), bezeichnet. In der Abbildung ist ein 16x PCI Steckplatz dargestellt. Ein 1x Steckplatz beginnt mit demselben kleinen Segment, ge folgt von einem zweiten kleinen Segment. Mehrere Lanes bedeuten im Allgemeinen eine größere Schnittstellengeschwindigkeit. Die meisten PCIx Karten sind 1x oder 4x (mit A usnahme der Video Controller, die fast
+immer 16x Karten sind.)  
+
+Eine 1x PCI E Erweiterungskarte passt in einen 16x Steckplatz. Aufgrund der physischen Größe bleibt der Rest des Steckplatzes un belegt, dies ist jedoch normal. Dieser Steckplatz kann von anderen (insbesondere 32 Bit PCI) durch seine physikalische Größe unterschieden werden. Alle Konnekto ren an einem PCI E Steckplatz sind deutlich kleiner und er wird weiter in das Motherboard eingesteckt als andere PCI Steckplätze.
+
+## 13 M.2
+Nachfolger von Next Generation
+Form Factor (NGFF)  
+Ablösung von mSATA (mini SATA)
+
+[https://de.wikipedia.org/wiki/M.2](https://de.wikipedia.org/wiki/M.2)
+![Alt text](img/f.jpg)
+
+## 16 Aufbau
+
  
+<img style="background-color:white" src="img/8.png"
+     alt="Ubersicht Schnittstellen"
+     style="float: left; margin-right: 10px;" />
+- Chipsatz
+- Host
+- SSD
+- Wear-Leveling
+- Management
+- Garbage Collection
+- EDC | ECC
+- Cache
+- Flash-Array
+- Controller
+
+*ECC — Error Correction Code  
+*EDC — Error Detection Code  
  
-## 13 Wear-Leveling  
- 
+## 15 Wear-Leveling  
 
-» Begrenzte Lebensdauer, 1.000 bis 1.000.000 Schreibvorgange
-» Standig schreibende Anwendungen ungeeignet
-« Wear-Leveling
-— GleichmaRige Verteilung der Schreiblast Uber die Zellen durch den
-Controller
-— Statisches WL
+- Begrenzte Lebensdauer, 1.000 bis 1.000.000 Schreibvorgange
+- Standig schreibende Anwendungen ungeeignet
+- Wear-Leveling
+  - GleichmaRige Verteilung der Schreiblast Uber die Zellen durch den
+  Controller
+  - Statisches WL
+    - Relativ konstante Daten werden in abgenutzte Bereiche verschoben
+    - Erhéhung der Lebensdauer des Speichers
+    - Geht zu Lasten der Performance
+    - Problem gelöschte Dateien — TRIM — BS teilt Flashcontroler ,geléschte“ Bereiche
+    mit
+  - Dynamisches WL
+    - Schreibzugriffe werden gleichmagig uber freie oder frei werdende Blécke verteilt
+    - Haufig genutzte Bereiche nutzen sich starker ab und fallen aus
 
-+ Relativ konstante Daten werden in abgenutzte Bereiche verschoben
-+ Erhéhung der Lebensdauer des Speichers
-+ Geht zu Lasten der Performance
-. Froblem geldschte Dateien — TRIM — BS teilt Flashcontroler ,geléschte“ Bereiche
-mi
-— Dynamisches WL
-+ Schreibzugriffe werden gleichmagig uber freie oder frei werdende Blécke verteilt
-+ Haufig genutzte Bereiche nutzen sich starker ab und fallen aus
-
-« Defragmentierung, Dateiindexierung und Prefetching des
-Betriebssystems abschalten
+- <f>Defragmentierung, Dateiindexierung und Prefetching des Betriebssystems abschalten
 
 ## 14 Overprovisioning  
 

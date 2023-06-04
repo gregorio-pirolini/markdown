@@ -1,127 +1,280 @@
-1.) 
-Was bedeutet der Begriff Namensauflösung? 
-a.) gegeben ist die IP-Adresse, gesucht wird der Computername 
-b.) gegeben ist die MAC-Adresse gesucht wird der Computername 
-c.) gegeben ist die MAC-Adresse gesucht wird die IP-Adresse
-        d.) gegeben ist der Computername gesucht wird die IP-Adresse 
-e.) gegeben ist der Computername gesucht wird die MAC-Adresse 
-
-2.) Wie viele Zeichen cliirfen Sie fur den Netbios-Namen maximal vergeben? 
-        15
-
-3.) Welche Zeichen sollten im Netbios-Namen nur verwendet werden? A a 1 - + / \ * !
-        A a 1 -
-
-4.) Was fur einen Namen muss ein Rechner tragen, wenn er aus dem Internet erreichbar sein soll? 
-        hostname
-
-5.) Kennzeichnen Sie an der Adresse 2001:1234:5678:90AB:CDEF:1A2B:3C4D:5E6F /48 den Präfix and den Suffix (interface indentifier) 
-        Präfix: 2001:1234:5678; Suffix:90AB:CDEF:1A2B:3C4D:5E6F
-
-6.) Mit welchen Methoden kann der FQDN (DNS-Name) aufgelost werden? 
-Bitte kreuzen Sie die richtigen Buchstaben an. 
-a.) mit der Datei „HOSTS" 
-b.) mit einem Broadcast 
-c.) mit dem Dienst „WINS" 
-d.) mit der Datei „LMHOSTS" 
-e.) mit dem Dienst „DNS" 
-
-7.) Auf welcher Schicht des ISO-OSI-7-Schichten-Modells arbeitet ein Router? 
-        Schicht 3
-
-8.) Was bedeutet die Abkürzung DHCP? 
-        Dynamic Host Configuration Protocol
-
-9.) Nennen Sie 3 Informationen, die der Client über DHCP erhalten kann. 
+1. Welche dieser Medien werden für Übertragungsstrecken bei Kabel und Leitungen
+    eingesetzt? (3)
+		
+a	Kupfer (Cu)
+b	Aluminium (Al)
+		c	hochreines Glas (Siliziumdioxid)
+		d	Gold (Au)
+		e	POF
 
 
-10.) Was bedeutet der Begriff „APIPA"? 
-        Automatic Private IP Addressing
-
-11.) Ein Drucker ist auf DHCP eingestellt worden. 
-Ein Ausdruck seiner aktuellen Netzwerkkonfiguration zeigt jedoch die Adresse 169.254.11.111. 
-Was ist in diesem Fall Passiert? 
-        Wenn die Netzwerkkonfiguration des Druckers die IP-Adresse 169.254.11.111 anzeigt, ist es wahrscheinlich, dass der Drucker keine Verbindung zu einem DHCP-Server herstellen konnte, um eine gültige IP-Adresse zu erhalten. In diesem Fall hat der Drucker das Verfahren der Automatic Private IP Addressing (APIPA) ausgeführt, das in Microsoft Windows-Systemen verwendet wird, um eine IP-Adresse automatisch zu generieren, wenn kein DHCP-Server verfügbar ist.
-
-        Die APIPA-Adressen haben den Adressbereich von 169.254.0.0 bis 169.254.255.255. Diese Adressen sind lokal und werden nicht vom Internet Assigned Numbers Authority (IANA) zugewiesen, so dass sie nur in lokalen Netzwerken verwendet werden können.
-
-        Wenn der Drucker eine APIPA-Adresse zugewiesen hat, kann er möglicherweise nicht auf das Internet zugreifen oder mit anderen Geräten im Netzwerk kommunizieren, die eine gültige IP-Adresse haben. In diesem Fall sollte der Drucker so konfiguriert werden, dass er eine statische IP-Adresse hat, um eine dauerhafte Verbindung zum Netzwerk zu gewährleisten.
-
-12.) Ordnen Sie die IPv4-Adressen (von - bis) des ersten Oktetts den IPv4-Klassen zu. 
-Class A 0 – 127
-Class B 128 – 191
-Class C 192 – 223
-
-13.) Geben Sie die IPv4-Subnetzmasken /8, /16, /24 in klassischer Schreibweise an. 
-        255.0.0.0 
-        255.255.0.0 
-        255.255.255.0   
-
-14.) Das Netz 192.168.1.0 / 24 soll in 4 Teilnetze aufgeteilt werden. 
-a.) Geben sie die neue Subnetzmaske in klassischer Form und in Cisco (CIDR) -Schreibweise an. 
-        /26 
-        255.255.255.192
-
-b.) Wie lauten die Adressen für „mein Netz" (Netz-ID) und „Broadcast" in den Teilnetzen? 
-        Netzwerk 1:
-
-        Netzwerkadresse: 192.168.1.0/26
-        Broadcast-Adresse: 192.168.1.63/26
-        Netzwerk 2:
-
-        Netzwerkadresse: 192.168.1.64/26
-        Broadcast-Adresse: 192.168.1.127/26
-        Netzwerk 3:
-
-        Netzwerkadresse: 192.168.1.128/26
-        Broadcast-Adresse: 192.168.1.191/26
-        Netzwerk 4:
-
-        Netzwerkadresse: 192.168.1.192/26
-        Broadcast-Adresse: 192.168.1.255/26
-
-c.) Wie viele Adressen sind im jeweiligen Subnetz fur Nodes nutzbar? 
-        62
+2. Was trifft bei der Bezeichnung OS2 nicht zu? (4)
+	
+	a	Kupferkabel Cat. 2 für die Fernebene 
+			b	Koaxialkabel  2-fach geschirmt
+			c	SM-Faser Qualitätsstufe 2
+	d	Datenkabel TP mit 2 DA
+	e	MM-Faser mit 2-facher Geschwindigkeit
 
 
-15.) Das Netz C001:CAFE:: /32 soli in 4 Teilnetze aufgeteilt werden. 
-a.) Geben sie die neue Subnetzmaske an. 
-        /34
-b.) An welchen Adressen beginnen und enden die Subnetze? 
-        ubnetz 1: C001:CAFE:0:0:0:0:0:0/34
-        Anfangsadresse: C001:CAFE:0:0:0:0:0:0
-        Endadresse: C001:CAFE:0:0:0:0:0:FFFF
+3. Welche Aussagen zum PERMANENT LINK Cat. 6A bzw. Cat. 8 sind richtig? (4)
+	
+	a	beschreibt die Festverkabelung im LAN
+			b	Gesamtlänge max. 24m bei Einsatz Datenkabel TP Cat. 8
+	c	Einsatz in LTE 4G und 5G Netzen
+			d	Gesamtlänge max. 90m bei Einsatz Datenkabel TP Cat. 6A
+	e	Verbindung zu Datendosen,  Keystone Buchsen, Patchfeldern
 
-        Subnetz 2: C001:CAFE:0:1:0:0:0:0/34
-        Anfangsadresse: C001:CAFE:0:1:0:0:0:0
-        Endadresse: C001:CAFE:0:1:0:0:0:FFFF
 
-        Subnetz 3: C001:CAFE:0:2:0:0:0:0/34
-        Anfangsadresse: C001:CAFE:0:2:0:0:0:0
-        Endadresse: C001:CAFE:0:2:0:0:0:FFFF
+4. Welche Kabel werden beim Verfahren FTTB bis zur WE (Wohneinheit) eingesetzt? (3)    
 
-        Subnetz 4: C001:CAFE:0:3:0:0:0:0/34
-        Anfangsadresse: C001:CAFE:0:3:0:0:0:0
-        Endadresse: C001:CAFE:0:3:0:0:0:FFFF
+a	LWL (OS-Glasfaserkabel)
+		b	I-YY 2*2*0,6 Lg   
+		c	Innen-Koaxialkabel 
+		d	Außenkabel Luftgefüllt
+e	Datenkabel TP S/FTP Cat. 6
 
-16.) Welchen Vorteil hat eine IP-Adresse aus einem privaten Adressbereich? 
-        Der Vorteil von IP-Adressen aus einem privaten Adressbereich besteht darin, dass sie für private Netzwerke reserviert sind und nicht öffentlich im Internet geroutet werden können. Dadurch können mehrere Geräte innerhalb eines privaten Netzwerks eine private IP-Adresse verwenden, ohne dass es zu Konflikten mit anderen Geräten im Internet kommt. Der Einsatz von privaten IP-Adressen hilft auch dabei, die Sicherheit des Netzwerks zu erhöhen, da es von außen schwerer zugänglich ist.
 
-17.) Welchen Nachteil hat eine IP-Adresse aus einem privaten Adressbereich?
-        Ein Nachteil von IP-Adressen aus einem privaten Adressbereich besteht darin, dass sie nicht direkt aus dem Internet erreichbar sind, da sie von öffentlichen IP-Adressen getrennt sind. Um eine Verbindung zwischen Geräten innerhalb eines privaten Netzwerks und dem Internet herzustellen, wird normalerweise ein NAT-Router (Network Address Translation) verwendet, der die private IP-Adresse des Geräts in eine öffentliche IP-Adresse umwandelt. Ein weiterer Nachteil von privaten IP-Adressen besteht darin, dass sie nur innerhalb des privaten Netzwerks eindeutig sein müssen und somit in anderen privaten Netzwerken wiederverwendet werden können, was zu Konflikten führen kann, wenn mehrere Netzwerke miteinander verbunden werden.
+5. Warum wird PVC als Kabelmantel im Innenbereich eingesetzt? (3)
+	
+	a	ungenügende Feuchtigkeitsresistenz 
+			b	wegen der besten Isolier- und Leitfähigkeit  
+			c	gut formbar, leichte Verlegung  
+	d	wegen der hohen Kosten   
+	e	schwer entflammbar
+ 
 
-18.) Was passiert, wenn in einem Netz 2 Nodes die gleiche IP-Adresse besitzen? 
-        Wenn zwei Nodes im selben Netzwerk die gleiche IP-Adresse besitzen, kann es zu verschiedenen Problemen führen. Beide Geräte können nicht gleichzeitig mit dem Netzwerk kommunizieren, da sie dieselbe Adresse verwenden. Dies kann dazu führen, dass einer oder beide Nodes nicht mehr in der Lage sind, Daten zu senden oder zu empfangen, und somit nicht mehr funktionsfähig sind.
 
-        Die meisten Netzwerke verhindern jedoch die Vergabe doppelter IP-Adressen, indem sie Verfahren wie DHCP (Dynamic Host Configuration Protocol) verwenden, um sicherzustellen, dass jedem Gerät eine eindeutige IP-Adresse zugewiesen wird. Wenn DHCP nicht verfügbar ist, sollten Netzwerkadministratoren manuell sicherstellen, dass jeder Node eine eindeutige IP-Adresse hat, um mögliche Konflikte zu vermeiden.
+6. Welches sind Einsatzgebiete von PE bei Kabel und Leitungen? (3)
+	
+	a	als Kabelmantel im Außenbereich 
+			b	Isolation der Adern bei Datenkabeln TP
+	c	Schirmung der DA bei Datenkabeln
+			d	Schutz vor Überspannungen 
+	e	Isolation es Innenleiters bei Koaxialkabeln
+		
 
-19.) Gegeben sei folgende IPv6-Adresse: 2001 :AB00 : 0000 : 0000 :0012:0000 :0000 :1100 
-a.) Schreiben Sie diese Adresse in verkurzter Schreibweise auf.
- 2001 :AB00 :0:0: 0012 : 0 : 0 : 1100 
-b.) Schreiben Sie beide Varianten der "komprimierten" Schreibweise auf. 
-2001 :AB00 :: 0012 : 0 : 0 : 1100
-2001 :AB00 :0:0: 0012 :: 1100  
 
-20.) Ihr Computer tragt folgende IP-Adresse und folgende Subnetzmaske:
- 2 0 0 1 : : 12 : B B 0 0 : 0 : 0 : 1 1 1 1 /65 
- Bei welcher Adresse beginnt und endet der Suffix (interface identifier) des Netzes? 
+7. Bei der Bezeichnung S/FTP Cat. 8 AWG 22 steht F für…? (1)
+
+a	Folienschirm um den Kabelmantel
+b	amerikanisches Kabelmaß  
+		c	Folienschirm um die Doppeladern 
+		d	Feuerbeständigkeit
+e	Fettgefüllt
+
+
+8. Welche Kabel werden auf dem sog. „letzten Meter“ beim Verfahren FTTC eingesetzt?  (2)   
+
+a	Außenkabel    fettgefüllt  Cat. 3
+		b	Datenkabel    Cat. 6A
+		c	Hauptkabel    Cat. 3
+		d	Außenkabel    luftgefüllt  Cat. 3
+e	Innenkabel     Cat. 3
+
+
+9. Welche Aussagen bei der neuen Qualitätsstufe Cat. 8 sind richtig?   (4)
+
+a	Länge Permanent Link 24m 
+		b	Übertragungsrate bis 40 Gbit/s
+		c	Patchkabellänge max. 6m (Ausnahme 7,2m)
+		d	Länge Permanent Link 100m
+e	Endkomponenten und Kabel Cat. 8
+
+
+10. Was ist der Vorteil von LWL- APC Steckern? (1)
+	
+	a	bestehen aus Kunststoff
+			b	haben eine geringe Reflexionsdämpfung
+			c	haben eine hohe Reflexionsdämpfung 
+			d	besitzen keine SVA Verbindung
+	e	IP Klasse 67
+
+	
+11. Datenkabel TP werden nach folgenden Normen geplant / verlegt / beschaltet… (3)
+	
+	a	TIA/EIA 568 A
+			b	TIA/EIA 568 B
+			c	EN 50173-1 bis 6
+			d	DIN 08/15
+	e	TIA/EIA 658 A/B
+	
+	
+12. Welche neuen Tiefbauverfahren verkürzen die Bauzeit von Kabeltrassen erheblich? (3)
+
+		a	gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren 
+b	Verlegepanzer
+		c	Minitrenching
+		d	Stoß-Rohr-Ramme
+		e	Mikrotrenching
+
+		
+	
+
+
+13. Welche Verfahren können zur Unterquerung vom Baumtrassen eingesetzt werden? (2)
+
+		a	Rohrvortrieb mit Erdrakete
+		b	Kabelverpressung
+		c	Verlegepflug 
+		d	Wurzelrodungsverfahren
+		e	gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren 
+	
+	
+14.  Bei der Verlegung von Datenkabeln TP gelten besondere Vorschriften… (3)
+
+		a	Einsatz Metallsteg beim Unterschreiten des Mindestabstandes zu 
+			Energiekabeln  
+		b	Beachtung Biegeradien
+		c	Mindestabstände zu Energiekabeln 5 cm
+		d	max. dreimalige Biegung
+		e	Verlegung nur bei Temperatur zwischen 5°C und 40 °C
+	
+	
+15. Warum wird geschäumtes PE (Zell PE) bei Datenkabeln TP zur Isolation 
+      der Adern eingesetzt? (1)
+
+		a	ist nicht brennbar 	 
+b	hat gute schirmende Wirkung
+		c	sehr gute Isolationseigenschaften
+		d	Rohstoff ist ausreichend vorhanden
+		e	der Durchmesser der Adern wird verringert
+	
+	
+16.	Welche Aussagen zum CHANNEL LINK sind falsch? (2)
+
+a	sind Kanäle beim TV Empfang	
+		b	Gesamtlänge max. 100m mit Datenkabeln TP (Cat. 6A)
+		c	Gesamtlänge max. 30m mit Datenkabeln TP (Cat. 8)
+		d	Ende zu Ende Verbindung, mit Festinstallation und Patchkabeln	
+e	ist nicht für Datenleitungen verwendbar
+
+
+17.	Welche Faserart wird bei folgendem Glasfaserkabel A-DQ(ZN)B2Y 12F E9/125µm OS 2      eingesetzt? (1)
+	
+	a	Multimode Stufenindexfaser
+			b	Multimode Gradientenfaser	
+	c	Singlemodefaser
+			d	POF 
+	e	Polymer Faser
+	
+	
+18. Welche Informationen können Sie entnehmen: A-2Y(L)2Y 300*2*0,35 Bd? (3)
+
+a	Aussenkabel, luftgefüllt
+		b	300 Adern
+		c	Durchmesser der Adern 0,35mm
+		d	Aussenkabel, fettgefüllt 
+		e	300 DA
+ 
+
+
+19. Darf ein Kabel S/FTP Cat. 8 AWG 22 für ein 40 Gbit/s Ethernet LAN, Permanent Link 18m,
+      eingesetzt werden? (1)
+
+		a	nur bei Einsatz von APC Steckern
+		b	nein
+		c	ja 
+		d	nur bei der Verlegung im Aussenbereich  
+		e	ja, aber nur für Laptops
+
+
+20. Welches sind Materialien für die elektrostatische Abschirmung? (2)
+
+		a	Alu
+		b	PE 
+		c	Papier
+		d	PVC
+		e	Cu
+
+
+21. Welche Aussagen zur Singlemodefaser OS 2 sind richtig? (3)
+
+		a	Kerndurchmesser 9 oder 10 µm    
+		b	Kerndurchmesser 50 µm
+		c	serielle Übertragung von Lichtmoden
+		d	gleichzeitige Übertragung mehrerer Lichtmoden  
+		e	Manteldurchmesser 125µm 
+
+
+22. Welche Kabel werden bei der Internetversorgung über die „letzte Meile“ benutzt? (3)
+
+		a	Fernmelde-Hauptkabel Cat. 3
+		b	Datenkabel TP Cat. 6A
+		c	Fernmelde-Verzweigerkabel Cat. 3
+		d	LWL Kabel (SM und MM)
+		e	Fernmelde-Innenkabel Cat. 3
+
+
+23.  Im 10 Gbit/s-LAN ist der Permanent Link für eine neue Anbindung eines PC 198m. 
+       Welche Veränderungen / Entscheidungen treffen Sie? (1)
+	
+	a	ist normgerecht
+			b	Einsatz von Datenkabel TP S/FTP Cat. 8 
+		c	PC kann normgerecht nicht an das Netzwerk angebunden werden
+			d	Einsatz VDSL Karte ist notwendig
+e	Einsatz eines Koaxial- Innenkabels 
+
+
+24. Was sind der Unterschiede bei der Bezeichnung Cat. 6A und Cat. 6A (tiefgestellt)? (3)
+
+		a	Cat. 6A bietet eine höhere Systemreserve    
+		b	ist eine Designdarstellung ohne Bedeutung
+		c	Cat. 6A entspricht der europäischen Norm
+		d	ist im Home Bereich zur Multimedia Anbindung anzuwenden 
+		e	die möglichen Übertragungsfrequenzen liegen über 500MHz
+
+
+
+
+25. Was sind Unterschiede zwischen Datenverlegekabeln-Inhouse bzw. Daten-Patchkabeln? (2)
+
+		a	zulässige Länge	 
+b	Farben der DA
+		c	Isolation der TP
+d	Schirmung 
+		e	Aufbau des Leiters 
+
+
+26. Wo wird das Keyhole Verfahren eingesetzt?  (1)
+	
+	a	oberirdische Kabeltrassen
+			b	bei Ferntrassen
+			c	zur unterirdischen Anbindung der Hausanschlüsse
+			d	zur unterirdischen Längsverlegung
+			e	bei Straßenquerungen in offener Bauweise
+
+27. Welche Aussagen zu S/FTP Cat. 8 AWG 23 sind richtig? (4)
+
+		a	es ist ein Daten-Verlegekabel
+		b	die DA sind geschirmt
+		c	die Kabelseele ist ungeschirmt  
+		d	Gesamtschirm 
+		e	Einsatz im Permanent Link bis 24m
+
+28. Welches Kabel ist für ein 25 GBit/s Ethernet LAN, Länge des Permanent Link 19m,  
+      geeignet? (1)
+
+		a	A-2Y(L)2Y 10*2*0,8 St III Bd
+		b	I-YY 10*2*0,6 Bd
+		c	S/FTP Cat. 8 AWG 22
+		d	UTP Cat. 6 AWG 23 
+		e	90dB KOAX KABEL Full HD Class A 
+
+29. Welche Aussagen zu Patchkabeln S/FTP Cat. 6A sind falsch? (3)
+
+		a	Verlegelängen max. 100m
+		b	Cu- Adern sind feindrähtig
+		c	Cu- Adern sind mehrdrähtig
+		d 	max. Gesamtlänge im Netzwerk bei Sterntopologie
+darf 10m nicht überschreiten
+e	max. Übertragungsrate 1000 Mbit/s  
+
+
+30. Was bedeutet die Bezeichnung B2ca bei Datenkabeln TP? (1)
+
+		a	Bitrate von 2 Gbit/s 	 
+b	2 Duplexkabel
+		c	beschreibt die Brandklassen-Einstufung
+		d	für Punkt zu Mehrpunkt Verlegungen
+		e	Buskabel für 2 Anschlüsse

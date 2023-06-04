@@ -1,0 +1,171 @@
+1. Welche dieser Medien werden für Übertragungsstrecken bei Kabel und Leitungen eingesetzt? (3);Kupfer (Cu);Aluminium (Al);hochreines Glas (Siliziumdioxid);Gold (Au);POF
+
+
+Kupfer (Cu);hochreines Glas (Siliziumdioxid);POF;
+
+---
+2. Was trifft bei der Bezeichnung OS2 nicht zu? (4);Kupferkabel Cat. 2 für die Fernebene;Koaxialkabel  2-fach geschirmt;SM-Faser Qualitätsstufe 2;Datenkabel TP mit 2 DA;MM-Faser mit 2-facher Geschwindigkeit
+
+Kupferkabel Cat. 2 für die Fernebene;Koaxialkabel  2-fach geschirmt;Datenkabel TP mit 2 DA;MM-Faser mit 2-facher Geschwindigkeit;
+
+---
+3. Welche Aussagen zum PERMANENT LINK Cat. 6A bzw. Cat. 8 sind richtig? (4);beschreibt die Festverkabelung im LAN;Gesamtlänge max. 24m bei Einsatz Datenkabel TP Cat. 8;Einsatz in LTE 4G und 5G Netzen;Gesamtlänge max. 90m bei Einsatz Datenkabel TP Cat. 6A;Verbindung zu Datendosen,  Keystone Buchsen, Patchfeldern
+
+beschreibt die Festverkabelung im LAN;Gesamtlänge max. 24m bei Einsatz Datenkabel TP Cat. 8;Gesamtlänge max. 90m bei Einsatz Datenkabel TP Cat. 6A;Verbindung zu Datendosen,  Keystone Buchsen, Patchfeldern;
+
+---
+4. Welche Kabel werden beim Verfahren FTTB bis zur WE (Wohneinheit) eingesetzt? (3);LWL (OS-Glasfaserkabel);I-YY 2*2*0,6 Lg;Innen-Koaxialkabel;Außenkabel Luftgefüllt;Datenkabel TP S/FTP Cat. 6
+
+LWL (OS-Glasfaserkabel);Innen-Koaxialkabel;Datenkabel TP S/FTP Cat. 6;
+
+---
+5. Warum wird PVC als Kabelmantel im Innenbereich eingesetzt? (3);ungenügende Feuchtigkeitsresistenz;wegen der besten Isolier- und Leitfähigkeit;gut formbar, leichte Verlegung;wegen der hohen Kosten;schwer entflammbar
+
+ungenügende Feuchtigkeitsresistenz;gut formbar, leichte Verlegung;schwer entflammbar;
+ 
+
+---
+6. Welches sind Einsatzgebiete von PE bei Kabel und Leitungen? (3);als Kabelmantel im Außenbereich;Isolation der Adern bei Datenkabeln TP;Schirmung der DA bei Datenkabeln;Schutz vor Überspannungen;Isolation es Innenleiters bei Koaxialkabeln
+
+als Kabelmantel im Außenbereich;Isolation der Adern bei Datenkabeln TP;Isolation es Innenleiters bei Koaxialkabeln;
+
+
+---
+7. Bei der Bezeichnung S/FTP Cat. 8 AWG 22 steht F für…? (1);Folienschirm um den Kabelmantel;amerikanisches Kabelmaß;Folienschirm um die Doppeladern;Feuerbeständigkeit;fettgefüllt
+
+Folienschirm um die Doppeladern 
+
+
+---
+8. Welche Kabel werden auf dem sog. „letzten Meter“ beim Verfahren FTTC eingesetzt?  (2);Außenkabel    fettgefüllt  Cat. 3;Datenkabel    Cat. 6A;Hauptkabel    Cat. 3;Außenkabel    luftgefüllt  Cat. 3;Innenkabel     Cat. 3
+
+Außenkabel    fettgefüllt  Cat. 3;Innenkabel     Cat. 3;
+
+---
+9. Welche Aussagen bei der neuen Qualitätsstufe Cat. 8 sind richtig?   (4);Länge Permanent Link 24m;Übertragungsrate bis 40 Gbit/s;Patchkabellänge max. 6m (Ausnahme 7,2m);Länge Permanent Link 100m;Endkomponenten und Kabel Cat. 8
+
+Länge Permanent Link 24m;Übertragungsrate bis 40 Gbit/s;Patchkabellänge max. 6m (Ausnahme 7,2m);Endkomponenten und Kabel Cat. 8;
+
+---
+10. Was ist der Vorteil von LWL- APC Steckern? (1);bestehen aus Kunststoff;haben eine geringe Reflexionsdämpfung;haben eine hohe Reflexionsdämpfung;besitzen keine SVA Verbindung;IP Klasse 67
+ 
+haben eine hohe Reflexionsdämpfung 
+ 
+
+---
+11. Datenkabel TP werden nach folgenden Normen geplant / verlegt / beschaltet… (3);TIA/EIA 568 A;TIA/EIA 568 B;EN 50173-1 bis 6;DIN 08/15;TIA/EIA 658 A/B
+
+TIA/EIA 568 A;TIA/EIA 568 B;EN 50173-1 bis 6;
+ 
+
+---
+12. Welche neuen Tiefbauverfahren verkürzen die Bauzeit von Kabeltrassen erheblich? (3);gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren;Verlegepanzer;Minitrenching;Stoß-Rohr-Ramme;Mikrotrenching
+
+gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren;Minitrenching;Mikrotrenching;
+
+
+
+
+---
+13. Welche Verfahren können zur Unterquerung vom Baumtrassen eingesetzt werden? (2);Rohrvortrieb mit Erdrakete;Kabelverpressung;Verlegepflug;Wurzelrodungsverfahren;gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren
+
+Rohrvortrieb mit Erdrakete;gesteuerter Rohrvortrieb mit Horizontalspülbohrverfahren;
+
+---
+14.  Bei der Verlegung von Datenkabeln TP gelten besondere Vorschriften… (3);Einsatz Metallsteg beim Unterschreiten des Mindestabstandes zu Energiekabeln;Beachtung Biegeradien;Mindestabstände zu Energiekabeln 5 cm;max. dreimalige Biegung;Verlegung nur bei Temperatur zwischen 5°C und 40 °C
+
+Einsatz Metallsteg beim Unterschreiten des Mindestabstandes zu Energiekabeln;Beachtung Biegeradien;Mindestabstände zu Energiekabeln 5 cm;
+
+
+---
+15. Warum wird geschäumtes PE (Zell PE) bei Datenkabeln TP zur Isolation der Adern eingesetzt? (1);ist nicht brennbar;hat gute schirmende Wirkung;sehr gute Isolationseigenschaften;Rohstoff ist ausreichend vorhanden;der Durchmesser der Adern wird verringert
+
+sehr gute Isolationseigenschaften
+
+
+---
+16.Welche Aussagen zum CHANNEL LINK sind falsch? (2);sind Kanäle beim TV Empfang;Gesamtlänge max. 100m mit Datenkabeln TP (Cat. 6A);Gesamtlänge max. 30m mit Datenkabeln TP (Cat. 8);Ende zu Ende Verbindung, mit Festinstallation und Patchkabeln;ist nicht für Datenleitungen verwendbar
+
+sind Kanäle beim TV Empfang;ist nicht für Datenleitungen verwendbar;
+
+---
+17.Welche Faserart wird bei folgendem Glasfaserkabel A-DQ(ZN)B2Y 12F E9/125µm OS 2      eingesetzt? (1);Multimode Stufenindexfaser;Multimode Gradientenfaser;Singlemodefaser;POF;Polymer Faser
+
+Singlemodefaser
+
+
+---
+18. Welche Informationen können Sie entnehmen: A-2Y(L)2Y 300*2*0,35 Bd? (3);Aussenkabel, luftgefüllt;300 Adern;Durchmesser der Adern 0,35mm;Aussenkabel, fettgefüllt;300 DA
+
+Aussenkabel, luftgefüllt;Durchmesser der Adern 0,35mm;300 DA;
+ 
+
+---
+19. Darf ein Kabel S/FTP Cat. 8 AWG 22 für ein 40 Gbit/s Ethernet LAN, Permanent Link 18m, eingesetzt werden? (1);nur bei Einsatz von APC Steckern;nein;ja;nur bei der Verlegung im Aussenbereich;ja, aber nur für Laptops
+
+ja 
+
+
+---
+20. Welches sind Materialien für die elektrostatische Abschirmung? (2);Alu;PE;Papier;PVC;Cu
+
+Alu;Cu;
+
+---
+21. Welche Aussagen zur Singlemodefaser OS 2 sind richtig? (3);Kerndurchmesser 9 oder 10 µm;Kerndurchmesser 50 µm;serielle Übertragung von Lichtmoden;gleichzeitige Übertragung mehrerer Lichtmoden;Manteldurchmesser 125µm
+
+Kerndurchmesser 9 oder 10 µm;serielle Übertragung von Lichtmoden;Manteldurchmesser 125µm;
+
+---
+22. Welche Kabel werden bei der Internetversorgung über die „letzte Meile“ benutzt? (3);Fernmelde-Hauptkabel Cat. 3;Datenkabel TP Cat. 6A;Fernmelde-Verzweigerkabel Cat. 3;LWL Kabel (SM und MM);Fernmelde-Innenkabel Cat. 3
+
+Fernmelde-Hauptkabel Cat. 3;Fernmelde-Verzweigerkabel Cat. 3;Fernmelde-Innenkabel Cat. 3;
+
+---
+23.  Im 10 Gbit/s-LAN ist der Permanent Link für eine neue Anbindung eines PC 198m. Welche Veränderungen / Entscheidungen treffen Sie? (1);ist normgerecht;Einsatz von Datenkabel TP S/FTP Cat. 8;PC kann normgerecht nicht an das Netzwerk angebunden werden;Einsatz VDSL Karte ist notwendig;Einsatz eines Koaxial- Innenkabels 
+
+PC kann normgerecht nicht an das Netzwerk angebunden werden
+
+
+
+---
+24. Was sind der Unterschiede bei der Bezeichnung Cat. 6A und Cat. 6A (tiefgestellt)? (3);Cat. 6A bietet eine höhere Systemreserve;ist eine Designdarstellung ohne Bedeutung;Cat. 6A entspricht der europäischen Norm;ist im Home Bereich zur Multimedia Anbindung anzuwenden;die möglichen Übertragungsfrequenzen liegen über 500MHz
+
+Cat. 6A bietet eine höhere Systemreserve;Cat. 6A entspricht der europäischen Norm;die möglichen Übertragungsfrequenzen liegen über 500MHz;
+
+
+
+---
+25. Was sind Unterschiede zwischen Datenverlegekabeln-Inhouse bzw. Daten-Patchkabeln? (2);zulässige Länge;Farben der DA;Isolation der TP;Schirmung;Aufbau des Leiters
+
+zulässige Länge;Aufbau des Leiters;
+
+---
+26. Wo wird das Keyhole Verfahren eingesetzt?(1);oberirdische Kabeltrassen;bei Ferntrassen;zur unterirdischen Anbindung der Hausanschlüsse;zur unterirdischen Längsverlegung;bei Straßenquerungen in offener Bauweise
+ 
+zur unterirdischen Anbindung der Hausanschlüsse
+
+
+---
+27. Welche Aussagen zu S/FTP Cat. 8 AWG 23 sind richtig? (4);es ist ein Daten-Verlegekabel;die DA sind geschirmt;die Kabelseele ist ungeschirmt;Gesamtschirm;Einsatz im Permanent Link bis 24m
+
+es ist ein Daten-Verlegekabel;die DA sind geschirmt;Gesamtschirm;Einsatz im Permanent Link bis 24m;
+
+---
+
+28. Welches Kabel ist für ein 25 GBit/s Ethernet LAN, Länge des Permanent Link 19m, geeignet? (1);A-2Y(L)2Y 10*2*0,8 St III Bd;I-YY 10*2*0,6 Bd;S/FTP Cat. 8 AWG 22;UTP Cat. 6 AWG 23;90dB KOAX KABEL Full HD Class A 
+
+S/FTP Cat. 8 AWG 22
+
+
+---
+29. Welche Aussagen zu Patchkabeln S/FTP Cat. 6A sind falsch? (3);Verlegelängen max. 100m;Cu- Adern sind feindrähtig;Cu- Adern sind mehrdrähtig;max. Gesamtlänge im Netzwerk bei Sterntopologie darf 10m nicht überschreiten;max. Übertragungsrate 1000 Mbit/s
+
+Verlegelängen max. 100m;Cu- Adern sind mehrdrähtig;max. Übertragungsrate 1000 Mbit/s;
+
+---
+30. Was bedeutet die Bezeichnung B2ca bei Datenkabeln TP? (1);Bitrate von 2 Gbit/s;2 Duplexkabel;beschreibt die Brandklassen-Einstufung;für Punkt zu Mehrpunkt Verlegungen;Buskabel für 2 Anschlüsse
+
+beschreibt die Brandklassen-Einstufung
+
+multiSingle
