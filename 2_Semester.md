@@ -674,8 +674,14 @@ Prüf rügel ... ??
   - Nachlieferung
   - Nachbesserung
 
-Schadenersatz mit der Leistung  
-Schadenersatz neben der Leistung
+#### Schadenersatz mit der Leistung
+
+fallen alle Schadenspositionen, die durch eine Nachholung der zunächst ausgebliebenen Leistung bis zum letztmöglichen Zeitpunkt hätten vermieden werden können und das Interesse des Gläubigers an der Leistung als solcher befriedigen
+
+#### Schadenersatz neben der Leistung
+
+betrifft solche Schäden, die endgültig eingetreten sind und nicht durch Nacherfüllung behebbar sind. Der Schadensersatzanspruch tritt neben den Primäranspruch, die ursprünglich geschuldete Leistung bleibt bestehen.
+
 
 ### BS
 
@@ -742,25 +748,19 @@ The command "netstat -putan" is used in a terminal to display active network con
 Warenschulden sind Holschulden  
 Geldschulden sind Bringschulden bzw. Schickschulden.
 
-Beweislastumkehr
+#### Beweislastumkehr
 
-Kalkulatorische Wagnisse:
+Tritt innerhalb der ersten 12 Monate ein Sachmangel auf, so ist immer davon auszugehen, dass die Sache bereits beim Kauf mangelhaft war (Beweislastumkehr nach § 476 BGB). Nach dieser Frist liegt die Beweislast beim Käufer.
+
+#### Kalkulatorische Wagnisse
+
 Bei den kalkulatorischen Wagnissen handelt es sich um so genannte Einzelwagnisse, die mit dem allgemeinen Unternehmensrisiko nichts zu tun haben. Einzelwagnisse geht der Unternehmer immer wieder ein; sie ergeben sich aus der alltäglichen Unternehmensführung und dem betrieblichen Alltag.
 
-
-<table border=1px>
-  <tr>
-    <td colspan="2" align="center">KV Störung</td>
-  </tr><tr>
-    <td>verkäufer </td><td>Kaufer </td>
-  </tr>
-  <tr>
-    <td> Mangelhafte LieferungLieferVERZUG</td><td> AnnahmeVERZUG ZahlunsVERZUG</td>
-  </tr>
-   
-</table>
-
- 
+| <td colspan=2> KV Störung |               |
+| :-----------------------: | :-----------: |
+|         verkäufer         |    Kaufer     |
+|   Mangelhafte Lieferung   | AnnahmeVERZUG |
+|       LieferVERZUG        | ZahlunsVERZUG |
 
 Fälligkeit der Leistung  
 Kalendarmässige bestimmbarkeit
@@ -969,73 +969,28 @@ betrifft solche Schäden, die endgültig eingetreten sind und nicht durch Nacher
 
 #### vorrangige Rechte
 
-Vorrangig hat der Käufer das Recht auf Nacherfüllung. 
+Vorrangig hat der Käufer das Recht auf Nacherfüllung.
 
 #### nachrangige Rechte
 
-Bei mangelhafter Lieferung haben Sie vorrangig das Recht auf Nacherfüllung, also Reparatur oder Ersatzlieferung. Sollten Sie mit Ihrem Anspruch auf Nachbesserung scheitern, kommen nachrangige Rechte zum Tragen und Sie haben Anspruch auf Minderung des Kaufpreises oder den Rücktritt vom Kaufvertrag.
+Sollten Sie mit Ihrem Anspruch auf Nachbesserung scheitern, kommen **nachrangige Rechte** zum Tragen und Sie haben Anspruch auf Minderung des Kaufpreises oder den Rücktritt vom Kaufvertrag.
 
 #### objektive Anforderung
 
 entspricht die Sache, wenn sie sich für die gewöhnliche Verwendung eignet und eine Beschaffenheit aufweist, die bei Sachen der gleichen Art üblich ist.
 
-#### subjektive Anforderung 
+#### subjektive Anforderung
 
 entspricht der Kaufgegenstand, soweit er die vereinbarte Beschaffenheit hat und sich für die nach dem Vertrag vorausgesetzte Verwendung eignet und mit dem vereinbarten Zubehör und den vereinbarten Anleitungen übergeben wird.
 
+##### remember:
 
-remember: 
 - Fälligkeit der Zahlung
 - Mahnung des Käufers
 - verschulden des Käufers
 - Vom Kaufvertrag kann erst nach Ablauf einer angemenssenen Nachfrist zurückgetreten werden.
-
-## 5 06 2023
-
-### Wiso
-
-- B2B zweiseitige handelskauf
-- B2C verbrauchsgüterkauf 
-- C2C Bürgerlicher Kauf
-
-- Gewährleistungs frist: 
-  - Jeder Händler muss zwei Jahre Gewährleistung (auch Mängelhaftung genannt) auf Neuwaren und zwölf Monate auf Gebrauchtwaren einräumen. Dazu ist er gesetzlich verpflichtet (§§ 437, 438 BGB). Die Gewährleistung deckt Mängel ab, die das Produkt bereits zum Zeitpunkt des Kaufs hatte.
+- Rückgriffsrecht
   
-- Prüf und Rügefriste:
-  - Erkennbare Mängel müssen unverzüglich gegenüber dem Verkäufer gerügt werden. Wie lange der Käufer mit der Untersuchung bzw. Rüge warten darf, richtet sich wiederum nach den Gepflogenheiten der Branche. Dem Käufer ist zu raten, sicherheitshalber stets die Frist von einem Tag einzuhalten.
-   
-- Mangelrücke an den Lieferanten schicken
-  - Mangel genau beschreiben
-  
-- Kalkulatorishe Kosten: 
-  - Unter kalkulatorischen Kosten versteht man in der Betriebswirtschaftslehre und im Rechnungswesen Kostenarten, denen gar kein oder kein gleich hoher Aufwand gegenübersteht. Kalkulatorische Kosten fallen nur rechnerisch an, sie werden tatsächlich nicht bezahlt. Pendant sind die kalkulatorischen Erlöse 
-  
-
-- Kalkulatorische Wagnisse:
-  - Das kalkulatorische Wagnis ist im Rechnungswesen ein Teil der kalkulatorischen Kosten, welche die aus dem unternehmerischen Wagnis resultierenden befürchteten oder erwarteten Verluste in der Kostenrechnung abbilden sollen.
-
-- Fixkauf nicht gemacht sofot Deckungskauf
-
-
-#### Kaufrecht_2022
-
- ![Alt text](img/Kaufrecht_2022_01.png)
- ![Alt text](img/Kaufrecht_2022_02.png)
- ![Alt text](img/Kaufrecht_2022_03.png)
-  ![Alt text](img/Kaufrecht_2022_04.png)
-   ![Alt text](img/Kaufrecht_2022_05.png)
-    ![Alt text](img/Kaufrecht_2022_06.png)
-     ![Alt text](img/Kaufrecht_2022_07.png)
-      ![Alt text](img/Kaufrecht_2022_08.png)
-
-#### Mangelbegriff 2022 online
-
-![Alt text](img/Mangelbegriff_2022_online_01.png)
-![Alt text](img/Mangelbegriff_2022_online_02.png)
-![Alt text](img/Mangelbegriff_2022_online_03.png)
-![Alt text](img/Mangelbegriff_2022_online_04.png)
-![Alt text](img/Mangelbegriff_2022_online_05.png)
-
 [^10]: NFS Network File System is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.
 [^11]: CIFS Common Internet File System is a protocol that gained popularity around the year 2000, as vendors worked to establish an Internet Protocol-based file-sharing protocol.
 [^12]: FC Fibre Channel is a high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks in commercial data centers.

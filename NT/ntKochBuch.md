@@ -277,12 +277,12 @@ Welches Licht können wir sehen?
 
 [de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
 
-#### SFP[^8] (Mini-GBIC[^9])
+#### SFP[^6] (Mini-GBIC[^7])
 
 [de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
 
-[^8]: SFP Small_Form-factor_Pluggable
-[^9]: Mini-GBIC mini Gigabit Interface Converter
+[^6]: SFP Small_Form-factor_Pluggable
+[^7]: Mini-GBIC mini Gigabit Interface Converter
 
 ### einfache Regel für die Verkabelung:
 
@@ -361,18 +361,18 @@ Mit Reflektor => in einem kleinen Bereich ist es sehr hell und kann stark blende
 Nach diesem Prinzip arbeitet auch eine Antenne, sie ist sozusagen eine Art "Reflektor".  
 Um das "Blenden" (zu viel abgestrahlte Energie auf einen zu kleinen Punkt) zu
 verhindern, sagt der Gesetzgeber:  
-EIRP[^10], sozusagen die Leistung ohne Reflektor:
+EIRP[^8], sozusagen die Leistung ohne Reflektor:
 
 bei 2,4 GHz => bis zu 100 mW  
 bei 5 GHz => bis zu 1000 mW
 
-ERP[^11], sozusagen die noch erlaubte Leistung mit Reflektor:  
+ERP[^9], sozusagen die noch erlaubte Leistung mit Reflektor:  
 rechne:  
 1.) dB => Faktor  
 2.) ERP = EIRP / Faktor
 
-[^10]: EIRP equivalent isotropically radiated power
-[^11]: ERP equivalent radiated power
+[^8]: EIRP equivalent isotropically radiated power
+[^9]: ERP equivalent radiated power
 
 Beispiel:  
 EIRP = 100 mW  
@@ -406,7 +406,7 @@ Somit bleiben nur ca. <f>1460 Byte pro Frame</f> (Datenpaket) für die reinen Da
 [https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)  
 => siehe: Grafik unten: "Aufbau eines Eternet-Frames mit maximalen IPv4- / TCP-Daten"
 
-## F. Sniffer 
+## F. Sniffer
 
 Wenn ein Sniffer eingesetzt werden soll, gilt folgendes zu beachten:
 
@@ -486,9 +486,9 @@ Eine Auswahl an Einstellmöglichkeiten:
 
 ### Port-Mirroring:
 
-Spiegelung des Datenverkehrs eines Ports an einen zweiten Port für Analyse (Sniffing). 
+Spiegelung des Datenverkehrs eines Ports an einen zweiten Port für Analyse (Sniffing).
 
-### Link Aggregation  
+### Link Aggregation
 
 [de.wikipedia.org/wiki/Link_Aggregation](de.wikipedia.org/wiki/Link_Aggregation)
 
@@ -506,7 +506,7 @@ Zum Aufbau von redundanten Wegen zwischen den Switches.
 
 ### Redundanz:
 
-[de.wikipedia.org/wiki/Redundanz_(Technik)](de.wikipedia.org/wiki/Redundanz_(Technik))
+[de.wikipedia.org/wiki/Redundanz\_(Technik)](<de.wikipedia.org/wiki/Redundanz_(Technik)>)
 
 ### Power over Ethernet
 
@@ -516,7 +516,7 @@ Zum Aufbau von redundanten Wegen zwischen den Switches.
 => siehe: Tabelle "Vergleich der PoE-Standards"
 802.3af  
 802.3at  
-802.3bt  
+802.3bt
 
 #### VLAN:
 
@@ -1841,7 +1841,8 @@ Denke an Nummernschilder von Fahrzeugen wie "Y", "THW", "BP".
 
 | Beginn:   | Ende       |
 | --------- | ---------- |
-| Port 1024 | Port 49151 | 
+| Port 1024 | Port 49151 |
+
 1011111111111111
 
 Firmen haben sich aus diesem Bereich Ports für ihre Softwareprodukte "registrieren" lassen.
@@ -2028,7 +2029,7 @@ Der interne Webserver (192.168.178.11) wird gebootet.
 ### Portforwarding / Destination NAT:
 
 => siehe: Foto "TB_16" als Tafelbild als Beispiel.
-![Alt text](img/TB_16.JPG)
+![Alt text](img/TB_16.**JPG**)
 
 [de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
 
@@ -2040,29 +2041,42 @@ Weiterleitung von Anfragen aus dem externen Netz (Internet) in das interne, priv
 
 Aus der Unix-Welt stammt der Begriff "Destination NAT" (sinngemäß: Übersetzung am Ziel).
 
-#### Funktionsbeschreibung:
+#### Funktionsbeschreibung
+
 Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, über die sie auch
-aus dem Internet erreichbar ist.  
-Aus dem Internet soll ein Laptop von extern auf interne Geräte zugreifen können.  
-Im internen Netz existieren 2 WebCams, die von extern erreichbar sein sollen:  
+aus dem Internet erreichbar ist.
+
+Aus dem Internet soll ein Laptop von extern auf interne Geräte zugreifen können.
+
+Im internen Netz existieren 2 WebCams, die von extern erreichbar sein sollen:
+
 WebCam 1:  
 IP-Adresse: 192.168.178.21  
-Port: 80  
+Port: 80
+
 WebCam 2:  
 IP-Adresse: 192.168.178.22  
-Port: 80  
-Auf der FritzBox wurde <f>Portforwarding</f> aktiviert.  
-Auf der FritzBox wurden 2 willkürliche, externe Ports gewählt (8080 und 8081).  
-Auf der FritzBox wurde eine Tabelle mit 2 Einträgen erstellt:  
+Port: 80
+
+Auf der FritzBox wurde <f>Portforwarding</f> aktiviert.
+
+Auf der FritzBox wurden 2 willkürliche, externe Ports gewählt (8080 und 8081).
+
+Auf der FritzBox wurde eine Tabelle mit 2 Einträgen erstellt:
+
 (1) 11.1.2.4:8080 => 192.168.178.21:80  
-(2) 11.1.2.4:8081 => 192.168.178.22:80  
+(2) 11.1.2.4:8081 => 192.168.178.22:80
+
 ==>> Die externe IP-Adresse muss immer gleich sein, nur die willkürlichen, externen Ports
-dienen der Unterscheidung, welches interne Gerät angesprochen werden soll.  
+dienen der Unterscheidung, welches interne Gerät angesprochen werden soll.
+
 <!-- [61] -->
+
 - Greift das Laptop mit (1) von extern auf die externe IP-Adresse 11.1.2.4 und den
-willkürlichen, externen Port 8080 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.21 und den Port 80 (WebCam 1) weitergeleitet.   
+  willkürlichen, externen Port 8080 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.21 und den Port 80 (WebCam 1) weitergeleitet.
+
 - Greift das Laptop mit (2) von extern auf die externe IP-Adresse 11.1.2.4 und den
-willkürlichen, externen Port 8081 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.22 und den Port 80 (WebCam 2) weitergeleitet.
+  willkürlichen, externen Port 8081 zu, wird die Anfrage nach intern auf die IP-Adresse 192.168.178.22 und den Port 80 (WebCam 2) weitergeleitet.
 
 <f>Portforwarding</f> ist nicht sehr sicher.
 Von extern wird ein Zugang zum internen Netz geschaffen  
@@ -2070,13 +2084,14 @@ Von extern wird ein Zugang zum internen Netz geschaffen
 Portforwarding kann mit Portknocking und WoL (siehe oben) kombiniert werden,
 ("TB_15" + "TB_16"):
 
-|TB_15|TB_16|
-|-----|-----|
-|![Alt text](img/TB_15.JPG)|![Alt text](img/TB_16.JPG)|
+| TB_15                      | TB_16                      |
+| -------------------------- | -------------------------- |
+| ![Alt text](img/TB_15.JPG) | ![Alt text](img/TB_16.JPG) |
 
 Portknocking => Ereignis auslösen (WoL).  
 WoL => interner Webserver bootet.  
 Portforwarding => Zugriff auf den internen Webserver ("poweroff" zum Schluss nicht vergessen).
+
 <!-- [62] -->
 
 ### NAT(PAT) / Source NAT
@@ -2111,45 +2126,39 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
 
    <!-- [63] -->
 
-   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (Socket: 82.165.230.17:80) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: 192.168.178.11:11111.  
-   PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (Socket: 193.99.144.85:80)
-   holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: 192.168.178.22:22222.  
+   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (**Socket: 82.165.230.17:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: **192.168.178.11:11111**.
 
-   Ablauf (step by step) für PC1:  
+   PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (**Socket: 193.99.144.85:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: **192.168.178.22:22222**.
 
-   (1):
-   PC1 (192.168.178.11:11111) schickt seinen Wunsch nach der Webseite Web.de (82.165.230.17:80)
-   an die FritzBox.
+   Ablauf (step by step) für PC1:
+
+   (1): PC1 (**192.168.178.11:11111**) schickt seinen Wunsch nach der Webseite Web.de (**82.165.230.17:80**) an die FritzBox.  
    Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60000 ein.
-   In dieser Zeile landen der Quell-Socket: 192.168.178.11:11111 (PC1) und
-   der Ziel-Socket: 82.165.230.17:80 (Web.de).
-   (2):
-   Die FritzBox holt die Webseite von Web.de.de.
+   In dieser Zeile landen der Quell-Socket: **192.168.178.11:11111** (PC1) und der Ziel-Socket: **82.165.230.17:80** (Web.de).
+
+   (2): Die FritzBox holt die Webseite von Web.de.
    Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60000 als Quell-Socket.
    Inhalt der Anfrage der FritzBox (sinngemäß):
    Quell-Socket: 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
-   Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port)
-   "Gib mir die Webseite".
+   Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port) "Gib mir die Webseite".
    Antwort von Web.de (sinngemäß):
    Quell-Socket: 82.165.230.17:80 (Web.de und Webserver-Port)
    Ziel-Socket : 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
    "Hier kommt der Inhalt der Webseite".
 
    <!-- [64] -->
+
    Nach der Lieferung der Webseite von Web.de schaut die FritzBox unter dem Fake-Port 60000
-   nach, von wem die Bestellung ursprünglich kam: 192.168.178.11:11111 (PC1).
+   nach, von wem die Bestellung ursprünglich kam: 192.168.178.11:11111 (PC1).  
    Die FritzBox liefert abschließend die Webseite von Web.de an PC1 aus.
-   ==>> Jetzt überlegen Sie sich bitte den Ablauf für PC2.
-   Ablauf (step by step) für PC2:
-   (3):
-   PC2 (192.168.178.22:22222) schickt seinen Wunsch nach der Webseite Heise.de (193.99.144.85:80)
-   an die FritzBox.
+
+   ==>> Jetzt überlegen Sie sich bitte den Ablauf für PC2. Ablauf (step by step) für PC2:
+
+   (3): PC2 (192.168.178.22:22222) schickt seinen Wunsch nach der Webseite Heise.de (193.99.144.85:80) an die FritzBox.
    Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60001 ein.
-   In dieser Zeile landen der Quell-Socket: 192.168.178.22:22222 (PC2) und
-   der Ziel-Socket: 193.99.144.85:80 (Heise.de).
-   (4):
-   Die FritzBox holt die Webseite von Heise.de.
-   Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60001 als Quell-Socket.
+   In dieser Zeile landen der Quell-Socket: 192.168.178.22:22222 (PC2) und der Ziel-Socket: 193.99.144.85:80 (Heise.de).
+
+   (4): Die FritzBox holt die Webseite von Heise.de.Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60001 als Quell-Socket.
    Inhalt der Anfrage der FritzBox (sinngemäß):
    Quell-Socket: 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
    Ziel-Socket : 193.99.144.85:80 (Heise.de und Webserver-Port)
@@ -2159,322 +2168,411 @@ Die FB hat eine dynamische Tabelle mit 3 Spalten:
    Ziel-Socket : 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
    "Hier kommt der Inhalt der Webseite".
    <!-- [65] -->
+
    Nach der Lieferung der Webseite von Heise.de schaut die FritzBox unter dem Fake-Port 60001
    nach, von wem die Bestellung ursprünglich kam: 192.168.178.22:22222 (PC2).
+
    Die FritzBox liefert abschließend die Webseite von Heise.de an PC2 aus.
-   Black- und Whitelist ==>> heute Block- und Allowlist:
-   shalla.de => Sehr umfangreiche Blocklist, Download nur noch mit Vertrag möglich
-   Blocklist:
-   ==>> Alles erlaubt außer . . . ."
-   Eine Blocklist ist niemals vollständig:
-   Die Shalla-Liste hat z.B. mehr als 1770000 Einträge.
-   Aber stündlich kommen neue "schwarze" Seiten ins Internet.
-   Ist aber ein recht brauchbares Mittel, um das Firmennetz vor Missbrauch zu schützen.
-   Blocklist (Auszug):
-   Game.com
-   Musik.com
-   Cars.com
-   Dating.com
-   Heise.de
-   Anfrage an die Blocklist: "Game.com" erlaubt? => Antwort NEIN!
-   Anfrage an die Blocklist: "Heise.de" erlaubt? => Antwort NEIN!
-   Anfrage an die Blocklist: "Web.de" erlaubt? => Antwort JA!
-   ==>> Kein Mitarbeiter darf auf die Webseite von Heise.de => unbrauchbare Lösung für eine IT-Firma.
+
+### Black- und Whitelist ==>> heute Block- und Allowlist:
+
+shalla.de => Sehr umfangreiche Blocklist, Download nur noch mit Vertrag möglich
+
+#### Blocklist
+
+##### ==>> Alles erlaubt außer . . . ."
+
+Eine Blocklist ist niemals vollständig:
+Die Shalla-Liste hat z.B. mehr als 1770000 Einträge.
+Aber stündlich kommen neue "schwarze" Seiten ins Internet.
+Ist aber ein recht brauchbares Mittel, um das Firmennetz vor Missbrauch zu schützen.
+
+##### Blocklist (Auszug)
+
+- Game.com
+- Musik.com
+- Cars.com
+- Dating.com
+- Heise.de
+
+  - Anfrage an die Blocklist: "Game.com" erlaubt? => Antwort NEIN!
+  - Anfrage an die Blocklist: "Heise.de" erlaubt? => Antwort NEIN!
+  - Anfrage an die Blocklist: "Web.de" erlaubt? => Antwort JA!
+
+  ==>> Kein Mitarbeiter darf auf die Webseite von Heise.de => unbrauchbare Lösung für eine IT-Firma.
    <!-- [66] -->
-   Allowlist:
-   ==>> "Alles verboten außer . . . ."
-   Eine Allowlist auch ist niemals wirklich vollständig:
-   Täglich kommen neue Wünsche der Mitarbeiter.
-   Ist ein sehr striktes Mittel, um das Firmennetz vor Missbrauch zu schützen.
-   Allowlist (Auszug):
-   Heise.de
-   Anfrage an die Allowlist: "Game.com" erlaubt? => Antwort NEIN!
-   Anfrage an die Allowlist: "Heise.de" erlaubt? => Antwort JA!
-   Anfrage an die Allowlist: "Web.de" erlaubt? => Antwort NEIN!
-   ==>> Alle Mitarbeiter dürften nur auf die Webseite von Heise.de => auch nicht praktikabel.
-   Kombination aus Block- UND Allowlist:
-   Nutze eine sehr umfangreiche Blocklist und "bohre" sie mithilfe der Allowlist an den Stellen auf,
-   an denen sie "zu streng" ist:
-   Blocklist (Auszug):
-   siehe oben
-   Allowlist (Auszug):
-   siehe oben
-   Anfrage an Block- UND Allowlist: "Game.com" erlaubt? => Antwort NEIN! (steht in der Blocklist)
-   Anfrage an Block- UND Allowlist: "Heise.de" erlaubt? => Antwort JA! (steht in der Allowlist)
-   Anfrage an Block- UND Allowlist: "Web.de" erlaubt? => Antwort JA! (steht in keiner Liste)
-   ==>> Alle Mitarbeiter können sich informieren aber nicht spielen => praktikable Lösung.
+
+#### Allowlist:
+
+##### ==>> "Alles verboten außer . . . ."
+
+Eine Allowlist auch ist niemals wirklich vollständig:
+Täglich kommen neue Wünsche der Mitarbeiter.
+Ist ein sehr striktes Mittel, um das Firmennetz vor Missbrauch zu schützen.
+Allowlist (Auszug):
+Heise.de
+
+- Anfrage an die Allowlist: "Game.com" erlaubt? => Antwort NEIN!
+- Anfrage an die Allowlist: "Heise.de" erlaubt? => Antwort JA!
+- Anfrage an die Allowlist: "Web.de" erlaubt? => Antwort NEIN!
+  ==>> Alle Mitarbeiter dürften nur auf die Webseite von Heise.de => auch nicht praktikabel.
+
+##### Kombination aus Block- UND Allowlist:
+
+Nutze eine sehr umfangreiche Blocklist und "bohre" sie mithilfe der Allowlist an den Stellen auf, an denen sie "zu streng" ist:
+Blocklist (Auszug):  
+ siehe oben  
+ Allowlist (Auszug):  
+ siehe oben
+
+- Anfrage an Block- UND Allowlist: "Game.com" erlaubt? => Antwort NEIN! (steht in der Blocklist)
+- Anfrage an Block- UND Allowlist: "Heise.de" erlaubt? => Antwort JA! (steht in der Allowlist)
+- Anfrage an Block- UND Allowlist: "Web.de" erlaubt? => Antwort JA! (steht in keiner Liste)
+==>> Alle Mitarbeiter können sich informieren aber nicht spielen => praktikable Lösung.
    <!-- [67] -->
-   ## K. Firewalls (im weiteren Verlauf oft mit "FW" abgekürzt):
-   => siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
-   de.wikipedia.org/wiki/Firewall
-   de.wikipedia.org/wiki/Stateful_Packet_Inspection
-   Unterscheidungsmerkmale:
-   Personal-FW:
-   Schützt nur den Host (PC, Server) auf dem sie läuft.
-   Unternehmens-FW:
-   Schützt das LAN oder Teile des LANs eines Unternehmens.
-   Paketfilter-FW:
-   Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.
-   Ist veraltet und unsicher.
-   Sowohl Hin-Richtung als auch Rück-Richtung müssen angegeben werden:
-   Quelle => Ziel
-   Quelle <= Ziel
-   ==>> Noch immer Thema in den IHK-Prüfungen!
-   SPI-FW:
-   Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.
-   Ist modern und recht sicher.
-   Nur die Hin-Richtung muss angegeben werden:
-   Quelle => Ziel
-   Die Rück-Richtung (Quelle <= Ziel) wird durch die SPI-FW selbst gesteuert.
-   Mit "iptables", ist eine kostenlose und leistungsstarke Firewall-Lösung unter Linux verfügbar.
-   ==>> Alle weiteren Ausführungen beziehen sich auf eine SPI-FW mit iptables im Rahmen einer Unternehmens-Firewall.
+
+## K. Firewalls (im weiteren Verlauf oft mit "FW" abgekürzt)
+
+=> siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
+
+[de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)  
+[de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
+
+### Unterscheidungsmerkmale:
+
+#### Personal-FW:
+
+Schützt nur den Host (PC, Server) auf dem sie läuft.
+
+#### Unternehmens-FW:
+
+Schützt das LAN oder Teile des LANs eines Unternehmens.
+
+#### Paketfilter-FW:
+
+Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
+Ist veraltet und unsicher.  
+Sowohl Hin-Richtung als auch Rück-Richtung müssen angegeben werden:  
+Quelle => Ziel  
+Quelle <= Ziel  
+==>> Noch immer Thema in den IHK-Prüfungen!
+
+#### SPI-FW[^10]:
+
+**Stateful Packet Inspection Firewall** Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
+Ist modern und recht sicher.  
+Nur die Hin-Richtung muss angegeben werden:  
+ Quelle => Ziel  
+ Die Rück-Richtung (Quelle <= Ziel) wird durch die SPI-FW selbst gesteuert.  
+ Mit "iptables", ist eine kostenlose und leistungsstarke Firewall-Lösung unter Linux verfügbar.
+
+==>> Alle weiteren Ausführungen beziehen sich auf eine **SPI-FW** mit iptables im Rahmen einer Unternehmens-Firewall.
+
+[^10]: SPI-FW Stateful Packet Inspection Firewall Protection feature keeps track of the state of network connections traveling across it. This feature protects your internet connection against threats and Denial of Service (DoS), which is why it is recommended to keep it enabled.
+
    <!-- [68] -->
-   Allgemeine Erklärungen:
-   de.wikipedia.org/wiki/ Sylt  
-   => siehe: \_1_Bruecke.pdf
-   Zwischen der Insel Sylt und dem Festland gibt es nur eine Verbindung, über den Hindenburgdamm.
-   ==>> folgende Denke:
-   Auf dem Hindenburgdamm gibt es eine Brücke mit einer Wachmannschaft.
-   Die Brücke hat 2 Schranken:
-   GRÜNE Schranke:
-   Name: "eth0"
-   In die Richtung zur Insel Sylt (zum sicheren "internen Netz").
-   ROTE Schranke:
-   Name: "eth1"
-   In die Richtung zum Festland (zum unsicheren "externen Netz").
-   Die Wachmannschaft hat 3 Zettel (Regelsätze genannt), auf denen bestimmte Regeln stehen:
-4. Zettel (Regelsatz FORWARD):
-   Wer darf vom Festland auf die Insel.
-   Wer darf von der Insel auf das Festland.
-5. Zettel (Regelsatz INPUT):
-   Wer darf vom Festland kommend, die Wachmannschaft besuchen.
-   Wer darf von der Insel kommend, die Wachmannschaft besuchen.
-6. Zettel (Regelsatz OUTPUT)
-   Wer von der Wachmannschaft darf in Richtung Festland gehen.
-   Wer von der Wachmannschaft darf in Richtung Insel gehen.
 
-   <!-- [69] -->
+### Allgemeine Erklärungen:
 
-   Innerer Aufbau der SPI-FW mit iptables:
-   => siehe: \_2_FW_innen.pdf
-   Wachmannschaft => Betriebssystem (Linux)
-   GRÜNE Schranke => Netzwerkkarte eth0
-   ROTE Schranke => Netzwerkkarte eth1
-   FORWARD:
-   eth0 => Firewall => eth1
-   eth1 => Firewall => eth0
-   Hauptaufgabe von FORWARD:
-   Wer darf welche Daten von eth0 => eth1 senden.
-   Wer darf welche Daten von eth1 => eth0 senden.
-   INPUT:
-   eth0 => Linux
-   eth1 => Linux
-   Hauptaufgabe von INPUT:
-   Wer darf welche Daten über eth0 => Linux senden.
-   Wer darf welche Daten über eth1 => Linux senden.
-   OUTPUT:
-   Linux => eth0
-   Linux => eth1
-   Hauptaufgabe von OUTPUT:
-   Welche Daten darf Linux über eth0 aussenden.
-   Welche Daten darf Linux über eth1 aussenden.
+[de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
 
-   [70]
-   Welche Schichten des OSI-Modells sind mit der SPI-FW (iptables) unter Linux steuerbar?
-   Alle Bedingungen sind logisch UND-verknüpft!
-   Schicht 1 => Netzwerkkarte:
-   Funktioniert nur auf der Firewall selbst.
-   UND
-   Schicht 2 => MAC-Adresse:
-   Nur der Rechner mit der entsprechenden MAC-Adresse darf….
-   UND
-   Schicht 3 => IP-Adresse:
-   Nur der Rechner mit der entsprechenden IP-Adresse darf….
-   UND
-   Schicht 4 => TCP oder UDP:
-   Nur wenn der Rechner ein Datenpaket über TCP oder UDP sendet, darf er….
-   UND
-   Schicht 5 - 7 => Port:
-   Nur wenn der Rechner über Port xy kommuniziert, darf er….
-   ==>> Port = Anwendung
-   22 = ssh
-   53 = DNS
-   80 = http
-   443 = https
-   [71]
-   ==>> DENKSPORT (es soll ja schließlich nicht langweilig werden):
-   => siehe: \_3_FW_Skizze_leer_2.pdf
-   Füllen Sie bitte die Skizze aus.
-   Jeder Pfeil hat einen Anfang (kleines Rechteck) => Quelle.
-   Jeder Pfeil hat ein Ende (Spitze) => Ziel
-   Rück-Richtung ist hier uninteressant, wir haben schließlich eine SPI-Firewall mit iptables.
-   Überlegen Sie für jeden Dienst (Pfeil):
-   Ist es FORWARD?
-   Ist es INPUT?
-   Ist es OUTPUT?
-   Macht es Sinn die MAC-Adresse mit in die Regel aufzunehmen?
-   Ist die IP-Adresse ein einzelner Host oder ganzes Netz?:
-   Angabe der Subnetzmaske /24 => das ganze Netz.
-   keine Angabe der Subnetzmaske => einzelner Host.
-   Wird TCP oder UDP genutzt?
-   Welcher Port wird genutzt?
-   ==>> GENUG GEDACHT:
-   => siehe: \_4_FW_Skizze_Inhalt_2.pdf
-   Auflösung des Rätsels:
-   (1) DNS:
-   FORWARD => durch die Firewall hindurch.
-   Für DNS wird UDP verwendet.
-   Quelle: das ganze Netz 192.168.33.0 /24
-   Ziel: der Server 192.168.10.201
-   Port: 53
-   [72]
-   (2) PROXY:
-   FORWARD => durch die Firewall hindurch.
-   Für Webanfragen (http, https) wird TCP verwendet.
-   Quelle: das ganze Netz 192.168.33.0 /24
-   Ziel: der Server 192.168.10.202
-   Ports: 80 und 8080
-   Mit "Multiports" können mehrere Ports auf einmal angegeben werden.
-   Wird die Software "Squid" als Proxy verwendet => Port 3128
-   (3) DHCP:
-   INPUT => in die Firewall hinein:
-   Die Firewall selbst bietet DHCP an.
-   DHCP verwendet UDP (Broadcast, funktioniert mit TCP nicht, => siehe: oben).
-   Quelle: das ganze Netz 192.168.33.0 /24
-   Ziel: die Firewall 192.168.33.1 (über die IP-Adresse auf der "GRÜNEN" Netzwerkkarte eth0)
-   Port: 67
-   (4) Ping:
-   INPUT => in die Firewall hinein:
-   Die Firewall selbst bietet an, auf Ping zu antworten.
-   Ping verwendet ICMP:
-   de.wikipedia.org/wiki/Internet_Control_Message_Protocol
-   Quelle: das ganze Netz 192.168.33.0 /24
-   Ziel: die Firewall 192.168.33.1 (über die IP-Adresse auf der "GRÜNEN" Netzwerkkarte eth0)
-   Port: gibt es bei ICMP nicht
-   [73]
-   (5) SSH:
-   INPUT => in die Firewall hinein:
-   Die Firewall selbst bietet an, sich über ssh fernsteuern zu lassen.
-   Für ssh wird TCP verwendet.
-   Quelle: nur der PC mit:
-   der IP-Adresse 192.168.10.101
-   UND
-   der MAC-Adresse AA:BB:CC:DD:EE:FF
-   Ziel: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1).
-   Port: 22
-   (6) NTP:
-   OUTPUT => aus der Firewall heraus:
-   Die Firewall möchte sich die genaue Zeit vom Zeitserver holen.
-   Für ntp wird UDP verwendet.
-   Quelle: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1)
-   Ziel: der NTP-Server mit der IP-Adresse 192.168.10.204
-   Port: 123
-   [74]
-   iptables – Syntax:
-   Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet:
-   => siehe: \_5_Beispiele_CSTATE.pdf
-   => siehe: firewall_leer.sh (als Basis für eigene Firewalls)
-   Erklärungen und Vereinfachungen:
-   "ABC" => steht stellvertretend für eine ganze Anweisung.
-   "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).
-"IPT" => Pfad zu iptables
-"IU"  => INPUT UDP
-"IT"  => INPUT TCP
-"II"  => INPUT ICMP
-"FU"  => FORWARD UDP
-"FT"  => FORWARD TCP
-"FI"  => FORWARD ICMP
-"OU"  => OUTPUT UDP
-"OT"  => OUTPUT TCP
-"OI"  => OUTPUT ICMP
-"MAC" => nur diese MAC-Adresse darf….
-"MP"  => multiport (Angabe mehrerer Ports auf einmal)
-"R"   => Der Rest, der hinter jeder Zeile stehen muss.
-Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht.
-HIER KOMMEN JETZT DIE EIGENEN REGELN….
-Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).
-echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
-Alles unterhalb "# Ende eigene Regeln" wird auch immer gebraucht.
+=> siehe: \_1_Bruecke.pdf
 
-     [75]
-==>> DENKSPORT (wieder einmal):
-=> siehe nochmals: _4_FW_Skizze_Inhalt_2.pdf
-    _5_Beispiele_CSTATE.pdf
-nutzen Sie firewall_leer.sh:
-Erarbeiten Sie die Syntax für die Regeln aus _4_FW_Skizze_Inhalt_2.pdf.
-==>> GENUG GEDACHT:
-=> siehe: firewall_Inhalt.sh
-Auflösung des Rätsels:
-aus "Quelle" => "-s"
-aus "Ziel"   => "-d"
-aus "Port"   => "--dport"
-aus "Ports"  => "--dports" (mehrere Ports, Plural):
-==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile
-   stehen und man darf das kleine "s" bei "Ports" nicht vergessen.
-   Skript (firewall_Inhalt.sh) nutzen:
-   PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
-   PC braucht 2. Netzwerkkarte:
-1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
-   Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
-   Skript auf den PC kopieren (auch per USB-Stick möglich).
-   Skript "ausführbar" machen => "chmod 755 firewall*Inhalt.sh"
-   Skript starten => "./firewall_Inhalt.sh"
-   Skript wird abgearbeitet => die Zeilen mit "echo" werden angezeigt.
+Zwischen der Insel Sylt und dem Festland gibt es nur eine Verbindung, über den Hindenburgdamm.  
+==>> folgende Denke:
 
-   [76]
+- Auf dem Hindenburgdamm gibt es eine Brücke mit einer Wachmannschaft.
+- Die Brücke hat 2 Schranken:
 
-   Demilitarisierte Zone ("DMZ"):
-   de.wikipedia.org/wiki/Demilitarisierte_Zone*(Informatik)
-   heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html
-   => siehe: Foto "TB_14" als Tafelbild
-   ![TB_14!](img/TB_14.jpg "TB_14")
-   Allgemein:
-   Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:
-   Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
-   Das 2-stufige Konzept:
-   Wird in den IHK-Prüfungen bevorzugt.
-   Ist aufwendiger (2 Firewalls mit je 2 Netzwerkkarten, 2 mal Regeln schreiben).
-   Ist sicherer => doppelte "Verteidigungslinie".
-   ==>> Denke an Burgen aus dem Mittelalter
-   Das 1-stufige Konzept:
-   Ist weniger aufwendig (nur 1 Firewall mit 3 Netzwerkkarten, nur 1 mal Regeln schreiben).
-   Ist unsicherer => einfache "Verteidigungslinie".
-   ==>> Denke an Stadttore aus dem Mittelalter
-   Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
+  - GRÜNE Schranke:
 
-   ![TB_14!](img/TB_14.jpg "TB_14")
-   Erklärung zu TB_14:
-   ROTES Netz (extern) 192.168.1.0 /24:
-   192.168.1.1 => ROTE Netzwerkkarte der Firewall
-   192.168.1.2 => Schnittstelle der FritzBox
-   GRÜNES Netz (intern) 192.168.2.0 /24:
-   192.168.2.1 => GRÜNE Netzwerkkarte der Firewall
-   192.168.2.2 => PC des Chefs
-   192.168.2.3 => PC des Admins
-   [77]
-   ORANGENES Netz (DMZ) 192.168.3.0 /24:
-   ==>> Wir definieren in TB_14 BLAU zu ORANGE um!
-   192.168.3.1 => ORANGENE Netzwerkkarte der Firewall
-   192.168.3.2 => firmeneigener Webserver läuft auf Port 80
-   Allgemein formulierte Regeln für die Firewall:
-   (1) GRÜNES Netz => Internet (http)
-   (2) Internet => firmeneigener Webserver (http)
-   (3) GRÜNES Netz => firmeneigener Webserver (http)
-   (4) PC des Chefs => Internet (https)
-   (5) PC des Admins => Firewall (ssh)
-   (6) PC des Admins => Webserver (ssh)
-   (7) Firewall => Internet (NTP)
-   ==>> Sie ahnen es schon => DENKSPORT:
-   => siehe: \_4_FW_Skizze_Inhalt_2.pdf
-   \_5_Beispiele_CSTATE.pdf
-   firewall_Inhalt.sh
-   gehen Sie in 2 Schritten vor:
-   1.) Erarbeiten Sie eine Tabelle wie in "\_4_FW_Skizze_Inhalt_2.pdf" unten.
-   2.) Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".
-   [78]
-   ==>> GENUG GEDACHT:
-   Lösung Schritt 1:
+    - Name: "eth0"
+    - In die Richtung zur Insel Sylt (zum sicheren "internen Netz").
+
+  - ROTE Schranke:
+    - Name: "eth1"
+    - In die Richtung zum Festland (zum unsicheren "externen Netz").
+
+- Die Wachmannschaft hat 3 Zettel (Regelsätze genannt), auf denen bestimmte Regeln stehen:
+
+  1. Zettel (Regelsatz FORWARD):
+
+  - Wer darf vom Festland auf die Insel.
+  - Wer darf von der Insel auf das Festland.
+
+  2. Zettel (Regelsatz INPUT):
+
+  - Wer darf vom Festland kommend, die Wachmannschaft besuchen.
+  - Wer darf von der Insel kommend, die Wachmannschaft besuchen.
+
+  3. Zettel (Regelsatz OUTPUT)
+
+  - Wer von der Wachmannschaft darf in Richtung Festland gehen.
+  - Wer von der Wachmannschaft darf in Richtung Insel gehen.
+
+       <!-- [69] -->
+
+### Innerer Aufbau der SPI-FW mit iptables:
+
+=> siehe: \_2_FW_innen.pdf
+
+- Wachmannschaft => Betriebssystem (Linux)
+- GRÜNE Schranke => Netzwerkkarte eth0
+- ROTE Schranke => Netzwerkkarte eth1
+- FORWARD:
+  - eth0 => Firewall => eth1
+  - eth1 => Firewall => eth0
+  - Hauptaufgabe von FORWARD:
+    - Wer darf welche Daten von eth0 => eth1 senden.
+    - Wer darf welche Daten von eth1 => eth0 senden.
+- INPUT:
+  - eth0 => Linux
+  - eth1 => Linux
+  - Hauptaufgabe von INPUT:
+    - Wer darf welche Daten über eth0 => Linux senden.
+    - Wer darf welche Daten über eth1 => Linux senden.
+- OUTPUT:
+
+  - Linux => eth0
+  - Linux => eth1
+  - Hauptaufgabe von OUTPUT:
+
+    - Welche Daten darf Linux über eth0 aussenden.
+    - Welche Daten darf Linux über eth1 aussenden.
+
+    <!-- [70] -->
+
+Welche Schichten des OSI-Modells sind mit der SPI-FW (iptables) unter Linux steuerbar?
+
+#### Alle Bedingungen sind logisch UND-verknüpft!
+
+##### Schicht 1 => Netzwerkkarte:
+
+- Funktioniert nur auf der Firewall selbst.
+
+###### UND
+
+##### Schicht 2 => MAC-Adresse:
+
+- Nur der Rechner mit der entsprechenden MAC-Adresse darf….
+
+###### UND
+
+##### Schicht 3 => IP-Adresse:
+
+- Nur der Rechner mit der entsprechenden IP-Adresse darf….
+
+###### UND
+
+##### Schicht 4 => TCP oder UDP:
+
+- Nur wenn der Rechner ein Datenpaket über TCP oder UDP sendet, darf er….
+
+###### UND
+
+##### Schicht 5 - 7 => Port:
+
+- Nur wenn der Rechner über Port xy kommuniziert, darf er….
+  - ==>> Port = Anwendung
+    - 22 = ssh
+    - 53 = DNS
+    - 80 = http
+    - 443 = https
+
+ <!-- [71] -->
+
+### ==>> DENKSPORT (es soll ja schließlich nicht langweilig werden)
+
+=> siehe: \_3_FW_Skizze_leer_2.pdf
+
+Füllen Sie bitte die Skizze aus.
+
+- Jeder Pfeil hat einen Anfang (kleines Rechteck) => Quelle.
+- Jeder Pfeil hat ein Ende (Spitze) => Ziel
+- Rück-Richtung ist hier uninteressant, wir haben schließlich eine SPI-Firewall mit iptables.
+- Überlegen Sie für jeden Dienst (Pfeil):
+  - Ist es FORWARD?
+  - Ist es INPUT?
+  - Ist es OUTPUT?
+  - Macht es Sinn die MAC-Adresse mit in die Regel aufzunehmen?
+  - Ist die IP-Adresse ein einzelner Host oder ganzes Netz?:
+    - Angabe der Subnetzmaske /24 => das ganze Netz.
+    - keine Angabe der Subnetzmaske => einzelner Host.
+  - Wird TCP oder UDP genutzt?
+  - Welcher Port wird genutzt?
+
+### ==>> GENUG GEDACHT:
+
+=> siehe: \_4_FW_Skizze_Inhalt_2.pdf
+
+### Auflösung des Rätsels:
+
+#### (1) DNS:
+
+- FORWARD => durch die Firewall hindurch.
+- Für DNS wird UDP verwendet.
+- Quelle: das ganze Netz 192.168.33.0 /24
+- Ziel: der Server 192.168.10.201
+- Port: 53
+
+  <!-- [72] -->
+
+#### (2) PROXY:
+
+- FORWARD => durch die Firewall hindurch.
+- Für Webanfragen (http, https) wird TCP verwendet.
+- Quelle: das ganze Netz 192.168.33.0 /24
+- Ziel: der Server 192.168.10.202
+- Ports: 80 und 8080
+  - Mit "Multiports" können mehrere Ports auf einmal angegeben werden.
+  - Wird die Software "Squid" als Proxy verwendet => Port 3128
+
+#### (3) DHCP:
+
+- INPUT => in die Firewall hinein:
+  - Die Firewall selbst bietet DHCP an.
+- DHCP verwendet UDP (Broadcast, funktioniert mit TCP nicht, => siehe: oben).
+- Quelle: das ganze Netz 192.168.33.0 /24
+- Ziel: die Firewall 192.168.33.1 (über die IP-Adresse auf der "GRÜNEN" Netzwerkkarte eth0)
+- Port: 67
+
+#### (4) Ping:
+
+- INPUT => in die Firewall hinein:
+  - Die Firewall selbst bietet an, auf Ping zu antworten.
+- Ping verwendet ICMP:
+  - de.wikipedia.org/wiki/Internet_Control_Message_Protocol
+- Quelle: das ganze Netz 192.168.33.0 /24
+- Ziel: die Firewall 192.168.33.1 (über die IP-Adresse auf der "GRÜNEN" Netzwerkkarte eth0)
+- Port: gibt es bei ICMP nicht
+
+  [73]
+
+  (5) SSH:
+  INPUT => in die Firewall hinein:
+  Die Firewall selbst bietet an, sich über ssh fernsteuern zu lassen.
+  Für ssh wird TCP verwendet.
+  Quelle: nur der PC mit:
+  der IP-Adresse 192.168.10.101
+  UND
+  der MAC-Adresse AA:BB:CC:DD:EE:FF
+  Ziel: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1).
+  Port: 22
+  (6) NTP:
+  OUTPUT => aus der Firewall heraus:
+  Die Firewall möchte sich die genaue Zeit vom Zeitserver holen.
+  Für ntp wird UDP verwendet.
+  Quelle: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1)
+  Ziel: der NTP-Server mit der IP-Adresse 192.168.10.204
+  Port: 123
+  [74]
+  iptables – Syntax:
+  Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet:
+  => siehe: \_5_Beispiele_CSTATE.pdf
+  => siehe: firewall_leer.sh (als Basis für eigene Firewalls)
+  Erklärungen und Vereinfachungen:
+  "ABC" => steht stellvertretend für eine ganze Anweisung.
+  "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).
+  "IPT" => Pfad zu iptables
+  "IU" => INPUT UDP
+  "IT" => INPUT TCP
+  "II" => INPUT ICMP
+  "FU" => FORWARD UDP
+  "FT" => FORWARD TCP
+  "FI" => FORWARD ICMP
+  "OU" => OUTPUT UDP
+  "OT" => OUTPUT TCP
+  "OI" => OUTPUT ICMP
+  "MAC" => nur diese MAC-Adresse darf….
+  "MP" => multiport (Angabe mehrerer Ports auf einmal)
+  "R" => Der Rest, der hinter jeder Zeile stehen muss.
+  Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht.
+  HIER KOMMEN JETZT DIE EIGENEN REGELN….
+  Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).
+  echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
+  Alles unterhalb "# Ende eigene Regeln" wird auch immer gebraucht.
+
+         [75]
+
+  ==>> DENKSPORT (wieder einmal):
+  => siehe nochmals: \_4_FW_Skizze_Inhalt_2.pdf
+  \_5_Beispiele_CSTATE.pdf
+  nutzen Sie firewall_leer.sh:
+  Erarbeiten Sie die Syntax für die Regeln aus \_4_FW_Skizze_Inhalt_2.pdf.
+  ==>> GENUG GEDACHT:
+  => siehe: firewall_Inhalt.sh
+  Auflösung des Rätsels:
+  aus "Quelle" => "-s"
+  aus "Ziel" => "-d"
+  aus "Port" => "--dport"
+  aus "Ports" => "--dports" (mehrere Ports, Plural):
+  ==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile
+  stehen und man darf das kleine "s" bei "Ports" nicht vergessen.
+  Skript (firewall_Inhalt.sh) nutzen:
+  PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
+  PC braucht 2. Netzwerkkarte:
+
+1.  Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
+2.  Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
+    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
+    Skript auf den PC kopieren (auch per USB-Stick möglich).
+    Skript "ausführbar" machen => "chmod 755 firewall\*Inhalt.sh"
+    Skript starten => "./firewall_Inhalt.sh"
+    Skript wird abgearbeitet => die Zeilen mit "echo" werden angezeigt.
+
+    [76]
+
+    Demilitarisierte Zone ("DMZ"):
+    de.wikipedia.org/wiki/Demilitarisierte_Zone\*(Informatik)
+    heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html
+    => siehe: Foto "TB_14" als Tafelbild
+    ![TB_14!](img/TB_14.jpg "TB_14")
+    Allgemein:
+    Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:
+    Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
+    Das 2-stufige Konzept:
+    Wird in den IHK-Prüfungen bevorzugt.
+    Ist aufwendiger (2 Firewalls mit je 2 Netzwerkkarten, 2 mal Regeln schreiben).
+    Ist sicherer => doppelte "Verteidigungslinie".
+    ==>> Denke an Burgen aus dem Mittelalter
+    Das 1-stufige Konzept:
+    Ist weniger aufwendig (nur 1 Firewall mit 3 Netzwerkkarten, nur 1 mal Regeln schreiben).
+    Ist unsicherer => einfache "Verteidigungslinie".
+    ==>> Denke an Stadttore aus dem Mittelalter
+    Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
+
+    ![TB_14!](img/TB_14.jpg "TB_14")
+    Erklärung zu TB_14:
+    ROTES Netz (extern) 192.168.1.0 /24:
+    192.168.1.1 => ROTE Netzwerkkarte der Firewall
+    192.168.1.2 => Schnittstelle der FritzBox
+    GRÜNES Netz (intern) 192.168.2.0 /24:
+    192.168.2.1 => GRÜNE Netzwerkkarte der Firewall
+    192.168.2.2 => PC des Chefs
+    192.168.2.3 => PC des Admins
+    [77]
+    ORANGENES Netz (DMZ) 192.168.3.0 /24:
+    ==>> Wir definieren in TB_14 BLAU zu ORANGE um!
+    192.168.3.1 => ORANGENE Netzwerkkarte der Firewall
+    192.168.3.2 => firmeneigener Webserver läuft auf Port 80
+    Allgemein formulierte Regeln für die Firewall:
+    (1) GRÜNES Netz => Internet (http)
+    (2) Internet => firmeneigener Webserver (http)
+    (3) GRÜNES Netz => firmeneigener Webserver (http)
+    (4) PC des Chefs => Internet (https)
+    (5) PC des Admins => Firewall (ssh)
+    (6) PC des Admins => Webserver (ssh)
+    (7) Firewall => Internet (NTP)
+    ==>> Sie ahnen es schon => DENKSPORT:
+    => siehe: \_4_FW_Skizze_Inhalt_2.pdf
+    \_5_Beispiele_CSTATE.pdf
+    firewall_Inhalt.sh
+    gehen Sie in 2 Schritten vor:
+    1.) Erarbeiten Sie eine Tabelle wie in "\_4_FW_Skizze_Inhalt_2.pdf" unten.
+    2.) Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".
+    [78]
+    ==>> GENUG GEDACHT:
+    Lösung Schritt 1:
 
 ---
 
