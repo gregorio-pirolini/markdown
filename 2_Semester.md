@@ -179,7 +179,7 @@ AHCI steht für Advanced Host Controller Interface und ist die beliebteste Alter
 
 AHCI bietet gegenüber IDE mehrere Vorteile. Geschwindigkeit ist einer der wichtigsten Vorteile von AHCI gegenüber IDE. Native Command Queueing (NCQ[^6]) ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden. Ältere IDE-Systeme erledigen Aufgaben stets in der angeforderten Reihenfolge, was nur selten der sinnvollste und effektivste Weg ist.
 
-[^6]: NCQ ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden.
+[^6]: NCQ Native Command Queueing ist eine Möglichkeit, die Handhabung von Aufgaben zu priorisieren, wenn Daten verschoben werden.
 
 Hot Plugging ist eine Funktion, die von AHCI unterstützt wird und mit der Sie neue Laufwerke anschließen können, selbst wenn der Computer eingeschaltet ist. Dies ist nützlich, insbesondere bei der Fehlerbehebung oder wenn Sie häufig Laufwerke anschließen und wieder entfernen müssen.
 
@@ -991,7 +991,38 @@ entspricht der Kaufgegenstand, soweit er die vereinbarte Beschaffenheit hat und 
 - Vom Kaufvertrag kann erst nach Ablauf einer angemenssenen Nachfrist zurückgetreten werden.
 - Rückgriffsrecht
   
-[^10]: NFS Network File System is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.
-[^11]: CIFS Common Internet File System is a protocol that gained popularity around the year 2000, as vendors worked to establish an Internet Protocol-based file-sharing protocol.
-[^12]: FC Fibre Channel is a high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks in commercial data centers.
-[^13]: iSCSI an Internet Protocol-based storage networking standard for linking data storage facilities. iSCSI provides block-level access to storage devices by carrying SCSI commands over a TCP/IP network.
+[^10]: NFS **Network File System** is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.
+[^11]: CIFS **Common Internet File System** is a protocol that gained popularity around the year 2000, as vendors worked to establish an Internet Protocol-based file-sharing protocol.
+[^12]: FC **Fibre Channel** is a high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks in commercial data centers.
+[^13]: iSCSI **Internet Small Computer System Interface** an Internet Protocol-based storage networking standard for linking data storage facilities. iSCSI provides block-level access to storage devices by carrying SCSI commands over a TCP/IP network.
+
+## 15 06 2023
+
+### kup
+
+#### Iperka
+IPERKA ist eine Methode mit sechs Schritten, die in vielen Situationen erfolgreich angewendet werden kann.
+
+Beispiele:
+• Im Lehrbetrieb muss ein Auftrag ausgeführt werden.
+• In der Schule wird eine grössere Arbeit geschrieben und präsentiert.
+• Zuhause müssen die Hausaufgaben erledigt werden.
+Die Abkürzung steht für:
+
+I nformationen beschaffen
+P lanen
+E ntscheiden
+R ealisieren
+K ontrollieren
+A uswerten
+
+## 16 06 2023
+
+### tk  
+
+vdk: verband der sach und schaden sicherheit  
+soho: small office home office  
+pstn: public switch telefon network
+erl: erlang  
+au: amt umsetzer
+pmx: primärmultiplex

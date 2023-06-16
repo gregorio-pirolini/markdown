@@ -5,6 +5,9 @@ h3 { color: blue; background-color: white;}
 h4 { color:red;}
 h5 { color: yellow;}
 h6 { color: hotpink;}
+g{ color: green;}
+r{ color: red;}
+b{ color: blue;}
 f{ color: red;
 font-weight: bold;
 text-decoration: underline;}
@@ -2111,36 +2114,43 @@ Weiterleitung von Anfragen aus dem internen, privaten Netz in das externe Netz (
 Leider ist dieses Problem auch schon in den IHK-Prüfungen aufgetaucht!  
 Aus der Unix-Welt stammt der Begriff "Source NAT" (sinngemäß: Übersetzung an der Quelle)
 Funktionsbeschreibung:  
-Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins Internet "gehen" kann.  
+Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins Internet "gehen" kann.    
 Die FB hat eine dynamische Tabelle mit 3 Spalten:
 
-1. Spalte "Fake-Port":  
+##### 1. Spalte "Fake-Port":  
+
    Ports aus dem Bereich der "Dynamic/Private Ports" (siehe oben).
-2. Spalte "Quell-Socket":  
+
+##### 2. Spalte "Quell-Socket":  
+
    Für die Anfragen, von den internen Hosts.
    Hier im Beispiel für PC1 und PC2.
-3. Spalte "Ziel-Socket":  
-   Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.
-   Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).
+
+##### 3. Spalte "Ziel-Socket":  
+
+   Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.  
+
+   Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).  
    Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet "zu gehen".
 
    <!-- [63] -->
 
-   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (**Socket: 82.165.230.17:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: **192.168.178.11:11111**.
+   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (**Socket: 82.165.230.17:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: **192.168.178.11:11111**.  
 
    PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (**Socket: 193.99.144.85:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: **192.168.178.22:22222**.
 
    Ablauf (step by step) für PC1:
 
-   (1): PC1 (**192.168.178.11:11111**) schickt seinen Wunsch nach der Webseite Web.de (**82.165.230.17:80**) an die FritzBox.  
+   - (1): PC1 (**192.168.178.11:11111**) schickt seinen Wunsch nach der Webseite Web.de (**82.165.230.17:80**) an die FritzBox.  
    Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60000 ein.
    In dieser Zeile landen der Quell-Socket: **192.168.178.11:11111** (PC1) und der Ziel-Socket: **82.165.230.17:80** (Web.de).
 
-   (2): Die FritzBox holt die Webseite von Web.de.
-   Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60000 als Quell-Socket.
-   Inhalt der Anfrage der FritzBox (sinngemäß):
-   Quell-Socket: 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
-   Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port) "Gib mir die Webseite".
+   - (2): Die FritzBox holt die Webseite von Web.de.  
+   Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60000 als Quell-Socket.  
+   Inhalt der Anfrage der FritzBox (sinngemäß):  
+   Quell-Socket: 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)  
+   Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port)  
+   "Gib mir die Webseite".  
    Antwort von Web.de (sinngemäß):
    Quell-Socket: 82.165.230.17:80 (Web.de und Webserver-Port)
    Ziel-Socket : 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
@@ -2235,7 +2245,8 @@ Blocklist (Auszug):
 
 => siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
 
-[de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)  
+[de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)
+
 [de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
 
 ### Unterscheidungsmerkmale:
@@ -2259,14 +2270,14 @@ Quelle <= Ziel
 
 #### SPI-FW[^10]:
 
-**Stateful Packet Inspection Firewall** Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
+**<f>Stateful Packet Inspection Firewall** Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
 Ist modern und recht sicher.  
 Nur die Hin-Richtung muss angegeben werden:  
  Quelle => Ziel  
- Die Rück-Richtung (Quelle <= Ziel) wird durch die SPI-FW selbst gesteuert.  
+ Die Rück-Richtung (Quelle <= Ziel) wird durch die SPI-FW[^10] selbst gesteuert.  
  Mit "iptables", ist eine kostenlose und leistungsstarke Firewall-Lösung unter Linux verfügbar.
 
-==>> Alle weiteren Ausführungen beziehen sich auf eine **SPI-FW** mit iptables im Rahmen einer Unternehmens-Firewall.
+==>> Alle weiteren Ausführungen beziehen sich auf eine **SPI-FW[^10]** mit iptables im Rahmen einer Unternehmens-Firewall.
 
 [^10]: SPI-FW Stateful Packet Inspection Firewall Protection feature keeps track of the state of network connections traveling across it. This feature protects your internet connection against threats and Denial of Service (DoS), which is why it is recommended to keep it enabled.
 
@@ -2277,6 +2288,7 @@ Nur die Hin-Richtung muss angegeben werden:
 [de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
 
 => siehe: \_1_Bruecke.pdf
+![Alt text](img/1_Bruecke.png)
 
 Zwischen der Insel Sylt und dem Festland gibt es nur eine Verbindung, über den Hindenburgdamm.  
 ==>> folgende Denke:
@@ -2284,65 +2296,67 @@ Zwischen der Insel Sylt und dem Festland gibt es nur eine Verbindung, über den 
 - Auf dem Hindenburgdamm gibt es eine Brücke mit einer Wachmannschaft.
 - Die Brücke hat 2 Schranken:
 
-  - GRÜNE Schranke:
+  - <g>GRÜNE Schranke:
 
-    - Name: "eth0"
+    - Name: "<g>eth0"
     - In die Richtung zur Insel Sylt (zum sicheren "internen Netz").
 
-  - ROTE Schranke:
-    - Name: "eth1"
+  - <r>ROTE Schranke:
+    - Name: "<r>eth1"
     - In die Richtung zum Festland (zum unsicheren "externen Netz").
 
 - Die Wachmannschaft hat 3 Zettel (Regelsätze genannt), auf denen bestimmte Regeln stehen:
 
-  1. Zettel (Regelsatz FORWARD):
+  1. Zettel (Regelsatz **FORWARD**):
 
-  - Wer darf vom Festland auf die Insel.
-  - Wer darf von der Insel auf das Festland.
+     - Wer darf vom Festland auf die Insel.
+     - Wer darf von der Insel auf das Festland.
 
-  2. Zettel (Regelsatz INPUT):
+  2. Zettel (Regelsatz **INPUT**):
 
-  - Wer darf vom Festland kommend, die Wachmannschaft besuchen.
-  - Wer darf von der Insel kommend, die Wachmannschaft besuchen.
+     - Wer darf vom Festland kommend, die Wachmannschaft besuchen.
+     - Wer darf von der Insel kommend, die Wachmannschaft besuchen.
 
-  3. Zettel (Regelsatz OUTPUT)
+  3. Zettel (Regelsatz **OUTPUT**)
 
-  - Wer von der Wachmannschaft darf in Richtung Festland gehen.
-  - Wer von der Wachmannschaft darf in Richtung Insel gehen.
+     - Wer von der Wachmannschaft darf in Richtung Festland gehen.
+     - Wer von der Wachmannschaft darf in Richtung Insel gehen.
 
        <!-- [69] -->
 
-### Innerer Aufbau der SPI-FW mit iptables:
+### Innerer Aufbau der SPI-FW[^10] mit iptables:
 
 => siehe: \_2_FW_innen.pdf
 
-- Wachmannschaft => Betriebssystem (Linux)
-- GRÜNE Schranke => Netzwerkkarte eth0
-- ROTE Schranke => Netzwerkkarte eth1
+![Alt text](img/2_FW_innen.png)
+
+- <b>Wachmannschaft => Betriebssystem (Linux)</b>
+- <g>GRÜNE Schranke => Netzwerkkarte eth0
+- <r>ROTE Schranke => Netzwerkkarte eth1
 - FORWARD:
-  - eth0 => Firewall => eth1
-  - eth1 => Firewall => eth0
+  - <g>eth0</g> => Firewall => <r>eth1</r>
+  - <r>eth1</r> => Firewall => <g>eth0</g>
   - Hauptaufgabe von FORWARD:
-    - Wer darf welche Daten von eth0 => eth1 senden.
-    - Wer darf welche Daten von eth1 => eth0 senden.
+    - Wer darf welche Daten von <g>eth0</g> => <r>eth1</r> senden.
+    - Wer darf welche Daten von <r>eth1</r> => <g>eth0</g> senden.
 - INPUT:
-  - eth0 => Linux
-  - eth1 => Linux
+  - <g>eth0</g> => <b>Linux</b>
+  - <r>eth1</r> => <b>Linux</b>
   - Hauptaufgabe von INPUT:
-    - Wer darf welche Daten über eth0 => Linux senden.
-    - Wer darf welche Daten über eth1 => Linux senden.
+    - Wer darf welche Daten über <g>eth0</g> => <b>Linux</b> senden.
+    - Wer darf welche Daten über <r>eth1</r> => <b>Linux</b> senden.
 - OUTPUT:
 
-  - Linux => eth0
-  - Linux => eth1
+  - <b>Linux</b> => <g>eth0</g>
+  - <b>Linux</b> => <r>eth1</r>
   - Hauptaufgabe von OUTPUT:
 
-    - Welche Daten darf Linux über eth0 aussenden.
-    - Welche Daten darf Linux über eth1 aussenden.
+    - Welche Daten darf <b>Linux</b> über <g>eth0</g> aussenden.
+    - Welche Daten darf <b>Linux</b> über <r>eth1</r> aussenden.
 
     <!-- [70] -->
 
-Welche Schichten des OSI-Modells sind mit der SPI-FW (iptables) unter Linux steuerbar?
+Welche Schichten des OSI-Modells sind mit der SPI-FW[^10] (iptables) unter Linux steuerbar?
 
 #### Alle Bedingungen sind logisch UND-verknüpft!
 
@@ -2384,6 +2398,7 @@ Welche Schichten des OSI-Modells sind mit der SPI-FW (iptables) unter Linux steu
 ### ==>> DENKSPORT (es soll ja schließlich nicht langweilig werden)
 
 => siehe: \_3_FW_Skizze_leer_2.pdf
+![Alt text](img/3_FW_Skizze_leer_2.png)
 
 Füllen Sie bitte die Skizze aus.
 
@@ -2404,6 +2419,7 @@ Füllen Sie bitte die Skizze aus.
 ### ==>> GENUG GEDACHT:
 
 => siehe: \_4_FW_Skizze_Inhalt_2.pdf
+![Alt text](img/4_FW.png)
 
 ### Auflösung des Rätsels:
 
@@ -2446,9 +2462,10 @@ Füllen Sie bitte die Skizze aus.
 - Ziel: die Firewall 192.168.33.1 (über die IP-Adresse auf der "GRÜNEN" Netzwerkkarte eth0)
 - Port: gibt es bei ICMP nicht
 
-  [73]
+  <!-- [73] -->
 
-  (5) SSH:
+  #### (5) SSH:
+
   INPUT => in die Firewall hinein:
   Die Firewall selbst bietet an, sich über ssh fernsteuern zu lassen.
   Für ssh wird TCP verwendet.
@@ -2458,234 +2475,323 @@ Füllen Sie bitte die Skizze aus.
   der MAC-Adresse AA:BB:CC:DD:EE:FF
   Ziel: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1).
   Port: 22
-  (6) NTP:
-  OUTPUT => aus der Firewall heraus:
-  Die Firewall möchte sich die genaue Zeit vom Zeitserver holen.
-  Für ntp wird UDP verwendet.
-  Quelle: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1)
-  Ziel: der NTP-Server mit der IP-Adresse 192.168.10.204
+
+  #### (6) NTP:
+
+  OUTPUT => aus der Firewall heraus:  
+  Die Firewall möchte sich die genaue Zeit vom Zeitserver holen.  
+  Für ntp wird UDP verwendet.  
+  Quelle: die Firewall 192.168.10.33 (über die IP-Adresse auf der "ROTEN" Netzwerkkarte eth1)  
+  Ziel: der NTP-Server mit der IP-Adresse 192.168.10.204  
   Port: 123
-  [74]
-  iptables – Syntax:
-  Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet:
-  => siehe: \_5_Beispiele_CSTATE.pdf
-  => siehe: firewall_leer.sh (als Basis für eigene Firewalls)
-  Erklärungen und Vereinfachungen:
-  "ABC" => steht stellvertretend für eine ganze Anweisung.
-  "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).
-  "IPT" => Pfad zu iptables
-  "IU" => INPUT UDP
-  "IT" => INPUT TCP
-  "II" => INPUT ICMP
-  "FU" => FORWARD UDP
-  "FT" => FORWARD TCP
-  "FI" => FORWARD ICMP
-  "OU" => OUTPUT UDP
-  "OT" => OUTPUT TCP
-  "OI" => OUTPUT ICMP
-  "MAC" => nur diese MAC-Adresse darf….
-  "MP" => multiport (Angabe mehrerer Ports auf einmal)
-  "R" => Der Rest, der hinter jeder Zeile stehen muss.
-  Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht.
-  HIER KOMMEN JETZT DIE EIGENEN REGELN….
-  Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).
-  echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
-  Alles unterhalb "# Ende eigene Regeln" wird auch immer gebraucht.
 
-         [75]
+  <!-- [74] -->
 
-  ==>> DENKSPORT (wieder einmal):
-  => siehe nochmals: \_4_FW_Skizze_Inhalt_2.pdf
-  \_5_Beispiele_CSTATE.pdf
-  nutzen Sie firewall_leer.sh:
-  Erarbeiten Sie die Syntax für die Regeln aus \_4_FW_Skizze_Inhalt_2.pdf.
-  ==>> GENUG GEDACHT:
+  ### iptables – Syntax:  
+  Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet: 
+
+  => <f>siehe: 5_Beispiele_CSTATE.pdf
+
+  => <f>siehe: firewall_leer.sh (als Basis für eigene Firewalls)  
+
+  Erklärungen und Vereinfachungen:  
+- "ABC" => steht stellvertretend für eine ganze Anweisung.  
+- "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).  
+- "IPT" => Pfad zu iptables  
+- "IU" => INPUT UDP
+- "IT" => INPUT TCP
+- "II" => INPUT ICMP
+- "FU" => FORWARD UDP
+- "FT" => FORWARD TCP
+- "FI" => FORWARD ICMP
+- "OU" => OUTPUT UDP
+- "OT" => OUTPUT TCP
+- "OI" => OUTPUT ICMP
+- "MAC" => nur diese MAC-Adresse darf….
+- "MP" => multiport (Angabe mehrerer Ports auf einmal)
+- "R" => Der Rest, der hinter jeder Zeile stehen muss.
+
+
+#### Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht. 
+
+**HIER KOMMEN JETZT DIE EIGENEN REGELN….**  
+
+Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).  
+echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
+
+#### Alles unterhalb "# Ende eigene Regeln" wird auch immer gebraucht.
+
+ <!-- [75] -->
+
+### ==>> DENKSPORT (wieder einmal):  
+  => siehe nochmals: 4_FW_Skizze_Inhalt_2.pdf
+
+  - 5_Beispiele_CSTATE.pdf
+  - nutzen Sie firewall_leer.sh:
+  Erarbeiten Sie die Syntax für die Regeln aus 
+
+  ![Alt text](img/4_FW.png)
+  ### ==>> GENUG GEDACHT:
   => siehe: firewall_Inhalt.sh
-  Auflösung des Rätsels:
-  aus "Quelle" => "-s"
-  aus "Ziel" => "-d"
-  aus "Port" => "--dport"
-  aus "Ports" => "--dports" (mehrere Ports, Plural):
-  ==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile
-  stehen und man darf das kleine "s" bei "Ports" nicht vergessen.
-  Skript (firewall_Inhalt.sh) nutzen:
-  PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
-  PC braucht 2. Netzwerkkarte:
+  Auflösung des Rätsels:  
+  aus "Quelle" => "-s"  
+  aus "Ziel" => "-d"  
+  aus "Port" => "--dport"  
+  aus "Ports" => "--dports" (mehrere Ports, Plural):  
+  ==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile stehen und man darf das kleine "s" bei "Ports" nicht vergessen.  
 
-1.  Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-2.  Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
-    Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
-    Skript auf den PC kopieren (auch per USB-Stick möglich).
-    Skript "ausführbar" machen => "chmod 755 firewall\*Inhalt.sh"
-    Skript starten => "./firewall_Inhalt.sh"
-    Skript wird abgearbeitet => die Zeilen mit "echo" werden angezeigt.
+   #### Skript (firewall_Inhalt.sh) nutzen:
 
-    [76]
+- PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
+- PC braucht 2. Netzwerkkarte:
 
-    Demilitarisierte Zone ("DMZ"):
-    de.wikipedia.org/wiki/Demilitarisierte_Zone\*(Informatik)
-    heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html
-    => siehe: Foto "TB_14" als Tafelbild
+1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
+2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24  
+
+- Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
+- Skript auf den PC kopieren (auch per USB-Stick möglich).
+- Skript "ausführbar" machen => "chmod 755 firewall\*Inhalt.sh"
+- Skript starten => "./firewall_Inhalt.sh"
+- Skript wird abgearbeitet => die Zeilen mit "echo" werden angezeigt.
+
+    <!-- [76] -->
+
+### Demilitarisierte Zone ("DMZ"):
+
+[de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik)](de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik))  
+
+[heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html](heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html)
+
+=> siehe: Foto "TB_14" als Tafelbild
+![TB_14!](img/TB_14.jpg "TB_14")
+
+#### Allgemein:
+
+- Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:  
+  - Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
+- Das 2-stufige Konzept:
+  - Wird in den IHK-Prüfungen bevorzugt.
+  - Ist aufwendiger (2 Firewalls mit je 2 Netzwerkkarten, 2 mal Regeln schreiben).
+  - Ist sicherer => doppelte "Verteidigungslinie".
+  - ==>> Denke an Burgen aus dem Mittelalter
+- Das 1-stufige Konzept:
+  - Ist weniger aufwendig (nur 1 Firewall mit 3 Netzwerkkarten, nur 1 mal Regeln schreiben).
+  - Ist unsicherer => einfache "Verteidigungslinie".
+  - ==>> Denke an Stadttore aus dem Mittelalter
+- Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
+
     ![TB_14!](img/TB_14.jpg "TB_14")
-    Allgemein:
-    Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:
-    Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
-    Das 2-stufige Konzept:
-    Wird in den IHK-Prüfungen bevorzugt.
-    Ist aufwendiger (2 Firewalls mit je 2 Netzwerkkarten, 2 mal Regeln schreiben).
-    Ist sicherer => doppelte "Verteidigungslinie".
-    ==>> Denke an Burgen aus dem Mittelalter
-    Das 1-stufige Konzept:
-    Ist weniger aufwendig (nur 1 Firewall mit 3 Netzwerkkarten, nur 1 mal Regeln schreiben).
-    Ist unsicherer => einfache "Verteidigungslinie".
-    ==>> Denke an Stadttore aus dem Mittelalter
-    Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
 
-    ![TB_14!](img/TB_14.jpg "TB_14")
-    Erklärung zu TB_14:
-    ROTES Netz (extern) 192.168.1.0 /24:
+ #### Erklärung zu TB_14:
+
+##### ROTES Netz (extern) 192.168.1.0 /24:
+
     192.168.1.1 => ROTE Netzwerkkarte der Firewall
     192.168.1.2 => Schnittstelle der FritzBox
-    GRÜNES Netz (intern) 192.168.2.0 /24:
+
+##### GRÜNES Netz (intern) 192.168.2.0 /24:
+
     192.168.2.1 => GRÜNE Netzwerkkarte der Firewall
     192.168.2.2 => PC des Chefs
     192.168.2.3 => PC des Admins
-    [77]
-    ORANGENES Netz (DMZ) 192.168.3.0 /24:
+
+<!-- [77] -->
+
+##### ORANGENES Netz (DMZ) 192.168.3.0 /24:
     ==>> Wir definieren in TB_14 BLAU zu ORANGE um!
     192.168.3.1 => ORANGENE Netzwerkkarte der Firewall
     192.168.3.2 => firmeneigener Webserver läuft auf Port 80
-    Allgemein formulierte Regeln für die Firewall:
-    (1) GRÜNES Netz => Internet (http)
-    (2) Internet => firmeneigener Webserver (http)
-    (3) GRÜNES Netz => firmeneigener Webserver (http)
-    (4) PC des Chefs => Internet (https)
-    (5) PC des Admins => Firewall (ssh)
-    (6) PC des Admins => Webserver (ssh)
-    (7) Firewall => Internet (NTP)
-    ==>> Sie ahnen es schon => DENKSPORT:
-    => siehe: \_4_FW_Skizze_Inhalt_2.pdf
-    \_5_Beispiele_CSTATE.pdf
-    firewall_Inhalt.sh
-    gehen Sie in 2 Schritten vor:
-    1.) Erarbeiten Sie eine Tabelle wie in "\_4_FW_Skizze_Inhalt_2.pdf" unten.
-    2.) Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".
-    [78]
-    ==>> GENUG GEDACHT:
-    Lösung Schritt 1:
 
----
+##### Allgemein formulierte Regeln für die Firewall:
 
-(1) "GRÜN => Internet" FORWARD TCP Quelle: 192.168.2.0 /24 Ziel: 192.168.1.2 Port: 80
-(2) "Internet => Webserver" FORWARD TCP Quelle: 192.168.1.2 Ziel: 192.168.3.2 Port: 80
-(3) "GRÜN => Webserver" FORWARD TCP Quelle: 192.168.2.0 /24 Ziel: 192.168.3.2 Port: 80
-(4) "Chef => Internet" FORWARD TCP Quelle: 192.168.2.2 Ziel: 192.168.1.2 Port: 443
-(5) "Admin => Firewall" INPUT TCP Quelle: 192.168.2.3 Ziel: 192.168.2.1 Port: 22
-(6) "Admin => Webserver" FORWARD TCP Quelle: 192.168.2.3 Ziel: 192.168.3.2 Port: 22
-(1) "Firewall => Internet" OUTPUT UDP Quelle: 192.168.1.1 Ziel: 192.168.1.2 Port: 123
+(1) GRÜNES Netz => Internet (http)  
+(2) Internet => firmeneigener Webserver (http)  
+(3) GRÜNES Netz => firmeneigener Webserver (http)  
+(4) PC des Chefs => Internet (https)  
+(5) PC des Admins => Firewall (ssh)  
+(6) PC des Admins => Webserver (ssh)  
+(7) Firewall => Internet (NTP)  
 
----
+==>> Sie ahnen es schon => DENKSPORT:
+=> siehe:  _4_FW_Skizze_Inhalt_2.pdf
+  ![Alt text](img/4_FW.png)
+=> siehe:5_Beispiele_CSTATE.pdf  
+=> siehe:firewall_Inhalt.sh  
 
-     <!-- [79] -->
+gehen Sie in 2 Schritten vor:   
+1. Erarbeiten Sie eine Tabelle wie in "4_FW_Skizze_Inhalt_2.pdf" unten.  
+2. Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".  
+
+<!-- [78] -->
+
+### ==>> GENUG GEDACHT: Lösung Schritt 1:
+| - | - | - | - | Quelle | Ziel | Port |
+| ------ | ------  | ------ | ------ | ------ | ------ | ------ |
+|1 GRÜN | Internet  | FORWARD  | TCP  | 192.168.2.0/24|192.168.1.2| 80 |
+| 2 Internet | Webserver  | FORWARD | TCP | 192.168.1.2 | 192.168.3.2 | 80 |
+| 3 GRÜN | Webserver  | FORWARD | TCP |  192.168.2.0/24 | 192.168.3.2 | 80 |
+| 4 Chef | Internet  | FORWARD | TCP | 192.168.2.2   | 192.168.1.2 |   443 |
+| 5 Admin | Firewall  |INPUT| TCP | 192.168.2.3 | 192.168.2.1 | 22 |
+|  6 Admin | Webserver  | FORWARD | TCP | 192.168.2.3 | 192.168.3.2 | 22 |
+| 7 FW | Internet  | OUTPUT | UDP | 192.168.1.1 |  192.168.1.2 | 123 |
+            
+
+
+<!-- [79] -->
 
 ### Lösung Schritt 2:
 
-# Anfang eigene Regeln
+#### Anfang eigene Regeln
 
-echo "(1) GRUEN => Internet"
-$FT -s 192.168.2.0/24 -d 192.168.1.2 --dport 80 $R
-echo "(2) Internet => Webserver"
-$FT -s 192.168.1.2 -d 192.168.3.2 --dport 80 $R
-echo "(3) GRUEN    => Webserver"
-$FT -s 192.168.2.0/24 -d 192.168.3.2 --dport 80 $R
-echo "(4) Chef     => Internet"
-$FT -s 192.168.2.2 -d 192.168.1.2 --dport 443 $R
-echo "(5) Admin    => Firewall"
-$IT -s 192.168.2.3 -d 192.168.2.1 --dport 22 $R
-echo "(6) Admin    => Webserver"
-$FT -s 192.168.2.3 -d 192.168.3.2 --dport 22 $R
-echo "(7) Firewall => Internet"
-$OU -s 192.168.1.1 -d 192.168.1.2 --dport 123 $R
+    echo "(1) GRUEN => Internet"  
+    $FT -s 192.168.2.0/24 -d 192.168.1.2 --dport 80 $R  
+    echo "(2) Internet => Webserver"  
+    $FT -s 192.168.1.2 -d 192.168.3.2 --dport 80 $R  
+    echo "(3) GRUEN    => Webserver"
+    $FT -s 192.168.2.0/24 -d 192.168.3.2 --dport 80 $R
+    echo "(4) Chef     => Internet"
+    $FT -s 192.168.2.2 -d 192.168.1.2 --dport 443 $R
+    echo "(5) Admin    => Firewall"
+    $IT -s 192.168.2.3 -d 192.168.2.1 --dport 22 $R
+    echo "(6) Admin    => Webserver"
+    $FT -s 192.168.2.3 -d 192.168.3.2 --dport 22 $R
+    echo "(7) Firewall => Internet"
+    $OU -s 192.168.1.1 -d 192.168.1.2 --dport 123 $R
 
-# Ende eigene Regeln
+#### Ende eigene Regeln
 
----
+<!-- [80] -->
 
-     [80]
+## L. Verschlüsselung:
 
-L.) Verschlüsselung:
-=> siehe:
-"Verschluesselung*78.ppt"
-weitere Darstellungen im Verzeichnis: "Verschluesselung_Bilder"
+=> siehe: "Verschluesselung_78.ppt"  
+weitere Darstellungen im Verzeichnis: "Verschluesselung_Bilder"  
 ==>> Daten können heute teilweise verschlüsselt verarbeitet werden:
-de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung
-Verschlüsselung => Transport der Daten im Internet => ist anzuraten.
-Verschlüsselung => Speicherung der Daten in der Cloud => auf jeden Fall!
-Verschlüsselung => Verarbeitung der Daten in der Cloud => soll zukünftig möglich werden!
-Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
-de.wikipedia.org/wiki/CrypTool
-Wir unterscheiden grob:
-Symmetrisches Verfahren:
-de.wikipedia.org/wiki/Symmetrisches_Kryptosystem
-=> siehe:
-TB_18 und TB_19 (am Beispiel einer Geldkassette).
-Asymmetrisches Verfahren:
-de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem
-Hybrides (kombinatorisches) Verfahren:
-=> siehe:
-TB_20 bis TB_25 (am Beispiel einer selbst gebauten
-"mechanischen" asymmetrischen Verschlüsselung).
-Diffie-Hellman-Verfahren (eine Spielart des asymmetrischen Verfahrens):
-de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman*(ECDH)
-de.wikipedia.org/wiki/Perfect_Forward_Secrecy
-[81]
-Besonders 3 Begriffe spielen eine außergewöhnliche Rolle:
+
+[https://de.wikipedia.org/wiki/Homomorphe_Verschlüsselung](https://de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung)
+
+エンコード Transport der Daten im Internet  
+=> ist anzuraten.  
+エンコード Speicherung der Daten in der Cloud => auf jeden Fall!  
+エンコード Verarbeitung der Daten in der Cloud
+=> soll zukünftig möglich werden!  
+
+Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):  
+[de.wikipedia.org/wiki/CrypTool](de.wikipedia.org/wiki/CrypTool)
+
+### Wir unterscheiden grob:
+
+#### Symmetrisches Verfahren:
+
+[de.wikipedia.org/wiki/Symmetrisches_Kryptosystem](de.wikipedia.org/wiki/Symmetrisches_Kryptosystem)
+
+=> siehe: TB_18 und TB_19 (am Beispiel einer Geldkassette).
+
+| TB_18                      | TB_19                      |
+| -------------------------- | -------------------------- |
+| ![Alt text](img/TB_18.JPG) | ![Alt text](img/TB_19.JPG) |
+
+#### Asymmetrisches Verfahren:
+
+[de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem](de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)
+
+#### Hybrides (kombinatorisches) Verfahren:
+=> siehe: TB_20 bis TB_25 (am Beispiel einer selbst gebauten "mechanischen" asymmetrischen Verschlüsselung).
+
+|TB_20|TB_21|
+|-----|-----|
+|![Alt text](img/TB_20.JPG) | ![Alt text](img/TB_21.JPG)|
+
+| TB_22                      | TB_23                      |
+| -------------------------- | -------------------------- |
+| ![Alt text](img/TB_22.JPG) | ![Alt text](img/TB_23.JPG) |
+
+| TB_24                      | TB_25                      |
+| -------------------------- | -------------------------- |
+| ![Alt text](img/TB_24.JPG) | ![Alt text](img/TB_25.JPG) |
+
+
+####  Diffie-Hellman-Verfahren (eine Spielart des asymmetrischen Verfahrens):
+
+[de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH)](de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH))
+
+[de.wikipedia.org/wiki/Perfect_Forward_Secrecy](de.wikipedia.org/wiki/Perfect_Forward_Secrecy)
+
+<!-- [81] -->
+
+### Besonders 3 Begriffe spielen eine außergewöhnliche Rolle:
+
 => siehe: Westermann Seite 532
-Authentizität:
+
+#### Authentizität:
 Bist Du wirklich derjenige, für den Du Dich ausgibst?
-Antwort:
-Shared_Secret:
-de.wikipedia.org/wiki/Shared_Secret
-Zertifikat:
+##### Antwort:
+
+- Shared_Secret:  
+  - [de.wikipedia.org/wiki/Shared_Secret](de.wikipedia.org/wiki/Shared_Secret)
+
+- Zertifikat:
 => siehe: Westermann Seite 295
-de.wikipedia.org/wiki/Digitales_Zertifikat
-de.wikipedia.org/wiki/Public-Key-Zertifikat
-Integrität:
+  -  [de.wikipedia.org/wiki/Digitales_Zertifikat](de.wikipedia.org/wiki/Digitales_Zertifikat)
+  - [de.wikipedia.org/wiki/Public-Key-Zertifikat](de.wikipedia.org/wiki/Public-Key-Zertifikat)
+
+#### Integrität:
+
 Wurden die Daten beim Transport verändert?
-Antwort:
-Hashfunktion:
+
+##### Antwort:
+
+- Hashfunktion:  
 => siehe: Westermann Seite 293
-de.wikipedia.org/wiki/Hashfunktion
-Digitale Signatur:
+  - [de.wikipedia.org/wiki/Hashfunktion](de.wikipedia.org/wiki/Hashfunktion)
+- Digitale Signatur:  
 => siehe: Westermann Seite 294
-de.wikipedia.org/wiki/Digitale_Signatur
-Vertraulichkeit:
+[de.wikipedia.org/wiki/Digitale_Signatur](de.wikipedia.org/wiki/Digitale_Signatur)
+
+#### Vertraulichkeit:
+
 Können Dritte die Daten Lesen?
-Antwort:
-Verschlüsselungsalgorithmen:
-de.wikipedia.org/wiki/Verschlüsselung
-[82]
-Zusammenfassung Verschlüsselung:
-Verschlüsselung nicht zu knacken?
-Antwort:
-Haben die Verschlüsselungsalgorithmen eine (gewollte) Hintertür?
-Wurden die Verschlüsselungsalgorithmen fehlerfrei in die Software integriert?
-Echte Zufallszahlen:
-de.wikipedia.org/wiki/Zufallszahlengenerator
-random.org/analysis/
+
+##### Antwort:
+
+  - Verschlüsselungsalgorithmen:
+    - [de.wikipedia.org/wiki/Verschlüsselung](de.wikipedia.org/wiki/Verschlüsselung)
+<!-- [82] -->
+
+### Zusammenfassung Verschlüsselung:
+
+#### Verschlüsselung nicht zu knacken?
+
+##### Antwort:
+
+Haben die Verschlüsselungsalgorithmen eine (gewollte) Hintertür?  
+Wurden die Verschlüsselungsalgorithmen fehlerfrei in die Software integriert?  
+
+###### Echte Zufallszahlen:
+
+[de.wikipedia.org/wiki/Zufallszahlengenerator](de.wikipedia.org/wiki/Zufallszahlengenerator)  
+[random.org/analysis/](random.org/analysis/) 
 "Simple Visual Analysis"
-Brute-Force:
-de.wikipedia.org/wiki/Brute-Force-Methode
-Zur Erinnerung => Bitcoin-Mining:
-Mit normalem PC => sehr langsam.
-Mit der Grafikkarte => schneller.
-Mit ASICs => sehr viel schneller:
-de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung
-Einzige "unknackbare" Verschlüsselung:
-One-Time-Pad:
-de.wikipedia.org/wiki/One-Time-Pad
-de.wikipedia.org/wiki/Exklusiv-Oder-Gatter
-[83]
+
+###### Brute-Force:
+[de.wikipedia.org/wiki/Brute-Force-Methode](de.wikipedia.org/wiki/Brute-Force-Methode) 
+
+- Zur Erinnerung => Bitcoin-Mining:  
+  - Mit normalem PC => sehr langsam.
+  - Mit der Grafikkarte => schneller.
+  - Mit ASICs => sehr viel schneller:
+  
+[de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung](de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung)
+
+###### Einzige "unknackbare" Verschlüsselung:
+
+- One-Time-Pad:
+[de.wikipedia.org/wiki/One-Time-Pad](de.wikipedia.org/wiki/One-Time-Pad)  
+[de.wikipedia.org/wiki/Exklusiv-Oder-Gatter](de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)  
+
+
+<!-- [83] -->
+
 M.) VPN (virtuelles Privates Netzwerk):
 => siehe: Westermann Seite 598
 wiki.securepoint.de/UTM/VPN/%C3%9Cbersicht
