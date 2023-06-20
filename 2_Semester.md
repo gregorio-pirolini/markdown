@@ -682,7 +682,6 @@ fallen alle Schadenspositionen, die durch eine Nachholung der zunächst ausgebli
 
 betrifft solche Schäden, die endgültig eingetreten sind und nicht durch Nacherfüllung behebbar sind. Der Schadensersatzanspruch tritt neben den Primäranspruch, die ursprünglich geschuldete Leistung bleibt bestehen.
 
-
 ### BS
 
 #### Back ups
@@ -959,9 +958,9 @@ NAS (Network Attached Storage) und SAN (Storage Area Network) sind zwei verschie
 
 ### WISO
 
-#### Schadensersatz statt der Leistung: 
+#### Schadensersatz statt der Leistung:
 
- erlischt die Pflicht zur Erfüllung  
+erlischt die Pflicht zur Erfüllung
 
 #### Schadensersatz neben der Leistung:
 
@@ -990,7 +989,7 @@ entspricht der Kaufgegenstand, soweit er die vereinbarte Beschaffenheit hat und 
 - verschulden des Käufers
 - Vom Kaufvertrag kann erst nach Ablauf einer angemenssenen Nachfrist zurückgetreten werden.
 - Rückgriffsrecht
-  
+
 [^10]: NFS **Network File System** is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.
 [^11]: CIFS **Common Internet File System** is a protocol that gained popularity around the year 2000, as vendors worked to establish an Internet Protocol-based file-sharing protocol.
 [^12]: FC **Fibre Channel** is a high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks in commercial data centers.
@@ -1001,6 +1000,7 @@ entspricht der Kaufgegenstand, soweit er die vereinbarte Beschaffenheit hat und 
 ### kup
 
 #### Iperka
+
 IPERKA ist eine Methode mit sechs Schritten, die in vielen Situationen erfolgreich angewendet werden kann.
 
 Beispiele:
@@ -1018,7 +1018,7 @@ A uswerten
 
 ## 16 06 2023
 
-### tk  
+### tk
 
 vdk: verband der sach und schaden sicherheit  
 soho: small office home office  
@@ -1026,3 +1026,49 @@ pstn: public switch telefon network
 erl: erlang  
 au: amt umsetzer
 pmx: primärmultiplex
+
+## 19 06 2023
+
+### WISO
+
+#### Zahlungverzug
+
+OP-Liste offene Post Liste  
+Mahnung 3 davon  
+Rücklastschrift ?
+
+##### Zahlungverzug.pdf
+
+![Alt text](img/Zahlungsverzug_01.png)
+![Alt text](img/Zahlungsverzug_02.png)
+![Alt text](img/Zahlungsverzug_03.png)
+![Alt text](img/Zahlungsverzug_04.png)
+![Alt text](img/Zahlungsverzug_05.png)
+
+##### Mahnverfaren.pdf
+
+![Alt text](img/Mahnverfahren_01.png)
+![Alt text](img/Mahnverfahren_02.png)
+![Alt text](img/Mahnverfahren_03.png)
+![Alt text](img/Mahnverfahren_04.png)
+![Alt text](img/Mahnverfahren_05.png)
+![Alt text](img/Mahnverfahren_06.png)
+
+### PTsle
+
+C:\Users\Administrator>net use
+Neue Verbindungen werden gespeichert.
+
+Status Lokal Remote Netzwerk
+
+---
+
+OK P: \\192.168.13.1\s01 Microsoft Windows Network
+OK S: \\192.168.13.1\ablage Microsoft Windows Network
+OK T: \\192.168.13.1\transfer Microsoft Windows Network
+OK \\192.168.13.225\Backup Microsoft Windows Network
+Der Befehl wurde erfolgreich ausgeführt.
+
+C:\Users\Administrator>net use \\192.168.13.225\Backup \* /user:backupadmin
+Geben Sie das Kennwort für \\192.168.13.225\Backup ein:
+Der Befehl wurde erfolgreich ausgeführt.
