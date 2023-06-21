@@ -22,14 +22,14 @@ mono{font-family:"monospace"}
 IT-Handbuch Westermann 12.Auflage  
 Quellen aus dem Internet:
 
-- [de.wikipedia.org](de.wikipedia.org)
-- [netzmafia.de/skripten/netze/index.html](netzmafia.de/skripten/netze/index.html)  
+- [&#128279;de.wikipedia.org](de.wikipedia.org)
+- [&#128279;netzmafia.de/skripten/netze/index.html](netzmafia.de/skripten/netze/index.html)  
   Kann komplett heruntergeladen werden (zum Entpacken kann 7-zip.org notwendig werden).
 
-- [wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)
-- [wut.de/download/print/e-58www-20-prde-000.pdf](wut.de/download/print/e-58www-20-prde-000.pdf)
-- [https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubehör](https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubeh%c3%b6r)
-- [thomas-krenn.com/de/wiki/Kostenlose_IT_Bücher](thomas-krenn.com/de/wiki/Kostenlose_IT_B%C3%BCcher)
+- [&#128279;wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)
+- [&#128279;wut.de/download/print/e-58www-20-prde-000.pdf](wut.de/download/print/e-58www-20-prde-000.pdf)
+- [&#128279;https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubehör](https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubeh%c3%b6r)
+- [&#128279;thomas-krenn.com/de/wiki/Kostenlose_IT_Bücher](thomas-krenn.com/de/wiki/Kostenlose_IT_B%C3%BCcher)
 
 - youtube.com
 
@@ -39,27 +39,27 @@ Quellen aus dem Internet:
 
 ### Geschichte:
 
-[de.wikipedia.org/wiki/Arpanet](de.wikipedia.org/wiki/Arpanet)
+[&#128279;de.wikipedia.org/wiki/Arpanet](de.wikipedia.org/wiki/Arpanet)
 
 ### Leitungsvermittlung, Paketvermittlung:
 
-[www.netplanet.org/aufbau/netzwerk.shtml](www.netplanet.org/aufbau/netzwerk.shtml)
+[&#128279;www.netplanet.org/aufbau/netzwerk.shtml](www.netplanet.org/aufbau/netzwerk.shtml)
 
-[netzmafia.de/skripten/netze/netz0.html#0.3](netzmafia.de/skripten/netze/netz0.html#0.3)
+[&#128279;netzmafia.de/skripten/netze/netz0.html#0.3](netzmafia.de/skripten/netze/netz0.html#0.3)
 
 ### Kommunikationsprotokoll:
 
-[de.wikipedia.org/wiki/Kommunikationsprotokoll](de.wikipedia.org/wiki/Kommunikationsprotokoll)
+[&#128279;de.wikipedia.org/wiki/Kommunikationsprotokoll](de.wikipedia.org/wiki/Kommunikationsprotokoll)
 
 => siehe: im Verzeichnis Filius/Filius_1_PC_DHCP_DNS_Web_10.fls
 
 ### Host:
 
-[de.wikipedia.org/wiki/Hostrechner](de.wikipedia.org/wiki/Hostrechner)
+[&#128279;de.wikipedia.org/wiki/Hostrechner](de.wikipedia.org/wiki/Hostrechner)
 
 ### Server:
 
-[de.wikipedia.org/wiki/Server](de.wikipedia.org/wiki/Server)
+[&#128279;de.wikipedia.org/wiki/Server](de.wikipedia.org/wiki/Server)
 
 ### Vorteile von Netzwerken:
 
@@ -78,47 +78,47 @@ Quellen aus dem Internet:
 
 #### LAN:
 
-[de.wikipedia.org/wiki/Local_Area_Network](de.wikipedia.org/wiki/Local_Area_Network)
+[&#128279;de.wikipedia.org/wiki/Local_Area_Network](de.wikipedia.org/wiki/Local_Area_Network)
 
 => siehe: im Verzeichnis Filius/Filius_2_LAN.fls
 
 #### MAN:
 
-[de.wikipedia.org/wiki/Metropolitan_Area_Network](de.wikipedia.org/wiki/Metropolitan_Area_Network)
+[&#128279;de.wikipedia.org/wiki/Metropolitan_Area_Network](de.wikipedia.org/wiki/Metropolitan_Area_Network)
 
 #### WAN:
 
-[de.wikipedia.org/wiki/Wide_Area_Network](de.wikipedia.org/wiki/Wide_Area_Network)
+[&#128279;de.wikipedia.org/wiki/Wide_Area_Network](de.wikipedia.org/wiki/Wide_Area_Network)
 
 #### GAN:
 
-[de.wikipedia.org/wiki/Global_Area_Network](de.wikipedia.org/wiki/Global_Area_Network)
+[&#128279;de.wikipedia.org/wiki/Global_Area_Network](de.wikipedia.org/wiki/Global_Area_Network)
 
 ### Topologien (allgemein):
 
-[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)>)
+[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)>)
 
 #### Ringtopologie:
 
-[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Ring-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Ring-Topologie>)
+[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Ring-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Ring-Topologie>)
 
 #### Bustopologie:
 
-[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Bus-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Bus-Topologie>)
+[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Bus-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Bus-Topologie>)
 
 #### Sterntopologie:
 
-[de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Stern-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Stern-Topologie>)
+[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Stern-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Stern-Topologie>)
 
-<!-- [3] -->
+<!-- [&#128279;3] -->
 
 ### Echtzeitfähigkeit:
 
-[de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit](de.wikipedia.org/wiki/Echtzeitsystem#Harte,_weiche_und_feste_Echtzeit)
+[&#128279;de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit](de.wikipedia.org/wiki/Echtzeitsystem#Harte,_weiche_und_feste_Echtzeit)
 
 ### Richtungsunabhängigkeit:
 
-[de.wikipedia.org/wiki/Duplex\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/Duplex_(Nachrichtentechnik)>)
+[&#128279;de.wikipedia.org/wiki/Duplex\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/Duplex_(Nachrichtentechnik)>)
 
 #### Simplex: Nur von A nach B (Einbahnstraße).
 
@@ -139,7 +139,7 @@ Austauschbarkeit von Schichten ist möglich (z.B. IPv4 wird zukünftig durch IPv
 
 ### verschiedene Schichtenmodelle:
 
-[de.wikipedia.org/wiki/Internetprotokollfamilie](de.wikipedia.org/wiki/Internetprotokollfamilie)
+[&#128279;de.wikipedia.org/wiki/Internetprotokollfamilie](de.wikipedia.org/wiki/Internetprotokollfamilie)
 
 => siehe: Westermann Seite 590  
  Nummerieren Sie bitte in der Spalte "ISO-OSI" (ganz links) die Schichten von "Bitübertragungsschicht" (blau) mit 1 bis "Anwendungsschicht" (gelb) mit 7. In der Spalte "TCP/IP-Protokollstruktur" kennzeichnen Sie bitte die schwach erkennbare weiße
@@ -156,7 +156,7 @@ Alle Deutschen Schüler Trinken Verschiedene Sorten Brause.
 
 => siehe: Westermann Seite 590 Spalte "TCP/IP-Protokollstruktur"
 
-[de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
+[&#128279;de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
 
 ==>> Das am häufigsten eingesetzte Modell.
 
@@ -174,7 +174,7 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 ### Koaxialkabel:
 
-[de.wikipedia.org/wiki/Koaxialkabel](de.wikipedia.org/wiki/Koaxialkabel)
+[&#128279;de.wikipedia.org/wiki/Koaxialkabel](de.wikipedia.org/wiki/Koaxialkabel)
 
 - Veraltete Technologie
 - Wurde für Bustopologie verwendet.
@@ -183,9 +183,9 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 ### Twisted-Pair-Kabel:
 
 => siehe: Westermann Seiten 234 und 421
-[de.wikipedia.org/wiki/Twisted-Pair-Kabel](de.wikipedia.org/wiki/Twisted-Pair-Kabel)
+[&#128279;de.wikipedia.org/wiki/Twisted-Pair-Kabel](de.wikipedia.org/wiki/Twisted-Pair-Kabel)
 
-[de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Datenübertragungsblöcke_und_das_Typfeld](de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld)
+[&#128279;de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Datenübertragungsblöcke_und_das_Typfeld](de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld)
 
 #### CAT 3:
 
@@ -228,11 +228,11 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 => siehe: Westermann Seite 190  
 => siehe: NT_Kochbuch/Laser_Hardware.mp4  
 => siehe: NT_Kochbuch/Laser_Software.mp4  
-[science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke](science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke)
+[&#128279;science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke](science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke)
 
 [![Alt Text](https://img.youtube.com/vi/0MwMkBET_5I/0.jpg)](https://www.youtube.com/watch?v=0MwMkBET_5I)
 
-[netzmafia.de/skripten/netze/netz5.html#5.6](netzmafia.de/skripten/netze/netz5.html#5.6)
+[&#128279;netzmafia.de/skripten/netze/netz5.html#5.6](netzmafia.de/skripten/netze/netz5.html#5.6)
 
 #### Multimode:
 
@@ -249,7 +249,7 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 #### Dämpfung:
 
-[de.wikipedia.org/wiki/Dämpfung](de.wikipedia.org/wiki/D%C3%A4mpfung)
+[&#128279;de.wikipedia.org/wiki/Dämpfung](de.wikipedia.org/wiki/D%C3%A4mpfung)
 
 => siehe: Westermann Seite 189 (rechts oben):
 
@@ -271,18 +271,18 @@ Welches Licht können wir sehen?
 ### strukturierte Verkabelung:
 
 => siehe: Westermann Seite 421  
-[de.wikipedia.org/wiki/Strukturierte_Verkabelung](de.wikipedia.org/wiki/Strukturierte_Verkabelung)  
+[&#128279;de.wikipedia.org/wiki/Strukturierte_Verkabelung](de.wikipedia.org/wiki/Strukturierte_Verkabelung)  
  (siehe Bild auf dieser Webseite)
 
 ### Bindeglied zwischen TP-Kabel und LWL:
 
 #### Medienkonverter
 
-[de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
+[&#128279;de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
 
 #### SFP[^6] (Mini-GBIC[^7])
 
-[de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
+[&#128279;de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
 
 [^6]: SFP Small_Form-factor_Pluggable
 [^7]: Mini-GBIC mini Gigabit Interface Converter
@@ -1347,15 +1347,32 @@ Subnetz 4 beginnt bei C und endet bei F
 
 <!-- [39] -->
 
-Subnetze aufschreiben:  
-Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:0000:0000:0000 /66  
-Subnetz 1 endet bei: 2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66  
-Subnetz 2 beginnt bei: 2001:1234:5678:90AB:4000:0000:0000:0000 /66  
-Subnetz 2 endet bei: 2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66  
-Subnetz 3 beginnt bei: 2001:1234:5678:90AB:8000:0000:0000:0000 /66  
-Subnetz 3 endet bei: 2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66  
-Subnetz 4 beginnt bei: 2001:1234:5678:90AB:C000:0000:0000:0000 /66  
-Subnetz 4 endet bei: 2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66  
+###### Subnetze aufschreiben:
+
+Subnetz 1 beginnt bei:  
+2001:1234:5678:90AB:0000:0000:0000:0000 /66 
+
+Subnetz 1 endet bei:  
+2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66  
+
+Subnetz 2 beginnt bei:  
+2001:1234:5678:90AB:4000:0000:0000:0000 /66 
+
+Subnetz 2 endet bei:  
+2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66  
+
+Subnetz 3 beginnt bei:  
+2001:1234:5678:90AB:8000:0000:0000:0000 /66  
+
+Subnetz 3 endet bei:  
+2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66  
+
+Subnetz 4 beginnt bei:  
+2001:1234:5678:90AB:C000:0000:0000:0000 /66  
+
+Subnetz 4 endet bei:  
+2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66  
+
 Subnetze aufschreiben "Mühlenbecker Art":  
 Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /66  
 Subnetz 1 endet bei: – „ – :3FFF:----> /66  
@@ -1920,7 +1937,7 @@ Client sendet die Zufallszahl des Servers um 1 erhöht (2001) zurück und setzt 
 
 ACHTUNG: DDoS-Attacke möglich!
 
-[LINK DDoS](de.wikipedia.org/wiki/Denial_of_Service)
+[DDoS](de.wikipedia.org/wiki/Denial_of_Service)
 
 [SYN-Flood](de.wikipedia.org/wiki/SYN-Flood)
 
@@ -1965,7 +1982,7 @@ Client sendet an den Server auch ein ACK-Flag
 #### TCP-Header:
 
 => siehe: Westermann Seite 581
-de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers
+[de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers](de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers)
 
 <!-- [58] -->
 
@@ -2017,7 +2034,7 @@ Auf der FritzBox wurde ein Ereignis definiert, das ausgelöst wird, wenn die 3 S
 Reihenfolge 1 - 2 - 3 angesprochen werden.
 
 Hier im Beispiel Wake on LAN (WoL):  
-[Link Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
+[&#128279;Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
 Sendet das Laptop aus dem Internet 3 Datenpakete in der richtigen Reihenfolge:
 
 (1) beinhaltet 11.1.2.4:1111  
@@ -2032,9 +2049,9 @@ Der interne Webserver (192.168.178.11) wird gebootet.
 ### Portforwarding / Destination NAT:
 
 => siehe: Foto "TB_16" als Tafelbild als Beispiel.
-![Alt text](img/TB_16.**JPG**)
+![Alt text](img/TB_16.jpg)
 
-[de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
+[&#128279;de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
 
 #### Zielsetzung
 
@@ -2102,7 +2119,7 @@ Portforwarding => Zugriff auf den internen Webserver ("poweroff" zum Schluss nic
 => siehe: Foto "TB_13" als Tafelbild, hier nur als Beispiel.
 ![TB_13!](img/TB_13.jpg "TB_13")
 
-[de.wikipedia.org/wiki/Port_Address_Translation](de.wikipedia.org/wiki/Port_Address_Translation)
+[&#128279;de.wikipedia.org/wiki/Port_Address_Translation](de.wikipedia.org/wiki/Port_Address_Translation)
 
 #### Zielsetzung:
 
@@ -2245,9 +2262,9 @@ Blocklist (Auszug):
 
 => siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
 
-[de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)
+[&#128279;de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)
 
-[de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
+[&#128279;de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
 
 ### Unterscheidungsmerkmale:
 
@@ -2285,7 +2302,7 @@ Nur die Hin-Richtung muss angegeben werden:
 
 ### Allgemeine Erklärungen:
 
-[de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
+[&#128279;de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
 
 => siehe: \_1_Bruecke.pdf
 ![Alt text](img/1_Bruecke.png)
@@ -2558,9 +2575,9 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
 
 ### Demilitarisierte Zone ("DMZ"):
 
-[de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik)](de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik))  
+[&#128279;de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik)](de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik))  
 
-[heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html](heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html)
+[&#128279;heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html](heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html)
 
 => siehe: Foto "TB_14" als Tafelbild
 ![TB_14!](img/TB_14.jpg "TB_14")
@@ -2668,7 +2685,7 @@ gehen Sie in 2 Schritten vor:
 weitere Darstellungen im Verzeichnis: "Verschluesselung_Bilder"  
 ==>> Daten können heute teilweise verschlüsselt verarbeitet werden:
 
-[https://de.wikipedia.org/wiki/Homomorphe_Verschlüsselung](https://de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung)
+[&#128279;https://de.wikipedia.org/wiki/Homomorphe_Verschlüsselung](https://de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung)
 
 エンコード Transport der Daten im Internet  
 => ist anzuraten.  
@@ -2677,7 +2694,7 @@ weitere Darstellungen im Verzeichnis: "Verschluesselung_Bilder"
 => soll zukünftig möglich werden!  
 
 Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):  
-[de.wikipedia.org/wiki/CrypTool](de.wikipedia.org/wiki/CrypTool)
+[&#128279;de.wikipedia.org/wiki/CrypTool](de.wikipedia.org/wiki/CrypTool)
 
 ### Wir unterscheiden grob:
 
@@ -2693,7 +2710,7 @@ Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
 
 #### Asymmetrisches Verfahren:
 
-[de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem](de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)
+[&#128279;de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem](de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)
 
 #### Hybrides (kombinatorisches) Verfahren:
 => siehe: TB_20 bis TB_25 (am Beispiel einer selbst gebauten "mechanischen" asymmetrischen Verschlüsselung).
@@ -2713,9 +2730,9 @@ Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
 
 ####  Diffie-Hellman-Verfahren (eine Spielart des asymmetrischen Verfahrens):
 
-[de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH)](de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH))
+[&#128279;de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH)](de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH))
 
-[de.wikipedia.org/wiki/Perfect_Forward_Secrecy](de.wikipedia.org/wiki/Perfect_Forward_Secrecy)
+[&#128279;de.wikipedia.org/wiki/Perfect_Forward_Secrecy](de.wikipedia.org/wiki/Perfect_Forward_Secrecy)
 
 <!-- [81] -->
 
@@ -2728,12 +2745,12 @@ Bist Du wirklich derjenige, für den Du Dich ausgibst?
 ##### Antwort:
 
 - Shared_Secret:  
-  - [de.wikipedia.org/wiki/Shared_Secret](de.wikipedia.org/wiki/Shared_Secret)
+  - [&#128279;de.wikipedia.org/wiki/Shared_Secret](de.wikipedia.org/wiki/Shared_Secret)
 
 - Zertifikat:
 => siehe: Westermann Seite 295
-  -  [de.wikipedia.org/wiki/Digitales_Zertifikat](de.wikipedia.org/wiki/Digitales_Zertifikat)
-  - [de.wikipedia.org/wiki/Public-Key-Zertifikat](de.wikipedia.org/wiki/Public-Key-Zertifikat)
+  -  [&#128279;de.wikipedia.org/wiki/Digitales_Zertifikat](de.wikipedia.org/wiki/Digitales_Zertifikat)
+  - [&#128279;de.wikipedia.org/wiki/Public-Key-Zertifikat](de.wikipedia.org/wiki/Public-Key-Zertifikat)
 
 #### Integrität:
 
@@ -2742,11 +2759,11 @@ Wurden die Daten beim Transport verändert?
 ##### Antwort:
 
 - Hashfunktion:  
-=> siehe: Westermann Seite 293
-  - [de.wikipedia.org/wiki/Hashfunktion](de.wikipedia.org/wiki/Hashfunktion)
+  - siehe: Westermann Seite 293
+  - [&#128279;de.wikipedia.org/wiki/Hashfunktion](de.wikipedia.org/wiki/Hashfunktion)
 - Digitale Signatur:  
-=> siehe: Westermann Seite 294
-[de.wikipedia.org/wiki/Digitale_Signatur](de.wikipedia.org/wiki/Digitale_Signatur)
+  - siehe: Westermann Seite 294
+  - [&#128279;de.wikipedia.org/wiki/Digitale_Signatur](de.wikipedia.org/wiki/Digitale_Signatur)
 
 #### Vertraulichkeit:
 
@@ -2755,7 +2772,7 @@ Können Dritte die Daten Lesen?
 ##### Antwort:
 
   - Verschlüsselungsalgorithmen:
-    - [de.wikipedia.org/wiki/Verschlüsselung](de.wikipedia.org/wiki/Verschlüsselung)
+    - [&#128279;de.wikipedia.org/wiki/Verschlüsselung](de.wikipedia.org/wiki/Verschlüsselung)
 <!-- [82] -->
 
 ### Zusammenfassung Verschlüsselung:
@@ -2769,104 +2786,143 @@ Wurden die Verschlüsselungsalgorithmen fehlerfrei in die Software integriert?
 
 ###### Echte Zufallszahlen:
 
-[de.wikipedia.org/wiki/Zufallszahlengenerator](de.wikipedia.org/wiki/Zufallszahlengenerator)  
-[random.org/analysis/](random.org/analysis/) 
+[&#128279;de.wikipedia.org/wiki/Zufallszahlengenerator](de.wikipedia.org/wiki/Zufallszahlengenerator)  
+[&#128279;random.org/analysis/](random.org/analysis/) 
 "Simple Visual Analysis"
 
 ###### Brute-Force:
-[de.wikipedia.org/wiki/Brute-Force-Methode](de.wikipedia.org/wiki/Brute-Force-Methode) 
+[&#128279;de.wikipedia.org/wiki/Brute-Force-Methode](de.wikipedia.org/wiki/Brute-Force-Methode) 
 
 - Zur Erinnerung => Bitcoin-Mining:  
   - Mit normalem PC => sehr langsam.
   - Mit der Grafikkarte => schneller.
   - Mit ASICs => sehr viel schneller:
   
-[de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung](de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung)
+[&#128279;de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung](de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung)
 
 ###### Einzige "unknackbare" Verschlüsselung:
 
-- One-Time-Pad:
-[de.wikipedia.org/wiki/One-Time-Pad](de.wikipedia.org/wiki/One-Time-Pad)  
-[de.wikipedia.org/wiki/Exklusiv-Oder-Gatter](de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)  
+One-Time-Pad:
+[&#128279;de.wikipedia.org/wiki/One-Time-Pad](de.wikipedia.org/wiki/One-Time-Pad)  
+[&#128279;de.wikipedia.org/wiki/Exklusiv-Oder-Gatter](de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)  
 
 
-<!-- [83] -->
+<!-- [&#128279;83] -->
 
-M.) VPN (virtuelles Privates Netzwerk):
-=> siehe: Westermann Seite 598
-wiki.securepoint.de/UTM/VPN/%C3%9Cbersicht
-de.wikipedia.org/wiki/Virtual_Private_Network
-de.wikipedia.org/wiki/IPsec
+## M. VPN (virtuelles Privates Netzwerk):
 
-Transportmodus vs. Tunnelmodus:
-heise.de/security/artikel/VPN-Knigge-270796.htm l ?seite=all  
+=> siehe: Westermann Seite 598  
+- [&#128279;wiki.securepoint.de/UTM/VPN/Übersicht](wiki.securepoint.de/UTM/VPN/Übersicht)
+- [&#128279;de.wikipedia.org/wiki/Virtual_Private_Network](de.wikipedia.org/wiki/Virtual_Private_Network)
+- [&#128279;de.wikipedia.org/wiki/IPsec](de.wikipedia.org/wiki/IPsec)
+
+### Transportmodus vs. Tunnelmodus:
+
+[&#128279;heise.de/security/artikel/VPN-Knigge-270796.html?seite=all](heise.de/security/artikel/VPN-Knigge-270796.html?seite=al)  
+
 ==>> denke:
 Alice aus Mühlenbeck möchte geheime Daten an Bob in Berlin senden.
-Transportmodus:
+
+#### Transportmodus:
 ==>> denke:
 Alice packt geheime Daten in einen Briefumschlag:
+
 => Briefumschlag adressieren (Absender: Alice aus Mühlenbeck => Empfänger: Bob in Berlin).
+
 => Briefumschlag mit der Post verschicken.
+
 Was sieht Eve?
 Alice aus Mühlenbeck schickt Bob in Berlin geheime Daten.
+
 Was sieht Eve nicht?
-Den Inhalt des Briefumschlags (die geheimen Daten).
-[84]
-Tunnelmodus:
+Den Inhalt des Briefumschlags (die geheimen Daten).  
+<!-- [84] -->
+#### Tunnelmodus:  
 ==>> denke:
 Alice packt geheime Daten in einen Briefumschlag:
+
 => Briefumschlag adressieren (Absender: Alice aus Mühlenbeck => Empfänger: Bob in Berlin).
+
 => Briefumschlag mit einem Kurier verschicken, der nur zwischen Mühlenbeck und Berlin fährt.
+
 Was sieht Eve?
 Einen Kurier aus Mühlenbeck, der nach Berlin fährt.
+
 Was sieht Eve nicht?
 Absender: Alice aus Mühlenbeck => Empfänger: Bob in Berlin
+
 Den Inhalt des Briefumschlags (die geheimen Daten).
-Intranet vs. Extranet:
+
+### Intranet vs. Extranet:
+
 => siehe: Foto "TB*26" als Tafelbild:
-==>> Das Security Gateway ist im Tafelbild in der Firewall integriert.
-==>> Für die IHK-Prüfung:
-LAN 1 => DMZ 1 (die eigene DMZ) => Intranet (lila gestrichelte Linie).
-LAN 1 => DMZ 2 (die fremde DMZ) => Extranet (lila gestrichelte Linie).
+![Alt text](img/TB_26.JPG)
+
+==>> Das Security Gateway ist im Tafelbild in der Firewall integriert.  
+==>> Für die IHK-Prüfung:  
+LAN 1 => DMZ 1 (die eigene DMZ) => Intranet (lila gestrichelte Linie).  
+LAN 1 => DMZ 2 (die fremde DMZ) => Extranet (lila gestrichelte Linie).  
 LAN 2 => Intranet, Extranet nicht eingezeichnet (Übersichtlichkeit geht sonst verloren).
-[85]
-N.) Cloud:
+<!-- [85] -->
+
+## N. Cloud:
+
 => siehe: Westermann Seite 624
 => siehe: Foto "TB_17" als Tafelbild
-de.wikipedia.org/wiki/Cloud_Computing
-de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS)
-de.wikipedia.org/wiki/Platform_as_a_Service
-de.wikipedia.org/wiki/Software_as_a_Service
-ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/
-ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/
-ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/
-ibm.com/de-de/cloud/learn/iaas-paas-saas
-Ohne einen Alu-Hut zu tragen:
-(Public-) Cloud heißt:
-Meine Daten auf unbekannten Servern irgendwo auf der Welt:
-Die Anbieter versichern natürlich, dass die Daten in Deutschland / EU verbleiben.
-Es gibt heute erste Ansätze, verschlüsselte Daten zu verarbeiten, bis dahin gilt:
-Daten müssen vor der Verarbeitung in der CPU entschlüsselt werden.
-Daten liegen somit in Klarschrift vor.
+![Alt text](img/TB_17.JPG)
+
+[&#128279;de.wikipedia.org/wiki/Cloud_Computing](de.wikipedia.org/wiki/Cloud_Computing)  
+
+[&#128279;de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS)](de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS))
+
+[&#128279;de.wikipedia.org/wiki/Platform_as_a_Service](de.wikipedia.org/wiki/Platform_as_a_Service)
+
+[&#128279;de.wikipedia.org/wiki/Software_as_a_Service](de.wikipedia.org/wiki/Software_as_a_Service)
+
+[&#128279;ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/](ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/ )
+
+
+[&#128279;ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/](ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/)
+
+[&#128279;ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/](ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/)
+
+[&#128279;ibm.com/de-de/cloud/learn/iaas-paas-saas](ibm.com/de-de/cloud/learn/iaas-paas-saas)
+
+### Ohne einen Alu-Hut zu tragen:  
+(Public-) Cloud heißt:  
+Meine Daten auf unbekannten Servern irgendwo auf der Welt:  
+Die Anbieter versichern natürlich, dass die Daten in Deutschland / EU verbleiben.  
+Es gibt heute erste Ansätze, verschlüsselte Daten zu verarbeiten, bis dahin gilt:  
+Daten müssen vor der Verarbeitung in der CPU entschlüsselt werden.  
+Daten liegen somit in Klarschrift vor.  
 Daten können in der CPU leicht kopiert werden.
 => siehe: TB_17:
-Die unterstrichenen Buchstaben von oben nach unten gelesen ==>> nicht vergessen!
-[86]
+![Alt text](img/TB_17.JPG)
+
+Die unterstrichenen Buchstaben von oben nach unten gelesen ==>> nicht vergessen!  
+<!-- [86] -->
 => siehe: TB_17:
-Linker Keil ("Kunde"):
-Aufwand für den Kunden der Cloud:
-Kunde mietet IaaS => hoher Aufwand, viele Freiheiten => preiswert.
-Kunde mietet PaaS => mäßiger Aufwand, eingeschränkte Freiheiten => teurer.
-Kunde mietet SaaS => geringer Aufwand, wenige Freiheiten => noch teurer.
-Rechter Keil ("Anbieter"):
+![Alt text](img/TB_17.JPG)
+Linker Keil ("Kunde"):  
+Aufwand für den Kunden der Cloud:  
+Kunde mietet IaaS[^11] => hoher Aufwand, viele Freiheiten => preiswert.  
+Kunde mietet PaaS[^12] => mäßiger Aufwand, eingeschränkte Freiheiten => teurer.  
+Kunde mietet SaaS[^13] => geringer Aufwand, wenige Freiheiten => noch teurer.  
+Rechter Keil ("Anbieter"):  
 Aufwand für den Anbieter der Cloud:
 Kunde mietet IaaS => geringer Aufwand => geringer Gewinn.
 Kunde mietet PaaS => mäßiger Aufwand => mäßiger Gewinn.
 Kunde mietet SaaS => hoher Aufwand => höchster Gewinn.
-==>> Für die IHK-Prüfung nicht vergessen:
-Public Cloud.
-Hybride Cloud.
-Community Cloud.
-Private Cloud.
+
+[^11]:IaaS Infrastructure as a Service is a cloud computing model that provides on-demand access to computing resources such as servers, storage, networking, and virtualization.  
+[^12]:PaaS Platform as a service is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications.   
+[^13]:SaaS Software as a service allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools (such as Microsoft Office 365).
+
+==>> Für die IHK-Prüfung nicht vergessen:  
+Public Cloud.  
+Hybride Cloud.  
+Community Cloud.  
+Private Cloud.  
+
 => siehe: Verzeichnis Filius_Sammlung
 Version 12_1.

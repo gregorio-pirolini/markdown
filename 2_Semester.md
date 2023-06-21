@@ -1063,12 +1063,30 @@ Status Lokal Remote Netzwerk
 
 ---
 
-OK P: \\192.168.13.1\s01 Microsoft Windows Network
-OK S: \\192.168.13.1\ablage Microsoft Windows Network
-OK T: \\192.168.13.1\transfer Microsoft Windows Network
-OK \\192.168.13.225\Backup Microsoft Windows Network
-Der Befehl wurde erfolgreich ausgeführt.
+OK P: \\192.168.13.1\s01 Microsoft Windows Network  
+OK S: \\192.168.13.1\ablage Microsoft Windows Network  
+OK T: \\192.168.13.1\transfer Microsoft Windows Network  
+OK \\192.168.13.225\Backup Microsoft Windows Network  
+  Der Befehl wurde erfolgreich ausgeführt.  
 
 C:\Users\Administrator>net use \\192.168.13.225\Backup \* /user:backupadmin
 Geben Sie das Kennwort für \\192.168.13.225\Backup ein:
+
 Der Befehl wurde erfolgreich ausgeführt.
+
+## 21 06 2023
+
+### NT
+
+#### Authentizität:
+
+Bist du der jenige fuer den du  dich ausgibst?
+
+#### integrität: 
+
+wurden die Daten verändert?
+
+#### Vertraulichkeit:
+
+Kann ein dritter die daten mitlesen?
+
