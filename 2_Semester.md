@@ -1067,7 +1067,7 @@ OK P: \\192.168.13.1\s01 Microsoft Windows Network
 OK S: \\192.168.13.1\ablage Microsoft Windows Network  
 OK T: \\192.168.13.1\transfer Microsoft Windows Network  
 OK \\192.168.13.225\Backup Microsoft Windows Network  
-  Der Befehl wurde erfolgreich ausgeführt.  
+ Der Befehl wurde erfolgreich ausgeführt.
 
 C:\Users\Administrator>net use \\192.168.13.225\Backup \* /user:backupadmin
 Geben Sie das Kennwort für \\192.168.13.225\Backup ein:
@@ -1080,9 +1080,9 @@ Der Befehl wurde erfolgreich ausgeführt.
 
 #### Authentizität:
 
-Bist du der jenige fuer den du  dich ausgibst?
+Bist du der jenige fuer den du dich ausgibst?
 
-#### integrität: 
+#### integrität:
 
 wurden die Daten verändert?
 
@@ -1090,3 +1090,209 @@ wurden die Daten verändert?
 
 Kann ein dritter die daten mitlesen?
 
+# 3 Semester
+
+## 26 06 2023
+
+### Kup
+
+#### Radius:
+
+Der Remote Authentication Dial-In User Service (RADIUS) sorgt bei der Einwahl in ein Dial-In-Netzwerk oder beim Layer-2-Zugang zu einem LAN oder WLAN für die Authentifizierung und Autorisierung der User oder Geräte. Eine zentrale Rolle übernimmt der RADIUS-Server.
+
+#### Sysinternals
+
+Windows Sysinternals is a website that offers technical resources and utilities to manage, diagnose, troubleshoot, and monitor a Microsoft Windows environment. Originally, the Sysinternals website was created in 1996 and was operated by the company Winternals Software LP, which was located in Austin, Texas
+
+### Sata III
+
+ELI5 (explain like I'm five): SATA uses 8b/10b encoding. Basically, the SATA protocol converts the normal 8-bit data into 10-bit data. This conversion, somehow, gives it a lower error rate. So,yeah: SATA I was 1.5Gbps (thus 150 MB/s), SATA II was 3.0Gbps (thus 300 MB/s), and SATA III is 6.0Gbps (thus 600 MB/s).
+
+## 27 06 2023
+
+### Luc
+
+Vorstellung...
+
+### KUP 2
+
+#### Snapshot:
+
+Abbild des fileesystems an einem bestimmten Zeitpunkt
+
+#### Private ip addresse Bereiche:
+
+10.0.0.0 10.255.255.255
+172.16.0.0 172.31.255.255
+192.168.0.0 192.168.255.255
+
+#### USV
+
+VFI online  
+VFD offline  
+VI Line interacxtive fueur AVR
+
+### WISo
+
+#### Verjaehrung_von_Ansprüchen
+
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_01.png)
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_02.png)
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_03.png)
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_04.png)
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_05.png)
+![Alt text](img/Verjaehrung_von_Anspr%C3%BCchen_06.png)
+
+#### Verjaehrung
+
+![Alt text](img/Verjährung_01.png)
+![Alt text](img/Verjährung_02.png)
+![Alt text](img/Verjährung_03.png)
+
+Unter Verjährung versteht man den Ablauf einer gesetzlich festgelegten Frist, innerhalb derer ein Anspruch gerichtlich durchgesetzt werden kann.
+Der Anspruch bleibt zwar weiterhin bestehen, aber mit der Verjährung des Anspruchs erwirbt der Schuldner die >Einrede der Verjährung< (das Leistungsverweigerungsrecht).
+
+PIX
+
+
+Hat der Schuldner aber eine verjährte Forderung erfüllt, so kann er das Geleistete nicht zurückfordern. Ist zur Sicherung des Anspruchs ein Pfandrecht bestellt, so kann sich der Gläubiger auch nach der Verjährung aus dem Pfandgegenstand befriedigen.
+Der Zeitpunkt des Beginns der Verjährung hängt vom Zeitpunkt der Entstehung des Anspruchs und von den Verjährungsfristen ab,
+
+Beginn der Verjährung
+Die regelmäßige Verjährungsfrist beginnt am Ende des Jahres, in dem der Anspruch entstanden ist. Bei Ansprüchen, die nicht der regelmäßigen Verjährungsfrist unterliegen, beginnt die Verjährung mit der Entstehung des Anspruchs.
+
+Dauer der Verjährung (Bild,seite242)
+a) Die regelmäßige Verjährungsfrist beträgt drei Jahre und gilt für alle Forderungen der Privatleute, Gewerbetreibenden und für Darlehen.
+b) Verlängerte Verjährungsfristen
+In 10 Jahren verjähren die Ansprüche auf bestimmte Rechte des Eigentums an einem
+Grundstück.
+In 30 Jahren verjähren u.a. die Ansprüche aus der Herausgabe des Eigentums, familien- und erbrechtliche Ansprüche, Ansprüche aus vollstreckbaren Vergleichen oder vollstreckbaren Urkunden, sowie vollstreckbare Ansprüche aus Insolvenzverfahren.
+c) Verkürzte Verjährungsfristen gelten für Mängelrügen aus Kauf- oder Werkverträgen.
+
+Hemmung der Verjährung
+Bei der Hemmung wird die Verjährungsfrist um die Zeitspanne der Hemmung verlängert.
+
+Die Verjährung wird u.a. gehemmt
+
+
+a) bei Verhandlungen zwischen Schuldner und Gläubiger, ob der Anspruch berechtigt ist.
+Die Verjährung tritt frühestens drei Monate nach dem Ende der Verhandlung ein.
+
+b) durch Rechtsverfolgung wie
+- Erhebung der Klage auf Leistung oder Erlass des Vollstreckungsurteils,
+- Zustellung des Mahnbescheids,
+- Anmeldung des Anspruchs im Insolvenzverfahren.
+
+Die Hemmung endet sechs Monate nach der rechtskräftigen Entscheidung oder einer anderen Beendigung des eingeleiteten Verfahrens.
+
+c) solange der Schuldner vorübergehend berechtigt ist, die Leistung zu verweigern.
+
+d) solange der Gläubiger durch höhere Gewaltwährend der Letzten sechs Monate der Verjährungsfrist daran gehindert ist, seine Rechte geltend zu machen.
+
+
+Neubeginn der Verjährung
+
+Die Verjährung beginnt erneut, wenn
+
+a) der Schuldner seine Schuld anerkennt,
+Beispiel: Der Schuldner leistet eine Abschlagszahlung.
+
+b) der Gläubiger eine gerichtliche oder behördliche Vollstreckungshandlung beantragt oder vornehmen lässt.
+Beispiel: Der Gläubiger beantragt einen Vollstreckunqsbescheid zu erlassen.
+
+
+Zusammenfassendes Beispiel
+
+PIX
+
+
+**ZPO**: ZIVIL PROZESS ORDNUNG
+
+**Verjährung** = Zeitpunkt, ab dem der Schuldner seine Leistung nicht mehr erfüllen braucht, sodass der Gläubiger seine Ansprüche nicht mehr durchsetzen kann. Zivilrechtliche Verjährungsfristen liegen nach dem BGB zwischen 3 und 30 Jahren. Regelmäßige Verjährungsfrist: Dauer ist in § 195 BGB geregelt: 3 Jahre.
+
+**Statute of limitations** = point in time from which the debtor no longer needs to fulfill his performance, so that the creditor can no longer enforce his claims. Civil law limitation periods are between 3 and 30 years according to the BGB. Regular limitation period: duration is regulated in § 195 BGB: 3 years.
+
+### Pog
+
+#### Daten transport format
+
+- csv
+- json
+- XML
+
+CSV vs XML vs JSON – Which is the Best Response Data Format?
+
+**API:** Application programming interface
+
+### KUE PT
+
+## 28 06 2023
+
+### Pog
+
+#### Service Level
+
+##### First-Level-Support
+
+- leute nicht qualifiziert
+- 10 Schritte
+  - begruessung, abfrage, Versuch problem zu lösen...
+- Ticket zu gemacht/ zum anderen Level weiter leiten
+- Zeit wird gemessen
+- Zeitdruck
+
+Der First-Level-Support ist die erste Anlaufstelle für Probleme. Der Kontakt erfolgt entweder über ein **Ticketsystem**, per E-Mail oder Telefon. Je nach Schwierigkeit des Problems kann es vom First-Level-Support bereits gelöst werden, oder es wird an den Second- oder Third-Level-Support weitergegeben. Der entsprechende Mitarbeiter hat sehr viel Kundenkontakt.
+
+Zum First-Level Support, zählt auch der Onsite-Support, der Hardwareaustausch, Diagnose vor Ort, Mobile Devices und direkte Störungsbehebung am Arbeitsplatz des Kunden. Kleinere Softwareprobleme, direkter Kontakt mit den Usern.
+
+##### Second-Level-Support
+
+- weniger Leute als beim 1. Level
+- Mehr qualifiziert
+
+Der Second-Level-Support erfolgt durch die IT-Spezialisten. Sie sind zuständig für Softwareinstallation und sonstige Probleme, die der First-Level-Support nicht lösen konnte. Zusätzlich sind sie zuständig für die Wartung von IT-Systemen. Die entsprechenden Mitarbeiter sind in der Regel nicht auf direktem Wege telefonisch erreichbar.
+
+##### Third-Level-Support
+
+Der Level 3 Support ist die höchste Stufe in einem hierarchischen 3-stufigen Support-Model. Er ist verantwortlich für die schwierigsten und komplexesten Probleme. Diese Personen sind Experten auf ihrem Fachgebiet und sind nicht nur dafür verantwortlich den Level 1 und 2 Support zu unterstützen, sondern auch für die Erforschung und Entwicklung von Lösungen für neue oder unbekannte Probleme.
+
+Techniker des Level 3 Support haben die gleiche Verantwortung wie Techniker des Second-Level-Supports, wenn es darum geht, den Arbeitsauftrag zu überprüfen und die bereits mit dem Kunden verbrachte Zeit zu bewerten, damit die Arbeit priorisiert und das Zeitmanagement ausreichend genutzt wird. Wenn es überhaupt möglich ist, wird der Techniker daran arbeiten, das Problem mit dem Kunden zu lösen, da sich herausstellen kann, dass die Techniker vom First Level Support und/oder vom Second-Level-Support einfach nicht die richtige Lösung gefunden haben. Wenn jedoch neue Probleme auftreten, muss das Tier-3-Personal zunächst entscheiden, ob es das Problem lösen soll oder nicht, und benötigt möglicherweise die Kontaktdaten des Kunden, damit der Techniker ausreichend Zeit hat, das Problem zu untersuchen und eine Lösung zu finden. Es ist typisch, dass ein Entwickler oder jemand, der den Code oder das Backend des Produkts kennt, der Tier-3-Support-Mitarbeiter ist.
+
+Dieses Level 3 Support Team kann den Code und die Daten mit Hilfe der Informationen von First und Second Level Support analysieren.
+
+In einigen Fällen kann das Problem durch den Third-Level-Support nicht gelöst werden. Solche Probleme werden auch an die ursprünglichen Entwickler zur eingehenden Analyse geschickt. Wenn festgestellt wird, dass das Problem gelöst werden kann, ist diese Gruppe dafür verantwortlich, eine oder mehrere Vorgehensweisen zu entwerfen und zu entwickeln, jede dieser Vorgehensweisen in einer Testfallumgebung zu evaluieren und die beste Lösung für das Problem zu implementieren. Sobald die Lösung verifiziert ist, wird sie an den Kunden ausgeliefert und für zukünftige Fehlerbehebungen und Analysen zur Verfügung gestellt.
+
+**Webinare**: online kurs mit Lehrer
+
+**multiplicatoren-Schulung**: ein Mitarbeiter geht und lernt und bringt den anderen bei
+
+**functional anforderung**: was es macht
+
+**nicht functional anforderung**: sichereheit effizienz performanz Ausshen
+
+### Wiso
+
+**Einrede der Verjährung**: Beruft sich der Schuldner auf die Einrede der Verjährung, so verweigert er damit die Leistung, weil die Forderung des Gläubigers inzwischen verjährt ist. Der Gläubiger kann derart verjährte Schulden nicht mehr durchsetzen.
+
+**Kabulatorische Wagnisse**: Das kalkulatorische Wagnis ist im Rechnungswesen ein Teil der kalkulatorischen Kosten, welche die aus dem unternehmerischen Wagnis resultierenden befürchteten oder erwarteten Verluste in der Kostenrechnung abbilden sollen.  
+En comptabilité, le risque calculé est une partie des coûts calculés qui doivent représenter dans la comptabilité analytique les pertes redoutées ou attendues résultant du risque entrepreneurial.
+
+**Gewährleistunggswagnis**: Das G. gehört zu den kalkulatorischen Wagnissen (Einzelwagnisse) und umfasst Risiken, die sich aus Garantieverpflichtungen, Ersatzlieferungen, Preisnachlässen, Nachbesserungen, Vertragsstrafen ergeben.
+
+**Hemmung:** Schweben zwischen dem Schuldner und dem Gläubiger Verhandlungen über den Anspruch oder die den Anspruch begründenden Umstände, so ist die Verjährung gehemmt, bis der eine oder der andere Teil die Fortsetzung der Verhandlungen verweigert.  
+ Lorsque des pourparlers sont en cours entre le débiteur et le créancier au sujet de la créance ou des circonstances justifiant la créance, la prescription est suspendue jusqu'à ce que l'une ou l'autre partie refuse de poursuivre les pourparlers.
+
+**Neubegin der Verjährung**: Bei Neubeginn der Verjährung beginnt die Verjährung nicht (erst) wieder mit dem 1. Januar des Folgejahres zu laufen, sondern unmittelbar nach dem Tag des Ereignis- ses, das zum Neubeginn der Verjährung geführt hat (z.B. Anerkenntnis des Anspruchs durch Zahlung einer Abschlagszahlung).  
+En cas de nouveau départ de la prescription, celle-ci ne recommence pas à courir (seulement) à partir du 1er janvier de l'année suivante, mais immédiatement après le jour de l'événement qui a entraîné le nouveau départ de la prescription (p. ex. reconnaissance du droit par le paiement d'un acompte).
+
+**Schuldanerkanntnis: ** Das Schuldanerkenntnis (oder Schuldversprechen) ist im Schuldrecht ein Anerkenntnis mittels Vertrag durch den Schuldner gegenüber seinem Gläubiger, womit er losgelöst vom zugrundeliegenden Kausalgeschäft mit einem hiervon selbständigen Haftungsgrund seine Schuld bekräftigt.  
+En droit des obligations, la reconnaissance de dette (ou promesse de dette) est une reconnaissance par contrat du débiteur envers son créancier, par laquelle il confirme sa dette, indépendamment de l'acte causal sous-jacent, avec un motif de responsabilité indépendant de celui-ci.
+
+**Liquidität:** Der Begriff Liquidität beschreibt die Fähigkeit eines Unternehmens, seine laufenden Zahlungsverpflichtungen jederzeit erfüllen zu können. Es stellt ein Urteil über die Zahlungsfähigkeit eines Unternehmens dar und gibt an, ob ein Unternehmen über ausreichende Mittel verfügt, um seine Verpflichtungen zu erfüllen.
+
+**Bonität**: Bonität (lat. bonitas = Vortrefflichkeit) beschreibt den Willen und die Fähigkeit eines Kreditnehmenden, seinen Zahlungsverpflichtungen vollständig und fristgerecht nachzukommen. Das deutsche Pendant ist der Begriff Kreditwürdigkeit.
+
+
+### winBS
+win R  
+taskschd

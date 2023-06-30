@@ -1,0 +1,8 @@
+tbxIP
+$tbxSubnet
+tbxMacAddress
+tbxGateway
+chbDHCP
+$cmbDNS
+$tbxProxyServer
+$tbxProxyPort

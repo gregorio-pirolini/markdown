@@ -22,14 +22,14 @@ mono{font-family:"monospace"}
 IT-Handbuch Westermann 12.Auflage  
 Quellen aus dem Internet:
 
-- [&#128279;de.wikipedia.org](de.wikipedia.org)
-- [&#128279;netzmafia.de/skripten/netze/index.html](netzmafia.de/skripten/netze/index.html)  
+- [🔗de.wikipedia.org](de.wikipedia.org)
+- [🔗netzmafia.de/skripten/netze/index.html](netzmafia.de/skripten/netze/index.html)  
   Kann komplett heruntergeladen werden (zum Entpacken kann 7-zip.org notwendig werden).
 
-- [&#128279;wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)
-- [&#128279;wut.de/download/print/e-58www-20-prde-000.pdf](wut.de/download/print/e-58www-20-prde-000.pdf)
-- [&#128279;https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubehör](https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubeh%c3%b6r)
-- [&#128279;thomas-krenn.com/de/wiki/Kostenlose_IT_Bücher](thomas-krenn.com/de/wiki/Kostenlose_IT_B%C3%BCcher)
+- [🔗wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)
+- [🔗wut.de/download/print/e-58www-20-prde-000.pdf](wut.de/download/print/e-58www-20-prde-000.pdf)
+- [🔗https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubehör](https://www.thomas-krenn.com/de/wiki/Kategorie:Netzwerk+Zubeh%c3%b6r)
+- [🔗thomas-krenn.com/de/wiki/Kostenlose_IT_Bücher](thomas-krenn.com/de/wiki/Kostenlose_IT_B%C3%BCcher)
 
 - youtube.com
 
@@ -39,27 +39,27 @@ Quellen aus dem Internet:
 
 ### Geschichte:
 
-[&#128279;de.wikipedia.org/wiki/Arpanet](de.wikipedia.org/wiki/Arpanet)
+[🔗de.wikipedia.org/wiki/Arpanet](de.wikipedia.org/wiki/Arpanet)
 
 ### Leitungsvermittlung, Paketvermittlung:
 
-[&#128279;www.netplanet.org/aufbau/netzwerk.shtml](www.netplanet.org/aufbau/netzwerk.shtml)
+[🔗www.netplanet.org/aufbau/netzwerk.shtml](www.netplanet.org/aufbau/netzwerk.shtml)
 
-[&#128279;netzmafia.de/skripten/netze/netz0.html#0.3](netzmafia.de/skripten/netze/netz0.html#0.3)
+[🔗netzmafia.de/skripten/netze/netz0.html#0.3](netzmafia.de/skripten/netze/netz0.html#0.3)
 
 ### Kommunikationsprotokoll:
 
-[&#128279;de.wikipedia.org/wiki/Kommunikationsprotokoll](de.wikipedia.org/wiki/Kommunikationsprotokoll)
+[🔗de.wikipedia.org/wiki/Kommunikationsprotokoll](de.wikipedia.org/wiki/Kommunikationsprotokoll)
 
 => siehe: im Verzeichnis Filius/Filius_1_PC_DHCP_DNS_Web_10.fls
 
 ### Host:
 
-[&#128279;de.wikipedia.org/wiki/Hostrechner](de.wikipedia.org/wiki/Hostrechner)
+[🔗de.wikipedia.org/wiki/Hostrechner](de.wikipedia.org/wiki/Hostrechner)
 
 ### Server:
 
-[&#128279;de.wikipedia.org/wiki/Server](de.wikipedia.org/wiki/Server)
+[🔗de.wikipedia.org/wiki/Server](de.wikipedia.org/wiki/Server)
 
 ### Vorteile von Netzwerken:
 
@@ -78,47 +78,47 @@ Quellen aus dem Internet:
 
 #### LAN:
 
-[&#128279;de.wikipedia.org/wiki/Local_Area_Network](de.wikipedia.org/wiki/Local_Area_Network)
+[🔗de.wikipedia.org/wiki/Local_Area_Network](de.wikipedia.org/wiki/Local_Area_Network)
 
 => siehe: im Verzeichnis Filius/Filius_2_LAN.fls
 
 #### MAN:
 
-[&#128279;de.wikipedia.org/wiki/Metropolitan_Area_Network](de.wikipedia.org/wiki/Metropolitan_Area_Network)
+[🔗de.wikipedia.org/wiki/Metropolitan_Area_Network](de.wikipedia.org/wiki/Metropolitan_Area_Network)
 
 #### WAN:
 
-[&#128279;de.wikipedia.org/wiki/Wide_Area_Network](de.wikipedia.org/wiki/Wide_Area_Network)
+[🔗de.wikipedia.org/wiki/Wide_Area_Network](de.wikipedia.org/wiki/Wide_Area_Network)
 
 #### GAN:
 
-[&#128279;de.wikipedia.org/wiki/Global_Area_Network](de.wikipedia.org/wiki/Global_Area_Network)
+[🔗de.wikipedia.org/wiki/Global_Area_Network](de.wikipedia.org/wiki/Global_Area_Network)
 
 ### Topologien (allgemein):
 
-[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)>)
+[🔗de.wikipedia.org/wiki/Topologie\_(Rechnernetz)](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)>)
 
 #### Ringtopologie:
 
-[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Ring-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Ring-Topologie>)
+[🔗de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Ring-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Ring-Topologie>)
 
 #### Bustopologie:
 
-[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Bus-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Bus-Topologie>)
+[🔗de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Bus-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Bus-Topologie>)
 
 #### Sterntopologie:
 
-[&#128279;de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Stern-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Stern-Topologie>)
+[🔗de.wikipedia.org/wiki/Topologie\_(Rechnernetz)#Stern-Topologie](<de.wikipedia.org/wiki/Topologie_(Rechnernetz)#Stern-Topologie>)
 
-<!-- [&#128279;3] -->
+<!-- [🔗3] -->
 
 ### Echtzeitfähigkeit:
 
-[&#128279;de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit](de.wikipedia.org/wiki/Echtzeitsystem#Harte,_weiche_und_feste_Echtzeit)
+[🔗de.wikipedia.org/wiki/Echtzeitsystem#Harte,\_weiche_und_feste_Echtzeit](de.wikipedia.org/wiki/Echtzeitsystem#Harte,_weiche_und_feste_Echtzeit)
 
 ### Richtungsunabhängigkeit:
 
-[&#128279;de.wikipedia.org/wiki/Duplex\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/Duplex_(Nachrichtentechnik)>)
+[🔗de.wikipedia.org/wiki/Duplex\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/Duplex_(Nachrichtentechnik)>)
 
 #### Simplex: Nur von A nach B (Einbahnstraße).
 
@@ -139,7 +139,7 @@ Austauschbarkeit von Schichten ist möglich (z.B. IPv4 wird zukünftig durch IPv
 
 ### verschiedene Schichtenmodelle:
 
-[&#128279;de.wikipedia.org/wiki/Internetprotokollfamilie](de.wikipedia.org/wiki/Internetprotokollfamilie)
+[🔗de.wikipedia.org/wiki/Internetprotokollfamilie](de.wikipedia.org/wiki/Internetprotokollfamilie)
 
 => siehe: Westermann Seite 590  
  Nummerieren Sie bitte in der Spalte "ISO-OSI" (ganz links) die Schichten von "Bitübertragungsschicht" (blau) mit 1 bis "Anwendungsschicht" (gelb) mit 7. In der Spalte "TCP/IP-Protokollstruktur" kennzeichnen Sie bitte die schwach erkennbare weiße
@@ -156,7 +156,7 @@ Alle Deutschen Schüler Trinken Verschiedene Sorten Brause.
 
 => siehe: Westermann Seite 590 Spalte "TCP/IP-Protokollstruktur"
 
-[&#128279;de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
+[🔗de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)
 
 ==>> Das am häufigsten eingesetzte Modell.
 
@@ -174,7 +174,7 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 ### Koaxialkabel:
 
-[&#128279;de.wikipedia.org/wiki/Koaxialkabel](de.wikipedia.org/wiki/Koaxialkabel)
+[🔗de.wikipedia.org/wiki/Koaxialkabel](de.wikipedia.org/wiki/Koaxialkabel)
 
 - Veraltete Technologie
 - Wurde für Bustopologie verwendet.
@@ -183,9 +183,9 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 ### Twisted-Pair-Kabel:
 
 => siehe: Westermann Seiten 234 und 421
-[&#128279;de.wikipedia.org/wiki/Twisted-Pair-Kabel](de.wikipedia.org/wiki/Twisted-Pair-Kabel)
+[🔗de.wikipedia.org/wiki/Twisted-Pair-Kabel](de.wikipedia.org/wiki/Twisted-Pair-Kabel)
 
-[&#128279;de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Datenübertragungsblöcke_und_das_Typfeld](de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld)
+[🔗de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Datenübertragungsblöcke_und_das_Typfeld](de.wikipedia.org/wiki/Ethernet#Formate_der_Ethernet-Daten%C3%BCbertragungsbl%C3%B6cke_und_das_Typfeld)
 
 #### CAT 3:
 
@@ -228,11 +228,11 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 => siehe: Westermann Seite 190  
 => siehe: NT_Kochbuch/Laser_Hardware.mp4  
 => siehe: NT_Kochbuch/Laser_Software.mp4  
-[&#128279;science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke](science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke)
+[🔗science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke](science.lu/de/wasser-experiment/leite-licht-mit-wasser-um-die-ecke)
 
 [![Alt Text](https://img.youtube.com/vi/0MwMkBET_5I/0.jpg)](https://www.youtube.com/watch?v=0MwMkBET_5I)
 
-[&#128279;netzmafia.de/skripten/netze/netz5.html#5.6](netzmafia.de/skripten/netze/netz5.html#5.6)
+[🔗netzmafia.de/skripten/netze/netz5.html#5.6](netzmafia.de/skripten/netze/netz5.html#5.6)
 
 #### Multimode:
 
@@ -249,7 +249,7 @@ Der Weg, auf dem wir unterwegs sind (Schicht "0" des TCP/IP-Modells).D.) Schicht
 
 #### Dämpfung:
 
-[&#128279;de.wikipedia.org/wiki/Dämpfung](de.wikipedia.org/wiki/D%C3%A4mpfung)
+[🔗de.wikipedia.org/wiki/Dämpfung](de.wikipedia.org/wiki/D%C3%A4mpfung)
 
 => siehe: Westermann Seite 189 (rechts oben):
 
@@ -271,18 +271,18 @@ Welches Licht können wir sehen?
 ### strukturierte Verkabelung:
 
 => siehe: Westermann Seite 421  
-[&#128279;de.wikipedia.org/wiki/Strukturierte_Verkabelung](de.wikipedia.org/wiki/Strukturierte_Verkabelung)  
+[🔗de.wikipedia.org/wiki/Strukturierte_Verkabelung](de.wikipedia.org/wiki/Strukturierte_Verkabelung)  
  (siehe Bild auf dieser Webseite)
 
 ### Bindeglied zwischen TP-Kabel und LWL:
 
 #### Medienkonverter
 
-[&#128279;de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
+[🔗de.wikipedia.org/wiki/Medienkonverter](de.wikipedia.org/wiki/Medienkonverter)
 
 #### SFP[^6] (Mini-GBIC[^7])
 
-[&#128279;de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
+[🔗de.wikipedia.org/wiki/Small_Form-factor_Pluggable](de.wikipedia.org/wiki/Small_Form-factor_Pluggable)
 
 [^6]: SFP Small_Form-factor_Pluggable
 [^7]: Mini-GBIC mini Gigabit Interface Converter
@@ -295,7 +295,7 @@ Darüber nutzt man Singlemode-LWL.
 
 ### Wireless LAN (WLAN):
 
-[de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11](de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11)
+🔗de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11](de.wikipedia.org/wiki/Wireless_Local_Area_Network#Standards_nach_IEEE_802.11)
 
 [heise.de/select/ct/2019/2/1546773697424925](heise.de/select/ct/2019/2/1546773697424925)
 
@@ -307,16 +307,16 @@ IEEE 802.11 g => <f>2,4</f> GHz
 (WIFI <f>6</f>) IEEE 802.11 ax => <f>2,4</f> und <f>5</f>GHz  
 (WIFI <f>6E</f>) IEEE 802.11 ax => <f>2,4</f> und <f>5</f> GHz und <f>6</f> GHz
 
-[https://de.wikipedia.org/wiki/Mesh-WLAN](https://de.wikipedia.org/wiki/Mesh-WLAN)
+[🔗https://de.wikipedia.org/wiki/Mesh-WLAN](https://de.wikipedia.org/wiki/Mesh-WLAN)
 
-[https://avm.de/mesh/](https://avm.de/mesh/)
+[🔗https://avm.de/mesh/](https://avm.de/mesh/)
 
 ### MIMO / MU-MIMO:
 
 => siehe: Westermann Seite 218 (Abbildung unten rechts)
 
-[de.wikipedia.org/wiki/MIMO\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/MIMO_(Nachrichtentechnik)>)  
-[avm.de/mu-mimo/](avm.de/mu-mimo/)
+[🔗de.wikipedia.org/wiki/MIMO\_(Nachrichtentechnik)](<de.wikipedia.org/wiki/MIMO_(Nachrichtentechnik)>)  
+[🔗avm.de/mu-mimo/](avm.de/mu-mimo/)
 
 #### Begriffserklärung allgemein "Multiple In Multiple Out":
 
@@ -388,13 +388,13 @@ EIRP = ERP x factor
 
 ## E.) Ethernet-Frame:
 
-[wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)  
+[🔗wut.de/download/print/e-58www-11-prde-000.pdf](wut.de/download/print/e-58www-11-prde-000.pdf)  
 Seite 31 bis 34
 
 => siehe: Westermann Seite 579 "Rahmenformate" und Seite 581 "Rahmenstruktur":
 
 **Präambel**:  
-[de.wikipedia.org/wiki/Synchronisation](de.wikipedia.org/wiki/Synchronisation)
+[🔗de.wikipedia.org/wiki/Synchronisation](de.wikipedia.org/wiki/Synchronisation)
 
 "Rahmenformate Ethernet II" => siehe: Westermann Seite 579
 
@@ -406,7 +406,7 @@ CRC/FCS:
 Der Frame kann nur <f>1500 Byte</f> an Daten aufnehmen, aber darin stecken auch noch die Header (Köpfe) von IP und TCP/UDP und möglicherweise HTTP (=> siehe: Westermann Seite 581 "Rahmenstruktur").
 Somit bleiben nur ca. <f>1460 Byte pro Frame</f> (Datenpaket) für die reinen Daten übrig.
 
-[https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)  
+[🔗https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell](https://de.wikipedia.org/wiki/Internetprotokollfamilie#TCP/IP-Referenzmodell)  
 => siehe: Grafik unten: "Aufbau eines Eternet-Frames mit maximalen IPv4- / TCP-Daten"
 
 ## F. Sniffer
@@ -423,11 +423,11 @@ wireshark.org/#download
 Treiber, um die Netzwerkkarte unter Windows 10 in den "freizügigen Modus" zu versetzen:  
 win10pcap.org/
 
-[de.wikipedia.org/wiki/Promiskuitiver-Modus](https://de.wikipedia.org/wiki/Promiskuitiver_Modus)
+[🔗de.wikipedia.org/wiki/Promiskuitiver-Modus](https://de.wikipedia.org/wiki/Promiskuitiver_Modus)
 
 ## G. Schicht 1
 
-[https://de.wikipedia.org/wiki/Netzwerkkarte](https://de.wikipedia.org/wiki/Netzwerkkarte)
+[🔗https://de.wikipedia.org/wiki/Netzwerkkarte](https://de.wikipedia.org/wiki/Netzwerkkarte)
 
 ### Netzwerkkarte
 
@@ -436,11 +436,11 @@ Netzzugriffsverfahren:
 
 #### Kollisionserkennung (CSMA/CD)
 
-[de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
+[🔗de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Detection)
 
 #### Kollisionsvermeidung (CSMA/CA)
 
-[de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance)
+[🔗de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance](de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance)
 
 <f>Merksatz:  
 CSMA/CD => D für Drahtgebundene Netze  
@@ -448,7 +448,7 @@ CSMA/CA => A für Netze mit Antennen</f>
 
 ### HUB:
 
-[de.wikipedia.org/wiki/Hub\_(Netzwerktechnik)](<de.wikipedia.org/wiki/Hub_(Netzwerktechnik)>)
+[🔗de.wikipedia.org/wiki/Hub\_(Netzwerktechnik)](<de.wikipedia.org/wiki/Hub_(Netzwerktechnik)>)
 
 Vorgänger eines Switches.  
 Verteilt alle Datenpakete an alle Netzwerkgeräte => sehr viel unnötiger Datenverkehr im Netzwerk.  
@@ -460,7 +460,7 @@ Nur Halbduplex möglich.
 
 ### MAC Adresse
 
-[de.wikipedia.org/wiki/MAC-Adresse](de.wikipedia.org/wiki/MAC-Adresse)
+[🔗de.wikipedia.org/wiki/MAC-Adresse](de.wikipedia.org/wiki/MAC-Adresse)
 Sollte weltweit einmalig sein.
 
 ### Switch
@@ -493,7 +493,7 @@ Spiegelung des Datenverkehrs eines Ports an einen zweiten Port für Analyse (Sni
 
 ### Link Aggregation
 
-[de.wikipedia.org/wiki/Link_Aggregation](de.wikipedia.org/wiki/Link_Aggregation)
+[🔗de.wikipedia.org/wiki/Link_Aggregation](de.wikipedia.org/wiki/Link_Aggregation)
 
 Im Linux-Umfeld auch Bonding genannt.  
 Allgemein oft als Trunking bezeichnet.  
@@ -502,19 +502,19 @@ Mehrere physische Ports werden zu einem logischen Port zusammengefasst, um den D
 
 ### Spanning Tree
 
-[de.wikipedia.org/wiki/Spanning_Tree_Protocol](de.wikipedia.org/wiki/Spanning_Tree_Protocol)
+[🔗de.wikipedia.org/wiki/Spanning_Tree_Protocol](de.wikipedia.org/wiki/Spanning_Tree_Protocol)
 
 Zur Vermeidung von Schleifen unter den Switches.  
 Zum Aufbau von redundanten Wegen zwischen den Switches.
 
 ### Redundanz:
 
-[de.wikipedia.org/wiki/Redundanz\_(Technik)](<de.wikipedia.org/wiki/Redundanz_(Technik)>)
+[🔗de.wikipedia.org/wiki/Redundanz\_(Technik)](<de.wikipedia.org/wiki/Redundanz_(Technik)>)
 
 ### Power over Ethernet
 
 => siehe: Westermann Seite 585
-[de.wikipedia.org/wiki/Power_over_Ethernet](de.wikipedia.org/wiki/Power_over_Ethernet)
+[🔗de.wikipedia.org/wiki/Power_over_Ethernet](de.wikipedia.org/wiki/Power_over_Ethernet)
 
 => siehe: Tabelle "Vergleich der PoE-Standards"
 802.3af  
@@ -524,9 +524,9 @@ Zum Aufbau von redundanten Wegen zwischen den Switches.
 #### VLAN:
 
 - => siehe: Westermann Seite 597 "VLAN"
-- => siehe: [wikipedia: VLAN](de.wikipedia.org/wiki/Virtual_Local_Area_Network)
-- => siehe: [heise.de: VLAN](heise.de/ct/artikel/VLAN-Virtuelles-LAN-221621.html)
-- => siehe: [thomas-krenn.com: VLAN](thomas-krenn.com/de/wiki/VLAN_Grundlagen)
+- => siehe: [🔗wikipedia: VLAN](de.wikipedia.org/wiki/Virtual_Local_Area_Network)
+- => siehe: [🔗heise.de: VLAN](heise.de/ct/artikel/VLAN-Virtuelles-LAN-221621.html)
+- => siehe: [🔗thomas-krenn.com: VLAN](thomas-krenn.com/de/wiki/VLAN_Grundlagen)
 
 Ein physisches LAN wird in mehrere logische LANs aufgeteilt.
 
@@ -722,12 +722,12 @@ bin.")
 ###### 10.0.0.0 /8
 
 Privater Adressbereich in Class A  
-[de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+[🔗de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
 ###### 127.0.0.1
 
 - localhost oder auch loopback genannt
-- [de.wikipedia.org/wiki/Localhost](de.wikipedia.org/wiki/Localhost)
+- [🔗de.wikipedia.org/wiki/Localhost](de.wikipedia.org/wiki/Localhost)
 - Adresse der virtuellen Netzwerkkarte imnetzwerkfähigen Rechner.
 - Austausch von Daten innerhalb des Betriebssystems und von Anwendungen möglich.
 
@@ -736,7 +736,7 @@ Privater Adressbereich in Class A
 ##### 169.254.1.0 bis 169.254.254.255
 
 - "Link Local" (APIPA[^1])
-- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)  
+- [🔗de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)  
   Sieht man häufig, wenn die automatische Zuweisung einer IPv4-Adresse nicht erfolgreich ist. Das entsprechende Gerät (PC, Drucker) gibt sich SELBST eine Adresse aus diesem Bereich.
 
 [^1]: APIPA Automatic Private IP Addressing (APIPA) können DHCP Clients die IP Adresse und Subnetmaske automatisch konfigurieren, wenn kein DHCP Server vorhanden ist. Das Gerät wählt die Adresse im Bereich zwischen 169.254.1.0 und 169.254.254.255.
@@ -744,14 +744,14 @@ Privater Adressbereich in Class A
 ##### 172.16.0.0 bis 172.31.0.0 /16
 
 - Privater Adressbereich in Class B
-- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+- [🔗de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
 #### **Class C:**
 
 ##### 192.168.0.0 /24
 
 - Privater Adressbereich in Class C
-- [de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
+- [🔗de.wikipedia.org/wiki/Private_IP-Adresse](de.wikipedia.org/wiki/Private_IP-Adresse)
 
 #### Standardsubnetzmaske vs. Subnetzmaske:
 
@@ -1350,28 +1350,28 @@ Subnetz 4 beginnt bei C und endet bei F
 ###### Subnetze aufschreiben:
 
 Subnetz 1 beginnt bei:  
-2001:1234:5678:90AB:0000:0000:0000:0000 /66 
+2001:1234:5678:90AB:0000:0000:0000:0000 /66
 
 Subnetz 1 endet bei:  
-2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66  
+2001:1234:5678:90AB:3FFF:FFFF:FFFF:FFFF /66
 
 Subnetz 2 beginnt bei:  
-2001:1234:5678:90AB:4000:0000:0000:0000 /66 
+2001:1234:5678:90AB:4000:0000:0000:0000 /66
 
 Subnetz 2 endet bei:  
-2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66  
+2001:1234:5678:90AB:7FFF:FFFF:FFFF:FFFF /66
 
 Subnetz 3 beginnt bei:  
-2001:1234:5678:90AB:8000:0000:0000:0000 /66  
+2001:1234:5678:90AB:8000:0000:0000:0000 /66
 
 Subnetz 3 endet bei:  
-2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66  
+2001:1234:5678:90AB:BFFF:FFFF:FFFF:FFFF /66
 
 Subnetz 4 beginnt bei:  
-2001:1234:5678:90AB:C000:0000:0000:0000 /66  
+2001:1234:5678:90AB:C000:0000:0000:0000 /66
 
 Subnetz 4 endet bei:  
-2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66  
+2001:1234:5678:90AB:FFFF:FFFF:FFFF:FFFF /66
 
 Subnetze aufschreiben "Mühlenbecker Art":  
 Subnetz 1 beginnt bei: 2001:1234:5678:90AB:0000:: /66  
@@ -1443,8 +1443,8 @@ nach "Mühlenbecker Art":
 
 #### Besondere IPv6-Adressen (Auszug):
 
-[de.wikipedia.org/wiki/IPv6](de.wikipedia.org/wiki/IPv6)  
-[heise.de/IPv6-Adressen-3484199.html](heise.de/IPv6-Adressen-3484199.html)
+[🔗de.wikipedia.org/wiki/IPv6](de.wikipedia.org/wiki/IPv6)  
+[🔗heise.de/IPv6-Adressen-3484199.html](heise.de/IPv6-Adressen-3484199.html)
 
 ##### Nicht spezifizierte IPv6-Adresse
 
@@ -1510,7 +1510,7 @@ Es gibt keine vergleichbare IPv4-Adresse (erinnert ein wenig an IPv4 APIPA[^1]).
 
 ##### Multicast:
 
-[de.wikipedia.org/wiki/Multicast](de.wikipedia.org/wiki/Multicast)  
+[🔗de.wikipedia.org/wiki/Multicast](de.wikipedia.org/wiki/Multicast)  
 **FF00:: /8**  
 (F F X Y:: /8)  
 geht theoretisch von:  
@@ -1582,7 +1582,7 @@ Hat ein neues Feld "Flow Label":
 => siehe: (im „10-er Netz“) im Verzeichnis Filius/Filius_11_DHCP_Konflikt.fls  
 => siehe: Westermann Seite 595
 
-[de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol](de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol)
+[🔗de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol](de.wikipedia.org/wiki?Dynamic_Host_Configuration_Protocol)
 
 Eine Lösung, um PCs automatisch folgende Informationen zu geben (Auszug):
 
@@ -1644,7 +1644,7 @@ Die Anfangsbuchstaben der 4 "Pfeile" (Discover, Offer, Request, ACK) ergeben den
 
 ### Namensauflösung:
 
-[https://de.wikipedia.org/wiki/Domain\_(Internet)#Fully_Qualified_Domain_Name\_(FQDN)](<de.wikipedia.org/wiki/Domain_(Internet)#Fully_Qualified_Domain_Name_(FQDN)>)
+[🔗https://de.wikipedia.org/wiki/Domain\_(Internet)#Fully_Qualified_Domain_Name\_(FQDN)](<de.wikipedia.org/wiki/Domain_(Internet)#Fully_Qualified_Domain_Name_(FQDN)>)
 
 #### Warum Namensauflösung:
 
@@ -1795,7 +1795,7 @@ Im Tafelbild 12 zu sehen:
 
 ### Ports:
 
-[LINK : service-names-port-numbers](iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt)
+[🔗LINK : service-names-port-numbers](iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt)
 
 - Ports werden von TCP und UDP genutzt.  
   => siehe: Westermann Seite 590:
@@ -1888,7 +1888,7 @@ Denke an Nummernschilder für eine Tageszulassung oder an ein Überführungskenn
 
 ### TCP:
 
-[LINK: TCP](de.wikipedia.org/wiki/Transmission_Control_Protocol)
+[🔗LINK: TCP](de.wikipedia.org/wiki/Transmission_Control_Protocol)
 
 #### Eigenschaften:
 
@@ -1937,15 +1937,15 @@ Client sendet die Zufallszahl des Servers um 1 erhöht (2001) zurück und setzt 
 
 ACHTUNG: DDoS-Attacke möglich!
 
-[DDoS](de.wikipedia.org/wiki/Denial_of_Service)
+[🔗DDoS](de.wikipedia.org/wiki/Denial_of_Service)
 
-[SYN-Flood](de.wikipedia.org/wiki/SYN-Flood)
+[🔗SYN-Flood](de.wikipedia.org/wiki/SYN-Flood)
 
 #### Kontrollierte Datenübertragung:
 
-[![Alt Text](https://img.youtube.com/vi/c5qqPo5v3-U/0.jpg)](https://www.youtube.com/watch?v=c5qqPo5v3-U)
+[🔗![Alt Text](https://img.youtube.com/vi/c5qqPo5v3-U/0.jpg)](https://www.youtube.com/watch?v=c5qqPo5v3-U)
 
-[LINK: Medieninformatik - Kommunikationsnetze - Schiebefenster-Mechanismus - 04](youtube.com/watch?v=c5qqPo5v3-U)  
+[🔗LINK: Medieninformatik - Kommunikationsnetze - Schiebefenster-Mechanismus - 04](youtube.com/watch?v=c5qqPo5v3-U)  
 Eine bessere Erklärung ist kaum zu finden.
 
 #### VerbindungsABbau am Beispiel Client und Server:
@@ -1982,13 +1982,13 @@ Client sendet an den Server auch ein ACK-Flag
 #### TCP-Header:
 
 => siehe: Westermann Seite 581
-[de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers](de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers)
+[🔗de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers](de.wikipedia.org/wiki/Transmission_Control_Protocol#Aufbau_des_TCP-Headers)
 
 <!-- [58] -->
 
 ### UDP:
 
-[LINK UDP: de.wikipedia.org/wiki/User_Datagram_Protocol](de.wikipedia.org/wiki/User_Datagram_Protocol)
+[🔗LINK UDP: de.wikipedia.org/wiki/User_Datagram_Protocol](de.wikipedia.org/wiki/User_Datagram_Protocol)
 
 #### Eigenschaften:
 
@@ -2034,7 +2034,7 @@ Auf der FritzBox wurde ein Ereignis definiert, das ausgelöst wird, wenn die 3 S
 Reihenfolge 1 - 2 - 3 angesprochen werden.
 
 Hier im Beispiel Wake on LAN (WoL):  
-[&#128279;Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
+[🔗Wake_On_LAN](de.wikipedia.org/wiki/Wake_On_LAN)  
 Sendet das Laptop aus dem Internet 3 Datenpakete in der richtigen Reihenfolge:
 
 (1) beinhaltet 11.1.2.4:1111  
@@ -2051,7 +2051,7 @@ Der interne Webserver (192.168.178.11) wird gebootet.
 => siehe: Foto "TB_16" als Tafelbild als Beispiel.
 ![Alt text](img/TB_16.jpg)
 
-[&#128279;de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
+[🔗de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung](https://de.wikipedia.org/wiki/Netzwerkadress%C3%Bcbersetzung)
 
 #### Zielsetzung
 
@@ -2119,7 +2119,7 @@ Portforwarding => Zugriff auf den internen Webserver ("poweroff" zum Schluss nic
 => siehe: Foto "TB_13" als Tafelbild, hier nur als Beispiel.
 ![TB_13!](img/TB_13.jpg "TB_13")
 
-[&#128279;de.wikipedia.org/wiki/Port_Address_Translation](de.wikipedia.org/wiki/Port_Address_Translation)
+[🔗de.wikipedia.org/wiki/Port_Address_Translation](de.wikipedia.org/wiki/Port_Address_Translation)
 
 #### Zielsetzung:
 
@@ -2131,75 +2131,76 @@ Weiterleitung von Anfragen aus dem internen, privaten Netz in das externe Netz (
 Leider ist dieses Problem auch schon in den IHK-Prüfungen aufgetaucht!  
 Aus der Unix-Welt stammt der Begriff "Source NAT" (sinngemäß: Übersetzung an der Quelle)
 Funktionsbeschreibung:  
-Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins Internet "gehen" kann.    
+Die "FritzBox" (FB) hat vom ISP eine externe IP-Adresse (11.1.2.4) erhalten, mit der sie ins Internet "gehen" kann.  
 Die FB hat eine dynamische Tabelle mit 3 Spalten:
 
-##### 1. Spalte "Fake-Port":  
+##### 1. Spalte "Fake-Port":
 
-   Ports aus dem Bereich der "Dynamic/Private Ports" (siehe oben).
+Ports aus dem Bereich der "Dynamic/Private Ports" (siehe oben).
 
-##### 2. Spalte "Quell-Socket":  
+##### 2. Spalte "Quell-Socket":
 
-   Für die Anfragen, von den internen Hosts.
-   Hier im Beispiel für PC1 und PC2.
+Für die Anfragen, von den internen Hosts.
+Hier im Beispiel für PC1 und PC2.
 
-##### 3. Spalte "Ziel-Socket":  
+##### 3. Spalte "Ziel-Socket":
 
-   Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.  
+Für die Anfragen, welche Webseiten sollen von der FritzBox für die internen Hosts geholt werden.
 
-   Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).  
-   Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet "zu gehen".
+Intern existiert ein privater IP-Adressbereich (siehe private IP-Adressen).  
+ Alle internen Hosts haben durch ihre private IP-Adresse keine Möglichkeit direkt ins Internet "zu gehen".
 
    <!-- [63] -->
 
-   PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (**Socket: 82.165.230.17:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: **192.168.178.11:11111**.  
+PC1 hat einen Browser geöffnet und soll die Webseite von Web.de (**Socket: 82.165.230.17:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC1 ein Socket: **192.168.178.11:11111**.
 
-   PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (**Socket: 193.99.144.85:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: **192.168.178.22:22222**.
+PC2 hat auch einen Browser geöffnet und soll die Webseite von Heise.de (**Socket: 193.99.144.85:80**) holen. Durch das Öffnen des Browsers entsteht auch bei PC2 ein Socket: **192.168.178.22:22222**.
 
-   Ablauf (step by step) für PC1:
+Ablauf (step by step) für PC1:
 
-   - (1): PC1 (**192.168.178.11:11111**) schickt seinen Wunsch nach der Webseite Web.de (**82.165.230.17:80**) an die FritzBox.  
-   Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60000 ein.
-   In dieser Zeile landen der Quell-Socket: **192.168.178.11:11111** (PC1) und der Ziel-Socket: **82.165.230.17:80** (Web.de).
+- (1): PC1 (**192.168.178.11:11111**) schickt seinen Wunsch nach der Webseite Web.de (**82.165.230.17:80**) an die FritzBox.  
+  Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60000 ein.
+  In dieser Zeile landen der Quell-Socket: **192.168.178.11:11111** (PC1) und der Ziel-Socket: **82.165.230.17:80** (Web.de).
 
-   - (2): Die FritzBox holt die Webseite von Web.de.  
-   Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60000 als Quell-Socket.  
-   Inhalt der Anfrage der FritzBox (sinngemäß):  
-   Quell-Socket: 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)  
-   Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port)  
-   "Gib mir die Webseite".  
-   Antwort von Web.de (sinngemäß):
-   Quell-Socket: 82.165.230.17:80 (Web.de und Webserver-Port)
-   Ziel-Socket : 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
-   "Hier kommt der Inhalt der Webseite".
+- (2): Die FritzBox holt die Webseite von Web.de.  
+  Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60000 als Quell-Socket.  
+  Inhalt der Anfrage der FritzBox (sinngemäß):  
+  Quell-Socket: 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)  
+  Ziel-Socket : 82.165.230.17:80 (Web.de und Webserver-Port)  
+  "Gib mir die Webseite".  
+  Antwort von Web.de (sinngemäß):
+  Quell-Socket: 82.165.230.17:80 (Web.de und Webserver-Port)
+  Ziel-Socket : 11.1.2.4:60000 (externe IP-Adresse der FritzBox und Fake-Port)
+  "Hier kommt der Inhalt der Webseite".
 
    <!-- [64] -->
 
-   Nach der Lieferung der Webseite von Web.de schaut die FritzBox unter dem Fake-Port 60000
-   nach, von wem die Bestellung ursprünglich kam: 192.168.178.11:11111 (PC1).  
-   Die FritzBox liefert abschließend die Webseite von Web.de an PC1 aus.
+Nach der Lieferung der Webseite von Web.de schaut die FritzBox unter dem Fake-Port 60000
+nach, von wem die Bestellung ursprünglich kam: 192.168.178.11:11111 (PC1).  
+ Die FritzBox liefert abschließend die Webseite von Web.de an PC1 aus.
 
-   ==>> Jetzt überlegen Sie sich bitte den Ablauf für PC2. Ablauf (step by step) für PC2:
+==>> Jetzt überlegen Sie sich bitte den Ablauf für PC2. Ablauf (step by step) für PC2:
 
-   (3): PC2 (192.168.178.22:22222) schickt seinen Wunsch nach der Webseite Heise.de (193.99.144.85:80) an die FritzBox.
-   Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60001 ein.
-   In dieser Zeile landen der Quell-Socket: 192.168.178.22:22222 (PC2) und der Ziel-Socket: 193.99.144.85:80 (Heise.de).
+(3): PC2 (192.168.178.22:22222) schickt seinen Wunsch nach der Webseite Heise.de (193.99.144.85:80) an die FritzBox.
+Die FritzBox trägt diesen Wunsch in der Zeile des "Fake-Ports" 60001 ein.
+In dieser Zeile landen der Quell-Socket: 192.168.178.22:22222 (PC2) und der Ziel-Socket: 193.99.144.85:80 (Heise.de).
 
-   (4): Die FritzBox holt die Webseite von Heise.de.Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60001 als Quell-Socket.
-   Inhalt der Anfrage der FritzBox (sinngemäß):
-   Quell-Socket: 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
-   Ziel-Socket : 193.99.144.85:80 (Heise.de und Webserver-Port)
-   "Gib mir die Webseite".
-   Antwort von heise.de (sinngemäß):
-   Quell-Socket: 193.99.144.85:80 (Heise.de und Webserver-Port)
-   Ziel-Socket : 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
-   "Hier kommt der Inhalt der Webseite".
+(4): Die FritzBox holt die Webseite von Heise.de.Dazu nutzt sie ihre externe IP-Adresse und den Fake-Port 60001 als Quell-Socket.
+Inhalt der Anfrage der FritzBox (sinngemäß):
+Quell-Socket: 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
+Ziel-Socket : 193.99.144.85:80 (Heise.de und Webserver-Port)
+"Gib mir die Webseite".
+Antwort von heise.de (sinngemäß):
+Quell-Socket: 193.99.144.85:80 (Heise.de und Webserver-Port)
+Ziel-Socket : 11.1.2.4:60001 (externe IP-Adresse der FritzBox und Fake-Port)
+"Hier kommt der Inhalt der Webseite".
+
    <!-- [65] -->
 
-   Nach der Lieferung der Webseite von Heise.de schaut die FritzBox unter dem Fake-Port 60001
-   nach, von wem die Bestellung ursprünglich kam: 192.168.178.22:22222 (PC2).
+Nach der Lieferung der Webseite von Heise.de schaut die FritzBox unter dem Fake-Port 60001
+nach, von wem die Bestellung ursprünglich kam: 192.168.178.22:22222 (PC2).
 
-   Die FritzBox liefert abschließend die Webseite von Heise.de an PC2 aus.
+Die FritzBox liefert abschließend die Webseite von Heise.de an PC2 aus.
 
 ### Black- und Whitelist ==>> heute Block- und Allowlist:
 
@@ -2262,9 +2263,9 @@ Blocklist (Auszug):
 
 => siehe: im Verzeichnis Filius/Filius_18_Firewall.fls
 
-[&#128279;de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)
+[🔗de.wikipedia.org/wiki/Firewall](de.wikipedia.org/wiki/Firewall)
 
-[&#128279;de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
+[🔗de.wikipedia.org/wiki/Stateful_Packet_Inspection](de.wikipedia.org/wiki/Stateful_Packet_Inspection)
 
 ### Unterscheidungsmerkmale:
 
@@ -2302,7 +2303,7 @@ Nur die Hin-Richtung muss angegeben werden:
 
 ### Allgemeine Erklärungen:
 
-[&#128279;de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
+[🔗de.wikipedia.org/wiki/Sylt ](de.wikipedia.org/wiki/Sylt)
 
 => siehe: \_1_Bruecke.pdf
 ![Alt text](img/1_Bruecke.png)
@@ -2504,17 +2505,19 @@ Füllen Sie bitte die Skizze aus.
 
   <!-- [74] -->
 
-  ### iptables – Syntax:  
-  Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet: 
+  ### iptables – Syntax:
+
+  Umsetzung der oben "GENUG GEDACHTEN" Regeln in eine Syntax, die iptables versteht und danach arbeitet:
 
   => <f>siehe: 5_Beispiele_CSTATE.pdf
 
-  => <f>siehe: firewall_leer.sh (als Basis für eigene Firewalls)  
+  => <f>siehe: firewall_leer.sh (als Basis für eigene Firewalls)
 
-  Erklärungen und Vereinfachungen:  
-- "ABC" => steht stellvertretend für eine ganze Anweisung.  
-- "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).  
-- "IPT" => Pfad zu iptables  
+  Erklärungen und Vereinfachungen:
+
+- "ABC" => steht stellvertretend für eine ganze Anweisung.
+- "$ABC" => ruft diese Anweisung im Computer auf (man erspart sich die ganze Schreibarbeit).
+- "IPT" => Pfad zu iptables
 - "IU" => INPUT UDP
 - "IT" => INPUT TCP
 - "II" => INPUT ICMP
@@ -2528,10 +2531,9 @@ Füllen Sie bitte die Skizze aus.
 - "MP" => multiport (Angabe mehrerer Ports auf einmal)
 - "R" => Der Rest, der hinter jeder Zeile stehen muss.
 
+#### Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht.
 
-#### Alles oberhalb "# Anfang eigene Regeln" wird immer gebraucht. 
-
-**HIER KOMMEN JETZT DIE EIGENEN REGELN….**  
+**HIER KOMMEN JETZT DIE EIGENEN REGELN….**
 
 Das "#" ist ein Kommentarzeichen (sollte man viel benutzen, um sich später zu erinnern).  
 echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade macht.
@@ -2540,30 +2542,33 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
 
  <!-- [75] -->
 
-### ==>> DENKSPORT (wieder einmal):  
-  => siehe nochmals: 4_FW_Skizze_Inhalt_2.pdf
+### ==>> DENKSPORT (wieder einmal):
 
-  - 5_Beispiele_CSTATE.pdf
-  - nutzen Sie firewall_leer.sh:
-  Erarbeiten Sie die Syntax für die Regeln aus 
+=> siehe nochmals: 4_FW_Skizze_Inhalt_2.pdf
 
-  ![Alt text](img/4_FW.png)
-  ### ==>> GENUG GEDACHT:
-  => siehe: firewall_Inhalt.sh
-  Auflösung des Rätsels:  
-  aus "Quelle" => "-s"  
-  aus "Ziel" => "-d"  
-  aus "Port" => "--dport"  
-  aus "Ports" => "--dports" (mehrere Ports, Plural):  
-  ==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile stehen und man darf das kleine "s" bei "Ports" nicht vergessen.  
+- 5_Beispiele_CSTATE.pdf
+- nutzen Sie firewall_leer.sh:
+  Erarbeiten Sie die Syntax für die Regeln aus
 
-   #### Skript (firewall_Inhalt.sh) nutzen:
+![Alt text](img/4_FW.png)
+
+### ==>> GENUG GEDACHT:
+
+=> siehe: firewall_Inhalt.sh
+Auflösung des Rätsels:  
+ aus "Quelle" => "-s"  
+ aus "Ziel" => "-d"  
+ aus "Port" => "--dport"  
+ aus "Ports" => "--dports" (mehrere Ports, Plural):  
+ ==>> Bei der Angabe mehrerer Ports in einer Regel, muss "$MP" in der Zeile stehen und man darf das kleine "s" bei "Ports" nicht vergessen.
+
+#### Skript (firewall_Inhalt.sh) nutzen:
 
 - PC mit Betriebssystem Linux (getestet mit Debian und Ubuntu).
 - PC braucht 2. Netzwerkkarte:
 
 1. Netzwerkkarte => IP-Adresse: 192.168.33.1 /24
-2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24  
+2. Netzwerkkarte => IP-Adresse: 192.168.10.33 /24
 
 - Zum "root" auf dem PC werden => "sudo -s" und anschließend das Passwort eingeben.
 - Skript auf den PC kopieren (auch per USB-Stick möglich).
@@ -2575,16 +2580,16 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
 
 ### Demilitarisierte Zone ("DMZ"):
 
-[&#128279;de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik)](de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik))  
+[🔗de.wikipedia.org/wiki/Demilitarisierte*Zone*(Informatik)](<de.wikipedia.org/wiki/Demilitarisierte_Zone_(Informatik)>)
 
-[&#128279;heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html](heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html)
+[🔗heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html](heise.de/ct/artikel/DMZ-selbst-gebaut-221656.html)
 
 => siehe: Foto "TB_14" als Tafelbild
 ![TB_14!](img/TB_14.jpg "TB_14")
 
 #### Allgemein:
 
-- Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:  
+- Dient dazu ein sicheres "Zwischennetz" zu schaffen => warum?:
   - Für Server, die sowohl von intern (GRÜN) als auch von extern (ROT) erreichbar sein sollen.
 - Das 2-stufige Konzept:
   - Wird in den IHK-Prüfungen bevorzugt.
@@ -2597,9 +2602,9 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
   - ==>> Denke an Stadttore aus dem Mittelalter
 - Wird oft in ORANGENER Farbe dargestellt (so man hat, in TB_14 BLAU gezeichnet => sorry).
 
-    ![TB_14!](img/TB_14.jpg "TB_14")
+  ![TB_14!](img/TB_14.jpg "TB_14")
 
- #### Erklärung zu TB_14:
+#### Erklärung zu TB_14:
 
 ##### ROTES Netz (extern) 192.168.1.0 /24:
 
@@ -2615,6 +2620,7 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
 <!-- [77] -->
 
 ##### ORANGENES Netz (DMZ) 192.168.3.0 /24:
+
     ==>> Wir definieren in TB_14 BLAU zu ORANGE um!
     192.168.3.1 => ORANGENE Netzwerkkarte der Firewall
     192.168.3.2 => firmeneigener Webserver läuft auf Port 80
@@ -2627,32 +2633,32 @@ echo "irgendwas" => Bildschirmausgabe des Skripts beim Start, was es gerade mach
 (4) PC des Chefs => Internet (https)  
 (5) PC des Admins => Firewall (ssh)  
 (6) PC des Admins => Webserver (ssh)  
-(7) Firewall => Internet (NTP)  
+(7) Firewall => Internet (NTP)
 
 ==>> Sie ahnen es schon => DENKSPORT:
-=> siehe:  _4_FW_Skizze_Inhalt_2.pdf
-  ![Alt text](img/4_FW.png)
+=> siehe: \_4_FW_Skizze_Inhalt_2.pdf
+![Alt text](img/4_FW.png)
 => siehe:5_Beispiele_CSTATE.pdf  
-=> siehe:firewall_Inhalt.sh  
+=> siehe:firewall_Inhalt.sh
 
-gehen Sie in 2 Schritten vor:   
-1. Erarbeiten Sie eine Tabelle wie in "4_FW_Skizze_Inhalt_2.pdf" unten.  
-2. Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".  
+gehen Sie in 2 Schritten vor:
+
+1. Erarbeiten Sie eine Tabelle wie in "4_FW_Skizze_Inhalt_2.pdf" unten.
+2. Erarbeiten Sie die Syntax für iptables wie in "firewall_Inhalt.sh".
 
 <!-- [78] -->
 
 ### ==>> GENUG GEDACHT: Lösung Schritt 1:
-| - | - | - | - | Quelle | Ziel | Port |
-| ------ | ------  | ------ | ------ | ------ | ------ | ------ |
-|1 GRÜN | Internet  | FORWARD  | TCP  | 192.168.2.0/24|192.168.1.2| 80 |
-| 2 Internet | Webserver  | FORWARD | TCP | 192.168.1.2 | 192.168.3.2 | 80 |
-| 3 GRÜN | Webserver  | FORWARD | TCP |  192.168.2.0/24 | 192.168.3.2 | 80 |
-| 4 Chef | Internet  | FORWARD | TCP | 192.168.2.2   | 192.168.1.2 |   443 |
-| 5 Admin | Firewall  |INPUT| TCP | 192.168.2.3 | 192.168.2.1 | 22 |
-|  6 Admin | Webserver  | FORWARD | TCP | 192.168.2.3 | 192.168.3.2 | 22 |
-| 7 FW | Internet  | OUTPUT | UDP | 192.168.1.1 |  192.168.1.2 | 123 |
-            
 
+| -          | -         | -       | -   | Quelle         | Ziel        | Port |
+| ---------- | --------- | ------- | --- | -------------- | ----------- | ---- |
+| 1 GRÜN     | Internet  | FORWARD | TCP | 192.168.2.0/24 | 192.168.1.2 | 80   |
+| 2 Internet | Webserver | FORWARD | TCP | 192.168.1.2    | 192.168.3.2 | 80   |
+| 3 GRÜN     | Webserver | FORWARD | TCP | 192.168.2.0/24 | 192.168.3.2 | 80   |
+| 4 Chef     | Internet  | FORWARD | TCP | 192.168.2.2    | 192.168.1.2 | 443  |
+| 5 Admin    | Firewall  | INPUT   | TCP | 192.168.2.3    | 192.168.2.1 | 22   |
+| 6 Admin    | Webserver | FORWARD | TCP | 192.168.2.3    | 192.168.3.2 | 22   |
+| 7 FW       | Internet  | OUTPUT  | UDP | 192.168.1.1    | 192.168.1.2 | 123  |
 
 <!-- [79] -->
 
@@ -2660,10 +2666,10 @@ gehen Sie in 2 Schritten vor:
 
 #### Anfang eigene Regeln
 
-    echo "(1) GRUEN => Internet"  
-    $FT -s 192.168.2.0/24 -d 192.168.1.2 --dport 80 $R  
-    echo "(2) Internet => Webserver"  
-    $FT -s 192.168.1.2 -d 192.168.3.2 --dport 80 $R  
+    echo "(1) GRUEN => Internet"
+    $FT -s 192.168.2.0/24 -d 192.168.1.2 --dport 80 $R
+    echo "(2) Internet => Webserver"
+    $FT -s 192.168.1.2 -d 192.168.3.2 --dport 80 $R
     echo "(3) GRUEN    => Webserver"
     $FT -s 192.168.2.0/24 -d 192.168.3.2 --dport 80 $R
     echo "(4) Chef     => Internet"
@@ -2685,16 +2691,16 @@ gehen Sie in 2 Schritten vor:
 weitere Darstellungen im Verzeichnis: "Verschluesselung_Bilder"  
 ==>> Daten können heute teilweise verschlüsselt verarbeitet werden:
 
-[&#128279;https://de.wikipedia.org/wiki/Homomorphe_Verschlüsselung](https://de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung)
+[🔗https://de.wikipedia.org/wiki/Homomorphe_Verschlüsselung](https://de.wikipedia.org/wiki/Homomorphe_Verschl%C3%BCsselung)
 
 エンコード Transport der Daten im Internet  
 => ist anzuraten.  
 エンコード Speicherung der Daten in der Cloud => auf jeden Fall!  
 エンコード Verarbeitung der Daten in der Cloud
-=> soll zukünftig möglich werden!  
+=> soll zukünftig möglich werden!
 
 Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):  
-[&#128279;de.wikipedia.org/wiki/CrypTool](de.wikipedia.org/wiki/CrypTool)
+[🔗de.wikipedia.org/wiki/CrypTool](de.wikipedia.org/wiki/CrypTool)
 
 ### Wir unterscheiden grob:
 
@@ -2710,14 +2716,15 @@ Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
 
 #### Asymmetrisches Verfahren:
 
-[&#128279;de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem](de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)
+[🔗de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem](de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)
 
 #### Hybrides (kombinatorisches) Verfahren:
+
 => siehe: TB_20 bis TB_25 (am Beispiel einer selbst gebauten "mechanischen" asymmetrischen Verschlüsselung).
 
-|TB_20|TB_21|
-|-----|-----|
-|![Alt text](img/TB_20.JPG) | ![Alt text](img/TB_21.JPG)|
+| TB_20                      | TB_21                      |
+| -------------------------- | -------------------------- |
+| ![Alt text](img/TB_20.JPG) | ![Alt text](img/TB_21.JPG) |
 
 | TB_22                      | TB_23                      |
 | -------------------------- | -------------------------- |
@@ -2727,12 +2734,11 @@ Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
 | -------------------------- | -------------------------- |
 | ![Alt text](img/TB_24.JPG) | ![Alt text](img/TB_25.JPG) |
 
+#### Diffie-Hellman-Verfahren (eine Spielart des asymmetrischen Verfahrens):
 
-####  Diffie-Hellman-Verfahren (eine Spielart des asymmetrischen Verfahrens):
+[🔗de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic*Curve_Diffie-Hellman*(ECDH)](<de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH)>)
 
-[&#128279;de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH)](de.wikipedia.org/wiki/Diffie-Hellman-Schlüsselaustausch#Elliptic_Curve_Diffie-Hellman_(ECDH))
-
-[&#128279;de.wikipedia.org/wiki/Perfect_Forward_Secrecy](de.wikipedia.org/wiki/Perfect_Forward_Secrecy)
+[🔗de.wikipedia.org/wiki/Perfect_Forward_Secrecy](de.wikipedia.org/wiki/Perfect_Forward_Secrecy)
 
 <!-- [81] -->
 
@@ -2741,16 +2747,19 @@ Für Wissenshungrige (Verschlüsselung lernen und selbst ausprobieren):
 => siehe: Westermann Seite 532
 
 #### Authentizität:
+
 Bist Du wirklich derjenige, für den Du Dich ausgibst?
+
 ##### Antwort:
 
-- Shared_Secret:  
-  - [&#128279;de.wikipedia.org/wiki/Shared_Secret](de.wikipedia.org/wiki/Shared_Secret)
+- Shared_Secret:
+
+  - [🔗de.wikipedia.org/wiki/Shared_Secret](de.wikipedia.org/wiki/Shared_Secret)
 
 - Zertifikat:
-=> siehe: Westermann Seite 295
-  -  [&#128279;de.wikipedia.org/wiki/Digitales_Zertifikat](de.wikipedia.org/wiki/Digitales_Zertifikat)
-  - [&#128279;de.wikipedia.org/wiki/Public-Key-Zertifikat](de.wikipedia.org/wiki/Public-Key-Zertifikat)
+  => siehe: Westermann Seite 295
+  - [🔗de.wikipedia.org/wiki/Digitales_Zertifikat](de.wikipedia.org/wiki/Digitales_Zertifikat)
+  - [🔗de.wikipedia.org/wiki/Public-Key-Zertifikat](de.wikipedia.org/wiki/Public-Key-Zertifikat)
 
 #### Integrität:
 
@@ -2758,12 +2767,12 @@ Wurden die Daten beim Transport verändert?
 
 ##### Antwort:
 
-- Hashfunktion:  
+- Hashfunktion:
   - siehe: Westermann Seite 293
-  - [&#128279;de.wikipedia.org/wiki/Hashfunktion](de.wikipedia.org/wiki/Hashfunktion)
-- Digitale Signatur:  
+  - [🔗de.wikipedia.org/wiki/Hashfunktion](de.wikipedia.org/wiki/Hashfunktion)
+- Digitale Signatur:
   - siehe: Westermann Seite 294
-  - [&#128279;de.wikipedia.org/wiki/Digitale_Signatur](de.wikipedia.org/wiki/Digitale_Signatur)
+  - [🔗de.wikipedia.org/wiki/Digitale_Signatur](de.wikipedia.org/wiki/Digitale_Signatur)
 
 #### Vertraulichkeit:
 
@@ -2771,8 +2780,7 @@ Können Dritte die Daten Lesen?
 
 ##### Antwort:
 
-  - Verschlüsselungsalgorithmen:
-    - [&#128279;de.wikipedia.org/wiki/Verschlüsselung](de.wikipedia.org/wiki/Verschlüsselung)
+- Verschlüsselungsalgorithmen: - [🔗de.wikipedia.org/wiki/Verschlüsselung](de.wikipedia.org/wiki/Verschlüsselung)
 <!-- [82] -->
 
 ### Zusammenfassung Verschlüsselung:
@@ -2782,48 +2790,50 @@ Können Dritte die Daten Lesen?
 ##### Antwort:
 
 Haben die Verschlüsselungsalgorithmen eine (gewollte) Hintertür?  
-Wurden die Verschlüsselungsalgorithmen fehlerfrei in die Software integriert?  
+Wurden die Verschlüsselungsalgorithmen fehlerfrei in die Software integriert?
 
 ###### Echte Zufallszahlen:
 
-[&#128279;de.wikipedia.org/wiki/Zufallszahlengenerator](de.wikipedia.org/wiki/Zufallszahlengenerator)  
-[&#128279;random.org/analysis/](random.org/analysis/) 
+[🔗de.wikipedia.org/wiki/Zufallszahlengenerator](de.wikipedia.org/wiki/Zufallszahlengenerator)  
+[🔗random.org/analysis/](random.org/analysis/)
 "Simple Visual Analysis"
 
 ###### Brute-Force:
-[&#128279;de.wikipedia.org/wiki/Brute-Force-Methode](de.wikipedia.org/wiki/Brute-Force-Methode) 
 
-- Zur Erinnerung => Bitcoin-Mining:  
+[🔗de.wikipedia.org/wiki/Brute-Force-Methode](de.wikipedia.org/wiki/Brute-Force-Methode)
+
+- Zur Erinnerung => Bitcoin-Mining:
   - Mit normalem PC => sehr langsam.
   - Mit der Grafikkarte => schneller.
   - Mit ASICs => sehr viel schneller:
-  
-[&#128279;de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung](de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung)
+
+[🔗de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung](de.wikipedia.org/wiki/Anwendungsspezifische_integrierte_Schaltung)
 
 ###### Einzige "unknackbare" Verschlüsselung:
 
 One-Time-Pad:
-[&#128279;de.wikipedia.org/wiki/One-Time-Pad](de.wikipedia.org/wiki/One-Time-Pad)  
-[&#128279;de.wikipedia.org/wiki/Exklusiv-Oder-Gatter](de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)  
+[🔗de.wikipedia.org/wiki/One-Time-Pad](de.wikipedia.org/wiki/One-Time-Pad)  
+[🔗de.wikipedia.org/wiki/Exklusiv-Oder-Gatter](de.wikipedia.org/wiki/Exklusiv-Oder-Gatter)
 
-
-<!-- [&#128279;83] -->
+<!-- [🔗83] -->
 
 ## M. VPN (virtuelles Privates Netzwerk):
 
-=> siehe: Westermann Seite 598  
-- [&#128279;wiki.securepoint.de/UTM/VPN/Übersicht](wiki.securepoint.de/UTM/VPN/Übersicht)
-- [&#128279;de.wikipedia.org/wiki/Virtual_Private_Network](de.wikipedia.org/wiki/Virtual_Private_Network)
-- [&#128279;de.wikipedia.org/wiki/IPsec](de.wikipedia.org/wiki/IPsec)
+=> siehe: Westermann Seite 598
+
+- [🔗wiki.securepoint.de/UTM/VPN/Übersicht](wiki.securepoint.de/UTM/VPN/Übersicht)
+- [🔗de.wikipedia.org/wiki/Virtual_Private_Network](de.wikipedia.org/wiki/Virtual_Private_Network)
+- [🔗de.wikipedia.org/wiki/IPsec](de.wikipedia.org/wiki/IPsec)
 
 ### Transportmodus vs. Tunnelmodus:
 
-[&#128279;heise.de/security/artikel/VPN-Knigge-270796.html?seite=all](heise.de/security/artikel/VPN-Knigge-270796.html?seite=al)  
+[🔗heise.de/security/artikel/VPN-Knigge-270796.html?seite=all](heise.de/security/artikel/VPN-Knigge-270796.html?seite=al)
 
 ==>> denke:
 Alice aus Mühlenbeck möchte geheime Daten an Bob in Berlin senden.
 
 #### Transportmodus:
+
 ==>> denke:
 Alice packt geheime Daten in einen Briefumschlag:
 
@@ -2835,9 +2845,12 @@ Was sieht Eve?
 Alice aus Mühlenbeck schickt Bob in Berlin geheime Daten.
 
 Was sieht Eve nicht?
-Den Inhalt des Briefumschlags (die geheimen Daten).  
+Den Inhalt des Briefumschlags (die geheimen Daten).
+
 <!-- [84] -->
-#### Tunnelmodus:  
+
+#### Tunnelmodus:
+
 ==>> denke:
 Alice packt geheime Daten in einen Briefumschlag:
 
@@ -2855,7 +2868,7 @@ Den Inhalt des Briefumschlags (die geheimen Daten).
 
 ### Intranet vs. Extranet:
 
-=> siehe: Foto "TB*26" als Tafelbild:
+=> siehe: Foto "TB\*26" als Tafelbild:
 ![Alt text](img/TB_26.JPG)
 
 ==>> Das Security Gateway ist im Tafelbild in der Firewall integriert.  
@@ -2863,6 +2876,7 @@ Den Inhalt des Briefumschlags (die geheimen Daten).
 LAN 1 => DMZ 1 (die eigene DMZ) => Intranet (lila gestrichelte Linie).  
 LAN 1 => DMZ 2 (die fremde DMZ) => Extranet (lila gestrichelte Linie).  
 LAN 2 => Intranet, Extranet nicht eingezeichnet (Übersichtlichkeit geht sonst verloren).
+
 <!-- [85] -->
 
 ## N. Cloud:
@@ -2871,24 +2885,24 @@ LAN 2 => Intranet, Extranet nicht eingezeichnet (Übersichtlichkeit geht sonst v
 => siehe: Foto "TB_17" als Tafelbild
 ![Alt text](img/TB_17.JPG)
 
-[&#128279;de.wikipedia.org/wiki/Cloud_Computing](de.wikipedia.org/wiki/Cloud_Computing)  
+[🔗de.wikipedia.org/wiki/Cloud_Computing](de.wikipedia.org/wiki/Cloud_Computing)
 
-[&#128279;de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS)](de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS))
+[🔗de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service\*(IaaS)](<de.wikipedia.org/wiki/Everything_as_a_Service#Infrastructure_as_a_Service*(IaaS)>)
 
-[&#128279;de.wikipedia.org/wiki/Platform_as_a_Service](de.wikipedia.org/wiki/Platform_as_a_Service)
+[🔗de.wikipedia.org/wiki/Platform_as_a_Service](de.wikipedia.org/wiki/Platform_as_a_Service)
 
-[&#128279;de.wikipedia.org/wiki/Software_as_a_Service](de.wikipedia.org/wiki/Software_as_a_Service)
+[🔗de.wikipedia.org/wiki/Software_as_a_Service](de.wikipedia.org/wiki/Software_as_a_Service)
 
-[&#128279;ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/](ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/ )
+[🔗ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/](ionos.de/digitalguide/server/knowhow/iaas-infrastructure-as-a-service/)
 
+[🔗ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/](ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/)
 
-[&#128279;ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/](ionos.de/digitalguide/server/knowhow/paas-platform-as-a-service/)
+[🔗ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/](ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/)
 
-[&#128279;ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/](ionos.de/digitalguide/server/knowhow/saas-software-as-a-service-im-ueberblick-vor-und-nachteile/)
+[🔗ibm.com/de-de/cloud/learn/iaas-paas-saas](ibm.com/de-de/cloud/learn/iaas-paas-saas)
 
-[&#128279;ibm.com/de-de/cloud/learn/iaas-paas-saas](ibm.com/de-de/cloud/learn/iaas-paas-saas)
+### Ohne einen Alu-Hut zu tragen:
 
-### Ohne einen Alu-Hut zu tragen:  
 (Public-) Cloud heißt:  
 Meine Daten auf unbekannten Servern irgendwo auf der Welt:  
 Die Anbieter versichern natürlich, dass die Daten in Deutschland / EU verbleiben.  
@@ -2899,8 +2913,10 @@ Daten können in der CPU leicht kopiert werden.
 => siehe: TB_17:
 ![Alt text](img/TB_17.JPG)
 
-Die unterstrichenen Buchstaben von oben nach unten gelesen ==>> nicht vergessen!  
+Die unterstrichenen Buchstaben von oben nach unten gelesen ==>> nicht vergessen!
+
 <!-- [86] -->
+
 => siehe: TB_17:
 ![Alt text](img/TB_17.JPG)
 Linker Keil ("Kunde"):  
@@ -2914,15 +2930,15 @@ Kunde mietet IaaS => geringer Aufwand => geringer Gewinn.
 Kunde mietet PaaS => mäßiger Aufwand => mäßiger Gewinn.
 Kunde mietet SaaS => hoher Aufwand => höchster Gewinn.
 
-[^11]:IaaS Infrastructure as a Service is a cloud computing model that provides on-demand access to computing resources such as servers, storage, networking, and virtualization.  
-[^12]:PaaS Platform as a service is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications.   
-[^13]:SaaS Software as a service allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools (such as Microsoft Office 365).
+[^11]: IaaS Infrastructure as a Service is a cloud computing model that provides on-demand access to computing resources such as servers, storage, networking, and virtualization.
+[^12]: PaaS Platform as a service is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications.
+[^13]: SaaS Software as a service allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools (such as Microsoft Office 365).
 
 ==>> Für die IHK-Prüfung nicht vergessen:  
 Public Cloud.  
 Hybride Cloud.  
 Community Cloud.  
-Private Cloud.  
+Private Cloud.
 
 => siehe: Verzeichnis Filius_Sammlung
 Version 12_1.
