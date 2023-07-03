@@ -131,11 +131,12 @@ Dienstleistungen)
 mangelnde Flexibilität, zahlreiche 
 Schnittstellen und Übermittlungsfehler
 
-## Einlinienorganisation
+![Alt text](img/pm1.png)*Einlinienorganisation*
 
-![Alt text](img/pm1.png)
-
-
+- Chaque service subordonné a un service supérieur
+- Ainsi, les responsabilités sont claires et Bonne visibilité
+- Longues voies d'instruction et d'information, manque de flexibilité, nombreuses Interfaces et erreurs de transmission
+  
 ## Stablinienorganisation
 
 - Einlinienorganisation mit Stabsstellen
@@ -144,9 +145,13 @@ Schnittstellen und Übermittlungsfehler
 - Ebenfalls lange Kommunikationswege 
 - Kompetenzkonflikte mit anderen Instanzen
 
-## Stablinienorganisation
+![Alt text](img/pm2.png)*Stablinienorganisation*
 
-![Alt text](img/pm2.png)
+- Organisation en une seule ligne avec des postes d'état-major
+- Servir à la décharge avec fonction de conseiller
+- Pas de pouvoir de direction
+- Également de longues voies de communication
+- Conflits de compétences avec d'autres instances
 
 ## Mehrlinienorganisation
 
@@ -157,9 +162,14 @@ Instanzen Weisungen erhalten
 - Zuständigkeitsabgrenzung problematisch
 - Überforderung der Mitarbeiter
 
-## Mehrlinienorganisation
-
 ![Alt text](img/pm3.png)
+*Mehrlinienorganisation*
+
+- L'instance subordonnée peut recevoir des instructions de plusieurs recevoir des instructions de la part d'autres instances
+- Les collaborateurs peuvent être utilisés de manière flexible
+- Accent sur l'autorité professionnelle
+- Délimitation des compétences problématique
+- Surcharge des collaborateurs
 
 ## Matrixorganisation
 - Weiterentwicklung des Mehrliniensystems
@@ -169,6 +179,10 @@ Instanzen Weisungen erhalten
 Geschäftsprozessorientierung
 - Streitigkeiten bei den Zuständigkeiten
 
-## Matrixorganisation
+![Alt text](img/pm4.png)*Matrixorganisation*
 
-![Alt text](img/pm4.png)
+- Développement du système multi-lignes
+- Chaque poste géré par 2 instances
+- Encourage le travail en équipe
+- Soutient ainsi l'orientation produit et Orientation vers les processus d'affaires
+- Disputes sur les responsabilités

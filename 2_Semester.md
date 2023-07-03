@@ -1296,3 +1296,35 @@ En droit des obligations, la reconnaissance de dette (ou promesse de dette) est 
 ### winBS
 win R  
 taskschd
+
+## 03 07 2023
+
+### Kup
+
+#### Prozessor Intel/AMD Untershiede
+
+AMD vs. Intel - Voici les différences
+
+Les processeurs AMD comparables ont plus de cœurs de calcul et peuvent ainsi surpasser les processeurs Intel pour les programmes à forte intensité de calcul qui font appel à plusieurs cœurs, comme l'édition vidéo.
+
+Les processeurs AMD sont généralement un peu moins chers que leurs homologues Intel.
+
+Les processeurs AMD peuvent être overclockés sans restriction, alors que pour les processeurs Intel, vous devez faire attention à la lettre "K" (par exemple : Core-i9-9900K). Veillez à ce que vous soyez seul responsable des dommages causés par l'overclocking.
+
+Les CPU Intel ont généralement des fréquences d'horloge plus élevées, ce qui profite particulièrement aux jeux.
+
+#### dedizierte Grafikkarte
+
+Eine dedizierte Grafikkarte besitzt im Gegensatz zu einer internen Grafikkarte (IGP) einen eigenen Videospeicher (VRAM) und einen eigenen Grafikprozessor, die GPU. Somit wird der Arbeitsspeicher meistens entlastet, wodurch er für andere Aufgaben genutzt werden kann.
+
+#### Anbindung von Massendatenträgern an die CPU
+
+Die Anbindung von Massendatenträgern an die CPU kann über verschiedene Schnittstellen erfolgen, darunter SATA, M.2 und PCIe. Hier sind die wichtigsten Unterschiede zwischen diesen Schnittstellen:
+
+SATA (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
+
+M.2: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da es keine zusätzlichen Kabel benötigt.
+
+PCIe (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
+
+Im Allgemeinen bieten M.2 und PCIe schnellere Datenübertragungsraten im Vergleich zu SATA, wobei PCIe die höchste Leistung bietet. M.2 hat den zusätzlichen Vorteil einer kompakten Bauweise und der Möglichkeit, sowohl SATA- als auch PCIe-Protokolle zu unterstützen. Die Wahl der Schnittstelle hängt von den individuellen Anforderungen, dem verfügbaren Motherboard-Steckplatz und dem Budget ab.
