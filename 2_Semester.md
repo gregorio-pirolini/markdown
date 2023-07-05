@@ -1152,16 +1152,15 @@ VI Line interacxtive fueur AVR
 Unter Verjährung versteht man den Ablauf einer gesetzlich festgelegten Frist, innerhalb derer ein Anspruch gerichtlich durchgesetzt werden kann.
 Der Anspruch bleibt zwar weiterhin bestehen, aber mit der Verjährung des Anspruchs erwirbt der Schuldner die >Einrede der Verjährung< (das Leistungsverweigerungsrecht).
 
-PIX
-
+![Alt text](img/verja1.png)
 
 Hat der Schuldner aber eine verjährte Forderung erfüllt, so kann er das Geleistete nicht zurückfordern. Ist zur Sicherung des Anspruchs ein Pfandrecht bestellt, so kann sich der Gläubiger auch nach der Verjährung aus dem Pfandgegenstand befriedigen.
 Der Zeitpunkt des Beginns der Verjährung hängt vom Zeitpunkt der Entstehung des Anspruchs und von den Verjährungsfristen ab,
 
-Beginn der Verjährung
+##### Beginn der Verjährung
 Die regelmäßige Verjährungsfrist beginnt am Ende des Jahres, in dem der Anspruch entstanden ist. Bei Ansprüchen, die nicht der regelmäßigen Verjährungsfrist unterliegen, beginnt die Verjährung mit der Entstehung des Anspruchs.
 
-Dauer der Verjährung (Bild,seite242)
+##### Dauer der Verjährung (Bild,seite242)
 a) Die regelmäßige Verjährungsfrist beträgt drei Jahre und gilt für alle Forderungen der Privatleute, Gewerbetreibenden und für Darlehen.
 b) Verlängerte Verjährungsfristen
 In 10 Jahren verjähren die Ansprüche auf bestimmte Rechte des Eigentums an einem
@@ -1169,7 +1168,7 @@ Grundstück.
 In 30 Jahren verjähren u.a. die Ansprüche aus der Herausgabe des Eigentums, familien- und erbrechtliche Ansprüche, Ansprüche aus vollstreckbaren Vergleichen oder vollstreckbaren Urkunden, sowie vollstreckbare Ansprüche aus Insolvenzverfahren.
 c) Verkürzte Verjährungsfristen gelten für Mängelrügen aus Kauf- oder Werkverträgen.
 
-Hemmung der Verjährung
+##### Hemmung der Verjährung
 Bei der Hemmung wird die Verjährungsfrist um die Zeitspanne der Hemmung verlängert.
 
 Die Verjährung wird u.a. gehemmt
@@ -1190,7 +1189,7 @@ c) solange der Schuldner vorübergehend berechtigt ist, die Leistung zu verweige
 d) solange der Gläubiger durch höhere Gewaltwährend der Letzten sechs Monate der Verjährungsfrist daran gehindert ist, seine Rechte geltend zu machen.
 
 
-Neubeginn der Verjährung
+##### Neubeginn der Verjährung
 
 Die Verjährung beginnt erneut, wenn
 
@@ -1202,9 +1201,7 @@ Beispiel: Der Gläubiger beantragt einen Vollstreckunqsbescheid zu erlassen.
 
 
 Zusammenfassendes Beispiel
-
-PIX
-
+![Alt text](img/verja2.png)
 
 **ZPO**: ZIVIL PROZESS ORDNUNG
 
@@ -1321,10 +1318,28 @@ Eine dedizierte Grafikkarte besitzt im Gegensatz zu einer internen Grafikkarte (
 
 Die Anbindung von Massendatenträgern an die CPU kann über verschiedene Schnittstellen erfolgen, darunter SATA, M.2 und PCIe. Hier sind die wichtigsten Unterschiede zwischen diesen Schnittstellen:
 
-SATA (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
+**SATA** (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
 
-M.2: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da es keine zusätzlichen Kabel benötigt.
+**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da es keine zusätzlichen Kabel benötigt.
 
-PCIe (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
+**PCIe** (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
 
 Im Allgemeinen bieten M.2 und PCIe schnellere Datenübertragungsraten im Vergleich zu SATA, wobei PCIe die höchste Leistung bietet. M.2 hat den zusätzlichen Vorteil einer kompakten Bauweise und der Möglichkeit, sowohl SATA- als auch PCIe-Protokolle zu unterstützen. Die Wahl der Schnittstelle hängt von den individuellen Anforderungen, dem verfügbaren Motherboard-Steckplatz und dem Budget ab.
+
+## 04 07 2023
+
+### Wiso
+
+#### Finanzierung
+
+##### Finanzierung - Investierung
+
+![Alt text](<img/Finanzierung - Investierung_01.png>)
+
+##### Finanzierungsarten - Überblick
+
+
+![Alt text](<img/Finanzierungsarten - Überblick_01.png>)
+
+##### Finanzierungsarten - Übersicht
+![Alt text](<img/Finanzierungsarten - Übersicht_01.png>)
