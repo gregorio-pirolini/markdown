@@ -1343,3 +1343,17 @@ Im Allgemeinen bieten M.2 und PCIe schnellere Datenübertragungsraten im Verglei
 
 ##### Finanzierungsarten - Übersicht
 ![Alt text](<img/Finanzierungsarten - Übersicht_01.png>)
+
+## 10 07 2023
+
+### SAP
+
+[https://connectsep.learning.sap.com](https://connectsep.learning.sap.com)  
+
+1.schritt  
+User: BFW_jl6n2_B10  
+Pass: re9y@Xtyyy
+
+2.schritt  
+User: S4H00-10  
+Pass: Welcome1
