@@ -121,7 +121,7 @@ Dienstleistungen)
 - Mehrlinienorganisation
 - Matrixorganisation
 
-## Einlinienorganisation
+### Einlinienorganisation
 
 - Jede untergeordnete Stelle hat eine 
 übergeordnete Stelle
@@ -137,7 +137,7 @@ Schnittstellen und Übermittlungsfehler
 - Ainsi, les responsabilités sont claires et Bonne visibilité
 - Longues voies d'instruction et d'information, manque de flexibilité, nombreuses Interfaces et erreurs de transmission
   
-## Stablinienorganisation
+### Stablinienorganisation
 
 - Einlinienorganisation mit Stabsstellen
 - Dienen zur Entlastung mit Beraterfunktion
@@ -153,7 +153,7 @@ Schnittstellen und Übermittlungsfehler
 - Également de longues voies de communication
 - Conflits de compétences avec d'autres instances
 
-## Mehrlinienorganisation
+### Mehrlinienorganisation
 
 - Untergeordnete Stelle kann von mehreren 
 Instanzen Weisungen erhalten
@@ -171,7 +171,7 @@ Instanzen Weisungen erhalten
 - Délimitation des compétences problématique
 - Surcharge des collaborateurs
 
-## Matrixorganisation
+### Matrixorganisation
 - Weiterentwicklung des Mehrliniensystems
 - Jede Stelle von 2 Instanzen geführt
 - Teamarbeit gefördert

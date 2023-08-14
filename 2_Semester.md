@@ -3,7 +3,7 @@ h1 { color: Red }
 h2 { color: green }
 h3 { color: blue; background-color: white;}
 h4 { color:red;}
-h5 { color: yellow;}
+h5 { color: yellow;background-color: black;}
 h6 { color: hotpink;}
 f{ color: red;
 font-weight: bold;
@@ -1158,9 +1158,11 @@ Hat der Schuldner aber eine verjährte Forderung erfüllt, so kann er das Geleis
 Der Zeitpunkt des Beginns der Verjährung hängt vom Zeitpunkt der Entstehung des Anspruchs und von den Verjährungsfristen ab,
 
 ##### Beginn der Verjährung
+
 Die regelmäßige Verjährungsfrist beginnt am Ende des Jahres, in dem der Anspruch entstanden ist. Bei Ansprüchen, die nicht der regelmäßigen Verjährungsfrist unterliegen, beginnt die Verjährung mit der Entstehung des Anspruchs.
 
 ##### Dauer der Verjährung (Bild,seite242)
+
 a) Die regelmäßige Verjährungsfrist beträgt drei Jahre und gilt für alle Forderungen der Privatleute, Gewerbetreibenden und für Darlehen.
 b) Verlängerte Verjährungsfristen
 In 10 Jahren verjähren die Ansprüche auf bestimmte Rechte des Eigentums an einem
@@ -1169,15 +1171,16 @@ In 30 Jahren verjähren u.a. die Ansprüche aus der Herausgabe des Eigentums, fa
 c) Verkürzte Verjährungsfristen gelten für Mängelrügen aus Kauf- oder Werkverträgen.
 
 ##### Hemmung der Verjährung
+
 Bei der Hemmung wird die Verjährungsfrist um die Zeitspanne der Hemmung verlängert.
 
 Die Verjährung wird u.a. gehemmt
-
 
 a) bei Verhandlungen zwischen Schuldner und Gläubiger, ob der Anspruch berechtigt ist.
 Die Verjährung tritt frühestens drei Monate nach dem Ende der Verhandlung ein.
 
 b) durch Rechtsverfolgung wie
+
 - Erhebung der Klage auf Leistung oder Erlass des Vollstreckungsurteils,
 - Zustellung des Mahnbescheids,
 - Anmeldung des Anspruchs im Insolvenzverfahren.
@@ -1188,7 +1191,6 @@ c) solange der Schuldner vorübergehend berechtigt ist, die Leistung zu verweige
 
 d) solange der Gläubiger durch höhere Gewaltwährend der Letzten sechs Monate der Verjährungsfrist daran gehindert ist, seine Rechte geltend zu machen.
 
-
 ##### Neubeginn der Verjährung
 
 Die Verjährung beginnt erneut, wenn
@@ -1198,7 +1200,6 @@ Beispiel: Der Schuldner leistet eine Abschlagszahlung.
 
 b) der Gläubiger eine gerichtliche oder behördliche Vollstreckungshandlung beantragt oder vornehmen lässt.
 Beispiel: Der Gläubiger beantragt einen Vollstreckunqsbescheid zu erlassen.
-
 
 Zusammenfassendes Beispiel
 ![Alt text](img/verja2.png)
@@ -1289,71 +1290,9 @@ En droit des obligations, la reconnaissance de dette (ou promesse de dette) est 
 
 **Bonität**: Bonität (lat. bonitas = Vortrefflichkeit) beschreibt den Willen und die Fähigkeit eines Kreditnehmenden, seinen Zahlungsverpflichtungen vollständig und fristgerecht nachzukommen. Das deutsche Pendant ist der Begriff Kreditwürdigkeit.
 
-
 ### winBS
+
 win R  
 taskschd
 
-## 03 07 2023
 
-### Kup
-
-#### Prozessor Intel/AMD Untershiede
-
-AMD vs. Intel - Voici les différences
-
-Les processeurs AMD comparables ont plus de cœurs de calcul et peuvent ainsi surpasser les processeurs Intel pour les programmes à forte intensité de calcul qui font appel à plusieurs cœurs, comme l'édition vidéo.
-
-Les processeurs AMD sont généralement un peu moins chers que leurs homologues Intel.
-
-Les processeurs AMD peuvent être overclockés sans restriction, alors que pour les processeurs Intel, vous devez faire attention à la lettre "K" (par exemple : Core-i9-9900K). Veillez à ce que vous soyez seul responsable des dommages causés par l'overclocking.
-
-Les CPU Intel ont généralement des fréquences d'horloge plus élevées, ce qui profite particulièrement aux jeux.
-
-#### dedizierte Grafikkarte
-
-Eine dedizierte Grafikkarte besitzt im Gegensatz zu einer internen Grafikkarte (IGP) einen eigenen Videospeicher (VRAM) und einen eigenen Grafikprozessor, die GPU. Somit wird der Arbeitsspeicher meistens entlastet, wodurch er für andere Aufgaben genutzt werden kann.
-
-#### Anbindung von Massendatenträgern an die CPU
-
-Die Anbindung von Massendatenträgern an die CPU kann über verschiedene Schnittstellen erfolgen, darunter SATA, M.2 und PCIe. Hier sind die wichtigsten Unterschiede zwischen diesen Schnittstellen:
-
-**SATA** (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
-
-**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da es keine zusätzlichen Kabel benötigt.
-
-**PCIe** (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
-
-Im Allgemeinen bieten M.2 und PCIe schnellere Datenübertragungsraten im Vergleich zu SATA, wobei PCIe die höchste Leistung bietet. M.2 hat den zusätzlichen Vorteil einer kompakten Bauweise und der Möglichkeit, sowohl SATA- als auch PCIe-Protokolle zu unterstützen. Die Wahl der Schnittstelle hängt von den individuellen Anforderungen, dem verfügbaren Motherboard-Steckplatz und dem Budget ab.
-
-## 04 07 2023
-
-### Wiso
-
-#### Finanzierung
-
-##### Finanzierung - Investierung
-
-![Alt text](<img/Finanzierung - Investierung_01.png>)
-
-##### Finanzierungsarten - Überblick
-
-
-![Alt text](<img/Finanzierungsarten - Überblick_01.png>)
-
-##### Finanzierungsarten - Übersicht
-![Alt text](<img/Finanzierungsarten - Übersicht_01.png>)
-
-## 10 07 2023
-
-### SAP
-
-[https://connectsep.learning.sap.com](https://connectsep.learning.sap.com)  
-
-1.schritt  
-User: BFW_jl6n2_B10  
-Pass: re9y@Xtyyy
-
-2.schritt  
-User: S4H00-10  
-Pass: Welcome1
