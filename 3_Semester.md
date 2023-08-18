@@ -219,10 +219,14 @@ Gewinn kommmt in den Passiv
 
 ### sle
 
-Get-EventLog -LogName security | ? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $\_.Message -match "s01"}
+Get-EventLog -LogName security |
+ ? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $_.Message -match "s01"} |
+ FL
 
 ? is for where  
 (get-Date).AddDays(-1) today minus one day
+
+FL makes a list insteaad of tabele
 
 **ODBC**: The Microsoft **Open Database Connectivity** interface is a C programming language interface that makes it possible for applications to access data from a variety of database management systems (DBMSs). ODBC is a low-level, high-performance interface that is designed specifically for relational data stores.
 
@@ -233,25 +237,23 @@ Get-EventLog -LogName security | ? {$_.EventID -eq 4624 -and $_.Timewritten -gt 
 #### Netzplan
 
 Ein Netzplan ist eine graphische oder tabellarische Darstellung einer Ablaufstruktur im Projekt.
-Der Netzplan im Projektmanagement stellt die Dauer von Vorgängen im
-Projekt, ihre zeitliche Anordnung und logische Abhängigkeiten
-zwischen den Vorgängen graphisch oder tabellarisch dar.
-Auch Balkendiagramme wie zum Beispiel Gantt Charts lassen sich als
-Sonderform des Netzplanes betrachten.
+
+Der Netzplan im Projektmanagement stellt die Dauer von Vorgängen im Projekt, ihre zeitliche Anordnung und logische Abhängigkeiten zwischen den Vorgängen graphisch oder tabellarisch dar.
+
+Auch Balkendiagramme wie zum Beispiel Gantt Charts lassen sich als Sonderform des Netzplanes betrachten.
 
 ##### Hauptfunktionen des Netzplans:
 
 - Ermittlung der Gesamtdauer des Projektes
 - Darstellung der logischen und zeitlichen Abfolge im Projekt
-- Risiken: Wo liegt der kritische Pfad? Wo sind Flaschenhälse im
-  Projektablauf?
-- Chancen: An welcher Stelle kann der Projektablauf gestrafft
-  werden?
+- Risiken: Wo liegt der kritische Pfad? Wo sind Flaschenhälse im Projektablauf?
+- Chancen: An welcher Stelle kann der Projektablauf gestrafft werden?
 - Der Netzplan bildet die Grundlage für die Terminplanung.
 
 Im modernen Projektmanagement werden kaum noch Netzpläne „von Hand“ berechnet, das übernimmt heute eine Projektmanagement-Software.
+
 Allerdings helfen die Grundlagen der Methode dabei, den eigenen Projektplan besser zu verstehen.
-Basiselement des Netzplanes ist der Vorgangsknoten.
+**Basiselement des Netzplanes ist der Vorgangsknoten.**
 ![Alt text](img/netz1.png)
 
 - eine Dauer (d)
@@ -261,12 +263,10 @@ Basiselement des Netzplanes ist der Vorgangsknoten.
 - ein frühester Endzeitpunkt (FEZ)
 - ein spätester Endzeitpunkt (SEZ)
 - ein Gesamtpuffer (GP) (= SAZ – FAZ oder = SEZ – FEZ)
-- und der freie Puffer (FP) (= FAZ des Nachfolgers –
-  FEZ des aktuellen Vorgangs)
+- und der freie Puffer (FP) (= FAZ des Nachfolgers – FEZ des aktuellen Vorgangs)
 
 Der früheste Endzeitpunkt (FEZ) ergibt sich aus dem frühesten Anfangszeitpunkt (FAZ) und der Vorgangsdauer (d).
 Der späteste Endzeitpunkt minus der Vorgangsdauer (d) ergibt den spätesten Anfangszeitpunkt (SAZ).
-
 
 ## 14 08 2023
 
@@ -287,6 +287,33 @@ In beiden Ansätzen kann die UML bei der Modellierung der Software helfen, was d
 
 Insgesamt ist der Hauptunterschied zwischen Weißkastentests und Schwarzkastentests der Fokus des Tests: Weißkastentests konzentrieren sich auf die interne Struktur und Implementierung, während Schwarzkastentests sich auf das externe Verhalten und die Anforderungserfüllung konzentrieren.
 
+## 15 08 2023
 
+### wieso
 
+#### Liesing
 
+![Alt text](img/img3/Leasing_01.png)
+![Alt text](img/img3/Leasing_02.png)
+![Alt text](img/img3/Leasing_03.png)
+![Alt text](img/img3/Leasing_04.png)
+![Alt text](img/img3/Leasing_05.png)
+![Alt text](img/img3/Leasing_06.png)
+![Alt text](img/img3/Leasing_07.png)
+![Alt text](img/img3/Leasing_08.png)
+![Alt text](img/img3/Leasing_09.png)
+![Alt text](img/img3/Leasing_10.png)
+
+#### Liesingart
+
+![Alt text](img/img3/Leasingarten_01.png)
+![Alt text](img/img3/Leasingarten_02.png)
+![Alt text](img/img3/Leasingarten_03.png)
+
+## 17 08 2023
+
+### ptsle
+
+Get-EventLog -LogName security |
+ ? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $_.Message -match "s01" -and $_.Message -match "0x31563"} |
+ FL
