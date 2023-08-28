@@ -122,13 +122,13 @@ mono{font-family:"monospace"}
 - Lasten- und Pflichtenheft erstellen
 - Aufwandsabschätzung
 
-## 15 Lastenheft
+### 15 Lastenheft
 
 - DIN69901-5: 2009-01
 - ... vom Auftraggeber festgelegte Gesamtheit der Forderungen an die Lieferungen und Leistungen eines Auftragnehmers innerhalb eines (Projekt-)Auftrags.
 - Leistungsverzeichnis des Kunden oder Sollkonzept genannt
 
-## 16 Pflichtenheft
+### 16 Pflichtenheft
 
 - DIN69901-5: 2009-01
 - ... vom Auftragnehmer erarbeitete

@@ -104,8 +104,7 @@ Im Allgemeinen bieten M.2 und PCIe schnellere Datenübertragungsraten im Verglei
 Das Recht auf Information ist ein anderer Ausdruck für die Informationspflichten.
 Das beinhaltet z.B. die Aufklärung Ihrer Betroffenen über ihre Rechte, die Speicherung ihrer Daten, Zwecke der Verarbeitung ihrer Daten usw.
 
-Achtung: Diese Informationen müssen schon vor der erstmaligen Verarbeitung
-bereitgestellt werden!
+Achtung: Diese Informationen müssen schon vor der erstmaligen Verarbeitung bereitgestellt werden!
 
 ###### 02 Recht auf Auskunft
 
@@ -117,35 +116,24 @@ Auf Verlangen muss das Unternehmen die betroffene Person über
 - die Speicherdauer der Daten sowie
 - die Herkunft der Daten informieren.
 
-Außerdem muss eine Anfrage innerhalb von 30 Tagen beantwortet werden, sonst können
-Strafen drohen!
+Außerdem muss eine Anfrage innerhalb von 30 Tagen beantwortet werden, sonst können Strafen drohen!
 
 ###### 03 Recht auf Berichtigung
 
-Jeder Betroffene kann die Richtigstellung bzw. Vervollständigung seiner
-personenbezogenen Daten einfordern. Vorausgesetzt natürlich, diese sind wirklich
-falsch.
+Jeder Betroffene kann die Richtigstellung bzw. Vervollständigung seiner personenbezogenen Daten einfordern. Vorausgesetzt natürlich, diese sind wirklich falsch.
 
 ###### 04 Recht auf Löschung
 
-Auf Verlangen eines Betroffenen muss das Unternehmen die personenbezogenen Daten
-dieser Person löschen. Außerdem müssen die personenbezogenen Daten in jedem Fall
-gelöscht werden, wenn die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr aktuell sind, die betroffene Person ihre Einwilligung, auf die sich die Verarbeitung gestützt hat, widerruft, oder die
-Daten unrechtmäßig verarbeitet wurden (also z.B. keine Rechtsgrundlage wie Vertrag
-oder Einwilligung vorliegt).
+Auf Verlangen eines Betroffenen muss das Unternehmen die personenbezogenen Daten dieser Person löschen. Außerdem müssen die personenbezogenen Daten in jedem Fall gelöscht werden, wenn die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr aktuell sind, die betroffene Person ihre Einwilligung, auf die sich die Verarbeitung gestützt hat, widerruft, oder die Daten unrechtmäßig verarbeitet wurden (also z.B. keine Rechtsgrundlage wie Vertrag oder Einwilligung vorliegt).
 
 ###### 05 Recht auf Einschränkung
 
-Der Betroffene kann hierbei einfordern, dass seine personenbezogenen Daten für
-eine bestimmte Dauer eingeschränkt verarbeitet werden. Beispielsweise werden diese
-Daten für einen gewissen Zeitraum von einer Website entfernt, für Nutzer gesperrt.
+Der Betroffene kann hierbei einfordern, dass seine personenbezogenen Daten für eine bestimmte Dauer eingeschränkt verarbeitet werden. Beispielsweise werden diese Daten für einen gewissen Zeitraum von einer Website entfernt, für Nutzer gesperrt.
 
 ###### 06 Recht auf Widerspruch
 
 Ein Betroffener hat das Recht, der Verarbeitung seiner personenbezogenen Daten zu
-widersprechen. Jedoch nur, wenn er sich in einer besonderen Situation befindet,
-die diesen Widerspruch rechtfertigt. Folglich dürften Sie diese Daten nicht
-weiterverarbeiten.
+widersprechen. Jedoch nur, wenn er sich in einer besonderen Situation befindet, die diesen Widerspruch rechtfertigt. Folglich dürften Sie diese Daten nicht weiterverarbeiten.
 Hier einige Beispiele für spezielle Situationen:
 
 - Die Daten werden für Direktwerbung genutzt
@@ -220,8 +208,8 @@ Gewinn kommmt in den Passiv
 ### sle
 
 Get-EventLog -LogName security |
- ? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $_.Message -match "s01"} |
- FL
+? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $\_.Message -match "s01"} |
+FL
 
 ? is for where  
 (get-Date).AddDays(-1) today minus one day
@@ -315,5 +303,48 @@ Insgesamt ist der Hauptunterschied zwischen Weißkastentests und Schwarzkastente
 ### ptsle
 
 Get-EventLog -LogName security |
- ? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $_.Message -match "s01" -and $_.Message -match "0x31563"} |
- FL
+? {$_.EventID -eq 4624 -and $_.Timewritten -gt (get-Date).AddDays(-1) -and $_.Message -match "s01" -and $_.Message -match "0x31563"} |
+FL
+
+## 21 08 2023
+
+### kup
+
+wpa2-entreprise wpa2-personel  
+WPA3-Personal mode replaces PSK with Simultaneous Authentication of Equals (SAE) so it eliminates dependency on shared passwords and gets devices authorized without sacrificing security. While for WPA3-Enterprise mode, there is a move from the 128-bit security level of WPA2-Enterprise to 192-bit security.
+
+#### agent ransack
+
+is a free file search tool for finding files on your PC or network drives. It has a Lite mode, which is FREE for both personal ...
+
+#### issue tracking system
+
+also ITS, **trouble ticket system**, support ticket, request management or incident ticket system is a computer software package that manages and maintains lists of issues. Issue tracking systems are generally used in collaborative settings, especially in large or distributed collaborations, but can also be employed by individuals as part of a time management or personal productivity regimen. These systems often encompass resource allocation, time accounting, priority management, and oversight workflow in addition to implementing a centralized issue registry.
+
+## 21 08 2023
+
+### luc
+
+#### fussnoten
+
+- kursor nach dem wort
+- werweise in der rubbanfussnote clicken
+
+## 28 08 2023
+
+### kup
+
+#### usb 3 speed usb 2 speed
+
+First the transfer rates: USB 2.0 offers transfer rates of 480 Mbps and USB 3.0 offers transfer rates of 4.8 Gbps - that's 10 times faster.
+
+- So wird bei der Nutzung von USB-3.0-Anschlüssen eine zehnmal höhere USB-Geschwindigkeit erreicht.
+- USB 2.0 und USB 3.0 unterscheiden sich außerdem darin, dass letzterer vollduplex arbeitet und Sie Daten gleichzeitig in beide Richtungen übertragen können.
+- Auch die Stromversorgung wurde bei USB 3.0 verstärkt und beträgt statt 500mA nun 900mA.
+- Eine Einschränkung von USB 3.0 liegt allerdings in der nutzbaren Kabellänge. War die Kabellänge bei USB 2.0 noch auf maximal fünf Meter begrenzt, kann diese bei USB 3.0 höchstens drei Meter betragen.
+
+**str suspend to ram**:  
+Sleep mode has gone by various names, including Stand By, Suspend and Suspend to RAM. Machine state is held in RAM and, when placed in sleep mode, the computer cuts power to unneeded subsystems and places the RAM into a minimum power state, just sufficient to retain its data.  
+
+**std suspend to disk**:  
+The suspend-to-disk(STD) mode is a power managementprogram. In this mode, the running program is interrupted and the data stored in the RAM is saved to the hard disk.
