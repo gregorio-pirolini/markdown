@@ -344,7 +344,47 @@ First the transfer rates: USB 2.0 offers transfer rates of 480 Mbps and USB 3.0 
 - Eine Einschränkung von USB 3.0 liegt allerdings in der nutzbaren Kabellänge. War die Kabellänge bei USB 2.0 noch auf maximal fünf Meter begrenzt, kann diese bei USB 3.0 höchstens drei Meter betragen.
 
 **str suspend to ram**:  
-Sleep mode has gone by various names, including Stand By, Suspend and Suspend to RAM. Machine state is held in RAM and, when placed in sleep mode, the computer cuts power to unneeded subsystems and places the RAM into a minimum power state, just sufficient to retain its data.  
+Sleep mode has gone by various names, including Stand By, Suspend and Suspend to RAM. Machine state is held in RAM and, when placed in sleep mode, the computer cuts power to unneeded subsystems and places the RAM into a minimum power state, just sufficient to retain its data.
 
 **std suspend to disk**:  
 The suspend-to-disk(STD) mode is a power managementprogram. In this mode, the running program is interrupted and the data stored in the RAM is saved to the hard disk.
+
+## 29 08 2023
+
+### luc
+
+#### Powerpoint
+
+- schrift größe 24
+- nicht mehr als 7 Stich punkte pro Folie
+- view/master layout benutzen
+  - pick color
+  - pick font
+  - pick background color
+
+### wiso
+
+#### kaufvertrag
+
+##### Inhalte Kaufvertrages
+
+![Alt text](img/img3/Inhalte_Kaufvertrages_01.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_02.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_03.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_04.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_05.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_06.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_07.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_08.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_09.png)
+![Alt text](img/img3/Inhalte_Kaufvertrages_10.png)
+
+### POG
+
+##### Privacy by design
+
+Privacy by design seeks to deliver the maximum degree of privacy by ensuring that personal data are automatically protected in any given IT system or business practice. If an individual does nothing, their privacy still remains intact.
+
+##### Privacy by default
+
+Privacy by Default means that once a product or service has been released to the public, the strictest privacy settings should apply by default, without any manual input from the end user.
