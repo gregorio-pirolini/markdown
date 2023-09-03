@@ -33,7 +33,7 @@ mono{font-family:"monospace"}
     - Führungsmitteln
 für die Abwicklung eines Projektes.
 
-## 3 Was ist Projektmanagement?
+
 
 ### Projektinitialisierung
 
@@ -41,7 +41,6 @@ für die Abwicklung eines Projektes.
 - Entscheidungsgrundlage, ob es sich lohnt dieses Projekt durchzuführen oder andere bevorzugt werden
 - endet mit Projektauftrag / Projektfreigabe
 
-## Was ist Projektmanagement?
 
 ### Projektplanung
 
@@ -49,7 +48,6 @@ für die Abwicklung eines Projektes.
 - Projektstrukturplan (PSP) als Entwicklungs- und Darstellungsinstrument für die Aufgabenbestimmung
 - daraus ergeben sich Zeit-, Kosten- und Ressourcenplanung
 
-## Was ist Projektmanagement?
 
 ### Projektsteuerung
 
@@ -57,22 +55,18 @@ für die Abwicklung eines Projektes.
 - Sammeln von relevanten Informationen für den Projektstatus und Vergleichen mit den Planwerten
 - Bei Abweichungen Ursachenforschung und Steuerungsmassnahmen notwendig
 
-## Was ist Projektmanagement?
-
 ### Projektführung
   
 - Schaffung, Erhaltung und Weiterentwicklung des Projektteams
 - Führungsqualitäten (Leadership- Fähigkeiten)
 - Umgang mit Menschen zentraler Baustein für Projekterfolg
 
-## Was ist Projektmanagement?
 
 ### Projektmarketing
 
 - Alle Aktivitäten für den Verkauf des Projekts
 - zweckmäßiges Marketing und Stakeholdermanagment entscheidener Erfolgsfaktor 
 
-## Was ist Projektmanagement?
 
 ### Projektinformation und -dokumentation
 
@@ -80,8 +74,6 @@ für die Abwicklung eines Projektes.
 - sowohl nach oben als auch nach unten
 - Projektdokumentation um Projektverlauf festzuhalten (Nachvollziehbarkeit der Ergebnisse)
 - Lösungskonzepte und Evaluationsberichte ebenfalls enthalten
-
-## Was ist Projektmanagement?
 
 ### Projektabschluss
 

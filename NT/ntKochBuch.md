@@ -3,7 +3,7 @@ h1 { color: Red }
 h2 { color: green }
 h3 { color: blue; background-color: white;}
 h4 { color:red;}
-h5 { color: yellow;}
+h5 { color: yellow; background-color: black;}
 h6 { color: hotpink;}
 g{ color: green;}
 r{ color: red;}
@@ -2288,7 +2288,7 @@ Quelle <= Ziel
 
 #### SPI-FW[^10]:
 
-**<f>Stateful Packet Inspection Firewall** Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
+**<f>Stateful Packet Inspection Firewall</f>** Kann als Personal-FW oder auch als Unternehmens-FW eingesetzt werden.  
 Ist modern und recht sicher.  
 Nur die Hin-Richtung muss angegeben werden:  
  Quelle => Ziel  

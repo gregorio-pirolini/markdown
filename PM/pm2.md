@@ -39,7 +39,7 @@ mono{font-family:"monospace"}
 - Projektspezifische Organisation
 <!-- ## 5 Merkmale eines Projekts -->
 
-### Erfolfaktoren
+### Erfolgfaktoren
 
 - genau Definition von Projektzielen
 - Entwicklung präziser Projektpläne
