@@ -3,7 +3,7 @@ h1 { color: Red }
 h2 { color: green }
 h3 { color: blue; background-color: white;}
 h4 { color:red;}
-h5 { color: yellow;}
+h5 { color: yellow; background-color: black;}
 h6 { color: hotpink;}
 f{ color: red;
 font-weight: bold;
@@ -105,7 +105,7 @@ mono{font-family:"monospace"}
 - Projektkontrolle
 - Projektabschluss
 
-## 13 Projektphasen IEEE 12207
+### 13 Projektphasen IEEE 12207
 
 - Anforderungsanalyse
 - Design/Entwurf
@@ -114,21 +114,22 @@ mono{font-family:"monospace"}
 - Dokumentation
 - Auslieferung und Support
 
-## 14 Anforderungsanalyse
+#### 14 Anforderungsanalyse
 
 - Ist- und Sollzustand erfassen
 - Wünsche und Vorstellungen des Auftraggeber erfassen
 - Leistungen beschreiben
 - Lasten- und Pflichtenheft erstellen
 - Aufwandsabschätzung
+- smart
 
-### 15 Lastenheft
+##### 15 Lastenheft
 
 - DIN69901-5: 2009-01
 - ... vom Auftraggeber festgelegte Gesamtheit der Forderungen an die Lieferungen und Leistungen eines Auftragnehmers innerhalb eines (Projekt-)Auftrags.
 - Leistungsverzeichnis des Kunden oder Sollkonzept genannt
 
-### 16 Pflichtenheft
+##### 16 Pflichtenheft
 
 - DIN69901-5: 2009-01
 - ... vom Auftragnehmer erarbeitete
@@ -137,45 +138,47 @@ mono{font-family:"monospace"}
 - Grundlage der vertraglich festgehaltenen Leistungen des Auftragnehmers
 - Von beiden Unterschrieben
 
-## 17 Design / Entwurf
+#### 17 Design / Entwurf
 
 - Planen durch Projektleiter und sein Team
 - UML, Struktogramme usw.
 - Spezifizierung des Datenbanksystems
 - Auch Tests sollten hier geplant werden
 
-## 18 Implementierung
+#### 18 Implementierung
 
 - Programmierung der Software
 - Tests der einzelnen Entwickler und Testabteilung, wenn vorhanden
 - Dokumentation des Codes
 - Übergang zur offiziellen Testphase ist fließend
 
-## 19 Testen
+#### 19 Testen
 
 - Anforderungsüberprüfung der Software
 - Modul-, Integrations-, System- und Akzeptanztests durchgeführt
 - Erstellen der Testprotokolle
 
-## 20 Dokumentation
+#### 20 Dokumentation
 
 - Erstellen aller notwendigen Dokumente
 - Lasten- und Pflichtenheft, Planungsmodelle, und Testprotokolle
 - Bedienungsanleitungen, Schulungsunterlagen und Übergabeprotokolle
 
-## 21 Auslieferung
+#### 21 Auslieferung Wartung und Support
+
+##### Auslieferung
 
 - Software wird Auftraggeber bzw. Anwender zur Verfügung gestellt
 - Installation und Konfiguration, wenn notwendig
 
-## 22 Wartung und Support
+##### 22 Wartung und Support
 
 - Veränderungen an der Software
 - Fehlerbeseitigung, die nach der Auslieferung festgestellt wurden
 - Effizienzverbesserung
 - Anpassung neuer Anforderungen
 
-## 23 24 25 26 27 Projektphasen / Meilensteine
+### 23 24 25 26 27 Projektphasen / Meilensteine
 
 - DIN69900
 - Ereignis mit besonderer Bedeutung, i.d.R. die Fertigstellung eines Projektabschnitts oder Teilprojektes
@@ -190,19 +193,19 @@ mono{font-family:"monospace"}
 
 <!-- ## 25 Projektphasen / Meilensteine -->
 
-### 1 Entscheidungsmöglichkeit:
+#### 1 Entscheidungsmöglichkeit:
 
 Alle bisherigen Aktivitäten befinden sich im vorgegebenen Zeitplan und somit kann die Phase abgeschlossen werden und das Projekt wie geplant fortgesetzt werden.
 
 <!-- ## 26 Projektphasen / Meilensteine -->
 
-### 2 Entscheidungsmöglichkeit:
+#### 2 Entscheidungsmöglichkeit:
 
 Einige Aktivitäten weisen in den relevanten Größen (Kosten, Termine, Ergebnisse) Abweichungen auf und müssen nachgebessert werden um die Phase abschließen zu können.
 
 <!-- ## 27 Projektphasen / Meilensteine -->
 
-### 3 Entscheidungsmöglichkeit:
+#### 3 Entscheidungsmöglichkeit:
 
 Es sind Ergebnisse eingetreten, die eine sinnvolle Projektfortsetzung unmöglich erscheinen lassen, das Projekt wird gestoppt und ggf. ganz eingestellt oder unter neuen Rahmenbedingungen völlig neu aufgestellt
 
@@ -211,7 +214,7 @@ Es sind Ergebnisse eingetreten, die eine sinnvolle Projektfortsetzung unmöglich
 - Ziel ist angestrebter Soll-Zustand
 - Notwendig für Koordination, Motivation oder die Erfolgskontrolle (Soll-Ist-Vergleich)
 - Formulierung der Ziele mit S.M.A.R.T – Analyse als Hilfsmittel
-
+![Alt text](img/smart-goal.jpg)
 <!-- ## 29 Projektziele -->
 
 - Specific (Spezifisch)
