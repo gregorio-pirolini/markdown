@@ -24,9 +24,9 @@ mono{font-family:"monospace"}
 
 #### Service arten
 
-![Alt text](img/2.jpg)
-![Alt text](img/3.jpg)
-![Alt text](img/4.jpg)
+| Column1                | Column2                | Column3                |
+| ---------------------- | ---------------------- | ---------------------- |
+| ![Alt text](img/2.jpg) | ![Alt text](img/3.jpg) | ![Alt text](img/4.jpg) |
 
 #### Best-Practices - ITIL
 
@@ -34,30 +34,27 @@ mono{font-family:"monospace"}
 
 #### Service-Ooperation - Ticketsystem
 
-
-![Alt text](img/6.png)
-![Alt text](img/7.png)
-![Alt text](img/8.png)
-![Alt text](img/9.png)
+| Column1                | Column2                | Column3                | Column3                |
+| ---------------------- | ---------------------- | ---------------------- | ---------------------- |
+| ![Alt text](img/6.png) | ![Alt text](img/7.png) | ![Alt text](img/8.png) | ![Alt text](img/9.png) |
 
 #### Service-level
+
 ![Alt text](img/10.png)
 
-## GrundLagen 
+## GrundLagen
 
 ### Definition Service
 
-BSI*:	Komposition von Objekten und Prozessen zur Erfüllung einer Aufgabenstellung
+BSI\*: Komposition von Objekten und Prozessen zur Erfüllung einer Aufgabenstellung
 
-FitSM**:	Mittel zur Lieferung eines Mehrwerts für
+FitSM\*\*: Mittel zur Lieferung eines Mehrwerts für
 Kunden indem dessen Ziele unterstützt werden.
 
-ITIL***:          Mittel zur gemeinsamen Wertschöpfung, fördert vom Kunden erstrebte Ergebnisse, vermindert Kosten und Risiken für Kunden
+ITIL***: Mittel zur gemeinsamen Wertschöpfung, fördert vom Kunden erstrebte Ergebnisse, vermindert Kosten und Risiken für Kunden
 *Bundesamt für Sicherheit in der Informationstechnik
 ** Standardfamilie für ITSM
-*** Best Practice Leitfaden
-
-
+\*\*\* Best Practice Leitfaden
 
 ### Service Lebenszyklus
 

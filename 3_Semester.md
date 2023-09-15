@@ -4,13 +4,25 @@ h2 { color: green }
 h3 { color: blue; background-color: white;}
 h4 { color:red;}
 h5 { color: yellow;background-color: black;}
-h6 { color: hotpink;}
+h6 { color: purple; text-decoration: underline}
 f{ color: red;
 font-weight: bold;
 text-decoration: underline;}
 mono{font-family:"monospace"}
 
 </style>
+
+# 1
+
+## 2
+
+### 3
+
+#### 4
+
+##### 5
+
+###### 6
 
 # 3 Semester
 
@@ -388,3 +400,71 @@ Privacy by design seeks to deliver the maximum degree of privacy by ensuring tha
 ##### Privacy by default
 
 Privacy by Default means that once a product or service has been released to the public, the strictest privacy settings should apply by default, without any manual input from the end user.
+
+## 07 09 2023
+
+### sle
+
+#### it service einfuehrrung
+
+raci matrix
+
+R esponsible  
+A ccountable  
+C onsulted  
+I informed
+
+spoc single point of context
+cmdb
+
+![Alt text](img/img3/raci.png)
+
+##### Service-Design
+
+Service design addresses the need for a cohesive experience flow between the business itself as well as the end users. It's a process that pulls from many different sources—like user experience, product management, and marketing—in order to create and optimize powerful experiences that can be delivered seamlessly.
+
+###### Service Level Management
+
+Service Level Management aims to ensure that services are delivered at an agreed-upon level and continually improve service quality. Service Level Management includes processes for monitoring and reporting on service levels, as well as for taking corrective action when service levels are not met.
+
+###### Service Availability Management
+
+Service Availability Management in SAP Solution Manager provides availability reporting for business-critical systems, databases or services. It calculates the availability based on outages detected by system monitoring and compares it to defined availability Service Availability Levels.
+
+###### Service Catalog Management (CMDB)
+
+The purpose of the service catalog management process is to provide and maintain a single source of consistent information on all operational services and those being prepared to be run operationally and to ensure that it is widely available to those who are authorized to access it.
+
+##### Service-Transition
+
+Service transition includes high-level activities such as planning and coordinating service changes, building and testing new or changed service components, and deploying new or changed service components into the live environment.
+
+###### Release Management
+
+Release management is an IT term used frequently across a range of industries. At its most basic, release management describes overseeing the development, testing, deployment, and support involved in designing and releasing software.
+
+###### Knowledge Management
+
+Knowledge management is the process by which an enterprise gathers, organizes, shares and analyzes its knowledge in a way that is easily accessible to employees. This knowledge includes technical resources, frequently asked questions, training documents and people skills.
+
+###### Change Management
+
+Change management is a systematic approach to dealing with the transition or transformation of an organization's goals, processes or technologies. The purpose of change management is to implement strategies for effecting change, controlling change and helping people to adapt to change.
+
+##### Service-Operation
+
+Service operations is responsible for developing a service strategy and working with customer success, customer support, and customer experience teams. The goal of the team is to help scale a business's customer service organization.
+
+###### Incident Management
+
+Incident management is the process of identifying, analyzing, and solving any organizational mishaps or hazards to prevent them from happening again. The aim of incident management is to fix and clear these issues before they become large-scale, company-wide crises.
+
+###### Request Fulfillment
+
+Request fulfillment is the process of resolving a customer's service request and refers to managing the entire lifecycle of all service requests. The service desk team is dedicated to responding to and fulfilling requests while delivering the highest level of service support quality to the customer.
+
+###### Problem Management
+
+Problem Management is an IT service management process tasked with managing the life cycle of underlying "Problems." The primary goal of Problem Management is to prevent incidents from occurring, and if incidents do occur, prevent them from occurring again.
+
+###### Access Management
