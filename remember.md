@@ -200,33 +200,31 @@ is a type of software solution designed to help organizations efficiently manage
 
 These systems are particularly valuable for organizations with flexible work arrangements, hot desking policies, or a need to optimize their workspace usage. They can help improve efficiency, reduce costs, and provide a better overall workspace experience for employees and visitors.
 
-<hr>
+## pog
 
-Entschuldigen Sie die vorherige Verwirrung. Lassen Sie uns die Berechnung erneut durchgehen:
+### Prepare for test
 
-    Fremdbezug:
-        Lizenzpreis pro Jahr: 25,00 EUR je Lizenz
-        Anzahl der Jahre: 10 Jahre
+AP2 Teil 1:
+Planen eines SW-Produktes  
+und teil 2:
+Entwicklung und umsetzung von Algorithmen
 
-Die Gesamtkosten für den Fremdbezug betragen:
-25,00 EUR/Lizenz/Jahr _ Anzahl der Jahre = 25,00 EUR/Lizenz/Jahr _ 10 Jahre = 250,00 EUR/Lizenz
-
-    Eigenentwicklung:
-        Personalaufwand: 12.000 Stunden
-        Jährliche Wartung: 140 Stunden pro Jahr über 10 Jahre
-        Interner Kostensatz pro Stunde: 75 EUR
-
-Berechnen wir zunächst die Gesamtkosten für den Personalaufwand für die Eigenentwicklung:
-12.000 Stunden \* 75 EUR/Stunde = 900.000 EUR
-
-Nun berechnen wir die Gesamtkosten für die jährliche Wartung über 10 Jahre:
-140 Stunden/Jahr _ 10 Jahre _ 75 EUR/Stunde = 105.000 EUR
-
-Die Gesamtkosten für die Eigenentwicklung betragen daher:
-900.000 EUR (Personalaufwand) + 105.000 EUR (Wartung) = 1.005.000 EUR
-
-Jetzt können wir den Vergleich erneut durchführen:
-
-Eigenentwicklungskosten (1.005.000 EUR) / Fremdbezugskosten (250,00 EUR/Lizenz) = 4.020 Lizenzen
-
-Um die Kosten des Eigenentwicklungsansatzes zu überwiegen, müssen die Gesamtkosten der Eigenentwicklung (1.005.000 EUR) geringer sein als die Kosten des Fremdbezugs (250,00 EUR/Lizenz). Bei einer Anzahl von 4.020 Lizenzen oder weniger wäre der Fremdbezug die wirtschaftlichere Option, und ab 4.021 Lizenzen wäre die Eigenentwicklung günstiger.
+- UML
+  - Anwendungsfalldiagramm
+  - Aktivitätsdiagramm
+  - Sequenzdiagramm
+  - Zustandsdaigramm
+  - Klasendiagramm
+- Komplexe Algorithmen
+  - Pseudocode
+  - PAP
+  - Struktogramme
+- Testen
+  - unites, Integration, System Abnahme
+  - Statisches, dynamisches testen
+  - Manuelles, automatisiertes testen
+  - Äquivalenzklassen
+- Vorgehensmodelle
+  - klassich, agil...
+- Datenbank  
+  
