@@ -468,3 +468,42 @@ Request fulfillment is the process of resolving a customer's service request and
 Problem Management is an IT service management process tasked with managing the life cycle of underlying "Problems." The primary goal of Problem Management is to prevent incidents from occurring, and if incidents do occur, prevent them from occurring again.
 
 ###### Access Management
+
+??
+
+## 26 09 2023
+
+### luc
+
+#### diagramm / chart
+
+in ribbon select data kann man wegklicken was man nicht moechte
+in ribbon select change chart type
+
+chart element change: titel, axis
+
+#### smartz grafic
+
+### kup
+
+- boot efi 500 mb
+- boot 500 mb
+- root / 60 gb
+- home 20 GB
+- swap 4 GB
+
+### Wiso
+
+to finish
+
+### Iot
+
+#### def
+
+the interconnection via the internet of computing devices embedded in everyday objects, enabling them to send and receive data. "if one thing can prevent the internet of things from transforming the way we live and work, it will be a breakdown in security"
+
+Industrie 4.0: die vierte Industrielle Revolution
+
+lerne buch page 80
+
+rebound effekt??

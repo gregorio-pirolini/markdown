@@ -128,6 +128,14 @@ mono{font-family:"monospace"}
 - DIN69901-5: 2009-01
 - ... vom Auftraggeber festgelegte Gesamtheit der Forderungen an die Lieferungen und Leistungen eines Auftragnehmers innerhalb eines (Projekt-)Auftrags.
 - Leistungsverzeichnis des Kunden oder Sollkonzept genannt
+  
+###### Mehr Info LH
+
+- Spezifikation des Anforderungskataloges
+- Ist quasi ein detaillierter Anforderungskatalog, der nach den Präsentationen und ersten Workshops mit dem Software-Anbieter weiter konkretisiert wird.
+- Alle mit der Software abzubildenden SOLL-Funktionen, sowie die SOLL-Prozesse des Unternehmens sollten definiert sein.
+- Ist Grundlage für das Angebot des Software-Anbieters
+- Dient als Basis für die Erstellung des Pflichtenheftes.
 
 ##### 16 Pflichtenheft
 
@@ -137,6 +145,13 @@ mono{font-family:"monospace"}
   Lastenheftes
 - Grundlage der vertraglich festgehaltenen Leistungen des Auftragnehmers
 - Von beiden Unterschrieben
+
+###### Mehr Info pH
+
+- Wird zusammen von Auftraggeber und Software-Anbieter erstellt, primär jedoch vom Software-Anbieter.
+- Dient als elementare Arbeitsgrundlage für das Projekt.
+- Detaillierte Beschreibung: Welche Funktionalitäten auf welcher technischen Basis sind mit der Software einzuführen, und wie wird der Software-Anbieter die gewünschten Funktionalitäten umsetzen.
+- Sollte Vertragsgrundlage werden und ist der Maßstab für die Beurteilung der späteren Abnahme des Werkes und für die Gewährleistung
 
 #### 17 Design / Entwurf
 
