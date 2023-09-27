@@ -12,7 +12,6 @@ mono{font-family:"monospace"}
 
 </style>
 
-
 # Projektmanagement
 
 ## 1...
@@ -25,29 +24,22 @@ mono{font-family:"monospace"}
 - Organisationsformen
 
 ## 3 Was ist Projektmanagement?
+
 - DIN69901
-- Gesamtheit von 
-    - Führungsaufgaben
-    - Führungsorganisation
-    - Führungstechniken
-    - Führungsmitteln
-für die Abwicklung eines Projektes.
-
-
+- Gesamtheit von - Führungsaufgaben - Führungsorganisation - Führungstechniken - Führungsmitteln
+  für die Abwicklung eines Projektes.
 
 ### Projektinitialisierung
 
-- Projektidee konkretisieren und mit Informationen anzureichern 
+- Projektidee konkretisieren und mit Informationen anzureichern
 - Entscheidungsgrundlage, ob es sich lohnt dieses Projekt durchzuführen oder andere bevorzugt werden
 - endet mit Projektauftrag / Projektfreigabe
-
 
 ### Projektplanung
 
 - Was ist alles notwendig, um das Projektziel zu erreichen
 - Projektstrukturplan (PSP) als Entwicklungs- und Darstellungsinstrument für die Aufgabenbestimmung
 - daraus ergeben sich Zeit-, Kosten- und Ressourcenplanung
-
 
 ### Projektsteuerung
 
@@ -56,17 +48,15 @@ für die Abwicklung eines Projektes.
 - Bei Abweichungen Ursachenforschung und Steuerungsmassnahmen notwendig
 
 ### Projektführung
-  
+
 - Schaffung, Erhaltung und Weiterentwicklung des Projektteams
 - Führungsqualitäten (Leadership- Fähigkeiten)
 - Umgang mit Menschen zentraler Baustein für Projekterfolg
 
-
 ### Projektmarketing
 
 - Alle Aktivitäten für den Verkauf des Projekts
-- zweckmäßiges Marketing und Stakeholdermanagment entscheidener Erfolgsfaktor 
-
+- zweckmäßiges Marketing und Stakeholdermanagment entscheidener Erfolgsfaktor
 
 ### Projektinformation und -dokumentation
 
@@ -80,29 +70,26 @@ für die Abwicklung eines Projektes.
 - Alle Aufgaben für die Übergabe des Projektes an den Auftraggeber
 - Auflösen des Teams und Sicherstellen der weiteren Betreuung des Projektresultats
 - Analyse des Projektes(Lessons Learned)
-  
+
 ## Stakeholder
 
 - Stake (engl.) = Ansprüche / Erwartungen
-- Haben Erwartungen und Ansprüche an ein 
-Unternehmen
-- Kooperieren mit Unternehmen da Sie auch 
-von ihm profitieren
+- Haben Erwartungen und Ansprüche an ein
+  Unternehmen
+- Kooperieren mit Unternehmen da Sie auch
+  von ihm profitieren
 - Verschiedene Arten von Stakeholdern
 
-## Arten von Stakeholdern
+### Arten von Stakeholdern
 
 - Kapitalgeber (Zinsen, Erträge)
 - Mitarbeiter (Arbeitsplätze, Löhne, Zulagen)
-- Lieferanten (Absatz der Produkte und 
-Dienstleistungen)
-- Kunden (Nutzen der Produkte bzw. 
-Dienstleistungen)
-
-## Arten von Stakeholdern
-
-- Kommunen und Behörden 
-(Steuereinnahmen, Sozialleistungen)
+- Lieferanten (Absatz der Produkte und
+  Dienstleistungen)
+- Kunden (Nutzen der Produkte bzw.
+  Dienstleistungen)
+- Kommunen und Behörden
+  (Steuereinnahmen, Sozialleistungen)
 - Mitbewerber (Kooperationen)
 - Wirtschaftsorganisationen
 
@@ -115,29 +102,29 @@ Dienstleistungen)
 
 ### Einlinienorganisation
 
-- Jede untergeordnete Stelle hat eine 
-übergeordnete Stelle
-- Somit klare Zuständigkeiten und 
-Überschaubar
-- Lange Weisungs- und Informationswege, 
-mangelnde Flexibilität, zahlreiche 
-Schnittstellen und Übermittlungsfehler
+- Jede untergeordnete Stelle hat eine
+  übergeordnete Stelle
+- Somit klare Zuständigkeiten und
+  Überschaubar
+- Lange Weisungs- und Informationswege,
+  mangelnde Flexibilität, zahlreiche
+  Schnittstellen und Übermittlungsfehler
 
-![Alt text](img/pm1.png)*Einlinienorganisation*
+![Alt text](img/pm1.png)_Einlinienorganisation_
 
 - Chaque service subordonné a un service supérieur
 - Ainsi, les responsabilités sont claires et Bonne visibilité
 - Longues voies d'instruction et d'information, manque de flexibilité, nombreuses Interfaces et erreurs de transmission
-  
+
 ### Stablinienorganisation
 
 - Einlinienorganisation mit Stabsstellen
 - Dienen zur Entlastung mit Beraterfunktion
 - Keine Weisungsbefugnis
-- Ebenfalls lange Kommunikationswege 
+- Ebenfalls lange Kommunikationswege
 - Kompetenzkonflikte mit anderen Instanzen
 
-![Alt text](img/pm2.png)*Stablinienorganisation*
+![Alt text](img/pm2.png)_Stablinienorganisation_
 
 - Organisation en une seule ligne avec des postes d'état-major
 - Servir à la décharge avec fonction de conseiller
@@ -147,15 +134,15 @@ Schnittstellen und Übermittlungsfehler
 
 ### Mehrlinienorganisation
 
-- Untergeordnete Stelle kann von mehreren 
-Instanzen Weisungen erhalten
+- Untergeordnete Stelle kann von mehreren
+  Instanzen Weisungen erhalten
 - Mitarbeiter flexibel einsetzbar
 - Betonung der Fachautorität
 - Zuständigkeitsabgrenzung problematisch
 - Überforderung der Mitarbeiter
 
 ![Alt text](img/pm3.png)
-*Mehrlinienorganisation*
+_Mehrlinienorganisation_
 
 - L'instance subordonnée peut recevoir des instructions de plusieurs recevoir des instructions de la part d'autres instances
 - Les collaborateurs peuvent être utilisés de manière flexible
@@ -164,14 +151,15 @@ Instanzen Weisungen erhalten
 - Surcharge des collaborateurs
 
 ### Matrixorganisation
+
 - Weiterentwicklung des Mehrliniensystems
 - Jede Stelle von 2 Instanzen geführt
 - Teamarbeit gefördert
-- Unterstützt so Produkt- und 
-Geschäftsprozessorientierung
+- Unterstützt so Produkt- und
+  Geschäftsprozessorientierung
 - Streitigkeiten bei den Zuständigkeiten
 
-![Alt text](img/pm4.png)*Matrixorganisation*
+![Alt text](img/pm4.png)_Matrixorganisation_
 
 - Développement du système multi-lignes
 - Chaque poste géré par 2 instances
