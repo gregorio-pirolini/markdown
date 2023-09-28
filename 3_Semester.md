@@ -507,3 +507,42 @@ Industrie 4.0: die vierte Industrielle Revolution
 lerne buch page 80
 
 rebound effekt??
+
+## 28 09 2023
+
+### deu
+
+#### join
+
+where xx = is the same as join on
+|            |
+|:----------:|
+| <div style="background-color: white">![Alt text](img/img3/img_innerjoin.gif)|
+#### join left
+
+The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
+|            |
+|:----------:|
+| <div style="background-color: white">![Alt text](img/img3/img_leftjoin.gif)
+|
+#### join right
+
+The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+|            |
+|:----------:|
+|  <div style="background-color: white">![Alt text](img/img3/img_rightjoin.gif)|
+
+#### join full
+
+|            |
+|:----------:|
+|  <div style="background-color: white">![Alt text](img/img3/img_fulljoin.gif) |
+
+## SLE
+
+### verschluesselung
+
+symetrish asymetrish hybrid
+
+#### symetrishe Verschluesselung
+
