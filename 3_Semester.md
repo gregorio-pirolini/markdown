@@ -515,30 +515,32 @@ rebound effekt??
 #### join
 
 where xx = is the same as join on
-|            |
+| |
 |:----------:|
 | <div style="background-color: white">![Alt text](img/img3/img_innerjoin.gif)|
+
 #### join left
 
 The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
-|            |
+| |
 |:----------:|
 | <div style="background-color: white">![Alt text](img/img3/img_leftjoin.gif)
 |
+
 #### join right
 
 The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
-|            |
+| |
 |:----------:|
-|  <div style="background-color: white">![Alt text](img/img3/img_rightjoin.gif)|
+| <div style="background-color: white">![Alt text](img/img3/img_rightjoin.gif)|
 
 #### join full
 
-|            |
-|:----------:|
-|  <div style="background-color: white">![Alt text](img/img3/img_fulljoin.gif) |
+|                                                                             |
+| :-------------------------------------------------------------------------: |
+| <div style="background-color: white">![Alt text](img/img3/img_fulljoin.gif) |
 
-## SLE
+### SLE
 
 ### verschluesselung
 
@@ -546,3 +548,478 @@ symetrish asymetrish hybrid
 
 #### symetrishe Verschluesselung
 
+## 29 09 2023
+
+### pog
+
+MVC Model view controller Pattern/Muster
+
+**Heuristische Evaluation** (auch als heuristisches Testen bekannt) ist ein Prozess, der Usability-Probleme aufdeckt, indem ein Produkt untersucht und seine Leistung beurteilt wird. Sie stellt einen Rückstand an Verbesserungen fest, der als Teil eines iterativen Designprozesses angegangen werden kann.
+
+## 04 10 2023
+
+### pog
+
+antrag muss erst mal nicht formatiert werden, wird später
+
+Herr Poguntke meldet sich 2 Wochen nach Praktikum Anfang
+
+Antrag wird nicht bewertet sonsdert angelehnt oder akkeptiert
+
+titel erst mal weglassen  
+project beschreibung, wo fanegt an wo endet ...  
+kurze Beschreibung des Projekts  
+ist zusztand: wie ist es jetzt grade  
+soll zustand wie es am Ende auszusehen hat  
+zukunft zeit benutzen
+
+Projekt nehmen das gut zu dokumentueren ist
+
+was im Antrag steht muss im Doku stehen
+
+personelle schnitstellen  
+herr xx leiter war der Aufraggeber
+ich bin projekt nehmer
+
+3.7 Sachmittel
+hardware und software
+wenn etwas spaeter dazu kommt ist es ok
+ide, rechner, zusatzsoftware, virtialisierung software
+
+3.8 kosten planung
+azubi im dritten lehr ajhr das mal 80
+was kostet hardware
+was kostet software
+energieverbrauch 6 euro pro tag
+gibt es meetings
+
+was macht die firma?
+wie gross ist die firma?
+
+phasen ist sehr wichtig
+ist spaeer der inheltverzeichnuis fuer das project
+plannen eine Stunde zeit puffer oder auch mehr
+meeting 2 Stunden mit jemanden der auch geld verdiennt  
+...
+
+Erstellen der Dokumentation 8 bis 12 Stunden aber im Echt mindesten 20 Stunden
+
+Das ergibt 80 Stunden
+
+Presentationsmittel: was wir mitbringen zu mundlichen pruefung
+beispiel notebook
+nict schreiebn und mit brigebn ok
+was schreiben und nichtt bringen ist ein Problem
+
+Portal erst ab Februar geöffnet und die info zu laden
+
+[https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/)
+
+### WISO
+
+![Alt text](img/img3/PW-Aufgaben_01.png)
+
+#### Arbeitsteilung und die verschiedenen Formen der Arbeitsteilung
+
+##### Begriff:
+
+**Arbeitsteilung** ist die Auslösung von Arbeit in Teilverrichtungen, die von verschiedenen Personen oder Wirtschaftseinheiten ausgeführt werden. Das Gegenteil der Arbeitsteilung ist die vollständige Selbstversorgung einer einzelnen Person.
+Beispiel: Ein Bauer baut Weizen an, der Müller mahlt aus dem Weizen Mehl, aus dem der Bäcker wiederum Brot backt. In der Selbstversorgung musste ein Mensch alle diese Tätigkeiten ausführen, um das Brot zu erhalten.
+
+##### Familiare Arbeitsteilung:
+
+Die familiäre Arbeitsteilung ist die ursprünglichste Form der Arbeitsteilung. Sie fand zwischen Mann und Frau statt, als es noch keinen Austausch von Gütern gab und die Familien sich noch selbst versorgten.
+
+##### Berufliche Arbeitsteilung:
+
+###### Berufsbildung
+
+Berufsbildung ist die Spezialisierung von Personen auf bestimmte Tätigkeitsfelder nach Neigung und Fähigkeit.
+Beispiel: Entwicklung von Berufen wie Landwirt, Tischler, Müller, Bäcker, Händler, Elektriker
+
+###### Berufsspaltung
+
+Berufsspaltung beinhaltet die durch die Technisierung erforderliche Spezialisierung innerhalb der ursprünglichen Grundberufe.
+Beispiel. Der Grundberuf Mechaniker lässt sich aufspalten in Industriemechaniker, Werkzeugmechaniker, Automobilmechaniker usw.
+
+##### Betriebliche Arbeitsteilung
+
+###### Arbeitszerlegung
+
+Die Arbeitszerlegung beinhaltet die Zerlegung eines gesamten Arbeitsvorgangs in mehrere Teilleistungsprozesse.
+Beispiel: Die Gesamtaufgabe eines Tischlers wird aufgeteilt in Sägen, Hobeln, Verzinken, usw.
+
+###### Abteilungsbildung
+
+Die Abteilungsbildung ist das Ergebnis der Arbeitszerlegung. Einzelne Arbeitsprozesse werden auf Stellen/Personen verteilt und diese zu organisatorischen Einheiten (Abteilungen) zusammengefasst.
+Beispiel: Eine Möbelfabrik enthält im Fertigungsbereich die Abteilungen Zuschnitt, Furnieren, Oberflächenbearbeitung, Bankraum usw.
+
+##### Gesellschaftliche Arbeitsteilung (überbetriebliche Arbeitsteilung)
+
+Die gesellschaftliche Arbeitsteilung erstreckt sich nicht mehr nur auf Menschen und Betriebe, sondern auf die gesamte Volkswirtschaft. Die Volkswirtschaft zerfällt in verschiedene Wirtschaftsbereiche, von denen jeder ganz bestimmte Aufgaben übernimmt.
+
+- Überzeugung: Gewinnung von Rohstoffen und Energie (z. B. Landwirtschaft, Bergbau)
+- Weiterverarbeitung: Verarbeitung der Stoffe durch Industrie und Handwerk
+- Handel und Dienstleistungen: Verteilung der Waren und Erstellung von Dienstleistungen
+
+##### Internationale Arbeitsteilung
+
+Jedes Land spezialisiert sich auf den Anbau oder die Produktion von Waren oder Dienstleistungen, die sich in diesem Land besonders lohnt (Kaffee aus Südamerika, Kupfer aus Chile, Textilien aus Marokko).
+
+#### Rationalisierung
+
+##### Begriff
+
+Unter **Rationalisierung** werden alle Maßnahmen zusammengefasst, die dazu geeignet sind, eine bestimmte Leistung mit einem geringeren Kraft-, Zeit- und Kostenaufwand zu erzielen als vor der Rationalisierung
+
+##### Ziel
+
+Ziel der Rationalisierung ist deshalb die Erhöhung der Produktivität der Fertigung sowie die Gestaltung humaner Arbeitsbedingungen. Produktivität ist das Verhältnis von betrieblicher Ausbringungsmenge (Output) zur betrieblichen Einsatzmenge (Input).
+
+Produktivität = mengenmäßige Ausbringung/mengenmäßiger Einsatz
+
+Beispiel: 200 Mitarbeiter erzeugen vor der Rationalisierung 42 000 Stück. Ihre Produktivität beträgt damit 210 Stück. Nach der Rationalisierung kann diese Leistung durch 175 Mitarbeiter erbracht werden. Die Produktivität hat sich damit auf 240 Stück erhöht.
+
+##### Mahnahmen zur Rationalisierung
+
+Rationalisierungseffekte werden durch folgende Maßnahmen erreicht:
+
+Rationalisierungseffekte werden durch folgende Maßnahmen erreicht:
+
+- **Automation** beinhaltet den Einsatz von Maschinen und Computern zur Durchführung von Arbeitsvorgängen, wodurch ganz oder teilweise menschliche Arbeit eingespart wird.
+  Beispiel: Einsatz von Schweißrobotern in der Automobilfertigung
+- **Arbeitsteilung** führt zur Zerlegung eines zusammenhängenden Arbeitsvorgangs in Einzeltätigkeiten. Durch die Ausrichtung einer Arbeitskraft oder Maschine auf nur einen Arbeitsvorgang werden ein hoher Spezialisierungsgrad und eine erhöhte Produktivität erreicht.
+  Beispiel: Bohrautomaten in der Möbelproduktion
+- **Normung und Typung** stellen durch die Vereinheitlichung von Werkstoffen, Teilen, Baugruppen oder ganzen Erzeugnissen einen Rationalisierungseffekt im Materialbereich dar.
+  Beispiel: Abstimmung zwischen Herstellern von Küchenmöbeln und Küchengeräten
+- **Spezialisierung** beinhaltet die Beschränkung eines Betriebes auf die Herstellung bestimmter Produkte. Dies führt zu höheren Losgrößen und damit zu Einsparungen bei den Herstellungskosten durch niedrige Rüstkosten und den Einsatz von Spezialmaschinen.
+  Beispiel: ein Leuchtenhersteller verringert sein Programm von 260 verschiedenen Artikeln um 1 5 0 und spezialisiert sich auf Büroleuchten und moderne Design-Leuchten.
+
+#### berufsständischer Organisationen
+
+##### Art der Betriebe/ Branche:
+
+- Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
+- Handwerksbetriebe
+
+###### Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
+
+**Berufsständische Organisation:**
+
+Industrie- und Handelskammer = Interessenvertretun für die gewerbliche Wirtschaft
+
+**Ziele und Aufgaben**
+
+- Betreut alle in ihrem Bereich liegenden Gewerbebetriebe, die Pflichtbeiträge zahlen
+- berät und fordert die gewerbliche Wirtschaft
+- überwacht die Berufsausbildung, fuhrt das Verzeichnis der Ausbildungsbetriebe und nimmt Prüfungen ab
+
+**Mitgliedschaft**
+
+Pflicht
+
+**Dachverband auf Bundesebene**
+
+DeutscherIndustrie- und Handelstag DIHK
+
+**Berufsständische Organisation:**
+
+Wirtschaftsfachverband = Interessenvertretung des jeweiligen Wirtschaftszweiges
+
+**Ziele und Aufgaben**
+
+- fordert den jeweiligen Wirtschaftszweig (z. B. Verband der Elektroindustrie)
+- berät ihre Mitglieder
+- gibt branchenbezogene Informationen und Statistiken für die Mitglieder heraus
+- gibt Stellungnahmen zu aktuellen wirtschaftspolitischen Themen ab
+- versucht Einfluss auf die Gesetzgebung zu nehmen, sofern diese den Wirtschaftszweig betrifft (Lobby)
+
+**Mitgliedschaft**
+
+freiwillig
+
+**Dachverband auf Bundesebene**
+
+- Bundesverband des entsprechenden Wirtschaftszweiges
+- Bundesverband der deutschen Industrie BDI
+
+###### Handwerksbetriebe
+
+**Berufsständische Organisation:**
+
+Handwerksinnung =Zusammenschlussselbstständiger Handwerker einer Berufsgruppe
+
+**Ziele und Aufgaben**
+
+- nimmt Gesellenprüfungen ab
+- vermittelt zwischen Kunden und Betrieb
+- richtet Unterstützungs- und Krankenkassen ein
+
+**Mitgliedschaft**
+
+freiwillig
+
+**Dachverband auf Bundesebene**
+
+Bundesinnungsverbände
+
+**Berufsständische Organisation:**
+
+Kreishandwerkerschaft = Zusammenschluss aller oder mehrerer Handwerksinnungen eines Stadt- oder Landkreises
+
+**Ziele und Aufgaben**
+
+nimmt die gemeinschaftlichen Interessen des
+Handwerks auf Bezirksebene wahr
+schafft überbetriebliche Ausbildungsstatten
+und Schlichtungsstellen
+erteilt Auskünfte und Rechtsberatungen
+betreut die Auszubildenden gemeinsam mit
+den Lehrlingswarten der Kammern
+
+**Mitgliedschaft**
+
+Pflicht
+
+**Dachverband auf Bundesebene**
+
+- Bundesvereinigung der Fachverbände
+- Zentralverband des deutschen Handwerks
+
+**Berufsständische Organisation:**
+
+Handwerkskammer = Interessenvertretung des Handwerks und Organ der handwerklichen Selbstverwaltung
+
+**Ziele und Aufgaben**
+
+- berät ihre Mitglieder
+- fuhrt die Handwerksrolle, in der jeder Betrieb verzeichnet ist
+  -regelt und überwacht die Ausbildung
+- nimmt die Meisterprüfung ab
+
+**Mitgliedschaft**
+
+Pflicht
+
+**Dachverband auf Bundesebene**
+
+Deutscher Handwerkskammertag
+
+##### Finanzamt
+
+Das Finanzamt ist die unterste Behörde der Finanzverwaltung, die als örtliche Dienststelle der Bundesländer die Besteuerung durchfuhrt. Es verrichtet die dazu notwendige Verwaltungsarbeit, ermittelt die Steuerpflichtig gen, veranlagt und erhebt die Steuern und fuhrt Kontrollen oder Fahndungen durch. Finanzämter werden durch die für ihren Bezirk zuständigen Oberfinanzdirektionen überwacht.
+
+##### Arbeitsagentur
+
+Die Arbeitsagentur ist vor Ort die unterste Behörde der Bundesagentur für Arbeit (BA). Wichtigste Aufgabe der Arbeitsagentur ist es, arbeitsuchende und Arbeitgeber mit offenen Stellen für einen bestimmten Arbeits- Agenturbezirk Zusammenzuführen. Die Arbeitsagenturen erbringen Leistungen, die im Arbeitsförderungsgesetz (Sozialgesetzbuch II./lIl. Buch) geregelt sind: Arbeitsvermittlung, Arbeits- und Berufsberatung, berufliche
+Weiterbildung, Umschulungen sowie Arbeitsbeschaffungsmaßnahmen. Diese Leistungen sind unentgeltlich.
+Auch die Beantragung und Zahlung von Arbeitslosengeld I und II gehört zu den Aufgaben.
+
+##### Gewerbeaufsicht
+
+Die Gewerbeaufsicht (oder: Amt für Arbeitsschutz) ist die zuständige Behörde für die Einhaltung von Vorschriften des Arbeits-, Umwelt- und Verbraucherschutzes. Ihr obliegen die Überwachung von Betrieben und die Erteilung von Genehmigungen. Nicht zu verwechseln mit Ordnungsamt oder Gewerbeamt.
+
+##### Kommunalverwaltung (Stadt- bzw. gemeindverwaltung)
+
+Das Grundgesetz legt in Artikel 28, Absatz 2 die Eigenverantwortung der Gemeinden „im Rahmen der
+Gesetze” fest. Die Eigenverantwortung bezieht sich auf Personal-, Gebiets-, Planungs- und Rechtsetzungshoheit. Die Kommunalverfassungen selber sind Sache der Ländergesetzgebung. Die konkrete Ausgestaltung der
+Kommunalverwaltungen unterscheidet sich daher je nach Landesgesetz. Sie betreffen vornehmlich das
+Verhältnis von gewählter, ehrenamtlicher Vertretung (Stadtrat, Kreisrat) und der hauptamtlichen Verwaltungs-
+spitze (Bürgermeister, Gemeinde- oder Oberstadtdirektor).
+
+##### Arbeitsgericht
+
+Arbeitsgerichte sind die in erster Instanz tätigen Anlaufstellen für Streitigkeiten, die von der Arbeitsgerichtsbarkeit geklärt werden müssen. Die Kammern am Arbeitsgericht sind mit einem Berufsrichter und zwei ehren- amtlichen Richtern, die von den Arbeitgeberverbanden und den Gewerkschaften vorgeschlagen werden, besetzt. Die Arbeitsgerichte sind u. a. zuständig für Rechtsstreitigkeiten zwischen Arbeitgebern und Arbeitnehmern und zwischen Tarifvertragsparteien, wie Gewerkschaften und Arbeitgeberverbanden.
+
+#### das duale System der Berufsausbildung
+
+Das gesamte Ausbildungssystem (kaufmännische und gewerbliche Ausbildung) in der Bundesrepublik Deutschland basiert darauf, dass für das Erlernen eines Ausbildungsberufes zwei Lernorte zuständig sind:
+
+##### Lenort
+
+###### Betrieb
+
+Ausbildungsbetriebe der Industrie, des Handwerks sowie Betriebe aus dem Bereich Handel und Dienstleistungen
+Beispiel: Bauträgergesellschaft Normbau GmbH
+
+**Aufgabe**
+
+Vermittlung von fachpraktischen Kenntnissen und Fertigkeiten entsprechend der Ausbildungsordnung und dem Ausbildungsberufsbild in den verschiedenen Abteilungen des Betriebes
+Beispiel. Angebotserstellung
+
+**Rechtsquellen und Inhalte**
+
+Ausbildungsordnung:
+
+- Ausbildungsdauer
+- Berufsbild
+- Ausbildungsrahmenplan
+- Ausbildungsplan
+- Prüfungsanforderungen
+
+###### Schule
+
+alle berufsbildenden Schulen, die entsprechend ihrer Größe eine unterschiedliche Zahl von Berufen ausbilden
+Beispiel. Berufskolleg Bielefeld
+
+**Aufgabe**
+Vermittlung von fachtheoretischen, berufsbezogenen (Fächer: Geschäftsprozesse, Steuerung und Kontrolle, Wirtschafts- und Sozialprozesse) und berufsübergreifenden Lerninhalten (Fächer: Deutsch/Kommunikation, Politik/Gesellschaftslehre, Religion, Sport/Gesundheitsforderung)
+Beispiel: Kaufertragsrecht
+
+**Rechtsquellen und Inhalte**
+
+Rahmenlehrplan:
+
+- Unterrichtsfächer
+- Anzahl der Unterrichtsstunden pro Fach
+- Lerngebiete/Lernziele/Lerninhalte
+- zeitliche Zuordnung der Lerninhalte (Unterstufe, Mittelstufe, Oberstufe der Berufsschule)
+
+###### Berufsbildungsgesetzes
+
+**Aufgabe**  
+Das Berufsbildungsgesetz ist die rechtliche Grundlage für alle anerkannten Ausbildungsberufe. Es enthält allgemeine Vorschriften, die für alle Ausbildungsberufe einheitlich gelten.
+
+**Begriffe der beruflichen Bildung**
+
+- Berufsausbildung
+  Darunter ist die breit angelegte berufliche Grundbildung in einem geordneten Ausbildungsgang zu verstehen
+  .Beispiel: Berufsausbildung zum/zur Industriekaufmann/Industriekauffrau
+- berufliche Fortbildung
+  Sie soll die erlernten Kenntnisse und Fertigkeiten in diesem Beruf erhalten, erweitern und den gestiegenen Anforderungen aufgrund der fortschreitenden technischen Entwicklung anpassen.
+  Beispiel: Fortbildungslehrgang zu einer EDV-Anwendersoftware
+- berufliche Umschulung
+  Sie soll zu einer anderen beruflichen Tätigkeit befähigen, weil der ursprüngliche Beruf aus bestimmten Gründen nicht mehr ausgeübt werden kann.
+  Beispiel: Umschulung eines Bäckers mit einer Mehlstauballergie zum Industriekaufmann
+
+**wesentliche Inhalte**
+Allgemeine Regelungen über:
+
+- Berufsausbildungsvertrag
+- Beginn und Beendigung des Berufsausbildungsverhältnisses
+- Pflichten des Ausbildenden
+- Berechtigung zum Einstellen und Ausbilden
+- Pflichten des Auszubildenden
+- Änderung der Ausbildungszeit
+- Vergütung
+
+###### Ausbildungsordnung
+
+**Begriff und Ziele**
+Die Ausbildungsordnung ist die rechtliche Grundlage für einen speziellen Ausbildungsberuf. Sie enthält alle Vorschriften, die für diesen speziellen Ausbildungsberuf von Bedeutung sind.
+Beispiel: Verordnung über die Berufsausbildung zum Industriekaufmann/zur Industriekauffrau
+
+**wesentliche Inhalte**
+Bezogen auf die Berufsausbildung in den meisten kaufmännischen Ausbildungsberufen:
+
+- Ausbildungsdauer (Regeldauer drei Jahre, Verkürzung möglich)
+- Berufsbild (z. B. zu vermittelnde Fertigkeiten und Kenntnisse in den Bereichen: Beschaffung, Lagerung, Absatz, Personalwesen, Rechnungswesen)
+- Ausbildungsrahmenplan (Anleitung zur Erstellung eines Ausbildungsplans hinsichtlich der sachlichen und zeitlichen Gliederung der Berufsausbildung)
+- Ausbildungsplan (individueller Plan für jedes einzelne Ausbildungsverhältnis)
+- Prüfungsanforderungen (z. B. Industriekaufmann/Industriekauffrau) Zwischenprüfung
+  Abschlussprüfung:   
+  a) schriftliche Prüfung (Geschäftsprozesse, Kaufmännische Steuerung und Kontrolle Wirtschafts- und Sozialkunde)  
+  b) Einsatzgebiet (Report als Grundlage einer Präsentation und eines Fachgesprächs)
+
+###### Berufsausbildungsvertrag
+
+**ablauf**
+
+- Formvorschrift: keine; jedoch müssen wesentliche Inhalte schriftlich festgehalten werd en (§ 4 BBiG)
+- Vertragspartner: Ausbildender und Auszubildender (bei Minderjährigen: gesetzlicher Vertreter)
+- Eintragung: in das Verzeichnis der Ausbildungsverhältnisse bei der zuständigen Kammer (z. B. IHK)• Eintragung: in das Verzeichnis der Ausbildungsverhältnisse bei der zuständigen Kammer (z. B. IHK)
+
+**Mindestinhalte eines Berufsausbildungsvertrages**
+
+- Art, Gliederung und Ziel der Ausbildung (Ausbildungsberuf, Ausbildungsplan)
+- Beginn und Dauer der Ausbildung (i. d. R. Beginn am 01.08., Dauer 3 Jahre)
+- Ausbildungsmaßnahmen außerhalb der Ausbildungsstätte (z. B. Seminar über Verkaufstraining)
+- Dauer der täglichen Arbeitszeit
+- Probezeit (zwischen ein und vier Monate)
+- Zahlung und Hohe der Vergütung
+  (gestaffelt nach jährlicher Steigerung)
+- Dauer des Urlaubs
+- Kündigungsmöglichkeiten
+
+**Rechte und Pflichten**
+
+Pflichten des Auszubildenden ( Rechte des Ausbildenden):
+
+- Lern-/Dienstleistungspflicht
+- Weisungen befolgen
+- sorgfältige Ausführung der Weisungen
+- Berufsschulpflicht
+- Berichtsheft fuhren
+- Einhaltung der betrieblichen Ordnung
+- Einrichtungen pfleglich behandeln
+- „Kleiderordnung” einhalten
+- Wahrung von Geschäftsgeheimnissen
+  (z. B. Bezugsquellen, Preiskalkulationen)
+
+Pflichten des Auszubildenden ( Rechte des Auszubildenden):
+
+- korrekte Durchführung der Ausbildung
+- keine „ausbildungsfremden” Tätigkeiten
+- geeignete Ausbilder
+- kostenlose Ausbildungsmittel
+- Besuch der Berufsschule ermöglichen
+- Sorgepflicht
+  -Arbeitsschutz
+- Zahlung der Vergütung
+- Gewähren von Urlaub
+- Zeugniserteilung nach Beendigung der Ausbildung
+
+**Wie wird ein Ausbildungsverhältnis beendet?**
+
+mit bestandener Abschlussprüfung:
+Entscheidend ist der Tag der Abschlussprüfung, nicht das Datum laut Ausbildungsvertrag (bei Nichtbestehen: Verlängerung bis zur nächsten Prüfung, höchstens um ein Jahr)
+
+durch Kündigung Formvorschrift Schriftlich:
+
+- wahrend der Probezeit: von beiden Seiten ohne Angabe von Gründen moglich
+- nach der Probezeit:
+  - vom Auszubildenden: mit Kündigungsfrist von vier Wochen, wenn ein anderen Beruf angestrebt wird oder die Ausbildung aufgegeben wird
+  - von beiden Seiten: ohne Einhalten einer Frist bei einem „wichtigen Grund”, z. B. einer Tätlichkeit
+
+**Jugendarbeitsschutzgesetzes**
+
+Grundlegendes:
+
+- geschützter Personenkreis: Kinder (Personen, die noch nicht 15 Jahre alt sind);jugendliche (Personen, die
+  1 5 Jahre, aber noch nicht 18 Jahre alt sind)
+- überwachende Behörde ist das Gewerbeaufsichtsamt bzw. das Staatliche Amt für Arbeitsschutz
+- Kinderarbeit ist bis auf Ausnahmen verboten
+- Akkordarbeit ist verboten
+
+Arbeitszeit:
+
+- täglich maximal 8 Stunden (bzw. 8,5 Stunden, wenn an einem Wochentag die Mehrstunden abgegolten
+  werden); wöchentlich maximal 40 Stunden
+- an Samstagen, Sonn- und Feiertagen keine Beschäftigung; Ausnahmen find zulässig
+- Schichtzeit ist die Arbeitszeit inkl. Ruhepausen: maximal 10 Stunden
+- tägliche Freizeit: mindestens 12 Stunden zwischen Arbeitsende und Arbeitsbeginn am nächsten Tag
+
+Ruhepausen:
+
+- bei einer tägl. Arbeitszeit von 4,5—6 Std. mind. 30 Minuten
+- bei einer tägl. Arbeitszeit von über 6 Std. mind. 60 Minuten
+
+Nachtruhe:
+Beschäftigung nur zwischen 06:00 und 20:00 Uhr; Ausnahmen: z. B. im Gaststättengewerbe bis 22:00 Uhr, in Bäckereien ab 05-00 Uhr, in mehrschichtigen Betrieben bis 23:00 Uhr
+
+Urlaub:
+
+- 30 Werktage für 15-jährige
+- 27 Werktage für 16-jährige
+- 23 Werktage für 17-jährige
+
+Berufsschule:
+
+- Freistellung für den Berufsschulunterricht
+- Arbeitsentgelt für die Zeit, die in der Berufsschule verbracht wird
+- keine Beschäftigung an einem Berufsschultag in der Woche bei mindestens 6 Unterrichtsstunden
+
+Einstellungs- Untersuchung:
+
+- Erstuntersuchung : innerhalb der letzten 14 Monate vor Beginn der Ausbildung
+- Nachuntersuchung: 1 Jahr nach Beginn der AusbildungwisoQuestionSeptembre2023
