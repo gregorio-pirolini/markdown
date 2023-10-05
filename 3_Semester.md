@@ -1,15 +1,16 @@
 <style>
+  body{background-color:white}
 h1 { color: Red }
-h2 { color: green }
-h3 { color: blue; background-color: white;}
-h4 { color:red;}
-h5 { color: yellow;background-color: black;}
-h6 { color: purple; text-decoration: underline}
+h2 { color: #F76915 }
+h3 { color: #EEDE04; background-color:black}
+h4 { color:#A0D636;font-weight: bold;text-decoration:underline}
+h5 { color: #2FA236;font-weight: bold;}
+h6 { color:  #333ED4;font-style:italic}
 f{ color: red;
 font-weight: bold;
 text-decoration: underline;}
 mono{font-family:"monospace"}
-
+p,li,table{color: black;}
 </style>
 
 # 1
@@ -516,23 +517,23 @@ rebound effekt??
 
 where xx = is the same as join on
 | |
-|:----------:|
-| <div style="background-color: white">![Alt text](img/img3/img_innerjoin.gif)|
+| :--------------------------------------------------------------------------: |
+| <div style="background-color: white">![Alt text](img/img3/img_innerjoin.gif) |
 
 #### join left
 
 The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
 | |
-|:----------:|
-| <div style="background-color: white">![Alt text](img/img3/img_leftjoin.gif)
-|
+| :-------------------------------------------------------------------------: |
+| <div style="background-color: white">![Alt text](img/img3/img_leftjoin.gif) |
+| |
 
 #### join right
 
 The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
 | |
-|:----------:|
-| <div style="background-color: white">![Alt text](img/img3/img_rightjoin.gif)|
+| :--------------------------------------------------------------------------: |
+| <div style="background-color: white">![Alt text](img/img3/img_rightjoin.gif) |
 
 #### join full
 
@@ -619,48 +620,48 @@ Portal erst ab Februar geöffnet und die info zu laden
 
 ![Alt text](img/img3/PW-Aufgaben_01.png)
 
-#### Arbeitsteilung und die verschiedenen Formen der Arbeitsteilung
+#### verschiedenen Formen der Arbeitsteilung
 
 ##### Begriff:
 
-**Arbeitsteilung** ist die Auslösung von Arbeit in Teilverrichtungen, die von verschiedenen Personen oder Wirtschaftseinheiten ausgeführt werden. Das Gegenteil der Arbeitsteilung ist die vollständige Selbstversorgung einer einzelnen Person.
-Beispiel: Ein Bauer baut Weizen an, der Müller mahlt aus dem Weizen Mehl, aus dem der Bäcker wiederum Brot backt. In der Selbstversorgung musste ein Mensch alle diese Tätigkeiten ausführen, um das Brot zu erhalten.
+**Arbeitsteilung** ist die Auslösung von Arbeit in Teilverrichtungen, die von verschiedenen Personen oder Wirtschaftseinheiten ausgeführt werden. Das Gegenteil der Arbeitsteilung ist die vollständige Selbstversorgung einer einzelnen Person.  
+_Beispiel: Ein Bauer baut Weizen an, der Müller mahlt aus dem Weizen Mehl, aus dem der Bäcker wiederum Brot backt. In der Selbstversorgung musste ein Mensch alle diese Tätigkeiten ausführen, um das Brot zu erhalten._
 
-##### Familiare Arbeitsteilung:
+##### Familiäre Arbeitsteilung:
 
-Die familiäre Arbeitsteilung ist die ursprünglichste Form der Arbeitsteilung. Sie fand zwischen Mann und Frau statt, als es noch keinen Austausch von Gütern gab und die Familien sich noch selbst versorgten.
+Die **familiäre Arbeitsteilung** ist die ursprünglichste Form der **Arbeitsteilung**. Sie fand zwischen Mann und Frau statt, als es noch keinen Austausch von Gütern gab und die Familien sich noch selbst versorgten.
 
 ##### Berufliche Arbeitsteilung:
 
 ###### Berufsbildung
 
-Berufsbildung ist die Spezialisierung von Personen auf bestimmte Tätigkeitsfelder nach Neigung und Fähigkeit.
-Beispiel: Entwicklung von Berufen wie Landwirt, Tischler, Müller, Bäcker, Händler, Elektriker
+**Berufsbildung** ist die Spezialisierung von Personen auf bestimmte Tätigkeitsfelder nach Neigung und Fähigkeit.  
+_Beispiel: Entwicklung von Berufen wie Landwirt, Tischler, Müller, Bäcker, Händler, Elektriker_
 
 ###### Berufsspaltung
 
-Berufsspaltung beinhaltet die durch die Technisierung erforderliche Spezialisierung innerhalb der ursprünglichen Grundberufe.
-Beispiel. Der Grundberuf Mechaniker lässt sich aufspalten in Industriemechaniker, Werkzeugmechaniker, Automobilmechaniker usw.
+**Berufsspaltung** beinhaltet die durch die Technisierung erforderliche Spezialisierung innerhalb der ursprünglichen Grundberufe.  
+_Beispiel. Der Grundberuf Mechaniker lässt sich aufspalten in Industriemechaniker, Werkzeugmechaniker, Automobilmechaniker usw._
 
 ##### Betriebliche Arbeitsteilung
 
 ###### Arbeitszerlegung
 
-Die Arbeitszerlegung beinhaltet die Zerlegung eines gesamten Arbeitsvorgangs in mehrere Teilleistungsprozesse.
+Die **Arbeitszerlegung** beinhaltet die Zerlegung eines gesamten Arbeitsvorgangs in mehrere Teilleistungsprozesse.
 Beispiel: Die Gesamtaufgabe eines Tischlers wird aufgeteilt in Sägen, Hobeln, Verzinken, usw.
 
 ###### Abteilungsbildung
 
-Die Abteilungsbildung ist das Ergebnis der Arbeitszerlegung. Einzelne Arbeitsprozesse werden auf Stellen/Personen verteilt und diese zu organisatorischen Einheiten (Abteilungen) zusammengefasst.
-Beispiel: Eine Möbelfabrik enthält im Fertigungsbereich die Abteilungen Zuschnitt, Furnieren, Oberflächenbearbeitung, Bankraum usw.
+Die **Abteilungsbildung** ist das Ergebnis der **Arbeitszerlegung**. Einzelne Arbeitsprozesse werden auf Stellen/Personen verteilt und diese zu organisatorischen Einheiten (Abteilungen) zusammengefasst.  
+_Beispiel: Eine Möbelfabrik enthält im Fertigungsbereich die Abteilungen Zuschnitt, Furnieren, Oberflächenbearbeitung, Bankraum usw._
 
 ##### Gesellschaftliche Arbeitsteilung (überbetriebliche Arbeitsteilung)
 
-Die gesellschaftliche Arbeitsteilung erstreckt sich nicht mehr nur auf Menschen und Betriebe, sondern auf die gesamte Volkswirtschaft. Die Volkswirtschaft zerfällt in verschiedene Wirtschaftsbereiche, von denen jeder ganz bestimmte Aufgaben übernimmt.
+Die **gesellschaftliche Arbeitsteilung** erstreckt sich nicht mehr nur auf Menschen und Betriebe, sondern auf die gesamte Volkswirtschaft. Die Volkswirtschaft zerfällt in verschiedene Wirtschaftsbereiche, von denen jeder ganz bestimmte Aufgaben übernimmt.
 
-- Überzeugung: Gewinnung von Rohstoffen und Energie (z. B. Landwirtschaft, Bergbau)
-- Weiterverarbeitung: Verarbeitung der Stoffe durch Industrie und Handwerk
-- Handel und Dienstleistungen: Verteilung der Waren und Erstellung von Dienstleistungen
+- **Überzeugung**: Gewinnung von Rohstoffen und Energie (z. B. Landwirtschaft, Bergbau)
+- **Weiterverarbeitung**: Verarbeitung der Stoffe durch Industrie und Handwerk
+- **Handel und Dienstleistungen**: Verteilung der Waren und Erstellung von Dienstleistungen
 
 ##### Internationale Arbeitsteilung
 
@@ -676,9 +677,9 @@ Unter **Rationalisierung** werden alle Maßnahmen zusammengefasst, die dazu geei
 
 Ziel der Rationalisierung ist deshalb die Erhöhung der Produktivität der Fertigung sowie die Gestaltung humaner Arbeitsbedingungen. Produktivität ist das Verhältnis von betrieblicher Ausbringungsmenge (Output) zur betrieblichen Einsatzmenge (Input).
 
-Produktivität = mengenmäßige Ausbringung/mengenmäßiger Einsatz
+**Produktivität = mengenmäßige Ausbringung/mengenmäßiger Einsatz**
 
-Beispiel: 200 Mitarbeiter erzeugen vor der Rationalisierung 42 000 Stück. Ihre Produktivität beträgt damit 210 Stück. Nach der Rationalisierung kann diese Leistung durch 175 Mitarbeiter erbracht werden. Die Produktivität hat sich damit auf 240 Stück erhöht.
+_Beispiel: 200 Mitarbeiter erzeugen vor der Rationalisierung 42 000 Stück. Ihre Produktivität beträgt damit 210 Stück. Nach der Rationalisierung kann diese Leistung durch 175 Mitarbeiter erbracht werden. Die Produktivität hat sich damit auf 240 Stück erhöht._
 
 ##### Mahnahmen zur Rationalisierung
 
@@ -686,21 +687,22 @@ Rationalisierungseffekte werden durch folgende Maßnahmen erreicht:
 
 Rationalisierungseffekte werden durch folgende Maßnahmen erreicht:
 
-- **Automation** beinhaltet den Einsatz von Maschinen und Computern zur Durchführung von Arbeitsvorgängen, wodurch ganz oder teilweise menschliche Arbeit eingespart wird.
-  Beispiel: Einsatz von Schweißrobotern in der Automobilfertigung
+- **Automation:**  
+  beinhaltet den Einsatz von Maschinen und Computern zur Durchführung von Arbeitsvorgängen, wodurch ganz oder teilweise menschliche Arbeit eingespart wird.  
+  _Beispiel: Einsatz von Schweißrobotern in der Automobilfertigung_
 - **Arbeitsteilung** führt zur Zerlegung eines zusammenhängenden Arbeitsvorgangs in Einzeltätigkeiten. Durch die Ausrichtung einer Arbeitskraft oder Maschine auf nur einen Arbeitsvorgang werden ein hoher Spezialisierungsgrad und eine erhöhte Produktivität erreicht.
-  Beispiel: Bohrautomaten in der Möbelproduktion
-- **Normung und Typung** stellen durch die Vereinheitlichung von Werkstoffen, Teilen, Baugruppen oder ganzen Erzeugnissen einen Rationalisierungseffekt im Materialbereich dar.
-  Beispiel: Abstimmung zwischen Herstellern von Küchenmöbeln und Küchengeräten
-- **Spezialisierung** beinhaltet die Beschränkung eines Betriebes auf die Herstellung bestimmter Produkte. Dies führt zu höheren Losgrößen und damit zu Einsparungen bei den Herstellungskosten durch niedrige Rüstkosten und den Einsatz von Spezialmaschinen.
-  Beispiel: ein Leuchtenhersteller verringert sein Programm von 260 verschiedenen Artikeln um 1 5 0 und spezialisiert sich auf Büroleuchten und moderne Design-Leuchten.
+  _Beispiel: Bohrautomaten in der Möbelproduktion_
+- **Normung und Typung** stellen durch die Vereinheitlichung von Werkstoffen, Teilen, Baugruppen oder ganzen Erzeugnissen einen Rationalisierungseffekt im Materialbereich dar.  
+  _Beispiel: Abstimmung zwischen Herstellern von Küchenmöbeln und Küchengeräten_
+- **Spezialisierung** beinhaltet die Beschränkung eines Betriebes auf die Herstellung bestimmter Produkte. Dies führt zu höheren Losgrößen und damit zu Einsparungen bei den Herstellungskosten durch niedrige Rüstkosten und den Einsatz von Spezialmaschinen.  
+  _Beispiel: ein Leuchtenhersteller verringert sein Programm von 260 verschiedenen Artikeln um 150 und spezialisiert sich auf Büroleuchten und moderne Design-Leuchten._
 
 #### berufsständischer Organisationen
 
 ##### Art der Betriebe/ Branche:
 
-- Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
-- Handwerksbetriebe
+1. Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
+2. Handwerksbetriebe
 
 ###### Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
 
@@ -917,7 +919,7 @@ Bezogen auf die Berufsausbildung in den meisten kaufmännischen Ausbildungsberuf
 - Ausbildungsrahmenplan (Anleitung zur Erstellung eines Ausbildungsplans hinsichtlich der sachlichen und zeitlichen Gliederung der Berufsausbildung)
 - Ausbildungsplan (individueller Plan für jedes einzelne Ausbildungsverhältnis)
 - Prüfungsanforderungen (z. B. Industriekaufmann/Industriekauffrau) Zwischenprüfung
-  Abschlussprüfung:   
+  Abschlussprüfung:  
   a) schriftliche Prüfung (Geschäftsprozesse, Kaufmännische Steuerung und Kontrolle Wirtschafts- und Sozialkunde)  
   b) Einsatzgebiet (Report als Grundlage einer Präsentation und eines Fachgesprächs)
 
@@ -1023,3 +1025,109 @@ Einstellungs- Untersuchung:
 
 - Erstuntersuchung : innerhalb der letzten 14 Monate vor Beginn der Ausbildung
 - Nachuntersuchung: 1 Jahr nach Beginn der AusbildungwisoQuestionSeptembre2023
+
+## 05.10.2023
+
+### IoT
+
+#### Cyber-physische System
+
+- **ERP** (**Enterprise Resource Planning**): **ERP** refers to a software system that integrates various business processes and functions within an organization. It helps manage and streamline operations such as finance, human resources, inventory, and production planning.
+
+- **MES** (**Manufacturing Execution System**): **MES** is a software system used in manufacturing to monitor, control, and manage production processes on the shop floor. It helps bridge the gap between enterprise-level systems (like **ERP**) and the actual manufacturing process.
+
+- **SCADA** (**Supervisory Control and Data Acquisition**): **SCADA** is a control system architecture used for industrial processes. It involves collecting data from sensors and devices in real-time, monitoring and controlling industrial processes, and often includes remote access and control capabilities.
+
+- **SPS** (**Speicherprogrammierbare Steuerung**): **SPS** stands for "Speicherprogrammierbare Steuerung," which is the German term for "**Programmable Logic Controller (PLC)**" in English. **PLCs** are ruggedized industrial computers used for controlling manufacturing processes, machinery, and automation in various industries.
+
+- **CNC** (**Computer Numerical Control**): **CNC** refers to the automation of machine tools and 3D printers by means of computers executing pre-programmed sequences of machine control commands. It's commonly used in manufacturing for precision machining.
+
+- **IPC** (**Industrial Personal Computer**): **IPCs** are specialized computers designed for use in industrial environments. They are built to withstand harsh conditions and are often used for data collection, control, and monitoring in industrial automation and IoT applications.
+
+- **HMI** stands for "**Human-Machine Interface**." In the context of industrial automation and IoT (Internet of Things), an HMI is a user interface or dashboard that allows human operators to interact with and monitor machines, systems, or processes.
+
+##### Konnektivität
+
+###### Funktechnology
+
+- **Zigbee**
+- **Zwave**
+- **LoRa**
+
+###### Industrieprotokollen
+
+- **OPC UA**
+- **Modbus**
+
+**OPC** stands for "**OLE for Process Control**."  
+**OLE** stands for "**Object Linking and Embedding**,"
+
+**OPC UA & Modbus** are two commonly used industrial communication protocols, each with its own features and advantages. Here's a brief overview of each:
+
+**OPC UA** (Unified Architecture):
+
+**OPC UA** is a modern and highly flexible industrial communication protocol designed for interoperability and data exchange in industrial automation and IoT environments.
+
+It provides a platform-independent and vendor-neutral framework for exchanging data and information between different industrial systems and devices, including sensors, controllers, and **SCADA** systems.
+
+**OPC UA** supports secure communication with features like encryption and authentication, making it suitable for applications where data security is critical.
+It is known for its rich information modeling capabilities, allowing for structured and standardized data representation, which makes it easier to interpret and use data across various systems.
+**OPC UA** is widely used in industries like manufacturing, process control, and building automation for tasks such as remote monitoring, control, and data collection.
+Modbus:
+
+**Modbus** is one of the oldest and most widely used industrial communication protocols. It was originally developed in the late 1970s and is available in several variants, including Modbus RTU, Modbus ASCII, and Modbus TCP/IP.
+Modbus is relatively simple and lightweight, making it easy to implement and widely supported by various devices and controllers.
+It is often used for connecting devices within a local area network (LAN) or for serial communication between devices over RS-232 or RS-485.
+**Modbus** is commonly used in industrial applications for tasks like reading and writing data from sensors, control devices, and programmable logic controllers (PLCs).
+While Modbus is straightforward and suitable for many applications, it lacks some of the advanced features and security measures found in more modern protocols like OPC UA.
+The choice between OPC UA and Modbus depends on factors like the complexity of the industrial system, security requirements, interoperability needs, and the legacy equipment in use. OPC UA is often favored for its advanced capabilities and robust security features, especially in more complex and modern industrial environments. **Modbus** remains a popular choice for simpler applications or when working with legacy devices that support the protocol.
+
+**RTOS**: "Real-Time Operating System." It is an operating system designed for real-time and embedded systems, where precise and predictable responses to events or inputs are essential. RTOS is often used in applications that require strict timing, reliability, and determinism, such as industrial control systems, automotive electronics, medical devices, aerospace systems, and more.
+
+- sensorik
+- Kommunikation
+- Aktorik
+
+**SBC Single board computer**: A single-board computer (SBC) is a complete computer built on a single circuit board, with microprocessor(s), memory, input/output (I/O) and other features required of a functional computer. Single-board computers are commonly made as demonstration or development systems, for educational systems, or for use as embedded computer controllers. Many types of home computers or portable computers integrate all their functions onto a single printed circuit board.
+
+**MQTT** stands for "**Message Queuing Telemetry Transport**." It is a lightweight, publish-subscribe messaging protocol designed for low-bandwidth, high-latency, or unreliable networks. **MQTT** is often used in Internet of Things (IoT) and **M2M (Machine-to-Machine)** communication scenarios, where efficiency and reliability are essential.
+
+**SoC System-On-Chip**
+
+Arduino vs Raspberry Pi (Python interpreter)
+
+**ESP32** is a series of low-cost, low-power **system on a chip** microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+
+**WPAN (Wireless Personal Area Network)**:  
+A **WPAN** is a small-scale wireless network used for connecting devices within a relatively short range, typically within a few meters to a few tens of meters.
+Common WPAN technologies include Bluetooth and Zigbee, which are used for applications like wireless headphones, computer peripherals, home automation, and IoT devices.
+WPANs are often used for personal or localized connectivity, such as connecting a smartphone to a wireless headset.
+
+**6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks)**:  
+**6LoWPAN** is a specific networking protocol designed to enable the use of IPv6 (Internet Protocol version 6) over WPANs, particularly in low-power and resource-constrained devices.
+It is commonly used in IoT applications where devices need to communicate using standard IP protocols but have limited power and processing capabilities.
+6LoWPAN enables devices to connect to the Internet and communicate with other devices over IPv6, even in scenarios with low data rates and intermittent connectivity.
+
+**NFC (Near Field Communication):**
+**NFC** is a short-range wireless communication technology used for contactless data transfer and secure communication between devices.
+NFC operates at very short distances, typically within a few centimeters, making it ideal for applications like contactless payments (e.g., Apple Pay and Google Wallet), access control systems, and data transfer between devices.
+NFC is also used for pairing devices quickly, such as tapping a smartphone to a speaker to establish a Bluetooth connection.
+
+### kup 
+
+#### Kernel: 
+
+The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system. It is the portion of the operating system code that is always resident in memory and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. I/O, memory, cryptography) via device drivers, arbitrates conflicts between processes concerning such resources, and optimizes the utilization of common resources e.g. CPU & cache usage, file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader). It handles the rest of startup as well as memory, peripherals, and input/output (I/O) requests from software, translating them into data-processing instructions for the central processing unit.
+
+#### driver:
+
+A driver in software provides a programming interface to control and manage specific lower-level interfaces that are often linked to a specific type of hardware, or other low-level service. In the case of hardware, the specific subclass of drivers controlling physical or virtual hardware devices are known as device drivers.[1]
+
+#### logisches laufwerke vs physiches laufwerke
+
+##### Logisches Laufwerk
+
+Ein logisches Laufwerk ist eine Partition, die vom Betriebssystem wie ein physikalisches Laufwerk behandelt werden kann. Der Begriff schließt eigentlich sowohl die primären Partitionen als auch die Partitionen in der erweiterten Partition ein, wird jedoch häufig nur als Bezeichnung für die logischen Laufwerke der erweiterten Partition verwendet.
+Logische Partition
+
+Eine logische Partition ist ein logisches Laufwerk innerhalb einer erweiterten Partition. Das Wort „logisch“ ist in diesem Zusammenhang gleichzusetzen mit „virtuell“. Es handelt sich also um keine reale Partition der primären Partitionstabelle sondern nur um einen Bereich der erweiterten Partition, der vom Betriebssystem ähnlich behandelt wird. Analog muss ein logisches Laufwerk keinem realen Laufwerk entsprechen, Betriebssysteme können es jedoch so behandeln.

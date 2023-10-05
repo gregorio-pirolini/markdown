@@ -1,5 +1,6 @@
 {
-  // Place your markdown workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // Place your markdown workspace snippets here.
+  //Each snippet is defined under a snippet name and has a scope, prefix, body and
   // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
   // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
   // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
@@ -15,9 +16,14 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "Insert Link": {
-    "prefix": "link",
+  "Markdown Link": {
+    "prefix": "li",
     "body": ["[${1:Link Text}](${2:URL})"],
-    "description": "Insert a link in Markdown format"
+    "description": "Create a Markdown link"
+  },
+  "Underline Text": {
+    "prefix": "un",
+    "body": ["<u>${1:Underlined Text}</u>"],
+    "description": "Underline text in Markdown"
   }
 }
