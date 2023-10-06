@@ -1113,9 +1113,9 @@ It is commonly used in IoT applications where devices need to communicate using 
 NFC operates at very short distances, typically within a few centimeters, making it ideal for applications like contactless payments (e.g., Apple Pay and Google Wallet), access control systems, and data transfer between devices.
 NFC is also used for pairing devices quickly, such as tapping a smartphone to a speaker to establish a Bluetooth connection.
 
-### kup 
+### kup
 
-#### Kernel: 
+#### Kernel:
 
 The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system. It is the portion of the operating system code that is always resident in memory and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. I/O, memory, cryptography) via device drivers, arbitrates conflicts between processes concerning such resources, and optimizes the utilization of common resources e.g. CPU & cache usage, file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader). It handles the rest of startup as well as memory, peripherals, and input/output (I/O) requests from software, translating them into data-processing instructions for the central processing unit.
 
@@ -1131,3 +1131,55 @@ Ein logisches Laufwerk ist eine Partition, die vom Betriebssystem wie ein physik
 Logische Partition
 
 Eine logische Partition ist ein logisches Laufwerk innerhalb einer erweiterten Partition. Das Wort „logisch“ ist in diesem Zusammenhang gleichzusetzen mit „virtuell“. Es handelt sich also um keine reale Partition der primären Partitionstabelle sondern nur um einen Bereich der erweiterten Partition, der vom Betriebssystem ähnlich behandelt wird. Analog muss ein logisches Laufwerk keinem realen Laufwerk entsprechen, Betriebssysteme können es jedoch so behandeln.
+
+### pog
+
+#### UML (Unified Modeling Language)
+
+"**Komposition**" und "**Assoziation**" zwei wichtige Konzepte zur Darstellung von Beziehungen zwischen Objekten oder Klassen in einem Klassendiagramm.
+
+##### Assoziation
+
+a ruft b auf, keine spezielle beziehung...
+
+- stellt eine Verbindung oder Beziehung zwischen zwei oder mehr Klassen dar.
+- wird normalerweise mit einer Linie zwischen den beteiligten Klassen dargestellt und kann mit einem Namen und optionalen Multipizitätsangaben versehen werden.
+- Die Multipizität gibt an, wie viele Instanzen einer Klasse mit einer Instanz der anderen Klasse in Beziehung stehen können.
+
+_Beispielsweise kann eine Assoziation zwischen den Klassen "Kunde" und "Bestellung" eine Multipizität von "1..\*" haben, was bedeutet, dass ein Kunde mehrere Bestellungen aufgeben kann, aber jede Bestellung einem einzigen Kunden gehört._
+
+##### Komposition:
+
+existenz abhangig, teil stirbt wenn das gan
+
+- eine spezielle Art der Assoziation, die eine "Teil-Ganzes"-Beziehung zwischen Klassen darstellt.
+- wird oft verwendet, um zu zeigen, dass ein Objekt einer Klasse aus anderen Objekten einer anderen Klasse besteht und diese Objekte ohne das übergeordnete Objekt nicht existieren können.
+- normalerweise mit einer Diamant-förmigen Hohlspitze (Raute) an der Seite der übergeordneten Klasse dargestellt. Diese Diamant-förmige Hohlspitze zeigt auf die Klasse, die die Teile enthält.
+
+_Ein häufiges Beispiel für eine Komposition ist die Beziehung zwischen einem Auto und seinen Rädern. Ein Auto besteht aus Rädern, und wenn das Auto zerstört wird, werden auch die Räder zerstört._
+
+##### agregation:
+
+st eine Beziehung zwischen Klassen, die eine "ganze-teilt"-Beziehung darstellt, ähnlich wie die Komposition. Bei der Aggregation handelt es sich jedoch um eine schwächere Form der Teil-Ganzes-Beziehung im Vergleich zur Komposition. Hier sind die wichtigsten Merkmale der Aggregation:
+
+1.) Teil-Ganzes-Beziehung: Aggregation wird verwendet, um darzustellen, dass eine Klasse aus anderen Klassen besteht, wobei die Teile auch ohne die übergeordnete Klasse existieren können.
+
+2.) Lebenszyklus: Im Gegensatz zur Komposition haben die Teile einer Aggregation ihren eigenen Lebenszyklus und können unabhängig von der übergeordneten Klasse existieren oder gelöscht werden.
+
+3.) Darstellung: In einem Klassendiagramm wird eine Aggregation oft mit einer Raute (Diamant) an der Seite der übergeordneten Klasse dargestellt, ähnlich wie bei der Komposition. Die Verbindungslinie zwischen der Raute und der Teilklasse zeigt die Aggregation an.
+
+_Beispiel: Ein häufiges Beispiel für Aggregation ist die Beziehung zwischen einer Universität und ihren Fakultäten. Eine Universität besteht aus verschiedenen Fakultäten (z. B. Ingenieurwissenschaften, Geisteswissenschaften), und jede Fakultät kann unabhängig von der Universität existieren. Wenn die Universität aufgelöst wird, können die Fakultäten immer noch bestehen._
+
+![Alt text](img/img3/uml.png)
+
+![Alt text](img/img3/uml1.png)
+
+##### ueberschreiben:
+
+zrtrz
+
+##### ueberladen:
+
+zrtz
+
+footnotes:
