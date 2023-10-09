@@ -1,29 +1,4 @@
-<style>
-  body{background-color:white}
-h1 { color: Red }
-h2 { color: #F76915 }
-h3 { color: #EEDE04; background-color:black}
-h4 { color:#A0D636;font-weight: bold;text-decoration:underline}
-h5 { color: #2FA236;font-weight: bold;}
-h6 { color:  #333ED4;font-style:italic}
-f{ color: red;
-font-weight: bold;
-text-decoration: underline;}
-mono{font-family:"monospace"}
-p,li,table{color: black;}
-</style>
-
-# 1
-
-## 2
-
-### 3
-
-#### 4
-
-##### 5
-
-###### 6
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 # 3 Semester
 
@@ -487,6 +462,8 @@ chart element change: titel, axis
 
 ### kup
 
+#### to install Kali
+
 - boot efi 500 mb
 - boot 500 mb
 - root / 60 gb
@@ -561,56 +538,60 @@ MVC Model view controller Pattern/Muster
 
 ### pog
 
-antrag muss erst mal nicht formatiert werden, wird später
+- antrag muss erst mal nicht formatiert werden, wird später
 
-Herr Poguntke meldet sich 2 Wochen nach Praktikum Anfang
+- Herr Poguntke meldet sich 2 Wochen nach Praktikum Anfang
 
-Antrag wird nicht bewertet sonsdert angelehnt oder akkeptiert
+- Antrag wird nicht bewertet sonsdert angelehnt oder akkeptiert
 
-titel erst mal weglassen  
-project beschreibung, wo fanegt an wo endet ...  
-kurze Beschreibung des Projekts  
-ist zusztand: wie ist es jetzt grade  
-soll zustand wie es am Ende auszusehen hat  
-zukunft zeit benutzen
+- titel erst mal weglassen
+- project beschreibung, wo fanegt an wo endet ...
+- kurze Beschreibung des Projekts
+- ist zusztand: wie ist es jetzt grade
+- soll zustand wie es am Ende auszusehen hat
+- zukunft zeit benutzen
 
-Projekt nehmen das gut zu dokumentueren ist
+- Projekt nehmen das gut zu dokumentieren ist
 
-was im Antrag steht muss im Doku stehen
+- was im Antrag steht muss im Doku stehen
 
-personelle schnitstellen  
-herr xx leiter war der Aufraggeber
-ich bin projekt nehmer
+- personelle schnitstellen
+- herr xx leiter war der Aufraggeber
+- ich bin projekt nehmer
 
-3.7 Sachmittel
-hardware und software
-wenn etwas spaeter dazu kommt ist es ok
-ide, rechner, zusatzsoftware, virtialisierung software
+#### 3.7 Sachmittel
 
-3.8 kosten planung
-azubi im dritten lehr ajhr das mal 80
-was kostet hardware
-was kostet software
-energieverbrauch 6 euro pro tag
-gibt es meetings
+- hardware und software
+- wenn etwas spaeter dazu kommt ist es ok
+- ide, rechner, zusatzsoftware, virtialisierung software
 
-was macht die firma?
-wie gross ist die firma?
+#### 3.8 kosten planung
 
-phasen ist sehr wichtig
-ist spaeer der inheltverzeichnuis fuer das project
-plannen eine Stunde zeit puffer oder auch mehr
-meeting 2 Stunden mit jemanden der auch geld verdiennt  
-...
+- azubi im dritten lehr ajhr das mal 80
+- was kostet hardware
+- was kostet software
+- energieverbrauch 6 euro pro tag
+- gibt es meetings
 
-Erstellen der Dokumentation 8 bis 12 Stunden aber im Echt mindesten 20 Stunden
+- was macht die firma?
+- wie gross ist die firma?
 
-Das ergibt 80 Stunden
+#### phasen ist sehr wichtig
 
-Presentationsmittel: was wir mitbringen zu mundlichen pruefung
-beispiel notebook
-nict schreiebn und mit brigebn ok
-was schreiben und nichtt bringen ist ein Problem
+- ist spaeer der inheltverzeichnuis fuer das project
+- plannen eine Stunde zeit puffer oder auch mehr
+- meeting 2 Stunden mit jemanden der auch geld verdiennt  
+  ...
+
+- Erstellen der Dokumentation 8 bis 12 Stunden aber im Echt mindesten 20 Stunden
+
+\*Das ergibt 80 Stunden
+
+**Presentationsmittel**: was wir mitbringen zu mundlichen pruefung
+
+- beispiel notebook
+- nicht schreiebn und mit brigebn ok
+- was schreiben und nichtt bringen ist ein Problem
 
 Portal erst ab Februar geöffnet und die info zu laden
 
@@ -618,7 +599,74 @@ Portal erst ab Februar geöffnet und die info zu laden
 
 ### WISO
 
+#### Personal witrschaft
+
 ![Alt text](img/img3/PW-Aufgaben_01.png)
+
+##### Entscheidungshilfen der Personalwirtschaft & Personalstatistik Personalinformationssystem
+
+- Personalbedarfsplanung
+- Personalbeschaffungsplanung
+- Personalbeschaffung
+- Personaleinsatzplanung
+- Personalführung
+- Personalentwicklung / Personalbeurteilung
+- Personalentlohnung
+- Personalfreistellung
+- Bewältigen von Arbeitskonflikten
+- Personal-Controlling
+
+###### Personalbedarfsplanung
+
+Sie stellt den gegenwärtigen und den künftigen Personalbedarf nach Quantität der Arbeitskräfte fest.  
+_Elle détermine les besoins actuels et futurs en personnel en fonction de la quantité de main-d'œuvre._
+
+###### Personalbeschaffungsplanung
+
+Hier werden alle Maßnahmen geplant, die notwendig sind, um den tatsächlichen Personalbestand dem Sollbestand anzupassen. Weiterhin geht es darum, die Personalbeschaffungswege (interne Personalbeschaffung und/oder externe Personalbeschaffung) festzulegen  
+_Il s'agit ici de planifier toutes les mesures nécessaires pour adapter l'effectif réel à l'effectif théorique. Il s'agit également de définir les canaux de recrutement (interne et/ou externe)._
+
+###### Personalbeschaffung
+
+Die Personalwirtschaft hat die Aufgabe, die geeigneten Bewerber auszuwählen und unter Beachtung der gesetzlichen Vorschriften einzustellen.
+_La gestion des ressources humaines a pour mission de sélectionner les candidats appropriés et de les recruter en respectant les dispositions légales._
+
+###### Personaleinsatzplanung
+
+Die Personaleinsatzplanung hat zum Ziel, den bestmöglichen Einsatz der vorhandenen Arbeitskräfte unter Beachtung der Arbeitsschutzvorschriften sicherzustellen.  
+La planification de l'affectation du personnel a pour objectif d'assurer la meilleure utilisation possible de la main-d'œuvre disponible, dans le respect des règles de santé et de sécurité au travail.
+
+###### Personalführung
+
+Hierunter versteht man das planmäßige Leiten von einzelnen Personen oder Personengruppen in einem Unternehmen. Die Personalführung hat u. a. die Aufgabe, Führungsgrundsätze zu entwickeln und zu beachten und die angemessenen Führungsstile und - techniken einzusetzen.  
+_On entend par là la gestion planifiée de personnes ou de groupes de personnes au sein d'une entreprise. La gestion du personnel a notamment pour mission de développer et de respecter des principes de gestion et de mettre en œuvre les styles et techniques de gestion appropriés._
+
+###### Personalentwicklung / Personalbeurteilung
+
+Aufgabe der Personalentwicklung ist, durch geeignete Maßnahmen die Qualifikationen und Kompetenzen der Mitarbeiter zu fördern.
+Durch die Beurteilung wird die Entwicklung der Qualifikationen und Kompetenzen der Mitarbeiter überprüft.  
+_La tâche du développement du personnel est de promouvoir les qualifications et les compétences des employés par des mesures appropriées.
+L'évaluation permet de contrôler l'évolution des qualifications et des compétences des salariés._
+
+###### Personalentlohnung
+
+Sie hat einerseits einen großen Einfluss auf die Personal- und damit die Gesamtkosten eines Unternehmens. Anderseits hat sie einen erheblichen Einfluss auf das Leistungsverhalten der Mitarbeiter  
+_D'une part, elle a une grande influence sur les frais de personnel et donc sur les coûts totaux d'une entreprise. D'autre part, elle a une influence considérable sur les performances des collaborateurs._
+
+###### Personalfreistellung
+
+Sie hat zur Aufgabe, eine durch die Personalplanung festgestellte Personalüberdeckung abzubauen. Die Geschäftsleitung wird zunächst versuchen, die Mitarbeiterzahl ohne Kündigung abzubauen. Gelingt dies nicht, sind Kündigungen erforderlich.  
+_Elle a pour mission de réduire un sureffectif constaté par la planification des effectifs. La direction va d'abord essayer de réduire les effectifs sans licencier. Si elle n'y parvient pas, des licenciements seront nécessaires._
+
+###### Bewältigen von Arbeitskonflikten
+
+Konflikte im Arbeitsleben können auf der persönlichen Ebene oder zwischen den Organisationsebenen eines Unternehmens entstehen. Können die Konflikte nicht innerhalb des Unternehmens gelöst werden, entscheiden die Arbeitsgerichte.  
+_Les conflits dans la vie professionnelle peuvent survenir au niveau personnel ou entre les niveaux organisationnels d'une entreprise. Si les conflits ne peuvent pas être résolus au sein de l'entreprise, ce sont les tribunaux du travail qui tranchent._
+
+###### Personal-Controlling
+
+Das Personal-Controlling hat die Aufgabe, den Entscheidungs- und Steuerungsprozess von Führungskräften durch die Bereitstellung entsprechender Informationen aus der Personalwirtschaft zu unterstützen.  
+Le contrôle de gestion du personnel a pour mission de soutenir le processus de décision et de gestion des cadres en leur fournissant les informations correspondantes issues de la gestion du personnel.
 
 #### verschiedenen Formen der Arbeitsteilung
 
@@ -647,8 +695,8 @@ _Beispiel. Der Grundberuf Mechaniker lässt sich aufspalten in Industriemechanik
 
 ###### Arbeitszerlegung
 
-Die **Arbeitszerlegung** beinhaltet die Zerlegung eines gesamten Arbeitsvorgangs in mehrere Teilleistungsprozesse.
-Beispiel: Die Gesamtaufgabe eines Tischlers wird aufgeteilt in Sägen, Hobeln, Verzinken, usw.
+Die **Arbeitszerlegung** beinhaltet die Zerlegung eines gesamten Arbeitsvorgangs in mehrere Teilleistungsprozesse.  
+_Beispiel: Die Gesamtaufgabe eines Tischlers wird aufgeteilt in Sägen, Hobeln, Verzinken, usw._
 
 ###### Abteilungsbildung
 
@@ -690,132 +738,83 @@ Rationalisierungseffekte werden durch folgende Maßnahmen erreicht:
 - **Automation:**  
   beinhaltet den Einsatz von Maschinen und Computern zur Durchführung von Arbeitsvorgängen, wodurch ganz oder teilweise menschliche Arbeit eingespart wird.  
   _Beispiel: Einsatz von Schweißrobotern in der Automobilfertigung_
-- **Arbeitsteilung** führt zur Zerlegung eines zusammenhängenden Arbeitsvorgangs in Einzeltätigkeiten. Durch die Ausrichtung einer Arbeitskraft oder Maschine auf nur einen Arbeitsvorgang werden ein hoher Spezialisierungsgrad und eine erhöhte Produktivität erreicht.
+- **Arbeitsteilung** führt zur Zerlegung eines zusammenhängenden Arbeitsvorgangs in Einzeltätigkeiten. Durch die Ausrichtung einer Arbeitskraft oder Maschine auf nur einen Arbeitsvorgang werden ein hoher Spezialisierungsgrad und eine erhöhte Produktivität erreicht.  
   _Beispiel: Bohrautomaten in der Möbelproduktion_
 - **Normung und Typung** stellen durch die Vereinheitlichung von Werkstoffen, Teilen, Baugruppen oder ganzen Erzeugnissen einen Rationalisierungseffekt im Materialbereich dar.  
   _Beispiel: Abstimmung zwischen Herstellern von Küchenmöbeln und Küchengeräten_
 - **Spezialisierung** beinhaltet die Beschränkung eines Betriebes auf die Herstellung bestimmter Produkte. Dies führt zu höheren Losgrößen und damit zu Einsparungen bei den Herstellungskosten durch niedrige Rüstkosten und den Einsatz von Spezialmaschinen.  
   _Beispiel: ein Leuchtenhersteller verringert sein Programm von 260 verschiedenen Artikeln um 150 und spezialisiert sich auf Büroleuchten und moderne Design-Leuchten._
 
-#### berufsständischer Organisationen
+#### Ziel und Aufgabe berufsständischer Organisationen
 
-##### Art der Betriebe/ Branche:
-
-1. Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
-2. Handwerksbetriebe
-
-###### Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)
-
-**Berufsständische Organisation:**
-
-Industrie- und Handelskammer = Interessenvertretun für die gewerbliche Wirtschaft
-
-**Ziele und Aufgaben**
-
-- Betreut alle in ihrem Bereich liegenden Gewerbebetriebe, die Pflichtbeiträge zahlen
-- berät und fordert die gewerbliche Wirtschaft
-- überwacht die Berufsausbildung, fuhrt das Verzeichnis der Ausbildungsbetriebe und nimmt Prüfungen ab
-
-**Mitgliedschaft**
-
-Pflicht
-
-**Dachverband auf Bundesebene**
-
-DeutscherIndustrie- und Handelstag DIHK
-
-**Berufsständische Organisation:**
-
-Wirtschaftsfachverband = Interessenvertretung des jeweiligen Wirtschaftszweiges
-
-**Ziele und Aufgaben**
-
-- fordert den jeweiligen Wirtschaftszweig (z. B. Verband der Elektroindustrie)
-- berät ihre Mitglieder
-- gibt branchenbezogene Informationen und Statistiken für die Mitglieder heraus
-- gibt Stellungnahmen zu aktuellen wirtschaftspolitischen Themen ab
-- versucht Einfluss auf die Gesetzgebung zu nehmen, sofern diese den Wirtschaftszweig betrifft (Lobby)
-
-**Mitgliedschaft**
-
-freiwillig
-
-**Dachverband auf Bundesebene**
-
-- Bundesverband des entsprechenden Wirtschaftszweiges
-- Bundesverband der deutschen Industrie BDI
-
-###### Handwerksbetriebe
-
-**Berufsständische Organisation:**
-
-Handwerksinnung =Zusammenschlussselbstständiger Handwerker einer Berufsgruppe
-
-**Ziele und Aufgaben**
-
-- nimmt Gesellenprüfungen ab
-- vermittelt zwischen Kunden und Betrieb
-- richtet Unterstützungs- und Krankenkassen ein
-
-**Mitgliedschaft**
-
-freiwillig
-
-**Dachverband auf Bundesebene**
-
-Bundesinnungsverbände
-
-**Berufsständische Organisation:**
-
-Kreishandwerkerschaft = Zusammenschluss aller oder mehrerer Handwerksinnungen eines Stadt- oder Landkreises
-
-**Ziele und Aufgaben**
-
-nimmt die gemeinschaftlichen Interessen des
-Handwerks auf Bezirksebene wahr
-schafft überbetriebliche Ausbildungsstatten
-und Schlichtungsstellen
-erteilt Auskünfte und Rechtsberatungen
-betreut die Auszubildenden gemeinsam mit
-den Lehrlingswarten der Kammern
-
-**Mitgliedschaft**
-
-Pflicht
-
-**Dachverband auf Bundesebene**
-
-- Bundesvereinigung der Fachverbände
-- Zentralverband des deutschen Handwerks
-
-**Berufsständische Organisation:**
-
-Handwerkskammer = Interessenvertretung des Handwerks und Organ der handwerklichen Selbstverwaltung
-
-**Ziele und Aufgaben**
-
-- berät ihre Mitglieder
-- fuhrt die Handwerksrolle, in der jeder Betrieb verzeichnet ist
-  -regelt und überwacht die Ausbildung
-- nimmt die Meisterprüfung ab
-
-**Mitgliedschaft**
-
-Pflicht
-
-**Dachverband auf Bundesebene**
-
-Deutscher Handwerkskammertag
+<table border="1">
+      <tr>
+        <td>Art der Betriebe/ Branche</td>
+        <td>berufsständischer <br>Organisationen</td>
+        <td>zielaufgabe</td>
+        <td>Mitglied- schaft</td>
+        <td>Dachverband auf Bundesebene</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><o>Betriebe der gewerblichen Wirtschaft (Industrie, Handel, Dienstleistung)</o></td>
+        <td><o>Industrie- und Handelskammer</o> = Interessenvertretun für die gewerbliche Wirtschaft</td>
+        <td>- Betreut alle in ihrem Bereich liegenden Gewerbebetriebe, die Pflichtbeiträge zahlen</br>
+            - berät und fordert die gewerbliche Wirtschaft</br>
+            - überwacht die Berufsausbildung, fuhrt das Verzeichnis der Ausbildungsbetriebe und nimmt Prüfungen ab</td>
+        <td>Pflicht</td>
+        <td>DeutscherIndustrie- und Handelstag DIHK</td>
+      </tr>
+      <tr>
+        <td><o>Wirtschaftsfachverband</o> = Interessenvertretung des jeweiligen Wirtschaftszweiges</td>
+        <td>- fordert den jeweiligen Wirtschaftszweig (z. B. Verband der Elektroindustrie)</br>
+            - berät ihre Mitglieder</br>
+            - gibt branchenbezogene Informationen und Statistiken für die Mitglieder heraus</br>
+            - gibt Stellungnahmen zu aktuellen wirtschaftspolitischen Themen ab</br>
+            - versucht Einfluss auf die Gesetzgebung zu nehmen, sofern diese den Wirtschaftszweig betrifft (Lobby)</td>
+        <td>freiwillig</td>
+        <td>- Bundesverband des entsprechenden Wirtschaftszweiges</br>
+            - Bundesverband der deutschen Industrie BDI</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><o>Handwerksbetriebe</o></td>
+        <td><o>Handwerksinnung</o> = Zusammen- schlussselbstständiger Handwerker einer Berufsgruppe</td>
+        <td>- nimmt Gesellenprüfungen ab<br>
+            - vermittelt zwischen Kunden und Betrieb<br>
+            - richtet Unterstützungs- und Krankenkassen ein</td>
+        <td>freiwillig</td>
+        <td>Bundesinnungs- verbände</td>
+      </tr>
+      <tr>
+        <td><o>Kreishandwerkerschaft</o> = Zusammenschluss aller oder mehrerer Handwerksinnungen eines Stadt- oder Landkreises</td>
+        <td>- nimmt die gemeinschaftlichen Interessen des
+            Handwerks auf Bezirksebene wahr</br>
+            - schafft überbetriebliche Ausbildungsstatten
+            und Schlichtungsstellen</br>
+            - erteilt Auskünfte und Rechtsberatungen</br>
+            - betreut die Auszubildenden gemeinsam mit
+            den Lehrlingswarten der Kammern</td>
+        <td>Pflicht</td>
+        <td>- Bundesverei- nigung der Fachverbände</br>
+            - Zentralverband des deutschen Handwerks</td>
+      </tr>
+      <tr>
+        <td><o>Handwerkskammer </o>= Interessenvertretung des Handwerks und Organ der handwerklichen Selbstverwaltung</td>
+        <td>- berät ihre Mitglieder</br>
+            - fuhrt die Handwerksrolle, in der jeder Betrieb verzeichnet ist</br>
+            - regelt und überwacht die Ausbildung</br>
+            - nimmt die Meisterprüfung ab</td>
+        <td>Pflicht</td>
+        <td>Deutscher Handwerks- kammertag</td>
+      </tr>
+    </table>
 
 ##### Finanzamt
 
-Das Finanzamt ist die unterste Behörde der Finanzverwaltung, die als örtliche Dienststelle der Bundesländer die Besteuerung durchfuhrt. Es verrichtet die dazu notwendige Verwaltungsarbeit, ermittelt die Steuerpflichtig gen, veranlagt und erhebt die Steuern und fuhrt Kontrollen oder Fahndungen durch. Finanzämter werden durch die für ihren Bezirk zuständigen Oberfinanzdirektionen überwacht.
+Das Finanzamt ist die unterste Behörde der Finanzverwaltung, die als örtliche Dienststelle der Bundesländer die Besteuerung durchfuhrt. Es verrichtet die dazu notwendige Verwaltungsarbeit, ermittelt die Steuerpflichtigen, veranlagt und erhebt die Steuern und fuhrt Kontrollen oder Fahndungen durch. Finanzämter werden durch die für ihren Bezirk zuständigen Oberfinanzdirektionen überwacht.
 
 ##### Arbeitsagentur
 
-Die Arbeitsagentur ist vor Ort die unterste Behörde der Bundesagentur für Arbeit (BA). Wichtigste Aufgabe der Arbeitsagentur ist es, arbeitsuchende und Arbeitgeber mit offenen Stellen für einen bestimmten Arbeits- Agenturbezirk Zusammenzuführen. Die Arbeitsagenturen erbringen Leistungen, die im Arbeitsförderungsgesetz (Sozialgesetzbuch II./lIl. Buch) geregelt sind: Arbeitsvermittlung, Arbeits- und Berufsberatung, berufliche
-Weiterbildung, Umschulungen sowie Arbeitsbeschaffungsmaßnahmen. Diese Leistungen sind unentgeltlich.
-Auch die Beantragung und Zahlung von Arbeitslosengeld I und II gehört zu den Aufgaben.
+Die Arbeitsagentur ist vor Ort die unterste Behörde der Bundesagentur für Arbeit (BA). Wichtigste Aufgabe der Arbeitsagentur ist es, arbeitsuchende und Arbeitgeber mit offenen Stellen für einen bestimmten Arbeits- Agenturbezirk Zusammenzuführen. Die Arbeitsagenturen erbringen Leistungen, die im Arbeitsförderungsgesetz (Sozialgesetzbuch II./lIl. Buch) geregelt sind: Arbeitsvermittlung, Arbeits- und Berufsberatung, berufliche Weiterbildung, Umschulungen sowie Arbeitsbeschaffungsmaßnahmen. Diese Leistungen sind unentgeltlich. Auch die Beantragung und Zahlung von Arbeitslosengeld I und II gehört zu den Aufgaben.
 
 ##### Gewerbeaufsicht
 
@@ -837,45 +836,40 @@ Arbeitsgerichte sind die in erster Instanz tätigen Anlaufstellen für Streitigk
 
 Das gesamte Ausbildungssystem (kaufmännische und gewerbliche Ausbildung) in der Bundesrepublik Deutschland basiert darauf, dass für das Erlernen eines Ausbildungsberufes zwei Lernorte zuständig sind:
 
-##### Lenort
-
-###### Betrieb
-
-Ausbildungsbetriebe der Industrie, des Handwerks sowie Betriebe aus dem Bereich Handel und Dienstleistungen
-Beispiel: Bauträgergesellschaft Normbau GmbH
-
-**Aufgabe**
-
-Vermittlung von fachpraktischen Kenntnissen und Fertigkeiten entsprechend der Ausbildungsordnung und dem Ausbildungsberufsbild in den verschiedenen Abteilungen des Betriebes
-Beispiel. Angebotserstellung
-
-**Rechtsquellen und Inhalte**
-
-Ausbildungsordnung:
-
-- Ausbildungsdauer
-- Berufsbild
-- Ausbildungsrahmenplan
-- Ausbildungsplan
-- Prüfungsanforderungen
-
-###### Schule
-
-alle berufsbildenden Schulen, die entsprechend ihrer Größe eine unterschiedliche Zahl von Berufen ausbilden
-Beispiel. Berufskolleg Bielefeld
-
-**Aufgabe**
-Vermittlung von fachtheoretischen, berufsbezogenen (Fächer: Geschäftsprozesse, Steuerung und Kontrolle, Wirtschafts- und Sozialprozesse) und berufsübergreifenden Lerninhalten (Fächer: Deutsch/Kommunikation, Politik/Gesellschaftslehre, Religion, Sport/Gesundheitsforderung)
-Beispiel: Kaufertragsrecht
-
-**Rechtsquellen und Inhalte**
-
-Rahmenlehrplan:
-
-- Unterrichtsfächer
-- Anzahl der Unterrichtsstunden pro Fach
-- Lerngebiete/Lernziele/Lerninhalte
-- zeitliche Zuordnung der Lerninhalte (Unterstufe, Mittelstufe, Oberstufe der Berufsschule)
+ <table border="1">
+      <tr>
+        <td><b>Lenort</b></td>
+        <td><b>Betrieb</b></br></br>Ausbildungsbetriebe der Industrie, des Handwerks sowie Betriebe aus dem Bereich Handel und Dienstleistungen</br>  
+            <i>Beispiel: Bauträgergesellschaft Normbau GmbH </i></td>
+        <td><b>Schule</b></br></br>
+            alle berufsbildenden Schulen, die entsprechend ihrer Größe eine unterschiedliche Zahl von Berufen ausbilden</br>
+            <i>Beispiel. Berufskolleg Bielefeld</i>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Aufgabe</b></td>
+        <td>Vermittlung von fachpraktischen Kenntnissen und Fertigkeiten entsprechend der Ausbildungsordnung und dem Ausbildungsberufsbild in den verschiedenen Abteilungen des Betriebes</br>
+            <i>Beispiel. Angebotserstellung</i></td>
+        <td>Vermittlung von fachtheoretischen, berufsbezogenen (Fächer: Geschäftsprozesse, Steuerung und Kontrolle, Wirtschafts- und Sozialprozesse) und berufsübergreifenden Lerninhalten (Fächer: Deutsch/Kommunikation, Politik/Gesellschaftslehre, Religion, Sport/Gesundheitsforderung)</br>
+            <i>Beispiel: Kaufertragsrecht</i></td>
+      </tr>
+      <tr>
+        <td><b>Rechtsquellen und Inhalte</b></td>
+        <td>Ausbildungsordnung:</br>
+        </br>
+            - Ausbildungsdauer</br>
+            - Berufsbild</br>
+            - Ausbildungsrahmenplan</br>
+            - Ausbildungsplan</br>
+            - Prüfungsanforderungen</td>
+        <td>Rahmenlehrplan:</br>
+        </br>
+            - Unterrichtsfächer</br>
+            - Anzahl der Unterrichtsstunden pro Fach</br>
+            - Lerngebiete / Lernziele / Lerninhalte</br>
+            - zeitliche Zuordnung der Lerninhalte (Unterstufe, Mittelstufe, Oberstufe der Berufsschule)</td>
+      </tr>
+    </table>
 
 ###### Berufsbildungsgesetzes
 
@@ -885,14 +879,13 @@ Das Berufsbildungsgesetz ist die rechtliche Grundlage für alle anerkannten Ausb
 **Begriffe der beruflichen Bildung**
 
 - Berufsausbildung
-  Darunter ist die breit angelegte berufliche Grundbildung in einem geordneten Ausbildungsgang zu verstehen
-  .Beispiel: Berufsausbildung zum/zur Industriekaufmann/Industriekauffrau
+  Darunter ist die breit angelegte berufliche Grundbildung in einem geordneten Ausbildungsgang zu verstehen  
+  _Beispiel: Berufsausbildung zum/zur Industriekaufmann/Industriekauffrau_
 - berufliche Fortbildung
-  Sie soll die erlernten Kenntnisse und Fertigkeiten in diesem Beruf erhalten, erweitern und den gestiegenen Anforderungen aufgrund der fortschreitenden technischen Entwicklung anpassen.
-  Beispiel: Fortbildungslehrgang zu einer EDV-Anwendersoftware
-- berufliche Umschulung
-  Sie soll zu einer anderen beruflichen Tätigkeit befähigen, weil der ursprüngliche Beruf aus bestimmten Gründen nicht mehr ausgeübt werden kann.
-  Beispiel: Umschulung eines Bäckers mit einer Mehlstauballergie zum Industriekaufmann
+  Sie soll die erlernten Kenntnisse und Fertigkeiten in diesem Beruf erhalten, erweitern und den gestiegenen Anforderungen aufgrund der fortschreitenden technischen Entwicklung anpassen.  
+  _Beispiel: Fortbildungslehrgang zu einer EDV-Anwendersoftware_
+- berufliche Umschulung Sie soll zu einer anderen beruflichen Tätigkeit befähigen, weil der ursprüngliche Beruf aus bestimmten Gründen nicht mehr ausgeübt werden kann.
+  _Beispiel: Umschulung eines Bäckers mit einer Mehlstauballergie zum Industriekaufmann_
 
 **wesentliche Inhalte**
 Allgemeine Regelungen über:
@@ -908,8 +901,8 @@ Allgemeine Regelungen über:
 ###### Ausbildungsordnung
 
 **Begriff und Ziele**
-Die Ausbildungsordnung ist die rechtliche Grundlage für einen speziellen Ausbildungsberuf. Sie enthält alle Vorschriften, die für diesen speziellen Ausbildungsberuf von Bedeutung sind.
-Beispiel: Verordnung über die Berufsausbildung zum Industriekaufmann/zur Industriekauffrau
+Die Ausbildungsordnung ist die rechtliche Grundlage für einen speziellen Ausbildungsberuf. Sie enthält alle Vorschriften, die für diesen speziellen Ausbildungsberuf von Bedeutung sind.  
+_Beispiel: Verordnung über die Berufsausbildung zum Industriekaufmann/zur Industriekauffrau_
 
 **wesentliche Inhalte**
 Bezogen auf die Berufsausbildung in den meisten kaufmännischen Ausbildungsberufen:

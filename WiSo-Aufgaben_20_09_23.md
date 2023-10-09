@@ -1,3 +1,5 @@
+## 321 Arbeitsteilung/Rationalisierung
+****
 1 Welche der folgenden Aussagen 'über Arbeitsteilung treffen nicht zu?
 1 Das Gegenteil von Arbeitsteilung ist die Automation.
 2 Gabe es keine Arbeitsteilung, musste sich jeder Mensch selbst versorgen.
@@ -21,7 +23,7 @@ keine Arbeitszerlegung als betriebliche Arbeitsteilung und sind somit unlogisch?
 4 Berufsbildung
 5 Beförderung
 
-Prüfen Sie bei den folgenden Auswahlantworten, welche Reihe von Begriffen kein logisches Ergebnis von Arbeitsteilung ist.
+4 Prüfen Sie bei den folgenden Auswahlantworten, welche Reihe von Begriffen kein logisches Ergebnis von Arbeitsteilung ist.
 1 Programmieren, Reparieren, Bergbau
 2 Beschaffung, Produktion, Absatz
 3 Tischler, Elektriker, Landwirt
@@ -80,7 +82,7 @@ Was ist darunter nicht zu verstehen\*
 4 Deutscher Industrie- und Handelstag DIHT
 5 Deutsche Lebensrettungsgesellschaft DLRG
 
-2 Welche der folgenden Aussagen über Interessenverbände und berufsständische Organisationen sind falsch?
+2 Welche der folgenden Aussagen über Interessenverbände und berufsständische Organisationen sind Richtig?
 1 Sie sind durch das Grundgesetz vorgeschrieben.
 2 Sie geben in Gesetzgebungsverfahren Stellungnahmen und Gutachten ab.
 3 Sie werden durch die Beiträge ihrer Mitglieder und Spender finanziert.
@@ -239,14 +241,14 @@ e. Die tägliche Freizeit (Zeit zwischen Arbeitsende und Arbeitsanfang des näch
 9, wenn es sich um eine unwirksame Kündigung handelt.
 a. jost Abele Stellt nach einem halben Jahr fest, dass er aus gesundheitlichen Gründen die Ausbildung zum Bäcker nicht fortsetzen kann. Er kündigt mit einer Kündigungsfrist von vier Wochen Schriftlich mit Angabe des Grundes.
 b. Lisa Stichling hat wahrend der ersten zwei Monate in der Ausbildung zur Kauffrau im Einzelhandel nur ausbildungsfremde Tätigkeiten zugewiesen bekommen. Sie kündigt in der Probezeit schriftlich ohne Angabe von Gründen.
-Bei einer Unterredung zwischen Eugen Zimmerer, Auszubildender im Fleischerhandwerk, und seinem Meister über die bisherigen Leistungen nach einem Jahr Ausbildung beleidigt ihn der Meister mit den Worten: „Du fauler Sack!” Daraufhin gibt Eugen dem Meister eine saftige Ohrfeige und bekommt von ihm zu hören: „Pack deine Sachen, du bist gekündigt!”
+c. Bei einer Unterredung zwischen Eugen Zimmerer, Auszubildender im Fleischerhandwerk, und seinem Meister über die bisherigen Leistungen nach einem Jahr Ausbildung beleidigt ihn der Meister mit den Worten: „Du fauler Sack!” Daraufhin gibt Eugen dem Meister eine saftige Ohrfeige und bekommt von ihm zu hören: „Pack deine Sachen, du bist gekündigt!”
 
 5 Bei welcher der unten genannten Pflichten handelt es sich weder um eine Pflicht des Auszubildenden noch um eine Pflicht des Ausbildenden aus einem Berufsausbildungsvertrag?
 1 Lernpflicht
 2 Wahrung von Betriebs- und Geschäftsgeheimnissen
 3 Pflicht zur Ausstellung eines Zeugnisses bei Beendigung der Ausbildung
-4 Zahlung der Ausbildungsvergütung S Pflicht zum Abschluss einer
-Ausbildungsversicherung
+4 Zahlung der Ausbildungsvergütung
+5 Pflicht zum Abschluss einer Ausbildungsversicherung
 
 6 Innerhalb welcher Frist kann ein Auszubildender bzw. ein Ausbildender den Berufsausbildungsvertrag ohne Angaben von Gründen kündigen?
 1 überhaupt nicht
