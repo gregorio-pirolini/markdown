@@ -1,17 +1,4 @@
-<style>
-  body{background-color:white}
-h1 { color: Red }
-h2 { color: #F76915 }
-h3 { color: #EEDE04; background-color:black}
-h4 { color:#A0D636;font-weight: bold;text-decoration:underline}
-h5 { color: #2FA236;font-weight: bold;}
-h6 { color:  #333ED4;font-style:italic}
-f{ color: red;
-font-weight: bold;
-text-decoration: underline;}
-mono{font-family:"monospace"}
-p,li,table{color: black;}
-</style>
+<link rel="stylesheet" type="text/css" href="../styles.css">
 
 # Cyber-physische Systeme
 
@@ -87,7 +74,19 @@ LehrBuch\_ LF_7 – Grafik Seite 81. -> die Automatisierungspyramide
 
 #### Konnektivität
 
-… Unterstützung von zahlreichen Funktechnologien (4G/5G, Bluetooth, WLAN, Zigbee[^11], Zwave[^12], LoRa[^13], …) und Industrie- protokollen (OPC UA, Modbus, …)
+Unterstützung von zahlreichen  
+
+* **Funktechnologien**:
+  - 4G/5G
+  - Bluetooth
+  - WLAN
+  - Zigbee[^11]
+  - Zwave[^12]
+  - LoRa[^13]
+  
+- **Industrie- protokollen**
+  - OPC UA -> Object Linking and Embedding for Process Control Unified Architecture
+  - Modbus
 
 [^11]: Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.<br>
 [^12]: Zwave, Z-Wave is a wireless communications protocol used primarily for residential and commercial building automation. It is a mesh network using low-energy radio waves to communicate from device to device, allowing for wireless control of smart home devices, such as smart lights, security systems, thermostats, sensors, smart door locks, and garage door openers.<br>
@@ -209,9 +208,9 @@ The choice between OPC UA and Modbus depends on factors like the complexity of t
 
 Arduino vs Raspberry Pi (Python interpreter)
 
-**ESP32[^20]** is a series of low-cost, low-power **system on a chip** microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+**ESP32[^20]** Espressif System Platform 32 is a series of low-cost, low-power **system on a chip** microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
 
-[^20]: ESP32 is a series of low-cost, low-power **system on a chip** microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+[^20]: ESP32 Espressif System Platform 32 is a series of low-cost, low-power **system on a chip** microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
 
 **WPAN (Wireless Personal Area Network)[^21]**:  
 A **WPAN** is a small-scale wireless network used for connecting devices within a relatively short range, typically within a few meters to a few tens of meters.
@@ -237,11 +236,10 @@ It is commonly used in IoT applications where devices need to communicate using 
 NFC operates at very short distances, typically within a few centimeters, making it ideal for applications like contactless payments (e.g., Apple Pay and Google Wallet), access control systems, and data transfer between devices.
 NFC is also used for pairing devices quickly, such as tapping a smartphone to a speaker to establish a Bluetooth connection.
 
-[^23]:NFC (Near Field Communication)is a short-range wireless communication technology used for contactless data transfer and secure communication between devices.NFC operates at very short distances, typically within a few centimeters, making it ideal for applications like contactless payments (e.g., Apple Pay and Google Wallet), access control systems, and data transfer between devices.NFC is also used for pairing devices quickly, such as tapping a smartphone to a speaker to establish a Bluetooth connection.
+[^23]: NFC (Near Field Communication)is a short-range wireless communication technology used for contactless data transfer and secure communication between devices.NFC operates at very short distances, typically within a few centimeters, making it ideal for applications like contactless payments (e.g., Apple Pay and Google Wallet), access control systems, and data transfer between devices.NFC is also used for pairing devices quickly, such as tapping a smartphone to a speaker to establish a Bluetooth connection.
 
 PLC[^24] PLC Programmable Logic Controller are ruggedized industrial computers used for controlling manufacturing processes, machinery, and automation in various industries.
 
 [^24]: PLC Programmable Logic Controller are ruggedized industrial computers used for controlling manufacturing processes, machinery, and automation in various industries.
 
-### footnotes:  
-
+### footnotes:

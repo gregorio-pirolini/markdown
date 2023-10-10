@@ -104,19 +104,54 @@ cvc -->
           <div class="invalid-feedback">please enter your state</div>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center col-4">
-          <input type="checkbox" class="form-check-input" id="disagree" />
-          <label for="disagree" class="form-label">disagree to terms</label>
-
-          <input type="checkbox" class="form-check-input" id="agree" />
-          <label for="agree" class="form-label">agree to terms</label>
-
-          <div id="checkboxHelp" class="form-text">make your selection</div>
-
-          <div class="valid-feedback">looks good!</div>
-          <div class="invalid-feedback">you must choose</div>
+        <div class="col-4">
+          <label for="agree">Agree or not 1</label>
+          <fieldset class="form-fieldset">
+            <input type="checkbox" class="form-check-input" id="disagree" name="termsDisagree" />
+            <label for="disagree" class="form-label">Disagree to terms</label>
+        
+            <input type="checkbox" class="form-check-input" id="agree" name="termsAgree" />
+            <label for="agree" class="form-label">Agree to terms</label>
+        
+            <div id="checkboxHelp" class="form-text">Make your selection</div>
+        
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">You must choose</div>
+          </fieldset>
         </div>
 
+        <div class="col-4">
+          <label for="AgreeOrNot">Agree or not</label>
+          <fieldset class="form-fieldset">
+            <input
+              type="radio"
+              class="form-radio-input"
+              id="radioDisagree"
+              name="AgreeOrNot"
+              value="disagree"
+            />
+            <label for="radioDisagree" class="form-label"
+              >Disagree to terms</label
+            >
+
+            <input
+              type="radio"
+              class="form-radio-input"
+              id="radioAgree"
+              name="AgreeOrNot"
+              value="agree"
+            />
+            <label for="radioAgree" class="form-label">Agree to terms</label>
+
+            <div id="radioHelp" class="form-text">Make your selection</div>
+
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">You must choose</div>
+          </fieldset>
+        </div>
+
+        <div class="col-4">...</div>
+        <div class="col-4">...</div>
         <button type="submit" class="btn btn-success btn-md" value="submit">
           submit
         </button>

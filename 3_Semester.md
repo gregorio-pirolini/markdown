@@ -28,7 +28,7 @@ Die Anbindung von Massendatenträgern an die CPU kann über verschiedene Schnitt
 
 **SATA** (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
 
-**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da es keine zusätzlichen Kabel benötigt.
+**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da   keine zusätzlichen Kabel benötigt.
 
 **PCIe** (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
 
@@ -1174,5 +1174,102 @@ zrtrz
 ##### ueberladen:
 
 zrtz
+
+## 10 10 2023
+
+### luc
+
+#### breadcromb
+
+einfuegen smart art smart art waehlen
+
+![Alt text](img/img3/123.png)
+
+er hat 3 ich brauch aber 5
+type your text here
+![Alt text](img/img3/456.png)
+
+shift taste druecken um alle auszuwaehlen
+At the top change color
+
+#### morphen transition
+
+man kann zeit und audio einstellen  
+probieren den gleichen zu haben
+
+![Alt text](img/img3/789.png)
+
+hyperlink hinzufuegen
+
+- finanzierungarten - ueberblick
+- Leasingarten PDF
+- Leasing.pdf
+- Loesun
+
+Finanzierungsarten
+Innenfinanzierung
+selbst Finanzierung
+Finanzierung aus Rückstellungen
+Finanzierung aus Freigesetzen Kapital
+
+Außenfinanzierung
+Beteiligungsfinanzierung
+Kreditfinanzierung
+
+Types de financement
+
+Financement intern
+
+autofinancementEigen Kapital Eigen Kapital
+Financement à partir de provisions FremdKapital
+Financement à partir de capital libéré Eigen Kapital
+
+Financement externe
+
+Financement par participation Eigen Kapital
+Financement par crédit FremdKapital
+
+### IoT
+
+#### moskito
+
+![
+](img/img3/moskito.png)
+
+The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
+
+#### port 1883
+
+is special in the context of Internet of Things (IoT) and messaging protocols. Port 1883 is the default port used for the MQTT (Message Queuing Telemetry Transport) protocol, which is a lightweight publish-subscribe messaging protocol commonly used in IoT and M2M (Machine-to-Machine) communication.
+
+Here's why port 1883 is considered special:
+
+- **MQTT Protocol**: MQTT is designed for efficient and low-overhead communication between IoT devices and servers. It is widely used for transmitting sensor data, commands, and other messages in IoT applications.
+
+- **Standard Por**t: Port 1883 is the well-known and standardized port number for MQTT. When an MQTT client wants to connect to an MQTT **broker** (server), it typically uses port 1883 by default unless configured otherwise.
+
+- **Publish-Subscribe Model**: MQTT follows a publish-subscribe communication model, which is well-suited for scenarios where multiple devices need to publish data to specific topics, and other devices are subscribed to receive updates on those topics.
+
+- **Efficiency**: MQTT is designed to be highly efficient, making it suitable for IoT devices with limited processing power and bandwidth. It minimizes the amount of data transmitted and provides various QoS (Quality of Service) levels to ensure message delivery.
+
+- **Brokers and Subscribers**: In an MQTT architecture, MQTT brokers (servers) handle message distribution to the appropriate subscribers. Port 1883 is where MQTT clients (both publishers and subscribers) connect to the broker.
+
+- **Security Concerns**: Port 1883, when used without encryption (MQTT over TLS/SSL), can pose security risks as data exchanged is in plain text. For secure communication, MQTT can also operate on port 8883 with TLS/SSL encryption.
+
+So, port 1883 is special in the sense that it is the default port for MQTT, a protocol widely adopted in IoT for efficient and scalable messaging between devices and servers. However, it's important to note that security considerations should be taken into account when using port 1883, and in many cases, MQTT is configured to use port 8883 with TLS/SSL for secure communication.
+
+##### TLS/SSL
+
+SSL stands for “Secure Socket Layer” and TLS for “Transport Layer Security”. Both are encryption protocols for the internet's transport layer. Their job is to encrypt data streams between the client and server.
+
+- mosquitto-2.0.18-install-windows-x64.exe
+- MQTT-Explorer-0.4.0-beta1.exe
+
+##### arduino ide
+
+The Arduino Integrated Development Environment - or Arduino Software (IDE) - connects to the Arduino boards to upload programs and communicate with them. Programs written using Arduino Software (IDE) are called sketches. These sketches are written in the text editor and are saved with the file extension
+
+DHTPIN is a variable commonly used in Arduino code for projects involving DHT (Digital Humidity and Temperature) sensors. This variable is typically used to specify the digital pin to which the DHT sensor is connected.
+
 
 footnotes:
