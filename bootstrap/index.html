@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <title>Bootstrap Form Example</title>
     <!-- Include Bootstrap CSS -->
     <link
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
+
   <body>
     <!-- firstname
 lastname
@@ -81,7 +83,7 @@ cvc -->
             id="phone"
             name="phone"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="123-456-7890"
+            placeholder=""
             required
           />
           <div class="valid-feedback">looks good!</div>
@@ -107,14 +109,24 @@ cvc -->
         <div class="col-4">
           <label for="agree">Agree or not 1</label>
           <fieldset class="form-fieldset">
-            <input type="checkbox" class="form-check-input" id="disagree" name="termsDisagree" />
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="disagree"
+              name="termsDisagree"
+            />
             <label for="disagree" class="form-label">Disagree to terms</label>
-        
-            <input type="checkbox" class="form-check-input" id="agree" name="termsAgree" />
+
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="agree"
+              name="termsAgree"
+            />
             <label for="agree" class="form-label">Agree to terms</label>
-        
+
             <div id="checkboxHelp" class="form-text">Make your selection</div>
-        
+
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">You must choose</div>
           </fieldset>
@@ -156,11 +168,11 @@ cvc -->
           submit
         </button>
       </form>
+      <div id="response">???</div>
     </div>
 
     <!-- Include Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <!-- Include your custom JavaScript file -->
-    <script src="script.js"></script>
   </body>
 </html>

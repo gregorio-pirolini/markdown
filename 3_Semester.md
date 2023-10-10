@@ -28,7 +28,7 @@ Die Anbindung von Massendatenträgern an die CPU kann über verschiedene Schnitt
 
 **SATA** (Serial ATA): SATA ist eine weit verbreitete Schnittstelle für Massenspeichergeräte wie Festplatten und SSDs. Sie bietet eine gute Datenübertragungsrate, ist jedoch im Vergleich zu M.2 und PCIe etwas langsamer. SATA-Geräte werden über separate Kabel an das Motherboard angeschlossen und bieten in der Regel mehrere Anschlüsse für verschiedene Laufwerke.
 
-**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da   keine zusätzlichen Kabel benötigt.
+**M.2**: M.2 ist eine kompakte Schnittstelle, die vor allem für SSDs entwickelt wurde. Es handelt sich um eine Schnittstelle, die direkt auf das Motherboard gesteckt wird und keine separaten Kabel erfordert. M.2 unterstützt verschiedene Protokolle, darunter SATA und PCIe. Die PCIe-Version von M.2 bietet die schnellste Datenübertragungsrate und wird für Hochleistungs-SSDs verwendet. M.2 bietet außerdem den Vorteil einer platzsparenden Bauweise, da keine zusätzlichen Kabel benötigt.
 
 **PCIe** (Peripheral Component Interconnect Express): PCIe ist eine Hochgeschwindigkeits-Schnittstelle, die normalerweise für Grafikkarten verwendet wird, aber auch für andere Erweiterungskarten wie SSDs genutzt werden kann. PCIe bietet die höchste Datenübertragungsrate im Vergleich zu SATA und M.2. Bei der Verwendung von PCIe für Massenspeicher werden häufig PCIe-Erweiterungskarten oder PCIe-Adapter verwendet, um die Verbindung zwischen dem Massenspeichergerät und dem Motherboard herzustellen.
 
@@ -1201,40 +1201,11 @@ probieren den gleichen zu haben
 
 hyperlink hinzufuegen
 
-- finanzierungarten - ueberblick
-- Leasingarten PDF
-- Leasing.pdf
-- Loesun
-
-Finanzierungsarten
-Innenfinanzierung
-selbst Finanzierung
-Finanzierung aus Rückstellungen
-Finanzierung aus Freigesetzen Kapital
-
-Außenfinanzierung
-Beteiligungsfinanzierung
-Kreditfinanzierung
-
-Types de financement
-
-Financement intern
-
-autofinancementEigen Kapital Eigen Kapital
-Financement à partir de provisions FremdKapital
-Financement à partir de capital libéré Eigen Kapital
-
-Financement externe
-
-Financement par participation Eigen Kapital
-Financement par crédit FremdKapital
-
 ### IoT
 
-#### moskito
+#### mosquitto
 
-![
-](img/img3/moskito.png)
+![moskito](img/img3/moskito.png)
 
 The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
 
@@ -1270,6 +1241,5 @@ SSL stands for “Secure Socket Layer” and TLS for “Transport Layer Security
 The Arduino Integrated Development Environment - or Arduino Software (IDE) - connects to the Arduino boards to upload programs and communicate with them. Programs written using Arduino Software (IDE) are called sketches. These sketches are written in the text editor and are saved with the file extension
 
 DHTPIN is a variable commonly used in Arduino code for projects involving DHT (Digital Humidity and Temperature) sensors. This variable is typically used to specify the digital pin to which the DHT sensor is connected.
-
 
 footnotes:
