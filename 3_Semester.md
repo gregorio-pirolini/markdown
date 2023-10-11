@@ -1242,4 +1242,152 @@ The Arduino Integrated Development Environment - or Arduino Software (IDE) - con
 
 DHTPIN is a variable commonly used in Arduino code for projects involving DHT (Digital Humidity and Temperature) sensors. This variable is typically used to specify the digital pin to which the DHT sensor is connected.
 
+## 11.10.2023
+
+### Pog
+
+#### Doku
+
+##### 1 Projektdokumentationshinweise Verzeichnisse
+
+###### 1.1 Verwerdungsvermerk
+
+darf man Sachen von der Firma benutzeb vorher zu klären
+
+###### 1.2 abbildung verzeichnis
+
+alle bilder von der Dok
+
+###### 1.3 Tabellen verzeichnis
+
+alle Tabellen von der Dok vielleicht alle in Bilder
+
+###### 1.4 abk
+
+nur abk schreiebn die in der Dok sind
+
+###### 1.5 quelle verzeichnis
+
+nur wen welche komme, Ki Bilder generieren
+
+##### 2 Planungspahase
+
+###### 2.1 Ausgangsituation
+
+**2.1.1 Projektumfeld**
+
+wer ist die firma wiveil leute was machen sie
+
+**2.1.2 Ausganglage/Istzustand**
+
+ein von den beiden weg lassen
+wie es jetzt ist
+
+**2.1.3 Soll zustand**
+
+das koperien von Antrag
+
+**2.1.4 Projektziele**
+
+soll zu stand als Stichpunkte
+
+**2.1.5 Personellen Schnittstellen**
+
+Die Menschen mit der wir im Unterhenm sind
+nennen oder sagen er möchte nicht bennant werden
+nicht mehr als 2. ein reicht aus bzw der Auftraggeber
+
+**2.1.6 Teschniche Schnittstellen**
+
+könne muessen nicht sein, wenn nicht nötig 
+server und was fuer den Project wichtig istbzw daten bank die benutz wird oder bereits exoistiert, api aus dem internet,
+
+
+**2.1.7 Projectabgrenzung**
+
+ist der project allein stehen punkte weg lassen  
+wenn Project ein Teil Projekt von einem Grösserem Project
+
+**2.1.8 Projectbegründung**
+
+unterschied zwishen ist und soll
+
+**2.1.9 projektrisiken**
+
+Kranksein? mit ansprechpartenr darueber sprechen, etwas nicht rechtzeitig geliefert
+
+###### 2.2 Project Ablauf
+
+**2.2.1.Teschnische Planung des Projektziele**
+
+**2.2.2 Analyse des Istzustand**
+
+**2.2.3 herstellung des soll konzept**
+
+soll zu stand als Stichpunkte wie bereits oben oder weglassen
+
+##### 3 Ressourcen und ablaufplan
+
+###### 3.1 personal planung
+
+nur ich
+
+###### 3.2 sachmittel
+
+was gebraucht wird
+
+###### 3.3 zeitlichr planung
+erst mal leer lassen
+
+###### 3.4 kosten planung
+
+was ich verdiene im echten leben pro Stunde *80
+bei meeting schaeten was der ansprechpartenr kostet
+energie pro schal 6 euro am Tag home office
+
+##### 4.	Durchführungsphase
+
+###### 4.1. Eventuelle Beschaffung gemäß Planung
+
+###### 4.2. Herstellen der Arbeitsumgebung
+
+wi ich mich zurecht finde und arbeitumbgebung fertig mache
+
+###### 4.3. Eigentlich Umsetzung
+
+ich brauch hardware uich instaliere das welche daten bak ich da brauche 
+
+###### 4.4.Testen
+
+ganz wichtig  
+
+###### 4.5. Fehler, Fehlerbehebung und Anpassung
+
+wenn kein Problem weg lassen
+
+##### 5.Übergabe und Auswertung
+
+###### 5.1.Projektübergabe
+
+wie das project abgegeben wurde
+
+###### 5.2.Mitarbeiterschulung, Bedienungsanleitung
+
+?
+
+###### 5.3.SOLL-IST-Vergleich (inhaltlich, zeitlich, kostentechnisch)
+
+wieveil zeit fuer jeden punkt 
+eine ganze seite
+
+###### 5.4.Technische Auswertung und Ausblick
+
+was hat mir das gebracht?  
+ausblcik was passiert mit diesem Programm jetzt?  
+
+###### 5.5.Persönliche Auswertung
+
+Wie es war fuer mich
+
+##### 
 footnotes:
