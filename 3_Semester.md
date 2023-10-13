@@ -1389,5 +1389,55 @@ ausblcik was passiert mit diesem Programm jetzt?
 
 Wie es war fuer mich
 
-##### 
+## 12 10 2023
+
+### IoT 
+
+#### aarduino set up
+
+##### freigabe zu windows
+
+###### Schritt 1: Samba auf Kali Linux installieren
+
+sudo apt-get install samba
+
+###### Schritt 2: Samba-Konfigurationsdatei bearbeiten:
+
+sudo nano /etc/samba/smb.conf
+
+Fügen Sie am Ende der Datei die folgenden Zeilen hinzu, um einen Ordner für die Freigabe zu erstellen:
+
+    [FreigegebenerOrdner]
+       path = /pfad/zum/zu/freigebenden/ordner
+       writeable = yes
+       guest ok = yes
+
+Ersetzen Sie /pfad/zum/zu/freigebenden/ordner durch den tatsächlichen Pfad des Ordners, den Sie freigeben möchten.
+
+###### Schritt 3: Samba-Service neu starten:
+
+sudo service smbd restart
+
+######  Schritt 4: Freigabe auf Windows hinzufügen:
+
+Gehen Sie zu Ihrem Windows-Computer und öffnen Sie den Datei-Explorer. Geben Sie in der Adressleiste \\IP-Adresse-des-Kali-Computers ein. Sie müssen die IP-Adresse Ihres Kali-Computers verwenden.
+
+- doesnt work from windows to kali
+setting up iptables on kali 
+    sudo apt-get install iptables
+    sudo iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+   
+   sudo mkdir -p /etc/iptables
+   sudo iptables-save > /etc/iptables/rules.v4
+   -> permission denied
+   sudo iptables-save | sudo tee /etc/iptables/rules.v4
+
+LOST...
+
+### TK
+
+3PTY three party service line 3 konferece kleine konferenz
+
+### Kup
+
 footnotes:
