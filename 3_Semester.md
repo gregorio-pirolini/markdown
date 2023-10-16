@@ -1299,9 +1299,8 @@ nicht mehr als 2. ein reicht aus bzw der Auftraggeber
 
 **2.1.6 Teschniche Schnittstellen**
 
-könne muessen nicht sein, wenn nicht nötig 
+könne muessen nicht sein, wenn nicht nötig
 server und was fuer den Project wichtig istbzw daten bank die benutz wird oder bereits exoistiert, api aus dem internet,
-
 
 **2.1.7 Projectabgrenzung**
 
@@ -1337,15 +1336,16 @@ nur ich
 was gebraucht wird
 
 ###### 3.3 zeitlichr planung
+
 erst mal leer lassen
 
 ###### 3.4 kosten planung
 
-was ich verdiene im echten leben pro Stunde *80
+was ich verdiene im echten leben pro Stunde \*80
 bei meeting schaeten was der ansprechpartenr kostet
 energie pro schal 6 euro am Tag home office
 
-##### 4.	Durchführungsphase
+##### 4. Durchführungsphase
 
 ###### 4.1. Eventuelle Beschaffung gemäß Planung
 
@@ -1355,11 +1355,11 @@ wi ich mich zurecht finde und arbeitumbgebung fertig mache
 
 ###### 4.3. Eigentlich Umsetzung
 
-ich brauch hardware uich instaliere das welche daten bak ich da brauche 
+ich brauch hardware uich instaliere das welche daten bak ich da brauche
 
 ###### 4.4.Testen
 
-ganz wichtig  
+ganz wichtig
 
 ###### 4.5. Fehler, Fehlerbehebung und Anpassung
 
@@ -1377,13 +1377,13 @@ wie das project abgegeben wurde
 
 ###### 5.3.SOLL-IST-Vergleich (inhaltlich, zeitlich, kostentechnisch)
 
-wieveil zeit fuer jeden punkt 
+wieveil zeit fuer jeden punkt
 eine ganze seite
 
 ###### 5.4.Technische Auswertung und Ausblick
 
 was hat mir das gebracht?  
-ausblcik was passiert mit diesem Programm jetzt?  
+ausblcik was passiert mit diesem Programm jetzt?
 
 ###### 5.5.Persönliche Auswertung
 
@@ -1391,7 +1391,7 @@ Wie es war fuer mich
 
 ## 12 10 2023
 
-### IoT 
+### IoT
 
 #### aarduino set up
 
@@ -1418,19 +1418,18 @@ Ersetzen Sie /pfad/zum/zu/freigebenden/ordner durch den tatsächlichen Pfad des 
 
 sudo service smbd restart
 
-######  Schritt 4: Freigabe auf Windows hinzufügen:
+###### Schritt 4: Freigabe auf Windows hinzufügen:
 
 Gehen Sie zu Ihrem Windows-Computer und öffnen Sie den Datei-Explorer. Geben Sie in der Adressleiste \\IP-Adresse-des-Kali-Computers ein. Sie müssen die IP-Adresse Ihres Kali-Computers verwenden.
 
 - doesnt work from windows to kali
-setting up iptables on kali 
-    sudo apt-get install iptables
-    sudo iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
-   
-   sudo mkdir -p /etc/iptables
-   sudo iptables-save > /etc/iptables/rules.v4
-   -> permission denied
-   sudo iptables-save | sudo tee /etc/iptables/rules.v4
+  setting up iptables on kali
+  sudo apt-get install iptables
+  sudo iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+  sudo mkdir -p /etc/iptables
+  sudo iptables-save > /etc/iptables/rules.v4
+  -> permission denied
+  sudo iptables-save | sudo tee /etc/iptables/rules.v4
 
 LOST...
 
@@ -1438,6 +1437,58 @@ LOST...
 
 3PTY three party service line 3 konferece kleine konferenz
 
+## 16.10.2023
+
 ### Kup
+
+#### lsusb:
+
+lsusb stands for "List USB." When you run this command in a terminal, it displays a list of all USB devices connected to your computer. This includes information about the USB controllers, hubs, and the devices connected to them. The output typically includes the device's vendor and product IDs, which can be helpful for identifying USB devices.
+Here's an example of the lsusb command and its output:
+
+![Alt text](img/img3/fgd.png)
+
+#### lsblk:
+
+lsblk stands for "List Block." This command is used to list information about block devices, which include hard drives, solid-state drives, partitions, and other storage devices. It shows the device names, sizes, and other details about the block devices attached to your system.
+![Alt text](img/img3/gffghdf.png)
+
+
+#### fern wifi cracker
+
+Fern-Wifi-Cracker. Fern-Wifi-Cracker is a graphical user interface (GUI) tool for wireless security assessment and penetration testing. It is primarily used to audit the security of Wi-Fi networks and discover vulnerabilities in them. This tool is often used by security professionals and ethical hackers to assess the strength of wireless network security and to strengthen it against potential threats.
+
+Some of the features of Fern-Wifi-Cracker include:
+
+Wireless Network Scanning: It can scan for available wireless networks in the vicinity.
+
+WEP and WPA/WPA2 Key Cracking: Fern-Wifi-Cracker supports cracking WEP, WPA, and WPA2 encryption keys, assuming they are vulnerable to attacks.
+
+Automatic WPS Attack: It can perform automated attacks against Wi-Fi Protected Setup (WPS) implementations if they are enabled and susceptible to attacks.
+
+Session Hijacking: It allows users to capture and analyze data packets on a target network.
+
+MITM (Man-in-the-Middle) Attacks: It can help set up and execute MITM attacks on wireless networks.
+
+It's important to note that using Fern-Wifi-Cracker or any similar tool for unauthorized or malicious activities on Wi-Fi networks is illegal and unethical. This tool is intended for security professionals and ethical hackers to assess and secure their own networks or those for which they have explicit permission to test.
+
+Using such tools without proper authorization is a violation of laws and regulations related to computer security and privacy. Always ensure that you have the necessary permissions before using such tools, and use them responsibly and ethically.
+
+
+#### wlan sicher machen
+
+- ssid verbergen   
+aber eventuel keine neue verbindung
+
+- zeitlich begrenzt zugriff auf wlan
+
+- lange des passworts möglichkeit anzahlZeichnen ^lange der kette
+
+- Mac filter nur begrenzet mac zulassen
+- ...
+
+**sudo ip link set wlan0 dow**n is used to disable or turn off a wireless network interface in a Linux system. 
+
+The command sudo ip link set wlan0 name wlan1mon is used to rename a network interface in Linux. In this specific case, it renames a wireless network interface named 
 
 footnotes:
