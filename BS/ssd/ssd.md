@@ -1,13 +1,4 @@
-<style>
-h1 { color: Red }
-h2 { color: green }
-h3 { color: blue; background-color: white;}
-h4 { color: red;}
-h5 { color: yellow;}
-f{ color: red;
-font-weight: bold;
-text-decoration: underline;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../styles.css">
 
 # Solid State Drive?
 
@@ -23,14 +14,12 @@ text-decoration: underline;}
 ## 3 Begriff und Eigenschaften
 
 - Solid State Drive/Disk
-- Kein mechanisches Laufwerk oder Scheibe
-  vorhanden
+- Kein mechanisches Laufwerk oder Scheibe vorhanden
 - Lautlos
 - Stolßfest
 - Energiearm (Kapazitatsabhangig)
 - Kuhl
-- Schnell (hohe Zugriffsgeschwindigkeiten
-  Lesen/Schreiben)
+- Schnell (hohe Zugriffsgeschwindigkeiten Lesen/Schreiben)
 - Flash-Speicher
 
 ## 4 Technische Daten
@@ -43,16 +32,11 @@ text-decoration: underline;}
 ## 5 Speicherprinzip
 
 - Flash-Speicher (-EEPROM)
-
   - Nicht flüchtig (non volatile memory, kurz NVM[^1])
   - Elektrisch blockweise löschbar
-
 - MOSFET[^2] - Floating-Gate Transistor
-<div style="background-color:white">
-
+  
 ![ssd!](img/1.png "ssd")
-
-</div>
 
 [^1]: NVM non volatile memory
 [^2]: MOSFET The metal–oxide–semiconductor field-effect transistor (MOSFET, MOS-FET, or MOS FET) is a type of field-effect transistor (FET), most commonly fabricated by the controlled oxidation of silicon. It has an insulated gate, the voltage of which determines the conductivity of the device.
@@ -79,8 +63,7 @@ text-decoration: underline;}
 
 ### Lesen
 
-- 2 — 4 kByte aus Flash-Zellen lesen und in Pufferspeicher
-  schreiben — sehr schnell
+- 2 — 4 kByte aus Flash-Zellen lesen und in Pufferspeicher schreiben — sehr schnell
 
 ### Schreiben
 
@@ -101,8 +84,8 @@ text-decoration: underline;}
 - Zum Schreiben und Löschen werden Blöcke
   nochmalig zusammengefasst
 
-- Erst wenn alle zusammengefassten Blécke nicht
-  Aktuell sind, werden sie geldscht
+- Erst wenn alle zusammengefassten Blöcke nicht
+  Aktuell sind, werden sie gelöscht
 
 | Schreibvorgang | 1                                            | 2                                             | 3                                             | 4                                             | 5                                           |
 | -------------- | -------------------------------------------- | --------------------------------------------- | --------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
@@ -114,12 +97,9 @@ text-decoration: underline;}
 
 ## 9 Bauformen - Schnittstellen
 
-| ???                      | ???                                     |
 | ------------------------ | --------------------------------------- |
-| ![ssd!](img/2.png "ssd") | ![ssd!](img/3.jpg "ssd")                |
-| ????                     | ????                                    |
+| ![ssd!](img/2.png "ssd") | ![ssd!](img/3.jpg "ssd")                |                           
 | ![ssd!](img/4.png "ssd") | ![ssd!](img/5.jpg "ssd")                |
-| ????                     | ????                                    |
 | ![ssd!](img/6.jpg "ssd") | ![ssd!](img/NEU_SSD_20230317.jpg "ssd") |
 
 - SATA[^8]
@@ -162,7 +142,7 @@ Protokoll
 ### 2,5-Z0ll-SSD mit SATA[^8] 6G
 
 - 6 GBit/s bzw. netto 600 MByte/s
-- Optimierung fir NCQ[^6]
+- Optimierung für NCQ[^6]
 - abwartskompatibel zu SATA[^8] und SATA[^8]-II
 
 ### Speicherkarte mit m.2[^7]
@@ -258,20 +238,18 @@ Ablösung von mSATA (mini SATA)
 - Begrenzte Lebensdauer, 1.000 bis 1.000.000 Schreibvorgange
 - Standig schreibende Anwendungen ungeeignet
 - Wear-Leveling
-
-  - GleichmaRige Verteilung der Schreiblast Uber die Zellen durch den
-    Controller
+  - GleichmaRige Verteilung der Schreiblast Uber die Zellen durch den Controller
   - Statisches WL
     - Relativ konstante Daten werden in abgenutzte Bereiche verschoben
     - Erhéhung der Lebensdauer des Speichers
     - Geht zu Lasten der Performance
-    - Problem gelöschte Dateien — TRIM — BS teilt Flashcontroler ,geléschte“ Bereiche
-      mit
+    - Problem gelöschte Dateien — TRIM — BS teilt Flashcontroler ,geléschte“ Bereiche mit
   - Dynamisches WL
     - Schreibzugriffe werden gleichmagig uber freie oder frei werdende Blécke verteilt
     - Haufig genutzte Bereiche nutzen sich starker ab und fallen aus
+- <o>Defragmentierung, Dateiindexierung und Prefetching des Betriebssystems abschalten
 
-- <f>Defragmentierung, Dateiindexierung und Prefetching des Betriebssystems abschalten
+## 16 Wear-Leveling
 
 ![Alt text](img/17.jpg)
 
@@ -295,68 +273,48 @@ Ablösung von mSATA (mini SATA)
 ## 19 Bad Block Management /Defect Management
 
 - Uberwacht die Speicherzellen
-
-- Defekte Zellen werden markiert und aus Reserve
-  ersetzt (Overprovisioning)
-
+- Defekte Zellen werden markiert und aus Reserve ersetzt (Overprovisioning)
 - SLC-SSDs Reserve 2 % - geringe Abnutzung
 - MLC-SSDs Reserve 7 % - höhere Abnutzung
 - Kein Verlust von Speicherzellen
-
-- Erhalt von Lebensdauer, Zuverlassigkeit und
-  Speicherkapazitat
+- Erhalt von Lebensdauer, Zuverlassigkeit und Speicherkapazitat
 
 ## 20 Garbage Collection
 
 - Wird vom Betriebssystem angestoßen
-
 - Beim Löschen wird nur der Name gelöscht, Inhalt
   der Speicherzelle bleibt erhalten
-
 - Nicht geleerte Speicherzellen prüfen und leeren
 - \> Steigerung der Schreibgeschwindigkeit
 
 ## 21 Haltbarkeit und Zuverlassigkeit
 
-- 700 TByte und 1 PByte — maximale Datenmenge
-  abhangig
-
-- Garantiebeispiel 80 TByte in 10 Jahren (nicht far
-  Server) > 20 GByte pro Tag
-
+- 700 TByte und 1 PByte — maximale Datenmenge abhangig
+- Garantiebeispiel 80 TByte in 10 Jahren (nicht far Server) > 20 GByte pro Tag
   - (Auslagerungsdateien
   - Start des BS
   - Herunterfahren des BS)
-
-- Kein Schreiben mehr mdglich — keine
-  Ansprechbarkeit oftmals ohne Vorwarnung
+- Kein Schreiben mehr mdglich — keine Ansprechbarkeit oftmals ohne Vorwarnung
 
 ## 22 Endurance (Ausdauer, Haltbarkeit)
 
-- maximal zulässige Anzahl an Lösch bzw.
-  Speicherzyklen (NVRAM)
+- maximal zulässige Anzahl an Lösch bzw. Speicherzyklen (NVRAM)
 
-- hohen Spannungen (10 bis 18 V) schädigen die
-  Struktur der Zelle
+- hohen Spannungen (10 bis 18 V) schädigen die Struktur der Zelle
 
-- Möglichst dünne Isolation negative Auswirkung auf
-  Datenhaltung (Retention)
+- Möglichst dünne Isolation negative Auswirkung auf Datenhaltung (Retention)
 
-- Schreiben mit 10 … 18 V, Oxidschicht nimmt Schaden
-  (wird dünner)
+- Schreiben mit 10 … 18 V, Oxidschicht nimmt Schaden (wird dünner)
 
 - Schreibvorgang schreibt 16 bis 128 kByte gleichzeitig — geringe Anderungen des Speicherinhaltes erfordert Neuschreiben vieler Speicherzellen
 
 ## 23 NOR-Flash
 
-- Unterscheidung in Speicherdichte
-  und Zugriffsgeschwindigkeit
-- Speicherzellen sind parallel
-  verschaltet
+- Unterscheidung in Speicherdichte und Zugriffsgeschwindigkeit
+- Speicherzellen sind parallel verschaltet
 - Zugriff erfolgt wahlfrei und direkt
 - Kurze Zugriffszeiten
-- Geringer Widerstand zwischen
-  Stromquelle und Auswerteschaltung
+- Geringer Widerstand zwischen Stromquelle und Auswerteschaltung
 - Programmspeicher von MC
 - BIOS
 
@@ -380,19 +338,17 @@ Ablösung von mSATA (mini SATA)
 ## 25 SLC-Flash (Single Level Cell)
 
 - ein Bit pro Speicherzelle
-
-- zuverlässiger Flash-Speicher für
-  SSDs — 100.000 Schreibzyklen
-
+- zuverlässiger Flash-Speicher für SSDs — 100.000 Schreibzyklen
 - Teuer
+
+![Alt text](img/11.png)
 
 ## 26 TLC-Flash (Triple Level Cell)
 
 - Drei Bit pro Speicherzelle
 - 1.000 Schreibvorgange
-- USB-Sticks, Speicherkarten,
-  extrem billige SSD
-- Nicht flr Server
+- USB-Sticks, Speicherkarten, extrem billige SSD
+- Nicht für Server
 
 ![Alt text](img/22.jpg)
 
@@ -412,83 +368,45 @@ Ablösung von mSATA (mini SATA)
 | --------------------- | ----------------------- | --------------------- | ------------------------- |
 | Bit pro Zelle         | 1 Bit                   | 2 Bit                 | 3 Bit                     |
 | Speicherbare Zustände | 2 2<sup>1               | 4 2<sup>2             | 8 2<sup>3                 |
-| Lebensdauer           | 100.000 Schreibvorgänge | 3.000 Schreibvorgänge | ca. 1.000 Schreibvorgänge |
+| Lebensdauer           | 100.000 Schreib x | 3.000 Schreib x | ca. 1.000 Schreib x |
 | Fehlerrate            | sehr niedrig            | mittel                | hoch                      |
 | Geschwindigkeit       | sehr hoch               | niedrig               | niedrig                   |
 | Stromverbrauch        | sehr niedrig            | hoch                  | hoch                      |
 
 ## 26 Vorteile von Flash-Speicher
 
-- Die gespeicherten Daten bleiben auch bei fehlender
-  Versorgungsspannung erhalten. Auf eine Erhaltungsladung
-  kann verzichtet werden. Somit ist auch der
-  Energieverbrauch und die Warmeentwicklung geringer.
-
-* Wegen fehlender beweglicher Teile ist Flash gerauschlos,
-  unempfindlich gegen Erschitterungen und magnetische
-  Felder.
-
-* Im Vergleich zu Festplatten haben Flash-Speicher eine sehr
-  kurze Zugriffszeit. Lese- und Schreibgeschwindigkeit sind
-  Uber den gesamten Speicherbereich weitestgehend
-  konstant.
-
-» Die erreichbare Speichergréf3e ist durch die einfache und
-platzsparende Anordnung der Speicherzellen nach oben
-offen.
+- Die gespeicherten Daten bleiben auch bei fehlender Versorgungsspannung erhalten. Auf eine Erhaltungsladung kann verzichtet werden. Somit ist auch der Energieverbrauch und die Wärmeentwicklung geringer.
+- Wegen fehlender beweglicher Teile ist Flash gerauschlos, unempfindlich gegen Erschitterungen und magnetische Felder.
+- Im Vergleich zu Festplatten haben Flash-Speicher eine sehr kurze Zugriffszeit. Lese- und Schreibgeschwindigkeit sind Uber den gesamten Speicherbereich weitestgehend konstant.
+- Die erreichbare Speichergröße ist durch die einfache und platzsparende Anordnung der Speicherzellen nach oben offen.
 
 ## 27 Nachteile von Flash-Speicher
 
-begrenzte Schreib- bzw. L6schvorgéange
-
-- ,begrenzte” Speicherkapazitat
-
-« \_hoher” Preis
-
-« Datenwiederherstellbarkeit®
-
-« Lbschbarkeit”
+- begrenzte Schreib- bzw. Löschvorgänge
+- 'begrenzte' Speicherkapazitat
+- 'hoher' Preis
+- 'Datenwiederherstellbarkeit'
+- 'Löschbarkeit'
 
 ## 28 Weiterentwicklung von Flash-Speicher =
 
-« Langere Haltbarkeit
-« Kleinere Zugriffszeiten und hohe Geschwindigkeit
-
-« Senkung der Schreib- und Lesefehler der MLC in
-Bereich der SLC
-
-» Grolere Kapazitaten und preiswerter
-
-3D-V-NAND, iSLC oder eMLC — mehrere MLC
-Lagen Ubereinander — vertikale Strukturen
-(20 Lagen)
-
-« Einsparung von Siliziumflache — Zellen kénnen
-grél3er sein — héhere Speicherkapazitat,
-Lebensdauer, Geschwindigkeit, Datenhaltung
+- Langere Haltbarkeit
+- Kleinere Zugriffszeiten und hohe Geschwindigkeit
+- Senkung der Schreib- und Lesefehler der MLC in Bereich der SLC
+- Größere Kapazitäten und preiswerter
+- 3D V NAND, iSLC oder eMLC mehrere MLC Lagen übereinander vertikale Strukturen(20 Lagen)
+- Einsparung von Siliziumfläche Zellen können größer sein höhere Speicherkapazität, Lebensdauer, Geschwindigkeit, Datenhaltung
 
 ## 29 Fragen
 
-Wie arbeiten SSDs?
+- Wie arbeiten SSDs?
+- Was ist der Unterschied zwischen "NAND" und "NOR" SSD Modellen?
+- Welche Vorteile bieten SSDs gegenüber anderen Speichermedien?
+- Welches sind die Nachteile von SSDs?
+- Welche Formfaktoren und welche maximalen Speicherkapazitäten bieten die SSD Hersteller zurzeit an?
+- SSDs kommen bisher vor allem in Notebooks und Netbooks zum Einsatz. Welchen Einfluss haben SSD Komponenten auf Server und Storage Systeme?
+- Was verstehen Sie unter Wear Leveling?
+- Was verstehen Sie unter TRIM?
+- Was verstehen Sie unter Garbage Colection?
+- Was verstehen Sie unter Overprovisioning?
 
-Was ist der Unterschied zwischen "NAND"- und "NOR"-SSD-
-Modellen?
-
-» \Welche Vorteile bieten SSDs gegeniiber anderen
-Speichermedien?
-
-\Welches sind die Nachteile von SSDs?
-
-- Welche Formfaktoren und welche maximalen Speicherkapazitaten
-  bieten die SSD-Hersteller zurzeit an?
-
-« SSDs kommen bisher vor allem in Notebooks und Netbooks zum
-Einsatz. Welchen Einfluss haben SSD-Komponenten auf Server-
-und Storage-Systeme?
-
-« Was verstehen Sie unter Wear-Leveling?
-
-« Was verstehen Sie unter TRIM?
-
-« Was verstehen Sie unter Garbage-Colection?
-« Was verstehen Sie unter Overprovisioning?

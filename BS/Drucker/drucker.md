@@ -1,13 +1,4 @@
-<style>
-h1 { color: Red }
-h2 { color: green }
-h3 { color: blue; background-color: white;}
-h4 { color: red;}
-h5 { color: yellow;}
-f{ color: red;
-font-weight: bold;
-text-decoration: underline;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../styles.css">
 
 # Drucker
 
@@ -30,7 +21,7 @@ Eine Übersicht oder, wie kommt die Information auf das Papier
 | -------------------------------------- | ------------------------ |
 | ![Alt text](img/1.jpg)                 | ![Alt text](img/2.jpg)   |
 
-## 4 Geschichte Schreibmaschine
+<!-- ## 4 Geschichte Schreibmaschine -->
 
 | Wanderer „Continental“ Schreibmaschine | IBM-Schreibmaschine    |
 | -------------------------------------- | ---------------------- |
@@ -39,13 +30,11 @@ Eine Übersicht oder, wie kommt die Information auf das Papier
 ## 5 Geschichte Drucker
 
 | -                      | -                      | -                      |
-| ---------------------- | ---------------------- | ---------------------- |
 | ![Alt text](img/5.jpg) | ![Alt text](img/6.jpg) | ![Alt text](img/7.jpg) |
 
-## 6 Geschichte Drucker
+<!-- ## 6 Geschichte Drucker -->
 
 | - | - |
-| -------------------------------------- | ------------------------ |
 | ![Alt text](img/8.jpg)                 | ![Alt text](img/9.jpg)   |
 | ![Alt text](img/10.jpg)                 | ![Alt text](img/11.jpg)   |
 
@@ -86,61 +75,48 @@ Eine Übersicht oder, wie kommt die Information auf das Papier
 
 ## 10 Seitenbeschreibungssprache
 
-
 ![Alt text](img/13.png)
 
 Die Umwandlung in die gerasterte Druckausgabe auf dem Drucker erfolgt über den
 **Raster Image Processor**.
 
+PDF[^1] Portable Document Format
+
+[^1]: pdf Portable Document Format
+
 ## 11 Druckersprachen
 
 Seitenbeschreibungssprachen
-Page Description Languages (PDL)
-Printer Control Languages (PCL)
+Page Description Languages (PDL[^2])
+Printer Control Languages (PCL[^3])
+
+[^2]:PDL Page Description Languages
+[^3]:PCL Printer Control Languages
+
 ![Alt text](img/14.png)
 
 Programmiersprache zur Ansteuerung von Druckern
 
 ## 12 Protokolle
 
-**WIN**
-Remote Desktop Protocol
-(RDP)
+**WIN**  
+Remote Desktop Protocol (RDP[^4])
+[^4]: RDP Remote Desktop Protocol
 
-**Linux**
-Line Printer Remote
-(LPR)
-Internet Printing Protocol
-(IPP)
-Independent Computing Architecture
-(ICA)
+**Linux**  
+Line Printer Remote (LPR[^5])  
+Internet Printing Protocol (IPP[^6])
+Independent Computing Architecture (ICA[^7])
+
+[^5]: LPR Line Printer Remote
+[^6]: IPP Internet Printing Protocol
+[^7]: ICA Independent Computing Architecture
 
 ![Alt text](img/15.png)
- 
 
 ## 13 Erstellen der Rasterdaten
 
 ![Alt text](<img/Screenshot 2023-06-29_141955.png>)
-
-PC
-Anwendung
-Host-BasedDrucker
-GDI
-Druckertreiber/RIP
-Druckerdaten
-PS-Drucker
-PC
-Anwendung
-GDI
-Gener. PS-Treiber
-PS-Daten
-PC
-Anwendung
-Druckertreiber
-RIP
-Belichtereinheit
-GDI
-RIP-Server
 
 ## 14 Zeichengestaltung
 
@@ -153,29 +129,32 @@ RIP-Server
 
 ![Alt text](img/17.png)
 
-## 16 Matrixdruck
+<!-- ## 16 Matrixdruck -->
 
-Prinzip des Matrixstempels  
-9x9 Matrix
-![Alt text](img/18.png)
-Druckkopfschritte
-![Alt text](img/19.jpg)
+### Prinzip des Matrixstempels
+
+|-------------- | -------------- | 
+| ![Alt text](img/18.png)    | ![Alt text](img/19.jpg)     |
+
+9x9 Matrix  
+Druckkopfschritte  
 Punktmatrix
 
-## 17 Matrixdruck Druckverbesserung
+### Matrixdruck Druckverbesserung
 
 Dithering
 ![Alt text](img/20.png)
-RET[^1] Resolution Enhancement Technology
+RET[^8] Resolution Enhancement Technology
 ![Alt text](img/21.jpg)
 
-[^1]: RET Resolution Enhancement Technology
+[^8]: RET Resolution Enhancement Technology
 
 ## 18 Aufbau Nadeldrucker
 
 ![Alt text](img/22.png)
 
 ## 19 Nadeldrucker Druckkopf
+
 ![Alt text](img/23.png)
 ![Alt text](img/24.jpg)
 
@@ -194,15 +173,14 @@ Shuttle-Matrix-Drucker sind ebenfalls Zeilendrucker und arbeiten mit einem Matri
 |------|-------|
 |![Alt text](img/27.jpg)|![Alt text](img/28.png)|
 
-## 23 CIJ[^2]
+## 23 CIJ[^9]
 
 ### Continuous Ink Jet, Tintenstrahl
 bis zu einer Million (!) Tropfen pro Sekunde ausstoßen, je nach Düsengeometrie sind sie nur wenige Mikrometer groß und fliegen mit bis
 zu 40 m/s
 ![Alt text](img/29.png)
 
-[^2]: CIJ Continuous Ink Jet,
-Tintenstrahl
+[^9]: CIJ Continuous Ink Jet, Tintenstrahl
 
 ## 24 Continuos Flow
 
@@ -212,19 +190,22 @@ Tintenstrahl
 
 ## 25 Continuos Flow
 
-|-|-|
+
 |-----|-----|
 |![Alt text](img/32.jpg)|![Alt text](img/33.jpg)|
 |![Alt text](img/34.jpg)|![Alt text](img/35.png)|
 Inkjet-Drucker "Compactline 2.5" zum
 Beschriften der Kartons
 
-## 26 Unterschiedliche
-Oberflächen Ideal eignen sich diese Drucker nämlich dazu, fast beliebige Oberflächen und Gegenstände zu  markieren und zu kodieren.
-![Alt text](img/36.jpg)
-## 27 Drop on Demand
-![Alt text](img/37.png)
+## 26 Unterschiedliche Oberflächen
 
+Ideal eignen sich diese Drucker nämlich dazu, fast beliebige Oberflächen und Gegenstände zu  markieren und zu kodieren.
+
+![Alt text](img/36.jpg)
+
+## 27 Drop on Demand
+
+![Alt text](img/37.png)
 
 |Thermal InkJet|Piezo InkJet|
 |-----|-----|
@@ -236,7 +217,6 @@ Tintenportionierung: Durch zwei Heizelemente in den Düsenkanälen lassen sich  
 (z. B. RET)
 
 |-|-|
-|-----|-----|
 |![Alt text](img/40.jpg)|![Alt text](img/41.jpg)|
 
 ## 29 Tinte und Papier
@@ -255,7 +235,9 @@ Bei Grafiken und fotorealistischen Ausdrucken muss das Papier oft die sechs- bis
 ## 30 Dichte Düsen, dünne Tinte, tiefes Schwarz, mehr Farben für Fotodruck
 
 Canon Pixma iP5200:
-Druckkopf enthält sechs Düsenspalten mit den Farben Cyan, Magenta, Gelb, Magenta, Cyan und Schwarz. Zweite hohe Düsenspalte versprüht pigmentiertes Schwarz für schnellen Textdruck.
+Druckkopf enthält sechs Düsenspalten mit den Farben Cyan, Magenta, Gelb, Magenta, Cyan und Schwarz.  
+
+Zweite hohe Düsenspalte versprüht pigmentiertes Schwarz für schnellen Textdruck.
 
 ![Alt text](img/44.jpg)
 
@@ -266,8 +248,10 @@ Druckkopf enthält sechs Düsenspalten mit den Farben Cyan, Magenta, Gelb, Magen
 ## 32 Tintenpatronen mit Chip
 
 „verdongel“ der Füllstandsanzeige
-![Alt text](img/47.png)
-![Alt text](img/48.jpg)
+
+|-------------- | -------------- | 
+| ![Alt text](img/47.png)    | ![Alt text](img/48.jpg)     |
+
 
 ## 33Integrierte Reinigung
 
@@ -283,9 +267,8 @@ Großformatdrucker für Poster, CAD und Proofen
 ![Alt text](img/53.png)
 
 ## 35 Tintendrucker oder?
+
 ![Alt text](img/54.jpg)
-
-
 
 ## 36 Memjet-Technologie
 
@@ -300,7 +283,7 @@ Großformatdrucker für Poster, CAD und Proofen
 - Druckkopf besteht aus 5 Chips bei einer Papierbreite von 10 cm (für 10x15cm-Fotos) rund 32.000 Düsen
 - bei einem A4-Drucker (Papierbreite: 21 cm) bräuchte man einen Druckkopf mit 11 Chips, dann mit 74.400 Düsen
 
-## 38 Memjet-Technologie
+<!-- ## 38 Memjet-Technologie -->
 
 Die Ansteuerung des Druckkopfes und der einzelnen Chips soll bei der Memjet-Technologie ein spezieller Steuerbaustein übernehmen, der in der Lage sein soll, bis zu 900 Millionen Druckpunkte pro Sekunde zu berechnen. Aus den vielen Druckpunkten soll dann ein Bild bzw. Ausdruck mit einer maximalen Druckauflösung von 1.600 x 1.600 dpi entstehen - und das bei einer Druckgeschwindigkeit von bis zu 30 Seiten pro Minute bei Fotos im typischen 10x15cm-Format (60 Seiten/min bei Dokumenten im A4-Format und 90 Seiten/min in EntwurfsQualität).
 
@@ -313,6 +296,7 @@ Der KJ4 beherbergt 2.656 Düsen und kann neben UV- auch pigmentierte Tinten vera
 ![Alt text](img/56.jpg)
 
 ## 40 Memjet-Technologie
+
 Für eine Papierbreite von 50 cm, benötigt man für die drei Grundfarben und Schwarz zusammengenommen 40 Druckköpfe, die hintereinander angeordnet sind.
 
 ![Alt text](img/57.png)
@@ -354,69 +338,57 @@ Printing-Speed 50 m/min, 600 dpi x 600 dpi
   den Fotodruck
   verbessern
 - Ab 4/2008 für 399 Euro
+ 
+![Alt text](img/59.jpg)
 
-## 45 High-End-Farbdrucker
-mit 8 Tinten
+## 45 High-End-Farbdrucker mit 8 Tinten
+
+![Alt text](img/60.png)
 
 ## 46 Kartuschen & Preise
 
-## 47 Phase-ChangeVerfahren (Solid Ink)
+![Alt text](img/61.png)
+![Alt text](img/62.png)
 
-- Solid-Ink-Drucker
-  (Festtintendrucker)
-- feste Farbstifte statt flüssige
-  Tinte
-- Abschmelzen durch
-  Heizelemente (flüssige Tinte
-  entsteht)
-- Aufbringen der Tinte durch die
-  andere Verfahren (Bubble-Jet,
-  Piezo)
-- sehr gute Druckqualität auf
-  Normalpapier (Tinte wird schnell
-  fest)
+## 47 Phase-Change-Verfahren (Solid Ink)
 
-## 48 Phase-ChangeVerfahren (Solid Ink)
+- Solid-Ink-Drucker(Festtintendrucker)
+- feste Farbstifte statt flüssige Tinte
+- Abschmelzen durch Heizelemente (flüssige Tinte entsteht)
+- Aufbringen der Tinte durch die andere Verfahren (Bubble-Jet, Piezo)
+- sehr gute Druckqualität auf Normalpapier (Tinte wird schnell fest)
 
-## 49 Phase-ChangeVerfahren (Solid Ink)
+![Alt text](img/63.png)
 
-## 50 Phase-ChangeVerfahren (Solid Ink)
 
-## 51 Phase-ChangeVerfahren (Solid Ink)
+|-------------- | -------------- | 
+| ![Alt text](img/64.jpg)    | ![Alt text](img/65.jpg)     | 
 
-## 52 Phase-ChangeVerfahren (Solid Ink)
+![Alt text](img/66.png)
+![Alt text](img/67.png)
+![Alt text](img/68.png)
+![Alt text](img/69.png)
+![Alt text](img/70.png)
 
-## 53 Phase-ChangeVerfahren (Solid Ink)
+- **Vorteil**: Der Druckkopf bewegt sich nicht wie bei Tintendruckern über die Papierbreite hin und her, sondern nimmt die ganze Papierbreite ein und kann so sehr schnell und leise drucken
 
-## 54 Phase-ChangeVerfahren (Solid Ink)
+- **Inkstix**: Ist die Farbe der Festtintendrucker und können im Betrieb nachgelegt werden
 
-- Vorteil: Der Druckkopf
-  bewegt sich nicht wie
-  bei Tintendruckern über
-  die Papierbreite hin
-- und her, sondern nimmt
-  die ganze Papierbreite
-  ein und kann so sehr
-  schnell und leise
-  drucken
-- Inkstix: Ist die Farbe der
-  Festtintendrucker und
-  können im Betrieb
-- nachgelegt werden
+![Alt text](img/71.jpg)
 
-## 55Drucker mit Wachstinte
+## 55 Drucker mit Wachstinte
+
+|-------------- | -------------- |
+| ![Alt text](img/72.jpg)    | ![Alt text](img/73.png)     |
 
 ca. 1200 €
 
- 
+## 56 Tintenloser Druck?
 
-## 56Tintenloser Druck?
+|-------------- | -------------- |
+| ![Alt text](img/74.jpg)    | ![Alt text](img/75.jpg)     |
 
--
-
--
-
-Zink-Papier, drei übereinanderliegende
+- Zink-Papier, drei übereinanderliegende
 Emulsionsschichten aus Kristallen der
 Grundfarben der subtraktiven Lichtmischung:
 Gelb, Magenta und Cyan
@@ -426,51 +398,34 @@ Temperatur und Einwirkdauer
 weiße Kristalle werden in ihrer Wirkfarbe
 verändert
 
--
-
--
--
--
--
--
--
-
-Schichtreihenfolge
-Gelbe Emulsion
-(aktiviert durch kurzen Hitzeimpuls von 200 °C)
-Magenta Emulsion
-(aktiviert durch mittleren Hitzeimpuls von 150 °C)
-Transparente Trägerschicht
-Cyan Emulsion
-(aktiviert durch längeren Hitzeimpuls von 100 °C)
-Grundträger, weiß (PVC?)
-Klebebeschichtung
-Abdeckpapier
+- Schichtreihenfolge Gelbe Emulsion (aktiviert durch kurzen Hitzeimpuls von 200 °C)
+- Magenta Emulsion (aktiviert durch mittleren Hitzeimpuls von 150 °C)
+- Transparente Trägerschicht
+- Cyan Emulsion (aktiviert durch längeren Hitzeimpuls von 100 °C)
+- Grundträger, weiß (PVC?)
+- Klebebeschichtung
+- Abdeckpapier
 
 ## 57 Geräte und Papier
-Tintenloser PolaroidDrucker mit ZINKSpezialpapier 39,99 €
 
-Der C81 ist ein direkter
-thermischer Farbplotter von
-Grund auf für den Betrieb im
-schwierigen Umfeld eines
-Logging-LKW oder OffshorePlattform entwickelt.
+|-------------- | -------------- |
+| ![Alt text](img/76.jpg)    | Tintenloser PolaroidDrucker mit ZINK Spezialpapier 39,99 €     |
 
-Polaroid GL10 Bluetooth
-Digitaler Fotodrucker mit
-ZINK Zero Ink-Technologie +
-Polaroid ZINK 7.6 x 10.2 cm
-(3 x 4 Zoll) Fotopapier für den
-GL10 Drucker -
-70 Stück Packung 164,99 €
 
-Papier 70 Blatt 50 x 70,2
-12,90 - 26,61 €
+|- | - |
+ | Der C81 ist ein direkter thermischer Farbplotter von Grund auf für den Betrieb im schwierigen Umfeld eines Logging-LKW oder Offshore Plattform entwickelt.  | ![Alt text](img/77.jpg) 
 
-Polaroid Two Digitalkamera (5
-Megapixel, 4-fach digit. Zoom,
-7,6 cm (3 Zoll) Display)
-155,99 €
+
+|- | - |
+| Papier 70 Blatt 50 x 70,2 <br> 12,90 - 26,61 €| ![Alt text](img/78.png)     |
+
+  
+|- | - |
+|Polaroid GL10 Bluetooth Digitaler Fotodrucker mit ZINK Zero Ink-Technologie + Polaroid ZINK 7.6 x 10.2 cm (3 x 4 Zoll) Fotopapier für den GL10 Drucker - 70 Stück Packung 164,99 € |  ![Alt text](img/79.jpg)     |
+
+
+|- | - |
+| Polaroid Two Digitalkamera (5 Megapixel, 4-fach digit. Zoom, 7,6 cm (3 Zoll) Display) 155,99 € | | ![Alt text](img/80.jpg)     |
 
 ## 58 Thermodrucker
 
@@ -478,234 +433,221 @@ Megapixel, 4-fach digit. Zoom,
 - Thermosublimationsdrucker
 - Thermotransferdrucker
 
-## 59 Thermodrucker
+<!-- ## 59 Thermodrucker -->
 
-## 60 Thermoreaktions(direkt)-drucker
+ ![Alt text](img/81.png)
 
-- Anordnung der
-  Heizplättchen wie bei
-  Nadeldrucker
-- benötigt
-  wärmeempfindliches
-  Spezialpapier
-- Papier verfärbt sich an
-  den erwärmten Stellen
-- prinzipbedingt nur als
-  Schwarz-Weiß-Drucker
+### 60 Thermoreaktions(direkt)-drucker
 
-## 61 Thermoreaktions(direkt)-drucker
+- Anordnung der Heizplättchen wie bei Nadeldrucker
+- benötigt wärmeempfindliches Spezialpapier
+- Papier verfärbt sich an den erwärmten Stellen
+- prinzipbedingt nur als Schwarz-Weiß-Drucker
 
-## 62 Thermoreaktions-(direkt)drucker
-Einsatzbereiche
+<!-- ## 61 Thermoreaktions(direkt)-drucker -->
+
+<!-- ## 62 Thermoreaktions-(direkt)drucker -->
+ ![Alt text](img/82.jpg)
+
+![Alt text](img/83.png)
+
+#### Thermoreaktions-(direkt)drucker Einsatzbereiche
 
 - Barcode-, Typen- und Inventarschilder für den Innenund Außeneinsatz
 - Schilder für Produkte mit langer Haltbarkeit
 - Schaltschrank- und Gerätekennzeichnung
-- Schilder für Materialfluss und Inhaltskennzeichnung
-  (auch Fleischkennzeichnung)
+- Schilder für Materialfluss und Inhaltskennzeichnung (auch Fleischkennzeichnung)
 - Etiketten für Textilbereiche
 - Warnhinweise
 - Registrierkassen und früher auch in Faxgeräten
 
-## 63 Thermotransferdruck
+### 63 Thermotransferdruck
 
-## 64 Zeilenweiser
-Thermodruck
+![Alt text](img/84.png)
+
+## 64 Zeilenweiser Thermodruck
+
+![Alt text](img/85.png)
 
 als Thermokamm
 
 ## 65 Folien
 
+|-------------- | -------------- |
+| ![Alt text](img/86.jpg)    | ![Alt text](img/87.jpg)     |
+
 ## 66 Thermotransferdrucker
 
-- auch Thermalprinter
-  genannt
-- Einsatz sehr häufig beim
-  Druck von Belegen,
-  Typenschildern, Lageretiket
-  ten, langlebigen Paket- und
-  Produktauszeichnungen
-- können Papier, PE-, PET-,
-  PVC- Folien und viele
-  andere Materialien
-  bedrucken
+- auch Thermalprinter genannt
+- Einsatz sehr häufig beim Druck von Belegen, Typenschildern, Lageretiketten, langlebigen Paket- und Produktauszeichnungen
+- können Papier, PE-, PET-, PVC- Folien und viele andere Materialien bedrucken
+
+![Alt text](img/88.jpg)  
 
 ## 67 Thermosublimationsdrucker
 
--
--
--
--
--
--
+|-------------- | -------------- |
+| ![Alt text](img/89.png)     | ![Alt text](img/90.jpg)      |
 
-Funktioniert größtenteils wie Thermotransferdrucker
-benötigt Spezialpapier und Thermotransferrollen
-Wachsbeschichtung der Transferrolle wird gasförmig
-Farbe diffundiert in das Papier mittels chemischer Reaktion
-ermöglicht fotorealistische Ausdrucke
-hohe Verbrauchsmaterialkosten
+- Funktioniert größtenteils wie Thermotransferdrucker
+- benötigt Spezialpapier und Thermotransferrollen
+- Wachsbeschichtung der Transferrolle wird gasförmig
+- Farbe diffundiert in das Papier mittels chemischer Reaktion
+- ermöglicht fotorealistische Ausdrucke hohe Verbrauchsmaterialkosten
 
-## 68 Thermosublimationsdrucker
-Einsatzgebiete
+<!-- ## 68 Thermosublimationsdrucker Einsatzgebiete -->
+### Einsatzgebiete
 
-Sofortdruck über Mobiltelefon,
-Speicherkarte, Digicams usw.
-sehr populär bei kompakten
-Photodruckern
+|-------------- | -------------- |
+| Sofortdruck über Mobiltelefon,Speicherkarte, Digicams usw.    | ![Alt text](img/91.jpg)      |
 
-Plastikkartendruck
-Plastikkarten einund mehrfarbig
-bedruckt und mit
-Schutzschicht
-versehen
 
-## 69 Thermosublimationsdrucker
-weitere Einsatzgebiete
-Passbilddruck
-Textildruck (z. B.: Warnwesten mit
-mehrfarbigen Druck)
+|-------------- | -------------- |-------------- |
+| sehr populär bei kompakten Photodruckern    | ![Alt text](img/93.png)      |![Alt text](img/94.png)      |
 
-Fotostudios
-z.B.: Präsentationsmappen in
-der Architektur
-oder Spezielle Kataloge
 
-## 70 Thermosublimationsdrucker
-Vorteile
+|-------------- | -------------- |
+| Plastikkartendruck Plastikkarten einund mehrfarbig bedruckt und mit Schutzschicht versehen   | ![Alt text](img/92.png)      |
+
+
+<!-- ## 69 Thermosublimationsdrucker  -->
+
+### weitere Einsatzgebiete
+
+
+- Passbilddruck
+
+- Textildruck (z. B.: Warnwesten mit mehrfarbigen Druck)
+
+- Fotostudios z.B.: Präsentationsmappen in der Architektur oder Spezielle Kataloge
+
+![Alt text](img/95.jpg)
+
+![Alt text](img/96.png)
+
+<!-- ## 70 Thermosublimationsdrucker -->
+
+### Vorteile 
 
 - Extrem hohe Farbtreue
-- gegenüber Umwelteinflüssen sehr widerstandsfähige
-  Druckergebnisse durch Eindampfen der Farbe und
-  zusätzliche Fixierschicht
-- bei Geräten für Privatanwender sehr kompakte
-  Ausmaße (Anschaffungskosten zwischen 80 - 500 €)
-- gegenüber anderen Thermotransferdruckern
-  (Verfahren) können Halbtöne unterscheiden (alle
-  anderen müssen rastern, was die Auflösung
-  herabsetzt)
+- gegenüber Umwelteinflüssen sehr widerstandsfähige Druckergebnisse durch Eindampfen der Farbe und zusätzliche Fixierschicht
+- bei Geräten für Privatanwender sehr kompakte Ausmaße (Anschaffungskosten zwischen 80 - 500 €)
+- gegenüber anderen Thermotransferdruckern (Verfahren) können Halbtöne unterscheiden (alle anderen müssen rastern, was die Auflösung herabsetzt)
 
-## 71 Thermosublimationsdrucker
-Nachteile
+<!-- ## 71 Thermosublimationsdrucker -->
+### Nachteile
 
-- sehr hohe Anschaffungskosten (Kommerziell)
-  (150 € bis zu mehreren tausend)
-- sehr hohe laufende Kosten durch Spezialpapier und spezielle
-  Trägerfolien
+- sehr hohe Anschaffungskosten (Kommerziell) (150 € bis zu mehreren tausend)
+- sehr hohe laufende Kosten durch Spezialpapier und spezielle Trägerfolien
 - (2 - 3 € pro Seite)
 - (25 - 30 € für das Papier) ein Band ca. 40 Bilder bei 10 x 15 cm
 
 - hoher Energieverbrauch durch Heizelemente
-- bei Druckvorgang wird immer nur eine Farbe aufgebracht, dadurch
-  muss der Drucker das Spezialpapier mehrfach an exakt den
-  gleichen Punkt zurückfahren, um Farbe aufzubringen, dadurch
-  Druckverfahren sehr langsam
-- sehr voluminöse und schwere Geräte für professionelle
-  Anwendungen
+- bei Druckvorgang wird immer nur eine Farbe aufgebracht, dadurch muss der Dru gleichen Punkt zurückfahren, um Farbe aufzubringen, dadurch Druckverfahren sehr langsam
+- sehr voluminöse und schwere Geräte für professionelle Anwendungen
+
+![Alt text](img/97.png)  
 
 ## 72 Elektrophotografischer
-Druck
-Laser
 
-LED
+**Druck:**
+- Laser
+- LED
+- LCS
+- Ionen
+- Magnet
 
-LCS
-
-Ionen
-
-Magnet
+<br>
 
 - Auch Xerographische Drucker
 - Verschiedene Licht-Quellen:
-- Laser, meist Laserdioden
-- LED, 2400 einzeln ansteuerbare LED
-- LCS, Liquid Crystal Shutter aus 2.400 Zellen
+  - Laser, meist Laserdioden
+  - LED, 2400 einzeln ansteuerbare LED
+  - LCS, Liquid Crystal Shutter aus 2.400 Zellen
 
-## 73 Entwicklung und Geschichte
+### 73 Entwicklung und Geschichte
 
 - 22.10.1938 von Chester Carlson
-- Begriff - Xerographie:
-  trockenes Schreiben
-- Kein chemischer Nassprozess -
-  physikalischer Trockenprozess ohne
-  feuchte chemische Zusätze
+- Begriff - Xerographie: trockenes Schreiben
+- Kein chemischer Nassprozess - physikalischer Trockenprozess ohne feuchte chemische Zusätze
 - sauber und trocken
 
 ## 74 Laser-/Leuchtdioden
 
-Laser - Technik
-
-LED - Technik
+|Laser - Technik|LED - Technik|
+|-------------- | -------------- |-------------- |
+| ![Alt text](img/99.png)      |![Alt text](img/98.jpg)      |
 
 ## 75 LED-Plotter (Drucker)
 
-- Für Belichtung einer Zeile sind bei einer
-  Auflösung
-  von 300 dpi 2560 Leuchtdioden nötig;
+![Alt text](img/100.jpg) 
+
+- Für Belichtung einer Zeile sind bei einer Auflösung von 300 dpi 2560 Leuchtdioden nötig;
 - bei 6OOdpi -Zeile 5120 Leuchtdioden.
+  
+![Alt text](img/101.jpg)
 
 - Großformatdrucker - Laserdrucker
 - 15 m/min Druckgeschwindigkeit
-- LED-Drucker - A0 innerhalb weniger
-  Sekunden
-- Auch Bahnen bedruckbar
-  (Rollenpapier)
+- LED-Drucker - A0 innerhalb weniger Sekunden
+- Auch Bahnen bedruckbar (Rollenpapier)
 
 ## 76 Weitere Varianten
 
-- LED-Drucker (Leuchtdiodenmatrix dient
-  als Belichtungsquelle)
-- LCS-Drucker (eine „liquid crystal“-Zeile
-  dient als optischer Schalter vor einer
-  Halogenröhre)
+- LED-Drucker (Leuchtdiodenmatrix dient als Belichtungsquelle)
+- LCS-Drucker (eine „liquid crystal“-Zeile dient als optischer Schalter vor einer Halogenröhre)
+  
+![Alt text](img/102.png)
 
 ## 77 Aufbau
+
 Aufbau eines s/wLaserdruckers:
 
-0
 
-1 - Elektronik
-2 - Bildleitertrommel
-3 - Tonereinheit
-4 - Papiertransport,
-Übertragung des
-latenten Bildes
-5 - Fixiereinheit
-0 - Gehäuse
+|-------------- | -------------- |
+| ![Alt text](img/103.jpg)    | 1 - Elektronik<br>2 - Bildleitertrommel<br>3 - Toner-einheit<br>4 - Papiertransport,<br>Übertragung des<br>latenten Bildes<br>5 - Fixiereinheit<br>0 - Gehäuse     | 
+
 
 ## 78 Funktion 1
-Bildtrommel, dreht
-sich im Uhrzeigersinn 
-die Corona sorgt für die Aufladung der Trommel
-![Alt text](img/104.png)
 
-## 79 Funktion 2
-die Belichtereinheit ist durch ein Blech verdeckt, damit die Strahlung nicht nach außen dringt und kein Fremdlicht in die Belichterzone eindringt
-![Alt text](img/105.png)
+|-------------- | -------------- |
+| ![Alt text](img/104.png)    | Bildtrommel, dreht sich im Uhrzeigersinn  die Corona sorgt für die Aufladung der Trommel   | 
 
-## 80 Funktion 3
+<!-- ## 79 Funktion 2 -->
 
-- 4 „Entwickler“,   pro Durchlauf nur einer   aktiv.
-- Farbbild >>   4 Umdrehungen   notwendig -  oder
-- 4 „Einheiten“ verfügbar   Das Papier wird über eine   Gummiband geführt. Positioniergenauigkeit
-  
-![Alt text](img/106.png)
+|-------------- | -------------- |
+| ![Alt text](img/105.png)    | die Belichtereinheit ist durch ein Blech verdeckt, damit die Strahlung nicht nach außen dringt und kein Fremdlicht in die Belichterzone eindringt  |
 
-## 81 Funktion 4
-Transfereinheit: Transfer-Trommel dreht sich gegen den Uhrzeigersinn. Auf ihr haftet das Papier und der Toner wird auf dieses übertragen. 
-![Alt text](img/107.png)
-## 82 Funktion 5
-Entladung, sowie Tonerreste entfernen  Fixierung des latenten Staubbildes
-![Alt text](img/108.png)
+
+
+<!-- ## 80 Funktion 3 -->
+
+|-------------- | -------------- |
+| ![Alt text](img/106.png)    | - 4 „Entwickler“,   pro Durchlauf nur einer   aktiv. <br> - Farbbild >>   4 Umdrehungen   notwendig <br>-  oder <br>- 4 „Einheiten“ verfügbar   Das Papier wird über eine   Gummiband geführt. Positioniergenauigkeit |
+
+
+
+<!-- ## 81 Funktion 4 -->
+
+|-------------- | -------------- |
+| ![Alt text](img/107.png)    | Transfereinheit: Transfer-Trommel dreht sich gegen den Uhrzeigersinn. Auf ihr haftet das Papier und der Toner wird auf dieses übertragen.  |
+
+
+<!-- ## 82 Funktion 5 -->
+
+|-------------- | -------------- |
+| ![Alt text](img/108.png)    | Entladung, sowie Tonerreste entfernen  Fixierung des latenten Staubbildes  |
+
 
 ## 83 Funktion im Überblick
+
 ![Alt text](img/109.png)
+
 ## 84 Bauteile
 
-![Alt text](img/110.jpg)
-![Alt text](img/111.jpg)
-![Alt text](img/112.jpg)
-![Alt text](img/113.jpg)
+|-------------- | -------------- | 
+| ![Alt text](img/110.jpg)    | ![Alt text](img/111.jpg)     | 
+|![Alt text](img/112.jpg) |![Alt text](img/113.jpg) |
 
 ## 85 Baugruppen des Laserdruckers
 
@@ -716,35 +658,39 @@ Entladung, sowie Tonerreste entfernen  Fixierung des latenten Staubbildes
 
 ## 87 Xerox-Drucker
 
-Color
-
-Monochrom
-
-Revolver
-(Fuor pass)
-
-Inline
-(Single pass)
+- Color
+- Monochrom
+  - Revolver (Fuor pass)
+  - Inline (Single pass)
 
 ## 88 Revolversystem
 
 ![Alt text](img/116.jpg)
 
 ## 89 In-line-System
+
 ![Alt text](img/117.jpg)
+
 ## 90 In-line-System
+
 ![Alt text](img/118.png)
+
 ## 91 PrismenlaserTechnology
+
 ![Alt text](img/119.jpg)
 
 kombiniert die kompakte Bauweise der Revolvertechnik mit der Schnelligkeit der Inline-Technik
 
 ## 92 Laserdrucker mit Photoband nach In-line-Prinzip
+
 ![Alt text](img/120.jpg)
+
 ## 93 Farb-Laserdrucker im Detail
-![Alt text](img/121.jpg)
-![Alt text](img/122.png)
-## 94 Transferband
+
+|-------------- | -------------- |
+|![Alt text](img/121.jpg) |![Alt text](img/122.png)     |
+
+Transferband
 
 Belichtertrommel
 
@@ -752,9 +698,11 @@ Tonerkassetten
 ![Alt text](img/123.jpg)
 
 ## 95 Druckerfolgekosten
+
 ![Alt text](img/124.png)
 
 ## 96 Einfache IT-Systeme
+
 Belichter
 ![Alt text](img/125.jpg)
 
@@ -762,111 +710,87 @@ Ausgabegeräte: Drucker
 
 ## 97 98 99 Belichtertrommel A4
 
-Transferband
+|-------------- | -------------- | -------------- |-------------- |
+| ![Alt text](img/126.jpg)    | Belichtertrommel     | 
+| ![Alt text](img/127.jpg)    | Transferband     | 
+| ![Alt text](img/128.jpg)    | Fixierer     | 
+| ![Alt text](img/129.jpg)    | CMYK-Toner     | 
 
-CMYK-Toner
-
-Fixierer
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
 
 ## 100 Rest-Tonerbehälter
 
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
-
-## 101 LED‘s stattLASER-Diode
+ ![Alt text](img/130.jpg)
 
 Einfache IT-Systeme
 
 Ausgabegeräte: Drucker
 
-## 102 Ein S/W-Laser- oder -Tintenstrahldrucker kann nur schwarze
-Punkte drucken
+
+## 101 LED‘s statt LASER-Diode
+
+ ![Alt text](img/131.jpg)
+
+
+## 102 Ein S/W-Laser- oder -Tintenstrahldrucker kann nur schwarze Punkte drucken
+
+ ![Alt text](img/132.png)
+
 Dithern
 
-Abbildung 1 zeigt, wie mit einer Matrix aus 4 x 4 Druckpunkten 17 Graustufen
-(inkl. Weiß und Schwarz) dargestellt werden können
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
+Abbildung 1 zeigt, wie mit einer Matrix aus 4 x 4 Druckpunkten 17 Graustufen (inkl. Weiß und Schwarz) dargestellt werden können Einfache 
 
 ## 103 LED-Drucker
 
-Einfache IT-Systeme
+ ![Alt text](img/133.png)
+ ![Alt text](img/134.jpg)
 
-Ausgabegeräte: Drucker
+![Alt text](img/135.jpg)
 
-## 104 Bildtrommel: Der Laser schreibt darauf ein unsichtbares Bild. An den belichteten
+Bildtrommel: Der Laser schreibt darauf ein unsichtbares Bild. An den belichteten Stellen bleibt der Toner haften.  
+<br>
+Fixierheinheit: Hier schmilzt der Drucker den noch losen Toner mittels Hitze und Druck ins Papier.
 
-Stellen bleibt der Toner haften.
-Einfache IT-Systeme
+![Alt text](img/136.jpg)
+![Alt text](img/137.jpg)
 
-![Alt text](img/132.png)
-Ausgabegeräte: Drucker
+Fixieroel: Damit werden die Fixierwalzen benetzt, damit der Toner auf dem Papier und nicht an den Fixierwalzen haften bleibt.
 
-## 105 Fixierheinheit: Hier schmilzt der Drucker den noch losen Toner mittels Hitze
-und Druck ins
-Papier.
+<br>
 
-Einfache IT-Systeme
+Die Übertragungswalze: Sie nimmt das komplette Bild mit allen vier Grundfarben auf.
 
-Ausgabegeräte: Drucker
+![Alt text](img/138.jpg)
+![Alt text](img/139.jpg)
 
-## 106 Fixieroel: Damit werden die Fixierwalzen benetzt, damit der Toner auf dem Papier und
-nicht an den Fixierwalzen haften bleibt.
+**Wegwerfbildtrommeln** haben eine sehr dünne organische fotosensitive Beschichtung und verschleißen relativ schnell
 
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
-
-## 107 Die Übertragungswalze: Sie nimmt das komplette Bild mit
-allen vier Grundfarben auf.
-
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
-
-## 108 Wegwerfbildtrommeln haben eine sehr
-dünne organische fotosensitive Beschichtung
-und verschleißen relativ schnell
-
-semipermanente Bildtrommeln haben
+**semipermanente Bildtrommeln** haben
 eine dickere, organische, fotosensitive
 Beschichtung und verschleißen weniger schnell.
 
-permanente Bildtrommeln besitzen eine
+**permanente Bildtrommeln** besitzen eine
 sehr harte fotosensitive Beschichtung aus
 amorphem Silizium oder eine dicke
 organische Beschichtung
 
-Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
+![Alt text](img/140.jpg)
 
 ## 109 Einfache IT-Systeme
 
-Ausgabegeräte: Drucker
+<!-- ## 110 Einfache IT-Systeme -->
 
-## 110 Einfache IT-Systeme
-
-Ausgabegeräte: Drucker
+![Alt text](img/140.png)
+![Alt text](img/141.png)
 
 ## 111 Flächengewicht von Papier
 
-Einfache IT-Systeme
-![Alt text](img/140.png)
-![Alt text](img/141.png)
 ![Alt text](img/142.png)
-Ausgabegeräte: Drucker
-
-
 
 ## 112 Druckkosten im Vergleich
-Der Vergleich in der Tabelle zeigt, dass sich in einem mittelständischen Unternehmen auch ohne Vertragsbindung erheblich sparen lässt. Wir gehen dabei von einem Unternehmen mit 100 Mitarbeitern aus, die mit zehn Farblaserdruckern monatlich 100.000 Ausdrucke zu Papier bringen (85.000 Schwarz-Weiß- und 15.000 Farbseiten). Der Anschaffungspreis des Farblasers ist bereits im Seitenpreis enthalten. Kosten für Verbrauchsmaterial und Verschleißteile fließen über eine Laufzeit von 36 Monaten in die monatliche Rechnung respektive den Seitenpreis ein.  Einfache IT-Systeme 
-Ausgabegeräte: Drucker
+
+Der Vergleich in der Tabelle zeigt, dass sich in einem mittelständischen Unternehmen auch ohne Vertragsbindung erheblich sparen lässt. Wir gehen dabei von einem Unternehmen mit 100 Mitarbeitern aus, die mit zehn Farblaserdruckern monatlich 100.000 Ausdrucke zu Papier bringen (85.000 Schwarz-Weiß- und 15.000 Farbseiten). Der Anschaffungspreis des Farblasers ist bereits im Seitenpreis enthalten. Kosten für Verbrauchsmaterial und Verschleißteile fließen über eine Laufzeit von 36 Monaten in die monatliche Rechnung respektive den Seitenpreis ein.  
+
+![Alt text](img/143.png)
 
 ## 113 Einrichtung
 
@@ -880,10 +804,8 @@ Ausgabegeräte: Drucker
 
 - Bei Toner- und Bauteilwechsel - Gerät mit   Spezialstaubsauger (mit Feinstaubfilter) reinigen
 - Bildleitertrommel wenig dem Licht aussetzen und NICHT mit den Fingern berühren
-- Nur sauberes Papier (!Umweltpapier!)
-  verwenden, Transportwalzen verkleben durch   Papierstaub und müssen öfter gereinigt oder   ausgetauscht werden
-- Papierstau nicht mit Gewalt oder gar falschem
-  Werkzeug entfernen
+- Nur sauberes Papier (!Umweltpapier!) verwenden, Transportwalzen verkleben durch   Papierstaub und müssen öfter gereinigt oder   ausgetauscht werden
+- Papierstau nicht mit Gewalt oder gar falschem Werkzeug entfernen
 
 ## 115 Einsatzgebiete und Wartung 2
 
@@ -891,129 +813,74 @@ Ausgabegeräte: Drucker
 - Papier darf keine Klammern oder andere   Fremdkörper haben
 - Bei einseitig bedrucktem Papier, keine   Signatorfarben oder Offsetfarben
 
-## 116 Einsatzgebiete und Wartung
+## 116 Einsatzgebiete und Wartung - mögliche Gefahren
 
-- mögliche Gefahren
-- Durch die Hochspannungsentladung
-  entsteht Ozon
-- Entstehung von Lösungsmitteldämpfen
-  (Benzol und Styrol)
-- Relativ hohe Temperatur des
-  Trägermaterials (bis ca. 200 °C), Beispiele
+- Durch die Hochspannungsentladung entsteht Ozon
+- Entstehung von Lösungsmitteldämpfen (Benzol und Styrol)
+- Relativ hohe Temperatur des Trägermaterials (bis ca. 200 °C), Beispiele
 - Feinstaub bei Toner- und Bildleiterwechsel
 
-## 117 Einsatzgebiete und Wartung
+## 117 Einsatzgebiete und Wartung - Bedruckbare Medien
 
-- Bedruckbare Medien
-- Papier mit einem Gewicht von mind.
-  60 g/m² bis max. 150 g/m² - Probleme mit
-  Fixierung
-- Folien und Adressetiketten müssen (!)
-  kopiertauglich, d. h. müssen die hohen
-  Temperaturen in der Fixiereinheit
-  aushalten
-- Medien müssen (!) biegsam sein (keine zu
-  schweren Pappen oder gar CD‘s)
+- Papier mit einem Gewicht von mind. 60 g/m² bis max. 150 g/m² - Probleme mit Fixierung
+- Folien und Adressetiketten müssen (!) kopiertauglich, d. h. müssen die hohen Temperaturen in der Fixiereinheit aushalten
+- Medien müssen (!) biegsam sein (keine zu schweren Pappen oder gar CD‘s)
 
 ## 118 „Erste Hilfe 1“
 
-- Bei Toner-Kontakt mit der Haut, mit kaltem
-  Wasser und Seife abwaschen
-- Bei Toner-Kontakt mit den Augen, mit reichlich
-  kaltem Wasser auswaschen und Arzt aufsuchen
-- Bei Verschlucken, mindestens 300 - 500 ml
-  kaltes Wasser zu trinken geben und Arzt
-  aufsuchen
-- Bei Einatmen, sofort an die frische Luft und Arzt
-  aufsuchen
+- Bei Toner-Kontakt mit der Haut, mit kaltem Wasser und Seife abwaschen
+- Bei Toner-Kontakt mit den Augen, mit reichlich kaltem Wasser auswaschen und Arzt aufsuchen
+- Bei Verschlucken, mindestens 300 - 500 ml kaltes Wasser zu trinken geben und Arzt aufsuchen
+- Bei Einatmen, sofort an die frische Luft und Arzt aufsuchen
 
 ## 119 „Erste Hilfe 2“
 
-- Tonerstäube stellen ein Explosionsrisiko dar. Bei
-  Tonerstaubwolke, sofort alle Zündquellen
-  löschen o. entfernen.
-- Verschütteten Toner mit Spezial-Staubsauger
-  aufnehmen (NICHT wegblasen!).
-  Reste mit KALTEM Wasser wegwischen.
-- Verbrauchte Toner und Bauelemente sind
-  Sondermüll
+- Tonerstäube stellen ein Explosionsrisiko dar. Bei Tonerstaubwolke, sofort alle Zündquellen löschen o. entfernen.
+- Verschütteten Toner mit Spezial-Staubsauger aufnehmen (NICHT wegblasen!). Reste mit KALTEM Wasser wegwischen.
+- Verbrauchte Toner und Bauelemente sind Sondermüll
 
 ## 120 Vorteile
 
-- Gute Druckqualität - 1200 dpi
-  (dots per inch, 1 Punkt ~20 µm )
+- Gute Druckqualität - 1200 dpi  (dots per inch, 1 Punkt ~20 µm )
 - Hohe Druckgeschwindigkeit > 8 Seiten/min
-- Drucke sind wasserfest und UV-beständig, kein
-  „Ausbluten“ von Konturen
+- Drucke sind wasserfest und UV-beständig, kein „Ausbluten“ von Konturen
 - Unempfindlich gegenüber verschiedenen Papiersorten
-- Druckkosten sind meist erheblich geringer als bei
-  Tintenstrahldruckern
+- Druckkosten sind meist erheblich geringer als bei Tintenstrahldruckern
 - Lebenserwartung höher
-- Lange Wartungsintervalle (kein Eintrocknen oder
-  verstopfen) #
+- Lange Wartungsintervalle (kein Eintrocknen oder verstopfen) 
 
- ## 121 Nachteile
+## 121 Nachteile
 
--
--
--
--
--
--
--
--
-
-Geringerer Farbraum und härtere Kontraste
-Fehlende Tiefenwirkung und Rasterung
-Dunkles wird dunkler, Helles wird heller
-Komplizierte Mechanik
-Große Bauweise,
-Nur bestimmte bedruckbare Medien
-Hoher Energieverbrauch
-Emission von Ozon, Feinstaub und Lösungsmitteln
-Sinnvoll bei hohen Druckauflagen und langen
-Druckpausen #
+- Geringerer Farbraum und härtere Kontraste
+- Fehlende Tiefenwirkung und Rasterung
+- Dunkles wird dunkler, Helles wird heller
+- Komplizierte Mechanik
+- Große Bauweise,
+- Nur bestimmte bedruckbare Medien
+- Hoher Energieverbrauch
+- Emission von Ozon, Feinstaub und Lösungsmitteln
+- Sinnvoll bei hohen Druckauflagen und langen Druckpausen 
 
 ## 122 Lernzielkontrolle
 
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
-
-Wie werden Drucker nach dem Druckverfahren unterschieden?
-Wie werden Drucker nach der Zeichengestaltung unterschieden?
-Was ist der Unterschied zwischen einem Seiten- und einem Zeilendrucker?
-Wie werden „saubere“ Zeichen gedruckt?
-Was verstehen Sie unter Dithering?
-Was verstehen Sie unter Resolution Enhanced Technology?
-Nennen Sie die 2 unterschiedlichen Tintenstrahldrucktechnologien!
-Was verstehen Sie unter Duplexeinrichtung?
-Nennen Sie 3 gebräuchliche Xerox-Drucktechnologien. Wie unterscheiden sie sich?
-Beschriften Sie die Bestandteile eines Xeroxdruckers in der Abbildung!
-Bringen Sie die Teilvorgänge beim Xeroxdruck in die richtige Reihenfolge, beginnend mit dem Empfang
-der Daten!
-Nennen Sie 3 wesentliche Verschleißteile eines Xeroxdruckers!
-Nennen Sie 5 Gesichtspunkte, die bei der Arbeit und dem Wechsel der Verschleißteile von
-Xeroxdruckern beachtet werden müssen.
-Was muss bei der Papierwahl bei Xeroxdruckern beachtet werden?
-Welche Nachteile hat ein Xeroxdrucker?
-Welche Kriterien sprechen für einen Xeroxdruckern und welche für einen Tintenstrahldrucker?
-Was ist bei Schädigungen durch Toner zu beachten?
-Was ist beim Wechsel des Verbrauchsmaterials eines Xerox-Druckers zu beachten?
+- Wie werden Drucker nach dem Druckverfahren unterschieden?
+- Wie werden Drucker nach der Zeichengestaltung unterschieden?
+- Was ist der Unterschied zwischen einem Seiten- und einem Zeilendrucker?
+- Wie werden „saubere“ Zeichen gedruckt?
+- Was verstehen Sie unter Dithering?
+- Was verstehen Sie unter Resolution Enhanced Technology?
+- Nennen Sie die 2 unterschiedlichen Tintenstrahldrucktechnologien!
+- Was verstehen Sie unter Duplexeinrichtung?
+- Nennen Sie 3 gebräuchliche Xerox-Drucktechnologien. Wie unterscheiden sie sich?
+- Beschriften Sie die Bestandteile eines Xeroxdruckers in der Abbildung!
+- Bringen Sie die Teilvorgänge beim Xeroxdruck in die richtige Reihenfolge, beginnend mit dem Empfang der Daten!
+- Nennen Sie 3 wesentliche Verschleißteile eines Xeroxdruckers!
+- Nennen Sie 5 Gesichtspunkte, die bei der Arbeit und dem Wechsel der Verschleißteile von Xeroxdruckern beachtet werden müssen.
+- Was muss bei der Papierwahl bei Xeroxdruckern beachtet werden?
+- Welche Nachteile hat ein Xeroxdrucker?
+- Welche Kriterien sprechen für einen Xeroxdruckern und welche für einen Tintenstrahldrucker?
+- Was ist bei Schädigungen durch Toner zu beachten?
+- Was ist beim Wechsel des Verbrauchsmaterials eines Xerox-Druckers zu beachten?
 
 
 
