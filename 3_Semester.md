@@ -1491,4 +1491,30 @@ aber eventuel keine neue verbindung
 
 The command sudo ip link set wlan0 name wlan1mon is used to rename a network interface in Linux. In this specific case, it renames a wireless network interface named 
 
+## 17 10 2023
+
+### luc
+
+- unsplash
+- flaticon
+- frrepik.com
+  
+### wiso 
+
+### Leasingrate
+
+Entgelt, das der Leasingnehmer an den Leasinggeber für die Nutzung des Leasingobjektes zahlen muss.
+
+Für die Berechnung der Höhe der Leasingrate legt der Leasinggeber seine Abschreibungen, eine angemessene Verzinsung des eingesetzten Kapitals, eine Risikoprämie, anfallende Verwaltungskosten, evtl. anfallende Wartungs- und Reparaturkosten sowie einen Gewinnaufschlag zugrunde.
+
+### finance Leasing
+
+Langfristiges Leasing, bei dem eine unkündbare Grundmietzeit vereinbart wird. Weder Leasingnehmer noch Leasinggeber können kündigen. Die Grundmietzeit beträgt i. d. R. 50 % bis 70 % der betriebsgewöhnlichen Nutzungsdauer des Leasingobjekts.
+
+Durch die unkündbare Grundmietzeit trägt der Leasingnehmer das Investitionsrisiko. Finance Leasing kommt bei Leasingobjekten zum Einsatz, die sich nicht problemlos anderweitig weitervermieten lassen (z. B. bei Spezialmaschinen).
+
+### Leasingrate
+
+
+
 footnotes:
