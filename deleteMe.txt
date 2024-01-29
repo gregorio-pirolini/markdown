@@ -1,0 +1,25 @@
+
+
+<tr><td colspann=3></td></tr>
+<tr><td>Pat_Name</td><td>Pat_Vorname</td><td>Pat_GebDatum</td></tr>
+<tr><td>Grenzfeld</td><td>Thorsten</td><td>04.06.1990</td></tr>
+<tr><td>Neuhaus</td><td>Anne</td><td>01.06.1988</td></tr>
+<tr><td>Sardon</td><td>Sandra</td><td>31.03.1988</td></tr>
+<tr><td>Muller</td><td>Peter</td><td>06.02.1966</td></tr>
+<tr><td>Trostan</td><td>Jannick</td><td>15.02.1957</td></tr></table>
+<table class="table table-bordered">
+<tr><td>Pat_AufnahmeDatum</td><td>PatAuf_EntlassDatum</td><td>Dauer</td><td>Z_ZimmerNummer</td><td>Stat_Station</td><td>Bett_Nummer</td></tr>
+<tr><td>07.02.2020</td><td>24.02.2020</td><td>17</td><td>212</td><td>lnnere</td><td>00358999</td></tr>
+<tr><td>01.02.2020</td><td>26.02.2020</td><td>25</td><td>212</td><td>lnnere</td><td>00358999</td></tr>
+<tr><td>26.02.2020</td><td>28.02.2020</td><td>2</td><td>212</td><td>lnnere</td><td>00358999</td></tr></table>
+
+SELECT Bett_Nummer FROM Betten
+WHERE
+(SELECT COUNT(PatAuf_ID) FROM (Patient_Aufenthalt AS PatAuf LEFT JOIN Zimmer AS Z ON PatAuf.PatAuf_ZID = Z.Z_ID) WHERE Z.Z_BettID = Betten.Bett_ID
+AND
+( PatAuf.PatAuf_EntIassDatum IS NULL ) OR
+( DAY(PatAuf.PatAuf_EntlassDatum) <= 21 AND MONTH(PatAuf.PatAuf_EntlassDatum) = 4 AND YEAR(PatAuf.PatAuf_EntlassDatum) =
+2020 ) OR
+( MONTH(PatAuf.PatAuf_EntlassDatum) < 4 AND YEAR(PatAuf.PatAuf_EntlassDatum) = 2020 ) OR
+( YEAR(PatAuf.PatAuf_EntIassDatum) < 2020 )
+)=0;

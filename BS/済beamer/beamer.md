@@ -22,9 +22,9 @@
 
 ## 4 Projektionstechniken
 
-| Aufprojektion oder Frontprojektion  | Rückprojektion|
-|-------------- | -------------- |
-| ![Alt text](img/1.png)    | ![Alt text](img/2.png)     |
+| Aufprojektion oder Frontprojektion | Rückprojektion         |
+| ---------------------------------- | ---------------------- |
+| ![Alt text](img/1.png)             | ![Alt text](img/2.png) |
 
 ## 5 Rückprojektion
 
@@ -59,25 +59,25 @@
 
 ### 1 Glühlampen
 
-| -  | -   |
-| ![Alt text](img/4.png)  | ![Alt text](img/5.jpg)     |
-| ![Alt text](img/7.png)    | ![Alt text](img/6.jpg)     |
+| - | - |
+| ![Alt text](img/4.png) | ![Alt text](img/5.jpg) |
+| ![Alt text](img/7.png) | ![Alt text](img/6.jpg) |
 
 ### 2 Gasentladungslampen
 
-| -  | -   |
-| ![Alt text](img/8.jpg)  | ![Alt text](img/9.jpg)     |
-| ![Alt text](img/10.jpg)    | -     |
+| - | - |
+| ![Alt text](img/8.jpg) | ![Alt text](img/9.jpg) |
+| ![Alt text](img/10.jpg) | - |
 
 ### 3 LED[^5]
 
-| -  | -   |
-| ![Alt text](img/11.jpg)  | ![Alt text](img/12.jpg)     |
+| - | - |
+| ![Alt text](img/11.jpg) | ![Alt text](img/12.jpg) |
 
 ### 4 Laser
 
-| -  | -   |
-| ![Alt text](img/13.jpg)  | ![Alt text](img/14.jpg)     |
+| - | - |
+| ![Alt text](img/13.jpg) | ![Alt text](img/14.jpg) |
 
 ## 12 Projektoren
 
@@ -86,12 +86,12 @@
 
 ### Analoge Projektoren 1 Eidophor
 
-| -  | -   |
-| ![Alt text](img/15.jpg)  | ![Alt text](img/16.png)     |
+| - | - |
+| ![Alt text](img/15.jpg) | ![Alt text](img/16.png) |
 
 Das Eidophor System war das erste System, das lichtstarke Bilder in hoher Auflösung liefern konnte und war im professionellen Bereich bis in die späten 1980er Jahre üblich.
 
- ![Alt text](img/17.jpg)
+![Alt text](img/17.jpg)
 
 ### 15 Analoge Projektoren 2 Röhrenprojektoren (CRT)
 
@@ -102,11 +102,10 @@ Das Eidophor System war das erste System, das lichtstarke Bilder in hoher Auflö
     Heimkino;7‘ und 8‘ Geräte in Rückprojektionsfernseher
 - Elektrostatische Fokussierung
 
-
-| Column1  | Column2   |
-|-------------- | -------------- |
-| ![Alt text](img/18.jpg)    |  ![Alt text](img/19.jpg)       |
-|  ![Alt text](img/21.jpg)       | ![Alt text](img/20.jpg)       |
+| Column1                 | Column2                 |
+| ----------------------- | ----------------------- |
+| ![Alt text](img/18.jpg) | ![Alt text](img/19.jpg) |
+| ![Alt text](img/21.jpg) | ![Alt text](img/20.jpg) |
 
 ## 17 Analoge Projektoren Vorteile
 
@@ -115,7 +114,7 @@ Das Eidophor System war das erste System, das lichtstarke Bilder in hoher Auflö
 - Es existiert fast keine Verzögerungszeit. Dadurch ist Video mit Zeilensprungverfahren (interlacing) kein Problem.
 - Es ist keine Lampe erforderlich, da die Röhren selbst Licht erzeugen und typische Lebensdauern von mindestens 10.000 Stunden haben.
 - Die Röhren erzeugen sehr hohe Kontraste (1 : 10.000 bis 30.000) und sehr gute Schwarzwerte.
-  
+
 [^6]: NTSC **National Television Standards Committee**, named for the group that originally developed the black & white and subsequently color television system that is used in the United States, Japan and many other countries.
 
 ## 18 Analoge Projektoren Nachteile
@@ -134,8 +133,8 @@ Das Eidophor System war das erste System, das lichtstarke Bilder in hoher Auflö
 - LED[^5]-Projektoren
 - LCoS[^7]-Projektoren
 - Laser-Projektoren
-  
-[^7]: LCoS Liquid crystal on silicon is a miniaturized reflective active-matrix liquid-crystal display or "microdisplay" using a liquid crystal layer on top of a silicon backplane. 
+
+[^7]: LCoS Liquid crystal on silicon is a miniaturized reflective active-matrix liquid-crystal display or "microdisplay" using a liquid crystal layer on top of a silicon backplane.
 
 ## 20 Digitale Projektoren 1 LCD[^4] Projektoren
 
@@ -151,14 +150,13 @@ Viele andere nutzen die LCD[^4]-Chiptechnik
 
 Problem Fliegengitter
 
+| - | - |
+| ![Alt text](img/24.jpg) |![Alt text](img/25.jpg) |
 
-| -  | -   | 
-| ![Alt text](img/24.jpg)    |![Alt text](img/25.jpg)    |
+![Alt text](img/27.png)
+![Alt text](img/26.jpg)
 
-![Alt text](img/27.png) 
-![Alt text](img/26.jpg) 
-
-![Alt text](img/28.jpg) 
+![Alt text](img/28.jpg)
 
 ### Nachteile:
 
@@ -167,11 +165,11 @@ Problem Fliegengitter
 - Aufgrund fixer Displayauflösung im Gerät ist die beste Qualität nur bei einer bestimmten Auflösung des Eingangssignals gegeben. Ansonsten ist eine qualitätsmindernde Skalierung nötig.
 - Bei frühen Geräten: Nachziehen des Bildes durch die Trägheit der LCD[^4]s.
 
-[^8]:XGA-Geräte Extended Graphics Array (XGA) is a computer display standard that provides 1,024 by 768 pixels in 256 colors, or 640 by 480 pixels in 16-bit color.
+[^8]: XGA-Geräte Extended Graphics Array (XGA) is a computer display standard that provides 1,024 by 768 pixels in 256 colors, or 640 by 480 pixels in 16-bit color.
 
 - LCD[^4]-Memory-Effekt (Einbrennen): Werden Stellen zu lange mit zu hellen Bildern angeregt, so werden diese Stellen langsam permanent dunkel.
 - Ausbleichen der Farbstoffe von organischen LCD[^4]s. Nach einigen 1000 Stunden Betriebsdauer sind die Farbstoffe dieser LCD[^4]s im Allgemeinen infolge der hohen Lichtintensität ausgeblichen. Anorganische LCD[^4]-Panels, welche seit 2008 vermehrt eingesetzt werden, besitzen dieses Manko laut Herstellerangaben nicht mehr und besitzen eine „weit
-längere“, allerdings mit bisher noch unspezifizierter Lebensdauer.
+  längere“, allerdings mit bisher noch unspezifizierter Lebensdauer.
 
 - Empfindlichkeit gegenüber Staub und Rauch, da sowohl die Lampe als auch die Panels mit frischer Luft gekühlt werden müssen. Eine inkapselung/Versiegelung der optischen Einheit ist daher nicht möglich (im Gegensatz zu DLP[^2]-Projektoren). In sehr staubigen oder rauchigen Umgebungen lässt die Bildqualität daher schnell nach.
 - Die Lichtleistung der Lampe lässt innerhalb der ersten 100 Stunden um ca. 15 % bis 25 % nach.
@@ -189,16 +187,16 @@ längere“, allerdings mit bisher noch unspezifizierter Lebensdauer.
 - Digital Light Prozessor
 - Digital Mirror Device (Mikro-Kippspiegel)
 - Helligkeitsunterschiede durch Kippfrequenz (bis 5000 Hz)
-  
+
 ![Alt text](img/29.jpg)
 
 Beamer mit 1 Chip DLP[^2] und Farbrad
 
-| -  | -   |
-| ![Alt text](img/30.jpg)    | ![Alt text](img/31.jpg)    |
+| - | - |
+| ![Alt text](img/30.jpg) | ![Alt text](img/31.jpg) |
 
-| -  | -   |
-| ![Alt text](img/33.jpg)    | ![Alt text](img/32.jpg)    |
+| - | - |
+| ![Alt text](img/33.jpg) | ![Alt text](img/32.jpg) |
 
 ### Vorteile Digitale Projektoren DLP
 
@@ -208,7 +206,7 @@ Beamer mit 1 Chip DLP[^2] und Farbrad
 - weniger stark ausgeprägte Pixelstruktur als bei LCD[^4]- Projektoren
 - durch gekapselte Optik und langlebiges DMD weniger staubempfindlich als LCD[^4]-Projektoren
 
-### Nachteile Digitale Projektoren DLP  
+### Nachteile Digitale Projektoren DLP
 
 - Aufgrund fixer Displayauflösung im Gerät ist die beste Qualität nur bei einer bestimmten Auflösung des Eingangssignals gegeben. Ansonsten ist eine qualitätsmindernde Skalierung nötig.
 - Regenbogeneffekte bei einigen Geräten mit Farbrad, wenn das Farbrad keine hohe Umdrehungsgeschwindigkeit hat (herstellerabhängig).
@@ -224,8 +222,8 @@ Beamer mit 1 Chip DLP[^2] und Farbrad
 - Anfangs wurden noch DLP[^2] zur Bildgebung eingesetzt
 - jetzt LCD[^4]-Technik
 
-| -  | -   |
-| ![Alt text](img/35.jpg)    | ![Alt text](img/34.jpg)    |
+| - | - |
+| ![Alt text](img/35.jpg) | ![Alt text](img/34.jpg) |
 
 ### 38 Digitale Projektoren LED[^5]-Projektoren Vorteile
 
@@ -247,18 +245,18 @@ Beamer mit 1 Chip DLP[^2] und Farbrad
 LCoS-Technik - Liquid Crystal on Silicon (dt.
 ‚Flüssigkristalle auf [einem] Silizium[substrat])
 
-| -  | -   |
-| ![Alt text](img/37.jpg)    | ![Alt text](img/36.png)    |
+| - | - |
+| ![Alt text](img/37.jpg) | ![Alt text](img/36.png) |
 
-| ![Alt text](img/38.png)    | ![Alt text](img/40.png)    |
+| ![Alt text](img/38.png) | ![Alt text](img/40.png) |
 
 ![Alt text](img/39.png)
 
-| -  | -   |
-| ![Alt text](img/41.jpg)    | ![Alt text](img/36.png)    |
+| - | - |
+| ![Alt text](img/41.jpg) | ![Alt text](img/36.png) |
 
-| -  | -   |
-| ![Alt text](img/42.jpg)    | ![Alt text](img/44.jpg)    |
+| - | - |
+| ![Alt text](img/42.jpg) | ![Alt text](img/44.jpg) |
 
 ![Alt text](img/43.png)
 
@@ -267,7 +265,7 @@ LCoS-Technik - Liquid Crystal on Silicon (dt.
 - kompakte Bauweise
 - scharfe Bilder
 - geringer Helligkeitsverlust bei Einsatz
-hochauflösender Panels
+  hochauflösender Panels
 
 ### Nachteile LCoS Projektoren
 
@@ -282,7 +280,7 @@ hochauflösender Panels
 - Bildaufbau mit Hilfe eines modulierten und schnell abgelenkten Laserstrahls
 - Laserdisplaytechnologie (LDT[^9])
 - Graiting Light Valve V
-  
+
 [^9]: LDT Laserdisplaytechnologie
 
 - Gera und Jena wurde die Laser Display Technology (LDT[^9]) entwickelte dabei wird das Bild zeilenweise auf die Projektionsfläche geschrieben
@@ -343,33 +341,33 @@ Das Kernmodul ist nur 7 mm tief und ermöglicht je nach Abstand von der Projekti
 
 ## 56 Picobeamer für Handys
 
-| -  | -   |
-| ![Alt text](img/53.jpg)    | ![Alt text](img/54.jpg)    |
+| - | - |
+| ![Alt text](img/53.jpg) | ![Alt text](img/54.jpg) |
 
 VGA[^11]-Auflösung (640 x 480 Pixel) mit bis zu 40 Zoll Diagonale an die Wand.
-Als Lichtquelle kommen LEDs zum Einsatz.  Dabei setzt 3M auf "Liquid Crystal on Silicon" (LCOS[^7]) in  Kombination mit einer proprietären optischen Technik.  
+Als Lichtquelle kommen LEDs zum Einsatz. Dabei setzt 3M auf "Liquid Crystal on Silicon" (LCOS[^7]) in Kombination mit einer proprietären optischen Technik.
 
-[^11]:VGA Video Graphics Array
+[^11]: VGA Video Graphics Array
 
 ## 57 Toshiba und die Zukunft der LED[^5] Beamer
 
-| -  | -   |
-| ![Alt text](img/55.jpg)    | ![Alt text](img/56.jpg)    |
-| ![Alt text](img/57.jpg)    | ![Alt text](img/58.jpg)    |
+| - | - |
+| ![Alt text](img/55.jpg) | ![Alt text](img/56.jpg) |
+| ![Alt text](img/57.jpg) | ![Alt text](img/58.jpg) |
 
-![Alt text](img/59.jpg) 
+![Alt text](img/59.jpg)
 
 Bei den ganz kleinen Geräten peilt man einen Lichtstrom von 10 ANSI-Lumen an, bei den größeren Varianten bis zu 1500 Lumen
 
 ## 59 Pico Projektor Displays
 
-| -  | -   |
-| ![Alt text](img/60.jpg)    | ![Alt text](img/61.jpg)    |
+| - | - |
+| ![Alt text](img/60.jpg) | ![Alt text](img/61.jpg) |
 
 ## 60 Kombinierte Systeme 1
 
-| -  | -   |-   |
-| ![Alt text](img/63.png)    | ![Alt text](img/65.png) |  ![Alt text](img/64.png)  
+| - | - |- |
+| ![Alt text](img/63.png) | ![Alt text](img/65.png) | ![Alt text](img/64.png)
 
 ![Alt text](img/62.png)
 
@@ -379,13 +377,12 @@ DLP1-Chip d.h.Regenbogeneffekt
 
 ![Alt text](img/66.jpg)
 
-
-
 XGA[^8]-Auflösung (1024 × 768 Pixel) WXGA-Modelle (1280 × 800 Pixel) Top-Modelle schaffen 3000 Lumen ab 1000 €
+
 <hr>
 
-| -  | -   |-   |
-| ![Alt text](img/67.jpg)    | ![Alt text](img/68.png) |  ![Alt text](img/68.jpg)![Alt text](img/69.png)  
+| - | - |- |
+| ![Alt text](img/67.jpg) | ![Alt text](img/68.png) | ![Alt text](img/68.jpg)![Alt text](img/69.png)
 
 4K-Kinoprojektoren jetzt auch mit DLP-Technik
 
@@ -396,21 +393,21 @@ Auch in LCoS-Technik
 
 ## 63 Technische Kennwerte für Beamer
 
- ![Alt text](img/72.jpg)
+![Alt text](img/72.jpg)
 
-| -  | -   |
-| ![Alt text](img/70.png)    | ![Alt text](img/71.png) | 
+| - | - |
+| ![Alt text](img/70.png) | ![Alt text](img/71.png) |
 
 ## 64 Projektionslampen
 
-| -  | -   |-   |
-| ![Alt text](img/73.jpg)    | ![Alt text](img/74.jpg) |  ![Alt text](img/75.jpg) | 
+| - | - |- |
+| ![Alt text](img/73.jpg) | ![Alt text](img/74.jpg) | ![Alt text](img/75.jpg) |
 
 Halogenlampen  
 Metalldampflampe  
 Xenon-Hochdrucklampen  
 UHP[^12]-UHE[^13]-VIP[^14]-SHP[^15] Lampen  
-UHP[^12] (Ultra High Performance)  
+UHP[^12] (Ultra High Performance)
 
 ## 65 Lampenkosten
 
@@ -419,7 +416,7 @@ UHE[^13] = 250 bis 750 Euro
 SHP[^15] = 250 bis 750 Euro  
 VIP[^14] = 250 bis 750 Euro  
 Xenon = 500 bis 1250 Euro  
-Halogen = 10 bis 75 Euro  
+Halogen = 10 bis 75 Euro
 
 [^12]: UHP Ultra-high-performance lamp
 [^13]: UHE Ultra-high efficiency Lamp
@@ -461,12 +458,12 @@ sxga[^20],
 uxga[^21],
 ...
 
-[^16]:svga Super VGA (SVGA) is a broad term that covers a wide range of computer display standards that extended IBM's VGA specification.
-[^17]:pal Phase Alternate Line. This is the video format standard used in many European countries. A PAL picture is made up of 625 interlaced lines and is displayed at a rate of 25 frames per second. 
-[^18]:hdtv describes a television or video system which provides a substantially higher image resolution than the previous generation ...
-[^19]:wxga wide extended graphics array
-[^20]:sxga Super Extended Graphics Array
-[^21]:uxga Ultra Extended Graphics Array
+[^16]: svga Super VGA (SVGA) is a broad term that covers a wide range of computer display standards that extended IBM's VGA specification.
+[^17]: pal Phase Alternate Line. This is the video format standard used in many European countries. A PAL picture is made up of 625 interlaced lines and is displayed at a rate of 25 frames per second.
+[^18]: hdtv describes a television or video system which provides a substantially higher image resolution than the previous generation ...
+[^19]: wxga wide extended graphics array
+[^20]: sxga Super Extended Graphics Array
+[^21]: uxga Ultra Extended Graphics Array
 
 ![Alt text](img/77.png)
 
@@ -510,8 +507,7 @@ Messung der reflektierten Beleuchtungsstärke von der Projektionswand Multiplika
 
 <o>Lichtstrom (lm (Beamer)  
 = 5 x reflekt. Beleucht. st. (lx) a. d. Projektionsw x Fläche  
-Beleuchtungsstärke (lx) = Lichtstrom (lm) / Fläche (m
-2)<o>
+Beleuchtungsstärke (lx) = Lichtstrom (lm) / Fläche (m 2)<o>
 
 ## 74 ANSI Lumen
 
@@ -548,15 +544,15 @@ lm: 1.350 alm
 
 1. Wie unterscheiden sich Front und Rückprojektion?
 2. Welches sind die Unterschiede zwischen digitaler und
-analoger Projektion?
+   analoger Projektion?
 3. Welche Beleuchtungssysteme gibt es?
 4. Wie kann man die Beleuchtungssysteme vergleichen?
 5. Welche unterschiedlichen Projektionssysteme gibt es?
 6. Vergleichen Sie mindestens 2 Arten miteinander!
 7. Nennen Sie mindestens 5 relevante Angaben für
-Beamer!
+   Beamer!
 8. Welche mathematischen Überlegungen müssen für die
-Beamerwahl getroffen werden?
+   Beamerwahl getroffen werden?
 9. Wählen sie einen beliebigen Beamer aus dem Internet und ermitteln Sie die Einsatzeigenschaften und Möglichkeiten!
 
 ## 78

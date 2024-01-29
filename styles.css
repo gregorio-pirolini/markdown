@@ -14,7 +14,7 @@ p {
 }
 /* Style for the main content area */
 article {
-  background-color: #fff;
+  background-color: #00ffff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ a:hover {
 
 /* Style for code blocks */
 pre {
-  background-color: #f8f8f8;
+  background-color: #000000;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;

@@ -1,13 +1,4 @@
-<style>
-h1 { color: Red }
-h2 { color: green }
-h3 { color: blue; background-color: white;}
-h4 { color: red;}
-h5 { color: yellow;}
-f{ color: red;
-font-weight: bold;
-text-decoration: underline;}
-</style>
+<link rel="stylesheet" type="text/css" href="../../styles.css">
 
 # Unterbrechungsfreie Spannungsversorgung
 
@@ -116,7 +107,7 @@ text-decoration: underline;}
 
 | Neue Definitionen                                                                                                                                                                                                       | Alte Definitionen                                                         |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Klasse 1 - VFI[^2]: (Voltage and Frequency Independent from mains supply)<br>USV- Ausgangsfrequenz unabhängig von Netz-, Spannungs- und Frequenzänderungen innerhalb der Grenzen nach IEC[^6] 61000-2-2 (Klasse 1)      | - On-line<br>- Double<br>- conversion<br>- Dauerwandler                   |
+| Klasse 1 - VFI[^2]: (Voltage and Frequency Independent from mains supply)<br>USV- Ausgangsfrequenz unabhängig von Netz-, Spannungs- und Frequenzänderungen innerhalb der Grenzen nach IEC[^6] 61000-2-2 (Klasse 1)      | - On-line<br>- Double-conversion<br>- Dauerwandler                        |
 | Klasse 2 - VI[^3]: (Voltage Independent from mains supply) USV- Ausgangsfrequenz abhängig von der Netzfrequenz, Spannung stabilisiert (elektronisch/passiv) innerhalb der Grenzwerte für Normalbetrieb (Klasse 2) SX/SY | - Single Conversion<br>- Line-Interactive<br>- Aktiver<br>-Mitlaufbetrieb |
 | Klasse 3 - VFD[^4]: (Voltage and Frequency Dependent from mains supply)<br>USV- Ausgangsfrequenz abhängig von Spannungs- und Frequenzänderungen des Netzes (Klasse 3) SX/SY                                             | -Off-line<br>-Stand-by<br>-Backup-Betrieb                                 |
 

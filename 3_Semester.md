@@ -1143,7 +1143,7 @@ _Beispielsweise kann eine Assoziation zwischen den Klassen "Kunde" und "Bestellu
 
 ##### Komposition:
 
-existenz abhangig, teil stirbt wenn das gan
+existenz abhangig, teil stirbt wenn das ganze stirbt
 
 - eine spezielle Art der Assoziation, die eine "Teil-Ganzes"-Beziehung zwischen Klassen darstellt.
 - wird oft verwendet, um zu zeigen, dass ein Objekt einer Klasse aus anderen Objekten einer anderen Klasse besteht und diese Objekte ohne das übergeordnete Objekt nicht existieren können.
@@ -1153,7 +1153,7 @@ _Ein häufiges Beispiel für eine Komposition ist die Beziehung zwischen einem A
 
 ##### agregation:
 
-st eine Beziehung zwischen Klassen, die eine "ganze-teilt"-Beziehung darstellt, ähnlich wie die Komposition. Bei der Aggregation handelt es sich jedoch um eine schwächere Form der Teil-Ganzes-Beziehung im Vergleich zur Komposition. Hier sind die wichtigsten Merkmale der Aggregation:
+ist eine Beziehung zwischen Klassen, die eine "ganze-teilt"-Beziehung darstellt, ähnlich wie die Komposition. Bei der Aggregation handelt es sich jedoch um eine schwächere Form der Teil-Ganzes-Beziehung im Vergleich zur Komposition. Hier sind die wichtigsten Merkmale der Aggregation:
 
 1.) Teil-Ganzes-Beziehung: Aggregation wird verwendet, um darzustellen, dass eine Klasse aus anderen Klassen besteht, wobei die Teile auch ohne die übergeordnete Klasse existieren können.
 
