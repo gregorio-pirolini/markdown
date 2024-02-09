@@ -645,8 +645,8 @@ _On entend par là la gestion planifiée de personnes ou de groupes de personnes
 
 Aufgabe der Personalentwicklung ist, durch geeignete Maßnahmen die Qualifikationen und Kompetenzen der Mitarbeiter zu fördern.
 Durch die Beurteilung wird die Entwicklung der Qualifikationen und Kompetenzen der Mitarbeiter überprüft.  
-_La tâche du développement du personnel est de promouvoir les qualifications et les compétences des employés par des mesures appropriées.
-L'évaluation permet de contrôler l'évolution des qualifications et des compétences des salariés._
+**La tâche du développement du personnel est de promouvoir les qualifications et les compétences des employés par des mesures appropriées.
+L'évaluation permet de contrôler l'évolution des qualifications et des compétences des salariés.**
 
 ###### Personalentlohnung
 
@@ -666,7 +666,7 @@ _Les conflits dans la vie professionnelle peuvent survenir au niveau personnel o
 ###### Personal-Controlling
 
 Das Personal-Controlling hat die Aufgabe, den Entscheidungs- und Steuerungsprozess von Führungskräften durch die Bereitstellung entsprechender Informationen aus der Personalwirtschaft zu unterstützen.  
-Le contrôle de gestion du personnel a pour mission de soutenir le processus de décision et de gestion des cadres en leur fournissant les informations correspondantes issues de la gestion du personnel.
+_Le contrôle de gestion du personnel a pour mission de soutenir le processus de décision et de gestion des cadres en leur fournissant les informations correspondantes issues de la gestion du personnel._
 
 #### verschiedenen Formen der Arbeitsteilung
 
@@ -834,7 +834,7 @@ Arbeitsgerichte sind die in erster Instanz tätigen Anlaufstellen für Streitigk
 
 #### das duale System der Berufsausbildung
 
-Das gesamte Ausbildungssystem (kaufmännische und gewerbliche Ausbildung) in der Bundesrepublik Deutschland basiert darauf, dass für das Erlernen eines Ausbildungsberufes zwei Lernorte zuständig sind:
+Das gesamte **Ausbildungssystem** (kaufmännische und gewerbliche Ausbildung) in der Bundesrepublik Deutschland basiert darauf, dass für das Erlernen eines **Ausbildungsberufes** zwei Lernorte zuständig sind:
 
  <table border="1">
       <tr>
@@ -871,10 +871,12 @@ Das gesamte Ausbildungssystem (kaufmännische und gewerbliche Ausbildung) in der
       </tr>
     </table>
 
-###### Berufsbildungsgesetzes
+##### Berufsbildungsgesetzes[^1]
 
 **Aufgabe**  
-Das Berufsbildungsgesetz ist die rechtliche Grundlage für alle anerkannten Ausbildungsberufe. Es enthält allgemeine Vorschriften, die für alle Ausbildungsberufe einheitlich gelten.
+Das **Berufsbildungsgesetz** ist die rechtliche Grundlage für alle anerkannten Ausbildungsberufe. Es enthält allgemeine Vorschriften, die für alle Ausbildungsberufe einheitlich gelten.
+
+[^1]: Das **Berufsbildungsgesetz** ist die rechtliche Grundlage für alle anerkannten Ausbildungsberufe. Es enthält allgemeine Vorschriften, die für alle Ausbildungsberufe einheitlich gelten.
 
 **Begriffe der beruflichen Bildung**
 
@@ -1453,7 +1455,6 @@ Here's an example of the lsusb command and its output:
 lsblk stands for "List Block." This command is used to list information about block devices, which include hard drives, solid-state drives, partitions, and other storage devices. It shows the device names, sizes, and other details about the block devices attached to your system.
 ![Alt text](img/img3/gffghdf.png)
 
-
 #### fern wifi cracker
 
 Fern-Wifi-Cracker. Fern-Wifi-Cracker is a graphical user interface (GUI) tool for wireless security assessment and penetration testing. It is primarily used to audit the security of Wi-Fi networks and discover vulnerabilities in them. This tool is often used by security professionals and ethical hackers to assess the strength of wireless network security and to strengthen it against potential threats.
@@ -1474,11 +1475,10 @@ It's important to note that using Fern-Wifi-Cracker or any similar tool for unau
 
 Using such tools without proper authorization is a violation of laws and regulations related to computer security and privacy. Always ensure that you have the necessary permissions before using such tools, and use them responsibly and ethically.
 
-
 #### wlan sicher machen
 
-- ssid verbergen   
-aber eventuel keine neue verbindung
+- ssid verbergen  
+  aber eventuel keine neue verbindung
 
 - zeitlich begrenzt zugriff auf wlan
 
@@ -1487,9 +1487,9 @@ aber eventuel keine neue verbindung
 - Mac filter nur begrenzet mac zulassen
 - ...
 
-**sudo ip link set wlan0 dow**n is used to disable or turn off a wireless network interface in a Linux system. 
+**sudo ip link set wlan0 dow**n is used to disable or turn off a wireless network interface in a Linux system.
 
-The command sudo ip link set wlan0 name wlan1mon is used to rename a network interface in Linux. In this specific case, it renames a wireless network interface named 
+The command sudo ip link set wlan0 name wlan1mon is used to rename a network interface in Linux. In this specific case, it renames a wireless network interface named
 
 ## 17 10 2023
 
@@ -1498,8 +1498,8 @@ The command sudo ip link set wlan0 name wlan1mon is used to rename a network int
 - unsplash
 - flaticon
 - frrepik.com
-  
-### wiso 
+
+### wiso
 
 ### Leasingrate
 
@@ -1514,7 +1514,5 @@ Langfristiges Leasing, bei dem eine unkündbare Grundmietzeit vereinbart wird. W
 Durch die unkündbare Grundmietzeit trägt der Leasingnehmer das Investitionsrisiko. Finance Leasing kommt bei Leasingobjekten zum Einsatz, die sich nicht problemlos anderweitig weitervermieten lassen (z. B. bei Spezialmaschinen).
 
 ### Leasingrate
-
-
 
 footnotes:

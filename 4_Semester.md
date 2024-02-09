@@ -2,9 +2,9 @@
 
 # 4 Semester
 
-## 29 01 2024
+## ## 29 01 2024
 
-#### IoT
+### ### IoT
 
 - esp32
 - DHT Digital Humidity and Temperature.
@@ -18,189 +18,115 @@ with the ESP32. The ESP32 is a popular low-cost, low-power system-on-a-chip (SoC
 ![Alt text](img/img4/DHT22_Pinout.JPG)
 ![Alt text](img/img4/ESP32_WROOM_Pinout.JPG)
 
-        // Bibliothek für WLAN und Zeit
-        #include "WiFi.h"
-        #include "time.h"
+        // Bibliothek für Temperatur- und Luftfeuchtigkeitssensor KY-015
 
-        // Bibliothek für MQTT
-        #include "PubSubClient.h"
+        #include "DHT.h"
 
-        IPAddress localIP(10, 10, 100, 204);
-        IPAddress gateway(10, 10, 100, 1);
-        IPAddress subnet(255, 255, 255, 0);
-        IPAddress primaryDNS(10, 10, 100, 1);
+        // Input PINs
+        #define DHTPIN 22
 
-        //WLAN-Parameter
-        const char* ssid = "ZentraleW";
-        const char* password = "";
-
-        //MQTT-Server and Topics
-        const char* mqtt_server = "10.10.100.239";
-        #define RANGE_TOPIC    "Gulli/Fuellstand"
-        #define TIME_TOPIC    "Gulli/Time"
-
-        /* create an instance of PubSubClient client */
-          WiFiClient espClient;
-          PubSubClient client(espClient);
-
-        // Variablen für das Abholen der NTP-Zeit
-
-        const char* ntpServer = "pool.ntp.org";
-        const long  gmtOffset_sec = 3600;
-        const int   daylightOffset_sec = 3600;
-
-        // Benoetigte Variablen Ultraschallsensor werden definiert
-
-        #define Trigger_AusgangsPin 23 // ESP32 pin GIOP23 connected to Ultrasonic Sensor's TRIG pin
-        #define Echo_EingangsPin 22 // ESP32 pin GIOP22 connected to Ultrasonic Sensor's ECHO pin
-
-        int maximumRange = 600;
-        int minimumRange = 2;
-        long Abstand;
-        long Dauer;
-
-        void connectToNetwork() {
-
-          Serial.begin(9600);
-
-          // Configures static IP address
-          if (!WiFi.config(localIP, gateway, subnet, primaryDNS)) {
-            Serial.println("STA Failed to configure");
-          }
-
-          WiFi.begin(ssid, password);
-
-          while (WiFi.status() != WL_CONNECTED) {
-            delay(2500);
-            Serial.println("Establishing connection to WiFi..");
-            Serial.print("SSID: ");
-            Serial.println(ssid);
-            Serial.print("Paßwort: ");
-            Serial.println(password);
-            delay(5000);
-          }
-
-          Serial.println("Connected to network");
-
-        }
-
-        void mqttconnect() {
-          /* Loop until reconnected */
-          while (!client.connected()) {
-            Serial.print("MQTT connecting ...");
-            /* client ID */
-            String clientId = "Gulli";
-            /* connect now */
-            if (client.connect(clientId.c_str())) {
-              Serial.println("connected");
-            } else {
-              Serial.print("failed, status code =");
-              Serial.print(client.state());
-              Serial.println("try again in 5 seconds");
-              /* Wait 5 seconds before retrying */
-              delay(5000);
-            }
-          }
-        }
+        // DHT22 will be initialized here
+        #define DHTTYPE DHT22 // DHT22
+        DHT dht(DHTPIN, DHTTYPE);
 
         void setup() {
 
-          // Configures static IP address
-          if (!WiFi.config(localIP, gateway, subnet)) {
-            Serial.println("STA Failed to configure");
-          }
-
-          connectToNetwork();
-          WiFi.setSleep(false);
-
-          Serial.println(WiFi.localIP());
-          Serial.println(WiFi.macAddress());
-
-          //  WiFi.disconnect(true);
-          //  Serial.println(WiFi.localIP());
-
-          /* configure the MQTT server with IPaddress and port */
-          client.setServer(mqtt_server, 1883);
-
-            //init and get the time
-          configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
-
-          pinMode(Trigger_AusgangsPin, OUTPUT);
-          pinMode(Echo_EingangsPin, INPUT);
-          Serial.begin (9600);
+        // DHT22 Mearsurement will be started
+        dht.begin();
 
         }
 
         void loop() {
 
-        /* if client was disconnected then try to reconnect again */
+        Serial.begin(115200);
 
-          if (WiFi.status() != WL_CONNECTED) {
-            connectToNetwork();
-          }
-          if (!client.connected()) {
-            mqttconnect();
-          }
+        Serial.println("---------Temperatur und Luftfeuchtigkeit (DHT22) ----------");
 
-          // holen der aktuellen Uhrzeit
-          struct tm timeinfo;
-          if(!getLocalTime(&timeinfo)){
-            Serial.println("Failed to obtain time");
-            return;
-          }
+        // Measurement of humidity
+        float h = dht.readHumidity();
+        // Measurement of temperature
+        float t1 = dht.readTemperature();
 
-          char timeStringBuff[50]; //50 chars should be enough
-          strftime(timeStringBuff, sizeof(timeStringBuff), "%d.%m.%y, %H:%M:%S", &timeinfo);
-
-        // Abstandsmessung wird mittels des 10us langen Triggersignals gestartet
-        digitalWrite(Trigger_AusgangsPin, HIGH);
-        delayMicroseconds(10);
-        digitalWrite(Trigger_AusgangsPin, LOW);
-
-        // Nun wird am Echo-Eingang gewartet, bis das Signal aktiviert wurde
-        // und danach die Zeit gemessen, wie lang es aktiviert bleibt
-
-        Dauer = pulseIn(Echo_EingangsPin, HIGH);
-
-        // Nun wird der Abstand mittels der aufgenommenen Zeit berechnet
-
-        Abstand = Dauer/58.2;
-
-        // Überprüfung ob gemessener Wert innerhalb der zulässingen Entfernung liegt
-        if (Abstand >= maximumRange || Abstand <= minimumRange)
-        {
-        // Falls nicht wird eine Fehlermeldung ausgegeben.
-        Serial.println("Abstand außerhalb des Messbereichs");
-        Serial.println("-----------------------------------");
+        // The measurements will be tested of errors here
+        // If an error is detected, an error message will be displayed
+        if (isnan(h) || isnan(t1)) {
+        Serial.println("Error while reading the sensor");
+        return;
         }
-        else
-        {
-        // Der berechnete Abstand wird in der seriellen Ausgabe ausgegeben
-        Serial.print("Der Abstand betraegt:");
-        Serial.print(Abstand);
-        Serial.println("cm");
-        Serial.print("Die Dauer betraegt:");
-        Serial.print(Dauer);
-        Serial.println("ms");
-        Serial.println("-----------------------------------");
-        //}
+        // Output at the serial console
+        Serial.print("Luftfeuchtigkeit: ");
+        Serial.print(h);
+        Serial.print(" %\t");
+        Serial.print("Temperatur: ");
+        Serial.print(t1);
+        Serial.print(char(186)); //Output <°> symbol
+        Serial.println("C ");
+        Serial.println("-----------------------------------------------------------");
+        Serial.println(" ");
 
-         client.publish(RANGE_TOPIC, String(Abstand).c_str(), true);
-    ****     delay(5000);
-         client.publish(TIME_TOPIC, String(Dauer).c_str(), true);
-        // Pause zwischen den einzelnen Messungen
-
-        delay(5000);
+        // 60 Sekunden Warten
+        delay(60000);
 
         }
 
-        }
+## ## 1 2 2024
 
-fully qualified board name error
-
-## 1 2 2024
-
-### pog
+### ### pog
 
 **gamma.app** benutzen
+
 [3cx](https://www.3cx.de/) lernen
+
+## 5 2 2024
+
+### iot
+
+ultraschale sensor
+
+![alt text](img/img4/ultraschale.jpg)
+
+braucht 5 volt
+triger und echo
+![alt text](img/img4/us.png)
+
+ssid FRTZ!Box Fon WLAN 7390  
+passeord 3734033917067700  
+mqtt server 192.168.13.137
+
+range topic m1016gmjs/Fuellstand
+time topic m1016gmjs/time
+
+pussubclient installieren von ide
+
+## ## 6 2 2024
+
+### ### Sequenzdiagram
+
+synchron erwartet eine Antwort
+asynchron erwartet keine Antwort
+
+## ## 8 2 2024
+
+### ### Pog
+
+#### #### mehr info zu Dokumentation
+
+kopie eins zu eins von Antrag ist gut  
+
+aus der Frau Lukas, unterlagen können wir löschen was wir nicht brauchen, zbp Risiko  
+
+die Seite von Herrn Pog geschickt:  
+https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/
+  
+hinzufuegen: lohnnebenkosten der arbeitsgeber  
+
+ablauf plan ganntdiagramm ist gut bewerten oder eion n netzplan  
+
+![alt text](img/img4/Image.png)
+
+sollist vergleicht fuellt eine ganze seite  
+
+Einweichung anpassung weglassen
+
+schrift 10 12
+line anstand 1 bis 1,5
