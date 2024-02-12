@@ -130,3 +130,57 @@ Einweichung anpassung weglassen
 
 schrift 10 12
 line anstand 1 bis 1,5
+
+## ## 12 2 2024
+
+### ### sle
+
+#### #### Asymetrische Kryptographie
+
+![alt text](img/img4/Tales_from_the_Crypt_Radio_Show.jpg)
+
+**TLS** : Transport Layer Security  
+**PKI** : public key infrastructure  
+**SSL**: Secure Sockets Layer  
+TLS (Transport Layer Security) ist der Nachfolger von SSL.
+
+&nbsp;
+
+- Symmetrisch  
+- Asymmetrisch  
+- Hybrid  
+
+##### ##### Problem
+
+unsicherer Kanal
+Symetrischer Schlüssel gefährdet
+
+##### ##### Lösung
+
+Asymmetrische Verschlüsselung
+Öffentlicher Schlüssel: versschlüsseln
+Privater Schlüssel: entschlüsseln
+
+##### ##### Nachteil
+
+Rechenaufwändig, langsamer als symmetrische Verschlüsselung  
+&nbsp;   
+**Diffie Hellman Merkle Schlüssel Austausch**  
+&nbsp;  
+![alt text](img/img4/Public_key_shared_secret.svg.png)
+Vereinbarung eines gemeinsamen geheimen Schlüssels über eine abhörbare Leitung mit dem **Diffie-Hellman-Merkle-Schlüsselaustausch**  
+&nbsp;  
+**Rivest Shamir Adelman**
+
+Asymmetrische Kryptogrsystem 
+
+![alt text](img/img4/Screenshot01002.png)
+&nbsp;  
+
+**Certificat**: aussstelklungdatum, aussteller, name, signature
+**öffentlische Schuessel**: ein sehr langezeichenkette
+**fingerabdruck**
+
+### ### iot
+
+**"Baud"** is a unit of measurement used to describe the speed of data transmission over a communication channel. It represents the number of signal or symbol changes that occur per second. Originally, baud rate referred to the number of signaling events (such as voltage or frequency changes) per second in a communication channel. However, with the advent of more complex modulation schemes, baud rate is not always equivalent to bits per second (bps).
