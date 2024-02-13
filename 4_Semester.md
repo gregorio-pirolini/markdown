@@ -184,3 +184,9 @@ Asymmetrische Kryptogrsystem
 ### ### iot
 
 **"Baud"** is a unit of measurement used to describe the speed of data transmission over a communication channel. It represents the number of signal or symbol changes that occur per second. Originally, baud rate referred to the number of signaling events (such as voltage or frequency changes) per second in a communication channel. However, with the advent of more complex modulation schemes, baud rate is not always equivalent to bits per second (bps).
+
+## ## 13 2 2024
+
+### ### Zustandsdiagramm
+
+Ein Object hat unterschiedliche Zustand
