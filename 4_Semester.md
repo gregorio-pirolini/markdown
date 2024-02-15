@@ -187,6 +187,16 @@ Asymmetrische Kryptogrsystem
 
 ## ## 13 2 2024
 
-### ### Zustandsdiagramm
+### ### Pog
+
+#### #### Zustandsdiagramm
 
 Ein Object hat unterschiedliche Zustand
+
+## ## 13 2 2024
+
+### ### Pog
+
+#### #### PAP ProgrammAblaufPlan
+
+![Alt text](img/remember/programmablaufplan.jpg)
