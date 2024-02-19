@@ -111,20 +111,20 @@ asynchron erwartet keine Antwort
 
 #### #### mehr info zu Dokumentation
 
-kopie eins zu eins von Antrag ist gut  
+kopie eins zu eins von Antrag ist gut
 
-aus der Frau Lukas, unterlagen können wir löschen was wir nicht brauchen, zbp Risiko  
+aus der Frau Lukas, unterlagen können wir löschen was wir nicht brauchen, zbp Risiko
 
 die Seite von Herrn Pog geschickt:  
 https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/
-  
-hinzufuegen: lohnnebenkosten der arbeitsgeber  
 
-ablauf plan ganntdiagramm ist gut bewerten oder eion n netzplan  
+hinzufuegen: lohnnebenkosten der arbeitsgeber
+
+ablauf plan ganntdiagramm ist gut bewerten oder eion n netzplan
 
 ![alt text](img/img4/Image.png)
 
-sollist vergleicht fuellt eine ganze seite  
+sollist vergleicht fuellt eine ganze seite
 
 Einweichung anpassung weglassen
 
@@ -146,9 +146,9 @@ TLS (Transport Layer Security) ist der Nachfolger von SSL.
 
 &nbsp;
 
-- Symmetrisch  
-- Asymmetrisch  
-- Hybrid  
+- Symmetrisch
+- Asymmetrisch
+- Hybrid
 
 ##### ##### Problem
 
@@ -164,7 +164,7 @@ Privater Schlüssel: entschlüsseln
 ##### ##### Nachteil
 
 Rechenaufwändig, langsamer als symmetrische Verschlüsselung  
-&nbsp;   
+&nbsp;  
 **Diffie Hellman Merkle Schlüssel Austausch**  
 &nbsp;  
 ![alt text](img/img4/Public_key_shared_secret.svg.png)
@@ -172,10 +172,10 @@ Vereinbarung eines gemeinsamen geheimen Schlüssels über eine abhörbare Leitun
 &nbsp;  
 **Rivest Shamir Adelman**
 
-Asymmetrische Kryptogrsystem 
+Asymmetrische Kryptogrsystem
 
 ![alt text](img/img4/Screenshot01002.png)
-&nbsp;  
+&nbsp;
 
 **Certificat**: aussstelklungdatum, aussteller, name, signature
 **öffentlische Schuessel**: ein sehr langezeichenkette
@@ -200,3 +200,14 @@ Ein Object hat unterschiedliche Zustand
 #### #### PAP ProgrammAblaufPlan
 
 ![Alt text](img/remember/programmablaufplan.jpg)
+
+iot
+
+PHP MY ADMIN
+http://192.168.13.173/
+ITMO2202
+ITMO2202!
+
+node red:
+
+http://192.168.13.173:1910/

@@ -16,9 +16,13 @@ const char* password = "3735033917067700";
 
 // MQTT server and topics
 const char* mqtt_server = "192.168.13.173";
-#define RANGE_TOPIC "温度/Fuellstand"
-#define TIME_TOPIC "温度/Time"
-
+#define RANGE_TOPIC "M1.06.2/GMJS/Fuellstand"
+#define TIME_TOPIC "M1.06.2/GMJS/Time"
+#define HUM_TOPIC "M1.06.2/GMJS/Humidity"
+#define TEMP_TOPIC "M1.06.2/GMJS/Temperature"
+//#define AUSPRACHE_TOPIC "温度/Ausprache"
+//#define AUSPRACHE_VALUE "おんど"
+//ausprache: おんど
 // Create an instance of PubSubClient
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -60,7 +64,7 @@ void connectToNetwork() {
 void mqttconnect() {
   while (!client.connected()) {
     Serial.print("MQTT connecting ...");
-    String clientId = "Gulli";
+    String clientId = "温度";
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
     } else {
@@ -122,10 +126,10 @@ void loop() {
     Serial.println("-----------------------------------");
     // Publish measured distance and duration to MQTT topics
     client.publish(RANGE_TOPIC, String(Abstand).c_str(), true);
-    delay(5000);
     client.publish(TIME_TOPIC, String(Dauer).c_str(), true);
     // Pause between measurements
-    delay(5000);
+// Publish the new topic and value
+//client.publish(AUSPRACHE_TOPIC, AUSPRACHE_VALUE, true);
   }
 
   // Start serial communication at baud rate 115200
@@ -145,13 +149,15 @@ void loop() {
   // Print humidity and temperature to the serial console
   Serial.print("Humidity: ");
   Serial.print(h);
+  client.publish(HUM_TOPIC, String(h).c_str(), true);
   Serial.print(" %\t");
   Serial.print("Temperature: ");
   Serial.print(t1);
+  client.publish(TEMP_TOPIC, String(t1).c_str(), true);
   Serial.print(char(186)); // Output the degree symbol
   Serial.println("C "); // Print "C" for Celsius
   Serial.println("-----------------------------------------------------------");
   Serial.println(" ");
   // Wait for 60 seconds before taking the next measurement
-  delay(60000);
+  delay(5000);
 }
