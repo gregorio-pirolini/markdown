@@ -201,7 +201,9 @@ Ein Object hat unterschiedliche Zustand
 
 ![Alt text](img/remember/programmablaufplan.jpg)
 
-iot
+## ## 19 2 2024
+
+### ### iot
 
 PHP MY ADMIN
 http://192.168.13.173/
@@ -211,3 +213,89 @@ ITMO2202!
 node red:
 
 http://192.168.13.173:1910/
+
+## ## 21 2 2024
+
+### ### sle
+
+#### #### TLS HANDSHAKE
+
+PMS: pre-master secret
+
+delfie hellman VS RSA
+
+##### ##### TLS sequenz diagramm
+
+participant Client
+participant Server
+
+        Client -> Server: ClientHello
+        Server -> Client: ServerHello, Certificate, ServerKeyExchange, ServerHelloDone
+        Client -> Server: ClientKeyExchange, ChangeCipherSpec, Finished
+        Server -> Client: ChangeCipherSpec, Finished
+
+**ClientHello**: The client sends a ClientHello message to the server, indicating its supported TLS versions, encryption algorithms, and other parameters.
+
+**ServerHello**, Certificate, ServerKeyExchange, ServerHelloDone: In response to the ClientHello, the server sends a ServerHello message, along with its certificate (if required), the ServerKeyExchange message (if needed), and a ServerHelloDone message to indicate it has finished the initial handshake.
+
+**ClientKeyExchange**, ChangeCipherSpec, Finished: The client processes the ServerHello and, if necessary, sends a ClientKeyExchange message to establish the pre-master secret. Then, it sends a ChangeCipherSpec message to indicate it will start encrypting messages with the negotiated parameters. Finally, it sends a Finished message to confirm that the handshake is complete.
+
+**ChangeCipherSpec**, Finished: Upon receiving the ChangeCipherSpec message from the client, the server switches to the agreed-upon encryption parameters. It then sends its own ChangeCipherSpec message and a Finished message to confirm the completion of the handshake from its end.
+
+##### ##### activity diagram illustrating the steps involved in a TLS handshake.
+
+Initiate TLS Handshake
+ClientHello: Client sends a hello message to the server, including supported cryptographic algorithms and options.
+ServerHello: Server responds with its own hello message, including selected cryptographic algorithms and options.
+Certificate Exchange: Server sends its certificate to the client for authentication.
+Key Exchange: Server sends key information to the client to establish encryption parameters.
+ClientKeyExchange: Client generates a premaster secret and encrypts it using the server's public key, sending it back to the server.
+ChangeCipherSpec: Both client and server inform each other that subsequent messages will be encrypted.
+Finished: Both client and server exchange messages to confirm that the handshake is complete and the connection is secure.
+
+![alt text](img/img4/tls.png)
+![alt text](img/img4/tls2.png)
+
+Activity diagram for certificate validation in Firefox
+
+![alt text](img/img4/Activity-diagram-for-certificate-validation-in-Firefox.png)
+
+**RSA** is used for **asymmetric encryption** and digital signatures, allowing for secure key exchange and authentication. In the context of TLS, RSA is commonly used for encrypting and decrypting session keys during the handshake process, as well as for authenticating the identities of the server and, optionally, the client.&nbsp;  
+&nbsp;  
+Diffie-Hellman, on the other hand, is a key exchange algorithm that allows two parties to securely establish a shared secret over an insecure channel. This shared secret can then be used to derive session keys for symmetric encryption, ensuring confidentiality of communication.&nbsp;  
+&nbsp;  
+In summary, while RSA is primarily used for encryption and authentication, Diffie-Hellman is used for secure key exchange without needing to transmit secret keys over the network.  
+&nbsp;  
+In asymmetric cryptography, different keys are used for encryption and decryption. In RSA, a public key is used for encryption and a corresponding private key is used for decryption. Similarly, in Diffie-Hellman, each party generates a public-private key pair, and the public keys are exchanged to establish a shared secret, which is used for encryption and decryption.  
+&nbsp;  
+The main advantage of asymmetric cryptography is that it enables secure communication without the need for prior exchange of secret keys.
+
+- private key
+- public key
+- certificate
+- signature
+
+**UEBUNG**
+
+- create key
+- create certificat
+- signature algorytm md5 or sha256
+
+![alt text](img/img4/Screenshot2024-02-21.png)
+![alt text](img/img4/Screenshot2024-0221092657.png)![alt text](img/img4/Screenshot2024-02-292824.png)
+
+PKCS stands for "Public Key Cryptography Standards." It is a set of standards defined by RSA Laboratories that facilitate secure communication and data exchange using public key cryptography. PKCS standards cover various aspects of public key cryptography, including encryption, digital signatures, certificate formats, and key management.&nbsp;  
+&nbsp;
+
+Some commonly used PKCS standards include:
+
+PKCS #1: Defines the RSA Cryptography Standard, which includes specifications for RSA encryption, digital signatures, and key exchange.&nbsp;  
+&nbsp;
+
+PKCS #7: Specifies the Cryptographic Message Syntax (CMS), which is a standard for creating digitally signed or encrypted messages.&nbsp;  
+&nbsp;
+
+PKCS #10: Defines the Certificate Signing Request (CSR) format, which is used to request digital certificates from Certificate Authorities (CAs).&nbsp;
+&nbsp;
+
+PKCS #12: Specifies a file format for storing and transporting cryptographic keys and certificates securely, often used for storing private keys, public keys, and certificates in a single encrypted file.

@@ -1,0 +1,23 @@
+|\   /|
+ \|_|/
+ /. .\
+=\_Y_/=
+ {>o<}
+ 
+<html>
+  <head>
+    <title>Standardseite</title>
+  </head>
+  <body style="font-family:Verdana; text-align:center;">
+    <h1>Nur Fuer Erwachsene!</h1>
+
+    <p>
+        /\ /\   <br>
+        \/ \/   <br>
+        /. .\   <br>
+       =\_Y_/=  <br>
+       {--x--}  <br>
+    </p>
+
+  </body>
+</html>
