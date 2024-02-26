@@ -116,7 +116,7 @@ kopie eins zu eins von Antrag ist gut
 aus der Frau Lukas, unterlagen können wir löschen was wir nicht brauchen, zbp Risiko
 
 die Seite von Herrn Pog geschickt:  
-https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/
+<https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/>
 
 hinzufuegen: lohnnebenkosten der arbeitsgeber
 
@@ -193,10 +193,6 @@ Asymmetrische Kryptogrsystem
 
 Ein Object hat unterschiedliche Zustand
 
-## ## 13 2 2024
-
-### ### Pog
-
 #### #### PAP ProgrammAblaufPlan
 
 ![Alt text](img/remember/programmablaufplan.jpg)
@@ -205,14 +201,15 @@ Ein Object hat unterschiedliche Zustand
 
 ### ### iot
 
-PHP MY ADMIN
-http://192.168.13.173/
-ITMO2202
+**PHP MY ADMIN**  
+&nbsp;&nbsp;  
+<http://192.168.13.173/>
+ITMO2202  
 ITMO2202!
 
-node red:
-
-http://192.168.13.173:1910/
+**node red**:  
+&nbsp;&nbsp;  
+<http://192.168.13.173:1910/>
 
 ## ## 21 2 2024
 
@@ -275,7 +272,7 @@ The main advantage of asymmetric cryptography is that it enables secure communic
 - certificate
 - signature
 
-**UEBUNG**
+##### ##### Uebung
 
 - create key
 - create certificat
@@ -299,3 +296,64 @@ PKCS #10: Defines the Certificate Signing Request (CSR) format, which is used to
 &nbsp;
 
 PKCS #12: Specifies a file format for storing and transporting cryptographic keys and certificates securely, often used for storing private keys, public keys, and certificates in a single encrypted file.
+
+## ## 26 2 2024
+
+### ### iot
+
+**NODE-RED:** is an open-source flow-based development tool for visual programming developed by IBM. Node-RED allows users to wire together devices, APIs, and online services in new and interesting ways. It provides a web-based graphical interface for creating flows by connecting various nodes, which represent different functions or services, such as reading sensor data, processing data, or sending notifications. Node-RED is commonly used in IoT (Internet of Things) applications for quickly prototyping and deploying workflows to interact with connected devices and services.
+![alt text](img/img4/OIP.jpg)
+
+### ### WISO
+
+**Tarifvertrag** ist eine schriftliche Vereinbarung zwischen Arbeitgeberverbänden und Gewerkschaften, die die Arbeitsbedingungen für Arbeitnehmerinnen und Arbeitnehmer festlegt, wie z.B. Löhne, Arbeitszeiten und Urlaubsansprüche.
+
+**Tarifvertragsparteien** sind in der Regel Arbeitgeberverbände, die die Interessen der Arbeitgeber vertreten, und Gewerkschaften, die die Interessen der Arbeitnehmerinnen und Arbeitnehmer vertreten. Diese beiden Parteien verhandeln und schließen den Tarifvertrag ab.
+
+**unterschied zwischen tarifvertrag und betriebsvereinbarung?** Ein Tarifvertrag wird zwischen Arbeitgeberverbänden und Gewerkschaften auf Branchensebene oder Unternehmensebene abgeschlossen, während eine Betriebsvereinbarung auf Unternehmensebene zwischen der Unternehmensleitung und dem Betriebsrat vereinbart wird.
+
+**Manteltarifvertrag** regelt allgemeine Arbeitsbedingungen wie Arbeitszeiten, Urlaubsansprüche, Kündigungsfristen, und ähnliches.
+
+**Entgelttarifvertrag** befasst sich speziell mit den Lohn- und Gehaltsfragen, einschließlich der Festlegung von Mindestlöhnen, Lohnerhöhungen, Zulagen, und anderen finanziellen Leistungen.
+
+**Werktarifvertrag** regelt die Arbeitszeit und die Arbeitsbedingungen für Arbeiterinnen und Arbeiter, die nach der Anzahl der gearbeiteten Stunden (Werktage) bezahlt werden, im Gegensatz zu Monatsgehältern oder anderen Gehaltsstrukturen.
+
+**Flächentarifvertrag** ist ein Tarifvertrag für eine Branche oder Region, der für alle Unternehmen innerhalb seines Geltungsbereichs gilt und die Arbeitsbedingungen für alle betroffenen Arbeitnehmerinnen und Arbeitnehmer festlegt.
+
+**Tarifautonomie** bedeutet, dass Arbeitgeberverbände und Gewerkschaften das Recht haben, Tarifverträge frei auszuhandeln, ohne direkte staatliche Einmischung.
+
+**Die Friedenspflich**t während eines Tarifvertrags bedeutet, dass Arbeitskampfmaßnahmen wie Streiks ausgesetzt sind.
+
+**Ein Arbeitsnehmerverband** ist eine Organisation, die die Interessen von Arbeitnehmern vertritt.
+
+**Aufgaben der gewerkschaften**:
+
+- Vertretung der Interessen der Arbeitnehmer gegenüber Arbeitgebern und Regierungen.
+- Verhandlung von Tarifverträgen zur Festlegung von Löhnen, Arbeitszeiten und Arbeitsbedingungen.
+- Unterstützung von Arbeitnehmern bei Konflikten mit Arbeitgebern, einschließlich Streiks und anderen Arbeitskampfmaßnahmen.
+- Förderung der Arbeitsplatzsicherheit und des Gesundheitsschutzes.
+- Bereitstellung von Bildungs- und Schulungsprogrammen für Mitglieder.
+- Lobbyarbeit für arbeitsrechtliche und soziale Verbesserungen auf nationaler und internationaler Ebene.
+
+**Koalitionsfreihei**t ist das Recht von Arbeitnehmern und Arbeitgebern, sich frei zu Gewerkschaften und Arbeitgeberverbänden zu zusammenschließen, ohne rechtliche oder staatliche Einschränkungen.
+
+**Streik** ist eine Arbeitsniederlegung von Arbeitnehmern, um bestimmte Forderungen gegenüber ihren Arbeitgebern durchzusetzen.
+
+**Flächenstreik**: Große Anzahl von Arbeitnehmern in einem bestimmten Bereich streikt.
+**Schwerpunktstreik**: Konzentration auf bestimmte Betriebe oder Branchen.
+**Flexi-Streik**: Flexible und kurzfristige Arbeitsniederlegungen.
+**Warnstreik**: Kurzfristige Streikmaßnahme zur Druckausübung.
+
+**Aussperrung** ist eine Maßnahme der Arbeitgeber, bei der sie die Arbeitnehmerinnen und Arbeitnehmer von der Arbeit ausschließen, um Druck auf die Gewerkschaften oder Arbeitnehmer auszuüben, um ihre Forderungen bei Tarifverhandlungen zu unterstützen oder um einen Streik zu verhindern.
+
+**kalte Aussperrung** bezieht sich auf die Praxis der Arbeitgeber, Arbeitnehmerinnen und Arbeitnehmer vorübergehend von der Arbeit auszuschließen, ohne dabei den Druck eines tatsächlichen Streiks zu spüren. Dies geschieht oft als Präventivmaßnahme während Tarifverhandlungen, um die Arbeitnehmerinnen und Arbeitnehmer unter Druck zu setzen, ohne dass ein formeller Streik ausgerufen wurde.
+
+**Schlichtungsverfahren** ist ein Verfahren zur Beilegung von Streitigkeiten zwischen Arbeitgebern und Gewerkschaften oder Arbeitnehmern, das von einer neutralen dritten Partei, dem Schlichter, durchgeführt wird. Das Ziel ist es, eine Einigung zu erzielen, ohne dass es zu einem Arbeitskampf wie einem Streik oder einer Aussperrung kommt.
+
+Streik kann verschiedene Auswirkungen auf die Arbeitsverhältnisse haben:
+
+- **Arbeitsunterbrechung**: Während eines Streiks wird die Arbeit in den betroffenen Bereichen oder Unternehmen in der Regel unterbrochen, was zu Produktionsausfällen oder Dienstleistungsunterbrechungen führen kann.
+- **Druck auf Arbeitgeber**: Ein Streik setzt Arbeitgeber unter Druck, da sie mit Produktionsverlusten oder wirtschaftlichen Schäden konfrontiert sind, wenn die Arbeitsniederlegung länger dauert.
+- **Verhandlungen**: Streiks können Verhandlungen zwischen Arbeitgebern und Gewerkschaften anregen oder beschleunigen, da sie die Dringlichkeit einer Einigung verdeutlichen.
+- **Arbeitsklima**: Streiks können das Arbeitsklima belasten und zu Spannungen zwischen Arbeitgebern und Arbeitnehmern führen.
+- **Rechtliche Konsequenzen**: In einigen Fällen können Streiks zu rechtlichen Konsequenzen führen, wie z.B. Sanktionen oder Schadensersatzforderungen gegenüber den Streikenden oder ihren Gewerkschaften.
