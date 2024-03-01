@@ -357,3 +357,11 @@ Streik kann verschiedene Auswirkungen auf die Arbeitsverhältnisse haben:
 - **Verhandlungen**: Streiks können Verhandlungen zwischen Arbeitgebern und Gewerkschaften anregen oder beschleunigen, da sie die Dringlichkeit einer Einigung verdeutlichen.
 - **Arbeitsklima**: Streiks können das Arbeitsklima belasten und zu Spannungen zwischen Arbeitgebern und Arbeitnehmern führen.
 - **Rechtliche Konsequenzen**: In einigen Fällen können Streiks zu rechtlichen Konsequenzen führen, wie z.B. Sanktionen oder Schadensersatzforderungen gegenüber den Streikenden oder ihren Gewerkschaften.
+  
+## ## 28 2 2024
+
+### ### sle
+
+![alt text](img/img4/bild2.png)
+![alt text](img/img4/bild3.png)
+![alt text](img/img4/Screenshot2024-02-28085123.png)![alt text](img/img4/export.png)![alt text](img/img4/import.png)
