@@ -469,9 +469,90 @@ In Bezug auf deine ursprüngliche Frage könnten diese Tools in folgender Weise 
 &nbsp;  
 JUnit kann zur Durchführung von Unit-Tests verwendet werden, um sicherzustellen, dass einzelne Komponenten deiner Anwendung ordnungsgemäß funktionieren.
 Veracode, insbesondere die statische Code-Analysefunktion, kann zur Identifizierung von Sicherheitslücken und potenziellen Schwachstellen im Quellcode deiner Anwendung eingesetzt werden.
-Beide Tools sind wichtige Bestandteile im Bereich der Softwareentwicklung und des Testens, wobei JUnit sich auf den Bereich der Testautomatisierung und Veracode auf die Anwendungssicherheit konzentriert.
+Beide Tools sind wichtige Bestandteile im Bereich der Softwareentwicklung und des Testens, wobei JUnit sich auf den Bereich der Testautomatisierung und Veracode auf die Anwendungssicherheit konzentriert.  
+&nbsp;  
+&nbsp;  
 
+## wiso
 
+**1.Fusion**: Eine Fusion tritt auf, wenn zwei oder mehr Unternehmen sich zusammenschließen, um ein neues Unternehmen zu bilden. In diesem Fall hat die Gehlert AG die Mehrheit an der TAXA AG übernommen, was bedeutet, dass beide Unternehmen ihre Aktivitäten kombinieren und unter einem Dach weiterarbeiten.
+-> Marktanteile ausweiten
 
+![alt text](img/img4/fusion.jpg)
+&nbsp;&nbsp;  
+**2.Kartell**: Ein Kartell besteht, wenn mehrere Unternehmen gemeinsam einheitliche Geschäftsbedingungen festlegen, um ihre Marktstellung zu stärken oder Preise zu beeinflussen. Hier hat die Ecotec GmbH mit Wettbewerbern vereinbart, einheitliche Verkaufskonditionen zu nutzen, was auf eine mögliche kartellähnliche Absprache hindeutet.
+![alt text](img/img4/kartel.jpg)
+&nbsp;&nbsp;  
+**3.Konzern**: Ein Konzern entsteht, wenn ein Unternehmen eine beherrschende Stellung über andere Unternehmen einnimmt, entweder durch Eigentum oder Kontrolle. In diesem Fall schließen sich die Weiß KG und die Schwarz GmbH zu einer neuen Einheit, der Schwarz GmbH & Co. KG, zusammen, was auf die Bildung eines Konzerns hinweist, in dem eine der Unternehmen eine beherrschende Rolle spielen könnte.
+&nbsp;&nbsp;  
+**4.Arbeitsgemeinschaft**: Eine Arbeitsgemeinschaft besteht aus mehreren Partnern, die sich vorübergehend zusammenschließen, um ein bestimmtes Projekt oder eine Aufgabe gemeinsam zu bearbeiten. Hier arbeiten mehrere Kunden der Ecotec GmbH gemeinsam an einem Großauftrag, was auf eine temporäre Zusammenarbeit hinweist, die typisch für eine Arbeitsgemeinschaft ist.
 
+## Umsatzrentabilität
 
+        Umsatzrentabilität = Umsatz / Gewinn×100%     
+        Rentabilité du chiffre d'affaires=chiffre d'affaires /bénéfice×100
+
+## Eigenkapitalrentabilität 
+
+        Eigenkapitalrentabilität= Gewinn/ Eigenkapital×100%  
+        Rentabilité des capitaux propres = bénéfice/ capitaux propres×100
+
+## wirtschaftlichsten Geschäftsbereich 
+
+        wirtschaftlichsten Geschäftsbereich= Ertrag Erlös /Aufwand Kosten
+        domaine d'activité le plus rentable= produits produits / charges coûts
+
+Prozentualer Anstieg
+
+    Prozentualer Anstieg=(Neue Arbeitsproduktivität - alte)/Alte Arbeitsproduktivität×100%
+
+## netzplan
+
+![alt text](img/img4/netz.jpg)
+
+### Gesamt Puffer:
+
+gibt die maximale Zeitdauer an, um eine Aktivität zu verzögern, ohne dass sich der Endtermin des Projekts verzögert. Mit anderen Worten, es ist die Zeit, um eine Aktivität zu verschieben, ohne den kritischen Pfad zu beeinflussen
+Période pendant laquelle une tâche peut être retardée par rapport à son CA sans que la fin du projet ne doive être reportée.
+
+### Freier Puffer:
+
+ist die Zeit, um eine Aktivität zu verzögern, ohne die Startzeit der nächsten Aktivität auf dem kritischen Pfad zu beeinträchtigen. Mit anderen Worten, es ist die Zeit, um eine Aktivität zu verschieben, ohne den Beginn der nächsten kritischen Aktivität zu verzögern.
+Délai pendant lequel une opération peut être décalée par rapport à son DAA sans que le DAA d'un/des successeur(s) doive être décalé.
+
+##  Ports:
+
+### SMTP (Simple Mail Transfer Protocol):
+
+Standard (unencrypted): Port 25
+Secure (encrypted with TLS/SSL): Port 465 or Port 587
+
+### POP3 (Post Office Protocol version 3):
+
+Standard (unencrypted): Port 110
+Secure (encrypted with TLS/SSL): Port 995
+
+### IMAP4 (Internet Message Access Protocol version 4):
+
+Standard (unencrypted): Port 143
+Secure (encrypted with TLS/SSL): Port 993
+
+In summary, **SMTP** is for sending emails, **POP3** is for downloading emails to a single device (usually with the option to delete them from the server), and **IMAP4** is for accessing emails across multiple devices while keeping them synchronized with the server.
+
+&nbsp;&nbsp; 
+
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Gemeinkostenzuschlag = (Gesamtkosten der Gemeinkosten / Gesamtkosten der Hauptkosten) * 100%
+GKZS = 100 * Gemeinkosten / Fertigungslöhne
+Gemeinkosten = Fertigungslöhne * GKZS
+Selbstkosten = Einzelkosten + Gemeinkosten
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+## VPN
+
+- Site-to-Site-VPN 
+- End-to-Site-VPN 
+- End-to-End-VPN 
+- Mobile VPN
+
+## hotspare VS hotplug

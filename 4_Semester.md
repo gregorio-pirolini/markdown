@@ -203,7 +203,7 @@ Ein Object hat unterschiedliche Zustand
 
 **PHP MY ADMIN**  
 &nbsp;&nbsp;  
-<http://192.168.13.173/>
+<http://192.168.13.173:8080/index.php>
 ITMO2202  
 ITMO2202!
 
@@ -357,7 +357,7 @@ Streik kann verschiedene Auswirkungen auf die Arbeitsverhältnisse haben:
 - **Verhandlungen**: Streiks können Verhandlungen zwischen Arbeitgebern und Gewerkschaften anregen oder beschleunigen, da sie die Dringlichkeit einer Einigung verdeutlichen.
 - **Arbeitsklima**: Streiks können das Arbeitsklima belasten und zu Spannungen zwischen Arbeitgebern und Arbeitnehmern führen.
 - **Rechtliche Konsequenzen**: In einigen Fällen können Streiks zu rechtlichen Konsequenzen führen, wie z.B. Sanktionen oder Schadensersatzforderungen gegenüber den Streikenden oder ihren Gewerkschaften.
-  
+
 ## ## 28 2 2024
 
 ### ### sle
@@ -365,3 +365,27 @@ Streik kann verschiedene Auswirkungen auf die Arbeitsverhältnisse haben:
 ![alt text](img/img4/bild2.png)
 ![alt text](img/img4/bild3.png)
 ![alt text](img/img4/Screenshot2024-02-28085123.png)![alt text](img/img4/export.png)![alt text](img/img4/import.png)
+
+## ## 07 3 2024
+
+### ### pog
+
+http://lernhilfe24.net/sv
+
+bubble sort  
+![alt text](img/img4/bubble_sort.png)&nbsp;     
+InsertionSort  
+![alt text](img/img4/insertionsort.png)&nbsp;     
+QuickSort  
+![alt text](img/img4/QuickSort.webp)&nbsp;   
+HeapSort 
+![alt text](img/img4/heapsort.webp)&nbsp; 
+
+&nbsp;  
+**Bubble Sort**: This is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It is not very efficient, especially for large lists, but it's easy to understand and implement.
+
+**Insertion Sort**: This is another simple sorting algorithm that builds the final sorted list one item at a time. It takes each element from the list and inserts it into its correct position in the already sorted part of the list. It's efficient for small data sets but becomes inefficient for large data sets.
+
+**QuickSort**: This is a highly efficient sorting algorithm based on the divide-and-conquer approach. It picks an element as a pivot and partitions the given array around the pivot. It then recursively sorts the sub-arrays. QuickSort is widely used and typically faster than other sorting algorithms for large datasets.
+
+**HeapSort**: This is a comparison-based sorting algorithm that uses a binary heap data structure. It divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the maximum element from it and moving that to the sorted region. HeapSort is not as quick as QuickSort for most inputs, but it has an advantage of a more consistent running time, even in the worst-case scenarios.
