@@ -389,3 +389,13 @@ HeapSort
 **QuickSort**: This is a highly efficient sorting algorithm based on the divide-and-conquer approach. It picks an element as a pivot and partitions the given array around the pivot. It then recursively sorts the sub-arrays. QuickSort is widely used and typically faster than other sorting algorithms for large datasets.
 
 **HeapSort**: This is a comparison-based sorting algorithm that uses a binary heap data structure. It divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the maximum element from it and moving that to the sorted region. HeapSort is not as quick as QuickSort for most inputs, but it has an advantage of a more consistent running time, even in the worst-case scenarios.
+
+## ## 13 3 2024
+
+### ### IOT
+
+#### #### GRAFANA
+
+Admin  
+ITMO2202!  
+http://localhost:3000/  
