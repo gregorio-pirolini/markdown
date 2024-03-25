@@ -1,0 +1,35 @@
+[
+    {
+        "a": "https://shop.buzil.de/spezial/air-provence-g-565t",
+        "h1": "Air Provence G 565T",
+        "image_urls": [
+            "https://shop.buzil.de/media/image/0a/1a/ca/2QOLn7huZ4R9dO1_1280x1280.jpg",
+            "https://shop.buzil.de/media/image/c8/8b/07/2QOLn7huZ4R9dO1_200x200.jpg",
+            "https://shop.buzil.de/media/image/7e/d6/56/2QOLn7huZ4R9dO1.jpg",
+            "https://shop.buzil.de/media/image/5d/0e/77/2QOLn7huZ4R9dO1_600x600.jpg",
+            "https://shop.buzil.de/media/image/3b/f1/21/2QOLn7huZ4R9dO1_600x600@2x.jpg"
+        ],
+        "image_local": [
+            "air-provence-g-565t/img/2QOLn7huZ4R9dO1_1280x1280.jpg",
+            "air-provence-g-565t/img/2QOLn7huZ4R9dO1_200x200.jpg",
+            "air-provence-g-565t/img/2QOLn7huZ4R9dO1.jpg",
+            "air-provence-g-565t/img/2QOLn7huZ4R9dO1_600x600.jpg",
+            "air-provence-g-565t/img/2QOLn7huZ4R9dO1_600x600@2x.jpg"
+        ],
+        "product_detail_description_section": [
+            {
+                "header": "Gebrauchsfertiger Raumspray mit Aktiv-Geruchsblocker",
+                "content": "In Wohn- und Geschäftsräumen, öffentlichen Einrichtungen wie Krankenhäusern, Altenheimen sowie in der Gastronomie, Sanitär- und WC-Anlagen, Aufenthalts- und Umkleideräumen, Sport- und Wellnessbereichen etc.; für die schnelle und langanhaltende Geruchsvernichtung und Luftverbesserung"
+            },
+            {
+                "header": "Produktvorteile",
+                "content": [
+                    "Aromatischer Duft, der an frisch geernteten Lavendel erinnert sorgt für eine angenehme Raumatmosphäre",
+                    "Neutralisiert schnell unangenehme Gerüche mit Aktiv-Geruchsblocker",
+                    "Hinterlässt keine Flecken",
+                    "Umweltfreundlicher Zerstäuber ohne Treibgas"
+                ]
+            }
+        ],
+
+]
