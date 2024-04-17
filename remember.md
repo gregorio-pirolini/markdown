@@ -116,6 +116,20 @@ Eine **browsergestützte Anwendung** ist eine Softwareanwendung, die über einen
 tracert:  
 Ping and traceroute are common commands you can use to troubleshoot network problems. Ping is a simple command that can test the reachability of a device on the network. Traceroute is a command you use to 'trace' the route that a packet takes when traveling to its destination
 
+
+| CIDR | Bits | Netz | IP | 2^Bits | Subnets | Hosts/Subnet | Networks | Mask       |
+|------|------|------|----|--------|---------|--------------|----------|------------|
+| /0   | 0    | 32   | 0  | 2^0    | 1       | 4,294,967,296| 1        | 0.0.0.0    |
+| /1   | 1    | 31   | 1  | 2^1    | 2       | 2,147,483,648| 2        | 128.0.0.0  |
+| /2   | 2    | 30   | 2  | 2^2    | 4       | 1,073,741,824| 4        | 192.0.0.0  |
+| /3   | 3    | 29   | 3  | 2^3    | 8       | 536,870,912  | 8        | 224.0.0.0  |
+| /4   | 4    | 28   | 4  | 2^4    | 16      | 268,435,456  | 16       | 240.0.0.0  |
+| /5   | 5    | 27   | 5  | 2^5    | 32      | 134,217,728  | 32       | 248.0.0.0  |
+| /6   | 6    | 26   | 6  | 2^6    | 64      | 67,108,864   | 64       | 252.0.0.0  |
+| /7   | 7    | 25   | 7  | 2^7    | 128     | 33,554,432   | 128      | 254.0.0.0  |
+| ...  | ...  | ...  | ...| ...    | ...     | ...          | ...      | ...        |
+
+
 ### What are the 4 protocols of IoT?
 
 The term IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.
@@ -487,24 +501,64 @@ Beide Tools sind wichtige Bestandteile im Bereich der Softwareentwicklung und de
 &nbsp;&nbsp;  
 **4.Arbeitsgemeinschaft**: Eine Arbeitsgemeinschaft besteht aus mehreren Partnern, die sich vorübergehend zusammenschließen, um ein bestimmtes Projekt oder eine Aufgabe gemeinsam zu bearbeiten. Hier arbeiten mehrere Kunden der Ecotec GmbH gemeinsam an einem Großauftrag, was auf eine temporäre Zusammenarbeit hinweist, die typisch für eine Arbeitsgemeinschaft ist.
 
-## Umsatzrentabilität
+### Umsatzrentabilität
 
-        Umsatzrentabilität = Umsatz / Gewinn×100%     
-        Rentabilité du chiffre d'affaires=chiffre d'affaires /bénéfice×100
+        Umsatzrentabilität =  Gewinn × 100     / umsatz
+        Rentabilité du chiffre d'affaires = chiffre d'affaires /bénéfice×100  
+        umsatz --> 100
+        gwinn --> x
 
-## Eigenkapitalrentabilität 
+### Eigenkapitalrentabilität 
 
-        Eigenkapitalrentabilität= Gewinn/ Eigenkapital×100%  
+        Eigenkapitalrentabilität= Gewinn × 100 / Eigenkapital
         Rentabilité des capitaux propres = bénéfice/ capitaux propres×100
 
-## wirtschaftlichsten Geschäftsbereich 
+             Eigenkapital -> 100
+             gewinn -> x
+
+### wirtschaftlichsten Geschäftsbereich 
 
         wirtschaftlichsten Geschäftsbereich= Ertrag Erlös /Aufwand Kosten
         domaine d'activité le plus rentable= produits produits / charges coûts
 
-Prozentualer Anstieg
+### Prozentualer Anstieg
 
     Prozentualer Anstieg=(Neue Arbeitsproduktivität - alte)/Alte Arbeitsproduktivität×100%
+
+
+### befristeten Arbeitsvertrag
+
+Die Data IT GmbH schließt mit der Bewerberin Diana Maier einen befristeten Arbeitsvertrag auf der Grundlage des aktuellen Tarifvertrages. Die Data IT GmbH ist an einen Tarifvertrag gebunden.
+Welche der folgenden Vereinbarungen ist in einem befristeten Arbeitsvertrag zulässig?  
+
+Diana Maier erhält als außertarifliche Leistung einen Zuschuss zum Jobticket für den ÖPNV.
+
+ÖPNV: Öffentlicher Personennahverkeh
+
+### Entgeltfortzahlung im Krankheitsfall 
+
+Der Mitarbeiter der Data IT GmbH Paul Schmitz hat sich bei Arbeiten im heimischen Garten verletzt und ist laut Arbeitsunfähigkeitsbescheinigung
+seiner Hausärztin für zwei Wochen arbeitsunfähig.
+
+Paul Schmitz hat während der Arbeitsunfähigkeit einen Anspruch auf Entgeltfortzahlung gegen die Data IT GmbH.
+
+### Lohn- und Gehaltstarifvertrag
+
+Zuschlagssätze für Mehrarbeit
+
+
+### Prokura
+
+ppa unterschreiben
+
+### Einkommenssteuer
+
+Die Einkommenssteuer wird zwischen Bund, Ländern und Gemeinden aufgeteilt.
+
+### Bundeselterngeld- und Elternzeitgesetz BEEG
+
+Elterngeld kann für maximal 14 Monate beantragt werden.
+
 
 ## netzplan
 
@@ -556,3 +610,35 @@ Selbstkosten = Einzelkosten + Gemeinkosten
 - Mobile VPN
 
 ## hotspare VS hotplug
+
+### Hot Spare:
+- A hot spare is a standby component, such as a hard drive or a power supply unit, that remains inactive until it is needed to replace a failed or failing component.
+- In the case of storage systems, a hot spare drive is installed in a RAID (Redundant Array of Independent Disks) array but remains unused until another drive in the array fails. When a failure occurs, the RAID controller automatically initiates the rebuilding process using the hot spare to replace the failed drive.
+- Hot spares provide redundancy and help minimize downtime by reducing the time required to replace failed components.
+
+### Hot Plug:
+- Hot plug refers to the ability to add or remove hardware components from a system while it is still running (hot), without the need to shut down the system.
+- Common examples of hot-pluggable devices include hard drives, power supplies, network cards, and USB devices.
+- Hot plug capability allows for easier maintenance and upgrades of hardware components, as it eliminates the need to power down the entire system when adding or replacing components.
+- Hot plug is often used in conjunction with RAID arrays to facilitate the replacement of failed drives without interrupting system operations.
+
+## secure boot tpm
+
+### secure boot
+
+- Verhindert den Start nicht gewünschter Betriebssysteme  
+- Verhindert die Ausführung ungewol lter Modifikationen am Kernel
+
+### tpm
+
+- Chip, der Passwörter bzw. Zertifikate speichern kann
+- Smartcard-Funktion
+- Modul, das nachträglich eingebaut werden kann
+
+In summary, while Secure Boot focuses on ensuring the integrity of the boot process by verifying the digital signatures of boot software, TPM provides additional security features such as secure key storage, measured boot, and remote attestation to enhance the overall security of the system. Combining Secure Boot with TPM can provide a more robust security solution for protecting computer systems against various threats.
+
+## IaaS vs PaaS
+
+### spi
+
+IaaS vs PaaS A good way to think about IaaS is as the foundation for creating a cloud-based service, such as software or an e-commerce website. IaaS is where the infrastructure is built. In contrast, PaaS is a platform that allows developers to build apps without having to host them.
