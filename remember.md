@@ -669,9 +669,6 @@ In summary, while Secure Boot focuses on ensuring the integrity of the boot proc
 
 ### spi
 
-<<<<<<< HEAD
-IaaS vs PaaS A good way to think about IaaS is as the foundation for creating a cloud-based service, such as software or an e-commerce website. IaaS is where the infrastructure is built. In contrast, PaaS is a platform that allows developers to build apps without having to host them.
-=======
 IaaS vs PaaS A good way to think about IaaS is as the foundation for creating a cloud-based service, such as software or an e-commerce website. IaaS is where the infrastructure is built. In contrast, PaaS is a platform that allows developers to build apps without having to host them.
 
 ## uml
@@ -680,9 +677,29 @@ IaaS vs PaaS A good way to think about IaaS is as the foundation for creating a 
 
 Die Polymorphie (griech. Vielgestaltigkeit) bezeichnet in der objektorientierten Programmierung den Prozess, dass Methoden mit identischer Signatur unterschiedliche Resultate liefern. Dieses Phänomen tritt insbesondere im Kontext der Vererbung auf. Es wird zwischen statischer Polymorphie (überladene Methoden) und dynamischer Polymorphie (überschriebene Methoden) unterschieden.
 
-### abstract klasse
+#### Methode überladung (statisch)
+
+**gleicher fuction Name:**
+- ohne param 
+- mit param anzahl untershied
+- mit unterschidlichen datatyp
+- oder datentyp reinfolge
+
+#### Methode überschreiben (dynamisch)
+
+Es muss schon das sein um umberschrieben zu werden
+
+#### Signatur
+
+ist der name des klasses mit seinen Paramettersn
+
+### abstract Klasse
 
 Abstrakte Klassen sind Klassen, die als Oberklassen dienen und selbst nicht zur Bildung von Objekten herangezogen werden können. Sie werden oft verwendet, um Eigenschaften und Fähigkeiten einer allgemeinen Typgruppe zu definieren, deren abgeleitete Unterklassen diese dann weiter spezifizieren.
+
+### Verkapseln
+
+Datenkapselung (engl. ecapsulation) bezeichnet in der Informatik das bewusste Verbergen von Daten vor dem Zugriff von außen. Der direkte Zugriff auf die interne Datenstruktur wird dabei unterbunden und der Zugriff von außen durch eine Schnittstelle implementiert.
 
 ## osi
 
@@ -701,4 +718,5 @@ Abstrakte Klassen sind Klassen, die als Oberklassen dienen und selbst nicht zur 
 | Layer 2   | Data Link Layer   | Ethernet, MAC Address |
 |           |                   | Switches, Bridges  |
 | Layer 1   | Physical Layer    | N/A               |
->>>>>>> 569eeabce7cf43b16233c9cd56ddc640ba47bd6e
+
+
